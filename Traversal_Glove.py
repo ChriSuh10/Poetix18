@@ -1,3 +1,11 @@
+from nltk.corpus import wordnet as wn
+from nltk.stem import WordNetLemmatizer, PorterStemmer
+from nltk import word_tokenize, pos_tag
+from gensim.models import KeyedVectors
+from gensim.parsing.preprocessing import remove_stopwords
+import numpy as np
+import re
+
 class Meta_Poetry_Glove:
     glove_model = KeyedVectors.load_word2vec_format('~/Downloads/glove.6B/glove.6B.300d.w2v.txt', binary=False)
     glove_dim = len(glove_model['man'])
