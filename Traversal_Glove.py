@@ -140,7 +140,14 @@ class Meta_Poetry_Glove:
         word_e = self.traverse_wn_glove(word_d[0])
 
         self.already_seen.clear()
-        return word_a, word_b, word_c, word_d, word_e
+
+        return_list = []
+        for word, definition in [word_a, word_b, word_c, word_d, word_e]:
+            clean_def = set(definition.split())
+            clean_def.remove(word)
+            return_list.append((word, clean_def))
+
+        return return_list
 
     def five_word_algorithm_glove(self, seed_word):
         """
@@ -160,7 +167,14 @@ class Meta_Poetry_Glove:
         word_e = self.traverse_wn_glove(word_d[0])
 
         self.already_seen.clear()
-        return word_a, word_b, word_c, word_d, word_e
+
+        return_list = []
+        for word, definition in [word_a, word_b, word_c, word_d, word_e]:
+            clean_def = set(definition.split())
+            clean_def.remove(word)
+            return_list.append((word, clean_def))
+
+        return return_list
 
     def print_five_words_glove(self, seed_word):
         words = self.five_word_algorithm_glove(seed_word)
