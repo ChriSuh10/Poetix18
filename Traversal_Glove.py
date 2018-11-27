@@ -144,7 +144,7 @@ class Meta_Poetry_Glove:
         return_list = []
         for word, definition in [word_a, word_b, word_c, word_d, word_e]:
             clean_def = set(definition.split())
-            clean_def.remove(word)
+            clean_def.discard(word)
             return_list.append((word, clean_def))
 
         return return_list
@@ -171,7 +171,7 @@ class Meta_Poetry_Glove:
         return_list = []
         for word, definition in [word_a, word_b, word_c, word_d, word_e]:
             clean_def = set(definition.split())
-            clean_def.remove(word)
+            clean_def.discard(word)
             return_list.append((word, clean_def))
 
         return return_list
