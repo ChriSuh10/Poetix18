@@ -166,8 +166,30 @@ class Model():
             [probs, state] = sess.run([self.probs, self.final_state],
                                         feed)
             prob += np.log(probs.squeeze()[ydata[i]])
-        return prob
+        return prob, state
+    def score_a_list_new(self, sess, vocab, seq, temp = 1):
+        '''given a sequence, this computes the probability of the sequence conditions on the 0th word'''
 
+        n_words = len(seq)
+
+        tensor = np.array(list(map(vocab.get, seq)))
+    
+        xdata = tensor
+        ydata = xdata[1:]
+        xdata = xdata[:-1]
+
+        prob = 0
+        state = sess.run(self.initial_state)
+
+        input = np.zeros((1,1))
+        
+        for i in range(n_words-1):
+            input[0,0] = xdata[n_words-2-i]
+            feed = {self.input_data: input, self.initial_state: state, self.temp : temp}
+            [probs, state] = sess.run([self.probs, self.final_state],
+                                        feed)
+            prob += np.log(probs.squeeze()[ydata[n_words-2-i]])
+        return prob, state
         
     def compute_fx(self, sess, vocab, p, x, state, temp):
         '''produce the (new) probability distribution given a session, vocab, previous prob. distribution, sequence, temperature, and state'''
