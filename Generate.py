@@ -79,9 +79,6 @@ class Generate:
     def get_wordPools(self):
         return self.wordPools
 
-    def get_postag_dict(self):
-        return self.postag_dict
-
     def get_pos_set(self):
         return self.PartOfSpeachSet
 
