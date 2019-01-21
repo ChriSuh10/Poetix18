@@ -12,7 +12,7 @@ from model_forw import Model as Model_forw
 from functions import *
 
 class Generate:
-    def __init__(self):
+    def __init__(self, wv_file):
         #LOAD DIRECTORY OF MODELS
         text_list = [("data/frost/input.txt","save_2"),("data\frost\input.txt","frost_model")]
         #np.random.shuffle(text_list)
@@ -22,7 +22,7 @@ class Generate:
         self.save_dir_back=text_list[1][1]
 
         # load glove to a gensim model
-        glove_model = KeyedVectors.load_word2vec_format('/Users/chris/Downloads/glove.6B/glove.6B.300d.w2v.txt',binary=False)
+        glove_model = KeyedVectors.load_word2vec_format(wv_file, binary=False)
 
         # system arguments
         topics = [sys.argv[1]]
