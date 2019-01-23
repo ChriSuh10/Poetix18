@@ -3,6 +3,7 @@ from six.moves import cPickle
 import numpy as np
 import tensorflow as tf
 import pandas as pd
+from gensim.models import KeyedVectors
 import random
 import time
 import os
@@ -12,7 +13,7 @@ from model_forw import Model as Model_forw
 from functions import *
 
 class Generate:
-    def __init__(self, wv_file):
+    def __init__(self, wv_file=None, wv=None):
         #LOAD DIRECTORY OF MODELS
         text_list = [("data/frost/input.txt","save_2"),("data\frost\input.txt","frost_model")]
         #np.random.shuffle(text_list)
@@ -21,8 +22,14 @@ class Generate:
         t_back=text_list[1][0]
         self.save_dir_back=text_list[1][1]
 
+        if wv_file is None and wv is None:
+            raise ValueError('Must specify workd vectors')
+
         # load glove to a gensim model
-        glove_model = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        if wv_file is not None:
+            glove_model = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        else:
+            glove_model = wv
 
         # system arguments
         topics = [sys.argv[1]]
@@ -216,7 +223,42 @@ class Generate:
             template_list.append(ww)
             return template_list
 
-    def generate_line(self, word1, word2):
+    def place_words_in_template(self, words, template):
+        postag_nn=[]
+        print(words)
+
+        if words[0] not in self.postag_dict[2] or words[1] not in self.postag_dict[2]:
+                return None
+
+        w1_pos = self.postag_dict[2][words[0]][0]
+        w2_pos = self.postag_dict[2][words[1]][0]
+
+        if w1_pos not in template or w2_pos not in template:
+            return None
+
+        positions = []
+        for i, pos in enumerate(template):
+            if len(positions) >= 2:
+                break
+            if pos == w1_pos:
+                positions.append(i)
+                # if already an index, word order needs to be reversed
+                if len(positions) >= 2:
+                    words.reverse()
+                continue
+            if pos == w2_pos:
+                positions.append(i)
+
+        if len(positions) < 2:
+            return None
+
+        template_list=[]
+        template_list.append(template)
+        template_list.append(positions)
+        template_list.append(words)
+        return template_list
+
+    def generate_line(self, word1, word2, template=None):
         nouns=[word1, word2]
 
         postag_nn=[]
@@ -239,11 +281,13 @@ class Generate:
             print ('WORDS ARE NOT NOUNS')
             #return None
             """
-        postag= self.pos_synset(nouns, self.postag_dict[0])
+        if template is None:
+            postag= self.pos_synset(nouns, self.postag_dict[0])
+        else:
+            postag= self.place_words_in_template(nouns, template)
         if postag==None:
             return None
-        #postag=[['CC', 'PRP', 'RB', 'NN', 'IN', 'DT', 'NN', 'IN', 'NN'], [3,6], ['night', 'moon']]
-        print (postag[0])
+
         last_position=np.argmax(postag[1])
         first_position=np.argmin(postag[1])
 
@@ -254,6 +298,9 @@ class Generate:
         first_pos=postag[1][first_position]
         last_pos=postag[1][last_position]
         template=postag[0]
+            #postag=[['CC', 'PRP', 'RB', 'NN', 'IN', 'DT', 'NN', 'IN', 'NN'], [3,6], ['night', 'moon']]
+        print (postag[0])
+
         print ('First noun: '+ str(first_noun))
         print ('Last noun: '+ str(last_noun))
         print (template[first_pos:last_pos])
