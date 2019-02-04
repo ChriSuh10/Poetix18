@@ -29,10 +29,10 @@ class Generate:
             raise ValueError('Must specify workd vectors')
 
         # load glove to a gensim model
-        if wv_file is not None:
-            glove_model = KeyedVectors.load_word2vec_format(wv_file, binary=False)
-        else:
+        if wv is not None:
             glove_model = wv
+        else:
+            glove_model = KeyedVectors.load_word2vec_format(wv_file, binary=False)
 
         # system arguments
         topics = [sys.argv[1]]
@@ -72,7 +72,7 @@ class Generate:
         return self.postag_dict
 
     def get_save_dir(self):
-        return self.save_dif
+        return self.save_dir
 
     def get_save_dir_back(self):
         return self.save_dir_back
@@ -125,6 +125,7 @@ class Generate:
                 init_score = np.array([[0]])
                 lst = search_forward(model, vocab, init_score,[word_last],state, sess, 1,\
                                   self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, TemplatePOS)
+                print(lst)
                 lst.sort(key=itemgetter(0), reverse = True)
                 # line diagnostics
                 #for i in range(10)
@@ -370,6 +371,29 @@ class Generate:
 
         return template, tt_4
 
+    def generate_line_collocations(self, word1, word2):
+        # check for collocations and fill in
+        postag= self.pos_synset([word1, word2], self.postag_dict[0])
+
+        last_position=np.argmax(postag[1])
+        first_position=np.argmin(postag[1])
+
+
+        last_noun=postag[2][last_position]
+        first_noun=postag[2][first_position]
+
+        first_pos=postag[1][first_position]
+        last_pos=postag[1][last_position]
+        template=postag[0]
+
+        line = ['' for i in range(len(template))]
+        line[first_position] = first_noun
+        line[last_position] = last_noun
+
+        return line
+
+
+
     def print_gen_line(self, word1, word2):
         temp_score=[]
         for x in range(8):
@@ -413,3 +437,50 @@ class Generate:
                 list_with_scores.append(with_score)
             new_postag_dict[k] = list_with_scores
         return new_postag_dict
+
+    def insert_collocations(self, template, line, collocations):
+        for i, w in enumerate(line):
+            if w not in collocations:
+                continue;
+
+            grams = collocations[w]
+            for gram in grams:
+                col_word = gram[0][1]
+
+                if len(self.postag_dict[2][col_word]) == 0:
+                    continue
+
+                mean_dist = int(round(gram[1]))
+                gram_pos = self.postag_dict[2][col_word][0]
+
+                #guard
+                if 0 > i + mean_dist or i + mean_dist >= len(line):
+                    continue
+
+                # empty spot and pos matches
+                if line[i + mean_dist] is '' and template[i + mean_dist] is gram_pos:
+                    line[i + mean_dist] = col_word
+                    break
+        return line
+
+    def generate_line_collocations(self, word1, word2, collocations):
+        # check for collocations and fill in
+        postag= self.pos_synset([word1, word2], self.postag_dict[0])
+
+        last_position=np.argmax(postag[1])
+        first_position=np.argmin(postag[1])
+
+        last_noun=postag[2][last_position]
+        first_noun=postag[2][first_position]
+
+        first_pos=postag[1][first_position]
+        last_pos=postag[1][last_position]
+        template=postag[0]
+
+        line = ['' for i in range(len(template))]
+        line[min(postag[1])] = first_noun
+        line[max(postag[1])] = last_noun
+
+        line = self.insert_collocations(template, line, collocations)
+
+        return postag, line
