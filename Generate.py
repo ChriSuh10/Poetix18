@@ -409,17 +409,19 @@ class Generate:
         return pd.DataFrame(temp_score, columns=['line', 'score', 'POS'])
 
     def generalization_score(self, word_pair_list, template):
-        sum_score = 0;
+        sum_score = 0
+        num_no_fit = 0
         for word1, word2 in word_pair_list:
             try:
                 template, k = self.generate_line(word1, word2, template=template)
             except TypeError:
-                print('Words don\'t fit into template')
+                # print('Words don\'t fit into template')
+                num_no_fit += 1
                 continue
             if k != []:
                 # add score normalized by line length
                 sum_score += (k[0][0] / len(k[0][1][1]))
-        return sum_score / len(word_pair_list), template
+        return sum_score / len(word_pair_list), template, num_no_fit
 
     def random_pair_list(self, length):
         ret = []
@@ -430,13 +432,15 @@ class Generate:
 
     def assign_generalization_scores(self, pairs_length):
         new_postag_dict = defaultdict(list)
+        num_no_fit = 0
         for k in self.postag_dict[0].keys():
             list_with_scores = []
             for template in self.postag_dict[0][k]:
-                with_score = self.generalization_score(self.random_pair_list(pairs_length), template)
-                list_with_scores.append(with_score)
+                score, template, no_fit = self.generalization_score(self.random_pair_list(pairs_length), template)
+                list_with_scores.append((score, template))
+                num_no_fit += no_fit
             new_postag_dict[k] = list_with_scores
-        return new_postag_dict
+        return new_postag_dict, num_no_fit
 
     def insert_collocations(self, template, line, collocations):
         for i, w in enumerate(line):
