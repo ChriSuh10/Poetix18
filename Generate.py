@@ -16,9 +16,9 @@ from model_forw import Model as Model_forw
 from functions import *
 
 class Generate:
-    def __init__(self, wv_file=None, wv=None):
+    def __init__(self, wv_file=None, wv=None, save_dir_back="frost_model"):
         #LOAD DIRECTORY OF MODELS
-        text_list = [("data/frost/input.txt","save_2"),("data\frost\input.txt","frost_model")]
+        text_list = [("data/frost/input.txt","save_2"),("data\frost\input.txt",save_dir_back)]
         #np.random.shuffle(text_list)
         t = text_list[0][0] #THIS TEXT IS THE VOCAB!
         self.save_dir = text_list[0][1] #THIS IS THE MODEL DIRECTORY
@@ -62,7 +62,7 @@ class Generate:
         vowels = ["AA", "AE", "AH", "AO", "AW", "AY", "EH", "ER", "EY", "IH", "IY", "OW", "OY", "UH", "UW"]
         self.width = 20
         self.wordPools = [set([]) for n in range(4)]
-        with open('postag_dict.p', 'rb') as f:
+        with open('postag_dict_all.p', 'rb') as f:
             self.postag_dict = pickle.load(f)
 
         self.PartOfSpeachSet=self.postag_dict[1]
