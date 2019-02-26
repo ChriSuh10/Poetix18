@@ -332,7 +332,7 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
         #for pred_stress in list(fsaLine[post_stress].prevs):
         word_set = set([])
         #print (len(sequence))
-        for word in list(set(PartOfSpeachSet[TemplatePOS[-len(sequence)]])):
+        for word in list(set(PartOfSpeachSet[TemplatePOS[-len(sequence) - 1]])):
             #PREVENTS REPEAT ADJACENT WORDS OR PROBLEM-TAGGED WORDS
             if(word == sequence[0]):
                 continue
