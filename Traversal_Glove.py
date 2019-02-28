@@ -7,13 +7,20 @@ import numpy as np
 import re
 
 class Meta_Poetry_Glove:
-    glove_model = KeyedVectors.load_word2vec_format('~/Downloads/glove.6B/glove.6B.300d.w2v.txt', binary=False)
-    glove_dim = len(glove_model['man'])
     punct = re.compile(r'[^\w\s]')
     ps = PorterStemmer()
 
-    def __init__(self):
+    def __init__(self, wv_file=None, wv=None):
         self.already_seen = set()
+        if wv_file is None and wv is None:
+            raise ValueError('Must specify word vectors')
+
+        if wv is not None:
+            self.glove_model = wv
+        else:
+            self.glove_model = KeyedVectors.load_word2vec_format('storyline_for_reference/glove.6B.300d.word2vec.txt', binary=False)
+
+        self.glove_dim = len(self.glove_model['man'])
 
     def get_glove_sim(self, w1, w2):
         """
@@ -171,7 +178,7 @@ class Meta_Poetry_Glove:
         return_list = []
         for word, definition in [word_a, word_b, word_c, word_d, word_e]:
             clean_def = set(definition.split())
-            clean_def.discard(word)
+            clean_def.remove(word)
             return_list.append((word, clean_def))
 
         return return_list

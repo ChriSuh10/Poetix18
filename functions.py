@@ -20,7 +20,62 @@ import getopt
 import random
 from collections import defaultdict, Counter
 import itertools
+
+from Collocation import Collocation
 counts = defaultdict(Counter)
+
+def grams(poets, window_size=5, filters=None):
+    grams = {}
+
+    # Iterate over all poets
+    for poet, filename in poets.items():
+        with open(filename, "r") as f:
+            for line in list(filter(lambda x: len(x) > 10, f)):
+                line = line.strip()
+                line = line.lower()
+                # Uncomment to strip punctuation
+                # line = re.sub(r'[^\w\s]', '', line)
+                text = nltk.word_tokenize(line)
+                template = [word[1] for word in nltk.pos_tag(text)]
+                words = line.split()
+
+                # Takes a guard function of parameters i and j
+                def add_gram(guard, start, stop):
+                    # Sliding window
+                    for i in range(start, stop):
+                        for j in range(window_size):
+                            if guard(i, j):
+                                continue
+
+                            gram = (words[i], words[i+j+1])
+                            gram_pos = tuple(map(lambda x: nltk.pos_tag(nltk.word_tokenize(x))[0][1], gram))
+
+                            if filters is None or gram_pos in filters:
+                                coll = grams.get(gram, Collocation(gram))
+                                coll.add(j+1)
+                                grams[gram] = coll
+
+                add_gram(lambda i, j: i+j+1 < 0, 0, len(words)-window_size)
+                add_gram(lambda i, j: i+j+1 >= len(words) or i+j+1 < 0 or i < 0, len(words)-window_size, len(words))
+
+    return grams
+
+def get_collocation_dict(colls):
+    d = {}
+    for w1, w2 in colls.keys():
+        collocation = colls[(w1, w2)]
+        mean = collocation.mean()
+        std = collocation.standard_deviation()
+        if w1 not in d:
+            d[w1] = []
+        if w2 not in d:
+            d[w2] = []
+        d[w1].append([(w1, w2), mean, std])
+        d[w2].append([(w2, w1), -mean, std])
+    return d
+
+def build_get_collocation_dict(poets, window_size=5, filters=None):
+    return get_collocation_dict(grams(poets, window_size=window_size, filters=filters))
 
 def isFitPattern(pattern,stress_num):
     if(len(pattern)+stress_num>10):
@@ -66,7 +121,7 @@ def possiblePartsSpeechPaths():
     #SO dict["verb"] == set(adverb, noun, ...) BUT NOT set(adjective, determiner, etc)
     pos_list = ["CC","CD","DT","EX","FW","IN","JJ","JJR","JJS", "LS","MD","NN","NNS","NNP","NNPS", \
                 "PDT","POS","PRP","PRP$","RB","RBR","RBS","RP","TO","UH","VB","VBD","VBG","VBN","VBP", \
-                "VBZ","WDT","WP","WP$","WRB"]
+                "VBZ","WDT","WP","WP$","WRB",',']
     dictTags = {}
     for tag in pos_list:
         s = set([])
@@ -116,7 +171,7 @@ class State:
         self.coord = tup #form: (line,stress)
         self.nexts = set()
         self.prevs = set()
-        
+
 def simple_clean(string):
         string = re.sub(r"[^가-힣A-Za-z0-9(),!?\'\`]", " ", string)
         string = re.sub(r"\'", "", string)
@@ -143,8 +198,8 @@ def simple_clean(string):
 
         return string.strip().lower()
 
-        
-        
+
+
 def search_forward(model, vocab, prob_sequence, sequence, state, session, \
                 temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS):
     def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
@@ -166,7 +221,7 @@ def search_forward(model, vocab, prob_sequence, sequence, state, session, \
             except KeyError:
                 return True
             try:
-                
+
                 tag2 = dictPartSpeechTags[word2]
             except KeyError:
                 return True
@@ -240,8 +295,8 @@ def search_forward(model, vocab, prob_sequence, sequence, state, session, \
                     pass
         masterPQ = depthPQ
     return checkList
-    
-    
+
+
 def search_back(model, vocab, prob_sequence, sequence, state, session, \
                 temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS):
     def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
@@ -277,7 +332,7 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
         #for pred_stress in list(fsaLine[post_stress].prevs):
         word_set = set([])
         #print (len(sequence))
-        for word in list(set(PartOfSpeachSet[TemplatePOS[-len(sequence)-1]])):
+        for word in list(set(PartOfSpeachSet[TemplatePOS[-len(sequence) - 1]])):
             #PREVENTS REPEAT ADJACENT WORDS OR PROBLEM-TAGGED WORDS
             if(word == sequence[0]):
                 continue

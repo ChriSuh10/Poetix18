@@ -1,0 +1,13 @@
+save_2/config.pkl filter=lfs diff=lfs merge=lfs -text
+save_2/model.ckpt-63199.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+save_2/model.ckpt-63199.index filter=lfs diff=lfs merge=lfs -text
+save_2/model.ckpt-63199.meta filter=lfs diff=lfs merge=lfs -text
+save_2/words_vocab.pkl filter=lfs diff=lfs merge=lfs -text
+save_2/checkpoint filter=lfs diff=lfs merge=lfs -text
+frost_model/words_vocab.pkl filter=lfs diff=lfs merge=lfs -text
+frost_model/checkpoint filter=lfs diff=lfs merge=lfs -text
+frost_model/config.pkl filter=lfs diff=lfs merge=lfs -text
+frost_model/model.ckpt-227699.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+frost_model/model.ckpt-227699.index filter=lfs diff=lfs merge=lfs -text
+frost_model/model.ckpt-227699.meta filter=lfs diff=lfs merge=lfs -text
+poetic_embeddings.300d.txt filter=lfs diff=lfs merge=lfs -text
