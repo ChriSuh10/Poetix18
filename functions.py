@@ -296,11 +296,13 @@ def search_forward(model, vocab, prob_sequence, sequence, state, session, \
         masterPQ = depthPQ
     return checkList
 
-
+# Modified to incorporate syllables
 def search_back(model, vocab, prob_sequence, sequence, state, session, \
-                temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS):
+                temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                TemplateSyllables, dictSyllables):
     def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
-                    temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS):
+                    temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                    TemplateSyllables, dictSyllables):
         def decayRepeat(word,sequence, scale):
             safe_repeat_words = []
             #safe_repeat_words = set(["with,the,of,in,i"])
@@ -314,10 +316,10 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
         def partsOfSpeechFilter(word1,word2,dictPartSpeechTags,dictPossiblePartsSpeech):
             okay_tags = set(["RB","RBR","RBS"]) #THESE ARE THE ADVERBS
             try:
-                tag1 = dictPartSpeechTags[word1]
+                tag1 = dictPartSpeechTags[word1][0]
             except KeyError:
                 return True
-            tag2 = dictPartSpeechTags[word2]
+            tag2 = dictPartSpeechTags[word2][0]
             #if(tag1==tag2 and tag1 not in okay_tags):
             #    return True
             if(tag1 not in dictPossiblePartsSpeech[tag2]):
@@ -336,7 +338,12 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
             #PREVENTS REPEAT ADJACENT WORDS OR PROBLEM-TAGGED WORDS
             if(word == sequence[0]):
                 continue
-            if(partsOfSpeechFilter(word,sequence[0],dictPartSpeechTags,dictPossiblePartsSpeech)):
+            # if(partsOfSpeechFilter(word,sequence[0],dictPartSpeechTags,dictPossiblePartsSpeech)):
+            #     continue
+            # If cannot get syllables, don't use
+            if (word not in dictSyllables):
+                continue
+            if len(dictSyllables[word][0]) != TemplateSyllables[-len(sequence) - 1]:
                 continue
             #FACTORS IN SCORE ADJUSTMENTS
             score_adjust = decayRepeat(word, sequence, 100*scale) #repeats
@@ -352,6 +359,8 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
             if(item[0]==[[-float("inf")]]):
                 continue
             ret+=[item]
+        if len(ret) < 1:
+            print(sequence)
         return ret
     masterPQ = Q.PriorityQueue()
     checkList = []
@@ -369,7 +378,8 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
                 continue
             possible_branches = beamSearchOneLevel(model, vocab, next_search[1][0][0], next_search[1][1],\
                                 next_search[1][0][1], session, temp,\
-                                dictPartSpeechTags, dictPossiblePartsSpeech,breadth, wordPool, PartOfSpeachSet, TemplatePOS)
+                                dictPartSpeechTags, dictPossiblePartsSpeech,breadth, wordPool, PartOfSpeachSet, TemplatePOS,\
+                                TemplateSyllables, dictSyllables)
             if(possible_branches == "begin_line"):
                 checkList+=[next_search]
                 continue
