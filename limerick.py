@@ -52,7 +52,7 @@ class limerick:
                 print ('POS not in set of templates')
                 return None
         else:
-            template2, template_3, template_4, template_5=templates_dataset
+            template_2, template_3, template_4, template_5=templates_dataset
         
         
         #######################
