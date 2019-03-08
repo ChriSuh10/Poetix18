@@ -5,6 +5,12 @@ from gensim.models import KeyedVectors
 from gensim.parsing.preprocessing import remove_stopwords
 import numpy as np
 import re
+from gensim.parsing.preprocessing import remove_stopwords
+from nltk.corpus import wordnet as wn
+import os
+from six.moves import cPickle
+import requests
+from functions import *
 
 class Meta_Poetry_Glove:
     punct = re.compile(r'[^\w\s]')
@@ -192,3 +198,47 @@ class Meta_Poetry_Glove:
         words = self.five_word_algorithm_glove_specify(synset)
         print(words[0][0] + '->' + words[1][0] + '->\033[4m' + words[2][0] +
               '\033[0m\033[1m~~>\033[0m\033[4m' + words[3][0] + '\033[0m->' + words[4][0])
+
+    def two_word_link(self, w1, w2):
+        max_sim = -1
+        best_word = None
+        best_word_def = None
+
+        word_set = set()
+
+        for synset in wn.synsets(w1):
+            clean_def = remove_stopwords(self.punct.sub('', synset.definition()))
+            word_set.update(clean_def.lower().split())
+        for synset in wn.synsets(w2):
+            clean_def = remove_stopwords(self.punct.sub('', synset.definition()))
+            word_set.update(clean_def.lower().split())
+
+        for other_word in word_set:
+            sim = self.get_glove_sim(w1, other_word)
+            sim += self.get_glove_sim(w2, other_word)
+
+            if sim > max_sim and other_word != w1 and other_word != w2:
+                max_sim = sim
+                best_word = other_word
+
+        return best_word
+
+    def get_five_words(self, w2):
+        # three connection words
+        w_response = requests.get('https://api.datamuse.com/words', params={'rel_rhy': w2}).json()
+
+        if len(w_response) < 2:
+            raise ValueError('Cannot generate limkerick using ', w2)
+
+        w5 = w_response[0]['word']
+        w4 = self.two_word_link(w2, w5)
+
+        w1 = w_response[1]['word']
+
+        w3_response = requests.get('https://api.datamuse.com/words', params={'rel_rhy': w4}).json()
+
+        if len(w3_response) < 1:
+            raise ValueError('Cannot generate limkerick using ', w2)
+
+        w3 = w3_response[0]['word']
+        return w1, w2, w3, w4, w5
