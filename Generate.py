@@ -15,15 +15,23 @@ from model_back import Model as Model_back
 from model_forw import Model as Model_forw
 from functions import *
 
+
+
+from gensim.parsing.preprocessing import remove_stopwords
+from nltk.corpus import wordnet as wn
+import os
+from six.moves import cPickle
+import requests
+
 class Generate:
     def __init__(self, wv_file=None, wv=None, save_dir_back="frost_model"):
         #LOAD DIRECTORY OF MODELS
-        text_list = [("data/frost/input.txt","save_2"),("data\frost\input.txt",save_dir_back)]
+        text_list = [("data/all_combined/input.txt","all_combined_forward"),("data\all_combined\input.txt","all_combined_back")]
         #np.random.shuffle(text_list)
         t = text_list[0][0] #THIS TEXT IS THE VOCAB!
-        self.save_dir = text_list[0][1] #THIS IS THE MODEL DIRECTORY
+        self.save_dir = text_list[0][1] #directory for forward model
         t_back=text_list[1][0]
-        self.save_dir_back=text_list[1][1]
+        self.save_dir_back=text_list[1][1]#directory for backwards model
 
         if wv_file is None and wv is None:
             raise ValueError('Must specify workd vectors')
@@ -41,7 +49,7 @@ class Generate:
         except:
             seed = 1
 
-        text = open(t)
+        text = open(t, encoding='latin-1')
         text = text.read()
 
         np.random.seed(seed) # seed for reproducibility
@@ -95,8 +103,15 @@ class Generate:
     def get_template_pos(self):
         return self.TemplatePOS
 
-    def genPoem_forward(self, word_last, TemplatePOS):
+        
+        
+
+#return list of generated lines with their states and scores. Sorted by scores.
+#inputs: LAST word in the line, template POS. Optional: initial state and initial score
+    def genPoem_backward(self, word_last, TemplatePOS):
         start = time.time()
+        #function to sample from the first "cut" lines with highest probs
+        #currently not used
         def sampleLine(lst, cut):
             ''' samples from top "cut" lines, the distribution being the softmax of true sentence probabilities'''
             probs = list()
@@ -105,6 +120,46 @@ class Generate:
             probs = np.exp(probs) / sum(np.exp(probs))
             index = np.random.choice(cut,1,p=probs)[0]
             return lst[index][1][1]
+        #load barckwards model
+        tf.reset_default_graph()
+        with open(os.path.join(self.save_dir_back, 'config.pkl'), 'rb') as f:
+            saved_args = cPickle.load(f)
+        with open(os.path.join(self.save_dir_back, 'words_vocab.pkl'), 'rb') as f:
+            word_keys, vocab = cPickle.load(f)
+        model = Model_back(saved_args, True)
+        with tf.Session() as sess:
+            tf.global_variables_initializer().run()
+            saver = tf.train.Saver(tf.global_variables())
+            ckpt = tf.train.get_checkpoint_state(self.save_dir_back)
+            if ckpt and ckpt.model_checkpoint_path:
+                saver.restore(sess, ckpt.model_checkpoint_path)
+                poem = []
+                line_num = 0
+                wordPool_ind = 0
+                #get initial states and scores
+                state = sess.run(model.initial_state)
+                init_score = np.array([[0]])
+                #search barckwards function in functions.py
+                lst = search_back_no_rhymes(model, vocab, init_score,[word_last],state, sess, 1,\
+                                  self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, TemplatePOS)
+                lst.sort(key=itemgetter(0), reverse = True)
+        print("Generation took {:.3f} seconds".format(time.time() - start))
+        return lst
+
+#return list of generated lines with their states and scores. Sorted by scores.
+#inputs: FIRST word in the line, template POS. Optional: initial state and initial score
+    def genPoem_forward(self, word_last, TemplatePOS, init_state=None, init_score=None):
+        start = time.time()
+        #sample according to score
+        def sampleLine(lst, cut):
+            ''' samples from top "cut" lines, the distribution being the softmax of true sentence probabilities'''
+            probs = list()
+            for i in range(cut):
+                probs.append(np.exp(lst[i][0][0][0]))
+            probs = np.exp(probs) / sum(np.exp(probs))
+            index = np.random.choice(cut,1,p=probs)[0]
+            return lst[index][1][1]
+            #load forward model
         tf.reset_default_graph()
         with open(os.path.join(self.save_dir, 'config.pkl'), 'rb') as f:
             saved_args = cPickle.load(f)
@@ -121,11 +176,16 @@ class Generate:
                 poem = []
                 line_num = 0
                 wordPool_ind = 0
-                state = sess.run(model.initial_state)
-                init_score = np.array([[0]])
+                #if states and scores not specified, initialize them from zero
+                if type(init_state)==type(None):
+                    state = sess.run(model.initial_state)
+                else:
+                    state=init_state
+                if type(init_score)==type(None):
+                    init_score = np.array([[0]])
+                #function in functions.py 
                 lst = search_forward(model, vocab, init_score,[word_last],state, sess, 1,\
                                   self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, TemplatePOS)
-                print(lst)
                 lst.sort(key=itemgetter(0), reverse = True)
                 # line diagnostics
                 #for i in range(10)
@@ -140,6 +200,8 @@ class Generate:
             #poem = postProcess(poem,sess,vocab,model)
         print("Generation took {:.3f} seconds".format(time.time() - start))
         return lst
+#given a list (such us the output of genPoem_backward or genPoem_forward) get the probs of the next word being "next_word"
+#Input: lst (list in the such as it was the same form that the output of genPoem_backward); next_word
 
     def force_middle(self, lst, next_word):
         def decayRepeat(word,sequence, scale):
@@ -152,13 +214,13 @@ class Generate:
                     score_adjust += decr
                 decr += scale/10 #decreases penalty as the words keep getting further from the new word
             return score_adjust
+       #load forward model
         tf.reset_default_graph()
         with open(os.path.join(self.save_dir, 'config.pkl'), 'rb') as f:
             saved_args = cPickle.load(f)
         with open(os.path.join(self.save_dir, 'words_vocab.pkl'), 'rb') as f:
             word_keys, vocab = cPickle.load(f)
         model = Model_forw(saved_args, True)
-        print (len(vocab))
         with tf.Session() as sess:
             tf.global_variables_initializer().run()
             saver = tf.train.Saver(tf.global_variables())
@@ -170,6 +232,7 @@ class Generate:
                 wordPool_ind = 0
                 ret=[]
                 for tup in lst:
+                    #initialize states and scores
                     state_init = tup[1][0][1]
                     prob_seq =  tup[1][0][0]
                     sequence=tup[1][1]
@@ -195,9 +258,10 @@ class Generate:
                         continue
                     ret+=[item]
                 ret.sort(key=itemgetter(0), reverse = True)
-                return ret[:self.width]
+                return ret[:150]
 
     #function to get a template based on two words
+    #currently not used
     def pos_synset(self, words, pos_dict):
         postag_nn=[]
         print(words)
@@ -262,7 +326,96 @@ class Generate:
         template_list.append(words)
         return template_list
 
-    def generate_line(self, word1, word2, template=None):
+#given two words generate line.
+#postag_: template such as contains the position in which word1 and word2 belong to.
+    def generate_line(self, word1, word2, postag_=None):
+        nouns=[word1, word2]
+
+        postag_nn=[]
+        #SELECT A POS SAMPLE
+        if postag_==None:
+            postag=self.pos_synset(nouns, self.postag_dict[0])
+        else:
+            postag=postag_
+        if postag==None:
+            return None
+        last_position=np.argmax(postag[1])
+        first_position=np.argmin(postag[1])
+
+
+        last_noun=postag[2][last_position]
+        first_noun=postag[2][first_position]
+
+        first_pos=postag[1][first_position]
+        last_pos=postag[1][last_position]
+        template=postag[0]
+
+        print ('#################################\n')
+        #generate text between word1 and word2
+        list_1= self.genPoem_forward(first_noun, template[first_pos:last_pos])
+        #get scores of list_1 such as next word is last_noun
+        list_2=self.force_middle(list_1, last_noun)
+        #load forward model
+        tf.reset_default_graph()
+        with open(os.path.join(self.save_dir, 'config.pkl'), 'rb') as f:
+            saved_args = cPickle.load(f)
+        with open(os.path.join(self.save_dir, 'words_vocab.pkl'), 'rb') as f:
+            word_keys, vocab = cPickle.load(f)
+        model = Model_forw(saved_args, True)
+        with tf.Session() as sess:
+            tf.global_variables_initializer().run()
+            saver = tf.train.Saver(tf.global_variables())
+            ckpt = tf.train.get_checkpoint_state(self.save_dir)
+            if ckpt and ckpt.model_checkpoint_path:
+                saver.restore(sess, ckpt.model_checkpoint_path)
+                poem = []
+                line_num = 0
+                wordPool_ind = 0
+                tt_3=[]
+                for element in list_2:
+                    #initialize the model from word2
+                    seq=element[1][1]
+                    state = element[1][0][1]
+                    init_score = element[1][0][0]
+                    seq=element[1][1]
+                    #generate text after word2
+                    lst = search_forward(model, vocab, init_score,seq,state, sess, 1,\
+                                      self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, template[first_pos:])
+                    tt_3+=lst
+                tt_3.sort(key=itemgetter(0), reverse = True)
+        #load backwards model
+        tf.reset_default_graph()
+        with open(os.path.join(self.save_dir_back, 'config.pkl'), 'rb') as f:
+            saved_args = cPickle.load(f)
+        with open(os.path.join(self.save_dir_back, 'words_vocab.pkl'), 'rb') as f:
+            word_keys, vocab = cPickle.load(f)
+        model = Model_back(saved_args, True)
+        with tf.Session() as sess:
+            tf.global_variables_initializer().run()
+            saver = tf.train.Saver(tf.global_variables())
+            ckpt = tf.train.get_checkpoint_state(self.save_dir_back)
+            if ckpt and ckpt.model_checkpoint_path:
+                saver.restore(sess, ckpt.model_checkpoint_path)
+                poem = []
+                line_num = 0
+                wordPool_ind = 0
+                tt_4=[]
+                for tup in tt_3[:10]:
+                    seq=tup[1][1]
+                    #get states of the generated text (from word1 to the end of the line)
+                    init_score, state=model.score_a_list(sess, vocab, seq)
+                    #generate text before word1
+                    lst = search_back_no_rhymes(model, vocab, init_score,seq,state, sess, 1,\
+                                  self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, template)
+
+                    tt_4+=lst
+        tt_4.sort(key=itemgetter(0), reverse = True)
+
+
+        return template, tt_4
+        
+#similar to generate_line but without manual templates
+    def generate_line_2(self, word1, word2, template=None):
         nouns=[word1, word2]
 
         postag_nn=[]
@@ -488,3 +641,55 @@ class Generate:
         line = self.insert_collocations(template, line, collocations)
 
         return postag, line
+        
+        
+#generate last line for limericks
+#fourth_line: list of words of the fourth line
+#next_word: last word of 5th line
+#template: template for 5th line
+    def fifth_line(self, fourth_line, next_word, template):
+        def decayRepeat(word,sequence, scale):
+            safe_repeat_words = []
+            #safe_repeat_words = set(["with,the,of,in,i"])
+            score_adjust = 0
+            decr = -scale
+            for w in range(len(sequence)):
+                if(word==sequence[w] and word not in safe_repeat_words):
+                    score_adjust += decr
+                decr += scale/10 #decreases penalty as the words keep getting further from the new word
+            return score_adjust
+            
+        #load forward model
+        tf.reset_default_graph()
+        with open(os.path.join(self.save_dir, 'config.pkl'), 'rb') as f:
+            saved_args = cPickle.load(f)
+        with open(os.path.join(self.save_dir, 'words_vocab.pkl'), 'rb') as f:
+            word_keys, vocab = cPickle.load(f)
+        model = Model_forw(saved_args, True)
+        with tf.Session() as sess:
+            tf.global_variables_initializer().run()
+            saver = tf.train.Saver(tf.global_variables())
+            ckpt = tf.train.get_checkpoint_state(self.save_dir)
+            if ckpt and ckpt.model_checkpoint_path:
+                saver.restore(sess, ckpt.model_checkpoint_path)
+                #initialize state and prob from line 4
+                prob, state=model.score_a_list(sess, vocab, fourth_line)
+        #get postag for the last word of the fourth line
+        last_pos=nltk.pos_tag([fourth_line[-1]])[0][1]
+        #generate fifth line conditioned on 4th line
+        list_1= self.genPoem_forward(fourth_line[-1], [last_pos]+template[:-1], init_state=state, init_score=prob)
+        list_2=self.force_middle(list_1, next_word)
+        list_2.sort(key=itemgetter(0), reverse = True)
+        return list_2
+#check if the words of a list are in the vocab. Useful to check the 5 words.
+    def in_vocab(self, lst):
+        tf.reset_default_graph()
+        with open(os.path.join(self.save_dir, 'config.pkl'), 'rb') as f:
+            saved_args = cPickle.load(f)
+        with open(os.path.join(self.save_dir, 'words_vocab.pkl'), 'rb') as f:
+            word_keys, vocab = cPickle.load(f)
+        vocabulary=set(list(vocab.keys()))
+        for x in lst:
+            if x not in vocabulary:
+                return False
+        return True
