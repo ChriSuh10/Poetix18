@@ -18,3 +18,10 @@
 #### Limericks and sonnets: Examples of limmerics and sonnets.
 #### generate_line: Examples of sonnets.
 #### Transversal: examples of meta poetry.
+
+
+### Files:
+
+#### postag_dict_all: Sets of POS:[words] and WORD:[POS]
+#### cmu-dict: metric
+
