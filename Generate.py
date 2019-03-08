@@ -405,7 +405,7 @@ class Generate:
                     #get states of the generated text (from word1 to the end of the line)
                     init_score, state=model.score_a_list(sess, vocab, seq)
                     #generate text before word1
-                    lst = search_back(model, vocab, init_score,seq,state, sess, 1,\
+                    lst = search_back_no_rhymes(model, vocab, init_score,seq,state, sess, 1,\
                                   self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, template)
 
                     tt_4+=lst
