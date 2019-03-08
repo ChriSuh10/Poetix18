@@ -14,3 +14,7 @@
   #### Transversal_Glove.py: Clas MetaPoetry and the methods to generate the meta poems.
   #### functions.py: All auxiliar functions.
   
+### Notebooks
+#### Limericks and sonnets: Examples of limmerics and sonnets.
+#### generate_line: Examples of sonnets.
+#### Transversal: examples of meta poetry.
