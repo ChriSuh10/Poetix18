@@ -298,10 +298,10 @@ def search_forward(model, vocab, prob_sequence, sequence, state, session, \
 
 # Modified to incorporate syllables
 def search_back(model, vocab, prob_sequence, sequence, state, session, \
-                temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
                 TemplateSyllables, dictSyllables):
     def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
-                    temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                    temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
                     TemplateSyllables, dictSyllables):
         def decayRepeat(word,sequence, scale):
             safe_repeat_words = []
@@ -361,6 +361,7 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
             ret+=[item]
         if len(ret) < 1:
             print(sequence)
+            print(TemplatePOS)
         return ret
     masterPQ = Q.PriorityQueue()
     checkList = []
@@ -378,7 +379,7 @@ def search_back(model, vocab, prob_sequence, sequence, state, session, \
                 continue
             possible_branches = beamSearchOneLevel(model, vocab, next_search[1][0][0], next_search[1][1],\
                                 next_search[1][0][1], session, temp,\
-                                dictPartSpeechTags, dictPossiblePartsSpeech,breadth, wordPool, PartOfSpeachSet, TemplatePOS,\
+                                dictPartSpeechTags,breadth, wordPool, PartOfSpeachSet, TemplatePOS,\
                                 TemplateSyllables, dictSyllables)
             if(possible_branches == "begin_line"):
                 checkList+=[next_search]
