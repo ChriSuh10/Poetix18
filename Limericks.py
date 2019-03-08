@@ -16,6 +16,7 @@ from model_back import Model as Model_back
 from functions import search_back
 
 class Limerick_Generate:
+
     def __init__(self, wv_file='poetic_embeddings.300d.txt', syllables_file='cmudict-0.7b.txt', postag_file='postag_dict_all.p',
             model_dir='combined_back'):
         self.ps = nltk.stem.PorterStemmer()
@@ -250,12 +251,13 @@ class Limerick_Generate:
                     return False
             return True
         syllables_left = num_sylls - last_word_sylls
+        # Punctuation takes up no syllables, so subtract to get number of partitions
         num_zero_sylls = sum(1 if pos == '.' or pos == ',' else 0 for pos in template)
         num_words_left = len(template) - num_zero_sylls
         for partition in get_all_partition_size_n(syllables_left, num_words_left):
             # Goes through all permutations by index, not numbers,
             # inefficient implementation
-            for perm in permutations(partition):
+            for perm in random.shuffle(permutations(partition)):
                 perm = list(perm)
                 # Last word is fixed
                 perm.append(last_word_sylls)
@@ -293,7 +295,7 @@ class Limerick_Generate:
             w1_pos = self.words_to_pos[w1][0]
             template = []
             # Assumes template of length temp_len exists
-            while len(template) <= num_sylls - 4 or len(template) > num_sylls - last_word_sylls + 1:
+            while len(template) <= num_sylls - 4 or len(template) >= num_sylls - last_word_sylls + 1:
                 template = np.random.choice(self.templates_dict[w1_pos], 1).item()
 
         print(template)
