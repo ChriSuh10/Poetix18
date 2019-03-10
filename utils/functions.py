@@ -297,7 +297,7 @@ def search_forward(model, vocab, prob_sequence, sequence, state, session, \
     return checkList
 
 # Modified to incorporate syllables
-def search_back_rhymes(model, vocab, prob_sequence, sequence, state, session, \
+def search_back_meter(model, vocab, prob_sequence, sequence, state, session, \
                 temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
                 TemplateSyllables, dictSyllables):
     def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
