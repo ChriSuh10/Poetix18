@@ -10,7 +10,7 @@ from nltk.corpus import wordnet as wn
 import os
 from six.moves import cPickle
 import requests
-from functions import *
+from .functions import *
 
 class Meta_Poetry_Glove:
     punct = re.compile(r'[^\w\s]')

@@ -8,17 +8,20 @@ from gensim.parsing.preprocessing import remove_stopwords
 import os
 import re
 import random
-from itertools import permutations
+import itertools
 import requests
 import pickle
 
-from model_back import Model as Model_back
-from functions import search_back
+from .model_back import Model as Model_back
+from .functions import search_back
 
 class Limerick_Generate:
 
-    def __init__(self, wv_file='poetic_embeddings.300d.txt', syllables_file='cmudict-0.7b.txt', postag_file='postag_dict_all.p',
-            model_dir='combined_back'):
+    def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
+            syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
+            postag_file='py_files/saved_objects/postag_dict_all.p',
+            model_dir='py_files/models/all_combined_back'):
+        self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
@@ -167,30 +170,32 @@ class Limerick_Generate:
             A tuple of strings that represent the last word in each of the lines
             of the limerick to be generated.
         """
-        # three connection words
-        w_response = requests.get('https://api.datamuse.com/words', params={'rel_rhy': w2}).json()
-        rhyme_nnp = set(d['word'] for d in w_response).intersection(self.pos_to_words['NNP'])
-
         w1 = w3 = w5 = None
         seen_words = set([self.ps.stem(w2)])
 
-        for r in w_response:
-            if r['word'] in self.words_to_pos and self.ps.stem(r['word']) not in seen_words:
-                w5 = r['word']
-                seen_words.add(self.ps.stem(w5))
-                break
-
-        w4 = self.two_word_link(w2, w5, seen_words)
-        seen_words.add(self.ps.stem(w4))
-
+        # Three connection words
+        w_response = requests.get(self.api_url, params={'rel_rhy': w2}).json()
+        rhyme_nnp = set(d['word'] for d in w_response).intersection(self.pos_to_words['NNP'])
+        # Find a word that rhymes with w2 that is a pronoun
         for r in rhyme_nnp:
             if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
                 w1 = r
                 seen_words.add(self.ps.stem(w1))
                 break
 
-        w3_response = requests.get('https://api.datamuse.com/words', params={'rel_rhy': w4}).json()
+        # Any rhyming word
+        for r in w_response:
+            if r['word'] in self.words_to_pos and self.ps.stem(r['word']) not in seen_words:
+                w5 = r['word']
+                seen_words.add(self.ps.stem(w5))
+                break
 
+        # Word relating to w2 and w5
+        w4 = self.two_word_link(w2, w5, seen_words)
+        seen_words.add(self.ps.stem(w4))
+
+        w3_response = requests.get(self.api_url, params={'rel_rhy': w4}).json()
+        # Find word most similar to w4 that rhymes with it
         max_sim = 0
         for r in w3_response:
             if r['word'] not in self.words_to_pos:
@@ -243,7 +248,7 @@ class Limerick_Generate:
             """
             Checks if a template and syllable mapping are compatible.
             """
-            for i in range(len(template)):
+            for i in range(len(template) - 1):
                 # Add in zeros to account for punctuation
                 if template[i] == ',' or template[i] == '.':
                     sylls.insert(i, 0)
@@ -253,11 +258,14 @@ class Limerick_Generate:
         syllables_left = num_sylls - last_word_sylls
         # Punctuation takes up no syllables, so subtract to get number of partitions
         num_zero_sylls = sum(1 if pos == '.' or pos == ',' else 0 for pos in template)
-        num_words_left = len(template) - num_zero_sylls
+        num_words_left = len(template) - num_zero_sylls - 1
+
         for partition in get_all_partition_size_n(syllables_left, num_words_left):
             # Goes through all permutations by index, not numbers,
             # inefficient implementation
-            for perm in random.shuffle(permutations(partition)):
+            permutations = list(itertools.permutations(partition))
+            random.shuffle(permutations)
+            for perm in permutations:
                 perm = list(perm)
                 # Last word is fixed
                 perm.append(last_word_sylls)
@@ -295,7 +303,7 @@ class Limerick_Generate:
             w1_pos = self.words_to_pos[w1][0]
             template = []
             # Assumes template of length temp_len exists
-            while len(template) <= num_sylls - 4 or len(template) >= num_sylls - last_word_sylls + 1:
+            while len(template) <= num_sylls - 2 or len(template) >= num_sylls - last_word_sylls + 1:
                 template = np.random.choice(self.templates_dict[w1_pos], 1).item()
 
         print(template)
@@ -323,10 +331,71 @@ class Limerick_Generate:
                 state = sess.run(model.initial_state)
                 init_score = np.array([[0]])
 
-                lst = search_back(model, vocab, init_score,[w1],state, sess, 1,
+                # This is where the candidate lines are generated
+                lst = search_back_meter(model, vocab, init_score,[w1],state, sess, 1,
                     self.words_to_pos, self.width, self.word_pools[word_pool_ind],
                     self.pos_to_words, template, template_sylls, self.dict_meters)
+                # Sort each candidate line by score
                 lst.sort(key=lambda x: x[0], reverse = True)
             else:
                 raise IOError('No checkpoint')
         return template, lst
+
+    def gen_poem_independent(self, seed_word, first_line_sylls):
+        """
+        Takes a seed word and then generates five storyline words to be used as
+        the last word of each line. For each line, a template is sampled and
+        syllable restrictions are placed, and each line is generated independently
+        from the others.
+
+        Parameters
+        ----------
+        seed_word : str
+            The seed word from which the other four words are sourced. This word
+            will be used as the last word in the second line.
+        first_line_sylls : int
+            Sum of syllables contained in the first line. The syllable count for
+            every other line is calculated from this value.
+
+        Returns
+        -------
+        list
+            A list of tuples containing (line, score, template), with each index
+            of the tuple corresponding to its position within the limerick.
+        """
+        five_words = self.get_five_words(seed_word)
+
+        lines = []
+        third_line_sylls = first_line_sylls - 4
+        for i, w in enumerate(five_words):
+            # Set number of syllables from generated line dependent on which
+            # line is being generated
+            if i in [0, 1, 4]:
+                this_line_sylls = first_line_sylls
+            else:
+                this_line_sylls = third_line_sylls
+
+            t, out = self.gen_line(w, num_sylls=this_line_sylls)
+
+            this_line = out[0][1][1]
+            this_score = out[0][0].item() / len(this_line)
+            lines.append((this_line, this_score, t))
+        return lines
+
+    def print_poem(self, seed_word, gen_func, *args):
+        """
+        Simple utility function to print out the generated poem as well along
+        with its score and template.
+
+        Parameters
+        ----------
+        seed_word : str
+            The seed word to be used in generating the limerick.
+        gen_func : function
+            The function to be used in generating the limerick.
+        *args : dict
+            The parameters to be passed to the generation funciton.
+        """
+        for line, score, template in gen_func(*args):
+            print('{:60} line score: {:2.3f}'.format(' '.join(line), score))
+            print(template)

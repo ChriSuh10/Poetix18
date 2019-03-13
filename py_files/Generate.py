@@ -11,11 +11,9 @@ import random
 import time
 import os
 
-from model_back import Model as Model_back
-from model_forw import Model as Model_forw
-from functions import *
-
-
+from .model_back import Model as Model_back
+from .model_forw import Model as Model_forw
+from .functions import *
 
 from gensim.parsing.preprocessing import remove_stopwords
 from nltk.corpus import wordnet as wn
@@ -24,17 +22,28 @@ from six.moves import cPickle
 import requests
 
 class Generate:
-    def __init__(self, wv_file=None, wv=None, save_dir_back="frost_model"):
+    def __init__(self, wv_file=None, wv=None, save_dir="py_files/models/all_combined_forward",
+            save_dir_back="py_files/models/all_combined_back", input="py_files/models/data/combined/input.txt",
+            postag_file="py_files/saved_objects/postag_dict_all.p"):
         #LOAD DIRECTORY OF MODELS
-        text_list = [("data/all_combined/input.txt","all_combined_forward"),("data\all_combined\input.txt","all_combined_back")]
+        text_list = [("models/data/combined/input.txt","models/all_combined_forward"),
+            ("models/data/combined/input.txt","models/all_combined_back")]
         #np.random.shuffle(text_list)
         t = text_list[0][0] #THIS TEXT IS THE VOCAB!
         self.save_dir = text_list[0][1] #directory for forward model
         t_back=text_list[1][0]
         self.save_dir_back=text_list[1][1]#directory for backwards model
 
+        # Gross hacky workaround to make things work with notebooks/new directory structure
+        if input is not None:
+            t = input
+        if save_dir is not None:
+            self.save_dir = save_dir
+        if save_dir_back is not None:
+            self.save_dir_back = save_dir_back
+
         if wv_file is None and wv is None:
-            raise ValueError('Must specify workd vectors')
+            raise ValueError('Must specify word vectors')
 
         # load glove to a gensim model
         if wv is not None:
@@ -70,7 +79,7 @@ class Generate:
         vowels = ["AA", "AE", "AH", "AO", "AW", "AY", "EH", "ER", "EY", "IH", "IY", "OW", "OY", "UH", "UW"]
         self.width = 20
         self.wordPools = [set([]) for n in range(4)]
-        with open('postag_dict_all.p', 'rb') as f:
+        with open(postag_file, 'rb') as f:
             self.postag_dict = pickle.load(f)
 
         self.PartOfSpeachSet=self.postag_dict[1]
@@ -103,8 +112,8 @@ class Generate:
     def get_template_pos(self):
         return self.TemplatePOS
 
-        
-        
+
+
 
 #return list of generated lines with their states and scores. Sorted by scores.
 #inputs: LAST word in the line, template POS. Optional: initial state and initial score
@@ -183,7 +192,7 @@ class Generate:
                     state=init_state
                 if type(init_score)==type(None):
                     init_score = np.array([[0]])
-                #function in functions.py 
+                #function in functions.py
                 lst = search_forward(model, vocab, init_score,[word_last],state, sess, 1,\
                                   self.dictPartSpeechTags,self.dictPossiblePartsSpeech,self.width,self.wordPools[wordPool_ind], self.PartOfSpeachSet, TemplatePOS)
                 lst.sort(key=itemgetter(0), reverse = True)
@@ -413,7 +422,7 @@ class Generate:
 
 
         return template, tt_4
-        
+
 #similar to generate_line but without manual templates
     def generate_line_2(self, word1, word2, template=None):
         nouns=[word1, word2]
@@ -641,8 +650,8 @@ class Generate:
         line = self.insert_collocations(template, line, collocations)
 
         return postag, line
-        
-        
+
+
 #generate last line for limericks
 #fourth_line: list of words of the fourth line
 #next_word: last word of 5th line
@@ -658,7 +667,7 @@ class Generate:
                     score_adjust += decr
                 decr += scale/10 #decreases penalty as the words keep getting further from the new word
             return score_adjust
-            
+
         #load forward model
         tf.reset_default_graph()
         with open(os.path.join(self.save_dir, 'config.pkl'), 'rb') as f:
