@@ -13,7 +13,8 @@ import requests
 import pickle
 
 from .model_back import Model as Model_back
-from .functions import search_back
+from .functions import search_back, search_back_meter
+from .templates import get_templates
 
 class Limerick_Generate:
 
@@ -380,6 +381,45 @@ class Limerick_Generate:
             this_line = out[0][1][1]
             this_score = out[0][0].item() / len(this_line)
             lines.append((this_line, this_score, t))
+        return lines
+        
+    def gen_poem_independent_matias(self, seed_word, first_line_sylls):
+        five_words = self.get_five_words(seed_word)
+        lines = []
+        third_line_sylls = first_line_sylls - 4
+
+        dataset, second_line_, third_line_, last_two_lines=get_templates()
+        templates=[]
+        
+        #try: 
+        #templates 2nd line:
+        templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
+        #templates 3rd line
+        templates.append(random.choice(third_line_[self.words_to_pos[five_words[2]][0]]))
+        #templates 4th line
+        key=self.words_to_pos[five_words[3]][0]+'-'+self.words_to_pos[five_words[4]][0]
+        temp=random.choice(last_two_lines[key])
+        templates.append((temp[0][:temp[2]+1], temp[1][:temp[2]+1]))
+        #templates 5th line
+        templates.append((temp[0][temp[2]+1:], temp[1][temp[2]+1:]))
+        #except:
+        #    print('POS Not in dataset of templates')
+        #    return None
+        for i, w in enumerate(five_words):
+            # Set number of syllables from generated line dependent on which
+            # line is being generated
+            if i==0:
+                continue
+            if i in [0, 1, 4]:
+                this_line_sylls = first_line_sylls
+            else:
+                this_line_sylls = third_line_sylls
+
+            t, out = self.gen_line(w, num_sylls=this_line_sylls, template=templates[i-1][0])
+
+            this_line = out[0][1][1]
+            this_score = out[0][0].item() / len(this_line)
+            lines.append((this_line, this_score, t, templates[i-1][1]))
         return lines
 
     def print_poem(self, seed_word, gen_func, *args):
