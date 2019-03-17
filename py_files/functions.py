@@ -344,7 +344,7 @@ def search_back_meter(model, vocab, prob_sequence, sequence, state, session, \
             # If cannot get syllables, don't use
             if (word not in dictSyllables):
                 continue
-            if len(dictSyllables[word][0]) != TemplateSyllables[-len(sequence) - 1]:
+            if word not in ('.', ',') and len(dictSyllables[word][0]) != TemplateSyllables[-len(sequence) - 1]:
                 continue
             #FACTORS IN SCORE ADJUSTMENTS
             score_adjust = decayRepeat(word, sequence, 100*scale) #repeats
@@ -363,6 +363,7 @@ def search_back_meter(model, vocab, prob_sequence, sequence, state, session, \
         if len(ret) < 1:
             print(sequence)
             print(TemplatePOS)
+            print(TemplateSyllables )
         return ret
     masterPQ = Q.PriorityQueue()
     checkList = []

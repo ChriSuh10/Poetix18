@@ -13,14 +13,14 @@ import requests
 import pickle
 
 from .model_back import Model as Model_back
-from .functions import search_back
+from .functions import search_back_meter
 
 class Limerick_Generate:
 
     def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
             syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
             postag_file='py_files/saved_objects/postag_dict_all.p',
-            model_dir='py_files/models/all_combined_back'):
+            model_dir='py_files/models/combined_back'):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
@@ -74,6 +74,8 @@ class Limerick_Generate:
                 else:
                     if(chars not in self.dict_meters[newLine[0]]):
                         self.dict_meters[newLine[0]]+=[chars]
+            self.dict_meters[','] = ['']
+            self.dict_meters['.'] = ['']
 
     def create_pos_syllables(self):
         """
@@ -94,8 +96,8 @@ class Limerick_Generate:
 
     def create_templates_dict(self, templates):
         """
-        Creates a mapping from eery pos encountered in the corpus to a list of
-        templates ending with that pos.
+        Creates a mapping from every (pos, length of line) encountered in the
+        corpus to a list of templates ending with that pos and length.
 
         Parameters
         ----------
@@ -106,10 +108,12 @@ class Limerick_Generate:
         self.templates_dict = {}
         for l in templates.values():
             for t, _ in l:
+                if len(t) > 15:
+                    continue
                 ending_pos = t[-1]
-                if ending_pos not in self.templates_dict:
-                    self.templates_dict[ending_pos] = []
-                self.templates_dict[ending_pos].append(t)
+                if (ending_pos, len(t)) not in self.templates_dict:
+                    self.templates_dict[(ending_pos, len(t))] = []
+                self.templates_dict[(ending_pos, len(t))].append(t)
 
     def two_word_link(self, w1, w2, seen_words):
         """
@@ -272,6 +276,64 @@ class Limerick_Generate:
                 if valid_syll(perm, template):
                     return perm
 
+    def run_gen_model_back(self, seq, template, template_sylls, state=None, score=None):
+        """
+        Wrapper function to allow easy access to the model for generating new
+        lines, or lines conditioned on previously generated lines.
+
+        Parameters
+        ----------
+        seq : list
+            A list of str that represent the currently generated words. This list
+            will match up with the template from right to left.
+        template : list
+            A list of str that have pos encodings for every word that has been
+            generated or will be generated in the line.
+        template_sylls : list
+            A list of ints that represents the number of syllables that each word
+            in the line will have.
+
+        Returns
+        -------
+        array
+            A large array containing many things, including the state of the
+            model, the score of the line, and the line itself for the top n lines.
+            The score can be indexed by [0][0].item, and the line by [0][1][1]
+        """
+        tf.reset_default_graph()
+        with open(os.path.join(self.model_dir, 'config.pkl'), 'rb') as f:
+            saved_args = pickle.load(f)
+        with open(os.path.join(self.model_dir, 'words_vocab.pkl'), 'rb') as f:
+            word_keys, vocab = pickle.load(f)
+        model = Model_back(saved_args, True)
+        with tf.Session() as sess:
+            tf.global_variables_initializer().run()
+            saver = tf.train.Saver(tf.global_variables())
+            ckpt = tf.train.get_checkpoint_state(self.model_dir)
+            if ckpt and ckpt.model_checkpoint_path:
+                saver.restore(sess, ckpt.model_checkpoint_path)
+                word_pool_ind = 0
+                if state is None:
+                    state = sess.run(model.initial_state)
+                if score is None:
+                    score = np.array([[0]])
+
+                # This is where the candidate lines are generated
+                lst = search_back_meter(model, vocab, score, seq ,state, sess, 1,
+                    self.words_to_pos, self.width, self.word_pools[word_pool_ind],
+                    self.pos_to_words, template, template_sylls, self.dict_meters)
+                # Sort each candidate line by score
+                lst.sort(key=lambda x: x[0], reverse = True)
+            else:
+                raise IOError('No model checkpoint')
+        return lst
+
+    def get_rand_template(self, num_sylls, last_word):
+        last_pos = self.words_to_pos[last_word][0]
+        last_word_sylls = len(self.dict_meters[last_word][0])
+        temp_len = num_sylls - last_word_sylls
+        return random.choice(self.templates_dict[(last_pos, temp_len)])
+
     def gen_line(self, w1, template=None, num_sylls=10):
         """
         Generetes a single line, backwards from the given word, with restrictions
@@ -298,47 +360,23 @@ class Limerick_Generate:
             model, the score of the line, and the line itself for the top n lines.
             The score can be indexed by [0][0].item, and the line by [0][1][1]
         """
-        last_word_sylls = len(self.dict_meters[w1][0])
+
         if template is None:
-            w1_pos = self.words_to_pos[w1][0]
-            template = []
-            # Assumes template of length temp_len exists
-            while len(template) <= num_sylls - 2 or len(template) >= num_sylls - last_word_sylls + 1:
-                template = np.random.choice(self.templates_dict[w1_pos], 1).item()
+            template = self.get_rand_template(num_sylls, w1)
+            # temp_len = random.randint(num_sylls - last_word_sylls - 1, num_sylls - last_word_sylls)
+            # template = random.choice(self.templates_dict[(w1_pos, temp_len)])
 
         print(template)
         # Assign syllables to each pos in template
+        last_word_sylls = len(self.dict_meters[w1][0])
         template_sylls = self.valid_permutation_sylls(num_sylls, template, last_word_sylls)
 
         if template_sylls is None:
             raise ValueError('Cannot construct valid meter using template')
 
-        tf.reset_default_graph()
-        with open(os.path.join(self.model_dir, 'config.pkl'), 'rb') as f:
-            saved_args = pickle.load(f)
-        with open(os.path.join(self.model_dir, 'words_vocab.pkl'), 'rb') as f:
-            word_keys, vocab = pickle.load(f)
-        model = Model_back(saved_args, True)
-        with tf.Session() as sess:
-            tf.global_variables_initializer().run()
-            saver = tf.train.Saver(tf.global_variables())
-            ckpt = tf.train.get_checkpoint_state(self.model_dir)
-            if ckpt and ckpt.model_checkpoint_path:
-                saver.restore(sess, ckpt.model_checkpoint_path)
-                poem = []
-                line_num = 0
-                word_pool_ind = 0
-                state = sess.run(model.initial_state)
-                init_score = np.array([[0]])
+        seq = [w1]
+        lst = self.run_gen_model_back(seq, template, template_sylls)
 
-                # This is where the candidate lines are generated
-                lst = search_back_meter(model, vocab, init_score,[w1],state, sess, 1,
-                    self.words_to_pos, self.width, self.word_pools[word_pool_ind],
-                    self.pos_to_words, template, template_sylls, self.dict_meters)
-                # Sort each candidate line by score
-                lst.sort(key=lambda x: x[0], reverse = True)
-            else:
-                raise IOError('No checkpoint')
         return template, lst
 
     def gen_poem_independent(self, seed_word, first_line_sylls):
@@ -366,7 +404,7 @@ class Limerick_Generate:
         five_words = self.get_five_words(seed_word)
 
         lines = []
-        third_line_sylls = first_line_sylls - 4
+        third_line_sylls = first_line_sylls - 3
         for i, w in enumerate(five_words):
             # Set number of syllables from generated line dependent on which
             # line is being generated
@@ -382,6 +420,38 @@ class Limerick_Generate:
             lines.append((this_line, this_score, t))
         return lines
 
+    def gen_poem_conditioned(self, seed_word, second_line_sylls):
+        five_words = self.get_five_words(seed_word)
+
+        t2, o2 = self.gen_line(five_words[1], num_sylls=second_line_sylls)
+        line2 = o2[0][1][1]
+        score2 = o2[0][0].item() / len(line2)
+        state2 = o2[0][1][0][1]
+        t4, o4 = self.gen_line(five_words[3], num_sylls=second_line_sylls - 3)
+        line4 = o4[0][1][1]
+        score4 = o4[0][0].item() / len(line4)
+        state4 = o4[0][1][0][1]
+        t5, o5 = self.gen_line(five_words[4], num_sylls=second_line_sylls)
+        line5 = o5[0][1][1]
+        score5 = o5[0][0].item() / len(line5)
+
+        t1 = self.get_rand_template(second_line_sylls, five_words[0])
+        t3 = self.get_rand_template(second_line_sylls - 3, five_words[2])
+
+        o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
+        line1 = o1[0][1][1]
+        score1 = o1[0][0] / len(line1)
+        o3 = self.run_gen_model_back(line4, t3, second_line_sylls - 3, state=state4, score=score4)
+        line3 = o3[0][1][1]
+        score3 = o3[0][0] / len(line3)
+
+        lines = []
+        for i in range(1, 6):
+            num_as_str = str(i)
+            this_line = (locals()['line' + num_as_str], locals()['score' + num_as_str], locals()['t' + num_as_str])
+            lines.append(this_line)
+        return lines
+
     def print_poem(self, seed_word, gen_func, *args):
         """
         Simple utility function to print out the generated poem as well along
@@ -393,9 +463,12 @@ class Limerick_Generate:
             The seed word to be used in generating the limerick.
         gen_func : function
             The function to be used in generating the limerick.
-        *args : dict
-            The parameters to be passed to the generation funciton.
+        *args
+            The parameters to be passed to the generation funciton, not including
+            seed_word, which will be automatically passed.
         """
-        for line, score, template in gen_func(*args):
+        gen = gen_func(seed_word, *args)
+        print('')
+        for line, score, template in gen:
             print('{:60} line score: {:2.3f}'.format(' '.join(line), score))
             print(template)
