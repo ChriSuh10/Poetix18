@@ -200,6 +200,196 @@ def simple_clean(string):
         return string.strip().lower()
 
 
+# modified to incorporate syllables
+def search_forward_meter(model, vocab, prob_sequence, sequence, state, session, \
+                temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                TemplateSyllables, dictSyllables):
+    def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
+                    temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                    TemplateSyllables, dictSyllables):
+        def decayRepeat(word,sequence, scale):
+            safe_repeat_words = []
+            #safe_repeat_words = set(["with,the,of,in,i"])
+            score_adjust = 0
+            decr = -scale
+            for w in range(len(sequence)):
+                if(word==sequence[w] and word not in safe_repeat_words):
+                    score_adjust += decr
+                decr += scale/10 #decreases penalty as the words keep getting further from the new word
+            return score_adjust
+        def partsOfSpeechFilter(word1,word2,dictPartSpeechTags,dictPossiblePartsSpeech):
+            okay_tags = set(["RB","RBR","RBS"]) #THESE ARE THE ADVERBS
+            try:
+                tag1 = dictPartSpeechTags[word1]
+            except KeyError:
+                return True
+            try:
+
+                tag2 = dictPartSpeechTags[word2]
+            except KeyError:
+                return True
+            #if(tag1==tag2 and tag1 not in okay_tags):
+            #    return True
+            if(tag1 not in dictPossiblePartsSpeech[tag2]):
+                return True
+            else:
+                return False
+        if(len(sequence)==len(TemplatePOS)):
+            return("begin_line")
+        ret = []
+        scale = .02 #scale is the significant magnitude required to affect the score of bad/good things
+        dist, state = model.compute_fx(session, vocab, prob_sequence, sequence, state, temp)
+        #for pred_stress in list(fsaLine[post_stress].prevs):
+        word_set = set([])
+        #print (len(sequence))
+        for word in list(set(PartOfSpeachSet[TemplatePOS[len(sequence)]])):
+            #PREVENTS REPEAT ADJACENT WORDS OR PROBLEM-TAGGED WORDS
+            if(word == sequence[-1]):
+                continue
+            # if(partsOfSpeechFilter(sequence[-1],word,dictPartSpeechTags,dictPossiblePartsSpeech)):
+            #     continue
+            if (word not in dictSyllables):
+                continue
+            if word not in ('.', ',') and len(dictSyllables[word][0]) != TemplateSyllables[len(sequence)]:
+                continue
+            #FACTORS IN SCORE ADJUSTMENTS
+            score_adjust = decayRepeat(word, sequence, 100*scale) #repeats
+            score_adjust += scale*len(word)/50 #length word
+            if(word in wordPool):
+                score_adjust += scale
+            #CALCULATES ACTUAL SCORE
+            key = np.array([[vocab[word]]])
+            new_prob = dist[key]
+            score_tuple = (new_prob, state)
+            score_tup = (score_tuple[0]+score_adjust,score_tuple[1]) #NOTE SHOULD SCORE_ADJUST BE ADDED HERE OR JUST IN THE ITEM LINE?
+            item = (score_tup[0],(score_tup, sequence+[word]))
+            if(item[0]==[[-float("inf")]]):
+                continue
+            ret+=[item]
+        return ret
+    masterPQ = Q.PriorityQueue()
+    checkList = []
+    checkSet = set([])
+    score_tuple = (prob_sequence, state)
+    first = (score_tuple[0],(score_tuple, sequence))
+    masterPQ.put(first)#initial case
+    set_explored = set([])
+    while(not masterPQ.empty()):
+        depthPQ = Q.PriorityQueue()
+        while(not masterPQ.empty()):
+            try:
+                next_search = masterPQ.get()
+            except:
+                continue
+            possible_branches = beamSearchOneLevel(model, vocab, next_search[1][0][0], next_search[1][1],\
+                                next_search[1][0][1], session, temp,\
+                                dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS)
+            if(possible_branches == "begin_line"):
+                checkList+=[next_search]
+                continue
+            for branch in possible_branches:
+                if(branch == []):
+                    continue
+                test = tuple(branch[1][1]) #need to make sure each phrase is being checked uniquely (want it to be checked once in possible branches then never again)
+                if(test in set_explored):
+                    continue
+                set_explored.add(test)
+                depthPQ.put(branch)
+                try:
+                    if(depthPQ.qsize()>breadth):
+                        depthPQ.get()
+                except:
+                    pass
+        masterPQ = depthPQ
+    return checkList
+
+# Modified to incorporate syllables
+def search_back_meter(model, vocab, prob_sequence, sequence, state, session, \
+                temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                TemplateSyllables, dictSyllables):
+    def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
+                    temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
+                    TemplateSyllables, dictSyllables):
+        def decayRepeat(word,sequence, scale):
+            safe_repeat_words = []
+            #safe_repeat_words = set(["with,the,of,in,i"])
+            score_adjust = 0
+            decr = -scale
+            for w in range(len(sequence)):
+                if(word==sequence[w] and word not in safe_repeat_words):
+                    score_adjust += decr
+                decr += scale/10 #decreases penalty as the words keep getting further from the new word
+            return score_adjust
+        if(len(sequence)==len(TemplatePOS)):
+            return("begin_line")
+        ret = []
+        scale = .02 #scale is the significant magnitude required to affect the score of bad/good things
+        dist, state = model.compute_fx(session, vocab, prob_sequence, sequence, state, temp)
+        #for pred_stress in list(fsaLine[post_stress].prevs):
+        word_set = set([])
+        #print (len(sequence))
+        for word in list(set(PartOfSpeachSet[TemplatePOS[-len(sequence) - 1]])):
+            #PREVENTS REPEAT ADJACENT WORDS OR PROBLEM-TAGGED WORDS
+            if(word == sequence[0]):
+                continue
+            if (word not in dictSyllables):
+                continue
+            if word not in ('.', ',') and len(dictSyllables[word][0]) != TemplateSyllables[-len(sequence) - 1]:
+                continue
+            #FACTORS IN SCORE ADJUSTMENTS
+            score_adjust = decayRepeat(word, sequence, 100*scale) #repeats
+            score_adjust += scale*len(word)/50 #length word
+            if(word in wordPool):
+                score_adjust += scale
+            #CALCULATES ACTUAL SCORE
+            key = np.array([[vocab[word]]])
+            new_prob = dist[key]
+            score_tuple = (new_prob, state)
+            score_tup = (score_tuple[0]+score_adjust,score_tuple[1]) #NOTE SHOULD SCORE_ADJUST BE ADDED HERE OR JUST IN THE ITEM LINE?
+            item = (score_tup[0],(score_tup, [word]+sequence))
+            if(item[0]==[[-float("inf")]]):
+                continue
+            ret+=[item]
+        if len(ret) < 1:
+            print(sequence)
+            print(TemplatePOS)
+        return ret
+    masterPQ = Q.PriorityQueue()
+    checkList = []
+    checkSet = set([])
+    score_tuple = (prob_sequence, state)
+    first = (score_tuple[0],(score_tuple, sequence))
+    masterPQ.put(first)#initial case
+    set_explored = set([])
+    while(not masterPQ.empty()):
+        depthPQ = Q.PriorityQueue()
+        while(not masterPQ.empty()):
+            try:
+                next_search = masterPQ.get()
+            except:
+                continue
+            possible_branches = beamSearchOneLevel(model, vocab, next_search[1][0][0], next_search[1][1],\
+                                next_search[1][0][1], session, temp,\
+                                dictPartSpeechTags,breadth, wordPool, PartOfSpeachSet, TemplatePOS,\
+                                TemplateSyllables, dictSyllables)
+            if(possible_branches == "begin_line"):
+                checkList+=[next_search]
+                continue
+            for branch in possible_branches:
+                if(branch == []):
+                    continue
+                test = tuple(branch[1][1]) #need to make sure each phrase is being checked uniquely (want it to be checked once in possible branches then never again)
+                if(test in set_explored):
+                    continue
+                set_explored.add(test)
+                depthPQ.put(branch)
+                try:
+                    if(depthPQ.qsize()>breadth):
+                        depthPQ.get()
+                except:
+                    pass
+        masterPQ = depthPQ
+    return checkList
 
 def search_forward(model, vocab, prob_sequence, sequence, state, session, \
                 temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS):
@@ -296,112 +486,6 @@ def search_forward(model, vocab, prob_sequence, sequence, state, session, \
                     pass
         masterPQ = depthPQ
     return checkList
-
-# Modified to incorporate syllables
-def search_back_meter(model, vocab, prob_sequence, sequence, state, session, \
-                temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
-                TemplateSyllables, dictSyllables):
-    def beamSearchOneLevel(model, vocab, prob_sequence, sequence, state, session, \
-                    temp, dictPartSpeechTags, breadth, wordPool, PartOfSpeachSet, TemplatePOS,
-                    TemplateSyllables, dictSyllables):
-        def decayRepeat(word,sequence, scale):
-            safe_repeat_words = []
-            #safe_repeat_words = set(["with,the,of,in,i"])
-            score_adjust = 0
-            decr = -scale
-            for w in range(len(sequence)):
-                if(word==sequence[w] and word not in safe_repeat_words):
-                    score_adjust += decr
-                decr += scale/10 #decreases penalty as the words keep getting further from the new word
-            return score_adjust
-        def partsOfSpeechFilter(word1,word2,dictPartSpeechTags,dictPossiblePartsSpeech):
-            okay_tags = set(["RB","RBR","RBS"]) #THESE ARE THE ADVERBS
-            try:
-                tag1 = dictPartSpeechTags[word1][0]
-            except KeyError:
-                return True
-            tag2 = dictPartSpeechTags[word2][0]
-            #if(tag1==tag2 and tag1 not in okay_tags):
-            #    return True
-            if(tag1 not in dictPossiblePartsSpeech[tag2]):
-                return True
-            else:
-                return False
-        if(len(sequence)==len(TemplatePOS)):
-            return("begin_line")
-        ret = []
-        scale = .02 #scale is the significant magnitude required to affect the score of bad/good things
-        dist, state = model.compute_fx(session, vocab, prob_sequence, sequence, state, temp)
-        #for pred_stress in list(fsaLine[post_stress].prevs):
-        word_set = set([])
-        #print (len(sequence))
-        for word in list(set(PartOfSpeachSet[TemplatePOS[-len(sequence) - 1]])):
-            #PREVENTS REPEAT ADJACENT WORDS OR PROBLEM-TAGGED WORDS
-            if(word == sequence[0]):
-                continue
-            # if(partsOfSpeechFilter(word,sequence[0],dictPartSpeechTags,dictPossiblePartsSpeech)):
-            #     continue
-            # If cannot get syllables, don't use
-            if (word not in dictSyllables):
-                continue
-            if word not in ('.', ',') and len(dictSyllables[word][0]) != TemplateSyllables[-len(sequence) - 1]:
-                continue
-            #FACTORS IN SCORE ADJUSTMENTS
-            score_adjust = decayRepeat(word, sequence, 100*scale) #repeats
-            score_adjust += scale*len(word)/50 #length word
-            if(word in wordPool):
-                score_adjust += scale
-            #CALCULATES ACTUAL SCORE
-            key = np.array([[vocab[word]]])
-            new_prob = dist[key]
-            score_tuple = (new_prob, state)
-            score_tup = (score_tuple[0]+score_adjust,score_tuple[1]) #NOTE SHOULD SCORE_ADJUST BE ADDED HERE OR JUST IN THE ITEM LINE?
-            item = (score_tup[0],(score_tup, [word]+sequence))
-            if(item[0]==[[-float("inf")]]):
-                continue
-            ret+=[item]
-        if len(ret) < 1:
-            print(sequence)
-            print(TemplatePOS)
-        return ret
-    masterPQ = Q.PriorityQueue()
-    checkList = []
-    checkSet = set([])
-    score_tuple = (prob_sequence, state)
-    first = (score_tuple[0],(score_tuple, sequence))
-    masterPQ.put(first)#initial case
-    set_explored = set([])
-    while(not masterPQ.empty()):
-        depthPQ = Q.PriorityQueue()
-        while(not masterPQ.empty()):
-            try:
-                next_search = masterPQ.get()
-            except:
-                continue
-            possible_branches = beamSearchOneLevel(model, vocab, next_search[1][0][0], next_search[1][1],\
-                                next_search[1][0][1], session, temp,\
-                                dictPartSpeechTags,breadth, wordPool, PartOfSpeachSet, TemplatePOS,\
-                                TemplateSyllables, dictSyllables)
-            if(possible_branches == "begin_line"):
-                checkList+=[next_search]
-                continue
-            for branch in possible_branches:
-                if(branch == []):
-                    continue
-                test = tuple(branch[1][1]) #need to make sure each phrase is being checked uniquely (want it to be checked once in possible branches then never again)
-                if(test in set_explored):
-                    continue
-                set_explored.add(test)
-                depthPQ.put(branch)
-                try:
-                    if(depthPQ.qsize()>breadth):
-                        depthPQ.get()
-                except:
-                    pass
-        masterPQ = depthPQ
-    return checkList
-
-
 
 def search_back(model, vocab, prob_sequence, sequence, state, session, \
                 temp, dictPartSpeechTags,dictPossiblePartsSpeech, breadth, wordPool, PartOfSpeachSet, TemplatePOS):
