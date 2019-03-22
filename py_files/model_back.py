@@ -203,8 +203,10 @@ class Model():
         
         [probs, state] = sess.run([self.probs, self.final_state],
                                     feed)
-        
-        dist = p.squeeze() + np.log(probs.squeeze())        
+        try:
+            dist = p.squeeze() + np.log(probs.squeeze())
+        except AttributeError:
+            dist = p + np.log(probs.squeeze())
         
         return dist.squeeze(), state
     
