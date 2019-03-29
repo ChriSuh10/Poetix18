@@ -550,9 +550,9 @@ class Limerick_Generate:
                 this_line_sylls = third_line_sylls
                 out = self.gen_best_line(w, num_sylls=this_line_sylls, set_of_templates=third_line_)
             elif i==3:
-                out = self.gen_best_line(w, num_sylls=third_line_sylls, templates=fourth_line)
+                out = self.gen_best_line(w, num_sylls=third_line_sylls, templates=fourth)
             elif i==4:
-                 out = self.gen_best_line(w, num_sylls=first_line_sylls, templates=fifth_line)
+                 out = self.gen_best_line(w, num_sylls=first_line_sylls, templates=fifth)
             if out is None or out==[]:
                 raise ValueError
             print (out)
