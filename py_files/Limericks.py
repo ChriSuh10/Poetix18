@@ -610,7 +610,10 @@ class Limerick_Generate:
             print (state5)
             score_for4, state_for4=self.compute_next_state(state5, score5, line5)
             o4 = self.gen_best_line(five_words[3], num_sylls=second_line_sylls-3, templates=[line_4], state=state_for4, score=score_for4)
-            last.append((o4[0], (line5, score5, line_5[2]), o4[1]))
+            try:
+                last.append((o4[0], (line5, score5, line_5[2]), o4[1]))
+            except:
+                continue
         last.sort(key=lambda x: x[2], reverse = True)
         line4=last[0][0][0]
         score4=last[0][0][1]
