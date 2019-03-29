@@ -276,6 +276,8 @@ class Limerick_Generate:
                 perm.append(last_word_sylls)
                 if valid_syll(perm, template):
                     return perm
+    def gen_line_two_words(self, w1, w2, template=None):
+        pass
 
     def run_gen_model_back(self, seq, template, template_sylls, state=None, score=None):
         """
@@ -351,7 +353,7 @@ class Limerick_Generate:
                 next_score, next_state=model.compute_fx(sess, vocab, score, seq, state, 1)
         return next_score, next_state
 
-    def gen_line(self, w1, template=None, num_sylls=10, state=None, score=None):
+    def gen_line(self, w1, template=None,num_sylls=10, state=None, score=None):
         """
         Generetes a single line, backwards from the given word, with restrictions
         as given by the provided template, number of syllables in the line.
@@ -398,6 +400,66 @@ class Limerick_Generate:
             lst = self.run_gen_model_back(seq, template, template_sylls)
 
         return template, lst
+    
+    def gen_best_line(self, w1, pos=None, templates=None, set_of_templates=None, rand_templates=5, num_sylls=10, state=None, score=None, return_state=False):
+        """
+        Generetes a single line by choosing the best of 10 lines whose templates were randomly selected,
+        backwards from the given word, with restrictions
+        as given by the provided template, number of syllables in the line.
+
+        Parameters
+        ----------
+        w1 : str
+            The last word in the line, used to generate backwards from.
+        template : list, optional
+            A list containing pos tags for each word in the line. If None, a
+            random template will be sampled from the set of templates ending with
+            a pos matching the pos of w1.
+        num_sylls : int, optional
+            If template is None, then a template that has a length close to the
+            number of syllables required will be randomly sampled.
+
+        Returns
+        -------
+        template : list
+            The template that was used to generate the line.
+        lst : array
+            A large array containing many things, including the state of the
+            model, the score of the line, and the line itself for the top n lines.
+            The score can be indexed by [0][0].item, and the line by [0][1][1]
+        """
+        if pos is None:
+            pos=self.words_to_pos[w1][0]
+        if templates is None and set_of_templates is not None:
+            try:
+                t=set_of_templates[pos]
+            except KeyError:
+                print('No templates for POS')
+                raise ValueError('No lines can be constructed')
+            n_templates=min(len(t), rand_templates)
+            templates=random.sample(t, k=n_templates)
+            #template = self.get_rand_template(num_sylls, w1)
+            # temp_len = random.randint(num_sylls - last_word_sylls - 1, num_sylls - last_word_sylls)
+            # template = random.choice(self.templates_dict[(w1_pos, temp_len)])
+
+        # Assign syllables to each pos in template
+        lines=[]
+        for template in templates:
+            try:
+                t, line=self.gen_line(w1, template=template[0],num_sylls=num_sylls, state=state, score=score)
+                this_line = line[0][1][1]
+                this_score = line[0][0].item() / len(this_line)
+                if return_state:
+                    lines.append((this_line, this_score, t, template[1],  line[0][1][0][1]))
+                else:
+                    lines.append((this_line, this_score, t, template[1]))
+            except:
+                continue
+        lines.sort(key=lambda x: x[1], reverse = True)
+        if len(lines)==0:
+            raise ValueError('No lines can be constructed')
+        return lines
+
 
     def gen_poem_independent(self, seed_word, first_line_sylls):
         """
@@ -441,43 +503,60 @@ class Limerick_Generate:
         return lines
         
         
-    def gen_poem_independent_matias(self, seed_word, first_line_sylls):
+    def gen_poem_independent_matias(self, seed_word, first_line_sylls, rand_template=5):
+        def get_templates_last(n, key):
+            _,_1,_2,data=get_templates()
+            df=data[key]
+            min_n=min(n,len(df))
+            t=random.sample(df, k=min_n)
+            fourth=[]
+            fifth=[]
+            for template in t:
+                fourth.append((template[0][:template[2]+1], template[1][:template[2]+1]))
+                fifth.append((template[0][template[2]+1:], template[1][template[2]+1:]))
+            return fourth, fifth
+                              
+            
         five_words = self.get_five_words(seed_word)
         lines = []
         third_line_sylls = first_line_sylls - 4
 
         dataset, second_line_, third_line_, last_two_lines=get_templates()
         templates=[]
-        
         #try: 
         #templates 2nd line:
-        templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
+        #templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
         #templates 3rd line
-        templates.append(random.choice(third_line_[self.words_to_pos[five_words[2]][0]]))
+        #templates.append(random.choice(third_line_[self.words_to_pos[five_words[2]][0]]))
         #templates 4th line
         key=self.words_to_pos[five_words[3]][0]+'-'+self.words_to_pos[five_words[4]][0]
-        temp=random.choice(last_two_lines[key])
-        templates.append((temp[0][:temp[2]+1], temp[1][:temp[2]+1]))
+        #temp=random.choice(last_two_lines[key])
+        #templates.append((temp[0][:temp[2]+1], temp[1][:temp[2]+1]))
         #templates 5th line
-        templates.append((temp[0][temp[2]+1:], temp[1][temp[2]+1:]))
+        #templates.append((temp[0][temp[2]+1:], temp[1][temp[2]+1:]))
         #except:
         #    print('POS Not in dataset of templates')
         #    return None
+        fourth, fifth=get_templates_last(rand_template, key)
         for i, w in enumerate(five_words):
             # Set number of syllables from generated line dependent on which
             # line is being generated
             if i==0:
                 continue
-            if i in [0, 1, 4]:
+            elif i==1:
                 this_line_sylls = first_line_sylls
-            else:
+                out = self.gen_best_line(w, num_sylls=this_line_sylls, set_of_templates=second_line_)
+            elif i==2:
                 this_line_sylls = third_line_sylls
-
-            t, out = self.gen_line(w, num_sylls=this_line_sylls, template=templates[i-1][0])
-
-            this_line = out[0][1][1]
-            this_score = out[0][0].item() / len(this_line)
-            lines.append((this_line, this_score, t, templates[i-1][1]))
+                out = self.gen_best_line(w, num_sylls=this_line_sylls, set_of_templates=third_line_)
+            elif i==3:
+                out = self.gen_best_line(w, num_sylls=third_line_sylls, templates=fourth_line)
+            elif i==4:
+                 out = self.gen_best_line(w, num_sylls=first_line_sylls, templates=fifth_line)
+            if out is None or out==[]:
+                raise ValueError
+            print (out)
+            lines.append(out[0])
         print("************")
         string=''
         for x in lines:
@@ -485,49 +564,73 @@ class Limerick_Generate:
         print(string)
         return lines
 
-    def gen_poem_conditioned(self, seed_word, second_line_sylls):
+    def gen_poem_conditioned(self, seed_word, second_line_sylls, rand_template=5):
         five_words = self.get_five_words(seed_word)
         print('five words are: ')
         print(five_words)
+        def get_templates_last(n, key):
+            _,_1,_2,data=get_templates()
+            df=data[key]
+            min_n=min(n,len(df))
+            t=random.sample(df, k=min_n)
+            fourth=[]
+            fifth=[]
+            for template in t:
+                fourth.append((template[0][:template[2]+1], template[1][:template[2]+1]))
+                fifth.append((template[0][template[2]+1:], template[1][template[2]+1:]))
+            return fourth, fifth
+        
         dataset, second_line_, third_line_, last_two_lines=get_templates()
-        t_2=random.choice(second_line_[self.words_to_pos[five_words[1]][0]])[0]
+        #t_2=random.choice(second_line_[self.words_to_pos[five_words[1]][0]])[0]
         key=self.words_to_pos[five_words[3]][0]+'-'+self.words_to_pos[five_words[4]][0]
-        t=random.choice(last_two_lines[key])
-        t_4=t[0][:t[2]+1]
-        t_5=t[0][t[2]+1:]
-        t_1 = random.choice(dataset[self.words_to_pos[five_words[0]][0]])[0]
-        t_3 = random.choice(third_line_[self.words_to_pos[five_words[2]][0]])[0]
-
-        t2, o2 = self.gen_line(five_words[1], t_2,num_sylls=second_line_sylls)
-        line2 = o2[0][1][1]
-        score2 = o2[0][0].item() / len(line2)
-        state2 = o2[0][1][0][1]
-        t3, o3 = self.gen_line(five_words[2], t_3,num_sylls=second_line_sylls - 3)
-        line3 = o3[0][1][1]
-        score3 = o3[0][0].item() / len(line3)
-        state3 = o3[0][1][0][1]
-        t5, o5 = self.gen_line(five_words[4], t_5,num_sylls=second_line_sylls)
-        line5 = o5[0][1][1]
-        score5 = o5[0][0].item() / len(line5)
-        state5 = o5[0][1][0][1]
+        fourth, fifth=get_templates_last(rand_template, key)
         
-        score_for1, state_for1=self.compute_next_state(state2, score2, line2)
+        #t=random.choice(last_two_lines[key])
+        #t_4=t[0][:t[2]+1]
+        #t_5=t[0][t[2]+1:]
+        #t_1 = random.choice(dataset[self.words_to_pos[five_words[0]][0]])[0]
+        #t_3 = random.choice(third_line_[self.words_to_pos[five_words[2]][0]])[0]
 
-        score_for4, state_for4=self.compute_next_state(state5, score5, line5)
+        
+        
+        
+        o2 = self.gen_best_line(five_words[1],num_sylls=second_line_sylls, set_of_templates=second_line_)
+        line2 = o2[0][0]
+        score2 = o2[0][1]
+        #state2 = o2[0][1][0][1]
+        o3 = self.gen_best_line(five_words[2],num_sylls=second_line_sylls - 3, set_of_templates=third_line_)
+        line3 = o3[0][0]
+        score3 = o3[0][0]
+        last=[]
+        for line_4, line_5 in zip(fourth, fifth):
+            o5 = self.gen_best_line(five_words[4], num_sylls=second_line_sylls, templates=[line_5], return_state=True)
+            line5 = o5[0][0]
+            score5 = o5[0][1]#/ len(line5)
+            state5=o5[0][-1]
+            print (state5)
+            score_for4, state_for4=self.compute_next_state(state5, score5, line5)
+            o4 = self.gen_best_line(five_words[3], num_sylls=second_line_sylls-3, templates=[line_4], state=state_for4, score=score_for4)
+            last.append((o4[0], (line5, score5, line_5[2]), o4[1]))
+        last.sort(key=lambda x: x[2], reverse = True)
+        line4=last[0][0][0]
+        score4=last[0][0][1]
+        line5=last[0][1][0]
+        score5=last[0][1][1]
+        #score_for4, state_for4=self.compute_next_state(state5, score5, line5)
         #o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
-        t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
+        #t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
         
         
-        line1 = o1[0][1][1]
-        score1 = o1[0][0].item() / len(line1)
+        #line1 = o1[0][1][1]
+        #score1 = o1[0][0].item() / len(line1)
         
-        t4, o4=self.gen_line(five_words[3], t_4,num_sylls=second_line_sylls-3, state=state_for4, score=score_for4)
+        #t4, o4=self.gen_line(five_words[3], t_4,num_sylls=second_line_sylls-3, state=state_for4, score=score_for4)
         #o3 = self.run_gen_line(line4, t3, second_line_sylls - 3, state=state4, score=score4)
-        line4 = o4[0][1][1]
-        score4 = o4[0][0].item() / len(line4)
+        #line4 = o4[0][1][1]
+        #score4 = o4[0][0].item() / len(line4)
 
         lines = []
-        for i in range(1, 6):
+        for i in range(2, 6):
             num_as_str = str(i)
             this_line = (locals()['line' + num_as_str], locals()['score' + num_as_str], locals()['t' + num_as_str])
             lines.append(this_line)
