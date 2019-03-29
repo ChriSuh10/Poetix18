@@ -607,7 +607,6 @@ class Limerick_Generate:
             line5 = o5[0][0]
             score5 = o5[0][1]#/ len(line5)
             state5=o5[0][-1]
-            print (state5)
             score_for4, state_for4=self.compute_next_state(state5, score5, line5)
             o4 = self.gen_best_line(five_words[3], num_sylls=second_line_sylls-3, templates=[line_4], state=state_for4, score=score_for4)
             try:
@@ -615,6 +614,8 @@ class Limerick_Generate:
             except:
                 continue
         last.sort(key=lambda x: x[2], reverse = True)
+        if len(last)==0:
+            raise ValueError('no lines can be constructed')
         line4=last[0][0][0]
         score4=last[0][0][1]
         line5=last[0][1][0]
