@@ -45,7 +45,7 @@ def sample_sequence(*, hparams, length, start_token=None, batch_size=None, conte
         # TODO: Would be slightly faster if we called step on the entire context,
         # rather than leaving the last token transformer calculation to the while loop.
         context_output = step(hparams, context[:, :-1])
-        
+
         def body(past, prev, output):
             next_outputs = step(hparams, prev[:, tf.newaxis], past=past)
             logits = next_outputs['logits'][:, -1, :]  / tf.to_float(temperature)

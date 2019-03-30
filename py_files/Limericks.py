@@ -15,6 +15,7 @@ import pickle
 from .model_back import Model as Model_back
 from .functions import search_back_meter
 from .templates import get_templates
+from gpt2.src.score import score_model
 
 class Limerick_Generate:
 
@@ -26,7 +27,7 @@ class Limerick_Generate:
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
-        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
         self.create_syll_dict(syllables_file)
 
         with open(postag_file, 'rb') as f:
@@ -389,7 +390,7 @@ class Limerick_Generate:
         # Assign syllables to each pos in template
         last_word_sylls = len(self.dict_meters[w1][0])
         template_sylls = self.valid_permutation_sylls(num_sylls, template, last_word_sylls)
-        
+
         if template_sylls is None:
             raise ValueError('Cannot construct valid meter using template')
 
@@ -400,7 +401,7 @@ class Limerick_Generate:
             lst = self.run_gen_model_back(seq, template, template_sylls)
 
         return template, lst
-    
+
     def gen_best_line(self, w1, pos=None, templates=None, set_of_templates=None, rand_templates=5, num_sylls=10, state=None, score=None, return_state=False):
         """
         Generetes a single line by choosing the best of 10 lines whose templates were randomly selected,
@@ -501,8 +502,8 @@ class Limerick_Generate:
             this_score = out[0][0].item() / len(this_line)
             lines.append((this_line, this_score, t))
         return lines
-        
-        
+
+
     def gen_poem_independent_matias(self, seed_word, first_line_sylls, rand_template=5):
         def get_templates_last(n, key):
             _,_1,_2,data=get_templates()
@@ -515,15 +516,15 @@ class Limerick_Generate:
                 fourth.append((template[0][:template[2]+1], template[1][:template[2]+1]))
                 fifth.append((template[0][template[2]+1:], template[1][template[2]+1:]))
             return fourth, fifth
-                              
-            
+
+
         five_words = self.get_five_words(seed_word)
         lines = []
         third_line_sylls = first_line_sylls - 4
 
         dataset, second_line_, third_line_, last_two_lines=get_templates()
         templates=[]
-        #try: 
+        #try:
         #templates 2nd line:
         #templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
         #templates 3rd line
@@ -579,21 +580,21 @@ class Limerick_Generate:
                 fourth.append((template[0][:template[2]+1], template[1][:template[2]+1]))
                 fifth.append((template[0][template[2]+1:], template[1][template[2]+1:]))
             return fourth, fifth
-        
+
         dataset, second_line_, third_line_, last_two_lines=get_templates()
         #t_2=random.choice(second_line_[self.words_to_pos[five_words[1]][0]])[0]
         key=self.words_to_pos[five_words[3]][0]+'-'+self.words_to_pos[five_words[4]][0]
         fourth, fifth=get_templates_last(rand_template, key)
-        
+
         #t=random.choice(last_two_lines[key])
         #t_4=t[0][:t[2]+1]
         #t_5=t[0][t[2]+1:]
         #t_1 = random.choice(dataset[self.words_to_pos[five_words[0]][0]])[0]
         #t_3 = random.choice(third_line_[self.words_to_pos[five_words[2]][0]])[0]
 
-        
-        
-        
+
+
+
         o2 = self.gen_best_line(five_words[1],num_sylls=second_line_sylls, set_of_templates=second_line_)
         line2 = o2[0][0]
         score2 = o2[0][1]
@@ -623,11 +624,11 @@ class Limerick_Generate:
         #score_for4, state_for4=self.compute_next_state(state5, score5, line5)
         #o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
         #t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
-        
-        
+
+
         #line1 = o1[0][1][1]
         #score1 = o1[0][0].item() / len(line1)
-        
+
         #t4, o4=self.gen_line(five_words[3], t_4,num_sylls=second_line_sylls-3, state=state_for4, score=score_for4)
         #o3 = self.run_gen_line(line4, t3, second_line_sylls - 3, state=state4, score=score4)
         #line4 = o4[0][1][1]
@@ -644,8 +645,8 @@ class Limerick_Generate:
             string+=' '.join(x[0])+'\n'
         print(string)
         return lines
-        
-        
+
+
 
     def print_poem(self, seed_word, gen_func, *args):
         """
@@ -667,3 +668,46 @@ class Limerick_Generate:
         for line, score, template in gen:
             print('{:60} line score: {:2.3f}'.format(' '.join(line), score))
             print(template)
+
+    def gen_line_gpt(self, w, default_template=None):
+        """
+        Uses GPT to generate a line given the template restriction and initial sequence
+        as given by the provided template, number of syllables in the line.
+
+        Parameters
+        ----------
+        w : str
+            Initial sequence to start generation. Has to end with a period/comma, etc.
+        template : list, optional
+            A list containing pos tags for each word in the line. If None, a
+            random template will be sampled from the set of templates.
+
+        Returns
+        -------
+        new_line : array
+            The line generated by BGT that satisfies the template POS restrictions
+        """
+
+        # Randomly sample template from the dataset
+        if default_template:
+            template = default_template
+        else:
+            dataset = get_templates()[2]
+            s = sum([len(dataset[key]) for key in dataset.keys()])
+            key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
+            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))]
+            print(template)
+
+        new_line = []
+        for POS in template[0]:
+            # Logits is the output of BGT model, encoder is used to decode the output
+            logits, enc = score_model(input=w)
+            for index in reversed(np.argsort(logits)):
+                word = enc.decode([index])
+                # Restrict the word to have the POS of the template
+                if POS in self.words_to_pos[word.lower().strip()]:
+                    w = w + " " + word
+                    new_line.append(word)
+                    break
+        print(new_line)
+        return new_line
