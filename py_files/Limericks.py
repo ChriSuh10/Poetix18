@@ -334,6 +334,7 @@ class Limerick_Generate:
         last_word_sylls = len(self.dict_meters[last_word][0])
         temp_len = num_sylls - last_word_sylls
         return random.choice(self.templates_dict[(last_pos, temp_len)])
+
     def compute_next_state(self, state, score, seq):
         tf.reset_default_graph()
         with open(os.path.join(self.model_dir, 'config.pkl'), 'rb') as f:
@@ -387,7 +388,7 @@ class Limerick_Generate:
         # Assign syllables to each pos in template
         last_word_sylls = len(self.dict_meters[w1][0])
         template_sylls = self.valid_permutation_sylls(num_sylls, template, last_word_sylls)
-        
+
         if template_sylls is None:
             raise ValueError('Cannot construct valid meter using template')
 
@@ -439,8 +440,8 @@ class Limerick_Generate:
             this_score = out[0][0].item() / len(this_line)
             lines.append((this_line, this_score, t))
         return lines
-        
-        
+
+
     def gen_poem_independent_matias(self, seed_word, first_line_sylls):
         five_words = self.get_five_words(seed_word)
         lines = []
@@ -448,8 +449,8 @@ class Limerick_Generate:
 
         dataset, second_line_, third_line_, last_two_lines=get_templates()
         templates=[]
-        
-        #try: 
+
+        #try:
         #templates 2nd line:
         templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
         #templates 3rd line
@@ -510,17 +511,17 @@ class Limerick_Generate:
         line5 = o5[0][1][1]
         score5 = o5[0][0].item() / len(line5)
         state5 = o5[0][1][0][1]
-        
+
         score_for1, state_for1=self.compute_next_state(state2, score2, line2)
 
         score_for4, state_for4=self.compute_next_state(state5, score5, line5)
         #o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
         t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
-        
-        
+
+
         line1 = o1[0][1][1]
         score1 = o1[0][0].item() / len(line1)
-        
+
         t4, o4=self.gen_line(five_words[3], t_4,num_sylls=second_line_sylls-3, state=state_for4, score=score_for4)
         #o3 = self.run_gen_line(line4, t3, second_line_sylls - 3, state=state4, score=score4)
         line4 = o4[0][1][1]
@@ -537,8 +538,8 @@ class Limerick_Generate:
             string+=' '.join(x[0])+'\n'
         print(string)
         return lines
-        
-        
+
+
 
     def print_poem(self, seed_word, gen_func, *args):
         """
