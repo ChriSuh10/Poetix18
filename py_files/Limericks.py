@@ -441,7 +441,6 @@ class Limerick_Generate:
             lines.append((this_line, this_score, t))
         return lines
 
-
     def gen_poem_independent_matias(self, seed_word, first_line_sylls):
         five_words = self.get_five_words(seed_word)
         lines = []
@@ -518,7 +517,6 @@ class Limerick_Generate:
         #o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
         t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
 
-
         line1 = o1[0][1][1]
         score1 = o1[0][0].item() / len(line1)
 
@@ -538,8 +536,6 @@ class Limerick_Generate:
             string+=' '.join(x[0])+'\n'
         print(string)
         return lines
-
-
 
     def print_poem(self, seed_word, gen_func, *args):
         """
