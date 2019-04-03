@@ -700,11 +700,12 @@ class Limerick_Generate:
         new_line = []
         w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
         rhyme_set = set(d['word'] for d in w_response)
-        rhyme_set.add('tiger')
         for i in range(len(template[0])):
             # Logits is the output of BGT model, encoder is used to decode the output
             logits, enc = score_model(input=w)
             POS = template[0][i]
+            probability = []
+            words = []
             for index in reversed(np.argsort(logits)):
                 word = enc.decode([index])
                 # Restrict the word to have the POS of the template
@@ -712,7 +713,18 @@ class Limerick_Generate:
                     # Enforce rhyme if last word
                     if i == len(template[0]) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
                         continue
-                    w = w + " " + word
-                    new_line.append(word)
-                    break
+                    probability.append(logits[index])
+                    words.append(word)
+
+            # Draw from the possible words
+            with tf.Session(graph=tf.Graph()) as sess:
+                logits = tf.placeholder(tf.double, shape=(1, len(probability)))
+                samples = tf.multinomial(logits, num_samples=1, output_dtype=tf.int32)
+                out = sess.run(samples, feed_dict={
+                    logits: [probability]
+                })
+            selected = words[out[0][0]]
+            w = w + " " + selected
+            new_line.append(selected)
+
         return new_line
