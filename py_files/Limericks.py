@@ -669,7 +669,7 @@ class Limerick_Generate:
             print('{:60} line score: {:2.3f}'.format(' '.join(line), score))
             print(template)
 
-    def gen_line_gpt(self, w, default_template=None):
+    def gen_line_gpt(self, w, default_template=None, rhyme=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -696,18 +696,23 @@ class Limerick_Generate:
             s = sum([len(dataset[key]) for key in dataset.keys()])
             key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
             template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))]
-            print(template)
 
         new_line = []
-        for POS in template[0]:
+        w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
+        rhyme_set = set(d['word'] for d in w_response)
+        rhyme_set.add('tiger')
+        for i in range(len(template[0])):
             # Logits is the output of BGT model, encoder is used to decode the output
             logits, enc = score_model(input=w)
+            POS = template[0][i]
             for index in reversed(np.argsort(logits)):
                 word = enc.decode([index])
                 # Restrict the word to have the POS of the template
                 if POS in self.words_to_pos[word.lower().strip()]:
+                    # Enforce rhyme if last word
+                    if i == len(template[0]) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
+                        continue
                     w = w + " " + word
                     new_line.append(word)
                     break
-        print(new_line)
         return new_line

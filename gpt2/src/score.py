@@ -5,7 +5,6 @@ import tensorflow as tf
 import fire
 
 from .model import *
-from .sample import *
 from .encoder import *
 
 def top_k_logits(logits, k):
