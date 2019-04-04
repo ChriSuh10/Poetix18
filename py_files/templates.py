@@ -32,6 +32,7 @@ def get_templates():
     'VB': [(['WP$', 'NNS', 'RB', 'MD', 'VB'], ['whose', 'limericks', 'never', 'would', 'scan'])]}
 
     third_line = {'NN': [(['PRP', 'MD', 'VB', 'TO', 'DT', 'NN'], ['he', 'would', 'go', 'to', 'a', 'party']),
+        (['PRP', 'VBD', 'CD', 'TO', 'NN'], ['she', 'gave', 'one', 'to', 'adam']),
         (['VBN', 'IN', 'DT', 'NN'], ['collapsed', 'from', 'the', 'strain']),
         (['PRP', 'VBD', ',', 'IN', 'DT', 'NN'], ['he', 'said', ',', 'with', 'a', 'sigh']),
         (['PRP', 'VBD', 'IN', 'PRP$', 'NN'], ['he', 'bought', 'for', 'his', 'daughter']),
@@ -71,8 +72,7 @@ def get_templates():
        (['CC', 'VBD', ',', 'FW', ',', 'MD', 'PRP', 'VB', '.'], ['and', 'said', ',', 'miss', ',', 'can', 'we', 'dance', '?']),
        (['WHEN', 'VBN', ',', 'WRB', 'SO', 'JJ', '.'], ['when', 'asked', ',', "'why", 'so', 'blue', '?'])],
  'PRP': [(['RB', 'DT', 'JJ', 'NN', 'VBD', 'PRP'], ['soon', 'a', 'happy', 'thought', 'hit', 'her'])],
- 'VB': [(['PRP', 'VBD', 'CD', 'TO', 'NN'], ['she', 'gave', 'one', 'to', 'adam']),
-        (['VBD', 'DT', 'NN', ',', 'VB', 'PRP', 'VB'], ['said', 'the', 'fly', ',', 'let', 'us', 'flee']),
+ 'VB': [(['VBD', 'DT', 'NN', ',', 'VB', 'PRP', 'VB'], ['said', 'the', 'fly', ',', 'let', 'us', 'flee']),
         (['VBD', 'DT', 'NN', ',', 'VB', 'RB', 'VB'], ['said', 'the', 'waiter', ',', 'do', "not", 'shout'])],
  'VBD': [(['CC', 'DT', 'NN', 'PRP', 'VBD'], ['but', 'the', 'copy', 'he', 'wrote']),
          (['CC', 'JJ', ',', 'CC', 'JJ'], ['and', 'flat', ',', 'and', 'compressed']),
@@ -108,3 +108,54 @@ def get_templates():
 
 
     return dataset, second_line, third_line, last_two_lines
+
+def get_first_line():
+    first_line = {
+        'NN':[
+          (['DT', 'NN', 'WP', 'VBD', 'DT', 'NN'], ['a', 'tutor', 'who', 'tooted', 'a', 'flute']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'DT', 'NN'], ['there', 'was', 'an', 'old', 'man', 'with', 'a', 'beard']),
+          (['DT', 'JJ', 'NN', 'NN', 'IN', 'NN'], ['a', 'young', 'gourmet', 'dining', 'at', 'crewe']),
+          (['EX', 'RB', 'VBD', 'DT', 'NN', 'IN', 'DT', 'NN'], ['there', 'once', 'was', 'a', 'fly', 'on', 'the', 'wall'])
+        ],
+
+        'NNP': [
+          (['DT', 'JJ', 'JJ', 'NN', 'IN', 'NNP'], ['a', 'silly', 'young', 'man', 'from', 'clyde']),
+          (['DT', 'JJ', 'JJ', 'NN', 'VBN', 'NNP'], ['a', 'nifty', 'young', 'flapper', 'named', 'jane']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NNP'], ['there', 'was', 'an', 'old', 'man', 'of', 'nantucket']),
+          (['DT', 'JJ', 'NN', 'IN', 'NN', 'NNP'], ['an', 'elderly', 'bride', 'of', 'port', 'jervis']),
+          (['DT', 'NN', 'NN', 'VBN', 'NNP'], ['a', 'crossword', 'compiler', 'named', 'moss']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NNP'], ['there', 'was', 'a', 'young', 'fellow', 'called', 'binn']),
+          (['DT', 'JJ', 'VBG', 'NN', 'IN', 'NNP'], ['an', 'odd', 'looking', 'guy', 'from', 'beruit']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NNP'], ['there', 'was', 'a', 'young', 'lady', 'named', 'rose'])
+        ],
+
+        ',': [
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'SO', 'JJ'], ['there', 'was', 'a', 'young', 'man', 'so', 'benighted']),
+          (['DT', 'NN', 'IN', 'NN', ',', 'JJ', 'NN', ','], ['a', 'maiden', 'at', 'college', ',', 'miss', 'breeze', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'of', 'cork', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NN', ','], ['there', 'was', 'a', 'young', 'woman', 'named', 'kite', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'dear', 'lady', 'of', 'eden', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'JJ', ','], ['there', 'was', 'an', 'old', 'fellow', 'named', 'green', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'named', 'hannah', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'DT', 'NN', ','], ['there', 'was', 'an', 'old', 'man', 'in', 'a', 'hearse', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'of', 'kent', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'of', 'lynn', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'MD', ','], ['there', 'was', 'a', 'young', 'lady', 'named', 'may', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'of', 'munich', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'from', 'niger', ',']),
+          (['EX', 'RB', 'VBD', 'DT', 'NN', 'VBN', 'NN', ','], ['there', 'once', 'was', 'a', 'guy', 'named', 'othello', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NNS', ','], ['there', 'was', 'a', 'young', 'lady', 'named', 'perkins', ',']),
+          (['RB', 'VBZ', 'DT', 'JJ', 'NN', 'VBN', 'NN', ','], ['here', 'lies', 'a', 'young', 'salesman', 'named', 'phipps', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NN', ','], ['there', 'was', 'a', 'young', 'fellow', 'named', 'weir', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'VBN', 'NN', ','], ['there', 'was', 'a', 'young', 'person', 'called', 'smarty', ',']),
+          (['EX', 'RB', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'once', 'was', 'an', 'old', 'man', 'of', 'esser', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'a', 'young', 'lady', 'from', 'hyde', ',']),
+          (['EX', 'RB', 'VBD', 'DT', 'NN', 'VBN', 'NN', ','], ['there', 'once', 'was', 'a', 'girl', 'named', 'irene', ',']),
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'IN', 'NN', ','], ['there', 'was', 'an', 'old', 'man', 'from', 'milan', ','])
+        ],
+
+        'VBD': [
+          (['EX', 'VBD', 'DT', 'JJ', 'NN', 'WP', 'VBD'], ['there', 'was', 'a', 'young', 'dentist', 'who', 'thrilled'])
+        ]
+    }
+    return first_line
