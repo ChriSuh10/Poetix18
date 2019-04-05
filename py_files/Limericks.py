@@ -758,24 +758,23 @@ class Limerick_Generate:
         for POS in word_dict.keys():
             word_dict[POS] = list(word_dict[POS])
 
-        results = []; encodes = []
+        results = []; encodes = []; sentences = []
 
-        sentences = [['he', 'was', 'one', 'funny', 'brit', 'with', 'a', 'nice', 'head']]
-        encodes = [[self.enc.encode(word)[0] for word in sentences[0]]]
-
-        for i in range(3):
+        for i in range(10):
             sentence = [random.choice(word_dict[POS]) for POS in template[0]]
             sentences.append(sentence)
             encodes.append([self.enc.encode(word)[0] for word in sentence])
 
-        print(sentences)
-        print(encodes)
+        s = ['he', 'was', 'one', 'funny', 'guy', 'with', 'a', 'nice', 'car']
+        sentences.append(s)
+        encodes.append([self.enc.encode(word)[0] for word in s])
+
         curr = [s[0] for s in sentences]
         probs = [0 for s in sentences]
         for j in range(1, len(sentences[0])):
             results = score_model(input = curr)
             for i in range(len(sentences)):
-                probs[i] +=  np.log(results[i][encodes[i][j]])
+                probs[i] += np.log(results[i][encodes[i][j]])
                 curr[i] = curr[i] + " " + sentences[i][j]
 
         print(sentences)

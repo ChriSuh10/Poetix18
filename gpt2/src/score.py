@@ -42,7 +42,10 @@ def score_model(
 
     context_tokens = []
     for i in input:
-        context_tokens.append(enc.encode(i))
+        encoded = []
+        for e in i.split():
+            encoded.append(enc.encode(e)[0])
+        context_tokens.append(encoded)
     with tf.Session(graph=tf.Graph()) as sess:
 
         context = tf.placeholder(tf.int32, [len(input), None])
