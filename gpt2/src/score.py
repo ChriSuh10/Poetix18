@@ -41,10 +41,6 @@ def score_model(
     with open(os.path.join('gpt2/models', model_name, 'hparams.json')) as f:
         hparams.override_from_dict(json.load(f))
 
-    # raw_text = input("Model prompt >>> ")
-    # while not raw_text:
-    #     print('Prompt should not be empty!')
-    #     raw_text = input("Model prompt >>> ")
     context_tokens = enc.encode(input)
     with tf.Session(graph=tf.Graph()) as sess:
 
@@ -53,7 +49,7 @@ def score_model(
         logits = lm_output['logits'][:, :, :hparams.n_vocab]
         logits = logits[:, -1, :]  / tf.to_float(temperature)
         logits = top_k_logits(logits, k=top_k)
-        # samples = tf.multinomial(logits, num_samples=5, output_dtype=tf.int32, seed=100)
+        logits = tf.nn.softmax(logits, axis=1)
 
         saver = tf.train.Saver()
         ckpt = tf.train.latest_checkpoint(os.path.join('gpt2/models', model_name))
@@ -62,6 +58,6 @@ def score_model(
         out = sess.run(logits, feed_dict={
             context: [context_tokens for _ in range(batch_size)]
         })
-    return out[0], enc
+    return out[0]
 if __name__ == '__main__':
     fire.Fire(score_model)
