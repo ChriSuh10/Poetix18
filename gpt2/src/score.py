@@ -30,7 +30,6 @@ def score_model(
     model_name='117M',
     seed=None,
     nsamples=1,
-    batch_size=1,
     length=None,
     temperature=1,
     top_k=0,
@@ -41,10 +40,12 @@ def score_model(
     with open(os.path.join('gpt2/models', model_name, 'hparams.json')) as f:
         hparams.override_from_dict(json.load(f))
 
-    context_tokens = enc.encode(input)
+    context_tokens = []
+    for i in input:
+        context_tokens.append(enc.encode(i))
     with tf.Session(graph=tf.Graph()) as sess:
 
-        context = tf.placeholder(tf.int32, [batch_size, None])
+        context = tf.placeholder(tf.int32, [len(input), None])
         lm_output = model(hparams=hparams, X=context, past=None, reuse=tf.AUTO_REUSE)
         logits = lm_output['logits'][:, :, :hparams.n_vocab]
         logits = logits[:, -1, :]  / tf.to_float(temperature)
@@ -56,8 +57,8 @@ def score_model(
         saver.restore(sess, ckpt)
 
         out = sess.run(logits, feed_dict={
-            context: [context_tokens for _ in range(batch_size)]
+            context: context_tokens
         })
-    return out[0]
+    return out
 if __name__ == '__main__':
     fire.Fire(score_model)
