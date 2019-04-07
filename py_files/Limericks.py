@@ -5,7 +5,7 @@ from nltk.corpus import wordnet as wn
 from gensim.models import KeyedVectors
 from gensim.parsing.preprocessing import remove_stopwords
 import collections
-
+import tqdm
 import os
 import re
 import random
@@ -17,6 +17,7 @@ from .model_back import Model as Model_back
 from .functions import search_back_meter
 from .templates import get_templates
 from gpt2.src.score import score_model
+from gpt2.src.score import score_model2
 from gpt2.src.encoder import get_encoder
 
 class Limerick_Generate:
@@ -780,6 +781,69 @@ class Limerick_Generate:
 
         print(sentences)
         print(probs)
+        return
+
+        return
+
+
+
+
+    def gen_line_with_template2(self, prompt, template,num):
+        """
+        slight modification of gen_line_with_template
+        """
+        word_dict = collections.defaultdict(set)
+
+        pos_length={}
+        for i in self.pos_to_words.keys():
+            pos_length[i]=len(self.pos_to_words[i])
+
+        words = re.sub("[^\w]", " ",  prompt).split()
+        for word in words:
+            for POS in self.words_to_pos[word.lower()]:
+                word_dict[POS].add(word.lower())
+        for POS in word_dict.keys():
+            word_dict[POS] = list(word_dict[POS])
+
+        results = []; encodes = []
+
+        sentences = [['he', 'would', 'go','to', 'a', 'party'],['i','can','stare','at','the','sky']]
+        for i in sentences:
+            temp=[self.enc.encode(word)[0] for word in i]
+            encodes.append(temp)
+        #encodes = [[self.enc.encode(word)[0] for word in sentences[0]]]
+
+
+        for i in range(num):
+            sentence=[]
+            for POS in template:
+                if pos_length[POS]<=50:
+                    w=random.choice(self.pos_to_words[POS])
+                else:
+                    w=random.choice(word_dict[POS])
+                sentence.append(w)
+            sentences.append(sentence)
+            encodes.append([self.enc.encode(word)[0] for word in sentence])
+        #print(sentences)
+        encodes=np.array(encodes)
+        #print(encodes)
+
+        #probs = [0 for s in sentences]
+        probs=np.zeros(len(sentences))
+
+        for j in tqdm.trange(1, len(sentences[0])):
+            results = score_model2(context_token= encodes[:,:j])
+            for i in range(len(sentences)):
+                probs[i] +=  np.log(results[i][encodes[i][j]])
+
+
+
+        index=np.argsort(np.negative(probs))
+        for i in index:
+            print("{}:{}".format(probs[i],sentences[i]))
+
+        #print(sentences)
+        #print(probs)
         return
 
         return
