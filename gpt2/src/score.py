@@ -46,7 +46,7 @@ def score_model(
 
     with tf.Session(graph=tf.Graph()) as sess:
 
-        context = tf.placeholder(tf.int32, [context_token.shape[0], None],name="context")
+        context = tf.placeholder(tf.int32, [len(context_token), None],name="context")
         lm_output = model(hparams=hparams, X=context, past=None, reuse=tf.AUTO_REUSE)
         logits = lm_output['logits'][:, :, :hparams.n_vocab]
         logits = logits[:, -1, :]  / tf.to_float(temperature)
