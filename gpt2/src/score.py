@@ -33,22 +33,20 @@ def score_model(
     length=None,
     temperature=1,
     top_k=0,
-    input=""
+    context_token=[]
 ):
     enc = get_encoder(model_name)
     hparams = default_hparams()
-    with open(os.path.join('gpt2/models', model_name, 'hparams.json')) as f:
-        hparams.override_from_dict(json.load(f))
+    try:
+        with open(os.path.join('gpt2/models', model_name, 'hparams.json')) as f:
+            hparams.override_from_dict(json.load(f))
+    except:
+        with open(os.path.join('models', model_name, 'hparams.json')) as f:
+            hparams.override_from_dict(json.load(f))
 
-    context_tokens = []
-    for i in input:
-        encoded = []
-        for e in i.split():
-            encoded.append(enc.encode(e)[0])
-        context_tokens.append(encoded)
     with tf.Session(graph=tf.Graph()) as sess:
 
-        context = tf.placeholder(tf.int32, [len(input), None])
+        context = tf.placeholder(tf.int32, [len(context_token), None],name="context")
         lm_output = model(hparams=hparams, X=context, past=None, reuse=tf.AUTO_REUSE)
         logits = lm_output['logits'][:, :, :hparams.n_vocab]
         logits = logits[:, -1, :]  / tf.to_float(temperature)
@@ -60,8 +58,10 @@ def score_model(
         saver.restore(sess, ckpt)
 
         out = sess.run(logits, feed_dict={
-            context: context_tokens
+            context: context_token
         })
     return out
+
 if __name__ == '__main__':
-    fire.Fire(score_model)
+    #fire.Fire(score_model)
+    fire.Fire(score_model2)
