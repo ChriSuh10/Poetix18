@@ -730,7 +730,7 @@ class Limerick_Generate:
 
         return new_line
 
-    def gen_line_gpt(self, w, default_template=None, rhyme=False, search_space=1000):
+    def gen_line_gpt(self, w, default_template=None, rhyme=False, search_space=100):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -761,12 +761,13 @@ class Limerick_Generate:
         new_line = []
         w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
         rhyme_set = set(d['word'] for d in w_response)
+        # Include the word itself in the rhyme set
+        rhyme_set.add(rhyme)
 
         # Tuple format: original word array, encode array, log probability of this sentence
         sentences = [(w.lower().split(), [], 0)]
         for e in w.lower().split():
             sentences[0][1].append(self.enc.encode(e)[0])
-        print(sentences)
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
             logits = score_model(context_token = [s[1] for s in sentences])
@@ -781,7 +782,7 @@ class Limerick_Generate:
                     # Restrict the word to have the POS of the template
                     if POS in self.words_to_pos[word]:
                         # Enforce rhyme if last word
-                        if i == len(template[0]) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
+                        if i == len(template) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
                             continue
                         # Add candidate sentence to new array
                         new_sentences.append(
@@ -792,7 +793,6 @@ class Limerick_Generate:
             # Get the most probable N sentences by sorting the list according to probability
             new_sentences = sorted(new_sentences, key = lambda x: x[2], reverse=True)[:min(len(new_sentences), search_space)]
             sentences = new_sentences
-            print(sentences[0][0])
 
         return sentences[0]
 
