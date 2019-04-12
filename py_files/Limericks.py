@@ -16,8 +16,6 @@ import pickle
 from .model_back import Model as Model_back
 from .functions import search_back_meter
 from .templates import get_templates
-from gpt2.src.score import score_model
-from gpt2.src.encoder import get_encoder
 
 class Limerick_Generate:
 
@@ -29,7 +27,7 @@ class Limerick_Generate:
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
-        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
         self.create_syll_dict(syllables_file)
 
         with open(postag_file, 'rb') as f:
@@ -42,7 +40,6 @@ class Limerick_Generate:
         self.width = 20
         # Not sure what this does, necessary for search_back function
         self.word_pools = [set([]) for n in range(4)]
-        self.enc = get_encoder('117M')
 
     def create_syll_dict(self, fname):
         """
