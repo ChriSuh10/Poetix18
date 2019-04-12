@@ -696,26 +696,31 @@ class Limerick_Generate:
             dataset = get_templates()[2]
             s = sum([len(dataset[key]) for key in dataset.keys()])
             key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
-            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))]
+            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
         new_line = []
+        new_line_tokens = []
+        for e in w.lower().split():
+            new_line_tokens.append(self.enc.encode(e)[0])
         w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
         rhyme_set = set(d['word'] for d in w_response)
-        for i in range(len(template[0])):
-            # Logits is the output of GPT model, encoder is used to decode the output
-            logits, enc = score_model(input=w)
-            POS = template[0][i]
+        for i in range(len(template)):
+            # Logits is the output of BGT model, encoder is used to decode the output
+            logits = score_model(context_token = [new_line_tokens])
+            POS = template[i]
             probability = []
             words = []
-            for index in reversed(np.argsort(logits)):
-                word = enc.decode([index])
+            tokens = []
+            for index in reversed(np.argsort(logits[0])):
+                word = self.enc.decode([index]).lower().strip()
                 # Restrict the word to have the POS of the template
                 if POS in self.words_to_pos[word.lower().strip()]:
                     # Enforce rhyme if last word
-                    if i == len(template[0]) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
+                    if i == len(template) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
                         continue
-                    probability.append(logits[index])
+                    probability.append(logits[0][index])
                     words.append(word)
+                    tokens.append(index)
 
             # Draw from the possible words
             with tf.Session(graph=tf.Graph()) as sess:
@@ -724,13 +729,12 @@ class Limerick_Generate:
                 out = sess.run(samples, feed_dict={
                     logits: [probability]
                 })
-            selected = words[out[0][0]]
-            w = w + " " + selected
-            new_line.append(selected)
+            new_line_tokens.append(tokens[out[0][0]])
+            new_line.append(words[out[0][0]])
 
         return new_line
 
-    def gen_line_gpt(self, w, default_template=None, rhyme=False, search_space=1000):
+    def gen_line_gpt(self, w, default_template=None, rhyme=False, search_space=100):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -756,17 +760,18 @@ class Limerick_Generate:
             dataset = get_templates()[2]
             s = sum([len(dataset[key]) for key in dataset.keys()])
             key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
-            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))]
+            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
         new_line = []
         w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
         rhyme_set = set(d['word'] for d in w_response)
+        # Include the word itself in the rhyme set
+        rhyme_set.add(rhyme)
 
         # Tuple format: original word array, encode array, log probability of this sentence
         sentences = [(w.lower().split(), [], 0)]
         for e in w.lower().split():
             sentences[0][1].append(self.enc.encode(e)[0])
-        print(sentences)
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
             logits = score_model(context_token = [s[1] for s in sentences])
@@ -781,7 +786,7 @@ class Limerick_Generate:
                     # Restrict the word to have the POS of the template
                     if POS in self.words_to_pos[word]:
                         # Enforce rhyme if last word
-                        if i == len(template[0]) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
+                        if i == len(template) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
                             continue
                         # Add candidate sentence to new array
                         new_sentences.append(
@@ -792,7 +797,6 @@ class Limerick_Generate:
             # Get the most probable N sentences by sorting the list according to probability
             new_sentences = sorted(new_sentences, key = lambda x: x[2], reverse=True)[:min(len(new_sentences), search_space)]
             sentences = new_sentences
-            print(sentences[0][0])
 
         return sentences[0]
 
