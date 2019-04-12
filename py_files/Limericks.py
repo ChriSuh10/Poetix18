@@ -16,8 +16,10 @@ import pickle
 from .model_back import Model as Model_back
 from .functions import search_back_meter
 from .templates import get_templates
+
 from gpt2.src.score import score_model
 from gpt2.src.encoder import get_encoder
+from .templates import get_first_nnp
 
 class Limerick_Generate:
 
@@ -38,7 +40,7 @@ class Limerick_Generate:
         self.words_to_pos = postag_dict[2]
         self.create_pos_syllables()
         self.create_templates_dict(postag_dict[0])
-
+        self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
         self.width = 20
         # Not sure what this does, necessary for search_back function
         self.word_pools = [set([]) for n in range(4)]
@@ -356,6 +358,37 @@ class Limerick_Generate:
                 word_pool_ind = 0
                 next_score, next_state=model.compute_fx(sess, vocab, score, seq, state, 1)
         return next_score, next_state
+    def gen_first_line(self, w2, num_sylls):
+        def get_num_sylls(template):
+            n=0
+            for x in template:
+                n+=len(self.dict_meters[x][0])
+            return n
+
+        names=self.first_line_words[0]
+        cities=self.first_line_words[1]
+        names={x[0]:x[1] for x in names}
+        w_response = requests.get(self.api_url, params={'rel_rhy': w2}).json()
+        rhyme_names = set(d['word'] for d in w_response).intersection(names.keys())
+        rhyme_cities=set(d['word'] for d in w_response).intersection(cities)
+        templates=get_first_nnp()
+        possible_sentence=[]
+        for name in rhyme_names:
+            for template in templates[names[name]]:
+                if len(self.dict_meters[name][0])+get_num_sylls(template)==num_sylls:
+                    possible_sentence.append(template+[name])
+        for name in rhyme_cities:
+            for template in templates['city']:
+                try:
+                    if len(self.dict_meters[name][0])+get_num_sylls(template)==num_sylls:
+                        possible_sentence.append(template+[name])
+                except:
+                    continue
+        if len(possible_sentence)==0:
+            raise ValueError('No lines can be constructed with this metric')
+        else:
+            return possible_sentence
+
 
     def gen_line(self, w1, template=None,num_sylls=10, state=None, score=None):
         """
@@ -522,7 +555,10 @@ class Limerick_Generate:
 
 
         five_words = self.get_five_words(seed_word)
-        lines = []
+        first_line=random.choice(self.gen_first_line(seed_word, first_line_sylls))
+
+
+        lines = [[first_line]]
         third_line_sylls = first_line_sylls - 4
 
         dataset, second_line_, third_line_, last_two_lines=get_templates()
