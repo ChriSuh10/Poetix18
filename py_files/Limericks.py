@@ -696,26 +696,31 @@ class Limerick_Generate:
             dataset = get_templates()[2]
             s = sum([len(dataset[key]) for key in dataset.keys()])
             key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
-            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))]
+            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
         new_line = []
+        new_line_tokens = []
+        for e in w.lower().split():
+            new_line_tokens.append(self.enc.encode(e)[0])
         w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
         rhyme_set = set(d['word'] for d in w_response)
-        for i in range(len(template[0])):
+        for i in range(len(template)):
             # Logits is the output of BGT model, encoder is used to decode the output
-            logits, enc = score_model(input=w)
-            POS = template[0][i]
+            logits = score_model(context_token = [new_line_tokens])
+            POS = template[i]
             probability = []
             words = []
-            for index in reversed(np.argsort(logits)):
-                word = enc.decode([index])
+            tokens = []
+            for index in reversed(np.argsort(logits[0])):
+                word = self.enc.decode([index]).lower().strip()
                 # Restrict the word to have the POS of the template
                 if POS in self.words_to_pos[word.lower().strip()]:
                     # Enforce rhyme if last word
-                    if i == len(template[0]) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
+                    if i == len(template) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
                         continue
-                    probability.append(logits[index])
+                    probability.append(logits[0][index])
                     words.append(word)
+                    tokens.append(index)
 
             # Draw from the possible words
             with tf.Session(graph=tf.Graph()) as sess:
@@ -724,9 +729,8 @@ class Limerick_Generate:
                 out = sess.run(samples, feed_dict={
                     logits: [probability]
                 })
-            selected = words[out[0][0]]
-            w = w + " " + selected
-            new_line.append(selected)
+            new_line_tokens.append(tokens[out[0][0]])
+            new_line.append(words[out[0][0]])
 
         return new_line
 
@@ -756,7 +760,7 @@ class Limerick_Generate:
             dataset = get_templates()[2]
             s = sum([len(dataset[key]) for key in dataset.keys()])
             key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
-            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))]
+            template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
         new_line = []
         w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
