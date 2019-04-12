@@ -31,7 +31,7 @@ class Limerick_Generate:
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
-        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
         self.create_syll_dict(syllables_file)
 
         with open(postag_file, 'rb') as f:
