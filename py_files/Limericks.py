@@ -12,6 +12,7 @@ import random
 import itertools
 import requests
 import pickle
+import heapq
 
 from .model_back import Model as Model_back
 from .functions import search_back_meter
@@ -817,7 +818,7 @@ class Limerick_Generate:
             # For each sentence, calculate probability of a new word
             for j in range(len(sentences)):
                 # There might be duplicate words such as "And" and " and" and we only need one
-                for index in reversed(np.argsort(logits[j])):
+                for index in range(len(logits[j])):
                     word = self.enc.decode([index]).lower().strip()
                     # Restrict the word to have the POS of the template
                     if POS in self.words_to_pos[word]:
@@ -831,8 +832,7 @@ class Limerick_Generate:
                             sentences[j][2] + np.log(logits[j][index])))
 
             # Get the most probable N sentences by sorting the list according to probability
-            new_sentences = sorted(new_sentences, key = lambda x: x[2], reverse=True)[:min(len(new_sentences), search_space)]
-            sentences = new_sentences
+            sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
 
         return sentences[0]
 
