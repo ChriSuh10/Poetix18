@@ -19,6 +19,7 @@ from .functions import search_back_meter
 from .templates import get_templates
 
 from gpt2.src.score import score_model
+from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp
 
@@ -42,6 +43,7 @@ class Limerick_Generate:
         self.create_pos_syllables()
         self.create_templates_dict(postag_dict[0])
 
+        self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
         self.width = 20
         # Not sure what this does, necessary for search_back function
         self.word_pools = [set([]) for n in range(4)]
@@ -771,7 +773,7 @@ class Limerick_Generate:
 
         return new_line
 
-    def gen_line_gpt(self, w, default_template=None, rhyme=False, search_space=100):
+    def gen_line_gpt(self, w=None, encodes=None, default_template=None, rhyme=False, search_space=100):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -780,6 +782,8 @@ class Limerick_Generate:
         ----------
         w : str
             Initial sequence to start generation. Has to end with a period/comma, etc.
+        encodes : str
+            Initial encoded sequence to start generation. Has to end with a period/comma, etc.
         template : list, optional
             A list containing pos tags for each word in the line. If None, a
             random template will be sampled from the set of templates.
@@ -806,9 +810,12 @@ class Limerick_Generate:
         rhyme_set.add(rhyme)
 
         # Tuple format: original word array, encode array, log probability of this sentence
-        sentences = [(w.lower().split(), [], 0)]
-        for e in w.lower().split():
-            sentences[0][1].append(self.enc.encode(e)[0])
+        if w:
+            sentences = [(w.lower().split(), [], 0)]
+            for e in w.lower().split():
+                sentences[0][1].append(self.enc.encode(e)[0])
+        if encodes:
+            sentences = [([], encodes, 0)]
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
             logits = score_model(context_token = [s[1] for s in sentences])
@@ -835,6 +842,46 @@ class Limerick_Generate:
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
 
         return sentences[0]
+
+    def gen_poem_gpt(self, rhyme1, rhyme2, first_line_sylls, prompt_length, default_templates):
+
+        # Get the rhyme sets
+        w1_response = requests.get(self.api_url, params={'rel_rhy': rhyme1}).json()
+        w2_response = requests.get(self.api_url, params={'rel_rhy': rhyme2}).json()
+        r1_set = set(d['word'] for d in w1_response)
+        r2_set = set(d['word'] for d in w2_response)
+        # Include the word itself in the rhyme set
+        r1_set.add(rhyme1)
+        r2_set.add(rhyme2)
+
+        # Used the old method to generate the first line
+        first_line = random.choice(self.gen_first_line(rhyme1, first_line_sylls))
+        print(first_line)
+        first_line_encodes = self.enc.encode(" ".join(first_line))
+        out = generate_prompt(seed_word=rhyme1, length=prompt_length)
+        prompt = self.enc.decode(out[0][0])
+        prompt = prompt[:prompt.rfind(".")+1]
+        prompt = self.enc.encode(prompt) + first_line_encodes
+
+        # Generate second sentence
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[0], rhyme=rhyme1, search_space=15)
+        prompt += new_sentence[1]
+        print(new_sentence[0])
+
+        # Generate third sentence
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[1], rhyme=rhyme2, search_space=15)
+        prompt += new_sentence[1]
+        print(new_sentence[0])
+
+        # Generate fourth sentence
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[2], rhyme=rhyme2, search_space=15)
+        prompt += new_sentence[1]
+        print(new_sentence[0])
+
+        # Generate fifth sentence
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[3], rhyme=rhyme1, search_space=15)
+        prompt += new_sentence[1]
+        print(new_sentence[0])
 
     def gen_line_with_template(self, prompt, template, num):
         """

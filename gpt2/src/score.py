@@ -44,7 +44,10 @@ def score_model(
         with open(os.path.join('models', model_name, 'hparams.json')) as f:
             hparams.override_from_dict(json.load(f))
 
-    with tf.Session(graph=tf.Graph()) as sess:
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth=True
+
+    with tf.Session(config=config) as sess:
 
         context = tf.placeholder(tf.int32, [len(context_token), None],name="context")
         lm_output = model(hparams=hparams, X=context, past=None, reuse=tf.AUTO_REUSE)
@@ -60,6 +63,8 @@ def score_model(
         out = sess.run(logits, feed_dict={
             context: context_token
         })
+
+        sess.close()
     return out
 
 if __name__ == '__main__':
