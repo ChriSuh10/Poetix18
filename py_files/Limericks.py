@@ -773,7 +773,7 @@ class Limerick_Generate:
 
         return new_line
 
-    def gen_line_gpt(self, w=None, encodes=None, default_template=None, rhyme=False, search_space=100):
+    def gen_line_gpt(self, w=None, encodes=None, default_template=None, rhyme=False, search_space=100, used_rhymes = None):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -808,7 +808,9 @@ class Limerick_Generate:
         rhyme_set = set(d['word'] for d in w_response)
         # Include the word itself in the rhyme set
         rhyme_set.add(rhyme)
-
+        if used_rhymes:
+            for used in used_rhymes:
+                rhyme_set.discard(used)
         # Tuple format: original word array, encode array, log probability of this sentence
         if w:
             sentences = [(w.lower().split(), [], 0)]
@@ -863,25 +865,32 @@ class Limerick_Generate:
         prompt = prompt[:prompt.rfind(".")+1]
         prompt = self.enc.encode(prompt) + first_line_encodes
 
+        used_rhymes_1 = [first_line[-1]]
+        used_rhymes_2 = []
+
         # Generate second sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[0], rhyme=rhyme1, search_space=15)
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[0], rhyme=rhyme1, search_space=15, used_rhymes = used_rhymes_1)
         prompt += new_sentence[1]
+        used_rhymes_1.append(new_sentence[0][-1])
         print(new_sentence[0])
 
         # Generate third sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[1], rhyme=rhyme2, search_space=15)
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[1], rhyme=rhyme2, search_space=15, used_rhymes = used_rhymes_2)
         prompt += new_sentence[1]
+        used_rhymes_2.append(new_sentence[0][-1])
         print(new_sentence[0])
 
         # Generate fourth sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[2], rhyme=rhyme2, search_space=15)
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[2], rhyme=rhyme2, search_space=15, used_rhymes = used_rhymes_2)
         prompt += new_sentence[1]
+        used_rhymes_2.append(new_sentence[0][-1])
         print(new_sentence[0])
 
         # Generate fifth sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[3], rhyme=rhyme1, search_space=15)
+        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[3], rhyme=rhyme1, search_space=15, used_rhymes = used_rhymes_1)
         prompt += new_sentence[1]
         print(new_sentence[0])
+
 
     def gen_line_with_template(self, prompt, template, num):
         """
