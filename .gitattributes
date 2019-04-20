@@ -1,3 +1,4 @@
 poetic_embeddings.300d.txt filter=lfs diff=lfs merge=lfs -text
 py_files/models/all_combined_back/model.ckpt-120000.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
 py_files/models/all_combined_forward/model.ckpt-114000.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+data/gutenberg-poetry-v001.txt filter=lfs diff=lfs merge=lfs -text
