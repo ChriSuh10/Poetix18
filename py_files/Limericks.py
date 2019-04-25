@@ -892,6 +892,7 @@ class Limerick_Generate:
             w2_response = requests.get(self.api_url, params={'rel_rhy': rhyme2}).json()
             r1_set = set(d['word'] for d in w1_response)
             r2_set = set(d['word'] for d in w2_response)
+            
             # Include the word itself in the rhyme set
             r1_set.add(rhyme1)
             r2_set.add(rhyme2)
