@@ -22,6 +22,7 @@ from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp
+import pickle
 
 class Limerick_Generate:
 
@@ -34,6 +35,7 @@ class Limerick_Generate:
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
         self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+
         self.create_syll_dict(syllables_file)
 
         with open(postag_file, 'rb') as f:
@@ -773,7 +775,7 @@ class Limerick_Generate:
 
         return new_line
 
-    def gen_line_gpt(self, w=None, encodes=None, default_template=None, rhyme=False, search_space=100):
+    def gen_line_gpt(self, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set = None, search_space=100):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -784,9 +786,12 @@ class Limerick_Generate:
             Initial sequence to start generation. Has to end with a period/comma, etc.
         encodes : str
             Initial encoded sequence to start generation. Has to end with a period/comma, etc.
-        template : list, optional
-            A list containing pos tags for each word in the line. If None, a
-            random template will be sampled from the set of templates.
+        default_template : list, optional
+            Default grammar template to generate the sentence
+        rhyme_word : str, optional
+            If a rhyme word is passed in, the sentence generated will rhyme with this word
+        rhyme_set : set, optional
+            If a rhyme set is passed in, the sentence generated will end with a word in this set
 
         Returns
         -------
@@ -804,10 +809,12 @@ class Limerick_Generate:
             template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
         new_line = []
-        w_response = requests.get(self.api_url, params={'rel_rhy': rhyme}).json()
-        rhyme_set = set(d['word'] for d in w_response)
-        # Include the word itself in the rhyme set
-        rhyme_set.add(rhyme)
+
+        if not rhyme_set and rhyme_word:
+            w_response = requests.get(self.api_url, params={'rel_rhy': rhyme_word}).json()
+            rhyme_set = set(d['word'] for d in w_response)
+            # Include the word itself in the rhyme set
+            rhyme_set.add(rhyme)
 
         # Tuple format: original word array, encode array, log probability of this sentence
         if w:
@@ -830,7 +837,7 @@ class Limerick_Generate:
                     # Restrict the word to have the POS of the template
                     if POS in self.words_to_pos[word]:
                         # Enforce rhyme if last word
-                        if i == len(template) - 1 and rhyme and (word.lower().strip() not in rhyme_set):
+                        if i == len(template) - 1 and rhyme_set and (word.lower().strip() not in rhyme_set):
                             continue
                         # Add candidate sentence to new array
                         new_sentences.append(
@@ -840,19 +847,55 @@ class Limerick_Generate:
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
-
+        print(sentences[0][0])
         return sentences[0]
 
-    def gen_poem_gpt(self, rhyme1, rhyme2, first_line_sylls, prompt_length, default_templates):
+    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates, first_line_sylls, story_line=False, prompt_length=100, save_as_pickle=False, search_space=100):
+        """
+        Uses GPT to generate a line given the template restriction and initial sequence
+        as given by the provided template, number of syllables in the line.
 
-        # Get the rhyme sets
-        w1_response = requests.get(self.api_url, params={'rel_rhy': rhyme1}).json()
-        w2_response = requests.get(self.api_url, params={'rel_rhy': rhyme2}).json()
-        r1_set = set(d['word'] for d in w1_response)
-        r2_set = set(d['word'] for d in w2_response)
-        # Include the word itself in the rhyme set
-        r1_set.add(rhyme1)
-        r2_set.add(rhyme2)
+        Parameters
+        ----------
+        story_line: bool
+            Whether to generate five words with a story line and use those as the last words.
+        rhyme1 : str
+            Initial word to start generation, and the first rhyming word
+        rhyme2 : str, optional
+            The second word that the third and forth lines have to rhyme with.
+            If storyline is set to False this word is necessary.
+        first_line_sylls: int
+            Number of the syllables that the first line needs to have.
+        prompt_length: int
+            The length of the prompt that is generated before generating the poem.
+            This will influence memory used and should not be too big.
+        default_templates : list
+            Default grammar templates that the poem uses
+        save_as_pickle : bool, optional
+            Whether to save the generated prompt and the first line in a file.
+            This saves the parameters to the disk enables genrating poems in multiple runs.
+        search_space : int, optional
+            Search space of the sentence finding algorithm.
+            The larger the search space, the more sentences the network runs
+            in parallel to find the best one with the highest score.
+
+        Returns
+        -------
+        None
+        """
+        if story_line:
+            # five_words = self.get_five_words(rhyme1)
+            five_words = ('joan', 'loan', 'glue', 'tissue', 'bone')
+        else:
+            # Get the rhyme sets
+            w1_response = requests.get(self.api_url, params={'rel_rhy': rhyme1}).json()
+            w2_response = requests.get(self.api_url, params={'rel_rhy': rhyme2}).json()
+            r1_set = set(d['word'] for d in w1_response)
+            r2_set = set(d['word'] for d in w2_response)
+            
+            # Include the word itself in the rhyme set
+            r1_set.add(rhyme1)
+            r2_set.add(rhyme2)
 
         # Used the old method to generate the first line
         first_line = random.choice(self.gen_first_line(rhyme1, first_line_sylls))
@@ -863,25 +906,49 @@ class Limerick_Generate:
         prompt = prompt[:prompt.rfind(".")+1]
         prompt = self.enc.encode(prompt) + first_line_encodes
 
-        # Generate second sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[0], rhyme=rhyme1, search_space=15)
-        prompt += new_sentence[1]
-        print(new_sentence[0])
+        if not story_line:
+            r1_set.discard(first_line[-1])
 
-        # Generate third sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[1], rhyme=rhyme2, search_space=15)
-        prompt += new_sentence[1]
-        print(new_sentence[0])
+        # Option to save the prompt in a file and generate sentences in different runs
+        if save_as_pickle:
+            with open('gpt2.pkl', 'wb') as f:
+                pickle.dump(prompt, f)
+            return
 
-        # Generate fourth sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[2], rhyme=rhyme2, search_space=15)
-        prompt += new_sentence[1]
-        print(new_sentence[0])
+        if not story_line:
+            # Search space is set to decay because the more sentences we run the larger the prompt
+            # Generate second sentence
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[0], rhyme_set = r1_set, search_space=search_space)
+            prompt += new_sentence[1]
+            r1_set.discard(new_sentence[0][-1])
 
-        # Generate fifth sentence
-        new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[3], rhyme=rhyme1, search_space=15)
-        prompt += new_sentence[1]
-        print(new_sentence[0])
+            # Generate third sentence
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[1], rhyme_set = r2_set, search_space=search_space)
+            prompt += new_sentence[1]
+            r2_set.discard(new_sentence[0][-1])
+
+            # Generate fourth sentence
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[2], rhyme_set = r2_set, search_space=int(search_space*0.5))
+            prompt += new_sentence[1]
+            r2_set.discard(new_sentence[0][-1])
+
+            # Generate fifth sentence
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[3], rhyme_set = r1_set, search_space=int(search_space*0.25))
+            prompt += new_sentence[1]
+        else:
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[0], rhyme_set = [five_words[1]], search_space=search_space)
+            prompt += new_sentence[1]
+
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[1], rhyme_set = [five_words[2]], search_space=search_space)
+            prompt += new_sentence[1]
+
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[2], rhyme_set = [five_words[3]], search_space=int(search_space*0.5))
+            prompt += new_sentence[1]
+
+            new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[3], rhyme_set = [five_words[4]], search_space=int(search_space*0.25))
+            prompt += new_sentence[1]
+
+
 
     def gen_line_with_template(self, prompt, template, num):
         """
