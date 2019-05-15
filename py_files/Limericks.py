@@ -34,7 +34,7 @@ class Limerick_Generate:
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
-        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
 
         self.create_syll_dict(syllables_file)
 
@@ -775,7 +775,8 @@ class Limerick_Generate:
 
         return new_line
 
-    def gen_line_gpt(self, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set = None, search_space=100):
+    def gen_line_gpt(self, w=None, encodes=None, default_template=None,
+        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=0):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -823,6 +824,17 @@ class Limerick_Generate:
                 sentences[0][1].append(self.enc.encode(e)[0])
         if encodes:
             sentences = [([], encodes, 0)]
+
+        sylls = None
+        if num_sylls > 0:
+            if rhyme_word:
+                last_word_sylls = len(self.dict_meters[rhyme_word][0])
+            else:
+                # Set to 2 for test purposes
+                last_word_sylls = 2
+            sylls = self.valid_permutation_sylls(num_sylls, template, last_word_sylls)
+            print(sylls)
+
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
             logits = score_model(context_token = [s[1] for s in sentences])
@@ -836,8 +848,13 @@ class Limerick_Generate:
                     word = self.enc.decode([index]).lower().strip()
                     # Restrict the word to have the POS of the template
                     if POS in self.words_to_pos[word]:
+                        stripped_word = word.lower().strip()
+
                         # Enforce rhyme if last word
-                        if i == len(template) - 1 and rhyme_set and (word.lower().strip() not in rhyme_set):
+                        if i == len(template) - 1 and rhyme_set and (stripped_word not in rhyme_set):
+                            continue
+                        # Enforce meter if meter is provided
+                        if sylls and (stripped_word not in self.dict_meters or len(self.dict_meters[stripped_word][0]) != sylls[i]):
                             continue
                         # Add candidate sentence to new array
                         new_sentences.append(
@@ -850,7 +867,9 @@ class Limerick_Generate:
         print(sentences[0][0])
         return sentences[0]
 
-    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates, first_line_sylls, story_line=False, prompt_length=100, save_as_pickle=False, search_space=100):
+    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates, first_line_sylls,
+    story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
+    num_sylls = 0):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -918,16 +937,17 @@ class Limerick_Generate:
         # Search space is set to decay because the more sentences we run, the longer the prompt
         search_space_coef = [1, 1, 0.5, 0.25]
 
-        if not story_line:
-            for i in range(4):
+        for i in range(4):
+            curr_sylls = num_sylls - 3 if (i == 2 or i == 3) else num_sylls
+
+            if not story_line:
                 rhyme_set = r1_set if (i == 0 or i == 3) else r2_set
-                new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[i], rhyme_set = rhyme_set, search_space = int(search_space * search_space_coef[i]))
-                prompt += new_sentence[1]
+                new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[i], rhyme_set = rhyme_set, search_space = int(search_space * search_space_coef[i]), num_sylls = curr_sylls)
                 rhyme_set.discard(new_sentence[0][-1])
-        else:
-            for i in range(4):
-                new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[i], rhyme_set = [five_words[i+1]], search_space = int(search_space * search_space_coef[i]))
-                prompt += new_sentence[1]
+            else:
+                new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[i], rhyme_set = [five_words[i+1]], search_space = int(search_space * search_space_coef[i]), num_sylls = curr_sylls)
+
+            prompt += new_sentence[1]
 
     def gen_line_with_template(self, prompt, template, num):
         """
