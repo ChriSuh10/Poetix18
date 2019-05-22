@@ -848,8 +848,20 @@ class Limerick_Generate:
                 # There might be duplicate words such as "And" and " and" and we only need one
                 for index in range(len(logits[j])):
                     word = self.enc.decode([index]).lower().strip()
+                    if len(word.lower().strip()) == 0:
+                        fit_pos = False
+                    elif len(self.words_to_pos[word.lower().strip()]) == 0:
+                        word_pos = nltk.pos_tag([word.lower().strip()])
+                        if len(word_pos) == 0:
+                            print(word)
+                            fit_pos = False
+                        else:
+                            fit_pos = POS == word_pos[0][1]
+                    else:
+                        fit_pos = POS in self.words_to_pos[word]
+
                     # Restrict the word to have the POS of the template
-                    if POS in self.words_to_pos[word]:
+                    if fit_pos:
                         stripped_word = word.lower().strip()
 
                         # Enforce rhyme if last word
@@ -866,7 +878,6 @@ class Limerick_Generate:
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
-        print(sentences[0][0])
         return sentences[0]
 
     def gen_line_gpt_cc(self, cctemplate, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
