@@ -156,7 +156,6 @@ range(0,len(orig_text))])
                sents = [new_sentences[j][0] for j in range(len(new_sentences))]
                sent_done = [' '.join(sents[j]) for j in range(len(new_sentences))]
                f.write(" \n".join(sent_done))
-               f.flush()
  
            except Exception:
                pass
