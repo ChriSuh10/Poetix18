@@ -25,3 +25,18 @@
 #### postag_dict_all: Sets of POS:[words] and WORD:[POS]
 #### cmu-dict: metric
 
+### Rhetorical Analysis:
+
+#### 0. recursively download submodule
+#### git submodule update --init --recursive
+
+#### 1. install mono
+#### https://www.mono-project.com/docs/compiling-mono/linux/
+
+#### 2. restore packages
+#### mono nuget.exe restore Rhetorica.sln 
+
+#### 3. compile exe
+#### xbuild Rhetorica.sln /p:Configuration=Release /p:Platform=x64
+
+#### 4. run exe
