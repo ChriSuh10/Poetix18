@@ -1,0 +1,67 @@
+FIGURE: Antimetabole
+DESCRIPTIOM: Repetition of words in reverse grammatical order.
+CORPUS: sonnets
+
+Orig. Text:
+music to hear
+Rep. Words:
+music, hear
+POS Template:
+[['NN', 'TO', 'VB']]
+Rep Template:
+[['11', '0', '21']]
+Sample Output:
+Orig. Text:
+but day by night and night by day oppress 'd
+Rep. Words:
+day, night
+POS Template:
+[['CC', 'NN', 'IN', 'NN', 'CC', 'NN', 'IN', 'NN', 'IN', 'MD']]
+Rep Template:
+[['0', '11', '0', '21', '0', '22', '0', '12', '0', '0']]
+Sample Output:
+Orig. Text:
+increasing store with loss
+Rep. Words:
+store, loss
+POS Template:
+[['VBG', 'NN', 'IN', 'NN']]
+Rep Template:
+[['0', '11', '0', '21']]
+Sample Output:
+Orig. Text:
+applying fears to hopes
+Rep. Words:
+fears, hopes
+POS Template:
+[['VBG', 'NNS', 'TO', 'NNS']]
+Rep Template:
+[['0', '11', '0', '21']]
+Sample Output:
+Orig. Text:
+is lust in action and till action
+Rep. Words:
+lust, action
+POS Template:
+[['VBZ', 'JJ', 'IN', 'NN', 'CC', 'NN', 'NN']]
+Rep Template:
+[['0', '11', '0', '21', '0', '0', '22']]
+Sample Output:
+Orig. Text:
+all this the world well knows yet none knows well
+Rep. Words:
+well, knows
+POS Template:
+[['DT', 'DT', 'DT', 'NN', 'NN', 'VBZ', 'RB', 'NN', 'VBZ', 'RB']]
+Rep Template:
+[['0', '0', '0', '0', '11', '21', '0', '0', '22', '12']]
+Sample Output:
+Orig. Text:
+love 's fire heats water
+Rep. Words:
+love, water
+POS Template:
+[['NN', 'POS', 'NN', 'VBZ', 'NN']]
+Rep Template:
+[['11', '0', '0', '0', '21']]
+Sample Output:

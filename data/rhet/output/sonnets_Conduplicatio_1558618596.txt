@@ -1,0 +1,235 @@
+FIGURE: Conduplicatio
+DESCRIPTIOM: The repetition of a word or phrase.
+CORPUS: sonnets
+
+Orig. Text:
+when your sweet issue your sweet form should bear
+Rep. Words:
+your, sweet
+POS Template:
+[['WRB', 'PRP$', 'JJ', 'VB', 'PRP$', 'JJ', 'NN', 'MD', 'VB']]
+Rep Template:
+[['0', '11', '21', '0', '12', '22', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+mine be thy love and thy love 's use their treasure
+Rep. Words:
+thy, love
+POS Template:
+[['NN', 'VB', 'JJ', 'NN', 'CC', 'JJ', 'NN', 'POS', 'VBP', 'PRP$', 'NN']]
+Rep Template:
+[['0', '0', '11', '21', '0', '12', '22', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+desiring this man 's art
+Rep. Words:
+man, 's
+POS Template:
+[['VBG', 'DT', 'NN', 'POS', 'NN']]
+Rep Template:
+[['0', '0', '11', '21', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+excusing thy sins more than thy sins are
+Rep. Words:
+thy, sins
+POS Template:
+[['VBG', 'JJ', 'NNS', 'RBR', 'IN', 'JJ', 'NNS', 'VBP']]
+Rep Template:
+[['0', '11', '21', '0', '0', '12', '22', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+thou dost love her
+Rep. Words:
+love, her
+POS Template:
+[['NN', 'NN', 'IN', 'PRP$']]
+Rep Template:
+[['0', '0', '11', '21']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+save where thou art not
+Rep. Words:
+thou, art
+POS Template:
+[['VB', 'WRB', 'JJ', 'NN', 'RB']]
+Rep Template:
+[['0', '0', '11', '21', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+against that time
+Rep. Words:
+that, time
+POS Template:
+[['IN', 'DT', 'NN']]
+Rep Template:
+[['0', '11', '21']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+since every one
+Rep. Words:
+every, one
+POS Template:
+[['IN', 'DT', 'CD']]
+Rep Template:
+[['0', '11', '21']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+wh ' r we are mended
+Rep. Words:
+wh, r
+POS Template:
+[['NN', "''", 'NN', 'PRP', 'VBP', 'VBN']]
+Rep Template:
+[['11', '0', '21', '0', '22', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+shall time 's best jewel from time 's chest lie hid
+Rep. Words:
+time, 's
+POS Template:
+[['MD', 'NN', 'POS', 'JJS', 'NN', 'IN', 'NN', 'POS', 'JJS', 'NN', 'NN']]
+Rep Template:
+[['0', '11', '21', '0', '0', '0', '12', '22', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+yet this thy praise can not be so thy praise
+Rep. Words:
+thy, praise
+POS Template:
+[['RB', 'DT', 'JJ', 'NN', 'MD', 'RB', 'VB', 'RB', 'JJ', 'NN']]
+Rep Template:
+[['0', '0', '11', '21', '0', '0', '0', '0', '12', '22']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+if thou wilt leave me
+Rep. Words:
+leave, me
+POS Template:
+[['IN', 'JJ', 'NN', 'VBP', 'PRP']]
+Rep Template:
+[['0', '0', '0', '11', '21']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+happy to have thy love
+Rep. Words:
+happy, to
+POS Template:
+[['JJ', 'TO', 'VB', 'VBN', 'VB']]
+Rep Template:
+[['11', '21', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+the summer 's flower is to the summer sweet
+Rep. Words:
+the, summer
+POS Template:
+[['DT', 'NN', 'POS', 'NN', 'VBZ', 'TO', 'DT', 'NN', 'NN']]
+Rep Template:
+[['11', '21', '0', '0', '0', '0', '12', '22', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+just to the time
+Rep. Words:
+the, time
+POS Template:
+[['RB', 'TO', 'DT', 'NN']]
+Rep Template:
+[['0', '0', '11', '21']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+as subject to time 's love or to time 's hate
+Rep. Words:
+to, time, 's
+POS Template:
+[['IN', 'JJ', 'TO', 'NN', 'POS', 'NN', 'CC', 'TO', 'NN', 'POS', 'NN']]
+Rep Template:
+[['0', '0', '11', '21', '31', '0', '0', '12', '22', '32', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+thou art as tyrannous
+Rep. Words:
+thou, art
+POS Template:
+[['JJ', 'NN', 'IN', 'JJ']]
+Rep Template:
+[['11', '21', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and will ' to boot
+Rep. Words:
+and, will
+POS Template:
+[['CC', 'MD', "''", 'TO', 'VB']]
+Rep Template:
+[['11', '21', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+but my five wits nor my five senses can
+Rep. Words:
+my, five
+POS Template:
+[['CC', 'PRP$', 'CD', 'NNS', 'CC', 'PRP$', 'CD', 'NNS', 'MD']]
+Rep Template:
+[['0', '11', '21', '0', '0', '12', '22', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+if thou dost seek to have what thou dost hide
+Rep. Words:
+thou, dost
+POS Template:
+[['IN', 'JJ', 'NN', 'NN', 'TO', 'VB', 'WP', 'VBZ', 'NN', 'NN']]
+Rep Template:
+[['0', '11', '21', '0', '0', '0', '0', '12', '22', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+how can it o how can love 's eye be true
+Rep. Words:
+how, can
+POS Template:
+[['WRB', 'MD', 'PRP', 'VB', 'WRB', 'MD', 'VB', 'POS', 'NN', 'VB', 'JJ']]
+Rep Template:
+[['11', '21', '0', '0', '12', '22', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

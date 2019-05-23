@@ -1,0 +1,202 @@
+FIGURE: Epanalepsis
+DESCRIPTIOM: Repetition at the end of a clause of the word or phrase that began it.
+CORPUS: sonnets
+
+Orig. Text:
+sweets with sweets war not
+Rep. Words:
+joy
+POS Template:
+[['NNS', 'IN', 'NNS', 'NN', 'RB']]
+Rep Template:
+[['0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+save where thou art not
+Rep. Words:
+thou, art
+POS Template:
+[['VB', 'WRB', 'JJ', 'NN', 'RB']]
+Rep Template:
+[['0', '0', '11', '21', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+the earth can have but earth
+Rep. Words:
+earth
+POS Template:
+[['DT', 'NN', 'MD', 'VB', 'CC', 'VB']]
+Rep Template:
+[['0', '11', '0', '0', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+than this rich praise
+Rep. Words:
+you
+POS Template:
+[['IN', 'DT', 'JJ', 'NN']]
+Rep Template:
+[['0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+that you are you
+Rep. Words:
+you
+POS Template:
+[['IN', 'PRP', 'VBP', 'PRP']]
+Rep Template:
+[['0', '11', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+if thy sweet virtue answer not thy show
+Rep. Words:
+thy
+POS Template:
+[['IN', 'JJ', 'JJ', 'NN', 'NN', 'RB', 'JJ', 'NN']]
+Rep Template:
+[['0', '11', '0', '0', '0', '0', '12', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+but best is best
+Rep. Words:
+best
+POS Template:
+[['CC', 'JJS', 'VBZ', 'RBS']]
+Rep Template:
+[['0', '11', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and to be prais 'd of ages yet to be
+Rep. Words:
+to, be
+POS Template:
+[['CC', 'TO', 'VB', 'JJ', 'CD', 'IN', 'NNS', 'RB', 'TO', 'VB']]
+Rep Template:
+[['0', '11', '21', '0', '0', '0', '0', '0', '12', '22']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+kind is my love to-day
+Rep. Words:
+kind
+POS Template:
+[['NN', 'VBZ', 'PRP$', 'NN', 'NN']]
+Rep Template:
+[['11', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+counting no old thing old
+Rep. Words:
+old
+POS Template:
+[['VBG', 'DT', 'JJ', 'NN', 'JJ']]
+Rep Template:
+[['0', '0', '11', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+admit impediments love is not love
+Rep. Words:
+love
+POS Template:
+[['NN', 'NNS', 'VBP', 'VBZ', 'RB', 'VB']]
+Rep Template:
+[['0', '0', '11', '0', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+that better is
+Rep. Words:
+better
+POS Template:
+[['DT', 'JJR', 'VBZ']]
+Rep Template:
+[['0', '11', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+weeds among weeds
+Rep. Words:
+weeds
+POS Template:
+[['NNS', 'IN', 'NNS']]
+Rep Template:
+[['11', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+thou art as tyrannous
+Rep. Words:
+thou, art
+POS Template:
+[['JJ', 'NN', 'IN', 'JJ']]
+Rep Template:
+[['11', '21', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+that they behold
+Rep. Words:
+see
+POS Template:
+[['IN', 'PRP', 'VBD']]
+Rep Template:
+[['0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+so will i pray that thou mayst have thy will
+Rep. Words:
+will
+POS Template:
+[['RB', 'MD', 'VB', 'NN', 'IN', 'JJ', 'NNS', 'VBP', 'VBN', 'MD']]
+Rep Template:
+[['0', '11', '0', '0', '0', '0', '0', '0', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+for i have sworn thee fair more perjur 'd i
+Rep. Words:
+i
+POS Template:
+[['IN', 'NN', 'VBP', 'VBN', 'JJ', 'NN', 'RBR', 'JJ', 'MD', 'VB']]
+Rep Template:
+[['0', '11', '0', '0', '0', '12', '0', '0', '0', '13']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+love 's fire heats water
+Rep. Words:
+love
+POS Template:
+[['NN', 'POS', 'NN', 'VBZ', 'NN']]
+Rep Template:
+[['11', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

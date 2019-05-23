@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LAIR.ResourceAPIs.WordNet</name>
+    </assembly>
+    <members>
+        <member name="T:LAIR.ResourceAPIs.WordNet.WordNetEngine">
+            <summary>
+            Provides access to the WordNet resource via two alternative methods, in-memory and disk-based. The latter is blazingly
+            fast but also hugely inefficient in terms of memory consumption. The latter uses essentially zero memory but is slow
+            because all searches have to be conducted on-disk.
+            </summary>
+        </member>
+        <member name="F:LAIR.ResourceAPIs.WordNet.WordNetEngine._posSymbolRelation">
+            <summary>
+            SynSet relation symbols that are available for each POS
+            </summary>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.#cctor">
+            <summary>
+            Static constructor
+            </summary>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetSynSetRelation(LAIR.ResourceAPIs.WordNet.WordNetEngine.POS,System.String)">
+            <summary>
+            Gets the relation for a given POS and symbol
+            </summary>
+            <param name="pos">POS to get relation for</param>
+            <param name="symbol">Symbol to get relation for</param>
+            <returns>SynSet relation</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetFilePOS(System.String)">
+            <summary>
+            Gets the part-of-speech associated with a file path
+            </summary>
+            <param name="path">Path to get POS for</param>
+            <returns>POS</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetSynSetShells(System.String,LAIR.ResourceAPIs.WordNet.WordNetEngine.POS,LAIR.ResourceAPIs.WordNet.SynSet@,LAIR.ResourceAPIs.WordNet.WordNetEngine)">
+            <summary>
+            Gets synset shells from a word index line. A synset shell is an instance of SynSet with only the POS and Offset
+            members initialized. These members are enough to look up the full synset within the corresponding data file. This
+            method is static to prevent inadvertent references to a current WordNetEngine, which should be passed via the 
+            corresponding parameter.
+            </summary>
+            <param name="wordIndexLine">Word index line from which to get synset shells</param>
+            <param name="pos">POS of the given index line</param>
+            <param name="mostCommonSynSet">Returns the most common synset for the word</param>
+            <param name="wordNetEngine">WordNetEngine to pass to the constructor of each synset shell</param>
+            <returns>Synset shells for the given index line</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="wordNetDirectory">Path to WorNet directory (the one with the data and index files in it)</param>
+            <param name="inMemory">Whether or not to store all data in memory. In-memory storage requires quite a bit of space
+            but it is also very quick. The alternative (false) will cause the data to be searched on-disk with an efficient
+            binary search algorithm.</param>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetSynSet(System.String)">
+            <summary>
+            Gets a synset
+            </summary>
+            <param name="synsetID">ID of synset in the format returned by SynSet.ID (i.e., POS:Offset)</param>
+            <returns>SynSet</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetSynSets(System.String,LAIR.ResourceAPIs.WordNet.WordNetEngine.POS[])">
+            <summary>
+            Gets all synsets for a word, optionally restricting the returned synsets to one or more parts of speech. This
+            method does not perform any morphological analysis to match up the given word. It does, however, replace all 
+            spaces with underscores and call String.ToLower to normalize case.
+            </summary>
+            <param name="word">Word to get SynSets for. This method will replace all spaces with underscores and
+            call ToLower() to normalize the word's case.</param>
+            <param name="posRestriction">POSs to search. Cannot contain POS.None. Will search all POSs if no restriction
+            is given.</param>
+            <returns>Set of SynSets that contain word</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetMostCommonSynSet(System.String,LAIR.ResourceAPIs.WordNet.WordNetEngine.POS)">
+            <summary>
+            Gets the most common synset for a given word/pos pair. This is only available for memory-based
+            engines (see constructor).
+            </summary>
+            <param name="word">Word to get SynSets for. This method will replace all spaces with underscores and
+            will call String.ToLower to normalize case.</param>
+            <param name="pos">Part of speech to find</param>
+            <returns>Most common synset for given word/pos pair</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.GetSynSetDefinition(LAIR.ResourceAPIs.WordNet.WordNetEngine.POS,System.Int32)">
+            <summary>
+            Gets definition line for synset from data file
+            </summary>
+            <param name="pos">POS to get definition for</param>
+            <param name="offset">Offset into data file</param>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetEngine.Close">
+            <summary>
+            Closes all files and releases any resources assocated with this WordNet engine
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.WordNetEngine.InMemory">
+            <summary>
+            Gets whether or not the data in this WordNetEngine is stored in memory
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.WordNetEngine.WordNetDirectory">
+            <summary>
+            Gets the WordNet data distribution directory
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.WordNetEngine.AllWords">
+            <summary>
+            Gets all words in WordNet, organized by POS.
+            </summary>
+        </member>
+        <member name="T:LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation">
+            <summary>
+            SynSet relations
+            </summary>
+        </member>
+        <member name="T:LAIR.ResourceAPIs.WordNet.WordNetEngine.POS">
+            <summary>
+            WordNet parts-of-speech
+            </summary>
+        </member>
+        <member name="T:LAIR.ResourceAPIs.WordNet.WordNetEngine.LexicographerFileName">
+            <summary>
+            Lexicographer file names
+            </summary>
+        </member>
+        <member name="T:LAIR.ResourceAPIs.WordNet.SynSet">
+            <summary>
+            Represents a WordNet synset
+            </summary>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.op_Equality(LAIR.ResourceAPIs.WordNet.SynSet,LAIR.ResourceAPIs.WordNet.SynSet)">
+            <summary>
+            Checks whether two synsets are equal
+            </summary>
+            <param name="synset1">First synset</param>
+            <param name="synset2">Second synset</param>
+            <returns>True if synsets are equal, false otherwise</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.op_Inequality(LAIR.ResourceAPIs.WordNet.SynSet,LAIR.ResourceAPIs.WordNet.SynSet)">
+            <summary>
+            Checks whether two synsets are unequal
+            </summary>
+            <param name="synset1">First synset</param>
+            <param name="synset2">Second synset</param>
+            <returns>True if synsets are unequal, false otherwise</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.#ctor(LAIR.ResourceAPIs.WordNet.WordNetEngine.POS,System.Int32,LAIR.ResourceAPIs.WordNet.WordNetEngine)">
+            <summary>
+            Constructor. Creates the shell of a SynSet without any actual information. To gain access to SynSet words, gloss, 
+            and related SynSets, call SynSet.Instantiate.
+            </summary>
+            <param name="pos">POS of SynSet</param>
+            <param name="offset">Byte location of SynSet definition within data file</param>
+            <param name="wordNetEngine">WordNet engine used to instantiate this synset. This should be non-null only when constructing
+            synsets for disk-based WordNet engines.</param>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.Instantiate">
+            <summary>
+            Instantiates the current synset. Any related synsets are created as synset shells. These shells only contain
+            the POS and offset. Other members can be initialized by calling Instantiate on the shells. This should only 
+            be called when _not_ using in-memory storage. When using in-memory storage, all synsets are instantiated in
+            the WordNetEngine constructor. 
+            </summary>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.Instantiate(System.String,System.Collections.Generic.Dictionary{System.String,LAIR.ResourceAPIs.WordNet.SynSet})">
+            <summary>
+            Instantiates the current synset. If idSynset is non-null, related synsets references are set to those from 
+            idSynset; otherwise, related synsets are created as shells.
+            </summary>
+            <param name="definition">Definition line of synset from data file</param>
+            <param name="idSynset">Lookup for related synsets. If null, all related synsets will be created as shells.</param>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetField(System.String,System.Int32)">
+            <summary>
+            Gets a space-delimited field from a synset definition line
+            </summary>
+            <param name="line">SynSet definition line</param>
+            <param name="fieldNum">Number of field to get</param>
+            <returns>Field value</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetField(System.String,System.Int32,System.Int32@)">
+            <summary>
+            Gets a space-delimited field from a synset definition line
+            </summary>
+            <param name="line">SynSet definition line</param>
+            <param name="fieldNum">Number of field to get</param>
+            <param name="startIndex">Start index of field within the line</param>
+            <returns>Field value</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetPOS(System.String)">
+            <summary>
+            Gets the POS from its code
+            </summary>
+            <param name="pos">POS code</param>
+            <returns>POS</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetRelatedSynSetCount(LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation)">
+            <summary>
+            Gets the number of synsets related to the current one by the given relation
+            </summary>
+            <param name="relation">Relation to check</param>
+            <returns>Number of synset related to the current one by the given relation</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetRelatedSynSets(LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation,System.Boolean)">
+            <summary>
+            Gets synsets related to the current synset
+            </summary>
+            <param name="relation">Synset relation to follow</param>
+            <param name="recursive">Whether or not to follow the relation recursively for all related synsets</param>
+            <returns>Synsets related to the given one by the given relation</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetRelatedSynSets(System.Collections.Generic.IEnumerable{LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation},System.Boolean)">
+            <summary>
+            Gets synsets related to the current synset
+            </summary>
+            <param name="relations">Synset relations to follow</param>
+            <param name="recursive">Whether or not to follow the relations recursively for all related synsets</param>
+            <returns>Synsets related to the given one by the given relations</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetRelatedSynSets(System.Collections.Generic.IEnumerable{LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation},System.Boolean,LAIR.Collections.Generic.Set{LAIR.ResourceAPIs.WordNet.SynSet})">
+            <summary>
+            Private version of GetRelatedSynSets that avoids cyclic paths in WordNet. The current synset must itself be instantiated.
+            </summary>
+            <param name="relations">Synset relations to get</param>
+            <param name="recursive">Whether or not to follow the relation recursively for all related synsets</param>
+            <param name="currSynSets">Current collection of synsets, which we'll add to.</param>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetShortestPathTo(LAIR.ResourceAPIs.WordNet.SynSet,System.Collections.Generic.IEnumerable{LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation})">
+            <summary>
+            Gets the shortest path from the current synset to another, following the given synset relations.
+            </summary>
+            <param name="destination">Destination synset</param>
+            <param name="relations">Relations to follow, or null for all relations.</param>
+            <returns>Synset path, or null if none exists.</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetClosestMutuallyReachableSynset(LAIR.ResourceAPIs.WordNet.SynSet,System.Collections.Generic.IEnumerable{LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation})">
+            <summary>
+            Gets the closest synset that is reachable from the current and another synset along the given relations. For example, 
+            given two synsets and the Hypernym relation, this will return the lowest synset that is a hypernym of both synsets. If 
+            the hypernym hierarchy forms a tree, this will be the lowest common ancestor.
+            </summary>
+            <param name="synset">Other synset</param>
+            <param name="relations">Relations to follow</param>
+            <returns>Closest mutually reachable synset</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetDepth(System.Collections.Generic.IEnumerable{LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation})">
+            <summary>
+            Computes the depth of the current synset following a set of relations. Returns the minimum of all possible depths. Root nodes
+            have a depth of zero.
+            </summary>
+            <param name="relations">Relations to follow</param>
+            <returns>Depth of current SynSet</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetDepth(System.Collections.Generic.IEnumerable{LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation},LAIR.Collections.Generic.Set{LAIR.ResourceAPIs.WordNet.SynSet}@)">
+            <summary>
+            Computes the depth of the current synset following a set of relations. Returns the minimum of all possible depths. Root
+            nodes have a depth of zero.
+            </summary>
+            <param name="relations">Relations to follow</param>
+            <param name="synsetsEncountered">Synsets that have already been encountered. Prevents cycles from being entered.</param>
+            <returns>Depth of current SynSet</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetLexicallyRelatedWords">
+            <summary>
+            Gets lexically related words for the current synset. Many of the relations in WordNet are lexical instead of semantic. Whereas
+            the latter indicate relations between entire synsets (e.g., hypernym), the former indicate relations between specific 
+            words in synsets. This method retrieves all lexical relations and the words related thereby.
+            </summary>
+            <returns>Mapping from relations to mappings from words in the current synset to related words in the related synsets</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.GetHashCode">
+            <summary>
+            Gets hash code for this synset
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.Equals(System.Object)">
+            <summary>
+            Checks whether the current synset equals another
+            </summary>
+            <param name="obj">Other synset</param>
+            <returns>True if equal, false otherwise</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.ToString">
+            <summary>
+            Gets description of synset
+            </summary>
+            <returns>Description</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.IsMostCommonSynsetFor(System.String)">
+            <summary>
+            Checks whether this is the most common synset for a word
+            </summary>
+            <param name="word">Word to check</param>
+            <returns>True if this is the most common synset, false otherwise</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.SynSet.SetAsMostCommonSynsetFor(System.String)">
+            <summary>
+            Set the current synset as the most common for a word
+            </summary>
+            <param name="word">Word to set</param>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.SemanticRelations">
+            <summary>
+            Gets semantic relations that exist between this synset and other synsets
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.LexicalRelations">
+            <summary>
+            Gets lexical relations that exist between words in this synset and words in another synset
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.LexicographerFileName">
+            <summary>
+            Gets the lexicographer file name for this synset (see the lexnames file in the WordNet distribution).
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.Instantiated">
+            <summary>
+            Gets whether or not the current synset has been instantiated
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.SearchBackPointer">
+            <summary>
+            Gets or sets the back-pointer used when searching WordNet
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.POS">
+            <summary>
+            Gets the POS of the current synset
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.Offset">
+            <summary>
+            Gets the byte offset of synset definition within the data file
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.Gloss">
+            <summary>
+            Gets the gloss of the current SynSet
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.Words">
+            <summary>
+            Gets the words in the current SynSet
+            </summary>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.SynSet.ID">
+            <summary>
+            Gets the ID of this synset in the form POS:Offset
+            </summary>
+        </member>
+        <member name="T:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel">
+            <summary>
+            Provides WordNet-based semantic similarity measures
+            </summary>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.#ctor(LAIR.ResourceAPIs.WordNet.WordNetEngine)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="wordNetEngine">WordNet engine to use</param>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.GetSimilarity(System.String,LAIR.ResourceAPIs.WordNet.WordNetEngine.POS,System.String,LAIR.ResourceAPIs.WordNet.WordNetEngine.POS,LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy,LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation[])">
+            <summary>
+            Gets similarity of two strings using the most common synset for given string/pos pairs
+            </summary>
+            <param name="string1">First string</param>
+            <param name="pos1">First POS</param>
+            <param name="pos2">Second POS</param>
+            <param name="string2">Second string</param>
+            <param name="strategy">Similarity strategy to use</param>
+            <param name="relations">Relations to use when computing similarity</param>
+            <returns>Similarity</returns>
+        </member>
+        <member name="M:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.GetSimilarity(LAIR.ResourceAPIs.WordNet.SynSet,LAIR.ResourceAPIs.WordNet.SynSet,LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy,LAIR.ResourceAPIs.WordNet.WordNetEngine.SynSetRelation[])">
+            <summary>
+            Gets similarity of two synsets
+            </summary>
+            <param name="synset1">First synset</param>
+            <param name="synset2">Second synset</param>
+            <param name="strategy">Strategy to use. All strategies named WuPalmer1994* will produce the same result since only two synsets
+            are available.</param>
+            <param name="relations">Synset relations to follow when computing similarity (pass null for all relations)</param>
+            <returns>Similarity</returns>
+        </member>
+        <member name="P:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.WordNetEngine">
+            <summary>
+            Gets the WordNet engine for this model
+            </summary>
+        </member>
+        <member name="T:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy">
+            <summary>
+            Similarity strategies
+            </summary>
+        </member>
+        <member name="F:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy.WuPalmer1994MostCommon">
+            <summary>
+            Follow the method described by Wu and Palmer (1994):  2 * depth(lcs) / (depth(s1) + depth(s2)). When multiple
+            synsets are available, the most common sense are used.
+            </summary>
+        </member>
+        <member name="F:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy.WuPalmer1994Minimum">
+            <summary>
+            Follow the method described by Wu and Palmer (1994):  2 * depth(lcs) / (depth(s1) + depth(s2)). When multiple
+            synsets are available, the ones resulting in minimum similarity are used.
+            </summary>
+        </member>
+        <member name="F:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy.WuPalmer1994Maximum">
+            <summary>
+            Follow the method described by Wu and Palmer (1994):  2 * depth(lcs) / (depth(s1) + depth(s2)). When multiple
+            synsets are available, the ones resulting in maximum similarity are used.
+            </summary>
+        </member>
+        <member name="F:LAIR.ResourceAPIs.WordNet.WordNetSimilarityModel.Strategy.WuPalmer1994Average">
+            <summary>
+            Follow the method described by Wu and Palmer (1994):  2 * depth(lcs) / (depth(s1) + depth(s2)). When multiple
+            synsets are available, similarity is averaged across all synsets.
+            </summary>
+        </member>
+    </members>
+</doc>
