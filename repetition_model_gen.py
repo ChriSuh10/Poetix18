@@ -261,7 +261,7 @@ f = open(out_name,"w+")
 fig_and_desc = [e.name + ": " + d.value for e,d in zip(RHETORICAL_FIGURES,FIGURE_DESCRIPTION)]
 fig_and_desc.insert(0, "FIGURE: Description\n")
 for fd in fig_and_desc:
-    f.write(fd)
+    f.write(fd+"\n")
 
 for k, v in single_line.items():
     prompt = lg.enc.encode(' '.join(v.get_orig_text()[0]))
