@@ -1,19 +1,19 @@
 import pandas as pd
 import re
 # Open a file: file
-sent_table = pd.read_csv('data/rhet/corpus.txt',usecols=['text'])
-#print(sent_table)
+sent_table = pd.read_csv('data/corpus.txt', delimiter='|', usecols=['text'])
+print(sent_table)
 
 
 for i in sent_table.index.values:
-    text = sent_table.iloc[i]['text'];
+    print(sent_table.iloc[i]['text']);
     #sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''O ''', '''Oh''')
-    #sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''`''', ''' \'''')
-    #sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' ` ''', '''\'''')
-    #sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' `''', '''\'''')
-    #sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' \'''','''\'''')
-    #sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''\'d''','''ed''')
-    sent_table.iloc[i]['text'] = re.sub(r'''[^\w\d'\-\s]+''','',sent_table.iloc[i]['text']);
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''`''', ''' \'''')
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' ` ''', '''\'''')
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' `''', '''\'''')
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' \'''','''\'''')
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''\'d''','''ed''')
+    #sent_table.iloc[i]['text'] = re.sub(r'''[^\w\d'\-\s]+''','',sent_table.iloc[i]['text']);
     sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].strip();
     
     
@@ -36,16 +36,13 @@ import numpy as np
 import time
 from datetime import datetime
 
-
 num_figs=10
 max_fig_length=18
 base_path = 'data/rhet/repitition/'
-base_path_output = 'data/rhet/output_sample_gen/'
+base_path_output = 'data/rhet/output/'
 corpus = 'sonnets'
 
-fig_names = ["Anadiplosis", "Anaphora", "Antimetabole", "Conduplicatio", "Epanalepsis",
-"Epistrophe", "Epizeuxis",
-             "Ploce", "Polysyndeton", "Symploce"]
+fig_names = ["Anadiplosis", "Anaphora", "Antimetabole", "Conduplicatio", "Epanalepsis", "Epistrophe", "Epizeuxis", "Ploce", "Polysyndeton", "Symploce"]
 
 fig_descs = \
     [
@@ -92,14 +89,14 @@ for nfig in range(0,num_figs):
        rep_word = []
        sentence_ids = figure['sentence_id'].values
        sentence_ids = uniq(sentence_ids)
-       #print(sentence_ids)
+       if(not sorted(sentence_ids) == list(range(min(sentence_ids), max(sentence_ids)+1))): continue 
+       print(sentence_ids)
        fig_words = uniq([x.lower().replace('''\'d''', '''ed''') for x in
 list(figure['word'].values)])
        fig_words_dict = dict([[fig_words[y-1], y] for y in range(1, len(fig_words)+1)])
        #print(fig_words_dict)
-    
-       orig_text = [ nltk.word_tokenize(sent_table.iloc[i]['text']) for i in
-sentence_ids]
+        
+       orig_text = [ nltk.word_tokenize(sent_table.iloc[i]['text']) for i in sentence_ids]
        pattern = '^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$'
        roman = []
        for j in range(0,len(orig_text)):
@@ -107,12 +104,12 @@ sentence_ids]
                if(re.search(pattern, orig_text[j][k])):
                    roman.append([j,k])
        
-       for l in range(0,len(roman)):
-           del orig_text[roman[l][0]][roman[l][1]]
+       #for l in range(0,len(roman)):
+           #del orig_text[roman[l][0]][roman[l][1]]
     
        orig_text = [[orig_text[i][j].lower() for j in range(0,len(orig_text[i]))] for i
 in range(0,len(orig_text))]
-       if(len(sentence_ids) == 1 and recursive_len(orig_text) <= 18):
+       if(len(sentence_ids) == 1 and recursive_len(orig_text) <= 18 and recursive_len(orig_text) > 1):
            tagged = [nltk.pos_tag(orig_text[i]) for i in  range(0,len(orig_text))]
            #print(orig_text)
            pos_templates = [[tagged[i][j][1] for j in range(0,len(tagged[i]))] for i in
@@ -152,17 +149,18 @@ range(0,len(orig_text))])
            
            print(rep_templates[0])
            print(pos_templates[0])
+           
            prompt = lg.enc.encode(orig_line + ",")
-           try: 
-                new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_templates[0], w=None,
-encodes=prompt, default_template=pos_templates[0], banned_set=banned_set,search_space=n)
-                sents = [new_sentences[j][0] for j in range(len(new_sentences))]
-                sent_done = [' '.join(sents[j]) for j in range(len(new_sentences))]
-                f.write(" \n".join(sent_done))
+           try:
+               new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_templates[0], w=None, encodes=prompt, default_template=pos_templates[0], banned_set=banned_set,search_space=n)
+               sents = [new_sentences[j][0] for j in range(len(new_sentences))]
+               sent_done = [' '.join(sents[j]) for j in range(len(new_sentences))]
+               f.write(" \n".join(sent_done))
+ 
            except Exception:
-                pass
-           f.write("\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n")
-       #print(rep_templates)     
+               pass
+           f.write("\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n") 
+           print(rep_templates)     
   
    #for index, row in figure.iterrows():
     f.close()

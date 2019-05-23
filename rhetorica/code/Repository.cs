@@ -94,7 +94,7 @@ namespace Rhetorica
     {
       _assemblyName = Regex.Match(_assemblyFullName, "^(.*?),.*$").Result("$1");
 
-      _rootDrive = ("/home/dineshp/Poetix18/").Replace(@"\", Dsc);
+      _rootDrive = ("/usr/project/xtmp/dp195/Poetix18/").Replace(@"\", Dsc);
       _nlpFolder = ("rhetorica/nlp/").Replace(@"\", Dsc);
 
       _openNlpModelsFolder = ("OpenNLP/models/").Replace(@"\", Dsc);

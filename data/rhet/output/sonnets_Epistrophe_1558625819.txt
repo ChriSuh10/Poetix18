@@ -1,0 +1,147 @@
+FIGURE: Epistrophe
+DESCRIPTIOM: Repetition of the same word or phrase at the end of successive clauses.
+CORPUS: sonnets
+
+Orig. Text:
+music to hear why hear ' st thou music sadly
+Rep. Words:
+hear
+POS Template:
+[['NN', 'TO', 'VB', 'WRB', 'JJ', 'POS', 'NN', 'NN', 'NN', 'RB']]
+Rep Template:
+[['0', '0', '11', '0', '12', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+thou dost love her because thou know ' st i love her
+Rep. Words:
+love, her
+POS Template:
+[['NN', 'NN', 'VB', 'PRP$', 'IN', 'NN', 'VBP', 'POS', 'NN', 'NN', 'VBP', 'PRP$']]
+Rep Template:
+[['0', '0', '11', '21', '0', '0', '0', '0', '0', '0', '12', '22']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+but love for love thus shall excuse my jade --
+Rep. Words:
+love
+POS Template:
+[['CC', 'VB', 'IN', 'NN', 'RB', 'MD', 'VB', 'PRP$', 'NN', ':']]
+Rep Template:
+[['0', '11', '0', '12', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+so love be thou although to-day thou fill
+Rep. Words:
+thou
+POS Template:
+[['RB', 'RB', 'VB', 'JJ', 'IN', 'JJ', 'NN', 'NN']]
+Rep Template:
+[['0', '0', '0', '11', '12', '0', '13', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+i found or thought i found you did exceed
+Rep. Words:
+i, found
+POS Template:
+[['NN', 'VBD', 'CC', 'VBD', 'RB', 'VBN', 'PRP', 'VBD', 'VB']]
+Rep Template:
+[['11', '21', '0', '0', '12', '22', '0', '13', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and other strains of woe which now seem woe
+Rep. Words:
+woe
+POS Template:
+[['CC', 'JJ', 'NNS', 'IN', 'NN', 'WDT', 'RB', 'VBP', 'NNS']]
+Rep Template:
+[['0', '0', '0', '0', '11', '0', '0', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+i love not less though less the show appear
+Rep. Words:
+less
+POS Template:
+[['NNS', 'VBP', 'RB', 'RBR', 'IN', 'JJR', 'DT', 'NN', 'VBP']]
+Rep Template:
+[['0', '0', '0', '11', '0', '12', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and more much more than in my verse can sit
+Rep. Words:
+more
+POS Template:
+[['CC', 'RBR', 'RB', 'JJR', 'IN', 'IN', 'PRP$', 'NN', 'MD', 'VB']]
+Rep Template:
+[['0', '11', '0', '12', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+to one of one still such and ever so
+Rep. Words:
+one
+POS Template:
+[['TO', 'CD', 'IN', 'CD', 'RB', 'JJ', 'CC', 'RB', 'RB']]
+Rep Template:
+[['0', '11', '0', '12', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+is lust in action and till action lust
+Rep. Words:
+action
+POS Template:
+[['VBZ', 'JJ', 'IN', 'NN', 'CC', 'VB', 'NN', 'NN']]
+Rep Template:
+[['0', '0', '0', '11', '0', '0', '12', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+coral is far more red than her lips red
+Rep. Words:
+red
+POS Template:
+[['NN', 'VBZ', 'RB', 'RBR', 'JJ', 'IN', 'PRP$', 'NNS', 'JJ']]
+Rep Template:
+[['0', '0', '0', '0', '11', '0', '0', '0', '12']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+so thou being rich in ' will ' add to thy ' will '
+Rep. Words:
+will
+POS Template:
+[['RB', 'JJ', 'VBG', 'JJ', 'IN', 'POS', 'MD', "''", 'VB', 'TO', 'VB', "''", 'MD', 'VB']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '11', '0', '0', '0', '0', '0', '12', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+think all but one and me in that one ' will '
+Rep. Words:
+one
+POS Template:
+[['VB', 'DT', 'CC', 'CD', 'CC', 'PRP', 'IN', 'DT', 'CD', "''", 'MD', 'VB']]
+Rep Template:
+[['0', '0', '0', '11', '0', '0', '0', '0', '12', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

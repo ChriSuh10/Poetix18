@@ -121,12 +121,15 @@ namespace Rhetorica
       //string[] sentences = Repository.SentenceDetector.sentDetect(RawText);
       var sentences = sentencesStanford; // Use instead the sentences detected above by the Stanford preprocessor.
       Console.OutputEncoding = Encoding.GetEncoding("iso-8859-1");
+      StreamWriter file = new StreamWriter("/usr/project/xtmp/dp195/Poetix18/data/corpus.txt");
+      file.Write("id|text\n");
       for (int i = 0; i < sentences.Length; ++i) {
         Console.Write("Parsing sentence {0}/{2}.... {1}\n", i + 1,sentences[i],sentences.Length);
-        
+        file.Write("{0}|{1}\n", i, sentences[i]);
         Sentences.Add(new Sentence(sentences[i], lineBreakReplacement, _ignore, _punctuation, _options, this));
         Console.WriteLine("Done.");
       }
+     file.Close();
     }
 
     private string GetCleanText()
