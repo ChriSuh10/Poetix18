@@ -1,0 +1,92 @@
+FIGURE: Anadiplosis
+DESCRIPTIOM: Repetition of the ending word or phrase from the previous clause at the beginning of the next.
+CORPUS: sonnets
+
+Orig. Text:
+who , all in one , one pleasing note do sing :
+Rep. Words:
+one
+POS Template:
+[['WP', ',', 'DT', 'IN', 'CD', ',', 'CD', 'NN', 'NN', 'VBP', 'NN', ':']]
+Rep Template:
+[['0', '0', '0', '0', '11', '0', '12', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+featured like him , like him with friends possessed ,
+Rep. Words:
+him
+POS Template:
+[['VBN', 'IN', 'PRP', ',', 'IN', 'PRP', 'IN', 'NNS', 'VBN', ',']]
+Rep Template:
+[['0', '0', '11', '0', '0', '12', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and there reigns love , and all love 's loving parts ,
+Rep. Words:
+love
+POS Template:
+[['CC', 'EX', 'NNS', 'NN', ',', 'CC', 'DT', 'VBP', 'POS', 'NN', 'NNS', ',']]
+Rep Template:
+[['0', '0', '0', '11', '0', '0', '0', '12', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+as thou being mine , mine is thy good report .
+Rep. Words:
+mine
+POS Template:
+[['IN', 'NN', 'VBG', 'NN', ',', 'NN', 'VBZ', 'JJ', 'JJ', 'NN', '.']]
+Rep Template:
+[['0', '0', '0', '11', '0', '12', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+look what is best , that best i wish in thee :
+Rep. Words:
+best
+POS Template:
+[['VB', 'WP', 'VBZ', 'RBS', ',', 'IN', 'JJS', 'NN', 'NN', 'IN', 'NN', ':']]
+Rep Template:
+[['0', '0', '0', '11', '0', '0', '12', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+but love , for love , thus shall excuse my jade , --
+Rep. Words:
+love
+POS Template:
+[['CC', 'NN', ',', 'IN', 'NN', ',', 'RB', 'MD', 'VB', 'PRP$', 'NN', ',', ':']]
+Rep Template:
+[['0', '11', '0', '0', '12', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+since every one , hath every one , one shade ,
+Rep. Words:
+one
+POS Template:
+[['IN', 'DT', 'CD', ',', 'NN', 'DT', 'CD', ',', 'CD', 'NN', ',']]
+Rep Template:
+[['0', '0', '11', '0', '0', '0', '12', '0', '13', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+but you like none , none you , for constant heart .
+Rep. Words:
+none
+POS Template:
+[['CC', 'PRP', 'IN', 'NN', ',', 'NN', 'PRP', ',', 'IN', 'JJ', 'NN', '.']]
+Rep Template:
+[['0', '0', '0', '11', '0', '12', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

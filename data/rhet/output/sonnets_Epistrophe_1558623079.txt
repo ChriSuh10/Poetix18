@@ -1,0 +1,147 @@
+FIGURE: Epistrophe
+DESCRIPTIOM: Repetition of the same word or phrase at the end of successive clauses.
+CORPUS: sonnets
+
+Orig. Text:
+unlook 'd
+Rep. Words:
+hear
+POS Template:
+[['NN', 'MD']]
+Rep Template:
+[['0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+loving offenders thus i will excuse ye :
+Rep. Words:
+love, her
+POS Template:
+[['VBG', 'NNS', 'RB', 'VBP', 'MD', 'VB', 'NN', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+shall neigh -- no dull flesh -- in his fiery race ;
+Rep. Words:
+love
+POS Template:
+[['MD', 'RB', ':', 'DT', 'JJ', 'NN', ':', 'IN', 'PRP$', 'NN', 'NN', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+to-morrow sharpened in his former might :
+Rep. Words:
+thou
+POS Template:
+[['NN', 'VBN', 'IN', 'PRP$', 'JJ', 'MD', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and therefore to your fair no painting set ;
+Rep. Words:
+i, found
+POS Template:
+[['CC', 'RB', 'TO', 'PRP$', 'JJ', 'DT', 'NN', 'VBN', ':']]
+Rep Template:
+[['0', '0', '0', '0', '11', '0', '12', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+at first the very worst of fortune 's might ;
+Rep. Words:
+woe
+POS Template:
+[['IN', 'JJ', 'DT', 'RB', 'JJS', 'IN', 'NN', 'POS', 'MD', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+my love is strengthen 'd
+Rep. Words:
+less
+POS Template:
+[['PRP$', 'NN', 'VBZ', 'JJ', 'MD']]
+Rep Template:
+[['0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+than of your graces and your gifts to tell ;
+Rep. Words:
+more
+POS Template:
+[['IN', 'IN', 'PRP$', 'NNS', 'CC', 'PRP$', 'NNS', 'TO', 'VB', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+since all alike my songs and praises be
+Rep. Words:
+one
+POS Template:
+[['IN', 'DT', 'IN', 'PRP$', 'NNS', 'CC', 'NNS', 'VB']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+the expense of spirit in a waste of shame
+Rep. Words:
+action
+POS Template:
+[['DT', 'NN', 'IN', 'NN', 'IN', 'DT', 'NN', 'IN', 'NN']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+my mistress ' eyes are nothing like the sun ;
+Rep. Words:
+red
+POS Template:
+[['PRP$', 'NN', "''", 'NNS', 'VBP', 'NN', 'IN', 'DT', 'NN', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+and in abundance addeth to his store ;
+Rep. Words:
+will
+POS Template:
+[['CC', 'IN', 'NN', 'NN', 'TO', 'PRP$', 'NN', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Orig. Text:
+let no unkind ` no ' fair beseechers kill ;
+Rep. Words:
+one
+POS Template:
+[['VB', 'DT', 'JJ', '``', 'DT', "''", 'JJ', 'NNS', 'VBP', ':']]
+Rep Template:
+[['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+Sample Output:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

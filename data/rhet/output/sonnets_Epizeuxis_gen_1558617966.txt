@@ -1,0 +1,112 @@
+FIGURE: Epizeuxis
+DESCRIPTIOM: Repetition of a word or phrase with no others between.
+CORPUS: sonnets
+
+Orig. Text:
+featur 'd like him
+Rep. Words:
+like, him
+POS Template:
+[['JJ', 'MD', 'VB', 'PRP']]
+Rep Template:
+[['0', '0', '11', '21']]
+Sample Output:
+Orig. Text:
+as thou being mine
+Rep. Words:
+mine
+POS Template:
+[['IN', 'NN', 'VBG', 'NN']]
+Rep Template:
+[['0', '0', '0', '11']]
+Sample Output:
+Orig. Text:
+or any of these all
+Rep. Words:
+all, or
+POS Template:
+[['CC', 'DT', 'IN', 'DT', 'DT']]
+Rep Template:
+[['21', '0', '0', '0', '11']]
+Sample Output:
+Orig. Text:
+how would thy shadow 's form form happy show
+Rep. Words:
+form
+POS Template:
+[['WRB', 'MD', 'VB', 'NN', 'POS', 'NN', 'NN', 'JJ', 'NN']]
+Rep Template:
+[['0', '0', '0', '0', '0', '11', '12', '0', '0']]
+Sample Output:
+Orig. Text:
+since every one
+Rep. Words:
+one
+POS Template:
+[['IN', 'DT', 'CD']]
+Rep Template:
+[['0', '0', '11']]
+Sample Output:
+Orig. Text:
+but you like none
+Rep. Words:
+none
+POS Template:
+[['CC', 'PRP', 'VBP', 'NN']]
+Rep Template:
+[['0', '0', '0', '11']]
+Sample Output:
+Orig. Text:
+and by and by clean starved for a look
+Rep. Words:
+and, by
+POS Template:
+[['CC', 'IN', 'CC', 'IN', 'JJ', 'VBN', 'IN', 'DT', 'NN']]
+Rep Template:
+[['11', '21', '12', '22', '0', '0', '0', '0', '0']]
+Sample Output:
+Orig. Text:
+drawn after you
+Rep. Words:
+you
+POS Template:
+[['NN', 'IN', 'PRP']]
+Rep Template:
+[['0', '0', '11']]
+Sample Output:
+Orig. Text:
+even to thy pure and most most loving breast
+Rep. Words:
+most
+POS Template:
+[['RB', 'TO', 'VB', 'NN', 'CC', 'JJS', 'RBS', 'JJ', 'NN']]
+Rep Template:
+[['0', '0', '0', '0', '0', '11', '12', '0', '0']]
+Sample Output:
+Orig. Text:
+how oft when thou
+Rep. Words:
+music
+POS Template:
+[['WRB', 'JJ', 'WRB', 'NN']]
+Rep Template:
+[['0', '0', '0', '0']]
+Sample Output:
+Orig. Text:
+' will '
+Rep. Words:
+will
+POS Template:
+[["''", 'MD', 'VB']]
+Rep Template:
+[['0', '11', '0']]
+Sample Output:
+Orig. Text:
+love 's fire heats water
+Rep. Words:
+water
+POS Template:
+[['NN', 'POS', 'NN', 'VBZ', 'NN']]
+Rep Template:
+[['0', '0', '0', '0', '11']]
+Sample Output:

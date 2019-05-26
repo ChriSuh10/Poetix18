@@ -27,7 +27,7 @@ def top_k_logits(logits, k):
     )
 
 def score_model(
-    model_name='117M',
+    model_name='345M',
     seed=None,
     nsamples=1,
     length=None,
@@ -68,5 +68,4 @@ def score_model(
     return out
 
 if __name__ == '__main__':
-    #fire.Fire(score_model)
-    fire.Fire(score_model2)
+    fire.Fire(score_model)
