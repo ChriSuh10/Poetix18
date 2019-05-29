@@ -36,7 +36,7 @@ class Limerick_Generate:
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
         self.model_name = model_name
-        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
 
         self.create_syll_dict(syllables_file)
 
@@ -65,7 +65,7 @@ class Limerick_Generate:
             The name of the file containing the mapping of words to their
             intonations.
         """
-        with open(fname) as f:
+        with open(fname, encoding='UTF-8') as f:
             lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
             self.dict_meters = {}
             for i in range(len(lines)):
@@ -213,10 +213,11 @@ class Limerick_Generate:
         seen_words.add(self.ps.stem(w4))
 
         w3_response = requests.get(self.api_url, params={'rel_rhy': w4}).json()
+
         # Find word most similar to w4 that rhymes with it
         max_sim = 0
         for r in w3_response:
-            if r['word'] not in self.words_to_pos:
+            if r['word'] not in self.words_to_pos or r['word'] not in self.poetic_vectors.vocab:
                 continue
             this_sim = self.poetic_vectors.similarity(r['word'], w4)
             if this_sim  > max_sim and self.ps.stem(r['word']) not in seen_words:
