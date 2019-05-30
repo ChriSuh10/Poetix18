@@ -137,23 +137,26 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 #print(fig_dict.values)
 timestamp = int(time.mktime(datetime.now().timetuple()))
 lg = Limerick_Generate(model_dir='gpt2/models/345M', model_name='345M')
-n = 60
+n = 200
+top_sent = 20
 
-for e, d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
+for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 
-    # out_name = 'data/rhet/output/' + corpus + "_" + e.name.lower() + "_" + str(timestamp)  + ".txt"
-    # f = open(out_name,"w+")
+    #out_name = 'data/rhet/output/' + corpus + "_" + e.name.lower() + "_" + str(timestamp)  + ".txt"
+    #f = open(out_name,"w+")
 
     fig_and_desc = e.name + ": " + d.value
-    # f.write("FIGURE: Description\n")
-    # f.write(fig_and_desc +" \n\n")
+    #f.write("FIGURE: Description\n")
+    #f.write(fig_and_desc +" \n\n")
 
-    # print(out_name)
-    # print(fig_and_desc)
-    filtered = {k: v for k, v in fig_dict.items() if (v.get_num_lines() >= 2 and v.get_fig_type() == e.name)}
-    # print(len(filtered))
+    #print(out_name)
+    #print(fig_and_desc)
+    filtered = {k: v for k, v in fig_dict.items() if(v.get_num_lines() == 2 and v.get_fig_type() == e.name)}
+    #print(len(filtered))   
+
 
     for k, v in filtered.items():
-        # print(fig_and_desc)
-        print(v.to_string())
-        lg.gen_line_gpt_rep_multiline(v, search_space=n)
+       #print(fig_and_desc)
+       gen_lines = lg.gen_line_gpt_rep_multiline(v, search_space=n, top_sent=top_sent)
+       v.set_gen_lines(gen_lines)
+       print(v.to_string())

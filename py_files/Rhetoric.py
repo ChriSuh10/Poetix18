@@ -47,6 +47,18 @@ class FigureInfo:
     def set_orig_rep_words(self, orig_rep_words):
         self.orig_rep_words = orig_rep_words
 
+    def set_orig_tokens(self, orig_tokens):
+        self.orig_tokens = orig_tokens
+
+    def get_orig_tokens(self):
+        return self.orig_tokens
+
+    def set_gen_lines(self, gen_lines):
+        self.gen_lines = gen_lines
+
+    def get_gen_lines(self):
+        return self.gen_lines
+
     def get_orig_rep_words(self):
         return self.orig_rep_words
 

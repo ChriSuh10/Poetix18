@@ -882,22 +882,43 @@ class Limerick_Generate:
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
         return sentences[0]
 
-    def gen_line_gpt_rep_multiline(self, figure_info, search_space=100):
+    def gen_line_gpt_rep_multiline(self, figure_info, search_space=100,top_sent=10):
 
         prompts = figure_info.get_orig_text()
         rep_templates = figure_info.get_repitition_template()
         pos_templates = figure_info.get_pos_template()
+        orig_tokens = figure_info.get_orig_tokens()
         banned_set = figure_info.get_orig_rep_words()
         print(banned_set)
-        used_words_dict = dict()
+        used_words_dict = []
 
-        for pr, rep_template, pos_template in zip(prompts,rep_templates,pos_templates):
-            prompt = self.enc.encode(' '.join(pr))
-            gen = self.gen_line_gpt_rep(rep_template=rep_template, default_template=pos_template, encodes=prompt, search_space=search_space, banned_set=banned_set)
-            print(gen)
+        prompt1 = self.enc.encode(' '.join(prompts[0]))
+        rep_template1 = rep_templates[0]
+        pos_template1 = pos_templates[0]
+        orig_tokens1 = orig_tokens[0]
+        gen = self.gen_line_gpt_rep(rep_template=rep_template1, default_template=pos_template1, encodes=prompt1, orig_tokens=orig_tokens1, search_space=search_space, banned_set=banned_set,top_sent=top_sent)
+        sent_done = [[' '.join(gen['sents'][j])] for j in range(len(gen['sents']))]
 
-    def gen_line_gpt_rep(self, rep_template, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
-                         banned_set=None, used_words_dict=None, search_space=100):
+        if(figure_info.get_num_lines() > 1):
+            for l in range(0,len(gen['sents'])):
+                sent = gen['sents'][l]
+                used_words_dict_i = {i: sent[gen['used_words_dict'][i]] for i in gen['used_words_dict'].keys()}
+                prompt2 = self.enc.encode(' '.join(prompts[1]))
+                rep_template2 = rep_templates[1]
+                pos_template2 = pos_templates[1]
+                orig_tokens2 = orig_tokens[1]
+                gen2 = self.gen_line_gpt_rep(rep_template=rep_template2, default_template=pos_template2, encodes=prompt2, orig_tokens=orig_tokens2,
+                                             search_space=top_sent, banned_set=banned_set, used_words_dict=used_words_dict_i, top_sent=1)
+                print(gen2)
+                sent_done[l].append(gen2['sents'][0])
+                print(sent_done)
+
+        print(sent_done)
+        return sent_done
+
+
+    def gen_line_gpt_rep(self, rep_template, w=None, encodes=None, orig_tokens=None, default_template=None, rhyme_word=None, rhyme_set=None,
+                         banned_set=None, used_words_dict=None, search_space=100,top_sent=10):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -996,7 +1017,7 @@ class Limerick_Generate:
                         # print(CC)
                         # print(CC_WORD_ID)
                         # print(CC_INSTANCE_ID)
-                        CC_IDX = cc_lookup[CC_WORD_ID]
+                        #CC_IDX = cc_lookup[CC_WORD_ID]
                         # print(word)
                         # print(sentences[j][0][CC_IDX])
 
@@ -1005,6 +1026,7 @@ class Limerick_Generate:
                         if(used_words_dict):
                             cword = used_words_dict[CC_WORD_ID]
                         else:
+
                             CC_IDX = cc_lookup[CC_WORD_ID]
                             cword = sentences[j][0][CC_IDX].lower().strip()
 
@@ -1030,10 +1052,23 @@ class Limerick_Generate:
                                 (sentences[j][0] + [word],
                                  sentences[j][1] + [index],
                                  sentences[j][2] + np.log(logits[j][index])))
+                if not new_sentences:
+                    for j in range(len(sentences)):
+                        new_sentences.append(
+                                (sentences[j][0] + [orig_tokens[i]],
+                             sentences[j][1] + [-1],
+                             sentences[j][2] + 0))
 
             # Get the most probable N sentences by sorting the list according to probability
-            sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
-        gen = {'sents': [sentences[j][0] for j in range(len(sentences))], 'used_words_dict': cc_lookup}
+            if(len(new_sentences) < search_space):
+                sentences = heapq.nsmallest(len(new_sentences), new_sentences, key=lambda x: -x[2])
+            else:
+                sentences = heapq.nsmallest(search_space, new_sentences, key=lambda x: -x[2])
+
+            sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
+            print(sent_done)
+
+        gen = {'sents': [sentences[j][0] for j in range(top_sent)], 'used_words_dict': cc_lookup}
         return gen
 
     def gen_line_gpt_cc(self, cctemplate, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
