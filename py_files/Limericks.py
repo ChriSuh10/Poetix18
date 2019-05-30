@@ -1026,9 +1026,9 @@ class Limerick_Generate:
                         if(used_words_dict):
                             cword = used_words_dict[CC_WORD_ID]
                         else:
-
                             CC_IDX = cc_lookup[CC_WORD_ID]
                             cword = sentences[j][0][CC_IDX].lower().strip()
+
 
                         if (word.lower().strip() == cword):
                             CC_MET = True
@@ -1053,12 +1053,12 @@ class Limerick_Generate:
                                  sentences[j][1] + [index],
                                  sentences[j][2] + np.log(logits[j][index])))
 
-                if not new_sentences:
-                    for j in range(len(sentences)):
-                        new_sentences.append(
-                            (sentences[j][0] + [orig_tokens[i]],
-                             sentences[j][1] + [-1],
-                             sentences[j][2] + 0))
+                #if not new_sentences:
+                    #for j in range(len(sentences)):
+                        #new_sentences.append(
+                            #(sentences[j][0] + [orig_tokens[i]],
+                             #sentences[j][1] + [-1],
+                             #sentences[j][2] + 0))
 
             # Get the most probable N sentences by sorting the list according to
             # probability
@@ -1080,7 +1080,16 @@ class Limerick_Generate:
             #new_sentences_nd.sort(key = lambda x: sentences.index(x) )
             #sentences = new_sentences_nd
             #sentences = new_sentences_nd
-            
+            new_sentences_nd = []
+            sent_sent_list = list()
+            for j in range(len(sentences)):
+                if sentences[j][0] not in sent_sent_list:
+                    sent_sent_list.append(sentences[j][0])
+                    new_sentences_nd.append(
+                        (sentences[j][0],
+                         sentences[j][1],
+                         sentences[j][2]))
+
             sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
             print(sent_done)
 
