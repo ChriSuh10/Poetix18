@@ -39,21 +39,28 @@ file.close()
 
 abs_path_output = os.path.abspath(local_path_output)
 
-
+rhet_file = os.path.basename(abs_path_output)
 
 import subprocess
 import shlex
-
+import os
 
 def subprocess_cmd(command):
     process = subprocess.Popen(command,stdout=subprocess.PIPE, shell=True)
     proc_stdout = process.communicate()[0].strip()
     print(proc_stdout)
 
-
-commands1 = '''mono /usr/project/xtmp/dp195/Poetix18/ rhetorica/bin/x64/Release/Rhetorica.exe "" "data/sonnets.txt" "{ Anadiplosis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anadiplosis";'''
-
+pwd_dir = os.path.dirname(os.path.realpath(__file__))
+commands1 = '''
+xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64;
+'''
 commands2 = '''
+mono rhetorica/bin/x64/Release/Rhetorica.exe "%s/" "%s" "{
+Anadiplosis: {windowSize: 3} }" "%s/data/rhet/repitition/sonnet_anadiplosis";
+''' % (pwd_dir,rhet_file,pwd_dir)
+print(commands2)
+
+commands3 = '''
 xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64
 mono rhetorica/bin/x64/Release/Rhetorica.exe "" "data/sonnets.txt" "{ Anadiplosis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anadiplosis";
 mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Anaphora: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anaphora";
@@ -67,5 +74,5 @@ mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Polysyndeton:
 mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Symploce: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_symploce";
 '''
 
-#subprocess_cmd(commands)
-
+subprocess_cmd(commands1)
+subprocess_cmd(commands2)
