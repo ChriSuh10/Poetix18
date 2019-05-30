@@ -36,7 +36,7 @@ corpus, extension = os.path.splitext(args.input)
 
 corpus_input = 'data/rhet/' + corpus + '_input_corpus' + '.txt'
 sent_table = pd.read_csv(corpus_input, delimiter='|', usecols=['text'])
-print(sent_table)
+#print(sent_table)
 
 
 for i in sent_table.index.values:
@@ -60,7 +60,7 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 
     cur_fig_name = e.name
     cur_fig_desc = d.value
-    cur_fig_rhet_file = '''"%s/%s_%s.csv" ''' % (output_folder_rep, corpus, e.name.lower())
+    cur_fig_rhet_file = '''%s/%s_%s.csv''' % (output_folder_rep, corpus, e.name.lower())
     print(cur_fig_desc)
     print(cur_fig_rhet_file)
 
@@ -104,32 +104,32 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
                             rep_templates[j][k] = str(fig_words_dict[word_rep]) + str(fig_words_count_dict[word_rep])
 
             unique_id = unique_id + 1
-            # print("unique_id: " + str(unique_id))
-            # print("num_lines: " + str(len(sentence_ids)))
-            # print("num_tokens: " + str(recursive_len(orig_text)))
-            # print("num_rep_groups: " + str(len(fig_words_dict.keys())))
-            # print("num_tot_reps: " + str(sum(fig_words_count_dict.values())))
-            # print("fig_type: " + str(RHETORICAL_FIGURES[cur_fig_name.upper()].name)+ "\n")
-            # print("Orig. Text:\n")
+            #print("unique_id: " + str(unique_id))
+            #print("num_lines: " + str(len(sentence_ids)))
+            #print("num_tokens: " + str(recursive_len(orig_text)))
+            #print("num_rep_groups: " + str(len(fig_words_dict.keys())))
+            #print("num_tot_reps: " + str(sum(fig_words_count_dict.values())))
+            #print("fig_type: " + str(cur_fig_name)+ "\n")
+            #print("Orig. Text:\n")
             orig_line = ", ".join([' '.join(orig_text[i]) for i in range(0, len(orig_text))])
-            fig_info = FigureInfo(unique_id, [[sent_table.iloc[i]['text']] for i in sentence_ids], pos_templates,
+            fig_info = Rhetoric.FigureInfo(unique_id, [[sent_table.iloc[i]['text']] for i in sentence_ids], pos_templates,
                                   rep_templates)
             fig_info.set_props(len(sentence_ids), recursive_len(orig_text), len(fig_words_dict.keys()),
                                sum(fig_words_count_dict.values()), e.name)
             fig_info.set_orig_rep_words([k for k in fig_words_dict.keys()])
             fig_dict[unique_id] = fig_info
-            # print(orig_text)
-            # print(rep_templates)
-            # print(pos_templates)
-            # print("Rep. Words:\n")
-            # print(fig_words_dict)
-            # print("Rep. Words Count:\n")
-            # print(fig_words_count_dict)
-            # print("POS Template:\n")
-            # print(pos_templates)
-            # print("Rep Template:\n")
-            # print(rep_templates)
+            #print(orig_text)
+            #print(rep_templates)
+            #print(pos_templates)
+            #print("Rep. Words:\n")
+            #print(fig_words_dict)
+            #print("Rep. Words Count:\n")
+            #print(fig_words_count_dict)
+            #print("POS Template:\n")
+            #print(pos_templates)
+            #print("Rep Template:\n")
+            #print(rep_templates)
 
 # for index, row in figure.iterrows():
 
-# print(fig_dict.values)
+#print(fig_dict.values)
