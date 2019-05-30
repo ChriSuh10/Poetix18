@@ -8,11 +8,13 @@ parser = argparse.ArgumentParser(description='Do rhetorical analysis')
 
 parser.add_argument('input', help='''Input file name (located in data/) e.g. sonnets.txt''')
 
+
 args = parser.parse_args()
 
 local_path_input = 'data/' + args.input
 abs_path_input = os.path.abspath(local_path_input)
 filename, file_extension = os.path.splitext(abs_path_input)
+corpus, extension = os.path.splitext(args.input)
 
 local_path_output = filename + '_input' + '.txt'
 
@@ -42,8 +44,8 @@ abs_path_output = os.path.abspath(local_path_output)
 rhet_file = os.path.basename(abs_path_output)
 
 import subprocess
-import shlex
 import os
+import py_files.Rhetoric as Rhetoric
 
 def subprocess_cmd(command):
     process = subprocess.Popen(command,stdout=subprocess.PIPE, shell=True)
@@ -51,28 +53,38 @@ def subprocess_cmd(command):
     print(proc_stdout)
 
 pwd_dir = os.path.dirname(os.path.realpath(__file__))
+output_folder_rep = "%s/data/rhet/repitition" % (pwd_dir)
+config = 'Release'
+platform = 'x64'
+
 commands1 = '''
-xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64;
-'''
-commands2 = '''
-mono rhetorica/bin/x64/Release/Rhetorica.exe "%s/" "%s" "{
-Anadiplosis: {windowSize: 3} }" "%s/data/rhet/repitition/sonnet_anadiplosis";
-''' % (pwd_dir,rhet_file,pwd_dir)
-print(commands2)
+xbuild rhetorica/Rhetorica.sln /p:Configuration=%s /p:Platform=%s;
+''' % (config, platform)
 
-commands3 = '''
-xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64
-mono rhetorica/bin/x64/Release/Rhetorica.exe "" "data/sonnets.txt" "{ Anadiplosis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anadiplosis";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Anaphora: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anaphora";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Antimetabole: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_antimetabole";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Conduplicatio: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_conduplicatio";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Epanalepsis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_epanalepsis";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Epistrophe: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_epistrophe";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Epizeuxis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_epizeuxis";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Ploce: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_ploce";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Polysyndeton: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_polysyndeton";
-mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Symploce: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_symploce";
-'''
+commandsR = []
+for e in Rhetoric.RHETORICAL_FIGURES:
+    command = '''mono rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ %s: {windowSize: 3} }" "%s/%s_%s";''' % (config, platform, pwd_dir, rhet_file, e.name.lower().capitalize(), output_folder_rep, corpus, e.name.lower())
+    commandsR.append(command)
 
-subprocess_cmd(commands1)
-subprocess_cmd(commands2)
+
+
+# commands3 = ['''mono rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Anadiplosis: {windowSize: 3} }" "%s/%s_anadiplosis;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Anaphora: {windowSize: 3} }" "%s/%s_anaphora;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Antimetabole: {windowSize: 3} }" "%s/%s_antimetabole;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Conduplicatio: {windowSize: 3} }" "%s/%s_conduplicatio;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Epanalepsis: {windowSize: 3} }" "%s/%s_epanalepsis;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Epistrophe: {windowSize: 3} }" "%s/%s_epistrophe;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Epizeuxis: {windowSize: 3} }" "%s/%s_epizeuxis;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Ploce: {windowSize: 3} }" "%s/%s_ploce;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Polysyndeton: {windowSize: 3} }" "%s/%s_polysyndeton;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
+# '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Symploce: {windowSize: 3} }" "%s/%s_symploce;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus)],
+
+commandsRs = "\n".join(commandsR)
+print(commandsRs)
+
+#subprocess_cmd(commands1)
+#subprocess_cmd(commands2)
+#subprocess_cmd(commandsR)
+
+
+
