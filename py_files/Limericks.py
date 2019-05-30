@@ -1048,7 +1048,6 @@ class Limerick_Generate:
                             if i == len(template) - 1 and rhyme_set and (word.lower().strip() not in rhyme_set):
                                 continue
                             # Add candidate sentence to new array
-                            jth_word.add(word)
                             new_sentences.append(
                                 (sentences[j][0] + [word],
                                  sentences[j][1] + [index],
@@ -1062,10 +1061,7 @@ class Limerick_Generate:
 
             # Get the most probable N sentences by sorting the list according to
             # probability
-            sent_tuple_set = set()
-            new_sentences_nd = []
-            for j in range(len(sentences)):
-                if(sentences[j][0])   
+
             #new_sentences_nd_set = set(tuple(x) for x in new_sentences)
             #new_sentneces_nd = [ list(x) for x in new_sentences_nd_set ]
             #new_sentences_nd.sort(key = lambda x: new_sentences.index(x) )
@@ -1075,13 +1071,24 @@ class Limerick_Generate:
                 sentences = heapq.nsmallest(len(new_sentences), new_sentences, key=lambda x: -x[2])
             else:
                 sentences = heapq.nsmallest(search_space, new_sentences, key=lambda x: -x[2])
-            new_sentences_nd_set = set(tuple(sentences[j][0]) for j in range(len(sentences)))
+
+            new_sentences_nd = []
+            sent_sent_list = list()
+            for j in range(len(sentences)):
+                if sentences[j][0] not in sent_sent_list:
+                    sent_sent_list.append(sentences[j][0])
+                    new_sentences_nd.append(
+                        (sentences[j][0],
+                         sentences[j][1],
+                         sentences[j][2]))
+
+            #new_sentences_nd_set = set(tuple(sentences[j][0]) for j in range(len(sentences)))
             #print(new_sentences_nd_set)
             #new_sentneces_nd = [ list(x) for x in new_sentences_nd_set ]
             #print(new_setnences_nd)
             #new_sentences_nd.sort(key = lambda x: sentences.index(x) )
             #sentences = new_sentences_nd
-
+            sentences = new_sentences_nd
             sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
             print(sent_done)
 
