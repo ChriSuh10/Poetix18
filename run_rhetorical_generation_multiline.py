@@ -157,6 +157,14 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 
     for k, v in filtered.items():
        #print(fig_and_desc)
-       gen_lines = lg.gen_line_gpt_rep_multiline(v, search_space=n, top_sent=top_sent)
-       v.set_gen_lines(gen_lines)
-       print(v.to_string())
+    
+       try:
+           gen_lines = lg.gen_line_gpt_rep_multiline(v, search_space=n, top_sent=top_sent)
+           v.set_gen_lines(gen_lines)
+           f.write(v.to_string())
+           f.write("\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n")   
+           f.flush()
+        
+       except Exception:
+          print(Exception)
+          pass

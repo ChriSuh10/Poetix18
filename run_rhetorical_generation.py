@@ -150,22 +150,30 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 
     print(out_name)
     #print(fig_and_desc)
+    filtered = {k: v for k, v in fig_dict.items() if(v.get_num_lines() == 1
+and v.get_fig_type() == e.name)}
+    print(len(filtered))
 
-    filtered = {k: v for k, v in fig_dict.items() if(v.get_num_lines() == 2 and v.get_fig_type() == e.name)}
-    #print(len(filtered))   
 
     for k, v in filtered.items():
-       #print(fig_and_desc)
-    
+       print(v.to_string())
+       prompt = lg.enc.encode(' '.join(v.get_orig_text()[0]))
+       rep_template = v.get_repitition_template()[0]
+       pos_template = v.get_pos_template()[0]
+       banned_set = v.get_orig_rep_words()
+
        try:
-           gen_lines = lg.gen_line_gpt_rep_multiline(v, search_space=n, top_sent=top_sent)
-           v.set_gen_lines(gen_lines)
-           f.write(v.to_string())
-           f.write("\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n")   
-           f.flush() 
+          f.write(v.to_string())
+          new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_template, w=None, encodes=prompt, default_template=pos_template, banned_set=banned_set,search_space=n)
+          sents = [new_sentences[j][0] for j in range(len(new_sentences))]
+          sent_done = [' '.join(sents[j]) for j in range(len(new_sentences))]
+          f.write(" \n".join(sent_done))
+          f.flush()
+          print(" \n".join(sent_done))
+
        except Exception:
           print(Exception)
           pass
-      
-
+    
+    f.write("\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n")     
 
