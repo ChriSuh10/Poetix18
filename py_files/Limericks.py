@@ -910,7 +910,7 @@ class Limerick_Generate:
                 gen2 = self.gen_line_gpt_rep(rep_template=rep_template2, default_template=pos_template2, encodes=prompt2, orig_tokens=orig_tokens2,
                                              search_space=top_sent, banned_set=banned_set, used_words_dict=used_words_dict_i, top_sent=1)
                 print(gen2)
-                sent_done[l].append(gen2['sents'][0])
+                sent_done[l].append(' '.join(gen2['sents'][0]))
                 print(sent_done)
 
         print(sent_done)
@@ -1048,6 +1048,7 @@ class Limerick_Generate:
                             if i == len(template) - 1 and rhyme_set and (word.lower().strip() not in rhyme_set):
                                 continue
                             # Add candidate sentence to new array
+                            jth_word.add(word)
                             new_sentences.append(
                                 (sentences[j][0] + [word],
                                  sentences[j][1] + [index],
@@ -1059,11 +1060,27 @@ class Limerick_Generate:
                              sentences[j][1] + [-1],
                              sentences[j][2] + 0))
 
-            # Get the most probable N sentences by sorting the list according to probability
+            # Get the most probable N sentences by sorting the list according to
+            # probability
+            sent_tuple_set = set()
+            new_sentences_nd = []
+            for j in range(len(sentences)):
+                if(sentences[j][0])   
+            #new_sentences_nd_set = set(tuple(x) for x in new_sentences)
+            #new_sentneces_nd = [ list(x) for x in new_sentences_nd_set ]
+            #new_sentences_nd.sort(key = lambda x: new_sentences.index(x) )
+            #print(new_sentences_nd)
+
             if(len(new_sentences) < search_space):
                 sentences = heapq.nsmallest(len(new_sentences), new_sentences, key=lambda x: -x[2])
             else:
                 sentences = heapq.nsmallest(search_space, new_sentences, key=lambda x: -x[2])
+            new_sentences_nd_set = set(tuple(sentences[j][0]) for j in range(len(sentences)))
+            #print(new_sentences_nd_set)
+            #new_sentneces_nd = [ list(x) for x in new_sentences_nd_set ]
+            #print(new_setnences_nd)
+            #new_sentences_nd.sort(key = lambda x: sentences.index(x) )
+            #sentences = new_sentences_nd
 
             sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
             print(sent_done)
