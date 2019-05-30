@@ -1053,12 +1053,12 @@ class Limerick_Generate:
                                  sentences[j][1] + [index],
                                  sentences[j][2] + np.log(logits[j][index])))
 
-                #if not new_sentences:
-                    #for j in range(len(sentences)):
-                        #new_sentences.append(
-                            #(sentences[j][0] + [orig_tokens[i]],
-                             #sentences[j][1] + [-1],
-                             #sentences[j][2] + 0))
+                if not new_sentences:
+                    for j in range(len(sentences)):
+                        new_sentences.append(
+                            (sentences[j][0] + [orig_tokens[i]],
+                             sentences[j][1] + [-1],
+                             sentences[j][2] + 0))
 
             # Get the most probable N sentences by sorting the list according to
             # probability
