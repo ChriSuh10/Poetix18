@@ -1052,6 +1052,7 @@ class Limerick_Generate:
                                 (sentences[j][0] + [word],
                                  sentences[j][1] + [index],
                                  sentences[j][2] + np.log(logits[j][index])))
+
                 if not new_sentences:
                     for j in range(len(sentences)):
                         new_sentences.append(
@@ -1072,23 +1073,14 @@ class Limerick_Generate:
             else:
                 sentences = heapq.nsmallest(search_space, new_sentences, key=lambda x: -x[2])
 
-            new_sentences_nd = []
-            sent_sent_list = list()
-            for j in range(len(sentences)):
-                if sentences[j][0] not in sent_sent_list:
-                    sent_sent_list.append(sentences[j][0])
-                    new_sentences_nd.append(
-                        (sentences[j][0],
-                         sentences[j][1],
-                         sentences[j][2]))
-
             #new_sentences_nd_set = set(tuple(sentences[j][0]) for j in range(len(sentences)))
             #print(new_sentences_nd_set)
             #new_sentneces_nd = [ list(x) for x in new_sentences_nd_set ]
             #print(new_setnences_nd)
             #new_sentences_nd.sort(key = lambda x: sentences.index(x) )
             #sentences = new_sentences_nd
-            sentences = new_sentences_nd
+            #sentences = new_sentences_nd
+            
             sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
             print(sent_done)
 
