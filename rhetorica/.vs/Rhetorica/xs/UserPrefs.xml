@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{F6F7D519-13D2-49A6-AB37-99B4F91C7C27}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="code/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="code/ExtensionMethods.cs">
     <Files>
-      <File FileName="code/Repository.cs" Line="64" Column="27" />
+      <File FileName="code/Repository.cs" Line="97" Column="33" />
       <File FileName="code/ExtensionMethods.cs" Line="202" Column="8" />
       <File FileName="../../../../usr/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2130" Column="5" />
       <File FileName="code/Analyzer.cs" Line="137" Column="134" />
-      <File FileName="code/SyntacticUnits.cs" Line="125" Column="31" />
+      <File FileName="code/SyntacticUnits.cs" Line="124" Column="72" />
       <File FileName="code/RhetoricalFigure.cs" Line="1" Column="1" />
-      <File FileName="code/Test.cs" Line="78" Column="29" />
+      <File FileName="code/Test.cs" Line="78" Column="16" />
       <File FileName="code/RhetoricaExtensionMethods.cs" Line="140" Column="8" />
       <File FileName="packages.config" Line="1" Column="1" />
+      <File FileName="Build Output 2:02 AM 2019-05-30.binlog" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +20,7 @@
               <Node name="References" expanded="True" />
               <Node name="assemblies" expanded="True" />
               <Node name="code" expanded="True">
-                <Node name="Test.cs" selected="True" />
+                <Node name="ExtensionMethods.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -29,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Rhetorica PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x64" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

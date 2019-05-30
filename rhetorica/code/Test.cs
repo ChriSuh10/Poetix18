@@ -70,14 +70,13 @@ namespace Rhetorica
 
       var path = Path.Combine(pathParts);
 
-      if (args.Count() > 0) {
-        var args0 = args[0].Trim();
-        if (args0 != string.Empty) {
-          if (File.Exists(args0))
-            path = args0;
-          else if (File.Exists(Repository.NlpTextsPath + args0))
-            path = Repository.NlpTextsPath + args0;
-        }
+      if (args.Count() > 1) {
+      
+        var base_path = args[0].Trim();
+        Repository.RootDrive = base_path;
+        var text = args[1].Trim();
+        path = Repository.NlpTextsPath + text;
+        Repository.AbsTextPath = path;
       }
 
       //var result = Miscellaneous.GetPermutationTree<string>("root", new List<string>() { "antonym", "synonym", "derived" }, 3);
@@ -88,8 +87,8 @@ namespace Rhetorica
 
       TimeSpan begin = Process.GetCurrentProcess().TotalProcessorTime;
 
-      if (args.Count() > 1) { // Deserialize JSON
-        var args1 = args[1].Trim();
+      if (args.Count() > 2) { // Deserialize JSON
+        var args1 = args[2].Trim();
 
         var all = false;
         if (args1 == string.Empty)
@@ -225,8 +224,8 @@ namespace Rhetorica
       figureRows.ForEach(x => Console.WriteLine("{0}", x));
       Console.WriteLine();
 
-      if (args.Count() > 2) { // Write CSV representations of figures to file.
-        var args2 = args[2].Trim();
+      if (args.Count() > 3) { // Write CSV representations of figures to file.
+        var args2 = args[3].Trim();
         var args2Csv = args2 + ".csv";
         var args2Doc = args2 + ".doc.csv";
 

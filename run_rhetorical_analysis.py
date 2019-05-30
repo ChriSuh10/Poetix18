@@ -6,15 +6,15 @@ import os
 #os.getcwd()
 parser = argparse.ArgumentParser(description='Do rhetorical analysis')
 
-parser.add_argument('-i', '--input', help='Input file name located in data/', required=True)
+parser.add_argument('input', help='''Input file name (located in data/) e.g. sonnets.txt''')
 
 args = parser.parse_args()
 
-local_path_input = 'data/' + args.i
+local_path_input = 'data/' + args.input
 abs_path_input = os.path.abspath(local_path_input)
 filename, file_extension = os.path.splitext(abs_path_input)
 
-local_path_output = 'data/' + filename + '_input' + '.txt'
+local_path_output = filename + '_input' + '.txt'
 
 
 with open (abs_path_input, 'r', encoding='iso-8859-1') as f:
@@ -27,15 +27,45 @@ with open (abs_path_input, 'r', encoding='iso-8859-1') as f:
 #content = [x.replace(''''st''', '''ed''') for x in content]
 content = [bytes(x,'utf-8').decode('utf-8','ignore') +"\n" for x in content] 
 
-file = open(local_path_output, 'w', encoding='utf-8')
+file = open(local_path_output, 'w+', encoding='utf-8')
 one_word = ""
 for line in content:
 	if(len(line.strip().split()) == 1):
 		one_word = one_word + line.strip()
-		print(one_word)
+		#print(one_word)
 	else:
 		file.write("%s\n" % line.strip())
 file.close()
 
 abs_path_output = os.path.abspath(local_path_output)
+
+
+
+import subprocess
+import shlex
+
+
+def subprocess_cmd(command):
+    process = subprocess.Popen(command,stdout=subprocess.PIPE, shell=True)
+    proc_stdout = process.communicate()[0].strip()
+    print(proc_stdout)
+
+
+commands1 = '''mono /usr/project/xtmp/dp195/Poetix18/ rhetorica/bin/x64/Release/Rhetorica.exe "" "data/sonnets.txt" "{ Anadiplosis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anadiplosis";'''
+
+commands2 = '''
+xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64
+mono rhetorica/bin/x64/Release/Rhetorica.exe "" "data/sonnets.txt" "{ Anadiplosis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anadiplosis";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Anaphora: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_anaphora";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Antimetabole: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_antimetabole";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Conduplicatio: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_conduplicatio";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Epanalepsis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_epanalepsis";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Epistrophe: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_epistrophe";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Epizeuxis: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_epizeuxis";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Ploce: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_ploce";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Polysyndeton: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_polysyndeton";
+mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Symploce: {windowSize: 3} }" "/usr/project/xtmp/dp195/Poetix18/data/rhet/repitition/sonnet_symploce";
+'''
+
+#subprocess_cmd(commands)
 

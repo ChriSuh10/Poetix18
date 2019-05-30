@@ -44,7 +44,8 @@ namespace Rhetorica
 
     private static string _rootDrive = string.Empty;
     private static string _nlpFolder = string.Empty;
-
+    private static string _absTextPath = string.Empty;
+    
     private static string _openNlpModelsFolder = string.Empty;
     private static string _openNlpModelsPath = string.Empty;
 
@@ -94,7 +95,7 @@ namespace Rhetorica
     {
       _assemblyName = Regex.Match(_assemblyFullName, "^(.*?),.*$").Result("$1");
 
-      _rootDrive = ("/usr/project/xtmp/dp195/Poetix18/").Replace(@"\", Dsc);
+      _rootDrive ="../../../../";
       _nlpFolder = ("rhetorica/nlp/").Replace(@"\", Dsc);
 
       _openNlpModelsFolder = ("OpenNLP/models/").Replace(@"\", Dsc);
@@ -211,8 +212,28 @@ namespace Rhetorica
     public static string RootDrive
     {
       get { return _rootDrive; }
+      set { 
+      
+        _rootDrive = value; 
+      
+        _openNlpModelsPath = RootDrive + _nlpFolder + _openNlpModelsFolder;
+        
+        _wordNetPath = RootDrive + _nlpFolder + _wordNetFolder;
+        
+        _grammarPath = RootDrive + _nlpFolder + _grammarFolder;
+        
+        _nlpTextsPath = RootDrive + _dataFolder;
+      }
     }
-
+    
+    public static string AbsTextPath
+    {
+        get { return _absTextPath; }
+        set {
+            _absTextPath = value;
+        }
+     }
+    
     public static string OpenNlpModelsPath
     {
       get { return _openNlpModelsPath; }
@@ -232,7 +253,7 @@ namespace Rhetorica
     {
       get { return _nlpTextsPath; }
     }
-
+        
     public static string LocalTextPath
     {
       get { return _localTextPath; }
