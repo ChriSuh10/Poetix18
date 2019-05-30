@@ -162,8 +162,6 @@ and v.get_fig_type() == e.name)}
        pos_template = v.get_pos_template()[0]
        banned_set = v.get_orig_rep_words()
 
-       new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_template, w=None, encodes=prompt, default_template=pos_template, banned_set=banned_set,search_space=n)
-
        try:
           f.write(v.to_string())
           new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_template, w=None, encodes=prompt, default_template=pos_template, banned_set=banned_set,search_space=n)
