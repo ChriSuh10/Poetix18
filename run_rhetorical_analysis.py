@@ -60,11 +60,15 @@ platform = 'x64'
 commands1 = '''
 xbuild rhetorica/Rhetorica.sln /p:Configuration=%s /p:Platform=%s;
 ''' % (config, platform)
+print(commands1)
+subprocess_cmd(commands1)
 
 commandsR = []
 for e in Rhetoric.RHETORICAL_FIGURES:
-    command = '''mono rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ %s: {windowSize: 3} }" "%s/%s_%s";''' % (config, platform, pwd_dir, rhet_file, e.name.lower().capitalize(), output_folder_rep, corpus, e.name.lower())
-    commandsR.append(command)
+    command = '''mono rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ %s: {windowSize: 3} }" "%s/%s_%s";''' % (platform, config, pwd_dir, rhet_file, e.name.lower().capitalize(), output_folder_rep, corpus, e.name.lower())
+    print(command)
+    subprocess_cmd(command)
+
 
 
 
@@ -79,8 +83,8 @@ for e in Rhetoric.RHETORICAL_FIGURES:
 # '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Polysyndeton: {windowSize: 3} }" "%s/%s_polysyndeton;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus),
 # '''mono  rhetorica/bin/%s/%s/Rhetorica.exe "%s/" "%s" "{ Symploce: {windowSize: 3} }" "%s/%s_symploce;"''' % (config, platform, pwd_dir, rhet_file, output_folder, corpus)],
 
-commandsRs = "\n".join(commandsR)
-print(commandsRs)
+#commandsRs = "\n".join(commandsR)
+#print(commandsRs)
 
 #subprocess_cmd(commands1)
 #subprocess_cmd(commands2)

@@ -6,6 +6,8 @@ import nltk
 import numpy as np
 import time
 import pandas as pd
+from datetime import datetime
+from py_files.Limericks import Limerick_Generate
 
 def uniq(input):
   output = []
@@ -133,3 +135,47 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 # for index, row in figure.iterrows():
 
 #print(fig_dict.values)
+timestamp = int(time.mktime(datetime.now().timetuple()))
+lg = Limerick_Generate(model_dir='gpt2/models/345M',model_name='345M')
+n = 200
+
+for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
+
+    out_name = 'data/rhet/output/' + corpus + "_" + e.name.lower() + "_" + str(timestamp)  + ".txt"
+    f = open(out_name,"w+")
+
+    fig_and_desc = e.name + ": " + d.value
+    f.write("FIGURE: Description\n")
+    f.write(fig_and_desc +" \n\n")
+
+    print(out_name)
+    #print(fig_and_desc)
+    filtered = {k: v for k, v in fig_dict.items() if(v.get_num_lines() == 1
+and v.get_fig_type() == e.name)}
+    print(len(filtered))
+
+
+    for k, v in filtered.items():
+       print(v.to_string())
+       prompt = lg.enc.encode(' '.join(v.get_orig_text()[0]))
+       rep_template = v.get_repitition_template()[0]
+       pos_template = v.get_pos_template()[0]
+       banned_set = v.get_orig_rep_words()
+
+       new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_template, w=None, encodes=prompt, default_template=pos_template, banned_set=banned_set,search_space=n)
+
+       try:
+          f.write(v.to_string())
+          new_sentences = lg.gen_line_gpt_cc(cctemplate=rep_template, w=None, encodes=prompt, default_template=pos_template, banned_set=banned_set,search_space=n)
+          sents = [new_sentences[j][0] for j in range(len(new_sentences))]
+          sent_done = [' '.join(sents[j]) for j in range(len(new_sentences))]
+          f.write(" \n".join(sent_done))
+          f.flush()
+          print(" \n".join(sent_done))
+
+       except Exception:
+          print(Exception)
+          pass
+    
+    f.write("\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n")     
+
