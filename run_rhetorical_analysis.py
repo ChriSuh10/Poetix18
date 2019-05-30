@@ -8,11 +8,13 @@ parser = argparse.ArgumentParser(description='Do rhetorical analysis')
 
 parser.add_argument('input', help='''Input file name (located in data/) e.g. sonnets.txt''')
 
+
 args = parser.parse_args()
 
 local_path_input = 'data/' + args.input
 abs_path_input = os.path.abspath(local_path_input)
 filename, file_extension = os.path.splitext(abs_path_input)
+corpus, extension = os.path.splitext(args.input)
 
 local_path_output = filename + '_input' + '.txt'
 
@@ -51,14 +53,19 @@ def subprocess_cmd(command):
     print(proc_stdout)
 
 pwd_dir = os.path.dirname(os.path.realpath(__file__))
+output_folder = "%s/data/rhet/repitition" % (pwd_dir)
+
 commands1 = '''
 xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64;
 '''
+subprocess_cmd(commands1)
+
+
+
 commands2 = '''
-mono rhetorica/bin/x64/Release/Rhetorica.exe "%s/" "%s" "{
-Anadiplosis: {windowSize: 3} }" "%s/data/rhet/repitition/sonnet_anadiplosis";
-''' % (pwd_dir,rhet_file,pwd_dir)
-print(commands2)
+mono rhetorica/bin/x64/Release/Rhetorica.exe "%s/" "%s" "{ Anadiplosis: {windowSize: 3} }" "%s/sonnet_anadiplosis";
+''' % (pwd_dir, rhet_file, output_folder)
+
 
 commands3 = '''
 xbuild rhetorica/Rhetorica.sln /p:Configuration=Release /p:Platform=x64
@@ -76,3 +83,5 @@ mono rhetorica/bin/x64/Release/Rhetorica.exe "data/sonnets.txt" "{ Symploce: {wi
 
 subprocess_cmd(commands1)
 subprocess_cmd(commands2)
+
+
