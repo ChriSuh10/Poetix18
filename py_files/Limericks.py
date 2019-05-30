@@ -1055,7 +1055,7 @@ class Limerick_Generate:
                 if not new_sentences:
                     for j in range(len(sentences)):
                         new_sentences.append(
-                                (sentences[j][0] + [orig_tokens[i]],
+                            (sentences[j][0] + [orig_tokens[i]],
                              sentences[j][1] + [-1],
                              sentences[j][2] + 0))
 
