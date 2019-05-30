@@ -30,13 +30,21 @@
 #### 0. recursively download submodule
 #### git submodule update --init --recursive
 
-#### 1. install mono
+#### 1. install mono, xbuild, etc
 #### https://www.mono-project.com/docs/compiling-mono/linux/
+#### Duke clusters will require building and configuring locally from tar
 
-#### 2. restore packages
-#### mono nuget.exe restore Rhetorica.sln 
+#### 2. configure rhetorica deps. (packages)
+##### 2.1 download nuget.exe to rhetorica folder
+##### https://www.nuget.org/downloads
+##### 2.2 restore packages
+##### mono nuget.exe restore Rhetorica.sln 
 
 #### 3. compile exe
 #### xbuild Rhetorica.sln /p:Configuration=Release /p:Platform=x64
 
-#### 4. run exe
+#### 4. run exe to rhetorical analysis output
+##### mono rhetorica/bin/x64/Release/Rhetorical.exe
+##### for more on Rhetorica see:
+######
+###### https://github.com/priscian/rhetorica
