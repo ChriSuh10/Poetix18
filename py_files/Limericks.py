@@ -13,6 +13,7 @@ import itertools
 import requests
 import pickle
 import heapq
+from functools import reduce
 
 from .model_back import Model as Model_back
 from .functions import search_back_meter
@@ -161,8 +162,8 @@ class Limerick_Generate:
         for other_word in word_set:
             if other_word not in self.poetic_vectors:
                 continue
-            sim = self.poetic_vectors.similarity(w1, other_word) ** 0.5
-            sim += self.poetic_vectors.similarity(w2, other_word) ** 0.5
+            sim = self.poetic_vectors.similarity(w1, other_word)
+            sim += self.poetic_vectors.similarity(w2, other_word)
 
             if sim > max_sim and other_word != w1 and other_word != w2 and self.ps.stem(other_word) not in seen_words:
                 max_sim = sim
@@ -260,21 +261,24 @@ class Limerick_Generate:
         return w1, w2, w3, w4, w5
 
     def get_five_words_henry(self, w2):
+        nouns = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['NN', 'NNS', 'NNP', 'NNPS']])
+        verbs = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['VBG', 'VBZ', 'VBN', 'VBP', 'VB', 'VBD']])
+
         seen_words = set([self.ps.stem(w2)])
 
         # Three connection words
         w_response = requests.get(self.api_url, params={'rel_rhy': w2}).json()
-        rhyme_nnp = set(d['word'] for d in w_response).intersection(self.pos_to_words['NNP'])
+        rhyme_nn = set(d['word'] for d in w_response).intersection(nouns | verbs)
 
         w1 = w3 = w5 = None
 
         # Find w1 that rhymes with w2 that is a pronoun
-        for r in rhyme_nnp:
+        w1_list = []
+        for r in rhyme_nn:
             if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
-                w1 = r
-                seen_words.add(self.ps.stem(w1))
-                break
+                w1_list.append(r)
 
+        w1 = random.choice(w1_list)
         seen_words.add(self.ps.stem(w1))
 
         # w4
@@ -284,7 +288,7 @@ class Limerick_Generate:
 
         # w3
         w_response2 = requests.get(self.api_url, params={'rel_rhy': w4}).json()
-        rhyme_nn = set(d['word'] for d in w_response2).intersection(self.pos_to_words['NN'])
+        rhyme_nn = set(d['word'] for d in w_response2).intersection(nouns | verbs)
 
         max_sim = -1
         for r in rhyme_nn:
@@ -635,68 +639,65 @@ class Limerick_Generate:
             lines.append((this_line, this_score, t))
         return lines
 
-
-    def gen_poem_independent_matias(self, seed_word, first_line_sylls, rand_template=5):
+    def gen_poem_independent_matias(self, seed_word, first_line_sylls, rand_template=5, storyline=0):
         def get_templates_last(n, key):
-            _,_1,_2,data=get_templates()
-            df=data[key]
-            min_n=min(n,len(df))
-            t=random.sample(df, k=min_n)
-            fourth=[]
-            fifth=[]
+            _, _1, _2, data = get_templates()
+            df = data[key]
+            min_n = min(n, len(df))
+            t = random.sample(df, k=min_n)
+            fourth = []
+            fifth = []
             for template in t:
-                fourth.append((template[0][:template[2]+1], template[1][:template[2]+1]))
-                fifth.append((template[0][template[2]+1:], template[1][template[2]+1:]))
+                fourth.append((template[0][:template[2] + 1], template[1][:template[2] + 1]))
+                fifth.append((template[0][template[2] + 1:], template[1][template[2] + 1:]))
             return fourth, fifth
 
-
-        five_words = self.get_five_words_henry(seed_word)
-        first_line=random.choice(self.gen_first_line(seed_word, first_line_sylls))
-
+        five_words = self.get_five_words_henry(seed_word) if storyline else self.get_five_words(seed_word)
+        first_line = random.choice(self.gen_first_line(seed_word, first_line_sylls))
 
         lines = [[first_line]]
         third_line_sylls = first_line_sylls - 4
 
-        dataset, second_line_, third_line_, last_two_lines=get_templates()
-        templates=[]
-        #try:
-        #templates 2nd line:
-        #templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
-        #templates 3rd line
-        #templates.append(random.choice(third_line_[self.words_to_pos[five_words[2]][0]]))
-        #templates 4th line
-        key=self.words_to_pos[five_words[3]][0]+'-'+self.words_to_pos[five_words[4]][0]
-        #temp=random.choice(last_two_lines[key])
-        #templates.append((temp[0][:temp[2]+1], temp[1][:temp[2]+1]))
-        #templates 5th line
-        #templates.append((temp[0][temp[2]+1:], temp[1][temp[2]+1:]))
-        #except:
+        dataset, second_line_, third_line_, last_two_lines = get_templates()
+        # templates = []
+        # try:
+        # templates 2nd line:
+        # templates.append(random.choice(second_line_[self.words_to_pos[five_words[1]][0]]))
+        # templates 3rd line
+        # templates.append(random.choice(third_line_[self.words_to_pos[five_words[2]][0]]))
+        # templates 4th line
+        key = self.words_to_pos[five_words[3]][0] + '-' + self.words_to_pos[five_words[4]][0]
+        # temp=random.choice(last_two_lines[key])
+        # templates.append((temp[0][:temp[2]+1], temp[1][:temp[2]+1]))
+        # templates 5th line
+        # templates.append((temp[0][temp[2]+1:], temp[1][temp[2]+1:]))
+        # except:
         #    print('POS Not in dataset of templates')
         #    return None
-        fourth, fifth=get_templates_last(rand_template, key)
+        fourth, fifth = get_templates_last(rand_template, key)
         for i, w in enumerate(five_words):
             # Set number of syllables from generated line dependent on which
             # line is being generated
-            if i==0:
+            if i == 0:
                 continue
-            elif i==1:
+            elif i == 1:
                 this_line_sylls = first_line_sylls
                 out = self.gen_best_line(w, num_sylls=this_line_sylls, set_of_templates=second_line_)
-            elif i==2:
+            elif i == 2:
                 this_line_sylls = third_line_sylls
                 out = self.gen_best_line(w, num_sylls=this_line_sylls, set_of_templates=third_line_)
-            elif i==3:
+            elif i == 3:
                 out = self.gen_best_line(w, num_sylls=third_line_sylls, templates=fourth)
-            elif i==4:
-                 out = self.gen_best_line(w, num_sylls=first_line_sylls, templates=fifth)
-            if out is None or out==[]:
+            elif i == 4:
+                out = self.gen_best_line(w, num_sylls=first_line_sylls, templates=fifth)
+            if out is None or out == []:
                 raise ValueError
-            print (out)
+            print(out)
             lines.append(out[0])
         print("************")
-        string=''
+        string = ''
         for x in lines:
-            string+=' '.join(x[0])+'\n'
+            string += ' '.join(x[0]) + '\n'
         print(string)
         return lines
 
