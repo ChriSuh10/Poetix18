@@ -148,7 +148,6 @@ class Limerick_Generate:
         """
         max_sim = -1
         best_word = None
-        best_word_def = None
 
         word_set = set()
 
@@ -162,10 +161,40 @@ class Limerick_Generate:
         for other_word in word_set:
             if other_word not in self.poetic_vectors:
                 continue
-            sim = self.poetic_vectors.similarity(w1, other_word)
-            sim += self.poetic_vectors.similarity(w2, other_word)
+            sim = self.poetic_vectors.similarity(w1, other_word) ** 0.5
+            sim += self.poetic_vectors.similarity(w2, other_word) ** 0.5
 
             if sim > max_sim and other_word != w1 and other_word != w2 and self.ps.stem(other_word) not in seen_words:
+                max_sim = sim
+                best_word = other_word
+
+        return best_word
+
+    def get_similar_word(self, words, seen_words):
+        """
+        Given a list of words, return a word most similar to this list.
+        """
+        seen_words_set = set(seen_words) | set(words)
+
+        word_set = set()
+
+        for word in words:
+            for synset in wn.synsets(word):
+                clean_def = remove_stopwords(self.punct.sub('', synset.definition()))
+                word_set.update(clean_def.lower().split())
+
+        max_sim = -1
+        best_word = None
+
+        for other_word in word_set:
+            if other_word not in self.poetic_vectors:
+                continue
+
+            sim = 0
+            for word in words:
+                sim += self.poetic_vectors.similarity(word, other_word) ** 0.5
+
+            if sim > max_sim and self.ps.stem(other_word) not in seen_words_set:
                 max_sim = sim
                 best_word = other_word
 
@@ -228,6 +257,65 @@ class Limerick_Generate:
             raise ValueError('Cannot generate limerick using ', w2)
 
         seen_words.add(self.ps.stem(w3))
+        return w1, w2, w3, w4, w5
+
+    def get_five_words_henry(self, w2):
+        seen_words = set([self.ps.stem(w2)])
+
+        # Three connection words
+        w_response = requests.get(self.api_url, params={'rel_rhy': w2}).json()
+        rhyme_nnp = set(d['word'] for d in w_response).intersection(self.pos_to_words['NNP'])
+
+        w1 = w3 = w5 = None
+
+        # Find w1 that rhymes with w2 that is a pronoun
+        for r in rhyme_nnp:
+            if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
+                w1 = r
+                seen_words.add(self.ps.stem(w1))
+                break
+
+        seen_words.add(self.ps.stem(w1))
+
+        # w4
+        w4 = self.get_similar_word([w2], seen_words)
+
+        seen_words.add(self.ps.stem(w4))
+
+        # w3
+        w_response2 = requests.get(self.api_url, params={'rel_rhy': w4}).json()
+        rhyme_nn = set(d['word'] for d in w_response2).intersection(self.pos_to_words['NN'])
+
+        max_sim = -1
+        for r in rhyme_nn:
+            if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
+                sim = self.poetic_vectors.similarity(w2, r) ** 0.5
+                sim += self.poetic_vectors.similarity(w4, r) ** 0.5
+
+                if sim > max_sim:
+                    max_sim = sim
+                    w3 = r
+
+        seen_words.add(self.ps.stem(w3))
+
+        # w5
+        rhyme_any = set(d['word'] for d in w_response)
+
+        max_sim = -1
+        for r in rhyme_any:
+            if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
+                sim = self.poetic_vectors.similarity(w2, r) ** 0.5 * 2
+                sim += self.poetic_vectors.similarity(w4, r) ** 0.5 * 1
+
+                if sim > max_sim:
+                    max_sim = sim
+                    w5 = r
+
+        seen_words.add(self.ps.stem(w5))
+
+        if w5 is None or w3 is None or w1 is None:
+            raise ValueError('Cannot generate limerick using ', w2)
+
         return w1, w2, w3, w4, w5
 
     def valid_permutation_sylls(self, num_sylls, template, last_word_sylls):
@@ -562,7 +650,7 @@ class Limerick_Generate:
             return fourth, fifth
 
 
-        five_words = self.get_five_words(seed_word)
+        five_words = self.get_five_words_henry(seed_word)
         first_line=random.choice(self.gen_first_line(seed_word, first_line_sylls))
 
 
