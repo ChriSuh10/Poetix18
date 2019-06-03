@@ -22,7 +22,7 @@ from .templates import get_templates
 from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
-from .templates import get_first_nnp
+from .templates import get_first_nnp, get_first_line_templates
 import pickle
 
 class Limerick_Generate:
@@ -37,7 +37,7 @@ class Limerick_Generate:
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
         self.model_name = model_name
-        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
 
         self.create_syll_dict(syllables_file)
 
@@ -458,6 +458,41 @@ class Limerick_Generate:
                 word_pool_ind = 0
                 next_score, next_state=model.compute_fx(sess, vocab, score, seq, state, 1)
         return next_score, next_state
+
+
+    def load_name_list(self, name_count):
+        female_names_file = 'py_files/saved_objects/dist.female.first.txt'
+        male_names_file = 'py_files/saved_objects/dist.male.first.txt'
+        female_name_list, male_name_list = [], []
+
+        with open(female_names_file, 'rb') as female_names:
+            for line in female_names:
+                name, _, _, count = line.split()
+                female_name_list.append(name)
+                if int(count) == name_count:
+                    break
+
+        with open(male_names_file, 'rb') as male_names:
+            for line in male_names:
+                name, _, _, count = line.split()
+                male_name_list.append(name)
+                if int(count) == name_count:
+                    break
+
+        return female_name_list, male_name_list
+
+    def gen_first_line_new(self, last_word, num_sylls, strict):
+        female_name_list, male_name_list = self.load_name_list(name_count=100)
+        templates, placeholders = get_first_line_templates()
+
+        candidate_sentences = []
+        for template in templates:
+            candidate_words_list = []
+            for word in template:
+                if word not in placeholders:
+                    continue
+
+
     def gen_first_line(self, w2, num_sylls):
         def get_num_sylls(template):
             n=0
