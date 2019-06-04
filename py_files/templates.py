@@ -632,8 +632,15 @@ def get_first_line_templates():
             ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
             ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
             ['there', 'once', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
-            ['there', 'was', 'a', 'JJ', 'PERSON', 'whose', 'NN'],
-            ['there', 'was', 'a', 'PERSON', 'whose', 'NN']
         ]
     placeholders = ['JJ', 'PERSON', 'PLACE', 'NAME', 'IN']
-    return lines, place_holder_list
+    placeholder_dict = {
+        'PERSON': {
+            'MALE' : ['fellow', 'man', 'boy', 'gentleman'],
+            'FEMALE': ['lady', 'woman', 'girl'],
+            'NEUTRAL': ['person']
+        },
+        'JJ': ['young'],
+        'IN': ['from', 'of', 'in']
+    }
+    return lines, placeholders, placeholder_dict

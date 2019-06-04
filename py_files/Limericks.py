@@ -13,6 +13,7 @@ import itertools
 import requests
 import pickle
 import heapq
+import copy
 from functools import reduce
 
 from .model_back import Model as Model_back
@@ -481,16 +482,88 @@ class Limerick_Generate:
 
         return female_name_list, male_name_list
 
+    def load_city_list(self):
+        city_list_file = 'py_files/saved_objects/city_names.txt'
+        l = []
+        with open(city_list_file, 'rb') as cities:
+            for line in cities:
+                l.append(l)
+        return l
+
     def gen_first_line_new(self, last_word, num_sylls, strict):
         female_name_list, male_name_list = self.load_name_list(name_count=100)
-        templates, placeholders = get_first_line_templates()
+        city_name_list = self.load_city_list()
+        templates, placeholders, dict = get_first_line_templates()
 
         candidate_sentences = []
         for template in templates:
-            candidate_words_list = []
+            candidates = []
             for word in template:
                 if word not in placeholders:
                     continue
+                if word == 'PERSON':
+                    person_dict = dict['PERSON']
+                    if len(candidates) == 0:
+                        candidates = [{'PERSON' : p, 'GENDER': 'MALE'} for p in person_dict['MALE']] \
+                        + [{'PERSON' : p, 'GENDER': 'FEMALE'} for p in person_dict['FEMALE']] \
+                        + [{'PERSON' : p, 'GENDER': 'NEUTRAL'} for p in person_dict['NEUTRAL']]
+                    else:
+                        new_candidates = []
+                        for d in candidates:
+                            for gender in person_dict:
+                                for p in person_dict[gender]:
+                                    new_d = copy.deepcopy(d)
+                                    new_d['PERSON'] = p
+                                    new_d['GENDER'] = gender
+                                    new_candidates.append(new_d)
+                        candidates = new_candidates
+                if word == 'JJ':
+                    adj_dict = dict['JJ']
+                    if len(candidates) == 0:
+                        candidates = [{'JJ': w} for w in adj_dict]
+                    else:
+                        new_candidates = []
+                        for d in candidates:
+                            for adj in adj_dict:
+                                new_d = copy.deepcopy(d)
+                                new_d['JJ'] = adj
+                                new_candidates.append(new_d)
+                        candidates = new_candidates
+                if word == 'IN':
+                    in_dict = dict['IN']
+                    new_candidates = []
+                    for d in candidates:
+                        for i in in_dict:
+                            new_d = copy.deepcopy(d)
+                            new_d['IN'] = i
+                            new_candidates.append(new_d)
+                    candidates = new_candidates
+                if word == 'PLACE':
+                    new_candidates = []
+                    for d in candidates:
+                        for city in city_name_list:
+                            new_d = copy.deepcopy(d)
+                            new_d['PLACE'] = city
+                            new_candidates.append(new_d)
+                    candidates = new_candidates
+                if word == 'NAME':
+                    new_candidates = []
+                    for d in candidates:
+                        if d['GENDER'] == 'MALE' or d['GENDER'] == 'NEUTRAL':
+                            for name in male_name_list:
+                                new_d = copy.deepcopy(d)
+                                new_d['NAME'] = name
+                                new_candidates.append(new_d)
+                        if d['GENDER'] == 'FEMALE' or d['GENDER'] == 'NEUTRAL':
+                            for name in female_name_list:
+                                new_d = copy.deepcopy(d)
+                                new_d['NAME'] = name
+                                new_candidates.append(new_d)
+                    candidates = new_candidates
+            print(len(candidates))
+
+
+
 
 
     def gen_first_line(self, w2, num_sylls):
