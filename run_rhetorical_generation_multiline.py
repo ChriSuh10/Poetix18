@@ -1,6 +1,7 @@
 import py_files.Rhetoric as Rhetoric
 import argparse
 import os
+import platform
 import pprint
 import nltk
 import numpy as np
@@ -139,21 +140,25 @@ for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 timestamp = int(time.mktime(datetime.now().timetuple()))
 lg = Limerick_Generate(model_dir='gpt2/models/345M', model_name='345M')
 n = 200
-top_sent = 10
+top_sent = 20
 
 for e,d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 
-    out_name = 'data/rhet/output/' + corpus + "_" + e.name.lower() + "_" + str(timestamp)  + ".txt"
+    out_name = 'data/rhet/output/' + corpus + "_" + e.name.lower() + "_" + str(timestamp)  + "_" + str(os.getpid())  + "_" + str(platform.node()) +".txt"
     f = open(out_name,"w+")
-
+   
     fig_and_desc = e.name + ": " + d.value
-
-    #print(out_name)
+    #print(out_namei)
     #print(fig_and_desc)
-    filtered = {k: v for k, v in fig_dict.items() if(v.get_num_lines() <= 2 and v.get_fig_type() == e.name)}
+    filtered = {k: v for k, v in
+fig_dict.items()
+if(v.get_num_lines() <= 2 and
+v.get_fig_type() == e.name)}
     #print(len(filtered))   
     f.write(fig_and_desc +" \n")
     f.write("NUM TEMMPLATES: %d\n" % (len(filtered)))
+    f.write("BEAM WIDTH: %d \n" % (n))
+    f.write("TOP n=%d SENTENCES \n" % (top_sent))
     f.write("---------------------------------------------------------------------\n")
     f.write("---------------------------------------------------------------------\n\n")
     f.flush()

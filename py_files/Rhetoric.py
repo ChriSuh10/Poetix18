@@ -1,7 +1,7 @@
 
 import pprint
 from enum import Enum
-
+import copy 
 class RHETORICAL_FIGURES(Enum):
     ANADIPLOSIS = 0
     ANAPHORA = 1
@@ -94,9 +94,14 @@ class FigureInfo:
 
     def to_string(self):
         pp = pprint.PrettyPrinter(indent=4, width=160)
-        return pprint.pformat(self.__dict__) + "\n"
+        obj = copy.deepcopy(self.__dict__)
+        del obj['orig_tokens']
+        return pprint.pformat(obj) + "\n"
 
     def print(self):
         pp = pprint.PrettyPrinter(indent=4, width=160)
-        pp.pprint(self.__dict__)
+        obj = copy.deepcopy(self.__dict__)
+        del obj['orig_tokens']
+        pp.pprint(obj)
+
         print("\n")

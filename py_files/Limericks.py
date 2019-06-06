@@ -1089,7 +1089,7 @@ class Limerick_Generate:
                         (sentences[j][0],
                          sentences[j][1],
                          sentences[j][2]))
-
+            sentences = new_sentences_nd
             sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
             print(sent_done)
 
