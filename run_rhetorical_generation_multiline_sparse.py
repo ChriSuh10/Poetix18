@@ -188,7 +188,7 @@ def process_gen(e,d):
                 "-----------------------------------------------------------------------------------------------------------------------------------------------------\n\n")
             f_verbose.flush()
 
-            f_verbose.write(v.to_string_sparse())
+            f_sparse.write(v.to_string_sparse())
             f_sparse.write(
                 "-----------------------------------------------------------------------------------------------------------------------------------------------------\n\n")
             f_sparse.flush()
@@ -201,4 +201,4 @@ def process_gen(e,d):
     f_sparse.close()
 
 
-Parallel(n_jobs=3)(delayed(process_gen)(e,d) for e, d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION))
+Parallel(n_jobs=5)(delayed(process_gen)(e,d) for e, d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION))
