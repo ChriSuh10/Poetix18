@@ -98,6 +98,11 @@ class FigureInfo:
         del obj['orig_tokens']
         return pprint.pformat(obj) + "\n"
 
+    def to_string_sparse(self):
+        pp = pprint.PrettyPrinter(indent=4, width=160)
+        obj = {'unique_id': self.get_unique_id(), 'orig_text': self.get_orig_text(), 'gen_lines': self.get_gen_lines()}
+        return pprint.pformat(obj) + "\n"
+
     def print(self):
         pp = pprint.PrettyPrinter(indent=4, width=160)
         obj = copy.deepcopy(self.__dict__)

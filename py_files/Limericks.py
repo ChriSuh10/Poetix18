@@ -1090,7 +1090,7 @@ class Limerick_Generate:
                          sentences[j][1],
                          sentences[j][2]))
             sentences = new_sentences_nd
-            sent_done = [[' '.join(sentences[j][0])] for j in range(len(sentences))]
+            sent_done = [[' '.join(sentences[j][0])] for j in range(top_sent)]
             print(sent_done)
 
         gen = {'sents': [sentences[j][0] for j in range(top_sent)], 'used_words_dict': cc_lookup}
