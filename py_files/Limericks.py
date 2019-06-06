@@ -492,7 +492,10 @@ class Limerick_Generate:
 
     def gen_first_line_new(self, last_word, num_sylls, strict):
         def get_num_sylls(template):
-            return sum(map(lambda x: len(self.dict_meters[x][0]), template)
+            n=0
+            for x in template:
+                n+=len(self.dict_meters[x][0])
+            return n
 
         female_name_list, male_name_list = self.load_name_list(name_count=100)
         city_name_list = self.load_city_list()
@@ -545,6 +548,7 @@ class Limerick_Generate:
                     new_candidates = []
                     for d in candidates:
                         for city in city_name_list:
+                            print(city)
                             new_d = copy.deepcopy(d)
                             new_d['PLACE'] = city
                             new_candidates.append(new_d)
@@ -570,7 +574,7 @@ class Limerick_Generate:
                         new_sentence[i] = candidate[new_sentence[i]]
                 if get_num_sylls(new_sentence) == num_sylls:
                     candidate_sentences.append(new_sentence)
-       return candidate_sentences
+        return len(candidate_sentences)
 
 
 
