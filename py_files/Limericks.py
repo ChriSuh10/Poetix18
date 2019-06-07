@@ -1,3 +1,4 @@
+import progressbar
 import tensorflow as tf
 import numpy as np
 import nltk
@@ -896,7 +897,7 @@ class Limerick_Generate:
         rep_template1 = rep_templates[0]
         pos_template1 = pos_templates[0]
         orig_tokens1 = orig_tokens[0]
-        gen = self.gen_line_gpt_rep(rep_template=rep_template1, default_template=pos_template1, encodes=prompt1, orig_tokens=orig_tokens1, search_space=search_space, banned_set=banned_set,top_sent=top_sent)
+        gen = self.gen_line_gpt_rep(figure_id=figure_info.get_unique_id(), rep_template=rep_template1, default_template=pos_template1, encodes=prompt1, orig_tokens=orig_tokens1, search_space=search_space, banned_set=banned_set,top_sent=top_sent)
         sent_done = [[' '.join(gen['sents'][j])] for j in range(len(gen['sents']))]
 
         if(figure_info.get_num_lines() > 1):
@@ -907,7 +908,7 @@ class Limerick_Generate:
                 rep_template2 = rep_templates[1]
                 pos_template2 = pos_templates[1]
                 orig_tokens2 = orig_tokens[1]
-                gen2 = self.gen_line_gpt_rep(rep_template=rep_template2, default_template=pos_template2, encodes=prompt2, orig_tokens=orig_tokens2,
+                gen2 = self.gen_line_gpt_rep(figure_id=figure_info.get_unique_id(), rep_template=rep_template2, default_template=pos_template2, encodes=prompt2, orig_tokens=orig_tokens2,
                                              search_space=top_sent, banned_set=banned_set, used_words_dict=used_words_dict_i, top_sent=1)
                 print(gen2)
                 sent_done[l].append(' '.join(gen2['sents'][0]))
@@ -917,8 +918,7 @@ class Limerick_Generate:
         return sent_done
 
 
-    def gen_line_gpt_rep(self, rep_template, w=None, encodes=None, orig_tokens=None, default_template=None, rhyme_word=None, rhyme_set=None,
-                         banned_set=None, used_words_dict=None, search_space=100,top_sent=10):
+    def gen_line_gpt_rep(self, figure_id, rep_template, w=None, encodes=None, orig_tokens=None, default_template=None, rhyme_word=None, rhyme_set=None, banned_set=None, used_words_dict=None, search_space=100,top_sent=10):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -968,10 +968,16 @@ class Limerick_Generate:
             sentences = [([], encodes, 0)]
 
         cc_lookup = dict()
+        
+        bar = progressbar.ProgressBar(maxval=len(template), \
+        widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
+        bar.start() 
 
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
             logits = score_model(model_name=self.model_name, context_token=[s[1] for s in sentences])
+            print("Unique id: %d progress ->" % (figure_id))
+            bar.update(i+1)
             POS = template[i]
             CC = str(rep_template[i])
             CC_WORD_ID = int(CC[:1])

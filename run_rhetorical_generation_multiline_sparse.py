@@ -179,10 +179,10 @@ def process_gen(e,d):
     f_sparse.flush()
     for i, (k, v) in zip(range(0, len(filtered)), filtered.items()):
         # print(fig_and_desc)
-        print("%d/%d\n" % (len(filtered), i))
+        print("%d/%d\n" % (i+1, len(filtered)))
         try:
-            f_sparse.write("%d/%d\n" % (len(filtered), i))
-            f_verbose.write("%d/%d\n" % (len(filtered), i))
+            f_sparse.write("%d/%d\n" % (i+1, len(filtered)))
+            f_verbose.write("%d/%d\n" % (i+1, len(filtered)))
             gen_lines = lg.gen_line_gpt_rep_multiline(v, search_space=n, top_sent=top_sent)
             v.set_gen_lines(gen_lines)
             f_verbose.write(v.to_string())
