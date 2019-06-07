@@ -469,14 +469,14 @@ class Limerick_Generate:
         with open(female_names_file, 'rb') as female_names:
             for line in female_names:
                 name, _, _, count = line.split()
-                female_name_list.append(name)
+                female_name_list.append(name.lower().decode('utf-8'))
                 if int(count) == name_count:
                     break
 
         with open(male_names_file, 'rb') as male_names:
             for line in male_names:
                 name, _, _, count = line.split()
-                male_name_list.append(name)
+                male_name_list.append(name.lower().decode('utf-8'))
                 if int(count) == name_count:
                     break
 
@@ -487,13 +487,15 @@ class Limerick_Generate:
         l = []
         with open(city_list_file, 'rb') as cities:
             for line in cities:
-                l.append(l)
+                l.append(line.rstrip().decode('utf-8').lower())
         return l
 
     def gen_first_line_new(self, last_word, num_sylls, strict):
         def get_num_sylls(template):
             n=0
             for x in template:
+                if x not in self.dict_meters:
+                    return 0
                 n+=len(self.dict_meters[x][0])
             return n
 
@@ -501,6 +503,9 @@ class Limerick_Generate:
         city_name_list = self.load_city_list()
         templates, placeholders, dict = get_first_line_templates()
 
+        w_response = requests.get(self.api_url, params={'rel_rhy': last_word}).json()
+        w_response = set(d['word'] for d in w_response)
+        w_response.add(last_word)
         candidate_sentences = []
         for template in templates:
             candidates = []
@@ -548,7 +553,6 @@ class Limerick_Generate:
                     new_candidates = []
                     for d in candidates:
                         for city in city_name_list:
-                            print(city)
                             new_d = copy.deepcopy(d)
                             new_d['PLACE'] = city
                             new_candidates.append(new_d)
@@ -568,13 +572,16 @@ class Limerick_Generate:
                                 new_candidates.append(new_d)
                     candidates = new_candidates
             for candidate in candidates:
+                if candidate[template[-1]] not in w_response:
+                    continue
                 new_sentence = copy.deepcopy(template)
                 for i in range(len(new_sentence)):
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
                 if get_num_sylls(new_sentence) == num_sylls:
                     candidate_sentences.append(new_sentence)
-        return len(candidate_sentences)
+        random.shuffle(candidate_sentences)
+        return candidate_sentences[:100]
 
 
 
@@ -596,6 +603,7 @@ class Limerick_Generate:
         possible_sentence=[]
         for name in rhyme_names:
             for template in templates[names[name]]:
+                print(name)
                 if len(self.dict_meters[name][0])+get_num_sylls(template)==num_sylls:
                     possible_sentence.append(template+[name])
         for name in rhyme_cities:
