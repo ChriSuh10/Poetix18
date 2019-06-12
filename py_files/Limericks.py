@@ -38,7 +38,7 @@ class Limerick_Generate:
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
         self.model_name = model_name
-        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
 
         self.create_syll_dict(syllables_file)
 

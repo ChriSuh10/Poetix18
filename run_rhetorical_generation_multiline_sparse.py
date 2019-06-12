@@ -47,6 +47,8 @@ sent_table = pd.read_csv(corpus_input, delimiter='|', usecols=['text'])
 for i in sent_table.index.values:
     # print(sent_table.iloc[i]['text']);
     # sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''O ''', '''Oh''')
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''``''', '')
+    sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''\'\'''', '')    
     sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace('''`''', ''' \'''')
     sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' ` ''', '''\'''')
     sent_table.iloc[i]['text'] = sent_table.iloc[i]['text'].replace(''' `''', '''\'''')
@@ -142,7 +144,7 @@ for e, d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION):
 # print(fig_dict.values)
 timestamp = int(time.mktime(datetime.now().timetuple()))
 lg = Limerick_Generate(model_dir='gpt2/models/345M', model_name='345M')
-n = 200
+n = 300
 top_sent = 20
 
 def process_gen(e,d):
@@ -204,4 +206,4 @@ def process_gen(e,d):
     f_sparse.close()
 
 
-Parallel(n_jobs=5)(delayed(process_gen)(e,d) for e, d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION))
+Parallel(n_jobs=3)(delayed(process_gen)(e,d) for e, d in zip(Rhetoric.RHETORICAL_FIGURES, Rhetoric.FIGURE_DESCRIPTION))
