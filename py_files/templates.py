@@ -640,7 +640,7 @@ def get_first_line_templates():
             'FEMALE': ['lady', 'woman', 'girl'],
             'NEUTRAL': ['person']
         },
-        'JJ': ['young'],
+        'JJ': ['young', 'old', 'humble', 'dear', 'clever', ],
         'IN': ['from', 'of', 'in']
     }
     return lines, placeholders, placeholder_dict

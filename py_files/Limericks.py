@@ -490,7 +490,28 @@ class Limerick_Generate:
                 l.append(line.rstrip().decode('utf-8').lower())
         return l
 
-    def gen_first_line_new(self, last_word, num_sylls, strict):
+    def gen_first_line_new(self, last_word, strict=False):
+        """
+        Generetes all possible first lines of a Limerick by going through a
+        set of template. Number of syllables is always 8 or 9.
+
+        Parameters
+        ----------
+        w1 : str
+            The last word in the line, used to generate backwards from.
+        last_word : str
+            The last word of the first_line sentence specified by the user.
+        strict : boolean, optional
+            Set to false by default. If strict is set to false, this method
+            will look for not only sentences that end with last_word, but also
+            sentences that end with a word that rhyme with last_word.
+
+        Returns
+        -------
+        first_lines : list
+            All possible first line sentences.
+        """
+
         def get_num_sylls(template):
             n=0
             for x in template:
@@ -503,11 +524,28 @@ class Limerick_Generate:
         city_name_list = self.load_city_list()
         templates, placeholders, dict = get_first_line_templates()
 
+        if strict:
+            if last_word not in female_name_list and \
+                last_word not in male_name_list and \
+                last_word not in city_name_list:
+                raise Exception('last word not a known name or location')
+            last_word_is_location = last_word in city_name_list
+            last_word_is_male = last_word in male_name_list
+            last_word_is_female = last_word in female_name_list
+
+
+
         w_response = requests.get(self.api_url, params={'rel_rhy': last_word}).json()
         w_response = set(d['word'] for d in w_response)
         w_response.add(last_word)
         candidate_sentences = []
         for template in templates:
+            if strict and last_word_is_location and template[-1] != 'PLACE':
+                continue
+            if strict and (last_word_is_male or last_word_is_female) and \
+                template[-1] != 'NAME':
+                continue
+
             candidates = []
             for word in template:
                 if word not in placeholders:
@@ -550,6 +588,9 @@ class Limerick_Generate:
                             new_candidates.append(new_d)
                     candidates = new_candidates
                 if word == 'PLACE':
+                    if strict and last_word_is_location:
+                        for d in candidates:
+                            d['PLACE'] = last_word
                     new_candidates = []
                     for d in candidates:
                         for city in city_name_list:
@@ -558,6 +599,22 @@ class Limerick_Generate:
                             new_candidates.append(new_d)
                     candidates = new_candidates
                 if word == 'NAME':
+                    # Only select candidates with the correct gender as the name
+                    if strict and (last_word_is_male or last_word_is_female):
+                        new_candidates = []
+                        for d in candidates:
+                            if d['GENDER'] == 'FEMALE' and last_word_is_female:
+                                d['NAME'] = last_word
+                                new_candidates.append(d)
+                            elif d['GENDER'] == 'MALE' and last_word_is_male:
+                                d['NAME'] = last_word
+                                new_candidates.append(d)
+                            elif d['GENDER'] ==  'NEUTRAL':
+                                d['NAME'] = last_word
+                                new_candidates.append(d)
+                        candidates = new_candidates
+                        continue
+
                     new_candidates = []
                     for d in candidates:
                         if d['GENDER'] == 'MALE' or d['GENDER'] == 'NEUTRAL':
@@ -578,7 +635,8 @@ class Limerick_Generate:
                 for i in range(len(new_sentence)):
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
-                if get_num_sylls(new_sentence) == num_sylls:
+                # First line always has 8 or 9 syllables
+                if get_num_sylls(new_sentence) == 8 or get_num_sylls(new_sentence) == 9:
                     candidate_sentences.append(new_sentence)
         random.shuffle(candidate_sentences)
         return candidate_sentences[:100]
