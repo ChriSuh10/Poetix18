@@ -14,6 +14,7 @@ import requests
 import pickle
 import heapq
 from functools import reduce
+import math
 
 from .model_back import Model as Model_back
 from .functions import search_back_meter
@@ -201,6 +202,35 @@ class Limerick_Generate:
 
         return best_word
 
+    def get_similar_word_henry(self, words, seen_words=[], weights=1, n_return=1, word_set=None):
+        """
+        Given a list of words, return a word most similar to this list.
+        """
+        seen_words_set = set(seen_words) | set(self.ps.stem(word) for word in words)
+
+        if word_set is None:
+            word_set = set()
+
+            for word in words:
+                for synset in wn.synsets(word):
+                    clean_def = remove_stopwords(self.punct.sub('', synset.definition()))
+                    word_set.update(clean_def.lower().split())
+                word_set.update({dic["word"] for dic in requests.get(self.api_url, params={'rel_syn': "grace"}).json()})
+
+        if weights == 1:
+            weights = [1] * len(words)
+
+        def cal_score(words, weights, syn):
+            score = 0
+            for word, weight in zip(words, weights):
+                score += max(self.poetic_vectors.similarity(word, syn), 0) ** 0.5 * weight
+            return score / sum(weights)
+
+        syn_score_list = [(syn, cal_score(words, weights, syn)) for syn in word_set if self.ps.stem(syn) not in seen_words_set and syn in self.poetic_vectors]
+        syn_score_list.sort(key=lambda x: x[1], reverse=True)
+
+        return [e[0] for e in syn_score_list[:n_return]]
+
     def get_five_words(self, w2):
         """
         Given a seed word, finds four other words that fit the rhyme scheme of
@@ -250,7 +280,7 @@ class Limerick_Generate:
             if r['word'] not in self.words_to_pos or r['word'] not in self.poetic_vectors.vocab:
                 continue
             this_sim = self.poetic_vectors.similarity(r['word'], w4)
-            if this_sim  > max_sim and self.ps.stem(r['word']) not in seen_words:
+            if this_sim > max_sim and self.ps.stem(r['word']) not in seen_words:
                 w3 = r['word']
                 max_sim = this_sim
 
@@ -260,67 +290,55 @@ class Limerick_Generate:
         seen_words.add(self.ps.stem(w3))
         return w1, w2, w3, w4, w5
 
-    def get_five_words_henry(self, w2):
+    def get_five_words_henry(self, w2, n_return=1):
         nouns = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['NN', 'NNS', 'NNP', 'NNPS']])
         verbs = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['VBG', 'VBZ', 'VBN', 'VBP', 'VB', 'VBD']])
+        n_return_frac13 = math.ceil(n_return ** (1 / 3))
 
-        seen_words = set([self.ps.stem(w2)])
+        def seen_words(words_list):
+            return set(self.ps.stem(word) for word in words_list)
+
+        def replicate(word_list, n_reps, max_reps):
+            return [word for word in word_list for _ in range(n_reps)][:max_reps]
 
         # Three connection words
         w_response = requests.get(self.api_url, params={'rel_rhy': w2}).json()
-        rhyme_nn = set(d['word'] for d in w_response).intersection(nouns | verbs)
-
-        w1 = w3 = w5 = None
-
-        # Find w1 that rhymes with w2 that is a pronoun
-        w1_list = []
-        for r in rhyme_nn:
-            if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
-                w1_list.append(r)
-
-        w1 = random.choice(w1_list)
-        seen_words.add(self.ps.stem(w1))
-
-        # w4
-        w4 = self.get_similar_word([w2], seen_words)
-
-        seen_words.add(self.ps.stem(w4))
-
-        # w3
-        w_response2 = requests.get(self.api_url, params={'rel_rhy': w4}).json()
-        rhyme_nn = set(d['word'] for d in w_response2).intersection(nouns | verbs)
-
-        max_sim = -1
-        for r in rhyme_nn:
-            if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
-                sim = self.poetic_vectors.similarity(w2, r) ** 0.5
-                sim += self.poetic_vectors.similarity(w4, r) ** 0.5
-
-                if sim > max_sim:
-                    max_sim = sim
-                    w3 = r
-
-        seen_words.add(self.ps.stem(w3))
-
-        # w5
+#         rhyme_nn = set(d['word'] for d in w_response).intersection(nouns | verbs)
         rhyme_any = set(d['word'] for d in w_response)
 
-        max_sim = -1
+        # w4
+        w4s_raw = self.get_similar_word_henry([w2], n_return=n_return_frac13, word_set=(nouns | verbs))
+        w4s = replicate(w4s_raw, n_return_frac13 ** 2, n_return)
+        # print(w4s)
+
+        # w3
+        w3s_raw = []
+        for w4 in w4s_raw:
+            w_response2 = requests.get(self.api_url, params={'rel_rhy': w4}).json()
+            rhyme_nn2 = set(d['word'] for d in w_response2).intersection(nouns | verbs)
+            # print(w4, rhyme_nn2)
+            w3s_raw.extend(self.get_similar_word_henry([w2, w4], weights=[3, 1], n_return=n_return_frac13, word_set=rhyme_nn2))
+        w3s = replicate(w3s_raw, n_return_frac13 ** 2, n_return)
+        # print(w3s)
+
+        # w5
+        w5s = []
+        for w3, w4 in zip(w3s, w4s):
+            w5s.append(self.get_similar_word_henry([w2, w3, w4], weights=[1, 2, 4], n_return=1, word_set=rhyme_any)[0])
+        # print(w5s)
+
+        # Find w1 that rhymes with w2 that is a city name / person name (to be changed soon)
+        w1_list = []
         for r in rhyme_any:
-            if r in self.words_to_pos and self.ps.stem(r) not in seen_words:
-                sim = self.poetic_vectors.similarity(w2, r) ** 0.5 * 2
-                sim += self.poetic_vectors.similarity(w4, r) ** 0.5 * 1
+            if r in self.words_to_pos:  # and self.ps.stem(r) not in seen_words():
+                w1_list.append(r)
 
-                if sim > max_sim:
-                    max_sim = sim
-                    w5 = r
+        w1s = [random.choice(w1_list) for _ in range(n_return)]
 
-        seen_words.add(self.ps.stem(w5))
+        if not (w1s and w3s and w4s and w5s):
+            raise ValueError("Cannot generate limerick using " + w2)
 
-        if w5 is None or w3 is None or w1 is None:
-            raise ValueError('Cannot generate limerick using ', w2)
-
-        return w1, w2, w3, w4, w5
+        return list(zip(w1s, [w2] * n_return, w3s, w4s, w5s))
 
     def valid_permutation_sylls(self, num_sylls, template, last_word_sylls):
         """
