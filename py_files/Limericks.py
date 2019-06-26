@@ -340,6 +340,41 @@ class Limerick_Generate:
 
         return list(zip(w1s, [w2] * n_return, w3s, w4s, w5s))
 
+    def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
+        """
+        Returns all integer partitions of an int with a partition_size number
+        of ints.
+        """
+        def get_all_partitions(n, I=1):
+            yield (n,)
+            for i in range(I, n//2 + 1):
+                for p in get_all_partitions(n-i, i):
+                    yield (i,) + p
+        def valid_syll(sylls, template):
+            """
+            Checks if a template and syllable mapping are compatible.
+            """
+            for i in range(len(template) - 1):
+                # Add in zeros to account for punctuation
+                if template[i] == ',' or template[i] == '.':
+                    sylls.insert(i, 0)
+                if sylls[i] not in self.pos_syllables[template[i]]:
+                    return False
+            return True
+        syllables_left = num_sylls - last_word_sylls
+        # Punctuation takes up no syllables, so subtract to get number of partitions
+        num_zero_sylls = sum(1 if pos == '.' or pos == ',' else 0 for pos in template)
+        num_words_left = len(template) - num_zero_sylls - 1
+        all_partitions = [list(itertools.permutations(p)) for p in get_all_partitions(syllables_left) if len(p) == num_words_left]
+        ret = set()
+        for permutation in all_partitions:
+            for partition in permutation:
+                if valid_syll(partition, template):
+                    ret.add(partition)
+        ret = list(ret)
+        random.shuffle(ret)
+        return ret
+
     def valid_permutation_sylls(self, num_sylls, template, last_word_sylls):
         """
         Finds and returns the first integer partition of num_sylls with a total
