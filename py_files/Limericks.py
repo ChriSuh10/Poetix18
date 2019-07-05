@@ -521,6 +521,19 @@ class Limerick_Generate:
                 n+=len(self.dict_meters[x][0])
             return n
 
+        # Correct meter is: da DUM da da DUM da da DUM. We enforce the 2nd, 5th
+        # & 8th syllables have stress.
+        def is_correct_meter(template):
+            meter = []
+            for x in template:
+                curr_meter = self.dict_meters[x]
+                for i in range(len(curr_meter[0])):
+                    curr_stress = []
+                    for possible_stress in curr_meter:
+                        curr_stress.append(possible_stress[i])
+                    meter.append(curr_stress)
+            return not all(('1' not in meter[i]) for i in [1,4,7])
+
         female_name_list, male_name_list = self.load_name_list(name_count=100)
         city_name_list = self.load_city_list()
         templates, placeholders, dict = get_first_line_templates()
@@ -637,7 +650,9 @@ class Limerick_Generate:
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
                 # First line always has 8 or 9 syllables
-                if get_num_sylls(new_sentence) == 8 or get_num_sylls(new_sentence) == 9:
+                if (get_num_sylls(new_sentence) == 8 \
+                    or get_num_sylls(new_sentence) == 9)\
+                    and is_correct_meter(new_sentence):
                     candidate_sentences.append(new_sentence)
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]
