@@ -1128,7 +1128,7 @@ class Limerick_Generate:
         return new_line
 
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
-        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=0):
+        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=0, stress=[]):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1145,6 +1145,12 @@ class Limerick_Generate:
             If a rhyme word is passed in, the sentence generated will rhyme with this word
         rhyme_set : set, optional
             If a rhyme set is passed in, the sentence generated will end with a word in this set
+        search_space : int, optional
+            Search space for the GPT2 model
+        num_sylls : int, optional
+            Number of syllables in the word
+        stress : array of ints, optional
+            Positions of stress of the sentence, corresponding to '1' in cmudict translation
 
         Returns
         -------
@@ -1167,25 +1173,15 @@ class Limerick_Generate:
             w_response = requests.get(self.api_url, params={'rel_rhy': rhyme_word}).json()
             rhyme_set = set(d['word'] for d in w_response)
             # Include the word itself in the rhyme set
-            rhyme_set.add(rhyme)
+            rhyme_set.add(rhyme_word)
 
-        # Tuple format: original word array, encode array, log probability of this sentence
+        # Tuple format: original word array, encode array, log probability of this sentence, number of syllables
         if w:
-            sentences = [(w.lower().split(), [], 0)]
+            sentences = [(w.lower().split(), [], 0, 0)]
             for e in w.lower().split():
                 sentences[0][1].append(self.enc.encode(e)[0])
         if encodes:
-            sentences = [([], encodes, 0)]
-
-        sylls = None
-        if num_sylls > 0:
-            if rhyme_word:
-                last_word_sylls = len(self.dict_meters[rhyme_word][0])
-            else:
-                # Set to 2 for test purposes
-                last_word_sylls = 2
-            sylls = self.valid_permutation_sylls(num_sylls, template, last_word_sylls)
-            print(sylls)
+            sentences = [([], encodes, 0, 0)]
 
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
@@ -1218,13 +1214,33 @@ class Limerick_Generate:
                         if i == len(template) - 1 and rhyme_set and (stripped_word not in rhyme_set):
                             continue
                         # Enforce meter if meter is provided
-                        if sylls and (stripped_word not in self.dict_meters or len(self.dict_meters[stripped_word][0]) != sylls[i]):
-                            continue
+                        syllables = sentences[j][3]
+                        if num_sylls > 0 or len(stress) > 0:
+                            print('not here')
+                            if stripped_word not in self.dict_meters:
+                                continue
+
+                            possible_syllables = self.dict_meters[stripped_word]
+                            word_length = len(possible_syllables[0])
+
+                            correct_stress = True
+                            for stress_position in stress:
+                                if syllables <= stress_position \
+                                 and syllables + word_length > stress_position:
+                                    stress_syllable_pos = stress_position - syllables
+                                    if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
+                                        correct_stress = False
+                                        continue
+                            if not correct_stress:
+                                continue
+                            syllables += word_length
+
                         # Add candidate sentence to new array
                         new_sentences.append(
                             (sentences[j][0] + [word],
                             sentences[j][1] + [index],
-                            sentences[j][2] + np.log(logits[j][index])))
+                            sentences[j][2] + np.log(logits[j][index]),
+                            syllables))
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
