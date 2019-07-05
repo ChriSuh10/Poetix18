@@ -490,7 +490,8 @@ class Limerick_Generate:
                 l.append(line.rstrip().decode('utf-8').lower())
         return l
 
-    def gen_first_line_new(self, last_word, strict=False):
+    def gen_first_line_new(self,
+            last_word, contains_adjective=True, strict=False, search_space=100):
         """
         Generetes all possible first lines of a Limerick by going through a
         set of template. Number of syllables is always 8 or 9.
@@ -533,19 +534,19 @@ class Limerick_Generate:
             last_word_is_male = last_word in male_name_list
             last_word_is_female = last_word in female_name_list
 
-
-
         w_response = requests.get(self.api_url, params={'rel_rhy': last_word}).json()
         w_response = set(d['word'] for d in w_response)
         w_response.add(last_word)
         candidate_sentences = []
+
         for template in templates:
             if strict and last_word_is_location and template[-1] != 'PLACE':
                 continue
             if strict and (last_word_is_male or last_word_is_female) and \
                 template[-1] != 'NAME':
                 continue
-
+            if not contains_adjective and ('JJ' in template):
+                continue
             candidates = []
             for word in template:
                 if word not in placeholders:
@@ -639,7 +640,7 @@ class Limerick_Generate:
                 if get_num_sylls(new_sentence) == 8 or get_num_sylls(new_sentence) == 9:
                     candidate_sentences.append(new_sentence)
         random.shuffle(candidate_sentences)
-        return candidate_sentences[:100]
+        return candidate_sentences[:search_space]
 
 
 
@@ -1336,12 +1337,13 @@ class Limerick_Generate:
             r2_set.add(rhyme2)
 
         # Used the old method to generate the first line
-        first_line = random.choice(self.gen_first_line(rhyme1, first_line_sylls))
-        print(first_line)
-        first_line_encodes = self.enc.encode(" ".join(first_line))
         out = generate_prompt(model_name=self.model_name, seed_word=rhyme1, length=prompt_length)
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".")+1]
+
+        first_line = random.choice(self.gen_first_line_new(rhyme1))
+        print(first_line)
+        first_line_encodes = self.enc.encode(" ".join(first_line))
         prompt = self.enc.encode(prompt) + first_line_encodes
 
         if not story_line:
