@@ -543,6 +543,25 @@ class Limerick_Generate:
                 l.append(line.rstrip().decode('utf-8').lower())
         return l
 
+    # For instance, if correct meter is: da DUM da da DUM da da DUM, pass in
+    # stress = [1,4,7] to enforce that the 2nd, 5th & 8th syllables have stress.
+    def is_correct_meter(self, template, num_syllables = [8], stress=[1,4,7]):
+        meter = []
+        n = 0
+        for x in template:
+            if x not in self.dict_meters:
+                return False
+            n += len(self.dict_meters[x][0])
+            curr_meter = self.dict_meters[x]
+            for i in range(len(curr_meter[0])):
+                curr_stress = []
+                for possible_stress in curr_meter:
+                    curr_stress.append(possible_stress[i])
+                meter.append(curr_stress)
+        return (not all(('1' not in meter[i]) for i in stress)) \
+                and (n in num_syllables)
+
+
     def gen_first_line_new(self,
             last_word, contains_adjective=True, strict=False, search_space=100):
         """
@@ -573,19 +592,6 @@ class Limerick_Generate:
                     return 0
                 n+=len(self.dict_meters[x][0])
             return n
-
-        # Correct meter is: da DUM da da DUM da da DUM. We enforce the 2nd, 5th
-        # & 8th syllables have stress.
-        def is_correct_meter(template):
-            meter = []
-            for x in template:
-                curr_meter = self.dict_meters[x]
-                for i in range(len(curr_meter[0])):
-                    curr_stress = []
-                    for possible_stress in curr_meter:
-                        curr_stress.append(possible_stress[i])
-                    meter.append(curr_stress)
-            return not all(('1' not in meter[i]) for i in [1,4,7])
 
         female_name_list, male_name_list = self.load_name_list(name_count=100)
         city_name_list = self.load_city_list()
@@ -703,9 +709,7 @@ class Limerick_Generate:
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
                 # First line always has 8 or 9 syllables
-                if (get_num_sylls(new_sentence) == 8 \
-                    or get_num_sylls(new_sentence) == 9)\
-                    and is_correct_meter(new_sentence):
+                if self.is_correct_meter(new_sentence, num_syllables = [8,9]):
                     candidate_sentences.append(new_sentence)
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]
