@@ -55,6 +55,11 @@ class Limerick_Generate:
         # Not sure what this does, necessary for search_back function
         self.word_pools = [set([]) for n in range(4)]
         self.enc = get_encoder(self.model_name )
+        # get male and female names
+        with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
+            self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
+        with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
+            self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
 
     def create_syll_dict(self, fname):
         """
@@ -291,7 +296,7 @@ class Limerick_Generate:
         seen_words.add(self.ps.stem(w3))
         return w1, w2, w3, w4, w5
 
-    def get_five_words_henry(self, w2, n_return=1):
+    def get_five_words_henry_old(self, w2, n_return=1):
         nouns = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['NN', 'NNS', 'NNP', 'NNPS']])
         verbs = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['VBG', 'VBZ', 'VBN', 'VBP', 'VB', 'VBD']])
         n_return_frac13 = math.ceil(n_return ** (1 / 3))
@@ -340,6 +345,44 @@ class Limerick_Generate:
             raise ValueError("Cannot generate limerick using " + w2)
 
         return list(zip(w1s, [w2] * n_return, w3s, w4s, w5s))
+
+    def fill_three_words_henry(self, w1, rhyme_w1, w3, rhyme_w3, prompt):
+        w2 = random.choice(self.get_similar_word_henry([prompt, w3], seen_words=[w1], weights=[2, 1], n_return=5, word_set=rhyme_w1))
+        w4 = self.get_similar_word_henry([prompt, w2, w3], seen_words=[w1], weights=[1, 2, 4], n_return=1, word_set=rhyme_w3)[0]
+        w5 = self.get_similar_word_henry([prompt, w2, w3, w4], seen_words=[w1], weights=[1, 4, 1, 3], n_return=1, word_set=rhyme_w1)[0]
+        return [w1.capitalize(), w2, w3, w4, w5]
+
+    def get_five_words_henry(self, prompt):
+        names = [name for name in (self.male_names + self.female_names) if name[-1] not in ["a", "e", "i", "o", "u"]]
+        w1s_rhyme_dict = {}
+        w1_count = 0
+        while w1_count < 10:
+            w1 = random.choice(names)
+            rhyme_w1 = set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': w1}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+            if len(rhyme_w1) == 0:
+                print("Unable to find rhyming words of word 1 '%s'" % w1)
+                continue
+            w1s_rhyme_dict[w1] = rhyme_w1
+            names.remove(w1)
+            w1_count += 1
+
+        w3s = self.get_similar_word_henry([prompt], n_return=10)
+        w3s_rhyme_dict = {}
+        for w3 in w3s:
+            rhyme_w3 = set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': w3}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+            if len(rhyme_w3) == 0:
+                print("Unable to find rhyming words of word 3 '%s'" % w3)
+                continue
+            w3s_rhyme_dict[w3] = rhyme_w3
+
+        storylines = []
+        for w1, rhyme_w1 in w1s_rhyme_dict.items():
+            for w3, rhyme_w3 in w3s_rhyme_dict.items():
+                try:
+                    storylines.append(self.fill_three_words_henry(w1, rhyme_w1, w3, rhyme_w3, prompt))
+                except IndexError:
+                    print("'%s' and '%s' are unable to generate storyline" % (w1, w3))
+        return storylines
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
