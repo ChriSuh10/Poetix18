@@ -1227,18 +1227,19 @@ class Limerick_Generate:
                                 continue
 
                             # Check if the new word meets the stress constraint
-                            stress_position = stress[0]
+                            if len(stress) > 0:
+                                stress_position = stress[0]
 
-                            correct_stress = True
-                            # There is a stress on current word
-                            if syllables <= stress_position and syllables + word_length > stress_position:
-                                stress_syllable_pos = stress_position - syllables
-                                # Remove the first stress, which is already checked.
-                                stress = stress[1:]
-                                if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
-                                    correct_stress = False
-                            if not correct_stress:
-                                continue
+                                correct_stress = True
+                                # There is a stress on current word
+                                if syllables <= stress_position and syllables + word_length > stress_position:
+                                    stress_syllable_pos = stress_position - syllables
+                                    # Remove the first stress, which is already checked.
+                                    stress = stress[1:]
+                                    if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
+                                        correct_stress = False
+                                if not correct_stress:
+                                    continue
                             # Add current word's number of syllables to
                             # the sentence's number of syllables
                             syllables += word_length
