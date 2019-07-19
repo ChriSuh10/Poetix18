@@ -1128,7 +1128,8 @@ class Limerick_Generate:
         return new_line
 
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
-        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=[], stress=[]):
+        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=[], stress=[],
+        use_nltk=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1194,18 +1195,19 @@ class Limerick_Generate:
                 # There might be duplicate words such as "And" and " and" and we only need one
                 for index in range(len(logits[j])):
                     word = self.enc.decode([index]).lower().strip()
-                    if len(word.lower().strip()) == 0:
-                        fit_pos = False
-                    elif len(self.words_to_pos[word.lower().strip()]) == 0:
-                        word_pos = nltk.pos_tag([word.lower().strip()])
-                        if len(word_pos) == 0:
-                            print(word)
+                    if use_nltk:
+                        if len(word.lower().strip()) == 0:
                             fit_pos = False
+                        elif len(self.words_to_pos[word.lower().strip()]) == 0:
+                            word_pos = nltk.pos_tag([word.lower().strip()])
+                            if len(word_pos) == 0:
+                                fit_pos = False
+                            else:
+                                fit_pos = POS == word_pos[0][1]
                         else:
-                            fit_pos = POS == word_pos[0][1]
+                            fit_pos = POS in self.words_to_pos[word]
                     else:
                         fit_pos = POS in self.words_to_pos[word]
-
                     # Restrict the word to have the POS of the template
                     if fit_pos:
                         stripped_word = word.lower().strip()
@@ -1253,6 +1255,7 @@ class Limerick_Generate:
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
+        print(sentences[0][0])
         return sentences[0]
 
     def gen_line_gpt_cc(self, cctemplate, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
@@ -1436,7 +1439,7 @@ class Limerick_Generate:
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".")+1]
         first_line = random.choice(self.gen_first_line_new(rhyme1))
-        print(first_line)	
+        print(first_line)
         first_line_encodes = self.enc.encode(" ".join(first_line))
         prompt = self.enc.encode(prompt) + first_line_encodes
 
@@ -1464,7 +1467,6 @@ class Limerick_Generate:
 
             if not story_line:
                 rhyme_set = r1_set if (i == 0 or i == 3) else r2_set
-
                 new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
                     default_template = default_templates[i], rhyme_set = rhyme_set,
                     search_space = int(search_space * search_space_coef[i]),
@@ -1476,7 +1478,6 @@ class Limerick_Generate:
                 default_template = default_templates[i], rhyme_set = [five_words[i+1]],
                 search_space = int(search_space * search_space_coef[i]),
                 num_sylls = curr_sylls, stress=stress)
-
             prompt += new_sentence[1]
 
     def gen_line_with_template(self, prompt, template, num):
