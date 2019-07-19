@@ -1384,7 +1384,7 @@ class Limerick_Generate:
         print(sentences[0][0])
         return sentences
 
-    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates, first_line_sylls,
+    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates,
     story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
     enforce_syllables = False, enforce_stress = False):
         """
@@ -1400,8 +1400,6 @@ class Limerick_Generate:
         rhyme2 : str, optional
             The second word that the third and forth lines have to rhyme with.
             If storyline is set to False this word is necessary.
-        first_line_sylls: int
-            Number of the syllables that the first line needs to have.
         prompt_length: int
             The length of the prompt that is generated before generating the poem.
             This will influence memory used and should not be too big.
@@ -1437,9 +1435,7 @@ class Limerick_Generate:
         out = generate_prompt(model_name=self.model_name, seed_word=rhyme1, length=prompt_length)
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".")+1]
-
         first_line = random.choice(self.gen_first_line_new(rhyme1))
-        print(first_line)
         first_line_encodes = self.enc.encode(" ".join(first_line))
         prompt = self.enc.encode(prompt) + first_line_encodes
 
@@ -1454,7 +1450,6 @@ class Limerick_Generate:
 
         # Search space is set to decay because the more sentences we run, the longer the prompt
         search_space_coef = [1, 1, 0.5, 0.25]
-
         for i in range(4):
             if enforce_syllables:
                 curr_sylls = [5,6] if (i == 2 or i == 3) else [8,9]
