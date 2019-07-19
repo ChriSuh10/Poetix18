@@ -1436,6 +1436,7 @@ class Limerick_Generate:
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".")+1]
         first_line = random.choice(self.gen_first_line_new(rhyme1))
+        print(first_line)	
         first_line_encodes = self.enc.encode(" ".join(first_line))
         prompt = self.enc.encode(prompt) + first_line_encodes
 
