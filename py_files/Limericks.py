@@ -1152,7 +1152,9 @@ class Limerick_Generate:
             Number of syllables in the word
         stress : array of ints, optional
             Positions of stress of the sentence, corresponding to '1' in cmudict translation
-
+        use_nltk: bool, optional
+            If set to true, for words that don't appear in POS dictionary, the script will generate
+            the POS in NLTK. It will be slower, but it allows for a larger set of words.
         Returns
         -------
         new_line : array
