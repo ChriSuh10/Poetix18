@@ -13,6 +13,7 @@ import itertools
 import requests
 import pickle
 import heapq
+import copy
 from functools import reduce
 import math
 
@@ -23,7 +24,7 @@ from .templates import get_templates
 from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
-from .templates import get_first_nnp
+from .templates import get_first_nnp, get_first_line_templates
 import pickle
 
 class Limerick_Generate:
@@ -54,6 +55,11 @@ class Limerick_Generate:
         # Not sure what this does, necessary for search_back function
         self.word_pools = [set([]) for n in range(4)]
         self.enc = get_encoder(self.model_name )
+        # get male and female names
+        with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
+            self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
+        with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
+            self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
 
     def create_syll_dict(self, fname):
         """
@@ -290,7 +296,7 @@ class Limerick_Generate:
         seen_words.add(self.ps.stem(w3))
         return w1, w2, w3, w4, w5
 
-    def get_five_words_henry(self, w2, n_return=1):
+    def get_five_words_henry_old(self, w2, n_return=1):
         nouns = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['NN', 'NNS', 'NNP', 'NNPS']])
         verbs = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['VBG', 'VBZ', 'VBN', 'VBP', 'VB', 'VBD']])
         n_return_frac13 = math.ceil(n_return ** (1 / 3))
@@ -339,6 +345,44 @@ class Limerick_Generate:
             raise ValueError("Cannot generate limerick using " + w2)
 
         return list(zip(w1s, [w2] * n_return, w3s, w4s, w5s))
+
+    def fill_three_words_henry(self, w1, rhyme_w1, w3, rhyme_w3, prompt):
+        w2 = random.choice(self.get_similar_word_henry([prompt, w3], seen_words=[w1], weights=[2, 1], n_return=5, word_set=rhyme_w1))
+        w4 = self.get_similar_word_henry([prompt, w2, w3], seen_words=[w1], weights=[1, 2, 4], n_return=1, word_set=rhyme_w3)[0]
+        w5 = self.get_similar_word_henry([prompt, w2, w3, w4], seen_words=[w1], weights=[1, 4, 1, 3], n_return=1, word_set=rhyme_w1)[0]
+        return [w1.capitalize(), w2, w3, w4, w5]
+
+    def get_five_words_henry(self, prompt):
+        names = [name for name in (self.male_names + self.female_names) if name[-1] not in ["a", "e", "i", "o", "u"]]
+        w1s_rhyme_dict = {}
+        w1_count = 0
+        while w1_count < 10:
+            w1 = random.choice(names)
+            rhyme_w1 = set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': w1}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+            if len(rhyme_w1) == 0:
+                print("Unable to find rhyming words of word 1 '%s'" % w1)
+                continue
+            w1s_rhyme_dict[w1] = rhyme_w1
+            names.remove(w1)
+            w1_count += 1
+
+        w3s = self.get_similar_word_henry([prompt], n_return=10)
+        w3s_rhyme_dict = {}
+        for w3 in w3s:
+            rhyme_w3 = set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': w3}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+            if len(rhyme_w3) == 0:
+                print("Unable to find rhyming words of word 3 '%s'" % w3)
+                continue
+            w3s_rhyme_dict[w3] = rhyme_w3
+
+        storylines = []
+        for w1, rhyme_w1 in w1s_rhyme_dict.items():
+            for w3, rhyme_w3 in w3s_rhyme_dict.items():
+                try:
+                    storylines.append(self.fill_three_words_henry(w1, rhyme_w1, w3, rhyme_w3, prompt))
+                except IndexError:
+                    print("'%s' and '%s' are unable to generate storyline" % (w1, w3))
+        return storylines
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
@@ -511,6 +555,211 @@ class Limerick_Generate:
                 word_pool_ind = 0
                 next_score, next_state=model.compute_fx(sess, vocab, score, seq, state, 1)
         return next_score, next_state
+
+
+    def load_name_list(self, name_count):
+        female_names_file = 'py_files/saved_objects/dist.female.first.txt'
+        male_names_file = 'py_files/saved_objects/dist.male.first.txt'
+        female_name_list, male_name_list = [], []
+
+        with open(female_names_file, 'rb') as female_names:
+            for line in female_names:
+                name, _, _, count = line.split()
+                female_name_list.append(name.lower().decode('utf-8'))
+                if int(count) == name_count:
+                    break
+
+        with open(male_names_file, 'rb') as male_names:
+            for line in male_names:
+                name, _, _, count = line.split()
+                male_name_list.append(name.lower().decode('utf-8'))
+                if int(count) == name_count:
+                    break
+
+        return female_name_list, male_name_list
+
+    def load_city_list(self):
+        city_list_file = 'py_files/saved_objects/city_names.txt'
+        l = []
+        with open(city_list_file, 'rb') as cities:
+            for line in cities:
+                l.append(line.rstrip().decode('utf-8').lower())
+        return l
+
+    # For instance, if correct meter is: da DUM da da DUM da da DUM, pass in
+    # stress = [1,4,7] to enforce that the 2nd, 5th & 8th syllables have stress.
+    def is_correct_meter(self, template, num_syllables = [8], stress=[1,4,7]):
+        meter = []
+        n = 0
+        for x in template:
+            if x not in self.dict_meters:
+                return False
+            n += len(self.dict_meters[x][0])
+            curr_meter = self.dict_meters[x]
+            for i in range(len(curr_meter[0])):
+                curr_stress = []
+                for possible_stress in curr_meter:
+                    curr_stress.append(possible_stress[i])
+                meter.append(curr_stress)
+        return (not all(('1' not in meter[i]) for i in stress)) \
+                and (n in num_syllables)
+
+
+    def gen_first_line_new(self,
+            last_word, contains_adjective=True, strict=False, search_space=100):
+        """
+        Generetes all possible first lines of a Limerick by going through a
+        set of template. Number of syllables is always 8 or 9.
+
+        Parameters
+        ----------
+        w1 : str
+            The last word in the line, used to generate backwards from.
+        last_word : str
+            The last word of the first_line sentence specified by the user.
+        strict : boolean, optional
+            Set to false by default. If strict is set to false, this method
+            will look for not only sentences that end with last_word, but also
+            sentences that end with a word that rhyme with last_word.
+
+        Returns
+        -------
+        first_lines : list
+            All possible first line sentences.
+        """
+
+        def get_num_sylls(template):
+            n=0
+            for x in template:
+                if x not in self.dict_meters:
+                    return 0
+                n+=len(self.dict_meters[x][0])
+            return n
+
+        female_name_list, male_name_list = self.load_name_list(name_count=100)
+        city_name_list = self.load_city_list()
+        templates, placeholders, dict = get_first_line_templates()
+
+        if strict:
+            if last_word not in female_name_list and \
+                last_word not in male_name_list and \
+                last_word not in city_name_list:
+                raise Exception('last word not a known name or location')
+            last_word_is_location = last_word in city_name_list
+            last_word_is_male = last_word in male_name_list
+            last_word_is_female = last_word in female_name_list
+
+        w_response = requests.get(self.api_url, params={'rel_rhy': last_word}).json()
+        w_response = set(d['word'] for d in w_response)
+        w_response.add(last_word)
+        candidate_sentences = []
+
+        for template in templates:
+            if strict and last_word_is_location and template[-1] != 'PLACE':
+                continue
+            if strict and (last_word_is_male or last_word_is_female) and \
+                template[-1] != 'NAME':
+                continue
+            if not contains_adjective and ('JJ' in template):
+                continue
+            candidates = []
+            for word in template:
+                if word not in placeholders:
+                    continue
+                if word == 'PERSON':
+                    person_dict = dict['PERSON']
+                    if len(candidates) == 0:
+                        candidates = [{'PERSON' : p, 'GENDER': 'MALE'} for p in person_dict['MALE']] \
+                        + [{'PERSON' : p, 'GENDER': 'FEMALE'} for p in person_dict['FEMALE']] \
+                        + [{'PERSON' : p, 'GENDER': 'NEUTRAL'} for p in person_dict['NEUTRAL']]
+                    else:
+                        new_candidates = []
+                        for d in candidates:
+                            for gender in person_dict:
+                                for p in person_dict[gender]:
+                                    new_d = copy.deepcopy(d)
+                                    new_d['PERSON'] = p
+                                    new_d['GENDER'] = gender
+                                    new_candidates.append(new_d)
+                        candidates = new_candidates
+                if word == 'JJ':
+                    adj_dict = dict['JJ']
+                    if len(candidates) == 0:
+                        candidates = [{'JJ': w} for w in adj_dict]
+                    else:
+                        new_candidates = []
+                        for d in candidates:
+                            for adj in adj_dict:
+                                new_d = copy.deepcopy(d)
+                                new_d['JJ'] = adj
+                                new_candidates.append(new_d)
+                        candidates = new_candidates
+                if word == 'IN':
+                    in_dict = dict['IN']
+                    new_candidates = []
+                    for d in candidates:
+                        for i in in_dict:
+                            new_d = copy.deepcopy(d)
+                            new_d['IN'] = i
+                            new_candidates.append(new_d)
+                    candidates = new_candidates
+                if word == 'PLACE':
+                    if strict and last_word_is_location:
+                        for d in candidates:
+                            d['PLACE'] = last_word
+                    new_candidates = []
+                    for d in candidates:
+                        for city in city_name_list:
+                            new_d = copy.deepcopy(d)
+                            new_d['PLACE'] = city
+                            new_candidates.append(new_d)
+                    candidates = new_candidates
+                if word == 'NAME':
+                    # Only select candidates with the correct gender as the name
+                    if strict and (last_word_is_male or last_word_is_female):
+                        new_candidates = []
+                        for d in candidates:
+                            if d['GENDER'] == 'FEMALE' and last_word_is_female:
+                                d['NAME'] = last_word
+                                new_candidates.append(d)
+                            elif d['GENDER'] == 'MALE' and last_word_is_male:
+                                d['NAME'] = last_word
+                                new_candidates.append(d)
+                            elif d['GENDER'] ==  'NEUTRAL':
+                                d['NAME'] = last_word
+                                new_candidates.append(d)
+                        candidates = new_candidates
+                        continue
+
+                    new_candidates = []
+                    for d in candidates:
+                        if d['GENDER'] == 'MALE' or d['GENDER'] == 'NEUTRAL':
+                            for name in male_name_list:
+                                new_d = copy.deepcopy(d)
+                                new_d['NAME'] = name
+                                new_candidates.append(new_d)
+                        if d['GENDER'] == 'FEMALE' or d['GENDER'] == 'NEUTRAL':
+                            for name in female_name_list:
+                                new_d = copy.deepcopy(d)
+                                new_d['NAME'] = name
+                                new_candidates.append(new_d)
+                    candidates = new_candidates
+            for candidate in candidates:
+                if candidate[template[-1]] not in w_response:
+                    continue
+                new_sentence = copy.deepcopy(template)
+                for i in range(len(new_sentence)):
+                    if new_sentence[i] in placeholders:
+                        new_sentence[i] = candidate[new_sentence[i]]
+                # First line always has 8 or 9 syllables
+                if self.is_correct_meter(new_sentence, num_syllables = [8,9]):
+                    candidate_sentences.append(new_sentence)
+        random.shuffle(candidate_sentences)
+        return candidate_sentences[:search_space]
+
+
+
+
     def gen_first_line(self, w2, num_sylls):
         def get_num_sylls(template):
             n=0
@@ -528,6 +777,7 @@ class Limerick_Generate:
         possible_sentence=[]
         for name in rhyme_names:
             for template in templates[names[name]]:
+                print(name)
                 if len(self.dict_meters[name][0])+get_num_sylls(template)==num_sylls:
                     possible_sentence.append(template+[name])
         for name in rhyme_cities:
@@ -1202,12 +1452,13 @@ class Limerick_Generate:
             r2_set.add(rhyme2)
 
         # Used the old method to generate the first line
-        first_line = random.choice(self.gen_first_line(rhyme1, first_line_sylls))
-        print(first_line)
-        first_line_encodes = self.enc.encode(" ".join(first_line))
         out = generate_prompt(model_name=self.model_name, seed_word=rhyme1, length=prompt_length)
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".")+1]
+
+        first_line = random.choice(self.gen_first_line_new(rhyme1))
+        print(first_line)
+        first_line_encodes = self.enc.encode(" ".join(first_line))
         prompt = self.enc.encode(prompt) + first_line_encodes
 
         if not story_line:

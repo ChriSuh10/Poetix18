@@ -619,3 +619,29 @@ def get_first_line():
 def get_first_nnp():
     lines={'city': [['there', 'was', 'a', 'young', 'lady', 'from'], ['there', 'was', 'an', 'old', 'man', 'from'],['there', 'once', 'was', 'an', 'old', 'man', 'from'],['there','was', 'a', 'person','from'],['there','once','was','a','man', 'from'],['there','once','was','a','woman', 'from'],['there','was','a','man','that','lived','in'],['there','was','an','enthusiastic','man','that','lived','in'], ['there','once','was','a','woman','enjoying','her','life','in']],'F':[['there', 'was', 'a', 'young', 'lady','named'],['there','once','was','a','woman','named'],['there','once','was','an','enthusiastic','woman','named'],['a', 'woman', 'named'],['there', 'was', 'an', 'old', 'woman', 'named'],['there', 'once', 'was', 'a', 'girl', 'named'],['there', 'once', 'was', 'a', 'young','lady', 'named'], ['there', 'once', 'was', 'a', 'young','woman','whose','name','was'], ['there', 'once', 'was', 'a', 'young','girl','whose','name','was'], ['there', 'was', 'a', 'young','girl','whose','name','was']],'M':[['there', 'was', 'a', 'young', 'fellow','named'],['there','once','was','a','man','named'],['a', 'man', 'named'],['there','once','was','an','enthusiastic','man','named'],['there', 'was', 'an', 'old', 'man', 'named'],['there', 'once', 'was', 'a', 'man', 'named'],['there', 'once', 'was', 'a', 'young','man', 'named'], ['there', 'once', 'was', 'a', 'young','man','whose','name','was']]}
     return lines
+
+
+def get_first_line_templates():
+    lines=[
+            ['there', 'was', 'a', 'JJ', 'PERSON', 'IN', 'PLACE'],
+            ['there', 'was', 'a', 'PERSON', 'IN', 'PLACE'],
+            ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
+            ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
+            ['there', 'was', 'a', 'JJ', 'PERSON', 'whose', 'name', 'was', 'NAME'],
+            ['there', 'was', 'a', 'PERSON', 'whose', 'name', 'was', 'NAME'],
+            ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
+            ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
+            ['there', 'once', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
+        ]
+    placeholders = ['JJ', 'PERSON', 'PLACE', 'NAME', 'IN']
+    placeholder_dict = {
+        'PERSON': {
+            'MALE' : ['fellow', 'man', 'boy', 'gentleman'],
+            'FEMALE': ['lady', 'woman', 'girl'],
+            'NEUTRAL': ['person']
+        },
+        'JJ': ['young', 'old', 'humble', 'dear', 'clever', 'polite', 'likeable',
+        'sincere', 'kind', 'bright', 'witty'],
+        'IN': ['from', 'of', 'in']
+    }
+    return lines, placeholders, placeholder_dict
