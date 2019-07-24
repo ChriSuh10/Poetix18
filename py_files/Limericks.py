@@ -25,15 +25,14 @@ from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp, get_first_line_templates
-import pickle
+
 
 class Limerick_Generate:
-
     def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
-            syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
-            postag_file='py_files/saved_objects/postag_dict_all.p',
-            model_dir='py_files/models/all_combined_back',
-            model_name='117M'):
+                 syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
+                 postag_file='py_files/saved_objects/postag_dict_all.p',
+                 model_dir='py_files/models/all_combined_back',
+                 model_name='117M'):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
@@ -50,11 +49,11 @@ class Limerick_Generate:
         self.create_pos_syllables()
         self.create_templates_dict(postag_dict[0])
 
-        self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
+        self.first_line_words = pickle.load(open('py_files/saved_objects/first_line.p', 'rb'))
         self.width = 20
         # Not sure what this does, necessary for search_back function
         self.word_pools = [set([]) for n in range(4)]
-        self.enc = get_encoder(self.model_name )
+        self.enc = get_encoder(self.model_name)
         # get male and female names
         with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
             self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
@@ -86,16 +85,16 @@ class Limerick_Generate:
                     for ch in word:
                         if(ch in "012"):
                             if(ch == "2"):
-                                chars+="1"
+                                chars += "1"
                             else:
-                                chars+=ch
-                newLine+=[chars]
+                                chars += ch
+                newLine += [chars]
                 lines[i] = newLine
-                if(newLine[0] not in self.dict_meters): #THIS IF STATEMENT ALLOWS FOR MULTIPLE PRONUNCIATIONS OF A WORD
-                    self.dict_meters[newLine[0]]=[chars]
+                if(newLine[0] not in self.dict_meters):  # THIS IF STATEMENT ALLOWS FOR MULTIPLE PRONUNCIATIONS OF A WORD
+                    self.dict_meters[newLine[0]] = [chars]
                 else:
                     if(chars not in self.dict_meters[newLine[0]]):
-                        self.dict_meters[newLine[0]]+=[chars]
+                        self.dict_meters[newLine[0]] += [chars]
             self.dict_meters[','] = ['']
             self.dict_meters['.'] = ['']
 
@@ -210,7 +209,17 @@ class Limerick_Generate:
 
     def get_similar_word_henry(self, words, seen_words=[], weights=1, n_return=1, word_set=None):
         """
-        Given a list of words, return a word most similar to this list.
+        Given a list of words, return a list of words of a given number most similar to this list.
+        <arg>:
+        words: a list of words (prompts)
+        seen_words: words not to repeat (automatically include words in arg <words> in the following code)
+        weights: weights for arg <words>, default to be all equal
+        n_return: number of words in the return most similar list
+        word_set: a set of words to choose from, default set to the set of words extracted from the definitions of arg <word> in gensim
+        <measure of similarity>:
+        similarity from gensim squared and weighted sum by <arg> weights
+        <return>:
+        a list of words of length arg <n_return> most similar to <arg> words
         """
         seen_words_set = set(seen_words) | set(self.ps.stem(word) for word in words)
 
@@ -347,33 +356,99 @@ class Limerick_Generate:
         return list(zip(w1s, [w2] * n_return, w3s, w4s, w5s))
 
     def fill_three_words_henry(self, w1, rhyme_w1, w3, rhyme_w3, prompt):
+        """
+        given w1, w3 and prompt, as well as rhyming lists of w1 and w3, return the best choice of [w2, w4, w5] satisfying all constraints.
+        <args>:
+        w1: word 1, a name
+        rhyme_w1: a list of words that rhyme with <arg> w1
+        w3: word 3, a word that is usually similar in meaning to <arg> prompt
+        rhyme_w3: a list of words that rhyme with <arg> w3
+        prompt: the prompt word of the poem
+        <method>:
+        use self.get_similar_word_henry to select the best word from the rhyming lists, use random choice at word 2 to introduce randomness
+        <return>:
+        all five words [w1 (capitalized), w2, w3, w4, w5]
+        """
         w2 = random.choice(self.get_similar_word_henry([prompt, w3], seen_words=[w1], weights=[2, 1], n_return=5, word_set=rhyme_w1))
         w4 = self.get_similar_word_henry([prompt, w2, w3], seen_words=[w1], weights=[1, 2, 4], n_return=1, word_set=rhyme_w3)[0]
         w5 = self.get_similar_word_henry([prompt, w2, w3, w4], seen_words=[w1], weights=[1, 4, 1, 3], n_return=1, word_set=rhyme_w1)[0]
         return [w1.capitalize(), w2, w3, w4, w5]
 
-    def get_five_words_henry(self, prompt):
-        names = [name for name in (self.male_names + self.female_names) if name[-1] not in ["a", "e", "i", "o", "u"]]
+    def get_rhyming_words_one_step_henry(self, word):
+        """
+        get the rhyming words of <arg> word returned from datamuse api
+        <args>:
+        word: any word
+        <return>:
+        a set of words
+        """
+        return set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': word}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+
+    def get_rhyming_words_henry(self, word, max_iter=10, max_words=1000):
+        """
+        get all rhyming words of <arg> word that could be found by datamuse api
+        <args>:
+        word: any word
+        max_iter: maximum iteration number of broad-first-search
+        max_words: maximum number of words in return
+        <method>:
+        do broad-first-search with self.get_rhyming_words_one_step_henry
+        <return>:
+        a set of words
+        """
+        rhyming_words = self.get_rhyming_words_one_step_henry(word)
+        new_rhyming_words = rhyming_words.copy()
+        count = 0
+        while count < max_iter and len(rhyming_words) <= max_words:
+            new_rhyming_words = {new_word for word in new_rhyming_words for new_word in self.get_rhyming_words_one_step_henry(word) if new_word not in (rhyming_words | new_rhyming_words)}
+            if len(new_rhyming_words) == 0:
+                break
+            rhyming_words |= new_rhyming_words
+        return rhyming_words
+
+    def get_five_words_henry(self, prompt, rhyming_max_iter=4, rhyming_max_words=100):
+        """
+        given a prompt word, return a few dozens of storylines.
+        <arg>:
+        prompt: any word
+        rhyming_max_iter: <arg> for self.get_rhyming_words_henry
+        rhyming_max_words: <arg> for self.get_rhyming_words_henry
+        <explanation>:
+        <arg> rhyming_max_iter and <arg> rhyming_max_words balances the quality of storylines and the time it takes, usually (4, 100) is a good choice
+        <method>:
+        randomly choose 20 w1 from the male + female name lists that have rhyming words, and store these rhyming lists
+        choose 20 w3 with meaning most similar to <arg> prompt, keep the ones that have rhyming words and store these rhyming lists
+        generate storylines using self.fill_three_words_henry, if IndexError occurs (i.e. a list of length 0 is generated), then report the error
+        <return>:
+        a list of lists, each containing a storyline. The number of returned storylines is usually around 100, depending on <arg> prompt
+        """
+        names = [name for name in (self.male_names + self.female_names) if name[-1] not in "a"]
         w1s_rhyme_dict = {}
         w1_count = 0
-        while w1_count < 10:
+        while w1_count < 20:
             w1 = random.choice(names)
-            rhyme_w1 = set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': w1}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+            rhyme_w1 = self.get_rhyming_words_henry(w1, max_iter=4, max_words=100)
             if len(rhyme_w1) == 0:
                 print("Unable to find rhyming words of word 1 '%s'" % w1)
                 continue
             w1s_rhyme_dict[w1] = rhyme_w1
             names.remove(w1)
             w1_count += 1
+            print("Getting rhyming words of word 1 '%s' ...... %d / 20 done." % (w1, w1_count))
+
+        nouns = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['NN', 'NNS', 'NNP', 'NNPS']])
+        verbs = reduce(lambda x, y: x | y, [set(self.pos_to_words[tag]) for tag in ['VBG', 'VBZ', 'VBN', 'VBP', 'VB', 'VBD']])
 
         w3s = self.get_similar_word_henry([prompt], n_return=10)
+        w3s.extend(self.get_similar_word_henry([prompt], seen_words=w3s, n_return=10, word_set=(nouns | verbs)))
         w3s_rhyme_dict = {}
-        for w3 in w3s:
-            rhyme_w3 = set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': w3}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+        for w3_count, w3 in enumerate(w3s):
+            rhyme_w3 = self.get_rhyming_words_henry(w3, max_iter=4, max_words=100)
             if len(rhyme_w3) == 0:
                 print("Unable to find rhyming words of word 3 '%s'" % w3)
                 continue
             w3s_rhyme_dict[w3] = rhyme_w3
+            print("Getting rhyming words of word 3 '%s' ...... %d / 20 done." % (w3, w3_count + 1))
 
         storylines = []
         for w1, rhyme_w1 in w1s_rhyme_dict.items():
@@ -391,9 +466,10 @@ class Limerick_Generate:
         """
         def get_all_partitions(n, I=1):
             yield (n,)
-            for i in range(I, n//2 + 1):
-                for p in get_all_partitions(n-i, i):
+            for i in range(I, n // 2 + 1):
+                for p in get_all_partitions(n - i, i):
                     yield (i,) + p
+
         def valid_syll(sylls, template):
             """
             Checks if a template and syllable mapping are compatible.
@@ -448,10 +524,11 @@ class Limerick_Generate:
             """
             def get_all_partitions(n, I=1):
                 yield (n,)
-                for i in range(I, n//2 + 1):
-                    for p in get_all_partitions(n-i, i):
+                for i in range(I, n // 2 + 1):
+                    for p in get_all_partitions(n - i, i):
                         yield (i,) + p
             return [p for p in get_all_partitions(n) if len(p) == partition_size]
+
         def valid_syll(sylls, template):
             """
             Checks if a template and syllable mapping are compatible.
@@ -479,8 +556,6 @@ class Limerick_Generate:
                 perm.append(last_word_sylls)
                 if valid_syll(perm, template):
                     return perm
-    def gen_line_two_words(self, w1, w2, template=None):
-        pass
 
     def run_gen_model_back(self, seq, template, template_sylls, state=None, score=None):
         """
@@ -525,11 +600,11 @@ class Limerick_Generate:
                     score = np.array([[0]])
 
                 # This is where the candidate lines are generated
-                lst = search_back_meter(model, vocab, score, seq ,state, sess, 1,
-                    self.words_to_pos, self.width, self.word_pools[word_pool_ind],
-                    self.pos_to_words, template, template_sylls, self.dict_meters)
+                lst = search_back_meter(model, vocab, score, seq, state, sess, 1,
+                                        self.words_to_pos, self.width, self.word_pools[word_pool_ind],
+                                        self.pos_to_words, template, template_sylls, self.dict_meters)
                 # Sort each candidate line by score
-                lst.sort(key=lambda x: x[0], reverse = True)
+                lst.sort(key=lambda x: x[0], reverse=True)
             else:
                 raise IOError('No model checkpoint')
         return lst
@@ -539,6 +614,7 @@ class Limerick_Generate:
         last_word_sylls = len(self.dict_meters[last_word][0])
         temp_len = num_sylls - last_word_sylls
         return random.choice(self.templates_dict[(last_pos, temp_len)])
+
     def compute_next_state(self, state, score, seq):
         tf.reset_default_graph()
         with open(os.path.join(self.model_dir, 'config.pkl'), 'rb') as f:
@@ -552,10 +628,8 @@ class Limerick_Generate:
             ckpt = tf.train.get_checkpoint_state(self.model_dir)
             if ckpt and ckpt.model_checkpoint_path:
                 saver.restore(sess, ckpt.model_checkpoint_path)
-                word_pool_ind = 0
-                next_score, next_state=model.compute_fx(sess, vocab, score, seq, state, 1)
+                next_score, next_state = model.compute_fx(sess, vocab, score, seq, state, 1)
         return next_score, next_state
-
 
     def load_name_list(self, name_count):
         female_names_file = 'py_files/saved_objects/dist.female.first.txt'
@@ -588,7 +662,7 @@ class Limerick_Generate:
 
     # For instance, if correct meter is: da DUM da da DUM da da DUM, pass in
     # stress = [1,4,7] to enforce that the 2nd, 5th & 8th syllables have stress.
-    def is_correct_meter(self, template, num_syllables = [8], stress=[1,4,7]):
+    def is_correct_meter(self, template, num_syllables=[8], stress=[1, 4, 7]):
         meter = []
         n = 0
         for x in template:
@@ -602,11 +676,9 @@ class Limerick_Generate:
                     curr_stress.append(possible_stress[i])
                 meter.append(curr_stress)
         return (not all(('1' not in meter[i]) for i in stress)) \
-                and (n in num_syllables)
+            and (n in num_syllables)
 
-
-    def gen_first_line_new(self,
-            last_word, contains_adjective=True, strict=False, search_space=100):
+    def gen_first_line_new(self, last_word, contains_adjective=True, strict=False, search_space=100):
         """
         Generetes all possible first lines of a Limerick by going through a
         set of template. Number of syllables is always 8 or 9.
@@ -629,11 +701,11 @@ class Limerick_Generate:
         """
 
         def get_num_sylls(template):
-            n=0
+            n = 0
             for x in template:
                 if x not in self.dict_meters:
                     return 0
-                n+=len(self.dict_meters[x][0])
+                n += len(self.dict_meters[x][0])
             return n
 
         female_name_list, male_name_list = self.load_name_list(name_count=100)
@@ -669,9 +741,9 @@ class Limerick_Generate:
                 if word == 'PERSON':
                     person_dict = dict['PERSON']
                     if len(candidates) == 0:
-                        candidates = [{'PERSON' : p, 'GENDER': 'MALE'} for p in person_dict['MALE']] \
-                        + [{'PERSON' : p, 'GENDER': 'FEMALE'} for p in person_dict['FEMALE']] \
-                        + [{'PERSON' : p, 'GENDER': 'NEUTRAL'} for p in person_dict['NEUTRAL']]
+                        candidates = [{'PERSON': p, 'GENDER': 'MALE'} for p in person_dict['MALE']] \
+                            + [{'PERSON': p, 'GENDER': 'FEMALE'} for p in person_dict['FEMALE']] \
+                            + [{'PERSON': p, 'GENDER': 'NEUTRAL'} for p in person_dict['NEUTRAL']]
                     else:
                         new_candidates = []
                         for d in candidates:
@@ -725,7 +797,7 @@ class Limerick_Generate:
                             elif d['GENDER'] == 'MALE' and last_word_is_male:
                                 d['NAME'] = last_word
                                 new_candidates.append(d)
-                            elif d['GENDER'] ==  'NEUTRAL':
+                            elif d['GENDER'] == 'NEUTRAL':
                                 d['NAME'] = last_word
                                 new_candidates.append(d)
                         candidates = new_candidates
@@ -752,48 +824,44 @@ class Limerick_Generate:
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
                 # First line always has 8 or 9 syllables
-                if self.is_correct_meter(new_sentence, num_syllables = [8,9]):
+                if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
                     candidate_sentences.append(new_sentence)
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]
 
-
-
-
     def gen_first_line(self, w2, num_sylls):
         def get_num_sylls(template):
-            n=0
+            n = 0
             for x in template:
-                n+=len(self.dict_meters[x][0])
+                n += len(self.dict_meters[x][0])
             return n
 
-        names=self.first_line_words[0]
-        cities=self.first_line_words[1]
-        names={x[0]:x[1] for x in names}
+        names = self.first_line_words[0]
+        cities = self.first_line_words[1]
+        names = {x[0]: x[1] for x in names}
         w_response = requests.get(self.api_url, params={'rel_rhy': w2}).json()
         rhyme_names = set(d['word'] for d in w_response).intersection(names.keys())
-        rhyme_cities=set(d['word'] for d in w_response).intersection(cities)
-        templates=get_first_nnp()
-        possible_sentence=[]
+        rhyme_cities = set(d['word'] for d in w_response).intersection(cities)
+        templates = get_first_nnp()
+        possible_sentence = []
         for name in rhyme_names:
             for template in templates[names[name]]:
                 print(name)
-                if len(self.dict_meters[name][0])+get_num_sylls(template)==num_sylls:
-                    possible_sentence.append(template+[name])
+                if len(self.dict_meters[name][0]) + get_num_sylls(template) == num_sylls:
+                    possible_sentence.append(template + [name])
         for name in rhyme_cities:
             for template in templates['city']:
                 try:
-                    if len(self.dict_meters[name][0])+get_num_sylls(template)==num_sylls:
-                        possible_sentence.append(template+[name])
+                    if len(self.dict_meters[name][0]) + get_num_sylls(template) == num_sylls:
+                        possible_sentence.append(template + [name])
                 except:
                     continue
-        if len(possible_sentence)==0:
+        if len(possible_sentence) == 0:
             raise ValueError('No lines can be constructed with this metric')
         else:
             return possible_sentence
 
-
-    def gen_line(self, w1, template=None,num_sylls=10, state=None, score=None):
+    def gen_line(self, w1, template=None, num_sylls=10, state=None, score=None):
         """
         Generetes a single line, backwards from the given word, with restrictions
         as given by the provided template, number of syllables in the line.
@@ -869,37 +937,36 @@ class Limerick_Generate:
             The score can be indexed by [0][0].item, and the line by [0][1][1]
         """
         if pos is None:
-            pos=self.words_to_pos[w1][0]
+            pos = self.words_to_pos[w1][0]
         if templates is None and set_of_templates is not None:
             try:
-                t=set_of_templates[pos]
+                t = set_of_templates[pos]
             except KeyError:
                 print('No templates for POS')
                 raise ValueError('No lines can be constructed')
-            n_templates=min(len(t), rand_templates)
-            templates=random.sample(t, k=n_templates)
-            #template = self.get_rand_template(num_sylls, w1)
+            n_templates = min(len(t), rand_templates)
+            templates = random.sample(t, k=n_templates)
+            # template = self.get_rand_template(num_sylls, w1)
             # temp_len = random.randint(num_sylls - last_word_sylls - 1, num_sylls - last_word_sylls)
             # template = random.choice(self.templates_dict[(w1_pos, temp_len)])
 
         # Assign syllables to each pos in template
-        lines=[]
+        lines = []
         for template in templates:
             try:
-                t, line=self.gen_line(w1, template=template[0],num_sylls=num_sylls, state=state, score=score)
+                t, line = self.gen_line(w1, template=template[0], num_sylls=num_sylls, state=state, score=score)
                 this_line = line[0][1][1]
                 this_score = line[0][0].item() / len(this_line)
                 if return_state:
-                    lines.append((this_line, this_score, t, template[1],  line[0][1][0][1]))
+                    lines.append((this_line, this_score, t, template[1], line[0][1][0][1]))
                 else:
                     lines.append((this_line, this_score, t, template[1]))
             except:
                 continue
-        lines.sort(key=lambda x: x[1], reverse = True)
-        if len(lines)==0:
+        lines.sort(key=lambda x: x[1], reverse=True)
+        if len(lines) == 0:
             raise ValueError('No lines can be constructed')
         return lines
-
 
     def gen_poem_independent(self, seed_word, first_line_sylls):
         """
@@ -1008,70 +1075,67 @@ class Limerick_Generate:
         five_words = self.get_five_words(seed_word)
         print('five words are: ')
         print(five_words)
+
         def get_templates_last(n, key):
-            _,_1,_2,data=get_templates()
-            df=data[key]
-            min_n=min(n,len(df))
-            t=random.sample(df, k=min_n)
-            fourth=[]
-            fifth=[]
+            _, _1, _2, data = get_templates()
+            df = data[key]
+            min_n = min(n, len(df))
+            t = random.sample(df, k=min_n)
+            fourth = []
+            fifth = []
             for template in t:
-                fourth.append((template[0][:template[2]+1], template[1][:template[2]+1]))
-                fifth.append((template[0][template[2]+1:], template[1][template[2]+1:]))
+                fourth.append((template[0][:template[2] + 1], template[1][:template[2] + 1]))
+                fifth.append((template[0][template[2] + 1:], template[1][template[2] + 1:]))
             return fourth, fifth
 
-        dataset, second_line_, third_line_, last_two_lines=get_templates()
-        #t_2=random.choice(second_line_[self.words_to_pos[five_words[1]][0]])[0]
-        key=self.words_to_pos[five_words[3]][0]+'-'+self.words_to_pos[five_words[4]][0]
-        fourth, fifth=get_templates_last(rand_template, key)
+        dataset, second_line_, third_line_, last_two_lines = get_templates()
+        # t_2=random.choice(second_line_[self.words_to_pos[five_words[1]][0]])[0]
+        key = self.words_to_pos[five_words[3]][0] + '-' + self.words_to_pos[five_words[4]][0]
+        fourth, fifth = get_templates_last(rand_template, key)
 
-        #t=random.choice(last_two_lines[key])
-        #t_4=t[0][:t[2]+1]
-        #t_5=t[0][t[2]+1:]
-        #t_1 = random.choice(dataset[self.words_to_pos[five_words[0]][0]])[0]
-        #t_3 = random.choice(third_line_[self.words_to_pos[five_words[2]][0]])[0]
+        # t=random.choice(last_two_lines[key])
+        # t_4=t[0][:t[2]+1]
+        # t_5=t[0][t[2]+1:]
+        # t_1 = random.choice(dataset[self.words_to_pos[five_words[0]][0]])[0]
+        # t_3 = random.choice(third_line_[self.words_to_pos[five_words[2]][0]])[0]
 
-
-
-
-        o2 = self.gen_best_line(five_words[1],num_sylls=second_line_sylls, set_of_templates=second_line_)
+        o2 = self.gen_best_line(five_words[1], num_sylls=second_line_sylls, set_of_templates=second_line_)
         line2 = o2[0][0]
         score2 = o2[0][1]
-        #state2 = o2[0][1][0][1]
-        o3 = self.gen_best_line(five_words[2],num_sylls=second_line_sylls - 3, set_of_templates=third_line_)
+        # state2 = o2[0][1][0][1]
+        o3 = self.gen_best_line(five_words[2], num_sylls=second_line_sylls - 3, set_of_templates=third_line_)
         line3 = o3[0][0]
         score3 = o3[0][0]
-        last=[]
+        last = []
         for line_4, line_5 in zip(fourth, fifth):
             o5 = self.gen_best_line(five_words[4], num_sylls=second_line_sylls, templates=[line_5], return_state=True)
             line5 = o5[0][0]
-            score5 = o5[0][1]#/ len(line5)
-            state5=o5[0][-1]
-            score_for4, state_for4=self.compute_next_state(state5, score5, line5)
-            o4 = self.gen_best_line(five_words[3], num_sylls=second_line_sylls-3, templates=[line_4], state=state_for4, score=score_for4)
+            score5 = o5[0][1]  # / len(line5)
+            state5 = o5[0][-1]
+            score_for4, state_for4 = self.compute_next_state(state5, score5, line5)
+            o4 = self.gen_best_line(five_words[3], num_sylls=second_line_sylls - 3, templates=[line_4], state=state_for4, score=score_for4)
             try:
                 last.append((o4[0], (line5, score5, line_5[2]), o4[1]))
             except:
                 continue
-        last.sort(key=lambda x: x[2], reverse = True)
-        if len(last)==0:
+        last.sort(key=lambda x: x[2], reverse=True)
+        if len(last) == 0:
             raise ValueError('no lines can be constructed')
-        line4=last[0][0][0]
-        score4=last[0][0][1]
-        line5=last[0][1][0]
-        score5=last[0][1][1]
-        #score_for4, state_for4=self.compute_next_state(state5, score5, line5)
-        #o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
-        #t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
+        line4 = last[0][0][0]
+        score4 = last[0][0][1]
+        line5 = last[0][1][0]
+        score5 = last[0][1][1]
+        # score_for4, state_for4=self.compute_next_state(state5, score5, line5)
+        # o1 = self.run_gen_model_back(line2, t1, second_line_sylls, state=state2, score=score2)
+        # t1, o1=self.gen_line(five_words[0], t_1,num_sylls=second_line_sylls, state=state_for1, score=score_for1)
 
+        # line1 = o1[0][1][1]
+        # score1 = o1[0][0].item() / len(line1)
 
-        #line1 = o1[0][1][1]
-        #score1 = o1[0][0].item() / len(line1)
-
-        #t4, o4=self.gen_line(five_words[3], t_4,num_sylls=second_line_sylls-3, state=state_for4, score=score_for4)
-        #o3 = self.run_gen_line(line4, t3, second_line_sylls - 3, state=state4, score=score4)
-        #line4 = o4[0][1][1]
-        #score4 = o4[0][0].item() / len(line4)
+        # t4, o4=self.gen_line(five_words[3], t_4,num_sylls=second_line_sylls-3, state=state_for4, score=score_for4)
+        # o3 = self.run_gen_line(line4, t3, second_line_sylls - 3, state=state4, score=score4)
+        # line4 = o4[0][1][1]
+        # score4 = o4[0][0].item() / len(line4)
 
         lines = []
         for i in range(2, 6):
@@ -1079,13 +1143,11 @@ class Limerick_Generate:
             this_line = (locals()['line' + num_as_str], locals()['score' + num_as_str], locals()['t' + num_as_str])
             lines.append(this_line)
         print("************")
-        string=''
+        string = ''
         for x in lines:
-            string+=' '.join(x[0])+'\n'
+            string += ' '.join(x[0]) + '\n'
         print(string)
         return lines
-
-
 
     def print_poem(self, seed_word, gen_func, *args):
         """
@@ -1131,7 +1193,7 @@ class Limerick_Generate:
         else:
             dataset = get_templates()[2]
             s = sum([len(dataset[key]) for key in dataset.keys()])
-            key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
+            key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key]) / s for key in dataset.keys()])
             template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
         new_line = []
@@ -1142,7 +1204,7 @@ class Limerick_Generate:
         rhyme_set = set(d['word'] for d in w_response)
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
-            logits = score_model(model_name=self.model_name, context_token = [new_line_tokens])
+            logits = score_model(model_name=self.model_name, context_token=[new_line_tokens])
             POS = template[i]
             probability = []
             words = []
@@ -1171,8 +1233,8 @@ class Limerick_Generate:
         return new_line
 
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
-        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=[], stress=[],
-        use_nltk=False):
+                     rhyme_word=None, rhyme_set=None, search_space=100, num_sylls=[], stress=[],
+                     use_nltk=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1210,10 +1272,8 @@ class Limerick_Generate:
         else:
             dataset = get_templates()[2]
             s = sum([len(dataset[key]) for key in dataset.keys()])
-            key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key])/s for key in dataset.keys()])
+            key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key]) / s for key in dataset.keys()])
             template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
-
-        new_line = []
 
         if not rhyme_set and rhyme_word:
             w_response = requests.get(self.api_url, params={'rel_rhy': rhyme_word}).json()
@@ -1231,7 +1291,7 @@ class Limerick_Generate:
 
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
-            logits = score_model(model_name=self.model_name, context_token = [s[1] for s in sentences])
+            logits = score_model(model_name=self.model_name, context_token=[s[1] for s in sentences])
             POS = template[i]
 
             new_sentences = []
@@ -1292,11 +1352,10 @@ class Limerick_Generate:
                             syllables += word_length
 
                         # Add candidate sentence to new array
-                        new_sentences.append(
-                            (sentences[j][0] + [word],
-                            sentences[j][1] + [index],
-                            sentences[j][2] + np.log(logits[j][index]),
-                            syllables))
+                        new_sentences.append((sentences[j][0] + [word],
+                                              sentences[j][1] + [index],
+                                              sentences[j][2] + np.log(logits[j][index]),
+                                              syllables))
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
@@ -1337,13 +1396,11 @@ class Limerick_Generate:
             key = np.random.choice(list(dataset.keys()), 1, p=[len(dataset[key]) / s for key in dataset.keys()])
             template = dataset[key[0]][random.randint(0, len(dataset[key[0]]))][0]
 
-        new_line = []
-
         if not rhyme_set and rhyme_word:
             w_response = requests.get(self.api_url, params={'rel_rhy': rhyme_word}).json()
             rhyme_set = set(d['word'] for d in w_response)
             # Include the word itself in the rhyme set
-            rhyme_set.add(rhyme)
+            rhyme_set.add(rhyme)  # ?????????? undefined <var> rhyme? ??????????
 
         # Tuple format: original word array, encode array, log probability of this sentence
         if w:
@@ -1433,8 +1490,8 @@ class Limerick_Generate:
         return sentences
 
     def gen_poem_gpt(self, rhyme1, rhyme2, default_templates,
-    story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
-    enforce_syllables = False, enforce_stress = False):
+                     story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
+                     enforce_syllables=False, enforce_stress=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1482,7 +1539,7 @@ class Limerick_Generate:
         # Used the old method to generate the first line
         out = generate_prompt(model_name=self.model_name, seed_word=rhyme1, length=prompt_length)
         prompt = self.enc.decode(out[0][0])
-        prompt = prompt[:prompt.rfind(".")+1]
+        prompt = prompt[:prompt.rfind(".") + 1]
         first_line = random.choice(self.gen_first_line_new(rhyme1))
         print(first_line)
         first_line_encodes = self.enc.encode(" ".join(first_line))
@@ -1501,28 +1558,28 @@ class Limerick_Generate:
         search_space_coef = [1, 1, 0.5, 0.25]
         for i in range(4):
             if enforce_syllables:
-                curr_sylls = [5,6] if (i == 2 or i == 3) else [8,9]
+                curr_sylls = [5, 6] if (i == 2 or i == 3) else [8, 9]
             else:
                 curr_sylls = []
 
             if enforce_stress:
-                stress = [1,4] if (i == 2 or i == 3) else [1,4,7]
+                stress = [1, 4] if (i == 2 or i == 3) else [1, 4, 7]
             else:
                 stress = []
 
             if not story_line:
                 rhyme_set = r1_set if (i == 0 or i == 3) else r2_set
                 new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
-                    default_template = default_templates[i], rhyme_set = rhyme_set,
-                    search_space = int(search_space * search_space_coef[i]),
-                    num_sylls = curr_sylls, stress=stress)
+                                                 default_template=default_templates[i], rhyme_set=rhyme_set,
+                                                 search_space=int(search_space * search_space_coef[i]),
+                                                 num_sylls=curr_sylls, stress=stress)
 
                 rhyme_set.discard(new_sentence[0][-1])
             else:
                 new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
-                default_template = default_templates[i], rhyme_set = [five_words[i+1]],
-                search_space = int(search_space * search_space_coef[i]),
-                num_sylls = curr_sylls, stress=stress)
+                                                 default_template=default_templates[i], rhyme_set=[five_words[i + 1]],
+                                                 search_space=int(search_space * search_space_coef[i]),
+                                                 num_sylls=curr_sylls, stress=stress)
             prompt += new_sentence[1]
 
     def gen_line_with_template(self, prompt, template, num):
@@ -1545,47 +1602,48 @@ class Limerick_Generate:
         """
         word_dict = collections.defaultdict(set)
 
-        pos_length={}
+        pos_length = {}
         for i in self.pos_to_words.keys():
-            pos_length[i]=len(self.pos_to_words[i])
+            pos_length[i] = len(self.pos_to_words[i])
 
-        words = re.sub("[^\w]", " ",  prompt).split()
+        words = re.sub("[^\w]", " ", prompt).split()
         for word in words:
             for POS in self.words_to_pos[word.lower()]:
                 word_dict[POS].add(word.lower())
         for POS in word_dict.keys():
             word_dict[POS] = list(word_dict[POS])
 
-        results = []; encodes = []
+        results = []
+        encodes = []
 
-        sentences = [['he', 'would', 'go','to', 'a', 'party'],['i','can','stare','at','the','sky']]
+        sentences = [['he', 'would', 'go', 'to', 'a', 'party'], ['i', 'can', 'stare', 'at', 'the', 'sky']]
         for i in sentences:
-            temp=[self.enc.encode(word)[0] for word in i]
+            temp = [self.enc.encode(word)[0] for word in i]
             encodes.append(temp)
 
         for i in range(num):
-            sentence=[]
+            sentence = []
             for POS in template:
-                if pos_length[POS]<=50:
-                    w=random.choice(self.pos_to_words[POS])
+                if pos_length[POS] <= 50:
+                    w = random.choice(self.pos_to_words[POS])
                 else:
-                    w=random.choice(word_dict[POS])
+                    w = random.choice(word_dict[POS])
                 sentence.append(w)
             sentences.append(sentence)
             encodes.append([self.enc.encode(word)[0] for word in sentence])
-        encodes=np.array(encodes)
+        encodes = np.array(encodes)
 
-        probs=np.zeros(len(sentences))
+        probs = np.zeros(len(sentences))
 
         for j in tqdm.trange(1, len(sentences[0])):
-            results = score_model(model_name=self.model_name, context_token = encodes[:,:j])
+            results = score_model(model_name=self.model_name, context_token=encodes[:, :j])
             for i in range(len(sentences)):
-                probs[i] +=  np.log(results[i][encodes[i][j]])
+                probs[i] += np.log(results[i][encodes[i][j]])
 
-        index=np.argsort(np.negative(probs))
+        index = np.argsort(np.negative(probs))
         for i in index:
-            print("{}:{}".format(probs[i],sentences[i]))
+            print("{}: {}".format(probs[i], sentences[i]))
 
-        #print(sentences)
-        #print(probs)
+        # print(sentences)
+        # print(probs)
         return
