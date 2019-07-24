@@ -1171,7 +1171,8 @@ class Limerick_Generate:
         return new_line
 
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
-        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=0):
+        rhyme_word=None, rhyme_set = None, search_space=100, num_sylls=[], stress=[],
+        use_nltk=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1188,7 +1189,15 @@ class Limerick_Generate:
             If a rhyme word is passed in, the sentence generated will rhyme with this word
         rhyme_set : set, optional
             If a rhyme set is passed in, the sentence generated will end with a word in this set
-
+        search_space : int, optional
+            Search space for the GPT2 model
+        num_sylls : array of ints, optional
+            Number of syllables in the word
+        stress : array of ints, optional
+            Positions of stress of the sentence, corresponding to '1' in cmudict translation
+        use_nltk: bool, optional
+            If set to true, for words that don't appear in POS dictionary, the script will generate
+            the POS in NLTK. It will be slower, but it allows for a larger set of words.
         Returns
         -------
         new_line : array
@@ -1210,25 +1219,15 @@ class Limerick_Generate:
             w_response = requests.get(self.api_url, params={'rel_rhy': rhyme_word}).json()
             rhyme_set = set(d['word'] for d in w_response)
             # Include the word itself in the rhyme set
-            rhyme_set.add(rhyme)
+            rhyme_set.add(rhyme_word)
 
-        # Tuple format: original word array, encode array, log probability of this sentence
+        # Tuple format: original word array, encode array, log probability of this sentence, number of syllables
         if w:
-            sentences = [(w.lower().split(), [], 0)]
+            sentences = [(w.lower().split(), [], 0, 0)]
             for e in w.lower().split():
                 sentences[0][1].append(self.enc.encode(e)[0])
         if encodes:
-            sentences = [([], encodes, 0)]
-
-        sylls = None
-        if num_sylls > 0:
-            if rhyme_word:
-                last_word_sylls = len(self.dict_meters[rhyme_word][0])
-            else:
-                # Set to 2 for test purposes
-                last_word_sylls = 2
-            sylls = self.valid_permutation_sylls(num_sylls, template, last_word_sylls)
-            print(sylls)
+            sentences = [([], encodes, 0, 0)]
 
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
@@ -1241,18 +1240,19 @@ class Limerick_Generate:
                 # There might be duplicate words such as "And" and " and" and we only need one
                 for index in range(len(logits[j])):
                     word = self.enc.decode([index]).lower().strip()
-                    if len(word.lower().strip()) == 0:
-                        fit_pos = False
-                    elif len(self.words_to_pos[word.lower().strip()]) == 0:
-                        word_pos = nltk.pos_tag([word.lower().strip()])
-                        if len(word_pos) == 0:
-                            print(word)
+                    if use_nltk:
+                        if len(word.lower().strip()) == 0:
                             fit_pos = False
+                        elif len(self.words_to_pos[word.lower().strip()]) == 0:
+                            word_pos = nltk.pos_tag([word.lower().strip()])
+                            if len(word_pos) == 0:
+                                fit_pos = False
+                            else:
+                                fit_pos = POS == word_pos[0][1]
                         else:
-                            fit_pos = POS == word_pos[0][1]
+                            fit_pos = POS in self.words_to_pos[word]
                     else:
                         fit_pos = POS in self.words_to_pos[word]
-
                     # Restrict the word to have the POS of the template
                     if fit_pos:
                         stripped_word = word.lower().strip()
@@ -1261,16 +1261,46 @@ class Limerick_Generate:
                         if i == len(template) - 1 and rhyme_set and (stripped_word not in rhyme_set):
                             continue
                         # Enforce meter if meter is provided
-                        if sylls and (stripped_word not in self.dict_meters or len(self.dict_meters[stripped_word][0]) != sylls[i]):
-                            continue
+                        syllables = sentences[j][3]
+                        if len(num_sylls) > 0 or len(stress) > 0:
+                            if stripped_word not in self.dict_meters:
+                                continue
+
+                            possible_syllables = self.dict_meters[stripped_word]
+                            word_length = len(possible_syllables[0])
+
+                            # Check if the entire line meets the syllables constraint
+                            if i == len(template) - 1 and syllables + word_length not in num_sylls:
+                                continue
+
+                            # Check if the new word meets the stress constraint
+                            if len(stress) > 0:
+                                stress_position = stress[0]
+
+                                correct_stress = True
+                                # There is a stress on current word
+                                if syllables <= stress_position and syllables + word_length > stress_position:
+                                    stress_syllable_pos = stress_position - syllables
+                                    # Remove the first stress, which is already checked.
+                                    stress = stress[1:]
+                                    if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
+                                        correct_stress = False
+                                if not correct_stress:
+                                    continue
+                            # Add current word's number of syllables to
+                            # the sentence's number of syllables
+                            syllables += word_length
+
                         # Add candidate sentence to new array
                         new_sentences.append(
                             (sentences[j][0] + [word],
                             sentences[j][1] + [index],
-                            sentences[j][2] + np.log(logits[j][index])))
+                            sentences[j][2] + np.log(logits[j][index]),
+                            syllables))
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
+        print(sentences[0][0])
         return sentences[0]
 
     def gen_line_gpt_cc(self, cctemplate, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
@@ -1402,9 +1432,9 @@ class Limerick_Generate:
         print(sentences[0][0])
         return sentences
 
-    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates, first_line_sylls,
+    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates,
     story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
-    num_sylls = 0):
+    enforce_syllables = False, enforce_stress = False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1418,8 +1448,6 @@ class Limerick_Generate:
         rhyme2 : str, optional
             The second word that the third and forth lines have to rhyme with.
             If storyline is set to False this word is necessary.
-        first_line_sylls: int
-            Number of the syllables that the first line needs to have.
         prompt_length: int
             The length of the prompt that is generated before generating the poem.
             This will influence memory used and should not be too big.
@@ -1455,7 +1483,6 @@ class Limerick_Generate:
         out = generate_prompt(model_name=self.model_name, seed_word=rhyme1, length=prompt_length)
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".")+1]
-
         first_line = random.choice(self.gen_first_line_new(rhyme1))
         print(first_line)
         first_line_encodes = self.enc.encode(" ".join(first_line))
@@ -1472,17 +1499,30 @@ class Limerick_Generate:
 
         # Search space is set to decay because the more sentences we run, the longer the prompt
         search_space_coef = [1, 1, 0.5, 0.25]
-
         for i in range(4):
-            curr_sylls = num_sylls - 3 if (i == 2 or i == 3) else num_sylls
+            if enforce_syllables:
+                curr_sylls = [5,6] if (i == 2 or i == 3) else [8,9]
+            else:
+                curr_sylls = []
+
+            if enforce_stress:
+                stress = [1,4] if (i == 2 or i == 3) else [1,4,7]
+            else:
+                stress = []
 
             if not story_line:
                 rhyme_set = r1_set if (i == 0 or i == 3) else r2_set
-                new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[i], rhyme_set = rhyme_set, search_space = int(search_space * search_space_coef[i]), num_sylls = curr_sylls)
+                new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
+                    default_template = default_templates[i], rhyme_set = rhyme_set,
+                    search_space = int(search_space * search_space_coef[i]),
+                    num_sylls = curr_sylls, stress=stress)
+
                 rhyme_set.discard(new_sentence[0][-1])
             else:
-                new_sentence = self.gen_line_gpt(w=None, encodes=prompt, default_template = default_templates[i], rhyme_set = [five_words[i+1]], search_space = int(search_space * search_space_coef[i]), num_sylls = curr_sylls)
-
+                new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
+                default_template = default_templates[i], rhyme_set = [five_words[i+1]],
+                search_space = int(search_space * search_space_coef[i]),
+                num_sylls = curr_sylls, stress=stress)
             prompt += new_sentence[1]
 
     def gen_line_with_template(self, prompt, template, num):
