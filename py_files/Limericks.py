@@ -55,10 +55,15 @@ class Limerick_Generate:
         self.word_pools = [set([]) for n in range(4)]
         self.enc = get_encoder(self.model_name)
         # get male and female names
-        with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
-            self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
-        with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
-            self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
+        # with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
+        #     self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
+        # with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
+        #     self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
+        # use filtered names instead
+        with open("py_files/saved_objects/filtered_names.txt", "r") as hf:
+            self.filtered_names = [line.split()[0].lower() for line in hf.readlines()]
+        with open("py_files/saved_objects/filtered_nouns_verbs.txt", "r") as hf:
+            self.filtered_nouns_verbs = [line.strip() for line in hf.readlines()]
 
     def create_syll_dict(self, fname):
         """
@@ -374,7 +379,7 @@ class Limerick_Generate:
         w5 = self.get_similar_word_henry([prompt, w2, w3, w4], seen_words=[w1], weights=[1, 4, 1, 3], n_return=1, word_set=rhyme_w1)[0]
         return [w1.capitalize(), w2, w3, w4, w5]
 
-    def get_rhyming_words_one_step_henry(self, word):
+    def get_rhyming_words_one_step_henry(self, word, max_syllables=3):
         """
         get the rhyming words of <arg> word returned from datamuse api
         <args>:
@@ -382,9 +387,10 @@ class Limerick_Generate:
         <return>:
         a set of words
         """
-        return set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': word}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors)
+        return set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': word}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors and
+                   d['numSyllables'] <= max_syllables)
 
-    def get_rhyming_words_henry(self, word, max_iter=10, max_words=1000):
+    def get_rhyming_words_henry(self, word, max_iter=10, max_words=1000, min_words=30):
         """
         get all rhyming words of <arg> word that could be found by datamuse api
         <args>:
@@ -399,11 +405,15 @@ class Limerick_Generate:
         rhyming_words = self.get_rhyming_words_one_step_henry(word)
         new_rhyming_words = rhyming_words.copy()
         count = 0
+        print("'%s' bfs iteration 0: %d new words." % (word, len(new_rhyming_words)))
         while count < max_iter and len(rhyming_words) <= max_words:
-            new_rhyming_words = {new_word for word in new_rhyming_words for new_word in self.get_rhyming_words_one_step_henry(word) if new_word not in (rhyming_words | new_rhyming_words)}
+            new_rhyming_words = {new_word for old_word in new_rhyming_words for new_word in self.get_rhyming_words_one_step_henry(old_word)
+                                 if new_word not in (rhyming_words | new_rhyming_words | {word})}
             if len(new_rhyming_words) == 0:
                 break
+            print("'%s' bfs iteration %d: %d new words." % (word, count + 1, len(new_rhyming_words)))
             rhyming_words |= new_rhyming_words
+            count += 1
         return rhyming_words
 
     def get_five_words_henry(self, prompt, rhyming_max_iter=4, rhyming_max_words=100):
@@ -427,7 +437,7 @@ class Limerick_Generate:
         w1_count = 0
         while w1_count < 20:
             w1 = random.choice(names)
-            rhyme_w1 = self.get_rhyming_words_henry(w1, max_iter=4, max_words=100)
+            rhyme_w1 = self.get_rhyming_words_henry(w1, max_iter=rhyming_max_iter, max_words=rhyming_max_words)
             if len(rhyme_w1) == 0:
                 print("Unable to find rhyming words of word 1 '%s'" % w1)
                 continue
@@ -443,7 +453,7 @@ class Limerick_Generate:
         w3s.extend(self.get_similar_word_henry([prompt], seen_words=w3s, n_return=10, word_set=(nouns | verbs)))
         w3s_rhyme_dict = {}
         for w3_count, w3 in enumerate(w3s):
-            rhyme_w3 = self.get_rhyming_words_henry(w3, max_iter=4, max_words=100)
+            rhyme_w3 = self.get_rhyming_words_henry(w3, max_iter=rhyming_max_iter, max_words=rhyming_max_words)
             if len(rhyme_w3) == 0:
                 print("Unable to find rhyming words of word 3 '%s'" % w3)
                 continue
@@ -458,6 +468,28 @@ class Limerick_Generate:
                 except IndexError:
                     print("'%s' and '%s' are unable to generate storyline" % (w1, w3))
         return storylines
+
+    def get_two_sets_henry(self, prompt, n_w125=20, n_w34=20):
+        """
+        <args>:
+        prompt: prompt word
+        n_w125: number of w1s in output
+        n_w34: number of w3s in output
+        <desc>:
+        return a list of two dictionaries,
+        dict1 has <arg> n_w125 keys as w1, and each value is a list of at least 30 words rhyming with w1, i.e. choices for w2, w5
+        dict2 has <arg> n_w34 keys as w3, and each value is a list of at least 20 words rhyming with w3, i.e. choices for w4
+        <return>:
+        [ w1s_rhyme_dict: {w1: [w2/w5s]}, [w2/w5s] containing at least 30 words ,
+        w3s_rhyme_dict: {w3: [w4s]}, [w4s] containing at least 20 words ]
+        """
+        w1s = random.sample(self.filtered_names, n_w125)
+        w1s_rhyme_dict = {w1: list(self.get_rhyming_words_one_step_henry(w1)) for w1 in w1s}
+
+        w3s = self.get_similar_word_henry([prompt], seen_words=w1s, n_return=n_w34, word_set=set(self.filtered_nouns_verbs))
+        w3s_rhyme_dict = {w3: list(self.get_rhyming_words_one_step_henry(w3)) for w3 in w3s}
+
+        return w1s_rhyme_dict, w3s_rhyme_dict
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
