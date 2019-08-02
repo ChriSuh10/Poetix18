@@ -32,13 +32,13 @@ class Limerick_Generate:
                  syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
                  postag_file='py_files/saved_objects/postag_dict_all.p',
                  model_dir='py_files/models/all_combined_back',
-                 model_name='117M'):
+                 model_name='117M', load_poetic_vectors=True):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
         self.model_name = model_name
-        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False)
+        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False) if load_poetic_vectors else None
 
         self.create_syll_dict(syllables_file)
 
@@ -1359,7 +1359,7 @@ class Limerick_Generate:
                                 continue
 
                             possible_syllables = self.dict_meters[stripped_word]
-                            word_length = len(possible_syllables[0])
+                            word_length = min(len(s) for s in possible_syllables)
 
                             # Check if the entire line meets the syllables constraint
                             if i == len(template) - 1 and syllables + word_length not in num_sylls:
@@ -1367,16 +1367,14 @@ class Limerick_Generate:
 
                             # Check if the new word meets the stress constraint
                             if len(stress) > 0:
-                                stress_position = stress[0]
-
                                 correct_stress = True
                                 # There is a stress on current word
-                                if syllables <= stress_position and syllables + word_length > stress_position:
-                                    stress_syllable_pos = stress_position - syllables
-                                    # Remove the first stress, which is already checked.
-                                    stress = stress[1:]
-                                    if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
-                                        correct_stress = False
+                                for stress_position in stress:
+                                    if syllables <= stress_position and syllables + word_length > stress_position:
+                                        stress_syllable_pos = stress_position - syllables
+                                        if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
+                                            correct_stress = False
+                                        break
                                 if not correct_stress:
                                     continue
                             # Add current word's number of syllables to
