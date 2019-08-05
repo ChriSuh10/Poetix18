@@ -1521,7 +1521,7 @@ class Limerick_Generate:
 
     def gen_poem_gpt(self, rhyme1, rhyme2, default_templates=None,
                      story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
-                     enforce_syllables=False, enforce_stress=False):
+                     enforce_syllables=False, enforce_stress=False, search_space_coef=[1, 1, 0.5, 0.25]):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1547,6 +1547,10 @@ class Limerick_Generate:
             Search space of the sentence finding algorithm.
             The larger the search space, the more sentences the network runs
             in parallel to find the best one with the highest score.
+        search_space_coef: float, optional
+            Decay rate of search space.The more sentences we run, the longer the prompt is.
+            Setting the decay rate to be less than 1 limits the search space of the last
+            couple sentences.
 
         Returns
         -------
@@ -1589,8 +1593,7 @@ class Limerick_Generate:
             return
 
         generated_poem = [first_line]
-        # Search space is set to decay because the more sentences we run, the longer the prompt
-        search_space_coef = [1, 1, 0.5, 0.25]
+
         for i in range(4):
             if enforce_syllables:
                 curr_sylls = [5, 6] if (i == 2 or i == 3) else [8, 9]
