@@ -1,8 +1,7 @@
 from py_files.Limericks import Limerick_Generate
 import argparse
 parser = argparse.ArgumentParser(description='This file is used to test limerick production.')
-parser.add_argument("seed", help="seed word used to start poem generation",
-                    type=string)
+parser.add_argument("seed", help="seed word used to start poem generation")
 parser.add_argument("search_space", help="search space for the GPT2 model method",
                     type=int)
 
