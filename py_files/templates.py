@@ -645,3 +645,17 @@ def get_first_line_templates():
         'IN': ['from', 'of', 'in']
     }
     return lines, placeholders, placeholder_dict
+
+def get_good_templates():
+    return [
+            [['WHO', 'VBD', 'NNS', 'IN', 'DT', 'NN'],
+             ['PRP', 'VBD', 'DT', 'NN'],
+             ['IN', 'DT', 'JJ', 'NN'],
+             ['CC', 'VBD', 'IN', 'DT', 'JJ', 'NN']
+            ],
+            [['WP$', 'NN', 'VBD', 'JJR', 'THAN', 'NN'],
+             ['PDT', 'DT', 'NNS', 'VBD', 'IN'],
+             ['CC', 'DT', 'NN', 'MD', 'VB', 'VBN'],
+             ['SO', 'PRP', 'RB', 'VBD', 'RB', 'TO', 'NN']
+            ],
+           ]

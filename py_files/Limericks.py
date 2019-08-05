@@ -24,7 +24,7 @@ from .templates import get_templates
 from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
-from .templates import get_first_nnp, get_first_line_templates
+from .templates import get_first_nnp, get_first_line_templates, get_good_templates
 
 
 class Limerick_Generate:
@@ -1519,7 +1519,7 @@ class Limerick_Generate:
         print(sentences[0][0])
         return sentences
 
-    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates,
+    def gen_poem_gpt(self, rhyme1, rhyme2, default_templates=None,
                      story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
                      enforce_syllables=False, enforce_stress=False):
         """
@@ -1550,8 +1550,12 @@ class Limerick_Generate:
 
         Returns
         -------
-        None
+        A string array containing the generated poem
         """
+
+        if not default_templates:
+            default_templates = random.choice(get_good_templates())
+
         if story_line:
             # five_words = self.get_five_words(rhyme1)
             five_words = ('joan', 'loan', 'glue', 'tissue', 'bone')
@@ -1584,6 +1588,7 @@ class Limerick_Generate:
                 pickle.dump(prompt, f)
             return
 
+        generated_poem = [first_line]
         # Search space is set to decay because the more sentences we run, the longer the prompt
         search_space_coef = [1, 1, 0.5, 0.25]
         for i in range(4):
@@ -1611,6 +1616,9 @@ class Limerick_Generate:
                                                  search_space=int(search_space * search_space_coef[i]),
                                                  num_sylls=curr_sylls, stress=stress)
             prompt += new_sentence[1]
+            generated_poem.append(new_sentence[0])
+        return generated_poem
+
 
     def gen_line_with_template(self, prompt, template, num):
         """
