@@ -11,3 +11,5 @@ poem = lg.gen_poem_gpt(args.seed, args.seed,
        prompt_length=100, search_space=args.search_space, story_line=True,
        enforce_syllables = True, enforce_stress = True,
        search_space_coef=[1,1,0.9,0.9])
+for line in poem:
+    print(' '.join(line))
