@@ -638,9 +638,9 @@ def get_first_line_templates():
         'PERSON': {
             'MALE' : ['fellow', 'man', 'boy', 'gentleman'],
             'FEMALE': ['lady', 'woman', 'girl'],
-            'NEUTRAL': ['person']
+            'NEUTRAL': []
         },
-        'JJ': ['young', 'old', 'humble', 'dear', 'clever', 'polite', 'likeable',
+        'JJ': ['young', 'humble', 'dear', 'clever', 'polite', 'likeable',
         'sincere', 'kind', 'bright', 'witty'],
         'IN': ['from', 'of', 'in']
     }
@@ -651,7 +651,7 @@ def get_good_templates():
             [['WHO', 'VBD', 'NNS', 'IN', 'DT', 'NN'],
              ['PRP', 'VBD', 'DT', 'NN'],
              ['IN', 'DT', 'JJ', 'NN'],
-             ['CC', 'VBD', 'IN', 'DT', 'JJ', 'NN']
+             ['CC', 'VBD', 'DT', 'JJ', 'NN']
             ],
             [['WP$', 'NN', 'VBD', 'JJR', 'THAN', 'NN'],
              ['PDT', 'DT', 'NNS', 'VBD', 'IN'],
