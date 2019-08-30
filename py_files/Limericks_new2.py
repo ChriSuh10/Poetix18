@@ -142,15 +142,18 @@ class Limerick_Generate_new(Limerick_Generate):
 				sylls_up=0
 				sylls_lo=0
 				for t in i[:-1]:
-					try:
-						x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
-					except:
-						pdb.set_trace()
+					x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
 					sylls_up+=max(x)
 					sylls_lo+=min(x)
 				if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
 					possible.append(i)
 		return possible
+	def unique_list(self,x):
+		output=[]
+		for i in x:
+			if i not in output:
+				output.append(i)
+		return output
 
 	def get_all_templates(self,num_sylls,which_line, last_word_set):
 		last_word_info_set=set()
@@ -161,8 +164,8 @@ class Limerick_Generate_new(Limerick_Generate):
 					last_word_info_set.add((j,len(self.dict_meters[i][0])))
 		for i in last_word_info_set:
 			temp+=self.there_is_template_new(i, num_sylls, which_line)
-		temp=set(temp)
-		return list(temp)
+		temp=self.unique_list(temp)
+		return temp
 	def template_sylls_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls):
 		continue_flag=False
 		for t in possible:
