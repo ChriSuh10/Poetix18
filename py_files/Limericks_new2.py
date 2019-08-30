@@ -137,15 +137,16 @@ class Limerick_Generate_new(Limerick_Generate):
 		sylls=last_word_info[1]
 		dataset=self.templates[which_line]
 		possible=[]
-		for i in dataset[pos]:
-			sylls_up=0
-			sylls_lo=0
-			for t in i:
-				x=[j[0] for j in self.pos_sylls_mode[t][:-1] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
-				sylls_up+=max(x)
-				sylls_lo+=min(x)
-			if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
-				possible.append(i)
+		if pos in dataset.keys():
+			for i in dataset[pos]:
+				sylls_up=0
+				sylls_lo=0
+				for t in i:
+					x=[j[0] for j in self.pos_sylls_mode[t][:-1] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
+					sylls_up+=max(x)
+					sylls_lo+=min(x)
+				if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
+					possible.append(i)
 		return possible
 
 	def get_all_templates(self,num_sylls,which_line, last_word_set):
