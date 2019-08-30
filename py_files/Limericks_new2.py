@@ -142,7 +142,10 @@ class Limerick_Generate_new(Limerick_Generate):
 				sylls_up=0
 				sylls_lo=0
 				for t in i[:-1]:
-					x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
+					try:
+						x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
+					except:
+						pdb.set_trace()
 					sylls_up+=max(x)
 					sylls_lo+=min(x)
 				if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
