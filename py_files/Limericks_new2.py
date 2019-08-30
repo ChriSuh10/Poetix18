@@ -84,6 +84,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write(i+"\n")
 				f.write(";".join(w3s_rhyme_dict[i])+"\n")
 			for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 				previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=100, thresh_hold=10, which_line=which_line)
@@ -203,7 +204,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_sylls_curr=0
 			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4]])
 		finished_sentences=[]
+		iteration=0
 		while(len(new_sentences)>0):
+			iteration+=1
 			context_token=[s[0] for s in sentences]
 			m=len(context_token)
 			context_token=np.array(context_token).reshape(m,-1)
@@ -262,8 +265,10 @@ class Limerick_Generate_new(Limerick_Generate):
 													sentences[i][2]+" "+word,
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													sentences[i][6]])
+			print("========================= iteration {} ends ============================= \n".format(iteration))
 			sentences=self.diversity_sort(search_space,new_sentences)
-		assert len(sentences)=0; "something wrong"
+			print("{} sentences before diversity_sort, {} sentences afterwards, with {} different templates".format(len()))
+		assert len(sentences)==0, "something wrong"
 		previous_data_temp=self.diversity_sort(search_space,finished_sentences)
 		previous_data=[[i[0],i[1],i[2]+"\n",i[3]+i[4],i[6]] for i in previous_data_temp]
 		return previous_data
