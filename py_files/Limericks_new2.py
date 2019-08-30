@@ -213,7 +213,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4]])
 		finished_sentences=[]
 		iteration=0
-		new_sentences=[]
+		new_sentences=[1]
 		while(len(new_sentences)>0):
 			iteration+=1
 			context_token=[s[0] for s in sentences]
