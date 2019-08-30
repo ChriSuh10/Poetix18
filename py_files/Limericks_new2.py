@@ -138,7 +138,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		dataset=self.templates[which_line]
 		possible=[]
 		if pos in dataset.keys():
-			for i in dataset[pos]:
+			for i,_,_ in dataset[pos]:
 				sylls_up=0
 				sylls_lo=0
 				for t in i[:-1]:
