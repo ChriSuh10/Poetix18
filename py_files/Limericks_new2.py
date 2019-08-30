@@ -107,7 +107,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		encodes=[i[0][-min(encodes_length):] for i in previous_data]
 		temp=[]
 		for i,j in enumerate(previous_data):
-			temp.append((encodes[i],j[1],j[2]))
+			temp.append((encodes[i],j[1],j[2],j[3],j[4]))
 		return temp
 	def last_word_dict(self, w1s_rhyme_dict,w3s_rhyme_dict):
 		last_word_dict={}
