@@ -227,7 +227,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			new_sentences=[]
 			for i,j in enumerate(logits):
 				sorted_index=np.argsort(-1*j)
-				break_point=0
+				break_point_continue=0
+				break_point_end=0
 				for index in sorted_index:
 					word = self.enc.decode([index]).lower().strip()
 					if len(word) == 0:
@@ -244,6 +245,9 @@ class Limerick_Generate_new(Limerick_Generate):
 						# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
+						if break_point_continue>=thresh_hold: continue_flag=False
+						if break_point_end>=thresh_hold: end_flag=False
+						if break_point_end>=thresh_hold and break_point_continue>=thresh_hold: break
 						if continue_flag:
 							new_sentences.append([sentences[i][0] + [index],
 												sentences[i][1] + np.log(j[index]),
@@ -252,9 +256,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][4]+[continue_flag[0]],
 												sentences[i][5]+continue_flag[1],
 												sentences[i][6]])
-							break_point+=1
-							if break_point>=thresh_hold:
-								break
+							break_point_continue+=1
 						if end_flag:
 							for end_sub_flag in end_flag:
 								if which_line=="second" or which_line=="fifth":
@@ -264,6 +266,7 @@ class Limerick_Generate_new(Limerick_Generate):
 													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													sentences[i][6]])
+										break_point_end+=1
 								if which_line=="third":
 									if word in self.w3s_rhyme_dict.keys():
 										finished_sentences.append([sentences[i][0] + [index],
@@ -271,6 +274,7 @@ class Limerick_Generate_new(Limerick_Generate):
 													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													(sentences[i][6][0],word)])
+										break_point_end+=1
 								if which_line=="fourth":
 									if word in self.w3s_rhyme_dict[sentences[6][1]]:
 										finished_sentences.append([sentences[i][0] + [index],
@@ -278,12 +282,12 @@ class Limerick_Generate_new(Limerick_Generate):
 													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													sentences[i][6]])
+										break_point_end+=1
 			print("========================= iteration {} ends ============================= \n".format(iteration))
 			sentences=self.diversity_sort(search_space,new_sentences)
 			print("{} sentences before diversity_sort, {} sentences afterwards".format(len(new_sentences),len(sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp=self.diversity_sort(search_space,finished_sentences)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]) for i in previous_data_temp]
-		pdb.set_trace()
 		return previous_data
 
