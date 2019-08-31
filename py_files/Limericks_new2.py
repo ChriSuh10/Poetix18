@@ -74,17 +74,19 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open("limericks_data_new/"+prompt+"_"+str(search_space)+"_"+str(thresh_hold)+".txt","a+") as f:
 			previous_data=[]
 			for i in w1s_rhyme_dict.keys():
-				f.write(i+"\n")
-				f.write(";".join(w1s_rhyme_dict[i])+"\n")
+				f.write("================================ 125 rhymes ===================================")
+				f.write(i+":","\n")
+				f.write(" ".join(w1s_rhyme_dict[i])+"\n")
 				text=random.choice(self.gen_first_line_new(i.lower(),strict=True))
 				first_line_encodes = self.enc.encode(" ".join(text))
 				# previous data [(encodes,score, text, template, (w1,w3))]
 				previous_data.append((first_line_encodes,0,text+["\n"], ["first_line"],(i,"")))
 			for i in w3s_rhyme_dict.keys():
-				f.write(i+"\n")
-				f.write(";".join(w3s_rhyme_dict[i])+"\n")
-			#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-			for which_line, num_sylls in zip(["fifth"],[9]):
+				f.write("=============================== 34 rhymes  =====================================")
+				f.write(i+":"+"\n")
+				f.write(" ".join(w3s_rhyme_dict[i])+"\n")
+			for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+			#for which_line, num_sylls in zip(["fifth"],[9]):
 				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
