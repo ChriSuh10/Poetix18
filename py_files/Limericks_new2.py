@@ -202,7 +202,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			temp_data[key].append(n)
 		data=[]
 		for k in temp_data.keys():
-			temp=heapq.nlargest(min(len(temp_data[key]), math.ceil(search_space/len(temp_data.keys()))), temp_data[key], key=lambda x: x[1]/(len(x[3])+len(x[4])))
+			temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])))
 			data+=temp
 		return data, len(temp_data.keys())
 
