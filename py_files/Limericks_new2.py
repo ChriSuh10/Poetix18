@@ -211,7 +211,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			temp_data[key].append(n)
 		data=[]
 		break_point=0
-		for k in random.shuffle(list(temp_data.keys())):
+		list_of_keys=list(temp_data.keys())
+		random.shuffle(list_of_keys)
+		for k in random.shuffle(list_of_keys):
 			if not finished:
 				temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])))
 			else:
