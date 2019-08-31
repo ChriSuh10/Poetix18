@@ -184,6 +184,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return continue_flag
 	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls):
 		end_flag=[]
+		pdb.set_trace()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
 					for pos in pos_set:
@@ -258,7 +259,6 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6]])
 							break_point_continue+=1
 						if end_flag:
-							print("============= Goes Here ================================")
 							for end_sub_flag in end_flag:
 								if which_line=="second" or which_line=="fifth":
 									if word in self.w1s_rhyme_dict[sentences[6][0]]:
