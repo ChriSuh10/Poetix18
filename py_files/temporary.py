@@ -109,13 +109,29 @@ if __name__ == '__main__':
 	print("." in dict_meters.keys())
 	
 	'''
+	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-		wu=data["fifth"]
-		for i in wu.keys():
-			for j in wu[i]:
-				if ' ' in j:
-					print(j)
-					print("\n")
+	wu=data["fifth"]
+	fifth=defaultdict(list)
+	for i in wu.keys():
+		for j in wu[i]:
+			if "''" in j[0]:
+				j[0].remove("''")
+				fifth[i].append([j[0],j[1],j[2]])
+			else:
+				fifth[i].append(j)
+	mydict={"second": data["second"],"third":data["third"],"fourth":data["fourth"],"fifth":fifth}
+	with open("saved_objects/templates_new3.pickle","wb") as pickle_in:
+		pickle.dump(mydict,pickle_in)
+	print("finished")
+	'''
+	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+	wu=data["fifth"]
+	for i in wu.keys():
+		for j in wu[i]:
+			print(j)
 
-	
+
+
