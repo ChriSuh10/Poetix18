@@ -248,18 +248,16 @@ class Limerick_Generate_new(Limerick_Generate):
 						if iteration==8: debug=True
 						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=debug)
-						if break_point_continue>=thresh_hold: continue_flag=False
-						if break_point_end>=thresh_hold: end_flag=False
-						if break_point_end>=thresh_hold and break_point_continue>=thresh_hold: break
 						if continue_flag:
-							new_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + np.log(j[index]),
-												sentences[i][2]+[word],
-												sentences[i][3],
-												sentences[i][4]+[continue_flag[0]],
-												sentences[i][5]+continue_flag[1],
-												sentences[i][6]])
-							break_point_continue+=1
+							for continue_sub_flag in continue_flag:
+								new_sentences.append([sentences[i][0] + [index],
+													sentences[i][1] + np.log(j[index]),
+													sentences[i][2]+[word],
+													sentences[i][3],
+													sentences[i][4]+[continue_sub_flag[0]],
+													sentences[i][5]+continue_sub_flag[1],
+													sentences[i][6]])
+								break_point_continue+=1
 						if end_flag:
 							for end_sub_flag in end_flag:
 								if which_line=="second" or which_line=="fifth":
