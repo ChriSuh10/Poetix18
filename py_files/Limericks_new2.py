@@ -297,6 +297,6 @@ class Limerick_Generate_new(Limerick_Generate):
 				print("\n")
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
-		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]) for i in previous_data_temp]
+		previous_data=[(i[0],i[1],i[2]+["\n"],i[3],i[4]) for i in previous_data_temp]
 		return previous_data
 
