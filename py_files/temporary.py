@@ -3,6 +3,8 @@
 import pickle
 from collections import defaultdict, Counter
 import numpy as np
+import pdb
+'''
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -30,15 +32,38 @@ def create_syll_dict(syllables_file):
         dict_meters[','] = ['']
         dict_meters['.'] = ['']
         return dict_meters
-
+'''
 if __name__ == '__main__':
+	'''
+	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
+		pos_sylls_mode=pickle.load(pickle_in)
+		pos_sylls_mode["WHILE"]=[(1, 1.0)]
+	with open('saved_objects/pos_sylls_mode.p',"wb") as pickle_in:
+		pickle.dump(pos_sylls_mode,pickle_in)
+	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
+		pos_sylls_mode=pickle.load(pickle_in)
+	print("WHILE" in pos_sylls_mode.keys())
+	print(pos_sylls_mode)
+	'''
+	with open('saved_objects/postag_dict_all.p',"rb") as pickle_in:
+		postag_dict=pickle.load(pickle_in)
+		pos_to_words=postag_dict[1]
+		pos_to_words["WHILE"]=['while']
+		postag_dict[1]=pos_to_words
+	with open('saved_objects/postag_dict_all.p',"wb") as pickle_in:
+		pickle.dump(postag_dict,pickle_in)
+	with open('saved_objects/postag_dict_all.p',"rb") as pickle_in:
+		postag_dict=pickle.load(pickle_in)
+		pos_to_words=postag_dict[1]
+	print("WHILE" in pos_to_words.keys())
+	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
 	with open(postag_file, 'rb') as f:
 			postag_dict = pickle.load(f)
 			pos_to_words = postag_dict[1]
 	dict_meters=create_syll_dict(syllables_file)
-	'''
+	
 	pos_sylls_mean=defaultdict(float)
 	pos_sylls_mode=defaultdict(list)
 	pos_sylls_all=defaultdict(int)
@@ -75,8 +100,11 @@ if __name__ == '__main__':
 	print(pos_sylls_mode)
 	print("======================================")
 	print(pos_sylls_mode_new)
-	'''
+	
 	print("," in pos_to_words.keys())
 	print("." in pos_to_words.keys())
 	print("," in dict_meters.keys())
 	print("." in dict_meters.keys())
+	
+	'''
+	
