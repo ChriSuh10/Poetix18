@@ -204,12 +204,15 @@ class Limerick_Generate_new(Limerick_Generate):
 				key=";".join(n[3])
 			temp_data[key].append(n)
 		data=[]
+		break_point=0
 		for k in temp_data.keys():
 			if not finished:
 				temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])))
 			else:
 				temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/len(x[3]))
 			data+=temp
+			break_point+=1
+			if break_point>=20: break
 		return data, len(temp_data.keys())
 
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
@@ -292,9 +295,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("========================= iteration {} ends ============================= \n".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, now {} finished_sentences".format(len(new_sentences),len(sentences), diversity, len(finished_sentences)))
+			'''
 			for sen in sentences:
 				print(sen)
 				print("\n")
+			'''
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3],i[4]) for i in previous_data_temp]
