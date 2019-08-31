@@ -96,7 +96,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write(k+"\n")
 				for j in temp_data[k]:
 					f.write("-------------------------  score:  {}    ----------------------- \n".format(j[1]/len(j[3])))
-					f.write(j[2])
+					f.write(" ".join(j[2]))
 				f.write("=====================================================  \n")
 
 
@@ -243,7 +243,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						if continue_flag:
 							new_sentences.append([sentences[i][0] + [index],
 												sentences[i][1] + np.log(j[index]),
-												sentences[i][2]+" "+word,
+												sentences[i][2]+[word],
 												sentences[i][3],
 												sentences[i][4]+[continue_flag[0]],
 												sentences[i][5]+continue_flag[1],
@@ -257,21 +257,21 @@ class Limerick_Generate_new(Limerick_Generate):
 									if word in self.w1s_rhyme_dict[sentences[6][0]]:
 										finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+" "+word,
+													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													sentences[i][6]])
 								if which_line=="third":
 									if word in self.w3s_rhyme_dict.keys():
 										finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+" "+word,
+													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													(sentences[i][6][0],word)])
 								if which_line=="fourth":
 									if word in self.w3s_rhyme_dict[sentences[6][1]]:
 										finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+" "+word,
+													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													sentences[i][6]])
 			print("========================= iteration {} ends ============================= \n".format(iteration))
@@ -279,6 +279,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("{} sentences before diversity_sort, {} sentences afterwards, with {} different templates".format(len()))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp=self.diversity_sort(search_space,finished_sentences)
-		previous_data=[[i[0],i[1],i[2]+"\n",i[3]+i[4],i[6]] for i in previous_data_temp]
+		previous_data=[[i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]] for i in previous_data_temp]
 		return previous_data
 
