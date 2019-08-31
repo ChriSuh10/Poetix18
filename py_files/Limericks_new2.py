@@ -61,7 +61,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
-	def gen_poem_andre_new(self,prompt,search_space=100,thresh_hold=10):
+	def gen_poem_andre_new(self,prompt,search_space,thresh_hold):
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
@@ -87,7 +87,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
-				previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=100, thresh_hold=10, which_line=which_line)
+				previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space, thresh_hold=thresh_hold, which_line=which_line)
 			temp_data=defaultdict(list)
 			for i in previous_data:
 				temp_data[" ".join(i[3])].append(i)
@@ -122,11 +122,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			last_word_dict[i]=list(set(temp))
 		return last_word_dict
 	def sylls_bounds(self,partial_template):
-		thresh_hold=0.1
+		threshold=0.1
 		sylls_up=0
 		sylls_lo=0
 		for t in partial_template[:-1]:
-			x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
+			x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(threshold,self.pos_sylls_mode[t][0][1])]
 			if len(x)==0:
 				sylls_up+=0
 				sylls_lo+=0
@@ -136,7 +136,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return sylls_up, sylls_lo
 	def there_is_template_new(self,last_word_info,num_sylls, which_line):
 		# return a list of possible templates
-		thresh_hold=0.1
+		threshold=0.1
 		pos=last_word_info[0]
 		sylls=last_word_info[1]
 		dataset=self.templates[which_line]
@@ -146,7 +146,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				sylls_up=0
 				sylls_lo=0
 				for t in i[:-1]:
-					x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(thresh_hold,self.pos_sylls_mode[t][0][1])]
+					x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(threshold,self.pos_sylls_mode[t][0][1])]
 					sylls_up+=max(x)
 					sylls_lo+=min(x)
 				if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
@@ -283,6 +283,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("{} sentences before diversity_sort, {} sentences afterwards".format(len(new_sentences),len(sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp=self.diversity_sort(search_space,finished_sentences)
-		previous_data=[[i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]] for i in previous_data_temp]
+		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]) for i in previous_data_temp]
+		pdb.set_trace()
 		return previous_data
 
