@@ -258,6 +258,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6]])
 							break_point_continue+=1
 						if end_flag:
+							print("============= Goes Here ================================")
 							for end_sub_flag in end_flag:
 								if which_line=="second" or which_line=="fifth":
 									if word in self.w1s_rhyme_dict[sentences[6][0]]:
