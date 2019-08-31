@@ -280,7 +280,7 @@ class Limerick_Generate_new(Limerick_Generate):
 													sentences[i][6]])
 			print("========================= iteration {} ends ============================= \n".format(iteration))
 			sentences=self.diversity_sort(search_space,new_sentences)
-			print("{} sentences before diversity_sort, {} sentences afterwards, with {} different templates".format(len()))
+			print("{} sentences before diversity_sort, {} sentences afterwards".format(len(new_sentences),len(sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp=self.diversity_sort(search_space,finished_sentences)
 		previous_data=[[i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]] for i in previous_data_temp]
