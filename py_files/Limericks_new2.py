@@ -171,7 +171,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		temp=self.unique_list(temp)
 		return temp
 	def template_sylls_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls):
-		continue_flag=False
+		continue_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
@@ -180,6 +180,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							sylls_up, sylls_lo=self.sylls_bounds(t[len(template_curr)+1:])
 							if num_sylls-num_sylls_curr-sylls>=sylls_lo and num_sylls-num_sylls_curr-sylls<=sylls_up:
 								continue_flag.append((pos,sylls))
+		if len(continue_flag)==0: continue_flag=False
 		return continue_flag
 	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug=False):
 		end_flag=[]
