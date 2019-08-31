@@ -245,7 +245,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 						# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 						debug=False
-						if iteratiton==8: debug=True
+						if iteration==8: debug=True
 						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=debug)
 						if break_point_continue>=thresh_hold: continue_flag=False
