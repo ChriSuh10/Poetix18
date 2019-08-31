@@ -83,7 +83,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			for i in w3s_rhyme_dict.keys():
 				f.write(i+"\n")
 				f.write(";".join(w3s_rhyme_dict[i])+"\n")
-			for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+			#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+			for which_line, num_sylls in zip(["fifth"],[9]):
 				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
@@ -146,6 +147,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				sylls_up=0
 				sylls_lo=0
 				for t in i[:-1]:
+					if t==' ': print(i)
 					x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(threshold,self.pos_sylls_mode[t][0][1])]
 					sylls_up+=max(x)
 					sylls_lo+=min(x)

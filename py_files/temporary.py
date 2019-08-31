@@ -45,6 +45,7 @@ if __name__ == '__main__':
 	print("WHILE" in pos_sylls_mode.keys())
 	print(pos_sylls_mode)
 	'''
+	'''
 	with open('saved_objects/postag_dict_all.p',"rb") as pickle_in:
 		postag_dict=pickle.load(pickle_in)
 		pos_to_words=postag_dict[1]
@@ -56,6 +57,7 @@ if __name__ == '__main__':
 		postag_dict=pickle.load(pickle_in)
 		pos_to_words=postag_dict[1]
 	print("WHILE" in pos_to_words.keys())
+	'''
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
@@ -107,4 +109,13 @@ if __name__ == '__main__':
 	print("." in dict_meters.keys())
 	
 	'''
+	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+		wu=data["fifth"]
+		for i in wu.keys():
+			for j in wu[i]:
+				if ' ' in j:
+					print(j)
+					print("\n")
+
 	
