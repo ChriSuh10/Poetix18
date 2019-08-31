@@ -261,7 +261,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						if end_flag:
 							for end_sub_flag in end_flag:
 								if which_line=="second" or which_line=="fifth":
-									if word in self.w1s_rhyme_dict[sentences[6][0]]:
+									if word in self.w1s_rhyme_dict[sentences[i][6][0]]:
 										finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
 													sentences[i][2]+[word],
@@ -277,7 +277,7 @@ class Limerick_Generate_new(Limerick_Generate):
 													(sentences[i][6][0],word)])
 										break_point_end+=1
 								if which_line=="fourth":
-									if word in self.w3s_rhyme_dict[sentences[6][1]]:
+									if word in self.w3s_rhyme_dict[sentences[i][6][1]]:
 										finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
 													sentences[i][2]+[word],
