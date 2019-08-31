@@ -75,7 +75,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			previous_data=[]
 			for i in w1s_rhyme_dict.keys():
 				f.write("================================ 125 rhymes ===================================")
-				f.write(i+":","\n")
+				f.write(i+":"+"\n")
 				f.write(" ".join(w1s_rhyme_dict[i])+"\n")
 				text=random.choice(self.gen_first_line_new(i.lower(),strict=True))
 				first_line_encodes = self.enc.encode(" ".join(text))
