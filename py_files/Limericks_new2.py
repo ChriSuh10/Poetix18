@@ -125,7 +125,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		threshold=0.1
 		sylls_up=0
 		sylls_lo=0
-		for t in partial_template[:-1]:
+		for t in partial_template:
 			x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(threshold,self.pos_sylls_mode[t][0][1])]
 			if len(x)==0:
 				sylls_up+=0
@@ -287,6 +287,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("========================= iteration {} ends ============================= \n".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,new_sentences)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, now {} finished_sentences".format(len(new_sentences),len(sentences), diversity, len(finished_sentences)))
+			for sen in sentences:
+				print(sen)
+				print("\n")
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]) for i in previous_data_temp]
