@@ -179,8 +179,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						for sylls in sylls_set:
 							sylls_up, sylls_lo=self.sylls_bounds(t[len(template_curr)+1:])
 							if num_sylls-num_sylls_curr-sylls>=sylls_lo and num_sylls-num_sylls_curr-sylls<=sylls_up:
-								continue_flag=(pos,sylls)
-								return continue_flag
+								continue_flag.append((pos,sylls))
 		return continue_flag
 	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug=False):
 		end_flag=[]
@@ -204,7 +203,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		for k in temp_data.keys():
 			temp=heapq.nlargest(min(len(temp_data[key]), math.ceil(search_space/len(temp_data.keys()))), temp_data[key], key=lambda x: x[1]/(len(x[3])+len(x[4])))
 			data+=temp
-		return data
+		return data, len(temp_data.keys())
 
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
 		'''
@@ -287,13 +286,10 @@ class Limerick_Generate_new(Limerick_Generate):
 													sentences[i][6]])
 										break_point_end+=1
 			print("========================= iteration {} ends ============================= \n".format(iteration))
-			sentences=self.diversity_sort(search_space,new_sentences)
-			print("{} sentences before diversity_sort, {} sentences afterwards, now {} finished_sentences".format(len(new_sentences),len(sentences), len(finished_sentences)))
-			for sen in sentences:
-				print(sen)
-				print("\n")
+			sentences, diversity=self.diversity_sort(search_space,new_sentences)
+			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, now {} finished_sentences".format(len(new_sentences),len(sentences), diversity, len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
-		previous_data_temp=self.diversity_sort(search_space,finished_sentences)
+		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+i[4],i[6]) for i in previous_data_temp]
 		return previous_data
 
