@@ -80,7 +80,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				text=random.choice(self.gen_first_line_new(i.lower(),strict=True))
 				first_line_encodes = self.enc.encode(" ".join(text))
 				# previous data [(encodes,score, text, template, (w1,w3))]
-				previous_data.append((first_line_encodes,0,text+["\n"], ["first_line"],(i,"")))
+				previous_data.append((first_line_encodes,0,text+["\n"], [text[-1],"\n"],(i,"")))
 			for i in w3s_rhyme_dict.keys():
 				f.write("=============================== 34 rhymes  =====================================")
 				f.write(i+":"+"\n")
@@ -310,6 +310,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			'''
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
-		previous_data=[(i[0],i[1],i[2]+["\n"],i[3],i[4]) for i in previous_data_temp]
+		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
 
