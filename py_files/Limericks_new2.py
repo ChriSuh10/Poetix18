@@ -220,7 +220,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/len(x[3]))
 			data+=temp
 			break_point+=1
-			if break_point>=20: break
+			#if break_point>=20: break
 		return data, len(temp_data.keys())
 
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
