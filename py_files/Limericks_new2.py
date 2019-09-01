@@ -221,7 +221,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			data+=temp
 			break_point+=1
 			#if break_point>=20: break
-		return random.sample(data, min(len(data),5000)), len(temp_data.keys())
+		return random.sample(data, min(len(data),2000)), len(temp_data.keys())
 
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
 		'''
