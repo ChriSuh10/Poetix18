@@ -60,14 +60,21 @@ if __name__ == '__main__':
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
+	dict_meters=create_syll_dict(syllables_file)
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
-		pos_to_words = postag_dict[1]
-	if "." in pos_to_words.keys(): 
-		print("True")
-	else:
-		print("False")
+		words_to_pos = postag_dict[2]
+	words_to_pos["."]=['.']
+	postag_dict[2]=words_to_pos
+	with open(postag_file,"wb") as f:
+		pickle.dump(postag_dict,f)
 	'''
+	postag_file='saved_objects/postag_dict_all.p'
+	with open(postag_file,"rb") as f:
+		postag_dict = pickle.load(f)
+		words_to_pos = postag_dict[2]
+	print(words_to_pos["happy"])		
+	
 	'''
 	pos_sylls_mean=defaultdict(float)
 	pos_sylls_mode=defaultdict(list)
