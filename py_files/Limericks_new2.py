@@ -258,7 +258,6 @@ class Limerick_Generate_new(Limerick_Generate):
 						pos_set=set(self.words_to_pos[word])
 						sylls_set=set([len(m) for m in self.dict_meters[word]])
 						if len(pos_set)==0 or len(sylls_set)==0:
-							print(word)
 							continue
 						template_curr=sentences[i][4]
 						num_sylls_curr=sentences[i][5]
