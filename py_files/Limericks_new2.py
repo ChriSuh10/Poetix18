@@ -187,9 +187,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		return continue_flag
 	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug=False):
 		end_flag=[]
-		if debug: pdb.set_trace()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
+				if pos_set=={"."}: pdb.set_trace()
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
 						for sylls in sylls_set:

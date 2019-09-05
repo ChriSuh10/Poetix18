@@ -64,10 +64,10 @@ if __name__ == '__main__':
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
 		pos_to_words = postag_dict[1]
-	print(len(postag_dict))
-	dict_meters=create_syll_dict(syllables_file)
-	print(dict_meters["."])
-	print(pos_to_words["."])
+	if "." in pos_to_words.keys(): 
+		print("True")
+	else:
+		print("False")
 	'''
 	pos_sylls_mean=defaultdict(float)
 	pos_sylls_mode=defaultdict(list)
