@@ -1263,7 +1263,7 @@ class Limerick_Generate:
             new_line.append(words[out[0][0]])
 
         return new_line
-'''
+
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
                      rhyme_word=None, rhyme_set=None, search_space=100, num_sylls=[], stress=[],
                      use_nltk=False):
@@ -1380,19 +1380,18 @@ class Limerick_Generate:
                             # Add current word's number of syllables to
                             # the sentence's number of syllables
                             syllables += word_length
-
+                        print(sentences[j][2] + np.log(logits[j][index]))
                         # Add candidate sentence to new array
                         new_sentences.append((sentences[j][0] + [word],
                                               sentences[j][1] + [index],
                                               sentences[j][2] + np.log(logits[j][index]),
                                               syllables))
-                        print(np.log(logits[j][index])
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
         print(sentences[0][0])
         return sentences[0]
-    '''
+
     def gen_line_gpt_cc(self, cctemplate, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
                         banned_set=None, search_space=100):
         """
