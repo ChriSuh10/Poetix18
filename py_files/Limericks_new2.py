@@ -306,7 +306,7 @@ class Limerick_Generate_new(Limerick_Generate):
 										break_point_end+=1
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
-					context_token=[s[0] for s in sentences]
+					context_token=[s[0] for s in quasi_finished_sentences]
 					m=len(context_token)
 					context_token=np.array(context_token).reshape(m,-1)
 					print("################################## gpt2 Starts Adding Punctuation #############################")
