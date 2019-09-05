@@ -189,6 +189,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
+				print("True")
 				if debug==".": pdb.set_trace()
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
