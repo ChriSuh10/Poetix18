@@ -185,7 +185,7 @@ class Limerick_Generate_new(Limerick_Generate):
 								continue_flag.append((pos,sylls))
 		if len(continue_flag)==0: continue_flag=False
 		return continue_flag
-	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug=word):
+	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug):
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
@@ -262,7 +262,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 						debug=False
 						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=debug)
+						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=word)
 						if continue_flag:
 							for continue_sub_flag in continue_flag:
 								new_sentences.append([sentences[i][0] + [index],
