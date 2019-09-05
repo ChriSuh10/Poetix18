@@ -57,7 +57,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
-		with open("py_files/saved_objects/templates_new3.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_punctuation.pickle","rb") as pickle_in:
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
@@ -149,10 +149,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				sylls_up=0
 				sylls_lo=0
 				for t in i[:-1]:
-					try:
-						x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(threshold,self.pos_sylls_mode[t][0][1])]
-					except:
-						pdb.set_trace()
+					x=[j[0] for j in self.pos_sylls_mode[t] if j[1]>=min(threshold,self.pos_sylls_mode[t][0][1])]
 					sylls_up+=max(x)
 					sylls_lo+=min(x)
 				if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
@@ -193,6 +190,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		if debug: pdb.set_trace()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
+				if t[len(template_curr)] in [",","."] and pos_set[0]==t[len(template_curr)]:
+					end_flag.append((pos_set[0],sylls_set[0]))
+				else:
 					for pos in pos_set:
 						if pos==t[len(template_curr)]:
 							for sylls in sylls_set:
@@ -215,13 +215,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		x=random.sample(list_of_keys, len(list_of_keys))
 		for k in x:
 			if not finished:
-				temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])))
+				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])))
 			else:
-				temp=heapq.nlargest(min(len(temp_data[k]), math.ceil(search_space/len(temp_data.keys()))), temp_data[k], key=lambda x: x[1]/len(x[3]))
+				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/len(x[3]))
 			data+=temp
 			break_point+=1
 			#if break_point>=20: break
-		return random.sample(data, min(len(data),500)), len(temp_data.keys())
+		return random.sample(data, min(len(data),search_space)), len(temp_data.keys())
 
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
 		'''
