@@ -1263,7 +1263,7 @@ class Limerick_Generate:
             new_line.append(words[out[0][0]])
 
         return new_line
-
+'''
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
                      rhyme_word=None, rhyme_set=None, search_space=100, num_sylls=[], stress=[],
                      use_nltk=False):
@@ -1392,7 +1392,7 @@ class Limerick_Generate:
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
         print(sentences[0][0])
         return sentences[0]
-
+    '''
     def gen_line_gpt_cc(self, cctemplate, w=None, encodes=None, default_template=None, rhyme_word=None, rhyme_set=None,
                         banned_set=None, search_space=100):
         """
