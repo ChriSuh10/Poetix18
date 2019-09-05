@@ -663,7 +663,7 @@ class Limerick_Generate:
                 next_score, next_state = model.compute_fx(sess, vocab, score, seq, state, 1)
         return next_score, next_state
 
-    def load_name_list(self, name_count):
+    def load_name_list(self, name_count=None):
         female_names_file = 'py_files/saved_objects/dist.female.first.txt'
         male_names_file = 'py_files/saved_objects/dist.male.first.txt'
         female_name_list, male_name_list = [], []
@@ -672,14 +672,14 @@ class Limerick_Generate:
             for line in female_names:
                 name, _, _, count = line.split()
                 female_name_list.append(name.lower().decode('utf-8'))
-                if int(count) == name_count:
+                if name_count is not None and int(count) == name_count:
                     break
 
         with open(male_names_file, 'rb') as male_names:
             for line in male_names:
                 name, _, _, count = line.split()
                 male_name_list.append(name.lower().decode('utf-8'))
-                if int(count) == name_count:
+                if name_count is not None and int(count) == name_count:
                     break
 
         return female_name_list, male_name_list
