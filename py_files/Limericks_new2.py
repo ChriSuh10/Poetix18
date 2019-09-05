@@ -57,10 +57,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
-		with open("py_files/saved_objects/templates_punctuation.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_new3.pickle","rb") as pickle_in:
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
+		# punctuations 
+		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
+		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
 	def gen_poem_andre_new(self,prompt,search_space,thresh_hold):
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -189,7 +192,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				if debug==".": pdb.set_trace()
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
 						for sylls in sylls_set:
@@ -238,8 +240,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			context_token=[s[0] for s in sentences]
 			m=len(context_token)
 			context_token=np.array(context_token).reshape(m,-1)
+			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
+			print("******************************** gpt2 Finished Processing Next Word **********************************")
 			new_sentences=[]
+			quasi_finished_sentences=[]
 			for i,j in enumerate(logits):
 				sorted_index=np.argsort(-1*j)
 				break_point_continue=0
@@ -277,7 +282,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							for end_sub_flag in end_flag:
 								if which_line=="second" or which_line=="fifth":
 									if word in self.w1s_rhyme_dict[sentences[i][6][0]]:
-										finished_sentences.append([sentences[i][0] + [index],
+										quasi_finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
 													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
@@ -285,7 +290,7 @@ class Limerick_Generate_new(Limerick_Generate):
 										break_point_end+=1
 								if which_line=="third":
 									if word in self.w3s_rhyme_dict.keys():
-										finished_sentences.append([sentences[i][0] + [index],
+										quasi_finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
 													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
@@ -293,15 +298,37 @@ class Limerick_Generate_new(Limerick_Generate):
 										break_point_end+=1
 								if which_line=="fourth":
 									if word in self.w3s_rhyme_dict[sentences[i][6][1]]:
-										finished_sentences.append([sentences[i][0] + [index],
+										quasi_finished_sentences.append([sentences[i][0] + [index],
 													sentences[i][1] + np.log(j[index]),
 													sentences[i][2]+[word],
 													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 													sentences[i][6]])
 										break_point_end+=1
-			print("========================= iteration {} ends ============================= \n".format(iteration))
+			if self.punctuation[which_line]:
+				if len(quasi_finished_sentences)>0:
+					context_token=[s[0] for s in sentences]
+					m=len(context_token)
+					context_token=np.array(context_token).reshape(m,-1)
+					print("################################## gpt2 Starts Adding Punctuation #############################")
+					logits = score_model(model_name=self.model_name, context_token = context_token)
+					print("################################## gpt2 Finished Adding Punctuation #############################")
+					for i,j in enumerate(logits):
+						sorted_index=np.argsort(-1*j)
+						for index in sorted_index:
+						word = self.enc.decode([index]).lower().strip()
+						if word==self.sentence_to_punctuation[which_line]:
+							finished_sentences.append([quasi_finished_sentences[i][0] + [index],
+														quasi_finished_sentences[i][1] + np.log(j[index]),
+														quasi_finished_sentences[i][2]+[word],
+														quasi_finished_sentences[i][3]+[word],
+														quasi_finished_sentences[i][4]])
+							break
+			else:
+				for q in quasi_finished_sentences:
+					finished_sentences.append(q)
+			print("\n ========================= iteration {} ends =============================".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
-			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, now {} finished_sentences".format(len(new_sentences),len(sentences), diversity, len(finished_sentences)))
+			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 			'''
 			for sen in sentences:
 				print(sen)
