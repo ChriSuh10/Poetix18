@@ -4,7 +4,6 @@ import pickle
 from collections import defaultdict, Counter
 import numpy as np
 import pdb
-from gpt2.src.encoder import get_encoder
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -179,7 +178,3 @@ if __name__ == '__main__':
 		data=pickle.load(pickle_in)
 		print(data)
 	'''
-	model_name='345M'
-	enc = get_encoder(model_name)
-	
-
