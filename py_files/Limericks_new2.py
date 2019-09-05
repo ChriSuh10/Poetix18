@@ -190,8 +190,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		if debug: pdb.set_trace()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				if t[len(template_curr)] in [",","."] and pos_set[0]==t[len(template_curr)]:
-					end_flag.append((pos_set[0],sylls_set[0]))
+				if t[len(template_curr)] in [",","."] and list(pos_set)[0]==t[len(template_curr)]:
+					end_flag.append((list(pos_set)[0],list(sylls_set)[0]))
 				else:
 					for pos in pos_set:
 						if pos==t[len(template_curr)]:
