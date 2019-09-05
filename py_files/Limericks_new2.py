@@ -189,7 +189,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				print("True")
 				if debug==".": pdb.set_trace()
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
@@ -253,6 +252,9 @@ class Limerick_Generate_new(Limerick_Generate):
 					elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 						continue
 					else:
+						if word==".": 
+							print("True")
+							assert 0==1
 						pos_set=set(self.words_to_pos[word])
 						sylls_set=set([len(m) for m in self.dict_meters[word]])
 						if len(pos_set)==0 or len(sylls_set)==0:
