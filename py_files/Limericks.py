@@ -38,7 +38,7 @@ class Limerick_Generate:
         self.punct = re.compile(r'[^\w\s]')
         self.model_dir = model_dir
         self.model_name = model_name
-        # self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False) if load_poetic_vectors else None
+        self.poetic_vectors = KeyedVectors.load_word2vec_format(wv_file, binary=False) if load_poetic_vectors else None
 
         self.create_syll_dict(syllables_file)
 
@@ -1386,6 +1386,7 @@ class Limerick_Generate:
                                               sentences[j][1] + [index],
                                               sentences[j][2] + np.log(logits[j][index]),
                                               syllables))
+                        print(np.log(logits[j][index])
 
             # Get the most probable N sentences by sorting the list according to probability
             sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
