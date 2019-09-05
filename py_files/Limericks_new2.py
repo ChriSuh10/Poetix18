@@ -189,7 +189,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				if debug==".": pdb.set_trace()
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
 						for sylls in sylls_set:
@@ -255,10 +254,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						pos_set=set(self.words_to_pos[word])
 						sylls_set=set([len(m) for m in self.dict_meters[word]])
 						if len(pos_set)==0 or len(sylls_set)==0:
-							continue
-						if word==".": 
-							print("True")
-							assert 0==1							
+							continue						
 						template_curr=sentences[i][4]
 						num_sylls_curr=sentences[i][5]
 						# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
