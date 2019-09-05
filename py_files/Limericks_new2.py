@@ -315,14 +315,14 @@ class Limerick_Generate_new(Limerick_Generate):
 					for i,j in enumerate(logits):
 						sorted_index=np.argsort(-1*j)
 						for index in sorted_index:
-						word = self.enc.decode([index]).lower().strip()
-						if word==self.sentence_to_punctuation[which_line]:
-							finished_sentences.append([quasi_finished_sentences[i][0] + [index],
-														quasi_finished_sentences[i][1] + np.log(j[index]),
-														quasi_finished_sentences[i][2]+[word],
-														quasi_finished_sentences[i][3]+[word],
-														quasi_finished_sentences[i][4]])
-							break
+							word = self.enc.decode([index]).lower().strip()
+							if word==self.sentence_to_punctuation[which_line]:
+								finished_sentences.append([quasi_finished_sentences[i][0] + [index],
+															quasi_finished_sentences[i][1] + np.log(j[index]),
+															quasi_finished_sentences[i][2]+[word],
+															quasi_finished_sentences[i][3]+[word],
+															quasi_finished_sentences[i][4]])
+								break
 			else:
 				for q in quasi_finished_sentences:
 					finished_sentences.append(q)
