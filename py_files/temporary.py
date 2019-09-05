@@ -4,7 +4,7 @@ import pickle
 from collections import defaultdict, Counter
 import numpy as np
 import pdb
-'''
+
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -32,7 +32,7 @@ def create_syll_dict(syllables_file):
         dict_meters[','] = ['']
         dict_meters['.'] = ['']
         return dict_meters
-'''
+
 if __name__ == '__main__':
 	'''
 	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
@@ -58,14 +58,17 @@ if __name__ == '__main__':
 		pos_to_words=postag_dict[1]
 	print("WHILE" in pos_to_words.keys())
 	'''
-	'''
+	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
 	with open(postag_file, 'rb') as f:
-			postag_dict = pickle.load(f)
-			pos_to_words = postag_dict[1]
+		postag_dict = pickle.load(f)
+		pos_to_words = postag_dict[1]
+	print(len(postag_dict))
 	dict_meters=create_syll_dict(syllables_file)
-	
+	print(dict_meters["."])
+	print(pos_to_words["."])
+	'''
 	pos_sylls_mean=defaultdict(float)
 	pos_sylls_mode=defaultdict(list)
 	pos_sylls_all=defaultdict(int)
@@ -129,10 +132,19 @@ if __name__ == '__main__':
 	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	wu=data["fifth"]
+	wu=data["second"]
 	for i in wu.keys():
 		for j in wu[i]:
 			print(j)
+	print("==============================================================")
+	print("==============================================================")
+	with open("saved_objects/templates_punctuation.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+	wu=data["second"]
+	for i in wu.keys():
+		for j in wu[i]:
+			print(j)
+	'''
 	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
@@ -165,6 +177,6 @@ if __name__ == '__main__':
 	with open("saved_objects/templates_punctuation.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 		print(data)
-
+	'''
 
 
