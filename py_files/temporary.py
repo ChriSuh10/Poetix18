@@ -144,21 +144,21 @@ if __name__ == '__main__':
 	for k in data["second"].keys():
 		for i in data["second"][k]:
 			if i[0][-1]!="," and i[0][-1]!=".":
-				second[k].append((i[0]+["."],i[1]+["."]))
+				second[k].append((i[0]+["."],i[1]+["."],i[2]))
 
 	for k in data["third"].keys():
 		for i in data["third"][k]:
 			if i[0][-1]!="," and i[0][-1]!=".":
-				third[k].append((i[0]+[","],i[1]+[","]))
+				third[k].append((i[0]+[","],i[1]+[","],i[2]))
 
 	for k in data["fourth"].keys():
 		for i in data["fourth"][k]:
 			if i[0][-1]!="," and i[0][-1]!=".":
-				fourth[k].append((i[0]+[","],i[1]+[","]))
+				fourth[k].append((i[0]+[","],i[1]+[","],i[2]))
 	for k in data["fifth"].keys():
 		for i in data["fifth"][k]:
 			if i[0][-1]!="," and i[0][-1]!=".":
-				fifth[k].append((i[0]+["."],i[1]+["."]))
+				fifth[k].append((i[0]+["."],i[1]+["."],i[2]))
 	mydict={"second":second,"third":third,"fourth":fourth,"fifth":fifth}
 	with open("saved_objects/templates_punctuation.pickle","wb") as pickle_in:
 		pickle.dump(mydict,pickle_in)
