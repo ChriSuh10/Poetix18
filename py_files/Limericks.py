@@ -748,7 +748,7 @@ class Limerick_Generate:
             if last_word not in female_name_list and \
                 last_word not in male_name_list and \
                 last_word not in city_name_list:
-                raise Exception('last word not a known name or location')
+                raise Exception('last word ' + last_word + ' is not a known name or location')
             last_word_is_location = last_word in city_name_list
             last_word_is_male = last_word in male_name_list
             last_word_is_female = last_word in female_name_list
@@ -1241,6 +1241,7 @@ class Limerick_Generate:
             probability = []
             words = []
             tokens = []
+            print(logits[0])
             for index in reversed(np.argsort(logits[0])):
                 word = self.enc.decode([index]).lower().strip()
                 # Restrict the word to have the POS of the template
