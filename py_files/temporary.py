@@ -47,6 +47,15 @@ def f_mp(a_list):
 	pool = mp.Pool(processes=10)
 	result = pool.map(f, chunks)
 	print(result)
+def split_mp(data):
+	d=len(data)//4
+	temp=[]
+	for i in range(4):
+		if i!=3:
+			temp.append(data[i*d:(i+1)*d])
+		else:
+			temp.append(data[i*d:])
+	return temp
 
 if __name__ == '__main__':
 	'''
@@ -186,10 +195,9 @@ if __name__ == '__main__':
 				template_to_line[" ".join(k[0])].append(k[1])
 	with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
 		pickle.dump(template_to_line,pickle_in)
+
+'''
+
 	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	for i in data.keys():
-		if len(data[i])>1:
-			print(data[i])
-	''' 
-f_mp([1]*50)
+	print(data)

@@ -27,6 +27,7 @@ from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp, get_first_line_templates
 import pickle
 from .Limericks import Limerick_Generate
+import multiprocessing as mp
 random.seed(20)
 class Limerick_Generate_new(Limerick_Generate):
 	def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
@@ -46,7 +47,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.words_to_pos = postag_dict[2]
 		self.create_pos_syllables()
 		self.create_templates_dict(postag_dict[0])
-
+		self.cpu=mp.count_cpu()
 		self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
 		self.width = 20
 		# Not sure what this does, necessary for search_back function
@@ -92,7 +93,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write(i+":"+"\n")
 				f.write(" ".join(w3s_rhyme_dict[i])+"\n")
 			#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-			for which_line, num_sylls in zip(["fifth"],[9]):
+			for which_line, num_sylls in zip(["third"],[6]):
 				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
@@ -103,6 +104,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			for i,k in enumerate(temp_data.keys()):
 				if "," in k.split(" ") or "." in k.split(" "):
 					k_list=k.split(" ")[:-1]
+				pdb.set_trace()
 				line=self.template_to_line[" ".join(k_list)][0]
 				line=" ".join(line)
 				f.write("=======================template: {}============================  \n".format(i+1))
@@ -408,5 +410,67 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 												sentences[i][6]])
 		return (new_sentences, quasi_finished_sentences)
+	def split_mp(data):
+		d=len(data)//self.cpu
+		temp=[]
+		for i in range(self.cpu):
+			if i!=self.cpu-1:
+				temp.append(data[i*d:(i+1)*d])
+			else:
+				temp.append(data[i*d:])
+		return temp
+	def combine_mp():
 	def gen_line_multi_process(self,previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
-		pass
+		previous_data=self.encodes_align(previous_data)
+		sentences=[]
+		for i in previous_data:
+			template_curr=[]
+			num_sylls_curr=0
+			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4]])
+		finished_sentences=[]
+		iteration=0
+		new_sentences=[1]
+		while(len(new_sentences)>0):
+			iteration+=1
+			context_token=[s[0] for s in sentences]
+			m=len(context_token)
+			context_token=np.array(context_token).reshape(m,-1)
+			print("******************************** gpt2 Starts Processing Next Word **********************************")
+			logits = score_model(model_name=self.model_name, context_token = context_token)
+			print("******************************** gpt2 Finished Processing Next Word **********************************")
+			new_sentences=[]
+			quasi_finished_sentences=[]
+			if self.punctuation[which_line]:
+				if len(quasi_finished_sentences)>0:
+					context_token=[s[0] for s in quasi_finished_sentences]
+					m=len(context_token)
+					context_token=np.array(context_token).reshape(m,-1)
+					print("################################## gpt2 Starts Adding Punctuation #############################")
+					logits = score_model(model_name=self.model_name, context_token = context_token)
+					print("################################## gpt2 Finished Adding Punctuation #############################")
+					for i,j in enumerate(logits):
+						sorted_index=np.argsort(-1*j)
+						for index in sorted_index:
+							word = self.enc.decode([index]).lower().strip()
+							if word==self.sentence_to_punctuation[which_line]:
+								finished_sentences.append([quasi_finished_sentences[i][0] + [index],
+															quasi_finished_sentences[i][1] + np.log(j[index]),
+															quasi_finished_sentences[i][2]+[word],
+															quasi_finished_sentences[i][3]+[word],
+															quasi_finished_sentences[i][4]])
+								break
+			else:
+				for q in quasi_finished_sentences:
+					finished_sentences.append(q)
+			print("\n ========================= iteration {} ends =============================".format(iteration))
+			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
+			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
+			'''
+			for sen in sentences:
+				print(sen)
+				print("\n")
+			'''
+		assert len(sentences)==0, "something wrong"
+		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
+		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
+		return previous_data
