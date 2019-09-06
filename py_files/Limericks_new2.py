@@ -420,6 +420,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				temp.append(data[i*d:])
 		return temp
 	def combine_mp():
+		pass
 	def gen_line_multi_process(self,previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
 		previous_data=self.encodes_align(previous_data)
 		sentences=[]
