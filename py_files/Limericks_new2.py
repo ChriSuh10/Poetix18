@@ -65,7 +65,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
 
-		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in
+		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
 	def gen_poem_andre_new(self,prompt,search_space,thresh_hold):
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_henry(prompt)
