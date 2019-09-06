@@ -91,8 +91,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write("=============================== 34 rhymes  =====================================")
 				f.write(i+":"+"\n")
 				f.write(" ".join(w3s_rhyme_dict[i])+"\n")
-			for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-			#for which_line, num_sylls in zip(["fifth"],[9]):
+			#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+			for which_line, num_sylls in zip(["fifth"],[9]):
 				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
@@ -103,7 +103,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			for i,k in enumerate(temp_data.keys()):
 				if "," in k.split(" ") or "." in k.split(" "):
 					k_list=k.split(" ")[:-1]
-				line=self.template_to_line(" ".join(k_list))[0]
+				line=self.template_to_line[" ".join(k_list)][0]
 				line=" ".join(line)
 				f.write("=======================template: {}============================  \n".format(i+1))
 				f.write(k+"\t"+"\t"+line+"\n")
@@ -352,4 +352,60 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
-
+	def process_one_word(self,possible,num_sylls, search_space, thresh_hold, which_line,chunck):
+		sentences=chunck[0]
+		logits=chunck[1]
+		for i,j in enumerate(logits):
+			sorted_index=np.argsort(-1*j)
+			for index in sorted_index:
+				word = self.enc.decode([index]).lower().strip()
+				if len(word) == 0:
+					continue
+				# note that both , and . are in these keys()
+				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
+					continue
+				else:
+					pos_set=set(self.words_to_pos[word])
+					sylls_set=set([len(m) for m in self.dict_meters[word]])
+					if len(pos_set)==0 or len(sylls_set)==0:
+						continue						
+					template_curr=sentences[i][4]
+					num_sylls_curr=sentences[i][5]
+					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
+					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
+					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
+					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=word)
+					if continue_flag:
+						for continue_sub_flag in continue_flag:
+							new_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3],
+												sentences[i][4]+[continue_sub_flag[0]],
+												sentences[i][5]+continue_sub_flag[1],
+												sentences[i][6]])
+					if end_flag:
+						for end_sub_flag in end_flag:
+							if which_line=="second" or which_line=="fifth":
+								if word in self.w1s_rhyme_dict[sentences[i][6][0]]:
+									quasi_finished_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+												sentences[i][6]])
+							if which_line=="third":
+								if word in self.w3s_rhyme_dict.keys():
+									quasi_finished_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+												(sentences[i][6][0],word)])
+							if which_line=="fourth":
+								if word in self.w3s_rhyme_dict[sentences[i][6][1]]:
+									quasi_finished_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+												sentences[i][6]])
+		return (new_sentences, quasi_finished_sentences)
+	def gen_line_multi_process(self,previous_data, possible,num_sylls, search_space, thresh_hold, which_line)

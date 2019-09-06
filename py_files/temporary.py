@@ -4,6 +4,8 @@ import pickle
 from collections import defaultdict, Counter
 import numpy as np
 import pdb
+import time
+import multiprocessing as mp
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -31,6 +33,20 @@ def create_syll_dict(syllables_file):
         dict_meters[','] = ['']
         dict_meters['.'] = ['']
         return dict_meters
+def f(a_list):
+    out = 0
+    for n in a_list:
+        out += n*n
+        time.sleep(0.1)
+ 
+    return out
+ 
+def f_mp(a_list):
+	print(mp.cpu_count())
+	chunks = [a_list[i::5] for i in range(10)]
+	pool = mp.Pool(processes=10)
+	result = pool.map(f, chunks)
+	print(result)
 
 if __name__ == '__main__':
 	'''
@@ -160,7 +176,7 @@ if __name__ == '__main__':
 		for j in wu[i]:
 			print(j)
 	'''
-
+	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	template_to_line=defaultdict(list)
@@ -175,3 +191,5 @@ if __name__ == '__main__':
 	for i in data.keys():
 		if len(data[i])>1:
 			print(data[i])
+	''' 
+f_mp([1]*50)
