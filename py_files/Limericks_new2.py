@@ -47,7 +47,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.words_to_pos = postag_dict[2]
 		self.create_pos_syllables()
 		self.create_templates_dict(postag_dict[0])
-		self.cpu=mp.count_cpu()
+		self.cpu=mp.cpu_count()
 		self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
 		self.width = 20
 		# Not sure what this does, necessary for search_back function
