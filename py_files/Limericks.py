@@ -1418,7 +1418,7 @@ class Limerick_Generate:
                         if use_word_embedding:
                             # Calculate word embedding moving average with the story line set selection
                             embedding_distance = max(self.get_word_similarity(word, rhyme) for rhyme in rhyme_set)
-                            moving_average = self.word_embedding_alpha * sentences[j][4] + (1 - self.word_embedding_alpha) * embedding_distance \
+                            moving_average = (1 - self.word_embedding_alpha) * sentences[j][4] + self.word_embedding_alpha * embedding_distance \
                                              if embedding_distance is not None \
                                              else sentences[j][4]
                         # Add candidate sentence to new array
