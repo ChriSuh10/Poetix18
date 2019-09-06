@@ -69,6 +69,7 @@ if __name__ == '__main__':
 	with open(postag_file,"wb") as f:
 		pickle.dump(postag_dict,f)
 	'''
+	'''
 	postag_file='saved_objects/postag_dict_all.p'
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	dict_meters=create_syll_dict(syllables_file)
@@ -80,7 +81,7 @@ if __name__ == '__main__':
 	sylls_set=set([len(m) for m in dict_meters[word]])
 	print(pos_set)
 	print(sylls_set)
-			
+	'''		
 	
 	'''
 	pos_sylls_mean=defaultdict(float)
@@ -159,36 +160,18 @@ if __name__ == '__main__':
 		for j in wu[i]:
 			print(j)
 	'''
-	'''
+
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	second=defaultdict(list)
-	third=defaultdict(list)
-	fourth=defaultdict(list)
-	fifth=defaultdict(list)
-
-	for k in data["second"].keys():
-		for i in data["second"][k]:
-			if i[0][-1]!="," and i[0][-1]!=".":
-				second[k].append((i[0]+["."],i[1]+["."],i[2]))
-
-	for k in data["third"].keys():
-		for i in data["third"][k]:
-			if i[0][-1]!="," and i[0][-1]!=".":
-				third[k].append((i[0]+[","],i[1]+[","],i[2]))
-
-	for k in data["fourth"].keys():
-		for i in data["fourth"][k]:
-			if i[0][-1]!="," and i[0][-1]!=".":
-				fourth[k].append((i[0]+[","],i[1]+[","],i[2]))
-	for k in data["fifth"].keys():
-		for i in data["fifth"][k]:
-			if i[0][-1]!="," and i[0][-1]!=".":
-				fifth[k].append((i[0]+["."],i[1]+["."],i[2]))
-	mydict={"second":second,"third":third,"fourth":fourth,"fifth":fifth}
-	with open("saved_objects/templates_punctuation.pickle","wb") as pickle_in:
-		pickle.dump(mydict,pickle_in)
-	with open("saved_objects/templates_punctuation.pickle","rb") as pickle_in:
+	template_to_line=defaultdict(list)
+	for i in ["second","third","fourth","fifth"]:
+		for j in data[i].keys():
+			for k in data[i][j]:
+				template_to_line[" ".join(k[0])].append(k[1])
+	with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
+		pickle.dump(template_to_line,pickle_in)
+	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-		print(data)
-	'''
+	for i in data.keys():
+		if len(data[i])>1:
+			print(data[i])

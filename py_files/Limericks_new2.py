@@ -64,6 +64,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations 
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
+
+		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in
+			self.template_to_line= pickle.load(pickle_in)
 	def gen_poem_andre_new(self,prompt,search_space,thresh_hold):
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -98,13 +101,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			for i in previous_data:
 				temp_data[" ".join(i[3])].append(i)
 			for i,k in enumerate(temp_data.keys()):
-				f.write("=======================   template: {}   ============================  \n".format(i+1))
-				f.write(k+"\n")
+				if "," in k.split(" ") or "." in k.split(" "):
+					k_list=k.split(" ")[:-1]
+				line=self.template_to_line(" ".join(k_list))[0]
+				line=" ".join(line)
+				f.write("=======================template: {}============================  \n".format(i+1))
+				f.write(k+"\t"+"\t"+line+"\n")
 				for j in temp_data[k]:
-					f.write("-------------------------  score:  {}    ----------------------- \n".format(j[1]/len(j[3])))
+					f.write("-------------------------score:  {}----------------------- \n".format(j[1]/len(j[3])))
 					f.write(" ".join(j[2]))
-				f.write("=====================================================  \n")
-
 
 
 
@@ -221,10 +226,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			break_point+=1
 			#if break_point>=20: break
 		if not finished:
-			data=heapq.nlargest(min(len(data),10*search_space), data, key= lambda x:x[1]/(len(x[3])+len(x[4])))
+			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])+len(x[4])))
+			random_sample=random.sample(data,min(len(data),search_space))
+			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])+len(x[4])))
 		else:
-			data=heapq.nlargest(min(len(data),10*search_space), data, key= lambda x:x[1]/(len(x[3])))
-		return random.sample(data,min(len(data),search_space)), len(temp_data.keys())
+			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])))
+			random_sample=random.sample(data,min(len(data),search_space))
+			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])))
+
+		return data, len(temp_data.keys())
 
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
 		'''
