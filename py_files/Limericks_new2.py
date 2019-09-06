@@ -102,13 +102,19 @@ class Limerick_Generate_new(Limerick_Generate):
 			for i in previous_data:
 				temp_data[" ".join(i[3])].append(i)
 			for i,k in enumerate(temp_data.keys()):
-				if "," in k.split(" ") or "." in k.split(" "):
-					k_list=k.split(" ")[:-1]
-				pdb.set_trace()
-				line=self.template_to_line[" ".join(k_list)][0]
-				line=" ".join(line)
+				lines=[]
+				for i in k.split("\n"):
+					i=i.strip()
+					if len(i)!=0:
+						i_list=i.split(" ")
+						if i_list[-1] in [",","."]:
+							i_list=i_list[:-1]
+							line=self.template_to_line[" ".join(i)][0]+["\n"]
+							lines+=line
 				f.write("=======================template: {}============================  \n".format(i+1))
-				f.write(k+"\t"+"\t"+line+"\n")
+				f.write(k+"\n")
+				f.write("-----------------------original------------------------------------")
+				f.write(" ".join(lines))
 				for j in temp_data[k]:
 					f.write("-------------------------score:  {}----------------------- \n".format(j[1]/len(j[3])))
 					f.write(" ".join(j[2]))
