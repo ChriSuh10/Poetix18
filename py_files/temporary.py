@@ -199,5 +199,16 @@ if __name__ == '__main__':
 '''
 
 	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:
-		data=pickle.load(pickle_in)
-	print(data)
+		template_to_line=pickle.load(pickle_in)
+	temp_data={'carlene \n CC PRP$ NN , VBN NNP , \n':0}
+	for i,k in enumerate(temp_data.keys()):
+		lines=[]
+		for i in k.split("\n")[1:]:
+			i=i.strip()
+			if len(i)!=0:
+				i_list=i.split(" ")
+				if i_list[-1] in [",","."]:
+					i_list=i_list[:-1]
+				line=template_to_line[" ".join(i_list)][0]+["\n"]
+				lines+=line
+	print(lines)

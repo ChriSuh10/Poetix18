@@ -103,14 +103,14 @@ class Limerick_Generate_new(Limerick_Generate):
 				temp_data[" ".join(i[3])].append(i)
 			for i,k in enumerate(temp_data.keys()):
 				lines=[]
-				for i in k.split("\n"):
+				for i in k.split("\n")[1:]:
 					i=i.strip()
 					if len(i)!=0:
 						i_list=i.split(" ")
 						if i_list[-1] in [",","."]:
 							i_list=i_list[:-1]
-							line=self.template_to_line[" ".join(i)][0]+["\n"]
-							lines+=line
+						line=template_to_line[" ".join(i_list)][0]+["\n"]
+						lines+=line
 				f.write("=======================template: {}============================  \n".format(i+1))
 				f.write(k+"\n")
 				f.write("-----------------------original------------------------------------")
