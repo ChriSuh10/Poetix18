@@ -109,7 +109,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						i_list=i.split(" ")
 						if i_list[-1] in [",","."]:
 							i_list=i_list[:-1]
-						line=template_to_line[" ".join(i_list)][0]+["\n"]
+						line=self.template_to_line[" ".join(i_list)][0]+["\n"]
 						lines+=line
 				f.write("=======================template: {}============================  \n".format(i+1))
 				f.write(k+"\n")
