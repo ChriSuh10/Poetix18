@@ -92,8 +92,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write("=============================== 34 rhymes  =====================================")
 				f.write(i+":"+"\n")
 				f.write(" ".join(w3s_rhyme_dict[i])+"\n")
-			#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-			for which_line, num_sylls in zip(["third"],[6]):
+			for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+			#for which_line, num_sylls in zip(["third"],[6]):
 				print("======================= starting {} line generation =============================".format(which_line))
 				last_word_set=last_word_dict[which_line]
 				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
@@ -112,8 +112,8 @@ class Limerick_Generate_new(Limerick_Generate):
 						line=self.template_to_line[" ".join(i_list)][0]+["\n"]
 						lines+=line
 				f.write("=======================template: {}============================  \n".format(t+1))
-				f.write(k+"\n")
-				f.write("-----------------------original------------------------------------")
+				f.write(k)
+				f.write("-----------------------original------------------------------------ \n")
 				f.write(" ".join(lines))
 				for j in temp_data[k]:
 					f.write("-------------------------score:  {}----------------------- \n".format(j[1]/len(j[3])))
