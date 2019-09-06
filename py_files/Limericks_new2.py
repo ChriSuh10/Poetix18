@@ -408,4 +408,5 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 												sentences[i][6]])
 		return (new_sentences, quasi_finished_sentences)
-	def gen_line_multi_process(self,previous_data, possible,num_sylls, search_space, thresh_hold, which_line)
+	def gen_line_multi_process(self,previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
+		pass
