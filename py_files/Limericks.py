@@ -65,6 +65,9 @@ class Limerick_Generate:
         with open("py_files/saved_objects/filtered_nouns_verbs.txt", "r") as hf:
             self.filtered_nouns_verbs = [line.strip() for line in hf.readlines()]
 
+        self.word_embedding_alpha = 0.5
+        self.word_embedding_coefficient = 0.1
+
     def create_syll_dict(self, fname):
         """
         Using the cmudict file, returns a dictionary mapping words to their
@@ -140,6 +143,31 @@ class Limerick_Generate:
                 if (ending_pos, len(t)) not in self.templates_dict:
                     self.templates_dict[(ending_pos, len(t))] = []
                 self.templates_dict[(ending_pos, len(t))].append(t)
+
+    def get_word_similarity(self, word, seed):
+        """
+        Given a seed word, if the word is a noun, verb or adjective, return the
+        similarity between the two words. Otherwise, return None.
+
+        Parameters
+        ----------
+        word : str
+            A word in the poem. We want it to be similar in meaning to the last
+            word of the line.
+        seed : str
+            The last word of the line.
+        Returns
+        -------
+        float
+            Word similarity between the word and the seed word.
+        """
+        word_pos = self.words_to_pos[word]
+        if 'JJ' in word_pos \
+            or 'NN' not in word_pos \
+            or any('VB' in pos for pos in word_pos):
+            return self.poetic_vectors.similarity(word, seed)
+        return None
+
 
     def two_word_link(self, w1, w2, seen_words):
         """
@@ -484,10 +512,10 @@ class Limerick_Generate:
         w3s_rhyme_dict: {w3: [w4s]}, [w4s] containing at least 20 words ]
         """
         w1s = random.sample(self.filtered_names, n_w125)
-        w1s_rhyme_dict = {w1: list(self.get_rhyming_words_one_step_henry(w1)) for w1 in w1s}
+        w1s_rhyme_dict = {w1: set(self.get_rhyming_words_one_step_henry(w1)) for w1 in w1s}
 
         w3s = self.get_similar_word_henry([prompt], seen_words=w1s, n_return=n_w34, word_set=set(self.filtered_nouns_verbs))
-        w3s_rhyme_dict = {w3: list(self.get_rhyming_words_one_step_henry(w3)) for w3 in w3s}
+        w3s_rhyme_dict = {w3: set(self.get_rhyming_words_one_step_henry(w3)) for w3 in w3s}
 
         return w1s_rhyme_dict, w3s_rhyme_dict
 
@@ -1266,7 +1294,7 @@ class Limerick_Generate:
 
     def gen_line_gpt(self, w=None, encodes=None, default_template=None,
                      rhyme_word=None, rhyme_set=None, search_space=100, num_sylls=[], stress=[],
-                     use_nltk=False):
+                     use_nltk=False, use_word_embedding=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1291,7 +1319,12 @@ class Limerick_Generate:
             Positions of stress of the sentence, corresponding to '1' in cmudict translation
         use_nltk: bool, optional
             If set to true, for words that don't appear in POS dictionary, the script will generate
-            the POS in NLTK. It will be slower, but it allows for a larger set of words.
+            the POS in NLTK. It will be slower, but it allows for a larger set of words
+        use_word_embedding: bool, optional
+            If set to true, the method will calculate the word embedding distance between the current
+            word and the last word in the storyline and take this into consideration when calculating
+            the fitness score of a sentence. If you are not using storyline do not set this option
+            to true.
         Returns
         -------
         new_line : array
@@ -1313,13 +1346,14 @@ class Limerick_Generate:
             # Include the word itself in the rhyme set
             rhyme_set.add(rhyme_word)
 
-        # Tuple format: original word array, encode array, log probability of this sentence, number of syllables
+        # Tuple format: (original word array, encode array, log probability of this sentence,
+        # number of syllables, word embedding moving average (optional))
         if w:
             sentences = [(w.lower().split(), [], 0, 0)]
             for e in w.lower().split():
                 sentences[0][1].append(self.enc.encode(e)[0])
         if encodes:
-            sentences = [([], encodes, 0, 0)]
+            sentences = [([], encodes, 0, 0, 0)]
 
         for i in range(len(template)):
             # Logits is the output of GPT model, encoder is used to decode the output
@@ -1380,15 +1414,24 @@ class Limerick_Generate:
                             # Add current word's number of syllables to
                             # the sentence's number of syllables
                             syllables += word_length
-                        print(sentences[j][2] + np.log(logits[j][index]))
+                        moving_average = 0
+                        if use_word_embedding:
+                            # Calculate word embedding moving average with the story line set selection
+                            embedding_distance = max(self.get_word_similarity(word, rhyme) for rhyme in rhyme_set)
+                            moving_average = self.word_embedding_alpha * sentences[j][4] + (1 - self.word_embedding_alpha) * embedding_distance \
+                                             if embedding_distance is not None \
+                                             else sentences[j][4]
                         # Add candidate sentence to new array
                         new_sentences.append((sentences[j][0] + [word],
                                               sentences[j][1] + [index],
                                               sentences[j][2] + np.log(logits[j][index]),
-                                              syllables))
+                                              syllables,
+                                              moving_average))
 
             # Get the most probable N sentences by sorting the list according to probability
-            sentences = heapq.nsmallest(min(len(new_sentences), search_space), new_sentences, key=lambda x: -x[2])
+            sentences = heapq.nsmallest(min(len(new_sentences), search_space),
+                                        new_sentences,
+                                        key = lambda x: -x[2] - self.word_embedding_coefficient * moving_average)
         print(sentences[0][0])
         return sentences[0]
 
@@ -1521,7 +1564,8 @@ class Limerick_Generate:
 
     def gen_poem_gpt(self, rhyme1, rhyme2, default_templates=None,
                      story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
-                     enforce_syllables=False, enforce_stress=False, search_space_coef=[1, 1, 0.5, 0.25]):
+                     enforce_syllables=False, enforce_stress=False, search_space_coef=[1, 1, 0.5, 0.25],
+                     use_word_embedding=False):
         """
         Uses GPT to generate a line given the template restriction and initial sequence
         as given by the provided template, number of syllables in the line.
@@ -1551,6 +1595,7 @@ class Limerick_Generate:
             Decay rate of search space.The more sentences we run, the longer the prompt is.
             Setting the decay rate to be less than 1 limits the search space of the last
             couple sentences.
+        use_word_embedding: float, optional
 
         Returns
         -------
@@ -1561,8 +1606,7 @@ class Limerick_Generate:
             default_templates = random.choice(get_good_templates())
 
         if story_line:
-            # five_words = self.get_five_words(rhyme1)
-            five_words = ('joan', 'loan', 'glue', 'tissue', 'bone')
+            two_sets = self.get_two_sets_henry(rhyme1)
         else:
             # Get the rhyme sets
             w1_response = requests.get(self.api_url, params={'rel_rhy': rhyme1}).json()
@@ -1578,6 +1622,9 @@ class Limerick_Generate:
         out = generate_prompt(model_name=self.model_name, seed_word=rhyme1, length=prompt_length)
         prompt = self.enc.decode(out[0][0])
         prompt = prompt[:prompt.rfind(".") + 1]
+
+        if story_line:
+            rhyme1 = random.choice(list(two_sets[0].keys()))
         first_line = random.choice(self.gen_first_line_new(rhyme1))
         print(first_line)
         first_line_encodes = self.enc.encode(" ".join(first_line))
@@ -1594,6 +1641,8 @@ class Limerick_Generate:
 
         generated_poem = [first_line]
 
+        w0 = rhyme1
+        w2 = None
         for i in range(4):
             if enforce_syllables:
                 curr_sylls = [5, 6] if (i == 2 or i == 3) else [8, 9]
@@ -1610,14 +1659,27 @@ class Limerick_Generate:
                 new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
                                                  default_template=default_templates[i], rhyme_set=rhyme_set,
                                                  search_space=int(search_space * search_space_coef[i]),
-                                                 num_sylls=curr_sylls, stress=stress)
+                                                 num_sylls=curr_sylls, stress=stress, use_word_embedding=use_word_embedding)
 
                 rhyme_set.discard(new_sentence[0][-1])
             else:
+                if i == 0:
+                    rhyme_set = two_sets[0][w0]
+                elif i == 1:
+                    rhyme_set = two_sets[1].keys()
+                elif i == 2:
+                    rhyme_set = two_sets[1][w2]
+                elif i == 3:
+                    rhyme_set = two_sets[1][w0]
                 new_sentence = self.gen_line_gpt(w=None, encodes=prompt,
-                                                 default_template=default_templates[i], rhyme_set=[five_words[i + 1]],
+                                                 default_template=default_templates[i], rhyme_set=rhyme_set,
                                                  search_space=int(search_space * search_space_coef[i]),
-                                                 num_sylls=curr_sylls, stress=stress)
+                                                 num_sylls=curr_sylls, stress=stress, use_word_embedding=use_word_embedding)
+                last_word = new_sentence[0][-1]
+                if i == 0:
+                    two_sets[0][w0].discard(last_word)
+                elif i == 1:
+                    s2 = last_word
             prompt += new_sentence[1]
             generated_poem.append(new_sentence[0])
         return generated_poem
