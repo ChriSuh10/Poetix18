@@ -69,19 +69,9 @@ if __name__ == '__main__':
 	print("WHILE" in pos_sylls_mode.keys())
 	print(pos_sylls_mode)
 	'''
-	'''
-	with open('saved_objects/postag_dict_all.p',"rb") as pickle_in:
-		postag_dict=pickle.load(pickle_in)
-		pos_to_words=postag_dict[1]
-		pos_to_words["WHILE"]=['while']
-		postag_dict[1]=pos_to_words
-	with open('saved_objects/postag_dict_all.p',"wb") as pickle_in:
-		pickle.dump(postag_dict,pickle_in)
-	with open('saved_objects/postag_dict_all.p',"rb") as pickle_in:
-		postag_dict=pickle.load(pickle_in)
-		pos_to_words=postag_dict[1]
-	print("WHILE" in pos_to_words.keys())
-	'''
+
+	
+	
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
@@ -155,19 +145,11 @@ if __name__ == '__main__':
 	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	wu=data["fifth"]
-	fifth=defaultdict(list)
-	for i in wu.keys():
-		for j in wu[i]:
-			if "''" in j[0]:
-				j[0].remove("''")
-				fifth[i].append([j[0],j[1],j[2]])
-			else:
-				fifth[i].append(j)
-	mydict={"second": data["second"],"third":data["third"],"fourth":data["fourth"],"fifth":fifth}
-	with open("saved_objects/templates_new3.pickle","wb") as pickle_in:
-		pickle.dump(mydict,pickle_in)
-	print("finished")
+	for k in data.keys():
+		for i in data[k].keys():
+			for j in data[k][i]:
+				if "IN" in j[0]:
+					print(j)
 	'''
 	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
@@ -197,6 +179,7 @@ if __name__ == '__main__':
 		pickle.dump(template_to_line,pickle_in)
 
 '''
+'''
 
 	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:
 		template_to_line=pickle.load(pickle_in)
@@ -212,3 +195,4 @@ if __name__ == '__main__':
 				line=template_to_line[" ".join(i_list)][0]+["\n"]
 				lines+=line
 	print(lines)
+'''
