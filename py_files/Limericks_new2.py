@@ -247,6 +247,13 @@ class Limerick_Generate_new(Limerick_Generate):
 	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
 		'''
 		threshold=10, 10 best words that satisfy constraints that are not the last word.
+		previous_data is a tuple, each element looks like (encodes,score, text, template, (w1,w3)),
+		(list of int) encodes are gpt-index for words
+		, (double) score is the probability, (list of string) text is a the text corresponding to encodes, (list of POS) template
+		is all existing templates, eg if we are genrating third line rn, template is ["somename","second line templates"],
+		(w1,w3) is a tuple, which records the rhyme word in this sense, second line and fifth line last word have to be
+		in the w1s_rhyme_dict[w1], the fourth line last word have to be in w3s_rhyme_dict[w3]. Note if we are only at line2, 
+		then w3 is '', because it hasn't happened yet.
 		'''
 		previous_data=self.encodes_align(previous_data)
 		sentences=[]
@@ -254,6 +261,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			template_curr=[]
 			num_sylls_curr=0
 			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4]])
+		# sentences is a tuple, each element looks like (encodes, score, text, template, current_line_template, how_many_syllabus_used_in_current_line, (w1,w3))
+		# curren_line_template is a partial template of the currently developing line. 
 		finished_sentences=[]
 		iteration=0
 		new_sentences=[1]
@@ -266,7 +275,10 @@ class Limerick_Generate_new(Limerick_Generate):
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
 			new_sentences=[]
+			# new_sentences have the same structure as sentences.
 			quasi_finished_sentences=[]
+			# quasi_finished_sentences is a tuple, each element looks like (encodes, score, text, template,  (w1,w3))
+			# finished_senteces have the same strcutre as quasi_finished_sentences.
 			for i,j in enumerate(logits):
 				sorted_index=np.argsort(-1*j)
 				break_point_continue=0
@@ -360,6 +372,15 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
+
+
+
+
+
+
+
+		
+################"useless"
 	def process_one_word(self,possible,num_sylls, search_space, thresh_hold, which_line,chunck):
 		sentences=chunck[0]
 		logits=chunck[1]
