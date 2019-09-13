@@ -380,7 +380,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_list_list= self.split_chunks(list(range(50256)))
 			manager_wema = mp.Manager()
 			output_wema=manager_wema.Queue()
-			processes = [mp.Process(target=self.batch_process_word, args=(num_list_list[i], output_wema)) for i in range(len(num_list_list))]
+			processes = [mp.Process(target=self.get_wema_dict, args=(num_list_list[i], output_wema)) for i in range(len(num_list_list))]
 			print("******************************** multiprocessing starts with {} processes *************************************".format(len(processes)))
 			for p in processes:
 				p.start()
