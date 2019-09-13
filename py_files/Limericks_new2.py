@@ -50,6 +50,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.create_pos_syllables()
 		self.create_templates_dict(postag_dict[0])
 		self.cpu=mp.cpu_count()
+		print(self.cpu)
 		self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
 		self.width = 20
 		self.enc = get_encoder(self.model_name)
