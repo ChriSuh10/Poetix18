@@ -447,11 +447,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			
 			for index_process, p in enumerate(processes):
 				p.start()
-				print("index_process")
+				print(index_process)
 
 			for index_process, p in enumerate(processes):
 				p.join()
-				print("index_process")
+				print(index_process)
 
 			results = [output.get() for p in processes]
 			new_sentences, quasi_finished_sentences = [], []
