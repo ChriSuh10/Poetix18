@@ -100,7 +100,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
 				del w1s_rhyme_dict[name]
 		print("=========================== Creating Wema =======================================")
-		self.get_wema_dict()
+		self.get_wema_dict_mp()
 		print("=========================== Finished Wema =======================================")
 
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
