@@ -117,7 +117,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
 			text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((first_line_encodes,0,text+["\n"], [text[-1],"\n"],(rhyme,"")))
+			previous_data.append((first_line_encodes,[0],text+["\n"], [text[-1],"\n"],(rhyme,"")))
 
 		# Print out all 3\4 rhymes
 		for i in w3s_rhyme_dict.keys():
@@ -380,7 +380,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_list_list= self.split_chunks(list(range(50256)))
 			manager_wema = mp.Manager()
 			output_wema=manager_wema.Queue()
-			processes = [mp.Process(target=self.batch_process_word, args=(num_list_list[i], output)) for i in range(len(num_list_list))]
+			processes = [mp.Process(target=self.batch_process_word, args=(num_list_list[i], output_wema)) for i in range(len(num_list_list))]
 			print("******************************** multiprocessing starts with {} processes *************************************".format(len(processes)))
 			for p in processes:
 				p.start()
@@ -552,7 +552,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							word = self.enc.decode([index]).lower().strip()
 							if word==self.sentence_to_punctuation[which_line]:
 								finished_sentences.append([quasi_finished_sentences[i][0] + [index],
-															quasi_finished_sentences[i][1] + np.log(j[index]),
+															quasi_finished_sentences[i][1] + [np.log(j[index])],
 															quasi_finished_sentences[i][2]+[word],
 															quasi_finished_sentences[i][3]+[word],
 															quasi_finished_sentences[i][4],
