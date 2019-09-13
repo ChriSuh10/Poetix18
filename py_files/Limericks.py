@@ -519,6 +519,116 @@ class Limerick_Generate:
 
         return w1s_rhyme_dict, w3s_rhyme_dict
 
+    def fill_in_henry(self, end_word, pos="VB", seen_words_set=set(), n_return=10, return_score=False):
+        """
+        <args>:
+        end_word: a given last word;
+        pos: pos_tag(s) of words to fill in; note that pos="VB" includes all pos_tags "VBP", "VBD", etc; similar holds for "NN", etc;
+        seen_words_set: words not to appear;
+        n_return: # of mad-libs choices to return;
+        return_score: True / False, determine whether or not to return the similarity score between each mad-libs choice and end_word;
+        <desc>:
+        find mad-libs choices satisfying a given pos_tag(s) for a given end_word, and return similarity scores if needed;
+        <return>:
+        a list of length <arg> n_return,
+        if return_score is False, the list contains <str>, i.e. mad-libs choices,
+        if return_score is True, the list contains <tuple>, i.e. (mad-libs choice, its similarity score with end_word)'s;
+        """
+        words_list_from_pos = [self.pos_to_words[pos_i] for pos_i in self.pos_to_words if pos_i[:len(pos)] == pos]
+        words_set = set(reduce(lambda x, y: x + y, words_list_from_pos))
+
+        for seen_word in seen_words_set | {end_word}:
+            if seen_word in words_set:
+                words_set.remove(seen_word)
+
+        related_words_list = [(w, self.poetic_vectors.similarity(w, end_word)) for w in words_set if w in self.poetic_vectors]
+        top_related_words_list = sorted(related_words_list, reverse=True, key=lambda x: x[1])[:n_return]
+
+        return top_related_words_list if return_score else [tup[0] for tup in top_related_words_list]
+
+    def score_averaging_henry(self, scores, method="log"):
+        """
+        <args>:
+        scores: a list / arr of floats;
+        method: "log" or "sqrt", i.e. the averaging weight;
+        <desc>:
+        compute weighted average of <arg> scores,
+        the weight is decaying, inverse proportional to the log or sqrt of index;
+        <return>:
+        return a float, i.e. the weighted average;
+        """
+        if method == "log":
+            weight_arr = np.log(np.arange(2, 2 + len(scores), 1))
+
+        elif method == "sqrt":
+            weight_arr = np.sqrt(np.arange(1, 1 + len(scores), 1))
+
+        return np.sum(np.array(scores) * weight_arr) / np.sum(weight_arr)
+
+    def storyline_filtering_henry(self, end_words_set, pos="VBP", n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
+        """
+        <args>:
+        end_words_set: a set of end_words (returned in <func> get_two_sets_henry) that we want to reduce and filter;
+        pos: pos_tag of words to be returned by mad-libs for each end_word;
+        n_fill_in: # of words to be returned by mad-libs for each end_word;
+        score_threshold: threshold of weighted average of similarity score, in order to filter end_words;
+        madlibs_dict: True / False, determine whether return mad-libs or not;
+        <desc>:
+        perform two task:
+        1. filter end_words based on score_threshold, such that the end_words after filtering will be more useful;
+        2. if needed, return mad-libs choices for each filtered end_word;
+        <return>:
+        if madlibs_dict is False, return a <set> of filtered end_words_set;
+        if madlibs_dict is True, return a <dict> with keys being end_words and value being mad-libs choices for each end_word;
+        """
+        end_words_dict = {}
+
+        for end_word in end_words_set:
+            fill_in_return = self.fill_in_henry(end_word, pos=pos, n_return=n_fill_in, return_score=True)
+
+            if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= score_threshold:
+                end_words_dict[end_word] = [tup[0] for tup in fill_in_return]
+
+        return end_words_dict if madlibs_dict else set(end_words_dict.keys())
+
+    def get_two_sets_filtered_henry(self, prompt, pos_list=["VBP", "VBP"], madlibs_dict=False):
+        """
+        <args>:
+        prompt:prompt word;
+        pos_list: [pos_tag of mad-libs for end_words rhyming to storyline word 1,
+                   pos_tag of mad-libs for end_words rhyming to storyline word 3],
+                 pos_tags recommended to be "VB", "VBP", "VBD", "NN", etc;
+        madlibs_dict: True / False, return mad-libs choices of not;
+        <desc>:
+        to improvements upon <func> get_two_sets_henry:
+        1. filter the sets of words rhyming to word 1 / 3 in storyline;
+        2. if needed (madlibs_dict is True), return mad-libs choices for each end_word in the rhyming sets;
+        <return>:
+        a <tuple>, containing two <dicts> w1s_rhyme_filtered_dict and w3s_rhyme_filtered_dict;
+        w1s_rhyme_filtered_dict: keys are w1s in storyline,
+                                 values are <set>s of words rhyming to w1s if madlibs_dict is False,
+                                        are <dicts> with keys being words (end_words) rhyming to w1s
+                                                    and values being mad-libs choices for each end_word
+                                                    if madlibs_dict is True;
+        """
+        w1s_rhyme_dict, w3s_rhyme_dict = self.get_two_sets_henry(prompt)
+
+        w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict = {}, {}
+
+        for w1 in w1s_rhyme_dict:
+            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos=pos_list[0], madlibs_dict=madlibs_dict)
+
+            if len(w1_rhyme_filtered) > 0:
+                w1s_rhyme_filtered_dict[w1.capitalize()] = w1_rhyme_filtered
+
+        for w3 in w3s_rhyme_dict:
+            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos=pos_list[1], madlibs_dict=madlibs_dict)
+
+            if len(w3_rhyme_filtered) > 0:
+                w3s_rhyme_filtered_dict[w3] = w3_rhyme_filtered
+
+        return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
+
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
         Returns all integer partitions of an int with a partition_size number
