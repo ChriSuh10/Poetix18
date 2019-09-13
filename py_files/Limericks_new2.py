@@ -407,7 +407,7 @@ class Limerick_Generate_new(Limerick_Generate):
 									word_dict[k]=embedding_distance
 						if which_line=="third":
 							word_dict=collections.defaultdict()
-							rhyme_set=self.w3s_rhyme_dict.keys():
+							rhyme_set=self.w3s_rhyme_dict.keys()
 							distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
 							distances = list(filter(None, distances))
 							if len(distances)==0:
