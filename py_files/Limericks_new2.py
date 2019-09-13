@@ -91,7 +91,7 @@ class Limerick_Generate_new(Limerick_Generate):
             in parallel to find the best one with the highest score.
 		"""
 
-		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_henry(prompt)
+		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_filtered_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
@@ -99,6 +99,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		for name in w1s_rhyme_dict.keys():
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
 				del w1s_rhyme_dict[name]
+		self.get_wema_dict()
 
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
@@ -374,16 +375,67 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		return data, len(temp_data.keys())
 
-	def get_word_embedding_moving_average(self, original_average, word, rhyme_set):
+	def get_wema_dict(self):
+		self.wema_dict=collections.defaultdict(dict)
+		for index in range(50256):
+			word = self.enc.decode([index]).lower().strip()
+			if len(word)==0:
+				continue
+				# note that both , and . are in these keys()
+			elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
+				continue
+			else:
+				pos_set=set(self.words_to_pos[word])
+				sylls_set=set([len(m) for m in self.dict_meters[word]])
+				if len(pos_set)==0 or len(sylls_set)==0:
+					continue
+				else:
+					line_dict=collections.defaultdict(dict)
+					for which_line in ["second","third","fourth","fifth"]:
+						if which_line=="second":
+							for k in self.w1s_rhyme_dict.keys():
+								word_dict=collections.defaultdict()
+								rhyme_set=self.w1s_rhyme_dict[k]
+								distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+								distances = list(filter(None, distances))
+								if len(distances)==0:
+									continue
+								else:
+									embedding_distance=max(distances)
+									word_dict[k]=embedding_distance
+						if which_line=="third":
+							word_dict=collections.defaultdict()
+							rhyme_set=self.w3s_rhyme_dict.keys():
+							distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+							distances = list(filter(None, distances))
+							if len(distances)==0:
+								continue
+							else:
+								embedding_distance=max(distances)
+								word_dict["third_line_special_case"]=embedding_distance
+						if which_line=="fourth":
+							for k in self.w3s_rhyme_dict.keys():
+								word_dict=collections.defaultdict()
+								rhyme_set=self.w3s_rhyme_dict[k]
+								distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+								distances = list(filter(None, distances))
+								if len(distances)==0:
+									continue
+								else:
+									embedding_distance=max(distances)
+									word_dict[k]=embedding_distance
+						line_dict[which_line]=word_dict
+					self.wema_dict[word]=line_dict
+
+
+
+
+
+	def get_word_embedding_moving_average(self, original_average, word, rhyme_word, which_line):
 		"""
 		Calculate word embedding moving average with the story line set selection.
 		"""
-		moving_average = 0
-		distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
-		distances = list(filter(None, distances))
-		if len(distances) == 0:
-			return original_average
-		embedding_distance = max(distances)
+		embedding_distance=self.wema_dict[word][which_line][rhyme_word]
 		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance \
 
 	def split_chunks(self, logits, sentences):
@@ -510,10 +562,13 @@ class Limerick_Generate_new(Limerick_Generate):
 				rhyme_set_curr = set()
 				if which_line=="second" or which_line=="fifth":
 					rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+					rhyme_word=sentences[i][6][0]
 				if which_line=="third":
 					rhyme_set_curr = self.w3s_rhyme_dict.keys()
+					rhyme_word="third_line_special_case"
 				if which_line=="fourth":
 					rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
+					rhyme_word=sentences[i][6][1]
 
 				if len(word)==0:
 					continue
@@ -535,7 +590,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_set_curr)
+					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
 
 					if continue_flag:
 						for continue_sub_flag in continue_flag:
