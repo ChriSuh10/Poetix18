@@ -442,7 +442,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			
 			logits_list, sentences_list= self.split_chunks(logits, sentences)
 			output = mp.Queue()
-			processes = [mp.Process(target=self.batch_process_word, args=(which_line, logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
+			processes = [mp.Process(target=self.batch_process_word, args=(which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
 			
 			for p in processes:
 				p.start()
@@ -492,7 +492,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
 
-	def batch_process_word(self, which_line,logits, sentences, output):
+	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
 		quasi_finished_sentences = []
 		for i,j in enumerate(logits):
