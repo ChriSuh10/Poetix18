@@ -437,7 +437,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		Calculate word embedding moving average with the story line set selection.
 		"""
-		embedding_distance=self.wema_dict[word][which_line][rhyme_word]
+		if rhyme_word in self.wema_dict[word][which_line].keys():
+			embedding_distance=self.wema_dict[word][which_line][rhyme_word]
+		else:
+			return original_average
 		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance \
 
 	def split_chunks(self, logits, sentences):
@@ -564,13 +567,13 @@ class Limerick_Generate_new(Limerick_Generate):
 				rhyme_set_curr = set()
 				if which_line=="second" or which_line=="fifth":
 					rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
-					rhyme_word=self.w1s_rhyme_dict.keys()
+					rhyme_word=sentences[i][6][0]
 				if which_line=="third":
 					rhyme_set_curr = self.w3s_rhyme_dict.keys()
 					rhyme_word="third_line_special_case"
 				if which_line=="fourth":
 					rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
-					rhyme_word=self.w3s_rhyme_dict.keys()
+					rhyme_word=sentences[i][6][1]
 
 				if len(word)==0:
 					continue
