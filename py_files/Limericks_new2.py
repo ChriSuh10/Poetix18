@@ -501,6 +501,7 @@ class Limerick_Generate_new(Limerick_Generate):
 	def batch_process_word(self, mp_index,which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
 		quasi_finished_sentences = []
+		print("process {} total sentences {}".format(mp_index,len(logits)))
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			print("process {} sentence {}".format(mp_index,i))
