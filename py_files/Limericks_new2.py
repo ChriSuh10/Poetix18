@@ -388,7 +388,7 @@ class Limerick_Generate_new(Limerick_Generate):
 	def split_chunks(self, logits, sentences):
 		logits_list=[]
 		sentences_list=[]
-		chuck_len = int(len(logits)/self.cpu) + 1
+		chuck_len = len(logits)//self.cpu + 1
 		for i in range(0, len(logits), chuck_len):
 			logits_list.append(logits[i:i+chuck_len])
 			sentences_list.append(sentences[i:i+chuck_len])
