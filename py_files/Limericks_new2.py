@@ -443,15 +443,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			
 			logits_list, sentences_list= self.split_chunks(logits, sentences)
 			output = mp.Queue()
-			processes = [mp.Process(target=self.batch_process_word, args=(which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
-			
+			processes = [mp.Process(target=self.batch_process_word, args=(mp_index,which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
+			print("how many processes:",len(processes))
 			for index_process, p in enumerate(processes):
 				p.start()
-				print(index_process)
+				print("start process id:",index_process)
 
 			for index_process, p in enumerate(processes):
 				p.join()
-				print(index_process)
+				print("end process id:",index_process)
 
 			results = [output.get() for p in processes]
 			new_sentences, quasi_finished_sentences = [], []
@@ -490,11 +490,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
 
-	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
+	def batch_process_word(self, mp_index,which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
 		quasi_finished_sentences = []
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
+			print("process {} sentence {}".format(mp_index,i))
 			for index in sorted_index:
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
