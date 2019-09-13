@@ -468,7 +468,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		while_flag=True
 		while (while_flag):
 			if flag+chuck_len<len(data):
-				data.append(data[flag:flag+chuck_len])
+				data_list.append(data[flag:flag+chuck_len])
 			else:
 				data_list.append(data[flag:])
 				while_flag=False
@@ -616,7 +616,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					if continue_flag:
 						for continue_sub_flag in continue_flag:
 							new_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + np.log(j[index]),
+												sentences[i][1] + [np.log(j[index])],
 												sentences[i][2]+[word],
 												sentences[i][3],
 												sentences[i][4]+[continue_sub_flag[0]],
@@ -629,7 +629,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							if which_line=="second" or which_line=="fifth":
 								if word in rhyme_set_curr:
 									quasi_finished_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + np.log(j[index]),
+												sentences[i][1] + [np.log(j[index])],
 												sentences[i][2]+[word],
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 												sentences[i][6],
@@ -637,7 +637,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							if which_line=="third":
 								if word in rhyme_set_curr:
 									quasi_finished_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + np.log(j[index]),
+												sentences[i][1] + [np.log(j[index])],
 												sentences[i][2]+[word],
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 												(sentences[i][6][0],word),
@@ -645,7 +645,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
 									quasi_finished_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + np.log(j[index]),
+												sentences[i][1] + [np.log(j[index])],
 												sentences[i][2]+[word],
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
 												sentences[i][6],
