@@ -448,7 +448,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			
+			print("num of sentences considered {}".format(len(logits)))
 			logits_list, sentences_list= self.split_chunks(logits, sentences)
 			output = mp.Queue()
 			processes = [mp.Process(target=self.batch_process_word, args=(mp_index,which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
