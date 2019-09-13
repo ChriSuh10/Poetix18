@@ -461,22 +461,19 @@ class Limerick_Generate_new(Limerick_Generate):
 			return original_average
 		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance \
 
-	def split_chunks(self, logits, sentences):
-		logits_list=[]
-		sentences_list=[]
-		chuck_len = len(logits)//self.cpu + 1
+	def split_chunks(self, data):
+		data_list=[]
+		chuck_len = len(data)//self.cpu + 1
 		flag=0
 		while_flag=True
 		while (while_flag):
-			if flag+chuck_len<len(logits):
-				logits_list.append(logits[flag:flag+chuck_len])
-				sentences_list.append(sentences[flag:flag+chuck_len])
+			if flag+chuck_len<len(data):
+				data.append(data[flag:flag+chuck_len])
 			else:
-				logits_list.append(logits[flag:])
-				sentences_list.append(sentences[flag:])
+				data_list.append(data[flag:])
 				while_flag=False
 			flag+=chuck_len
-		return logits_list, sentences_list
+		return data_list
 
 
 	def gen_line_flexible(self, previous_data, possible, num_sylls, search_space, which_line):
@@ -523,7 +520,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			logits_list, sentences_list= self.split_chunks(logits, sentences)
+			logits_list= self.split_chunks(logits)
+			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
 			output=manager.Queue()
 			processes = [mp.Process(target=self.batch_process_word, args=(which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
