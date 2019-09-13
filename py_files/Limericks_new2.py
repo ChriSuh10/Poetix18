@@ -564,13 +564,13 @@ class Limerick_Generate_new(Limerick_Generate):
 				rhyme_set_curr = set()
 				if which_line=="second" or which_line=="fifth":
 					rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
-					rhyme_word=sentences[i][6][0]
+					rhyme_word=self.w1s_rhyme_dict.keys()
 				if which_line=="third":
 					rhyme_set_curr = self.w3s_rhyme_dict.keys()
 					rhyme_word="third_line_special_case"
 				if which_line=="fourth":
 					rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
-					rhyme_word=sentences[i][6][1]
+					rhyme_word=self.w3s_rhyme_dict.keys()
 
 				if len(word)==0:
 					continue
