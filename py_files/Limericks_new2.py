@@ -450,7 +450,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
 			print("num of sentences considered {}".format(len(logits)))
 			logits_list, sentences_list= self.split_chunks(logits, sentences)
-			output = mp.Queue()
+			manager = mp.Manager()
+			output=manager.Queue()
 			processes = [mp.Process(target=self.batch_process_word, args=(mp_index,which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
 			print("how many processes:",len(processes))
 			for index_process, p in enumerate(processes):
