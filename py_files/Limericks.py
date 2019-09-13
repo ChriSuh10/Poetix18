@@ -32,7 +32,7 @@ class Limerick_Generate:
                  syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
                  postag_file='py_files/saved_objects/postag_dict_all.p',
                  model_dir='py_files/models/all_combined_back',
-                 model_name='117M', load_poetic_vectors=True):
+                 model_name='345M', load_poetic_vectors=True):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
@@ -161,13 +161,37 @@ class Limerick_Generate:
         float
             Word similarity between the word and the seed word.
         """
+        if word not in self.words_to_pos or seed not in self.words_to_pos:
+            return None
         word_pos = self.words_to_pos[word]
         if 'JJ' in word_pos \
-            or 'NN' not in word_pos \
+            or 'NN' in word_pos \
             or any('VB' in pos for pos in word_pos):
             return self.poetic_vectors.similarity(word, seed)
         return None
 
+    def is_duplicate_in_previous_words(self, word, previous):
+        """
+        Given a new word and previous words, if the word is a noun or adjective,
+        and has appeared previously in the poem, return true. Otherwise, return
+        false.
+        Parameters
+        ----------
+        word : str
+            New word we want to put into the poem.
+        previous : list of str
+            previous words in the poem.
+        Returns
+        -------
+        bool
+            Whether the word is a duplicate.
+        """
+        if word not in self.words_to_pos:
+            return False
+        word_pos = self.words_to_pos[word]
+        if len(word_pos) == 0:
+            return False
+        return ('JJ' == word_pos[0] or 'NN' == word_pos[0]) and word in previous
 
     def two_word_link(self, w1, w2, seen_words):
         """
