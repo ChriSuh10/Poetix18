@@ -376,10 +376,27 @@ class Limerick_Generate_new(Limerick_Generate):
 			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])) + self.word_embedding_coefficient * x[5])
 
 		return data, len(temp_data.keys())
+	def get_wema_dict_mp(self):
+			num_list_list= self.split_chunks(list(range(50256)))
+			manager_wema = mp.Manager()
+			output_wema=manager_wema.Queue()
+			processes = [mp.Process(target=self.batch_process_word, args=(num_list_list[i], output)) for i in range(len(num_list_list))]
+			print("******************************** multiprocessing starts with {} processes *************************************".format(len(processes)))
+			for p in processes:
+				p.start()
+			for p in processes:
+				p.join()
+			results = [output_wema.get() for p in processes]
+			self.wema_dict=collections.defaultdict(dict)
+			for r in results:
+				for word in r.keys():
+					self.wema_dict[word]=r[word]
+			print("********************************** multiprocessing ends for wema *****************************************************")
 
-	def get_wema_dict(self):
-		self.wema_dict=collections.defaultdict(dict)
-		for index in range(50256):
+
+	def get_wema_dict(self, num_list, output_wema):
+		wema_dict=collections.defaultdict(dict)
+		for index in num_list:
 			word = self.enc.decode([index]).lower().strip()
 			if len(word)==0:
 				continue
@@ -427,7 +444,8 @@ class Limerick_Generate_new(Limerick_Generate):
 									embedding_distance=max(distances)
 									word_dict[k]=embedding_distance
 						line_dict[which_line]=word_dict
-					self.wema_dict[word]=line_dict
+					wema_dict[word]=line_dict
+		output_wema.put(wema_dict)
 
 
 
