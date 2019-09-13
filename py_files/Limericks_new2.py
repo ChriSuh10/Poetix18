@@ -385,6 +385,15 @@ class Limerick_Generate_new(Limerick_Generate):
 		embedding_distance = max(distances)
 		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance \
 
+	def split_chunks(self, logits, sentences):
+		logits_list=[]
+		sentences_list=[]
+		chuck_len = len(logits)/self.cpu + 1
+		for i in range(0, len(logits), chuck_len):
+			logits_list.append(logits[i:i+chuck_len])
+			sentences_list.append(sentences[i:i+chuck_len])
+		return logits_list, sentences_list
+
 
 	def gen_line_flexible(self, previous_data, possible, num_sylls, search_space, which_line):
 		'''
@@ -430,86 +439,23 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			new_sentences=[]
-			# new_sentences have the same structure as sentences.
-			quasi_finished_sentences=[]
-			# quasi_finished_sentences is a tuple, each element looks like (encodes, score, text, template,  (w1,w3))
-			# finished_senteces have the same strcutre as quasi_finished_sentences.
-			for i,j in enumerate(logits):
-				sorted_index=np.argsort(-1*j)
-				for index in sorted_index:
-					# Get current line's template, word embedding average, word, rhyme set, etc.
-					word = self.enc.decode([index]).lower().strip()
-					template_curr=sentences[i][4]
-					num_sylls_curr=sentences[i][5]
-					moving_avg_curr=sentences[i][7]
-					rhyme_set_curr = set()
-					if which_line=="second" or which_line=="fifth":
-						rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
-					if which_line=="third":
-						rhyme_set_curr = self.w3s_rhyme_dict.keys()
-					if which_line=="fourth":
-						rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
+			
+			logits_list, sentences_list= self.split_chunks(logits, sentences)
+			output = mp.Queue()
+			processes = [mp.Process(target=self.batch_process_word, args=(logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
+			
+			for p in processes:
+				p.start()
 
-					if len(word)==0:
-						continue
+			for p in processes:
+				p.join()
 
-					# note that both , and . are in these keys()
-					elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
-						continue
-					else:
-						pos_set=set(self.words_to_pos[word])
-						sylls_set=set([len(m) for m in self.dict_meters[word]])
-						if len(pos_set)==0 or len(sylls_set)==0:
-							continue
-						# If the word is a noun or adjective and has appeared
-						# previously, we discard the sentence.
-						if self.is_duplicate_in_previous_words(word, sentences[i][2]):
-							continue
+			results = [output.get() for p in processes]
+			new_sentences, quasi_finished_sentences = [], []
+			for result in results:
+				new_sentences += result[0]
+				quasi_finished_sentences += result[1]
 
-						# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
-						# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-						word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_set_curr)
-
-						if continue_flag:
-							for continue_sub_flag in continue_flag:
-								new_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3],
-													sentences[i][4]+[continue_sub_flag[0]],
-													sentences[i][5]+continue_sub_flag[1],
-													sentences[i][6],
-													word_embedding_moving_average])
-						if end_flag:
-							for end_sub_flag in end_flag:
-								# All the same ??
-								if which_line=="second" or which_line=="fifth":
-									if word in rhyme_set_curr:
-										quasi_finished_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-													sentences[i][6],
-													word_embedding_moving_average])
-								if which_line=="third":
-									if word in rhyme_set_curr:
-										quasi_finished_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-													(sentences[i][6][0],word),
-													word_embedding_moving_average])
-								if which_line=="fourth":
-									if word in rhyme_set_curr:
-										quasi_finished_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-													sentences[i][6],
-													word_embedding_moving_average])
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					context_token=[s[0] for s in quasi_finished_sentences]
@@ -545,3 +491,83 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
+
+	def batch_process_word(self, logits, sentences, output):
+		new_sentences = []
+		quasi_finished_sentences = []
+		for i,j in enumerate(logits):
+			sorted_index=np.argsort(-1*j)
+			for index in sorted_index:
+				# Get current line's template, word embedding average, word, rhyme set, etc.
+				word = self.enc.decode([index]).lower().strip()
+				template_curr=sentences[i][4]
+				num_sylls_curr=sentences[i][5]
+				moving_avg_curr=sentences[i][7]
+				rhyme_set_curr = set()
+				if which_line=="second" or which_line=="fifth":
+					rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+				if which_line=="third":
+					rhyme_set_curr = self.w3s_rhyme_dict.keys()
+				if which_line=="fourth":
+					rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
+
+				if len(word)==0:
+					continue
+
+				# note that both , and . are in these keys()
+				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
+					continue
+				else:
+					pos_set=set(self.words_to_pos[word])
+					sylls_set=set([len(m) for m in self.dict_meters[word]])
+					if len(pos_set)==0 or len(sylls_set)==0:
+						continue
+					# If the word is a noun or adjective and has appeared
+					# previously, we discard the sentence.
+					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
+						continue
+
+					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
+					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
+					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
+					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
+					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_set_curr)
+
+					if continue_flag:
+						for continue_sub_flag in continue_flag:
+							new_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3],
+												sentences[i][4]+[continue_sub_flag[0]],
+												sentences[i][5]+continue_sub_flag[1],
+												sentences[i][6],
+												word_embedding_moving_average])
+					if end_flag:
+						for end_sub_flag in end_flag:
+							# All the same ??
+							if which_line=="second" or which_line=="fifth":
+								if word in rhyme_set_curr:
+									quasi_finished_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+												sentences[i][6],
+												word_embedding_moving_average])
+							if which_line=="third":
+								if word in rhyme_set_curr:
+									quasi_finished_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+												(sentences[i][6][0],word),
+												word_embedding_moving_average])
+							if which_line=="fourth":
+								if word in rhyme_set_curr:
+									quasi_finished_sentences.append([sentences[i][0] + [index],
+												sentences[i][1] + np.log(j[index]),
+												sentences[i][2]+[word],
+												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+												sentences[i][6],
+												word_embedding_moving_average])
+		output.put((new_sentences, quasi_finished_sentences))
