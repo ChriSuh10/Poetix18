@@ -29,6 +29,7 @@ import pickle
 from .Limericks import Limerick_Generate
 import multiprocessing as mp
 random.seed(20)
+
 class Limerick_Generate_new(Limerick_Generate):
 	def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
             syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
@@ -45,14 +46,15 @@ class Limerick_Generate_new(Limerick_Generate):
 		    postag_dict = pickle.load(f)
 		self.pos_to_words = postag_dict[1]
 		self.words_to_pos = postag_dict[2]
+
 		self.create_pos_syllables()
 		self.create_templates_dict(postag_dict[0])
 		self.cpu=mp.cpu_count()
+		print(self.cpu)
 		self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
 		self.width = 20
-		# Not sure what this does, necessary for search_back function
-		self.word_pools = [set([]) for n in range(4)]
 		self.enc = get_encoder(self.model_name)
+
 		# get male and female names
 		with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
@@ -62,73 +64,129 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
-		# punctuations 
+
+		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
 
+		# word embedding coefficients
+		self.word_embedding_alpha = 0.5
+		self.word_embedding_coefficient = 0.1
+
 		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
-	def gen_poem_andre_new(self,prompt,search_space,thresh_hold):
-		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_henry(prompt)
+
+
+	def gen_poem_andre_new(self,prompt,search_space):
+		"""
+		Generate poems with multiple templates given a seed word (prompt) and GPT2
+		search space.
+        Parameters
+        ----------
+		prompt: str
+			A seed word used to kickstart poetry generation.
+        search_space : int
+            Search space of the sentence finding algorithm.
+            The larger the search space, the more sentences the network runs
+            in parallel to find the best one with the highest score.
+		"""
+
+		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_filtered_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
+
 		for name in w1s_rhyme_dict.keys():
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
 				del w1s_rhyme_dict[name]
-		assert len(w1s_rhyme_dict.keys())>0, "no storyline available"
+		print("=========================== Creating Wema =======================================")
+		self.get_wema_dict()
+		print("=========================== Finished Wema =======================================")
+
+		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
-		with open("limericks_data_new/"+prompt+"_"+str(search_space)+"_"+str(thresh_hold)+".txt","a+") as f:
-			previous_data=[]
-			for i in w1s_rhyme_dict.keys():
-				f.write("================================ 125 rhymes ===================================")
-				f.write(i+":"+"\n")
-				f.write(" ".join(w1s_rhyme_dict[i])+"\n")
-				text=random.choice(self.gen_first_line_new(i.lower(),strict=True))
-				first_line_encodes = self.enc.encode(" ".join(text))
-				# previous data [(encodes,score, text, template, (w1,w3))]
-				previous_data.append((first_line_encodes,0,text+["\n"], [text[-1],"\n"],(i,"")))
-			for i in w3s_rhyme_dict.keys():
-				f.write("=============================== 34 rhymes  =====================================")
-				f.write(i+":"+"\n")
-				f.write(" ".join(w3s_rhyme_dict[i])+"\n")
-			for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-			#for which_line, num_sylls in zip(["third"],[6]):
-				print("======================= starting {} line generation =============================".format(which_line))
-				last_word_set=last_word_dict[which_line]
-				possible=self.get_all_templates(num_sylls,which_line,last_word_set)
-				previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space, thresh_hold=thresh_hold, which_line=which_line)
-			temp_data=defaultdict(list)
-			for i in previous_data:
-				temp_data[" ".join(i[3])].append(i)
-			for t,k in enumerate(temp_data.keys()):
-				lines=[]
-				for i in k.split("\n")[1:]:
-					i=i.strip()
-					if len(i)!=0:
-						i_list=i.split(" ")
-						if i_list[-1] in [",","."]:
-							i_list=i_list[:-1]
-						line=self.template_to_line[" ".join(i_list)][0]+["\n"]
-						lines+=line
-				f.write("=======================template: {}============================  \n".format(t+1))
-				f.write(k)
-				f.write("-----------------------original------------------------------------ \n")
-				f.write(" ".join(lines))
-				for j in temp_data[k]:
-					f.write("-------------------------score:  {}----------------------- \n".format(j[1]/len(j[3])))
-					f.write(" ".join(j[2]))
 
+		result_file_path = "limericks_data_new/" + prompt+"_" + str(search_space)+".txt"
+		f = open(result_file_path,"a+")
 
+		previous_data=[]
+		# Append all first lines
+		for rhyme in w1s_rhyme_dict.keys():
+			f.write("================================ 125 rhymes ===================================")
+			f.write(rhyme+":"+"\n")
+			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
+			text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
+			first_line_encodes = self.enc.encode(" ".join(text))
+			previous_data.append((first_line_encodes,0,text+["\n"], [text[-1],"\n"],(rhyme,"")))
+
+		# Print out all 3\4 rhymes
+		for i in w3s_rhyme_dict.keys():
+			f.write("=============================== 34 rhymes  =====================================")
+			f.write(i+":"+"\n")
+			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
+
+		# Generate 2,3,4,5 lines of the poem
+		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+			print("======================= starting {} line generation =============================".format(which_line))
+			last_word_set=last_word_dict[which_line]
+			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
+			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space, which_line=which_line)
+
+		# Print out generated poems
+		temp_data=defaultdict(list)
+		for line in previous_data:
+			temp_data[" ".join(line[3])].append(line)
+
+		for t,k in enumerate(temp_data.keys()):
+			lines=[]
+			for i in k.split("\n")[1:]:
+				i=i.strip()
+				if len(i)!=0:
+					i_list=i.split(" ")
+					if i_list[-1] in [",","."]:
+						i_list=i_list[:-1]
+					line=self.template_to_line[" ".join(i_list)][0]+["\n"]
+					lines+=line
+
+			f.write("=======================template: {}============================  \n".format(t+1))
+			f.write(k)
+			f.write("-----------------------original------------------------------------ \n")
+			f.write(" ".join(lines))
+			for j in temp_data[k]:
+				f.write("-------------------------score:  {}----------------------- \n".format(j[1]/len(j[3])))
+				f.write(" ".join(j[2]))
 
 	def encodes_align(self,previous_data):
+		"""
+		Different lines have different encodes length. We force the encodes to
+		have the same length as the minimal length encodes so that the encodes
+		is a matrix that GPT2 accepts.
+		"""
 		encodes_length=[len(i[0]) for i in previous_data]
 		encodes=[i[0][-min(encodes_length):] for i in previous_data]
 		temp=[]
 		for i,j in enumerate(previous_data):
 			temp.append((encodes[i],j[1],j[2],j[3],j[4]))
 		return temp
-	def last_word_dict(self, w1s_rhyme_dict,w3s_rhyme_dict):
+
+	def last_word_dict(self, w1s_rhyme_dict, w3s_rhyme_dict):
+		"""
+		Given the rhyme sets, extract all possible last words from the rhyme set
+		dictionaries.
+
+        Parameters
+        ----------
+		w1s_rhyme_dict: dictionary
+			Format is {w1: [w2/w5s]}
+		w3s_rhyme_dict: dictionary
+			Format is {w3: [w4s]}
+
+        Returns
+        -------
+        dictionary
+            Format is {'second': ['apple', 'orange'], 'third': ['apple', orange] ... }
+
+		"""
 		last_word_dict={}
 		for i in ["second","third","fourth","fifth"]:
 			temp=[]
@@ -138,9 +196,14 @@ class Limerick_Generate_new(Limerick_Generate):
 			if i== "third" or i== "fourth":
 				for k in w3s_rhyme_dict.keys():
 					temp+=w3s_rhyme_dict[k]
-			last_word_dict[i]=list(set(temp))
+			last_word_dict[i]=[*{*temp}]
 		return last_word_dict
+
 	def sylls_bounds(self,partial_template):
+		"""
+		Return upper and lower bounds of syllables in a POS template.
+		"""
+
 		threshold=0.1
 		sylls_up=0
 		sylls_lo=0
@@ -153,8 +216,12 @@ class Limerick_Generate_new(Limerick_Generate):
 				sylls_up+=max(x)
 				sylls_lo+=min(x)
 		return sylls_up, sylls_lo
+
 	def there_is_template_new(self,last_word_info,num_sylls, which_line):
-		# return a list of possible templates
+		"""
+		Return a list of possible templates given last word's POS, last word's syllabes
+		and which line it is.
+		"""
 		threshold=0.1
 		pos=last_word_info[0]
 		sylls=last_word_info[1]
@@ -171,14 +238,13 @@ class Limerick_Generate_new(Limerick_Generate):
 				if num_sylls-sylls>=sylls_lo and num_sylls-sylls<=sylls_up:
 					possible.append(i)
 		return possible
-	def unique_list(self,x):
-		output=[]
-		for i in x:
-			if i not in output:
-				output.append(i)
-		return output
 
-	def get_all_templates(self,num_sylls,which_line, last_word_set):
+	def get_all_templates(self, num_sylls, which_line, last_word_set):
+		"""
+		Given number of syllables a line has, which line it is and all possible last
+		words, return all possible POS templates
+		"""
+
 		last_word_info_set=set()
 		temp=[]
 		for i in last_word_set:
@@ -187,9 +253,34 @@ class Limerick_Generate_new(Limerick_Generate):
 					last_word_info_set.add((j,len(self.dict_meters[i][0])))
 		for i in last_word_info_set:
 			temp+=self.there_is_template_new(i, num_sylls, which_line)
-		temp=self.unique_list(temp)
+		temp=[list(x) for x in set(tuple(x) for x in temp)]
 		return temp
-	def template_sylls_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls):
+
+	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):
+		"""
+		Check whether the current word could fit into our template with given syllables constraint
+
+        Parameters
+        ----------
+		pos_set: set
+			POS of the current word
+		sylls_set: set
+			Possible number of syllabes of the current word
+		template_curr: list
+			Partial, unfinished POS template of the current line (e.g. [NN, VB, NN])
+		num_sylls_curr: int
+			Syllable count of the partially constructed sentence
+		possible: list
+			All possible POS templates associated with the current line
+		num_sylls: int
+			predefined number of syllables the current line should have (e.g. 6,9)
+
+        Returns
+        -------
+        list
+            Format is [(POS, sylls)], a combination of possible POS
+			and number of syllables of the current word
+		"""
 		continue_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
@@ -201,7 +292,34 @@ class Limerick_Generate_new(Limerick_Generate):
 								continue_flag.append((pos,sylls))
 		if len(continue_flag)==0: continue_flag=False
 		return continue_flag
-	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug):
+
+	def end_template_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):
+		"""
+		Check whether the current word could fit into a template as the last word
+		of the line with given syllables constraint
+
+        Parameters
+        ----------
+		pos_set: set
+			POS of the current word
+		sylls_set: set
+			Possible number of syllabes of the current word
+		template_curr: list
+			Partial, unfinished POS template of the current line (e.g. [NN, VB, NN])
+		num_sylls_curr: int
+			Syllable count of the partially constructed sentence
+		possible: list
+			All possible POS templates associated with the current line
+		num_sylls: int
+			predefined number of syllables the current line should have (e.g. 6,9)
+
+        Returns
+        -------
+        list
+            Format is [(POS, sylls)], a combination of possible POS
+			and number of syllables of the current word
+		"""
+
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
@@ -213,7 +331,22 @@ class Limerick_Generate_new(Limerick_Generate):
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
+
 	def diversity_sort(self,search_space, data, finished):
+		"""
+		Check whether the current word could fit into a template as the last word
+		of the line with given syllables constraint
+
+        Parameters
+        ----------
+		search_space: int
+			Number of sentences returned
+		data: list
+			Input sentences
+		finished: bool
+			Whether the current sentence is completed
+		"""
+
 		temp_data=defaultdict(list)
 		for n in data:
 			if not finished:
@@ -227,42 +360,137 @@ class Limerick_Generate_new(Limerick_Generate):
 		x=random.sample(list_of_keys, len(list_of_keys))
 		for k in x:
 			if not finished:
-				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])))
+				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])) + self.word_embedding_coefficient * x[7])
 			else:
-				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/len(x[3]))
+				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/len(x[3]) + self.word_embedding_coefficient * x[5])
 			data+=temp
 			break_point+=1
 			#if break_point>=20: break
 		if not finished:
-			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])+len(x[4])))
+			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])+len(x[4])) + self.word_embedding_coefficient * x[7])
 			random_sample=random.sample(data,min(len(data),search_space))
-			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])+len(x[4])))
+			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])+len(x[4])) + self.word_embedding_coefficient * x[7])
 		else:
-			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])))
+			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])) + self.word_embedding_coefficient * x[5])
 			random_sample=random.sample(data,min(len(data),search_space))
-			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])))
+			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])) + self.word_embedding_coefficient * x[5])
 
 		return data, len(temp_data.keys())
 
-	def gen_line_flexible(self, previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
+	def get_wema_dict(self):
+		self.wema_dict=collections.defaultdict(dict)
+		for index in range(50256):
+			word = self.enc.decode([index]).lower().strip()
+			if len(word)==0:
+				continue
+				# note that both , and . are in these keys()
+			elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
+				continue
+			else:
+				pos_set=set(self.words_to_pos[word])
+				sylls_set=set([len(m) for m in self.dict_meters[word]])
+				if len(pos_set)==0 or len(sylls_set)==0:
+					continue
+				else:
+					line_dict=collections.defaultdict(dict)
+					for which_line in ["second","third","fourth","fifth"]:
+						if which_line=="second":
+							for k in self.w1s_rhyme_dict.keys():
+								word_dict=collections.defaultdict()
+								rhyme_set=self.w1s_rhyme_dict[k]
+								distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+								distances = list(filter(None, distances))
+								if len(distances)==0:
+									continue
+								else:
+									embedding_distance=max(distances)
+									word_dict[k]=embedding_distance
+						if which_line=="third":
+							word_dict=collections.defaultdict()
+							rhyme_set=self.w3s_rhyme_dict.keys()
+							distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+							distances = list(filter(None, distances))
+							if len(distances)==0:
+								continue
+							else:
+								embedding_distance=max(distances)
+								word_dict["third_line_special_case"]=embedding_distance
+						if which_line=="fourth":
+							for k in self.w3s_rhyme_dict.keys():
+								word_dict=collections.defaultdict()
+								rhyme_set=self.w3s_rhyme_dict[k]
+								distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+								distances = list(filter(None, distances))
+								if len(distances)==0:
+									continue
+								else:
+									embedding_distance=max(distances)
+									word_dict[k]=embedding_distance
+						line_dict[which_line]=word_dict
+					self.wema_dict[word]=line_dict
+
+
+
+
+
+	def get_word_embedding_moving_average(self, original_average, word, rhyme_word, which_line):
+		"""
+		Calculate word embedding moving average with the story line set selection.
+		"""
+		embedding_distance=self.wema_dict[word][which_line][rhyme_word]
+		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance \
+
+	def split_chunks(self, logits, sentences):
+		logits_list=[]
+		sentences_list=[]
+		chuck_len = len(logits)//self.cpu + 1
+		flag=0
+		while_flag=True
+		while (while_flag):
+			if flag+chuck_len<len(logits):
+				logits_list.append(logits[flag:flag+chuck_len])
+				sentences_list.append(sentences[flag:flag+chuck_len])
+			else:
+				logits_list.append(logits[flag:])
+				sentences_list.append(sentences[flag:])
+				while_flag=False
+			flag+=chuck_len
+		return logits_list, sentences_list
+
+
+	def gen_line_flexible(self, previous_data, possible, num_sylls, search_space, which_line):
 		'''
-		threshold=10, 10 best words that satisfy constraints that are not the last word.
-		previous_data is a tuple, each element looks like (encodes,score, text, template, (w1,w3)),
-		(list of int) encodes are gpt-index for words
-		, (double) score is the probability, (list of string) text is a the text corresponding to encodes, (list of POS) template
-		is all existing templates, eg if we are genrating third line rn, template is ["somename","second line templates"],
-		(w1,w3) is a tuple, which records the rhyme word in this sense, second line and fifth line last word have to be
-		in the w1s_rhyme_dict[w1], the fourth line last word have to be in w3s_rhyme_dict[w3]. Note if we are only at line2, 
-		then w3 is '', because it hasn't happened yet.
+		Generate a line using multiple templates.
+
+        Parameters
+        ----------
+		previous_data: list of tuple
+			Each element is (encodes, score, text, template, (w1,w3)).
+			encodes: list of int
+				encodes are gpt-index for words
+			score: double
+				 Score is the probability of the line
+			text: list of str
+				the text corresponding to encodes
+			template: list of POS
+				template is all existing templates, e.g. if we are genrating third line right now, template is ["somename","second line templates"].
+			(w1,w3):  tuple,
+				It records the rhyme word in this sense, second line and fifth line last word have to be
+				in the w1s_rhyme_dict[w1], the fourth line last word have to be in w3s_rhyme_dict[w3]. Note if we are only at line2,
+				then w3 is '', because it hasn't happened yet.
+		search_space: int
+			We generate search_space lines and sort them by probability to find out the bes line.
+		which_line: int
+			which line it is (1,2,3,4 or 5)
 		'''
 		previous_data=self.encodes_align(previous_data)
 		sentences=[]
 		for i in previous_data:
 			template_curr=[]
 			num_sylls_curr=0
-			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4]])
-		# sentences is a tuple, each element looks like (encodes, score, text, template, current_line_template, how_many_syllabus_used_in_current_line, (w1,w3))
-		# curren_line_template is a partial template of the currently developing line. 
+			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4], 0])
+		# sentences is a tuple, each element looks like (encodes, score, text, template, current_line_template, how_many_syllabus_used_in_current_line, (w1,w3), moving average)
+		# curren_line_template is a partial template of the currently developing line.
 		finished_sentences=[]
 		iteration=0
 		new_sentences=[1]
@@ -274,70 +502,23 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			new_sentences=[]
-			# new_sentences have the same structure as sentences.
-			quasi_finished_sentences=[]
-			# quasi_finished_sentences is a tuple, each element looks like (encodes, score, text, template,  (w1,w3))
-			# finished_senteces have the same strcutre as quasi_finished_sentences.
-			for i,j in enumerate(logits):
-				sorted_index=np.argsort(-1*j)
-				break_point_continue=0
-				break_point_end=0
-				for index in sorted_index:
-					word = self.enc.decode([index]).lower().strip()
-					if len(word) == 0:
-						continue
-					# note that both , and . are in these keys()
-					elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
-						continue
-					else:
-						pos_set=set(self.words_to_pos[word])
-						sylls_set=set([len(m) for m in self.dict_meters[word]])
-						if len(pos_set)==0 or len(sylls_set)==0:
-							continue						
-						template_curr=sentences[i][4]
-						num_sylls_curr=sentences[i][5]
-						# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
-						# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-						debug=False
-						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=word)
-						if continue_flag:
-							for continue_sub_flag in continue_flag:
-								new_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3],
-													sentences[i][4]+[continue_sub_flag[0]],
-													sentences[i][5]+continue_sub_flag[1],
-													sentences[i][6]])
-								break_point_continue+=1
-						if end_flag:
-							for end_sub_flag in end_flag:
-								if which_line=="second" or which_line=="fifth":
-									if word in self.w1s_rhyme_dict[sentences[i][6][0]]:
-										quasi_finished_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-													sentences[i][6]])
-										break_point_end+=1
-								if which_line=="third":
-									if word in self.w3s_rhyme_dict.keys():
-										quasi_finished_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-													(sentences[i][6][0],word)])
-										break_point_end+=1
-								if which_line=="fourth":
-									if word in self.w3s_rhyme_dict[sentences[i][6][1]]:
-										quasi_finished_sentences.append([sentences[i][0] + [index],
-													sentences[i][1] + np.log(j[index]),
-													sentences[i][2]+[word],
-													sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-													sentences[i][6]])
-										break_point_end+=1
+			logits_list, sentences_list= self.split_chunks(logits, sentences)
+			manager = mp.Manager()
+			output=manager.Queue()
+			processes = [mp.Process(target=self.batch_process_word, args=(which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
+			print("******************************** multiprocessing starts with {} processes *************************************".format(len(processes)))
+			for p in processes:
+				p.start()
+
+			for p in processes:
+				p.join()
+			print("********************************** multiprocessing ends *****************************************************")
+			results = [output.get() for p in processes]
+			new_sentences, quasi_finished_sentences = [], []
+			for result in results:
+				new_sentences += result[0]
+				quasi_finished_sentences += result[1]
+
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					context_token=[s[0] for s in quasi_finished_sentences]
@@ -355,7 +536,8 @@ class Limerick_Generate_new(Limerick_Generate):
 															quasi_finished_sentences[i][1] + np.log(j[index]),
 															quasi_finished_sentences[i][2]+[word],
 															quasi_finished_sentences[i][3]+[word],
-															quasi_finished_sentences[i][4]])
+															quasi_finished_sentences[i][4],
+															quasi_finished_sentences[i][5]])
 								break
 			else:
 				for q in quasi_finished_sentences:
@@ -363,33 +545,36 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("\n ========================= iteration {} ends =============================".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
-			'''
-			for sen in sentences:
-				print(sen)
-				print("\n")
-			'''
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
 
-
-
-
-
-
-
-		
-################"useless"
-	def process_one_word(self,possible,num_sylls, search_space, thresh_hold, which_line,chunck):
-		sentences=chunck[0]
-		logits=chunck[1]
+	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
+		new_sentences = []
+		quasi_finished_sentences = []
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
-			for index in sorted_index:
+			for ii,index in enumerate(sorted_index):
+				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
-				if len(word) == 0:
+				template_curr=sentences[i][4]
+				num_sylls_curr=sentences[i][5]
+				moving_avg_curr=sentences[i][7]
+				rhyme_set_curr = set()
+				if which_line=="second" or which_line=="fifth":
+					rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+					rhyme_word=self.w1s_rhyme_dict.keys()
+				if which_line=="third":
+					rhyme_set_curr = self.w3s_rhyme_dict.keys()
+					rhyme_word="third_line_special_case"
+				if which_line=="fourth":
+					rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
+					rhyme_word=self.w3s_rhyme_dict.keys()
+
+				if len(word)==0:
 					continue
+
 				# note that both , and . are in these keys()
 				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 					continue
@@ -397,13 +582,18 @@ class Limerick_Generate_new(Limerick_Generate):
 					pos_set=set(self.words_to_pos[word])
 					sylls_set=set([len(m) for m in self.dict_meters[word]])
 					if len(pos_set)==0 or len(sylls_set)==0:
-						continue						
-					template_curr=sentences[i][4]
-					num_sylls_curr=sentences[i][5]
+						continue
+					# If the word is a noun or adjective and has appeared
+					# previously, we discard the sentence.
+					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
+						continue
+
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=word)
+					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
+					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
+
 					if continue_flag:
 						for continue_sub_flag in continue_flag:
 							new_sentences.append([sentences[i][0] + [index],
@@ -412,93 +602,33 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][3],
 												sentences[i][4]+[continue_sub_flag[0]],
 												sentences[i][5]+continue_sub_flag[1],
-												sentences[i][6]])
+												sentences[i][6],
+												word_embedding_moving_average])
 					if end_flag:
 						for end_sub_flag in end_flag:
+							# All the same ??
 							if which_line=="second" or which_line=="fifth":
-								if word in self.w1s_rhyme_dict[sentences[i][6][0]]:
+								if word in rhyme_set_curr:
 									quasi_finished_sentences.append([sentences[i][0] + [index],
 												sentences[i][1] + np.log(j[index]),
 												sentences[i][2]+[word],
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-												sentences[i][6]])
+												sentences[i][6],
+												word_embedding_moving_average])
 							if which_line=="third":
-								if word in self.w3s_rhyme_dict.keys():
+								if word in rhyme_set_curr:
 									quasi_finished_sentences.append([sentences[i][0] + [index],
 												sentences[i][1] + np.log(j[index]),
 												sentences[i][2]+[word],
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-												(sentences[i][6][0],word)])
+												(sentences[i][6][0],word),
+												word_embedding_moving_average])
 							if which_line=="fourth":
-								if word in self.w3s_rhyme_dict[sentences[i][6][1]]:
+								if word in rhyme_set_curr:
 									quasi_finished_sentences.append([sentences[i][0] + [index],
 												sentences[i][1] + np.log(j[index]),
 												sentences[i][2]+[word],
 												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
-												sentences[i][6]])
-		return (new_sentences, quasi_finished_sentences)
-	def split_mp(data):
-		d=len(data)//self.cpu
-		temp=[]
-		for i in range(self.cpu):
-			if i!=self.cpu-1:
-				temp.append(data[i*d:(i+1)*d])
-			else:
-				temp.append(data[i*d:])
-		return temp
-	def combine_mp():
-		pass
-	def gen_line_multi_process(self,previous_data, possible,num_sylls, search_space, thresh_hold, which_line):
-		previous_data=self.encodes_align(previous_data)
-		sentences=[]
-		for i in previous_data:
-			template_curr=[]
-			num_sylls_curr=0
-			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4]])
-		finished_sentences=[]
-		iteration=0
-		new_sentences=[1]
-		while(len(new_sentences)>0):
-			iteration+=1
-			context_token=[s[0] for s in sentences]
-			m=len(context_token)
-			context_token=np.array(context_token).reshape(m,-1)
-			print("******************************** gpt2 Starts Processing Next Word **********************************")
-			logits = score_model(model_name=self.model_name, context_token = context_token)
-			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			new_sentences=[]
-			quasi_finished_sentences=[]
-			if self.punctuation[which_line]:
-				if len(quasi_finished_sentences)>0:
-					context_token=[s[0] for s in quasi_finished_sentences]
-					m=len(context_token)
-					context_token=np.array(context_token).reshape(m,-1)
-					print("################################## gpt2 Starts Adding Punctuation #############################")
-					logits = score_model(model_name=self.model_name, context_token = context_token)
-					print("################################## gpt2 Finished Adding Punctuation #############################")
-					for i,j in enumerate(logits):
-						sorted_index=np.argsort(-1*j)
-						for index in sorted_index:
-							word = self.enc.decode([index]).lower().strip()
-							if word==self.sentence_to_punctuation[which_line]:
-								finished_sentences.append([quasi_finished_sentences[i][0] + [index],
-															quasi_finished_sentences[i][1] + np.log(j[index]),
-															quasi_finished_sentences[i][2]+[word],
-															quasi_finished_sentences[i][3]+[word],
-															quasi_finished_sentences[i][4]])
-								break
-			else:
-				for q in quasi_finished_sentences:
-					finished_sentences.append(q)
-			print("\n ========================= iteration {} ends =============================".format(iteration))
-			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
-			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
-			'''
-			for sen in sentences:
-				print(sen)
-				print("\n")
-			'''
-		assert len(sentences)==0, "something wrong"
-		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
-		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
-		return previous_data
+												sentences[i][6],
+												word_embedding_moving_average])
+		output.put((new_sentences, quasi_finished_sentences))
