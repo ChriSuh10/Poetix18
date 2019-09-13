@@ -156,6 +156,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write("-------------------------score:  {}----------------------- \n".format(np.mean(j[1])))
 				f.write(" ".join(j[2]))
 				temp_n=0
+				pdb.set_trace()
 				for i, ii in enumerate(j[2][2:]):
 					if ii!="\n":
 						f.write(str(j[1][i-temp_n])+"\t")
