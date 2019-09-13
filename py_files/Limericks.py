@@ -32,7 +32,7 @@ class Limerick_Generate:
                  syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
                  postag_file='py_files/saved_objects/postag_dict_all.p',
                  model_dir='py_files/models/all_combined_back',
-                 model_name='117M', load_poetic_vectors=True):
+                 model_name='345M', load_poetic_vectors=True):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
