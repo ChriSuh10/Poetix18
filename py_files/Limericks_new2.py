@@ -196,6 +196,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		return last_word_dict
 
 	def sylls_bounds(self,partial_template):
+		"""
+		Return upper and lower bounds of syllables in a POS template.
+		"""
+
 		threshold=0.1
 		sylls_up=0
 		sylls_lo=0
@@ -248,7 +252,31 @@ class Limerick_Generate_new(Limerick_Generate):
 		temp=[list(x) for x in set(tuple(x) for x in temp)]
 		return temp
 
-	def template_sylls_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls):
+	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):
+		"""
+		Check whether the current word could fit into our template with given syllables constraint
+
+        Parameters
+        ----------
+		pos_set: set
+			POS of the current word
+		sylls_set: set
+			Possible number of syllabes of the current word
+		template_curr: list
+			Partial, unfinished POS template of the current line (e.g. [NN, VB, NN])
+		num_sylls_curr: int
+			Syllable count of the partially constructed sentence
+		possible: list
+			All possible POS templates associated with the current line
+		num_sylls: int
+			predefined number of syllables the current line should have (e.g. 6,9)
+
+        Returns
+        -------
+        list
+            Format is [(POS, sylls)], a combination of possible POS
+			and number of syllables of the current word
+		"""
 		continue_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
@@ -261,7 +289,33 @@ class Limerick_Generate_new(Limerick_Generate):
 		if len(continue_flag)==0: continue_flag=False
 		return continue_flag
 
-	def end_template_checking(self,pos_set,sylls_set,template_curr,num_sylls_curr,possible, num_sylls, debug):
+	def end_template_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):
+			"""
+			Check whether the current word could fit into a template as the last word
+			of the line with given syllables constraint
+
+	        Parameters
+	        ----------
+			pos_set: set
+				POS of the current word
+			sylls_set: set
+				Possible number of syllabes of the current word
+			template_curr: list
+				Partial, unfinished POS template of the current line (e.g. [NN, VB, NN])
+			num_sylls_curr: int
+				Syllable count of the partially constructed sentence
+			possible: list
+				All possible POS templates associated with the current line
+			num_sylls: int
+				predefined number of syllables the current line should have (e.g. 6,9)
+
+	        Returns
+	        -------
+	        list
+	            Format is [(POS, sylls)], a combination of possible POS
+				and number of syllables of the current word
+			"""
+
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
@@ -275,6 +329,20 @@ class Limerick_Generate_new(Limerick_Generate):
 		return end_flag
 
 	def diversity_sort(self,search_space, data, finished):
+		"""
+		Check whether the current word could fit into a template as the last word
+		of the line with given syllables constraint
+
+        Parameters
+        ----------
+		search_space: int
+			Number of sentences returned
+		data: list
+			Input sentences
+		finished: bool
+			Whether the current sentence is completed
+		"""
+
 		temp_data=defaultdict(list)
 		for n in data:
 			if not finished:
@@ -307,7 +375,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_word_embedding_moving_average(self, original_average, word, rhyme_set):
 		"""
-		Calculate word embedding moving average with the story line set selection
+		Calculate word embedding moving average with the story line set selection.
 		"""
 		moving_average = 0
 		distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
@@ -401,9 +469,8 @@ class Limerick_Generate_new(Limerick_Generate):
 
 						# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 						# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-						debug=False
 						continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls, debug=word)
+						end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 						word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_set_curr)
 
 						if continue_flag:
