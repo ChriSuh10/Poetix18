@@ -290,31 +290,31 @@ class Limerick_Generate_new(Limerick_Generate):
 		return continue_flag
 
 	def end_template_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):
-			"""
-			Check whether the current word could fit into a template as the last word
-			of the line with given syllables constraint
+		"""
+		Check whether the current word could fit into a template as the last word
+		of the line with given syllables constraint
 
-	        Parameters
-	        ----------
-			pos_set: set
-				POS of the current word
-			sylls_set: set
-				Possible number of syllabes of the current word
-			template_curr: list
-				Partial, unfinished POS template of the current line (e.g. [NN, VB, NN])
-			num_sylls_curr: int
-				Syllable count of the partially constructed sentence
-			possible: list
-				All possible POS templates associated with the current line
-			num_sylls: int
-				predefined number of syllables the current line should have (e.g. 6,9)
+        Parameters
+        ----------
+		pos_set: set
+			POS of the current word
+		sylls_set: set
+			Possible number of syllabes of the current word
+		template_curr: list
+			Partial, unfinished POS template of the current line (e.g. [NN, VB, NN])
+		num_sylls_curr: int
+			Syllable count of the partially constructed sentence
+		possible: list
+			All possible POS templates associated with the current line
+		num_sylls: int
+			predefined number of syllables the current line should have (e.g. 6,9)
 
-	        Returns
-	        -------
-	        list
-	            Format is [(POS, sylls)], a combination of possible POS
-				and number of syllables of the current word
-			"""
+        Returns
+        -------
+        list
+            Format is [(POS, sylls)], a combination of possible POS
+			and number of syllables of the current word
+		"""
 
 		end_flag=[]
 		for t in possible:
