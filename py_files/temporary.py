@@ -72,6 +72,19 @@ def split_chunks( data):
 	return data_list
 
 if __name__ == '__main__':
+	j=[0,[1,2,3,4,5,6,7,8,9,10],["a","b","c","\n","d","e","f","\n","g","h","i","\n","j"]]
+	with open("something.txt","a+") as f:
+		f.write(" ".join(j[2])+"\n")
+		temp_n=0
+		for i, ii in enumerate(j[2]):
+			if ii!="\n":
+				try:
+					f.write(str(j[1][i-temp_n])+"\t")
+				except:
+					print(i, temp_n)
+			else:
+				f.write("\n")
+				temp_n+=1
 	'''
 	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
 		pos_sylls_mode=pickle.load(pickle_in)
@@ -210,7 +223,3 @@ if __name__ == '__main__':
 				lines+=line
 	print(lines)
 '''
-a=list(range(50))
-print(a)
-b=split_chunks(a)
-print(b)

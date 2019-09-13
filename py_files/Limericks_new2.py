@@ -153,8 +153,18 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write("-----------------------original------------------------------------ \n")
 			f.write(" ".join(lines))
 			for j in temp_data[k]:
-				f.write("-------------------------score:  {}----------------------- \n".format(j[1]/len(j[3])))
+				f.write("-------------------------score:  {}----------------------- \n".format(np.mean(j[1])))
 				f.write(" ".join(j[2]))
+				temp_n=0
+				for i, ii in enumerate(j[2][2:]):
+					if ii!="\n":
+						f.write(str(j[1][i-temp_n])+"\t")
+					else:
+						f.write("\n")
+						temp_n+=1
+
+
+
 
 	def encodes_align(self,previous_data):
 		"""
@@ -360,20 +370,20 @@ class Limerick_Generate_new(Limerick_Generate):
 		x=random.sample(list_of_keys, len(list_of_keys))
 		for k in x:
 			if not finished:
-				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/(len(x[3])+len(x[4])) + self.word_embedding_coefficient * x[7])
+				temp=heapq.nlargest(1, temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 			else:
-				temp=heapq.nlargest(1, temp_data[k], key=lambda x: x[1]/len(x[3]) + self.word_embedding_coefficient * x[5])
+				temp=heapq.nlargest(1, temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 			data+=temp
 			break_point+=1
 			#if break_point>=20: break
 		if not finished:
-			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])+len(x[4])) + self.word_embedding_coefficient * x[7])
+			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 			random_sample=random.sample(data,min(len(data),search_space))
-			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])+len(x[4])) + self.word_embedding_coefficient * x[7])
+			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 		else:
-			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:x[1]/(len(x[3])) + self.word_embedding_coefficient * x[5])
+			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 			random_sample=random.sample(data,min(len(data),search_space))
-			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x:x[1]/(len(x[3])) + self.word_embedding_coefficient * x[5])
+			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 
 		return data, len(temp_data.keys())
 	def get_wema_dict_mp(self):
