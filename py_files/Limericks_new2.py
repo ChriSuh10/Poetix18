@@ -504,7 +504,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			print("process {} sentence {}".format(mp_index,i))
-			for index in sorted_index:
+			for ii,index in enumerate(sorted_index):
+				print("process {} sentence {} word {}".format(mp_index,i,ii))
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
 				template_curr=sentences[i][4]
