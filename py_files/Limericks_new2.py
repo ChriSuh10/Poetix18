@@ -445,11 +445,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			output = mp.Queue()
 			processes = [mp.Process(target=self.batch_process_word, args=(which_line, possible,num_sylls,logits_list[mp_index], sentences_list[mp_index], output)) for mp_index in range(len(logits_list)) ]
 			
-			for p in processes:
+			for index_process, p in enumerate(processes):
 				p.start()
+				print("index_process")
 
-			for p in processes:
+			for index_process, p in enumerate(processes):
 				p.join()
+				print("index_process")
 
 			results = [output.get() for p in processes]
 			new_sentences, quasi_finished_sentences = [], []
@@ -483,11 +485,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("\n ========================= iteration {} ends =============================".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
-			'''
-			for sen in sentences:
-				print(sen)
-				print("\n")
-			'''
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
