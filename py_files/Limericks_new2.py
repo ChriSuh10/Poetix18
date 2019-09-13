@@ -501,10 +501,8 @@ class Limerick_Generate_new(Limerick_Generate):
 	def batch_process_word(self, mp_index,which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
 		quasi_finished_sentences = []
-		print("process {} total sentences {}".format(mp_index,len(logits)))
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
-			print("process {} sentence {}".format(mp_index,i))
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
@@ -579,3 +577,4 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average])
 		output.put((new_sentences, quasi_finished_sentences))
+		print("process {} finished".format(mp_index))
