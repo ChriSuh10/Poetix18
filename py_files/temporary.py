@@ -56,6 +56,23 @@ def split_mp(data):
 		else:
 			temp.append(data[i*d:])
 	return temp
+def split_chunks(logits, sentences):
+	cpu=mp.cpu_count()
+	logits_list=[]
+	sentences_list=[]
+	chuck_len = len(logits)//cpu + 1
+	flag=0
+	while_flag=True
+	while (while_flag):
+		if flag+chuck_len<len(logits):
+			logits_list.append(logits[flag:flag+chuck_len])
+			sentences_list.append(sentences[flag:flag+chuck_len])
+		else:
+			logits_list.append(logits[flag:])
+			sentences_list.append(sentences[flag:])
+			while_flag=False
+		flag+=chuck_len
+	return logits_list, sentences_list
 
 if __name__ == '__main__':
 	'''
@@ -196,3 +213,10 @@ if __name__ == '__main__':
 				lines+=line
 	print(lines)
 '''
+a=list(range(50))
+b=list(range(50))
+print(a)
+print(b)
+c,d=split_chunks(a,b)
+print(c)
+print(d)

@@ -390,9 +390,17 @@ class Limerick_Generate_new(Limerick_Generate):
 		logits_list=[]
 		sentences_list=[]
 		chuck_len = len(logits)//self.cpu + 1
-		for i in range(0, len(logits), chuck_len):
-			logits_list.append(logits[i:i+chuck_len])
-			sentences_list.append(sentences[i:i+chuck_len])
+		flag=0
+		while_flag=True
+		while (while_flag):
+			if flag+chuck_len<len(logits):
+				logits_list.append(logits[flag:flag+chuck_len])
+				sentences_list.append(sentences[flag:flag+chuck_len])
+			else:
+				logits_list.append(logits[flag:])
+				sentences_list.append(sentences[flag:])
+				while_flag=False
+			flag+=chuck_len
 		return logits_list, sentences_list
 
 
