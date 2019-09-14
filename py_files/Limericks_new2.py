@@ -346,7 +346,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			end_flag=False
 		return end_flag
 
-	def diversity_sort(self,search_space, data, finished):
+	def diversity_sort(self,search_space, retain_space,data, finished, random_mode=False):
 		"""
 		Check whether the current word could fit into a template as the last word
 		of the line with given syllables constraint
@@ -369,27 +369,30 @@ class Limerick_Generate_new(Limerick_Generate):
 				key=";".join(n[3])
 			temp_data[key].append(n)
 		data=[]
-		break_point=0
 		list_of_keys=list(temp_data.keys())
 		x=random.sample(list_of_keys, len(list_of_keys))
 		for k in x:
 			if not finished:
-				temp=heapq.nlargest(1, temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
+				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 			else:
-				temp=heapq.nlargest(1, temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
-			data+=temp
-			break_point+=1
-			#if break_point>=20: break
-		if not finished:
-			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:np.mean(x[1]) + self.word_embedding_coefficient * x[7])
-			random_sample=random.sample(data,min(len(data),search_space))
-			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
-		else:
-			data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
-			random_sample=random.sample(data,min(len(data),search_space))
-			data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
+				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
+			data.append((temp,np.mean([np.mean(m[1])+self.word_embedding_coefficient * m[7] for m in temp])))
+		data=heap.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
+		data_new=[]
+		for k in data:
+			data_new+=k[0]
+		data=data_new
+		if random_mode:
+			if not finished:
+				data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:np.mean(x[1]) + self.word_embedding_coefficient * x[7])
+				random_sample=random.sample(data,min(len(data),search_space))
+				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
+			else:
+				data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
+				random_sample=random.sample(data,min(len(data),search_space))
+				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 
-		return data, len(temp_data.keys())
+		return data_new, len(temp_data.keys())
 	def get_wema_dict_mp(self):
 			num_list_list= self.split_chunks(list(range(50256)))
 			manager_wema = mp.Manager()
