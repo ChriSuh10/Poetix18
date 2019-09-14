@@ -368,14 +368,14 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
-		data=self.unique_list(data)
-		temp_data=defaultdict(list)
+		temp_data=defaultdict(set)
 		for n in data:
+			n=tuple([tuple(i) for i in n])
 			if not finished:
 				key=";".join(n[3]+n[4])
 			else:
 				key=";".join(n[3])
-			temp_data[key].append(n)
+			temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
 		x=random.sample(list_of_keys, len(list_of_keys))
