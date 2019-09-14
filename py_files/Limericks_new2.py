@@ -155,14 +155,17 @@ class Limerick_Generate_new(Limerick_Generate):
 			for j in temp_data[k]:
 				f.write("-------------------------score:  {}----------------------- \n".format(np.mean(j[1])))
 				f.write(" ".join(j[2]))
-				temp_n=0
-				pdb.set_trace()
-				for i, ii in enumerate(j[2][2:]):
+				temp_n=1
+				temp_list=[]
+				for i, ii in enumerate(j[3][2:]):
 					if ii!="\n":
-						f.write(str(j[1][i-temp_n])+"\t")
+						f.write(str(round(j[1][i-temp_n],2))+" ")
+						temp_list.append(j[1][i-temp_n])
 					else:
+						f.write("mean {}".format(round(np.mean(temp_list),3)))
 						f.write("\n")
 						temp_n+=1
+						temp_list=[]
 
 
 

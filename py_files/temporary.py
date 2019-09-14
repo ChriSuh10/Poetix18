@@ -6,6 +6,7 @@ import numpy as np
 import pdb
 import time
 import multiprocessing as mp
+import math 
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -72,19 +73,22 @@ def split_chunks( data):
 	return data_list
 
 if __name__ == '__main__':
-	j=[0,[1,2,3,4,5,6,7,8,9,10],["a","b","c","\n","d","e","f","\n","g","h","i","\n","j"]]
+	j=[0,[0, -1.9055245, -2.0530436, -7.000382, -6.3386755, -1.9497929, -4.101024, -2.215538, -9.204876, -1.27218, -1.4557091, -3.7430756, -2.9535503, -2.2518723, -3.2226703, -8.853761, -2.1761181, -1.9875941, -5.5489264, -2.4450388, -2.7781312, -12.546949, -2.5333157, -5.692503, -2.788134, -7.70274, -3.294827, -3.5516126, -10.640121, -1.1923084],
+	['there', 'once', 'was', 'a', 'kind', 'man', 'named', 'shane', '\n', 'who', 'was', 'as', 'he', 'was', 'in', 'the', 'campaign', '.', '\n', 'he', 'would', 'come', 'in', 'the', 'case', ',', '\n', 'and', 'was', 'a', 'great', 'embrace', ',', '\n', 'was', 'very', 'a', 'gentleman', 'in', 'train', '.', '\n'],['shane', '\n', 'WHO', 'VBD', 'AS', 'PRP', 'VBD', 'IN', 'DT', 'NN', '.', '\n', 'PRP', 'MD', 'VBN', 'IN', 'DT', 'NN', ',', '\n', 'CC', 'VBD', 'DT', 'JJ', 'NN', ',', '\n', 'VBD', 'RB', 'DT', 'NN', 'IN', 'NN', '.', '\n']]
 	with open("something.txt","a+") as f:
 		f.write(" ".join(j[2])+"\n")
-		temp_n=0
-		for i, ii in enumerate(j[2]):
+		temp_n=1
+		temp_list=[]
+		for i, ii in enumerate(j[3][2:]):
 			if ii!="\n":
-				try:
-					f.write(str(j[1][i-temp_n])+"\t")
-				except:
-					print(i, temp_n)
+				f.write(str(round(j[1][i-temp_n],2))+" ")
+				temp_list.append(j[1][i-temp_n])
 			else:
+				f.write("mean {}".format(round(np.mean(temp_list),3)))
 				f.write("\n")
 				temp_n+=1
+				temp_list=[]
+
 	'''
 	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
 		pos_sylls_mode=pickle.load(pickle_in)
