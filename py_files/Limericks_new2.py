@@ -347,6 +347,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			end_flag=False
 		return end_flag
 
+	def unique_list(self,x):
+		output=[]
+		for i in x:
+			if i not in output:
+				output.append(i)
+		return output
+
 	def diversity_sort(self,search_space, retain_space,data, finished, random_mode=False):
 		"""
 		Check whether the current word could fit into a template as the last word
@@ -361,7 +368,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
-		data=list(set(data))
+		data=self.unique_list(data)
 		temp_data=defaultdict(list)
 		for n in data:
 			if not finished:
