@@ -362,22 +362,22 @@ class Limerick_Generate_new(Limerick_Generate):
 			Whether the current sentence is completed
 		"""
 
-		temp_data=defaultdict(list)
+		temp_data=defaultdict(set)
 		for n in data:
 			if not finished:
 				key=";".join(n[3]+n[4])
 			else:
 				key=";".join(n[3])
-			temp_data[key].append(n)
+			temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
 		x=random.sample(list_of_keys, len(list_of_keys))
 		for k in x:
 			if not finished:
-				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
+				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), list(temp_data[k]), key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 				data.append((temp,np.mean([np.mean(m[1])+self.word_embedding_coefficient * m[7] for m in temp])))
 			else:
-				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
+				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), list(temp_data[k]), key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 				data.append((temp,np.mean([np.mean(m[1])+self.word_embedding_coefficient * m[5] for m in temp])))
 		data=heapq.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
 		data_new=[]
