@@ -84,7 +84,7 @@ if __name__ == '__main__':
 				f.write(str(round(j[1][i-temp_n],2))+" ")
 				temp_list.append(j[1][i-temp_n])
 			else:
-				f.write("mean {}".format(round(np.mean(temp_list),3)))
+				f.write("mean {:04.3f}".format(np.mean(temp_list)))
 				f.write("\n")
 				temp_n+=1
 				temp_list=[]

@@ -77,7 +77,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.template_to_line= pickle.load(pickle_in)
 
 
-	def gen_poem_andre_new(self,prompt,search_space):
+	def gen_poem_andre_new(self,prompt,search_space,retain_space):
 		"""
 		Generate poems with multiple templates given a seed word (prompt) and GPT2
 		search space.
@@ -106,7 +106,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
 
-		result_file_path = "limericks_data_new/" + prompt+"_" + str(search_space)+".txt"
+		result_file_path = "limericks_data_new/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
 		f = open(result_file_path,"a+")
 
 		previous_data=[]
@@ -130,7 +130,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
-			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space, which_line=which_line)
+			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
 		# Print out generated poems
 		temp_data=defaultdict(list)
@@ -148,21 +148,22 @@ class Limerick_Generate_new(Limerick_Generate):
 					line=self.template_to_line[" ".join(i_list)][0]+["\n"]
 					lines+=line
 
-			f.write("=======================template: {}============================  \n".format(t+1))
+			f.write("======================= template: {} ============================  \n".format(t+1))
 			f.write(k)
-			f.write("-----------------------original------------------------------------ \n")
+			f.write("----------------------- original sentences ------------------------------------ \n")
 			f.write(" ".join(lines))
 			for j in temp_data[k]:
-				f.write("-------------------------score:  {}----------------------- \n".format(np.mean(j[1])))
+				f.write("------------------------- score:  {}----------------------- \n".format(np.mean(j[1])))
 				f.write(" ".join(j[2]))
 				temp_n=1
 				temp_list=[]
+				f.write("------------------------- score breakdown ------------------------ \n")
 				for i, ii in enumerate(j[3][2:]):
 					if ii!="\n":
 						f.write(str(round(j[1][i-temp_n],2))+" ")
 						temp_list.append(j[1][i-temp_n])
 					else:
-						f.write("mean {}".format(round(np.mean(temp_list),3)))
+						f.write("mean {:04.3f}".format(np.mean(temp_list)))
 						f.write("\n")
 						temp_n+=1
 						temp_list=[]
@@ -493,7 +494,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return data_list
 
 
-	def gen_line_flexible(self, previous_data, possible, num_sylls, search_space, which_line):
+	def gen_line_flexible(self, previous_data, possible, num_sylls, search_space, retain_space,which_line):
 		'''
 		Generate a line using multiple templates.
 
@@ -579,10 +580,10 @@ class Limerick_Generate_new(Limerick_Generate):
 				for q in quasi_finished_sentences:
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
-			sentences, diversity=self.diversity_sort(search_space,new_sentences, finished=False)
+			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
-		previous_data_temp, _=self.diversity_sort(search_space,finished_sentences, finished=True)
+		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
 		return previous_data
 
