@@ -369,13 +369,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			Whether the current sentence is completed
 		"""
 		temp_data=defaultdict(set)
+		mean_list=[]
 		for n in data:
-			n=tuple([tuple(i) for i in n])
-			if not finished:
-				key=";".join(n[3]+n[4])
-			else:
-				key=";".join(n[3])
-			temp_data[key].add(n)
+			if n[1] not in mean_list:
+				mean_list.append(n[1])
+				if not finished:
+					key=";".join(n[3]+n[4])
+				else:
+					key=";".join(n[3])
+				temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
 		x=random.sample(list_of_keys, len(list_of_keys))
