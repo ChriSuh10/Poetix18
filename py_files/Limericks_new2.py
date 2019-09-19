@@ -20,7 +20,6 @@ import math
 import pdb
 from .model_back import Model as Model_back
 from .functions import search_back_meter
-from .templates import get_templates
 from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
@@ -75,6 +74,8 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
+
+		self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
 
 
 	def gen_poem_andre_new(self,prompt,search_space,retain_space):
@@ -404,6 +405,19 @@ class Limerick_Generate_new(Limerick_Generate):
 				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 
 		return data_new, len(temp_data.keys())
+
+	def get_word_pos(self, word):
+		"""
+		Get the set of POS category of a word. If we are unable to get the category, return None.
+		"""
+		if word not in self.words_to_pos:
+			return None
+		# Special case
+		if word.upper() in self.special_words:
+			return word.upper()
+		return set(self.words_to_pos[word])
+
+
 	def get_wema_dict_mp(self):
 			num_list_list= self.split_chunks(list(range(50256)))
 			manager_wema = mp.Manager()
