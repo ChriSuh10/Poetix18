@@ -118,7 +118,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
 			text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((first_line_encodes,[0],text+["\n"], [text[-1],"\n"],(rhyme,"")))
+			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
 
 		# Print out all 3\4 rhymes
 		for i in w3s_rhyme_dict.keys():
@@ -348,12 +348,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			end_flag=False
 		return end_flag
 
-	def unique_list(self,x):
-		output=[]
-		for i in x:
-			if i not in output:
-				output.append(i)
-		return output
 
 	def diversity_sort(self,search_space, retain_space,data, finished, random_mode=False):
 		"""
@@ -370,15 +364,12 @@ class Limerick_Generate_new(Limerick_Generate):
 			Whether the current sentence is completed
 		"""
 		temp_data=defaultdict(set)
-		mean_list=[]
 		for n in data:
-			if n[1] not in mean_list:
-				mean_list.append(n[1])
-				if not finished:
-					key=";".join(n[3]+n[4])
-				else:
-					key=";".join(n[3])
-				temp_data[key].add(n)
+			if not finished:
+				key=";".join(n[3]+n[4])
+			else:
+				key=";".join(n[3])
+			temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
 		x=random.sample(list_of_keys, len(list_of_keys))
@@ -524,8 +515,8 @@ class Limerick_Generate_new(Limerick_Generate):
 
         Parameters
         ----------
-		previous_data: list of tuple
-			Each element is (encodes, score, text, template, (w1,w3)).
+		previous_data: list of tuples
+			Each element has a tuple structure (encodes, score, text, template, (w1,w3)).
 			encodes: list of int
 				encodes are gpt-index for words
 			score: double
@@ -546,7 +537,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data=self.encodes_align(previous_data)
 		sentences=[]
 		for i in previous_data:
-			template_curr=[]
+			template_curr=()
 			num_sylls_curr=0
 			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4], 0])
 		# sentences is a tuple, each element looks like (encodes, score, text, template, current_line_template, how_many_syllabus_used_in_current_line, (w1,w3), moving average)
@@ -593,12 +584,12 @@ class Limerick_Generate_new(Limerick_Generate):
 						for index in sorted_index:
 							word = self.enc.decode([index]).lower().strip()
 							if word==self.sentence_to_punctuation[which_line]:
-								finished_sentences.append([quasi_finished_sentences[i][0] + [index],
-															quasi_finished_sentences[i][1] + [np.log(j[index])],
-															quasi_finished_sentences[i][2]+[word],
-															quasi_finished_sentences[i][3]+[word],
+								finished_sentences.append((quasi_finished_sentences[i][0] + (index,),
+															quasi_finished_sentences[i][1] + (np.log(j[index]),),
+															quasi_finished_sentences[i][2]+(word,),
+															quasi_finished_sentences[i][3]+(word,),
 															quasi_finished_sentences[i][4],
-															quasi_finished_sentences[i][5]])
+															quasi_finished_sentences[i][5]))
 								break
 			else:
 				for q in quasi_finished_sentences:
@@ -608,7 +599,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
-		previous_data=[(i[0],i[1],i[2]+["\n"],i[3]+["\n"],i[4]) for i in previous_data_temp]
+		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4]) for i in previous_data_temp]
 		return previous_data
 
 	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
@@ -657,39 +648,39 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					if continue_flag:
 						for continue_sub_flag in continue_flag:
-							new_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + [np.log(j[index])],
-												sentences[i][2]+[word],
+							new_sentences.append((sentences[i][0] + (index,),
+												sentences[i][1] + (np.log(j[index]),),
+												sentences[i][2]+(word,),
 												sentences[i][3],
-												sentences[i][4]+[continue_sub_flag[0]],
+												sentences[i][4]+(continue_sub_flag[0],),
 												sentences[i][5]+continue_sub_flag[1],
 												sentences[i][6],
-												word_embedding_moving_average])
+												word_embedding_moving_average))
 					if end_flag:
 						for end_sub_flag in end_flag:
 							# All the same ??
 							if which_line=="second" or which_line=="fifth":
 								if word in rhyme_set_curr:
-									quasi_finished_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + [np.log(j[index])],
-												sentences[i][2]+[word],
-												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+									quasi_finished_sentences.append((sentences[i][0] + (index,),
+												sentences[i][1] + (np.log(j[index]),),
+												sentences[i][2]+(word,),
+												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												word_embedding_moving_average])
+												word_embedding_moving_average))
 							if which_line=="third":
 								if word in rhyme_set_curr:
-									quasi_finished_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + [np.log(j[index])],
-												sentences[i][2]+[word],
-												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+									quasi_finished_sentences.append((sentences[i][0] + (index,),
+												sentences[i][1] + (np.log(j[index]),),
+												sentences[i][2]+(word,),
+												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												(sentences[i][6][0],word),
-												word_embedding_moving_average])
+												word_embedding_moving_average))
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
-									quasi_finished_sentences.append([sentences[i][0] + [index],
-												sentences[i][1] + [np.log(j[index])],
-												sentences[i][2]+[word],
-												sentences[i][3]+sentences[i][4]+[end_sub_flag[0]],
+									quasi_finished_sentences.append((sentences[i][0] + (index,),
+												sentences[i][1] + (np.log(j[index]),),
+												sentences[i][2]+(word,),
+												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												word_embedding_moving_average])
+												word_embedding_moving_average))
 		output.put((new_sentences, quasi_finished_sentences))
