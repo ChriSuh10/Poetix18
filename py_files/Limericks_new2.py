@@ -363,6 +363,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
+		print("============================== start diversity sort======================================= \n")
 		temp_data=defaultdict(set)
 		for n in data:
 			if not finished:
@@ -395,6 +396,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				random_sample=random.sample(data,min(len(data),search_space))
 				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 
+		print("============================== end diversity sort======================================= \n")
 		return data_new, len(temp_data.keys())
 
 	def get_word_pos(self, word):
