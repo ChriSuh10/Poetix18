@@ -597,6 +597,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				for q in quasi_finished_sentences:
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
+			print(len(new_sentences))
 			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
