@@ -73,21 +73,6 @@ def split_chunks( data):
 	return data_list
 
 if __name__ == '__main__':
-	j=[0,[0, -1.9055245, -2.0530436, -7.000382, -6.3386755, -1.9497929, -4.101024, -2.215538, -9.204876, -1.27218, -1.4557091, -3.7430756, -2.9535503, -2.2518723, -3.2226703, -8.853761, -2.1761181, -1.9875941, -5.5489264, -2.4450388, -2.7781312, -12.546949, -2.5333157, -5.692503, -2.788134, -7.70274, -3.294827, -3.5516126, -10.640121, -1.1923084],
-	['there', 'once', 'was', 'a', 'kind', 'man', 'named', 'shane', '\n', 'who', 'was', 'as', 'he', 'was', 'in', 'the', 'campaign', '.', '\n', 'he', 'would', 'come', 'in', 'the', 'case', ',', '\n', 'and', 'was', 'a', 'great', 'embrace', ',', '\n', 'was', 'very', 'a', 'gentleman', 'in', 'train', '.', '\n'],['shane', '\n', 'WHO', 'VBD', 'AS', 'PRP', 'VBD', 'IN', 'DT', 'NN', '.', '\n', 'PRP', 'MD', 'VBN', 'IN', 'DT', 'NN', ',', '\n', 'CC', 'VBD', 'DT', 'JJ', 'NN', ',', '\n', 'VBD', 'RB', 'DT', 'NN', 'IN', 'NN', '.', '\n']]
-	with open("something.txt","a+") as f:
-		f.write(" ".join(j[2])+"\n")
-		temp_n=1
-		temp_list=[]
-		for i, ii in enumerate(j[3][2:]):
-			if ii!="\n":
-				f.write(str(round(j[1][i-temp_n],2))+" ")
-				temp_list.append(j[1][i-temp_n])
-			else:
-				f.write("mean {:04.3f}".format(np.mean(temp_list)))
-				f.write("\n")
-				temp_n+=1
-				temp_list=[]
 
 	'''
 	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
@@ -173,15 +158,17 @@ if __name__ == '__main__':
 	print("." in dict_meters.keys())
 	
 	'''
-	'''
-	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
+	
+	with open("saved_objects/templates_new4.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	for k in data.keys():
+		temp_line=defaultdict(list)
 		for i in data[k].keys():
 			for j in data[k][i]:
-				if "IN" in j[0]:
-					print(j)
-	'''
+				print(j)
+
+				
+	
 	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)

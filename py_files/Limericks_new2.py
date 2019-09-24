@@ -59,7 +59,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
-		with open("py_files/saved_objects/templates_new3.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_new4.pickle","rb") as pickle_in:
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
@@ -568,7 +568,6 @@ class Limerick_Generate_new(Limerick_Generate):
 				p.join()
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
-			pdb.set_trace()
 			new_sentences, quasi_finished_sentences = [], []
 			for result in results:
 				new_sentences += result[0]
@@ -641,7 +640,6 @@ class Limerick_Generate_new(Limerick_Generate):
 						continue
 					# If the word is a noun or adjective and has appeared
 					# previously, we discard the sentence.
-					print(word)
 					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
 						continue
 
@@ -653,7 +651,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					if continue_flag:
 						for continue_sub_flag in continue_flag:
-							pdb.set_trace()
 							new_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
@@ -689,5 +686,4 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
 												word_embedding_moving_average))
-		print(len(new_sentences))
 		output.put((new_sentences, quasi_finished_sentences))
