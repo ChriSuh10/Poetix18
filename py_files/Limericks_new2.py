@@ -635,13 +635,13 @@ class Limerick_Generate_new(Limerick_Generate):
 				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 					continue
 				else:
-					pdb.set_trace()
 					pos_set=set(self.words_to_pos[word])
 					sylls_set=set([len(m) for m in self.dict_meters[word]])
 					if len(pos_set)==0 or len(sylls_set)==0:
 						continue
 					# If the word is a noun or adjective and has appeared
 					# previously, we discard the sentence.
+					print(word)
 					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
 						continue
 
