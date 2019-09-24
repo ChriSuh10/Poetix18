@@ -128,7 +128,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		# Generate 2,3,4,5 lines of the poem
 		#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-		for which_line, num_sylls in zip(["fifth"],[9]):
+		for which_line, num_sylls in zip(["third","fourth"],[6,6]):
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
@@ -162,7 +162,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write("------------------------- score breakdown ------------------------ \n")
 				for i, ii in enumerate(j[3][2:]):
 					if ii!="\n":
-						f.write(str(round(j[1][i-temp_n],2))+" ")
+						f.write("("+str(round(j[1][i-temp_n],2))+j[2][i-temp_n]+") ")
 						temp_list.append(j[1][i-temp_n])
 					else:
 						f.write("mean {:04.3f}".format(np.mean(temp_list)))
@@ -609,9 +609,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		quasi_finished_sentences = []
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
+			word_list_against_duplication=[]
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
+				if word in word_list_against_duplication:
+					continue
 				template_curr=sentences[i][4]
 				num_sylls_curr=sentences[i][5]
 				moving_avg_curr=sentences[i][7]
@@ -649,6 +652,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
 
 					if continue_flag:
+						word_list_against_duplication.append(word)
 						for continue_sub_flag in continue_flag:
 							new_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
@@ -662,6 +666,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						for end_sub_flag in end_flag:
 							if which_line=="second" or which_line=="fifth":
 								if word in rhyme_set_curr:
+									word_list_against_duplication.append(word)
 									quasi_finished_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
@@ -670,6 +675,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												word_embedding_moving_average))
 							if which_line=="third":
 								if word in rhyme_set_curr:
+									word_list_against_duplication.append(word)
 									quasi_finished_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
@@ -678,6 +684,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												word_embedding_moving_average))
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
+									word_list_against_duplication.append(word)
 									quasi_finished_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
