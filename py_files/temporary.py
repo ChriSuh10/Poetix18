@@ -88,18 +88,45 @@ if __name__ == '__main__':
 
 	
 	
-	'''
+	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
 	dict_meters=create_syll_dict(syllables_file)
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
-		words_to_pos = postag_dict[2]
-	words_to_pos["."]=['.']
-	postag_dict[2]=words_to_pos
-	with open(postag_file,"wb") as f:
-		pickle.dump(postag_dict,f)
-	'''
+		pos_to_words = postag_dict[1]
+	special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
+	special_pos=[i.upper() for i in special_pos.split(" ")]
+	special=set()
+	for k in special_pos:
+		for j in pos_to_words[k]:
+			special.add(j)
+	print(special)
+	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+	temp_data={}
+	for k in data.keys():
+		temp_line=defaultdict(list)
+		for i in data[k].keys():
+			for j in data[k][i]:
+				for w in range(len(j[1])):
+					if j[1][w].upper() in special:
+						j[0][w]=j[1][w].upper()
+			temp_line[i].append(j)
+		temp_data[k]=temp_line
+	with open("saved_objects/templates_processed_more_tuple.pickle","wb") as pickle_in:
+		pickle.dump(temp_data,pickle_in)
+	
+	
+	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+		for k in data.keys():
+			print(k)
+			for j in data[k].keys():
+				print(j)
+				for i in data[k][j]:
+					print(i)
+	
 	'''
 	postag_file='saved_objects/postag_dict_all.p'
 	syllables_file='saved_objects/cmudict-0.7b.txt'
@@ -158,20 +185,7 @@ if __name__ == '__main__':
 	print("." in dict_meters.keys())
 	
 	'''
-	
-	with open("saved_objects/templates_processed.pickle","rb") as pickle_in:
-		data=pickle.load(pickle_in)
-	temp_data={}
-	for k in data.keys():
-		temp_line=defaultdict(list)
-		for i in data[k].keys():
-			for j in data[k][i]:
-				temp_line[i].append(tuple([tuple(w) for w in j]))
-		temp_data[k]=temp_line
-	print(temp_data)
-	with open("saved_objects/templates_processed_tuple.pickle","wb") as pickle_in:
-		pickle.dump(temp_data,pickle_in)
-				
+			
 	
 	'''
 	with open("saved_objects/templates_new3.pickle","rb") as pickle_in:
