@@ -652,6 +652,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					if continue_flag:
 						for continue_sub_flag in continue_flag:
+							pdb.set_trace()
 							new_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
