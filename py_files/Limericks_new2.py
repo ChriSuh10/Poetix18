@@ -280,7 +280,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		temp=[]
 		for i in last_word_set:
 			if i in self.words_to_pos.keys() and i in self.dict_meters.keys():
-				for j in self.get_word_pos[i]:
+				for j in self.get_word_pos(i):
 					last_word_info_set.add((j,len(self.dict_meters[i][0])))
 		for i in last_word_info_set:
 			temp+=self.there_is_template_new(i, num_sylls, which_line)
@@ -452,7 +452,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 				continue
 			else:
-				pos_set=self.get_word_pos[word]
+				pos_set=self.get_word_pos(word)
 				sylls_set=set([len(m) for m in self.dict_meters[word]])
 				if len(pos_set)==0 or len(sylls_set)==0:
 					continue
@@ -650,7 +650,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 					continue
 				else:
-					pos_set=self.get_word_pos[word]
+					pos_set=self.get_word_pos(word)
 					sylls_set=set([len(m) for m in self.dict_meters[word]])
 					if len(pos_set)==0 or len(sylls_set)==0:
 						continue
