@@ -339,11 +339,15 @@ class Limerick_Generate_new(Limerick_Generate):
 		end_flag=[]
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				print("end_check")
+				print(pos_set)
+				print(sylls_set)
+				print(template_curr)
+				print(num_sylls_curr)
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
 						for sylls in sylls_set:
 							if num_sylls_curr+sylls==num_sylls:
+								print("end_check")
 								end_flag.append((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
