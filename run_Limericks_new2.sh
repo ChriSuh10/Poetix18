@@ -1,7 +1,7 @@
 #!/bin/bash
-CUDA_VISIBLE_DEVICES="1" python3 run_Limericks_new2.py --search_space 500 --prompt "sea"
-CUDA_VISIBLE_DEVICES="1" python3 run_Limericks_new2.py --search_space 500 --prompt "monster"
-CUDA_VISIBLE_DEVICES="1" python3 run_Limericks_new2.py --search_space 500 --prompt "hope"
-CUDA_VISIBLE_DEVICES="1" python3 run_Limericks_new2.py --search_space 500 --prompt "money"
-CUDA_VISIBLE_DEVICES="1" python3 run_Limericks_new2.py --search_space 500 --prompt "lust"
-CUDA_VISIBLE_DEVICES="1" python3 run_Limericks_new2.py --search_space 500 --prompt "sex"
+CUDA_VISIBLE_DEVICES="3" python3 run_Limericks_new2.py --search_space 50 --retain_space 5 --prompt "fish"
+CUDA_VISIBLE_DEVICES="3" python3 run_Limericks_new2.py --search_space 50 --retain_space 5 --prompt "fire"
+CUDA_VISIBLE_DEVICES="3" python3 run_Limericks_new2.py --search_space 50 --retain_space 5 --prompt "trip"
+CUDA_VISIBLE_DEVICES="3" python3 run_Limericks_new2.py --search_space 50 --retain_space 5 --prompt "water"
+CUDA_VISIBLE_DEVICES="3" python3 run_Limericks_new2.py --search_space 50 --retain_space 5 --prompt "love"
+CUDA_VISIBLE_DEVICES="3" python3 run_Limericks_new2.py --search_space 50 --retain_space 5 --prompt "sex"
