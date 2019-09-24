@@ -351,6 +351,8 @@ class Limerick_Generate_new(Limerick_Generate):
 								end_flag.append((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
+		else:
+			print(end_flag)
 		return end_flag
 
 
@@ -572,7 +574,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
 			new_sentences, quasi_finished_sentences = [], []
-			pdb.set_trace()
+			#pdb.set_trace()
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
