@@ -662,9 +662,9 @@ class Limerick_Generate_new(Limerick_Generate):
 					if end_flag:
 						for end_sub_flag in end_flag:
 							if which_line=="second" or which_line=="fifth":
-								print(rhyme_set_curr)
-								print(word)
 								if word in rhyme_set_curr:
+									print(rhyme_set_curr)
+									print(word)
 									quasi_finished_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
