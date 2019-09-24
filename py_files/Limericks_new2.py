@@ -72,7 +72,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = 0.1
 
-		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
 
 		#self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
