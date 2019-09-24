@@ -346,8 +346,6 @@ class Limerick_Generate_new(Limerick_Generate):
 								end_flag.append((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
-		else:
-			print(end_flag)
 		return end_flag
 
 
@@ -663,8 +661,6 @@ class Limerick_Generate_new(Limerick_Generate):
 						for end_sub_flag in end_flag:
 							if which_line=="second" or which_line=="fifth":
 								if word in rhyme_set_curr:
-									print(rhyme_set_curr)
-									print(word)
 									quasi_finished_sentences.append((sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
@@ -687,4 +683,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
 												word_embedding_moving_average))
+		print("************** \n")
+		len(quasi_finished_sentences)
+		print("************** \n")
 		output.put((new_sentences, quasi_finished_sentences))
