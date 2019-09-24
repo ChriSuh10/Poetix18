@@ -363,7 +363,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
-		print("============================== start diversity sort======================================= \n")
 		temp_data=defaultdict(set)
 		for n in data:
 			if not finished:
@@ -396,7 +395,6 @@ class Limerick_Generate_new(Limerick_Generate):
 				random_sample=random.sample(data,min(len(data),search_space))
 				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 
-		print("============================== end diversity sort======================================= \n")
 		return data_new, len(temp_data.keys())
 
 	def get_word_pos(self, word):
@@ -569,6 +567,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
 			new_sentences, quasi_finished_sentences = [], []
+			pdb.set_trace()
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
@@ -597,7 +596,6 @@ class Limerick_Generate_new(Limerick_Generate):
 				for q in quasi_finished_sentences:
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
-			print(len(new_sentences))
 			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
