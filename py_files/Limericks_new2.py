@@ -568,6 +568,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				p.join()
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
+			pdb.set_trace()
 			new_sentences, quasi_finished_sentences = [], []
 			for result in results:
 				new_sentences += result[0]
