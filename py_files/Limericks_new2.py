@@ -107,25 +107,28 @@ class Limerick_Generate_new(Limerick_Generate):
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
 
-		result_file_path = "limericks_data_new/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
+		result_file_path = "limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
 		f = open(result_file_path,"a+")
 
 		previous_data=[]
 		# Append all first lines
 		for rhyme in w1s_rhyme_dict.keys():
+			'''
 			f.write("================================ 125 rhymes ===================================")
 			f.write(rhyme+":"+"\n")
 			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
+			'''
 			text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
 			first_line_encodes = self.enc.encode(" ".join(text))
 			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
 
 		# Print out all 3\4 rhymes
+		'''
 		for i in w3s_rhyme_dict.keys():
 			f.write("=============================== 34 rhymes  =====================================")
 			f.write(i+":"+"\n")
 			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
-
+		'''
 		# Generate 2,3,4,5 lines of the poem
 		#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		for which_line, num_sylls in zip(["third","fourth"],[6,6]):
