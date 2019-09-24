@@ -659,7 +659,6 @@ class Limerick_Generate_new(Limerick_Generate):
 												word_embedding_moving_average))
 					if end_flag:
 						for end_sub_flag in end_flag:
-							# All the same ??
 							if which_line=="second" or which_line=="fifth":
 								if word in rhyme_set_curr:
 									quasi_finished_sentences.append((sentences[i][0] + (index,),

@@ -161,8 +161,16 @@ if __name__ == '__main__':
 	
 	with open("saved_objects/templates_processed.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	print(data)
-
+	temp_data={}
+	for k in data.keys():
+		temp_line=defaultdict(list)
+		for i in data[k].keys():
+			for j in data[k][i]:
+				temp_line[i].append(tuple([tuple(w) for w in j]))
+		temp_data[k]=temp_line
+	print(temp_data)
+	with open("saved_objects/templates_processed_tuple.pickle","wb") as pickle_in:
+		pickle.dump(temp_data,pickle_in)
 				
 	
 	'''
