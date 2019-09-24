@@ -100,7 +100,7 @@ if __name__ == '__main__':
 	special=set()
 	for k in special_pos:
 		for j in pos_to_words[k]:
-			special.add(j)
+			special.add(j.upper())
 	print(special)
 	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
@@ -109,23 +109,36 @@ if __name__ == '__main__':
 		temp_line=defaultdict(list)
 		for i in data[k].keys():
 			for j in data[k][i]:
+				temp_j=[]
+				flag=False
+				if len(j[1])!=len(j[0]): continue
 				for w in range(len(j[1])):
 					if j[1][w].upper() in special:
-						j[0][w]=j[1][w].upper()
-			temp_line[i].append(j)
+						temp_j.append(j[1][w].upper())
+						if w==len(j[1])-1: flag=True
+					else:
+						temp_j.append(j[0][w])
+				if flag: 
+					temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
+				else:
+					temp_line[i].append((j[0],tuple(j[1]),j[2]))
 		temp_data[k]=temp_line
+
+
 	with open("saved_objects/templates_processed_more_tuple.pickle","wb") as pickle_in:
 		pickle.dump(temp_data,pickle_in)
 	
 	
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
+		
 		for k in data.keys():
 			print(k)
 			for j in data[k].keys():
 				print(j)
 				for i in data[k][j]:
 					print(i)
+					
 	
 	'''
 	postag_file='saved_objects/postag_dict_all.p'

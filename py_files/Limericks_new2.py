@@ -75,7 +75,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
 
-		self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
+		#self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
+		special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
+		special_pos=[i.upper() for i in special_pos.split(" ")]
+		self.special=set()
+		for k in special_pos:
+			for j in self.pos_to_words[k]:
+				special.add(j.upper())
 
 
 	def gen_poem_andre_new(self,prompt,search_space,retain_space):
@@ -274,7 +280,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		temp=[]
 		for i in last_word_set:
 			if i in self.words_to_pos.keys() and i in self.dict_meters.keys():
-				for j in self.words_to_pos[i]:
+				for j in self.get_word_pos[i]:
 					last_word_info_set.add((j,len(self.dict_meters[i][0])))
 		for i in last_word_info_set:
 			temp+=self.there_is_template_new(i, num_sylls, which_line)
@@ -446,7 +452,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 				continue
 			else:
-				pos_set=set(self.words_to_pos[word])
+				pos_set=self.get_word_pos[word]
 				sylls_set=set([len(m) for m in self.dict_meters[word]])
 				if len(pos_set)==0 or len(sylls_set)==0:
 					continue
@@ -644,7 +650,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 					continue
 				else:
-					pos_set=set(self.words_to_pos[word])
+					pos_set=self.get_word_pos[word]
 					sylls_set=set([len(m) for m in self.dict_meters[word]])
 					if len(pos_set)==0 or len(sylls_set)==0:
 						continue
