@@ -163,7 +163,11 @@ class Limerick_Generate_new(Limerick_Generate):
 				f.write("------------------------- score breakdown ------------------------ \n")
 				for i, ii in enumerate(j[3][2:]):
 					if ii!="\n":
-						f.write("("+str(round(j[1][i-temp_n],2))+" "+rest_four_lines[i-temp_n]+") ")
+						if rest_four_lines[i] !="\n":
+							word_associated=rest_four_lines[i]
+						else:
+							word_associated=rest_four_lines[i+1]
+						f.write("("+str(round(j[1][i-temp_n],2))+" "+word_associated+")")
 						temp_list.append(j[1][i-temp_n])
 					else:
 						f.write("mean {:04.3f}".format(np.mean(temp_list)))
