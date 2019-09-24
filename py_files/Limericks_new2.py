@@ -81,7 +81,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.special=set()
 		for k in special_pos:
 			for j in self.pos_to_words[k]:
-				special.add(j.upper())
+				self.special.add(j.upper())
 
 
 	def gen_poem_andre_new(self,prompt,search_space,retain_space):
