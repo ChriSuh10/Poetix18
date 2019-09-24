@@ -269,7 +269,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					last_word_info_set.add((j,len(self.dict_meters[i][0])))
 		for i in last_word_info_set:
 			temp+=self.there_is_template_new(i, num_sylls, which_line)
-		temp=[list(x) for x in set(tuple(x) for x in temp)]
+		temp=[x for x in set(tuple(x) for x in temp)]
 		return temp
 
 	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):

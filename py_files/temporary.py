@@ -159,13 +159,9 @@ if __name__ == '__main__':
 	
 	'''
 	
-	with open("saved_objects/templates_new4.pickle","rb") as pickle_in:
+	with open("saved_objects/templates_processed.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	for k in data.keys():
-		temp_line=defaultdict(list)
-		for i in data[k].keys():
-			for j in data[k][i]:
-				print(j)
+	print(data)
 
 				
 	
