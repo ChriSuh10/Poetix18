@@ -683,7 +683,4 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
 												word_embedding_moving_average))
-		print("************** \n")
-		print(len(quasi_finished_sentences))
-		print("************** \n")
 		output.put((new_sentences, quasi_finished_sentences))
