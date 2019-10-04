@@ -67,6 +67,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
+		self.enforce_stress = False
 
 		# word embedding coefficients
 		self.word_embedding_alpha = 0.5
@@ -84,7 +85,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				self.special_words.add(j.upper())
 
 
-	def gen_poem_andre_new(self,prompt,search_space,retain_space):
+	def gen_poem_andre_new(self,prompt,search_space,retain_space, stress=False):
 		"""
 		Generate poems with multiple templates given a seed word (prompt) and GPT2
 		search space.
@@ -96,7 +97,12 @@ class Limerick_Generate_new(Limerick_Generate):
             Search space of the sentence finding algorithm.
             The larger the search space, the more sentences the network runs
             in parallel to find the best one with the highest score.
+        retain_space : int
+            How many sentences per template to keep.
+		stress: bool
+			Whether we enforce stress.
 		"""
+		self.enforce_stress = stress
 
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_filtered_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -383,7 +389,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			if not finished:
 				key=";".join(n[3]+n[4])
 			else:
-				key=";".join(n[3]) # because the curr is already merged. 
+				key=";".join(n[3]) # because the curr is already merged.
 			temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
@@ -658,6 +664,21 @@ class Limerick_Generate_new(Limerick_Generate):
 					# previously, we discard the sentence.
 					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
 						continue
+
+					# If stress is incorrect, continue
+					if self.enforce_stress:
+						word_length = min(sylls_set)
+						stress = [1, 4] if (which_line == "third" or which_line == "fourth") else [1, 4, 7]
+						correct_stress = True
+						# There is a stress on current word
+						for stress_position in stress:
+							if num_sylls_curr <= stress_position and num_sylls_curr + word_length > stress_position:
+								stress_syllable_pos = stress_position - num_sylls_curr
+								if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
+									correct_stress = False
+								break
+						if not correct_stress:
+							continue
 
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
