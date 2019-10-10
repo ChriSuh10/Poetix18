@@ -73,6 +73,9 @@ def split_chunks( data):
 	return data_list
 
 if __name__ == '__main__':
+	with open("saved_objects/templates_new4.pickle","rb") as pickle_in:
+		templates= pickle.load(pickle_in)
+	print(templates["second"])
 
 	'''
 	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
@@ -86,8 +89,7 @@ if __name__ == '__main__':
 	print(pos_sylls_mode)
 	'''
 
-	
-	
+	'''
 	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
@@ -138,7 +140,7 @@ if __name__ == '__main__':
 				print(j)
 				for i in data[k][j]:
 					print(i)
-					
+	'''				
 	
 	'''
 	postag_file='saved_objects/postag_dict_all.p'

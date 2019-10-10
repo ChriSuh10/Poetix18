@@ -59,7 +59,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
-		with open("py_files/saved_objects/templates_new4.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
