@@ -73,9 +73,14 @@ def split_chunks( data):
 	return data_list
 
 if __name__ == '__main__':
-	with open("saved_objects/templates_new4.pickle","rb") as pickle_in:
+	'''
+	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
-	print(templates["second"])
+	for i in templates["second"]:
+		for j in templates["second"][i]:
+			print(j)
+			print("\n")
+	'''
 
 	'''
 	with open('saved_objects/pos_sylls_mode.p',"rb") as pickle_in:
@@ -89,7 +94,26 @@ if __name__ == '__main__':
 	print(pos_sylls_mode)
 	'''
 
-	'''
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
@@ -104,6 +128,7 @@ if __name__ == '__main__':
 		for j in pos_to_words[k]:
 			special.add(j.upper())
 	print(special)
+
 	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	temp_data={}
@@ -123,7 +148,9 @@ if __name__ == '__main__':
 				if flag: 
 					temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
 				else:
-					temp_line[i].append((j[0],tuple(j[1]),j[2]))
+					temp_line[i].append((tuple(temp_j),j[1],j[2]))
+				#if (tuple(temp_j),j[1],j[2]) != j:
+					#temp_line[i].append(j)
 		temp_data[k]=temp_line
 
 
@@ -140,8 +167,31 @@ if __name__ == '__main__':
 				print(j)
 				for i in data[k][j]:
 					print(i)
-	'''				
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	'''
 	postag_file='saved_objects/postag_dict_all.p'
 	syllables_file='saved_objects/cmudict-0.7b.txt'

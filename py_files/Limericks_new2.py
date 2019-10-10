@@ -76,13 +76,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
 
-		self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
-		# special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
-		# special_pos=[i.upper() for i in special_pos.split(" ")]
-		# self.special_words=set()
-		# for k in special_pos:
-		# 	for j in self.pos_to_words[k]:
-		# 		self.special_words.add(j.upper())
+		#self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
+		special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
+		special_pos=[i.upper() for i in special_pos.split(" ")]
+		self.special_words=set()
+		for k in special_pos:
+			for j in self.pos_to_words[k]:
+				self.special_words.add(j.upper())
 
 
 	def gen_poem_andre_new(self,prompt,search_space,retain_space, stress=False):
