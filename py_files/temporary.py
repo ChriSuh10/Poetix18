@@ -73,6 +73,27 @@ def split_chunks( data):
 	return data_list
 
 if __name__ == '__main__':
+	syllables_file='saved_objects/cmudict-0.7b.txt'
+	postag_file='saved_objects/postag_dict_all.p'
+	dict_meters=create_syll_dict(syllables_file)
+	with open(postag_file, 'rb') as f:
+		postag_dict = pickle.load(f)
+		pos_to_words = postag_dict[1]
+	special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
+	special_pos=[i.upper() for i in special_pos.split(" ")]
+	special_words=set()
+	for k in special_pos:
+		for j in pos_to_words[k]:
+			special_words.add(j.upper())
+	with open("saved_objects/pos_sylls_mode.p","rb") as pickle_in:
+		pos_sylls_mode= pickle.load(pickle_in)
+	for i in special_words:
+		try:
+			pos_sylls_mode[i]=[(len(dict_meters[i.lower()][0]),1.0)]
+		except:
+			pos_sylls_mode[i]=[1,1.0]
+	for i in pos_sylls_mode.keys():
+		print("{}:{}".format(i, pos_sylls_mode[i]))
 	'''
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
@@ -92,28 +113,6 @@ if __name__ == '__main__':
 		pos_sylls_mode=pickle.load(pickle_in)
 	print("WHILE" in pos_sylls_mode.keys())
 	print(pos_sylls_mode)
-	'''
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
@@ -167,32 +166,7 @@ if __name__ == '__main__':
 				print(j)
 				for i in data[k][j]:
 					print(i)
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	'''
+ 
 	postag_file='saved_objects/postag_dict_all.p'
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	dict_meters=create_syll_dict(syllables_file)

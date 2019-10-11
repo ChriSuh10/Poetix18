@@ -91,7 +91,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
 		for i in self.special_words:
-			self.pos_sylls_mode[i]=[(len(self.dict_meters[i.lower()][0]),1.0)]
+			try:
+				self.pos_sylls_mode[i]=[(len(self.dict_meters[i.lower()][0]),1.0)]
+			except:
+				self.pos_sylls_mode[i]=[1,1.0]
 
 
 	def gen_poem_andre_new(self,prompt,search_space,retain_space, stress=False):
