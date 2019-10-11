@@ -162,7 +162,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
-
+		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
+		pickle.dump(previous_data,f1)
+		f1.close()
 		# Print out generated poems
 		temp_data=defaultdict(list)
 		for line in previous_data:
@@ -176,7 +178,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					i_list=i.split(" ")
 					if i_list[-1] in [",","."]:
 						i_list=i_list[:-1]
-					line=self.template_to_line[" ".join(i_list)][0]+["\n"]
+					line=list(self.template_to_line[" ".join(i_list)][0])+["\n"]
 					lines+=line
 
 			f.write("======================= template: {} ============================  \n".format(t+1))
