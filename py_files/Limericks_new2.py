@@ -154,8 +154,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
 		'''
 		# Generate 2,3,4,5 lines of the poem
-		#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-		for which_line, num_sylls in zip(["third"],[6]):
+		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+		#for which_line, num_sylls in zip(["third"],[6]):
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
