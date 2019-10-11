@@ -76,7 +76,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
-		self.special_words= get_finer_pos_words()
+
 		self.finer_pos_category()
 
 	def finer_pos_category(self):
