@@ -159,7 +159,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
 
-		result_file_path = "limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
+		result_file_path = "limericks_data_new_3/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
 		f = open(result_file_path,"a+")
 
 		previous_data=[]
