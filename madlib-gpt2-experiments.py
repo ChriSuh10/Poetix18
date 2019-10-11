@@ -80,4 +80,21 @@ def generate_poem(lg, prompt):
     return first_line, second_line, third_line, fourth_line, fifth_line
 
 
-print(generate_poem(lg, "science"))
+def write_poem(lg, prompt):
+    with open("madlibs-gpt2-experiments-results.txt", "a+") as hf:
+        first_line, second_line, third_line, fourth_line, fifth_line = generate_poem(lg, prompt)
+        print(first_line)
+        print(second_line)
+        print(third_line)
+        print(fourth_line)
+        print(fifth_line)
+        hf.write("=" * 10 + " " + prompt + " " + "=" * 10 + "\n")
+        hf.write(" ".join(first_line) + "\n")
+        hf.write(" ".join(second_line) + "\n")
+        hf.write(" ".join(third_line) + "\n")
+        hf.write(" ".join(fourth_line) + "\n")
+        hf.write(" ".join(fifth_line) + "\n")
+
+
+prompt = "spring"
+write_poem(lg, prompt)
