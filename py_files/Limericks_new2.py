@@ -334,13 +334,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			and number of syllables of the current word
 		"""
 		continue_flag=[]
-		print("================= Data ============================")
-		print(possible)
-		print(pos_set)
-		print(sylls_set)
-		print(template_curr)
-		print(num_sylls_curr)
-		print(num_sylls)
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
