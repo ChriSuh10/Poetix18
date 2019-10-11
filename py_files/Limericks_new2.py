@@ -100,8 +100,8 @@ class Limerick_Generate_new(Limerick_Generate):
 						temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
 					else:
 						temp_line[i].append((tuple(temp_j),j[1],j[2]))
-					#if (tuple(temp_j),j[1],j[2]) != j:
-						#temp_line[i].append(j)
+					if (tuple(temp_j),j[1],j[2]) != j:
+						temp_line[i].append(j)
 			temp_data[k]=temp_line
 		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","wb") as pickle_in:
 			pickle.dump(temp_data,pickle_in)
