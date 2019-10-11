@@ -182,7 +182,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
 		'''
 		# Generate 2,3,4,5 lines of the poem
-		'''
+		
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		#for which_line, num_sylls in zip(["third"],[6]):
 
@@ -194,10 +194,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
+		
 		'''
 		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
 		previous_data=pickle.load(f1)
 		f1.close()
+		'''
 		# Print out generated poems
 		temp_data=defaultdict(list)
 		for line in previous_data:
