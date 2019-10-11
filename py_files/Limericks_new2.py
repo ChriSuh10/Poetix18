@@ -60,11 +60,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
-		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
-			self.templates= pickle.load(pickle_in)
-		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
-			self.pos_sylls_mode= pickle.load(pickle_in)
-
 		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
@@ -73,9 +68,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		# word embedding coefficients
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = 0.1
-
-		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
-			self.template_to_line= pickle.load(pickle_in)
 
 		self.finer_pos_category()
 
@@ -115,6 +107,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			pickle.dump(temp_data,pickle_in)
 		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.templates= pickle.load(pickle_in)
+		template_to_line=defaultdict(list)
+		for i in ["second","third","fourth","fifth"]:
+			for j in self.templates[i].keys():
+				for k in self.templates[i][j]:
+					template_to_line[" ".join(k[0])].append(k[1])
+		with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
+			pickle.dump(template_to_line,pickle_in)
+		with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
+			self.template_to_line=pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
 		for i in self.special_words:
@@ -181,6 +182,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
 		'''
 		# Generate 2,3,4,5 lines of the poem
+		'''
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		#for which_line, num_sylls in zip(["third"],[6]):
 
@@ -188,8 +190,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
+
 		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
 		pickle.dump(previous_data,f1)
+		f1.close()
+		'''
+		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
+		previous_data=pickle.load(f1)
 		f1.close()
 		# Print out generated poems
 		temp_data=defaultdict(list)

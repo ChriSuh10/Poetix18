@@ -244,7 +244,7 @@ if __name__ == '__main__':
 		for j in wu[i]:
 			print(j)
 	'''
-	'''
+	
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	template_to_line=defaultdict(list)
@@ -254,11 +254,14 @@ if __name__ == '__main__':
 				template_to_line[" ".join(k[0])].append(k[1])
 	with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
 		pickle.dump(template_to_line,pickle_in)
+
+
+		
 '''
 	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 		print(data)
-
+'''
 '''
 
 	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:
