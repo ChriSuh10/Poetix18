@@ -114,7 +114,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					template_to_line[" ".join(k[0])].append(k[1])
 		with open("py_files/saved_objects/template_to_line.pickle","wb") as pickle_in:
 			pickle.dump(template_to_line,pickle_in)
-		with open("py_files/saved_objects/template_to_line.pickle","wb") as pickle_in:
+		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
 			self.template_to_line=pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
