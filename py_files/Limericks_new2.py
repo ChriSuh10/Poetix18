@@ -441,7 +441,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			return None
 		# Special case
 		if word.upper() in self.special_words:
-			return set(word.upper())
+			return set([word.upper()])
 		return set(self.words_to_pos[word])
 
 
