@@ -26,6 +26,7 @@ from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp, get_first_line_templates
 import pickle
 from .Limericks import Limerick_Generate
+from .Finer_POS import get_finer_pos_words
 import multiprocessing as mp
 random.seed(20)
 
@@ -73,19 +74,20 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = 0.1
 
-		with open("py_files/saved_objects/template_to_line.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.template_to_line= pickle.load(pickle_in)
-
-		#self.special_words = set(['TO', 'ABOUT', 'THROUGH', 'WITH', 'THAT', 'WHICH'])
+		self.special_words= get_finer_pos_words()
 		self.finer_pos_category()
 
 	def finer_pos_category(self):
-		special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
-		special_pos=[i.upper() for i in special_pos.split(" ")]
-		self.special_words=set()
-		for k in special_pos:
-			for j in self.pos_to_words[k]:
-				self.special_words.add(j.upper())
+		self.special_words= get_finer_pos_words()
+		print(self.special_words)
+		# special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
+		# special_pos=[i.upper() for i in special_pos.split(" ")]
+		# for k in special_pos:
+		# 	for j in self.pos_to_words[k]:
+		# 		self.special_words.add(j.upper())
+
 		with open("py_files/saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 			self.templates= pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
@@ -154,8 +156,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
 		'''
 		# Generate 2,3,4,5 lines of the poem
-		#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-		for which_line, num_sylls in zip(["third"],[6]):
+		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+		#for which_line, num_sylls in zip(["third","fourth"],[6,6]):
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
@@ -334,6 +336,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			and number of syllables of the current word
 		"""
 		continue_flag=[]
+		print("================= Data ============================")
+		print(possible)
+		print(pos_set)
+		print(sylls_set)
+		print(template_curr)
+		print(num_sylls_curr)
+		print(num_sylls)
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
