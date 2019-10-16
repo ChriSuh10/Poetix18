@@ -195,11 +195,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		pickle.dump(previous_data,f1)
 		f1.close()
 		
-		'''
+		
 		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
 		previous_data=pickle.load(f1)
 		f1.close()
-		'''
+		
 		# Print out generated poems
 		temp_data=defaultdict(list)
 		for line in previous_data:
