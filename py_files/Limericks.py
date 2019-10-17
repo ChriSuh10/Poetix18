@@ -69,6 +69,9 @@ class Limerick_Generate:
         self.word_embedding_coefficient = 0.1
 
         self.names_rhymes = "downloaded_names_rhymes.pkl"
+        if self.names_rhymes in os.listdir("py_files/saved_objects"):
+            with open(self.names_rhymes, "rb") as hf:
+                self.names_rhymes_dict = pickle.load(hf)
 
     def create_syll_dict(self, fname):
         """
@@ -655,8 +658,12 @@ class Limerick_Generate:
 
         return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
 
-    def filter_common_word_henry(self, word):
-        fill_in_return = self.fill_in_henry(word, pos_list=["VB", "NN"], n_return=10, return_score=True)
+    def filter_common_word_henry(self, word, fast=False):
+        if fast:
+            pos_list = ["VBP"]
+        else:
+            pos_list = ["VB", "NN"]
+        fill_in_return = self.fill_in_henry(word, pos_list=pos_list, n_return=10, return_score=True)
 
         if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= 0.35:
             return True
@@ -668,11 +675,23 @@ class Limerick_Generate:
             return
         names_rhymes_dict = {}
         for i, name in enumerate(self.filtered_names):
-            rhymes_set = self.get_rhyming_words_one_step_henry(name.lower())
-            names_rhymes_dict[name] = {word for word in rhymes_set if self.filter_common_word_henry(word)}
+            names_rhymes_dict[name] = self.get_rhyming_words_one_step_henry(name.lower())
             print("Downloading names_rhymes_dict, %d / %d done..." % (i + 1, len(self.filtered_names)))
         with open(self.names_rhymes, "wb") as hf:
             pickle.dump(names_rhymes_dict, hf)
+
+    def return_top_five_average_similarity_henry(self, prompt, word_set):
+        similarity_scores = [self.poetic_vectors.similarity(prompt, word) for word in word_set]
+        return sum(sorted(similarity_scores, reverse=True)[:5]) / 5
+
+    def get_two_sets_new_henry(self, prompt, n_w1=50, n_w3=20):
+        w1s = sorted(self.filtered_names, key=lambda x: self.return_top_five_average_similarity_henry(prompt, self.names_rhymes_dict[x]), reverse=True)[:n_w1]
+        w1s_rhyme_dict = {w1: {word for word in self.names_rhymes_dict[w1] if self.filter_common_word_henry(word, fast=True)} for w1 in w1s}
+
+        w3s = self.get_similar_word_henry([prompt], seen_words=w1s, n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+
+        return w1s_rhyme_dict, w3s_rhyme_dict
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
