@@ -143,7 +143,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			Whether we enforce stress.
 		"""
 		self.enforce_stress = stress
-		self.madlib_verbs = self.get_madlib_verbs(prompt)
+		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_filtered_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -159,8 +159,8 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
-
-		result_file_path = "limericks_data_new_3/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
+		saved_directory="limericks_data_new_3/"
+		result_file_path = saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
 		f = open(result_file_path,"a+")
 
 		previous_data=[]
@@ -192,12 +192,12 @@ class Limerick_Generate_new(Limerick_Generate):
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
+		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
 		
 		
-		f1= open("limericks_data_new_2/" + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
+		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
 		previous_data=pickle.load(f1)
 		f1.close()
 		
@@ -425,10 +425,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		return end_flag
 
 
-	def diversity_sort(self,search_space, retain_space,data, finished, random_mode=False):
+	def diversity_sort(self,search_space, retain_space,data, finished):
 		"""
-		Check whether the current word could fit into a template as the last word
-		of the line with given syllables constraint
+		Given a list of sentences, put them in bins according to their templates, get
+		retain_space sentences from each bin and form a list, and get top search_space sentences from
+		the list.
 
         Parameters
         ----------
@@ -440,6 +441,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			Whether the current sentence is completed
 		"""
 		temp_data=defaultdict(set)
+		# Key is "template; current_line_template". For each key we only keep retain_space sentences
 		for n in data:
 			if not finished:
 				key=";".join(n[3]+n[4])
@@ -461,15 +463,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		for k in data:
 			data_new+=k[0]
 		data=data_new
-		if random_mode:
-			if not finished:
-				data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x:np.mean(x[1]) + self.word_embedding_coefficient * x[7])
-				random_sample=random.sample(data,min(len(data),search_space))
-				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
-			else:
-				data=heapq.nlargest(min(len(data),3*search_space), data, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
-				random_sample=random.sample(data,min(len(data),search_space))
-				data=heapq.nlargest(min(len(random_sample),search_space), random_sample, key= lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 
 		return data_new, len(temp_data.keys())
 
@@ -673,16 +666,21 @@ class Limerick_Generate_new(Limerick_Generate):
 				for q in quasi_finished_sentences:
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
-			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
+			if len(madlib_sentences)>0:
+				sentences, diversity=self.diversity_sort(search_space,retain_space,madlib_sentences, finished=False)
+			else:
+				sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
+
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4]) for i in previous_data_temp]
 		return previous_data
 
-	def get_madlib_verbs(self, prompt):
-		
-		return ['go', 'sit', 'stand', 'come', 'walk']
+	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
+		# dictionary {pos: set()}
+		return {pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))
+				for pos in pos_list}
 
 	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
@@ -726,10 +724,15 @@ class Limerick_Generate_new(Limerick_Generate):
 					# previously, we discard the sentence.
 					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
 						continue
-					if any('VB' in pos_tag for pos_tag in pos_set) and which_line == 'second' \
-						and not any('VB' in pos_tag for pos_tag in template_curr) \
-						and word in self.madlib_verbs:
-						madlib_flag = True
+					curr_vb_pos = None
+					for pos_tag in pos_set:
+						if 'VB' in pos_tag:
+							curr_vb_pos = pos_tag
+							break
+					if curr_vb_pos is not None and which_line == 'second' \
+						and not any('VB' in pos_tag for pos_tag in template_curr):
+						if word in self.madlib_verbs[curr_vb_pos]:
+							madlib_flag = True
 
 					# If stress is incorrect, continue
 					if self.enforce_stress:
