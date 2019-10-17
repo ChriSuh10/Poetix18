@@ -71,7 +71,7 @@ class Limerick_Generate:
         'being', 'do', 'does', 'did', 'have', 'has', 'had'])
 
         self.names_rhymes = "py_files/saved_objects/downloaded_names_rhymes.pkl"
-        if self.names_rhymes in os.listdir("py_files/saved_objects"):
+        if self.names_rhymes[self.names_rhymes.rfind("/") + 1:] in os.listdir("py_files/saved_objects"):
             with open(self.names_rhymes, "rb") as hf:
                 self.names_rhymes_dict = pickle.load(hf)
 
