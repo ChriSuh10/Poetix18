@@ -248,7 +248,7 @@ if __name__ == '__main__':
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	for i in ["second","third","fourth","fifth"]:
-		print("=======================")
+		print("======================= \n")
 		for j in data[i].keys():
 			for k in data[i][j]:
 				print(k)
