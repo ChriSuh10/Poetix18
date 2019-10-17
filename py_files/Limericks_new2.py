@@ -784,8 +784,6 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
-									if madlib_flag:
-										madlib_sentences.append(word_tuple)
 							if which_line=="third":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
@@ -796,8 +794,6 @@ class Limerick_Generate_new(Limerick_Generate):
 												(sentences[i][6][0],word),
 												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
-									if madlib_flag:
-										madlib_sentences.append(word_tuple)
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
@@ -808,6 +804,4 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
-									if madlib_flag:
-										madlib_sentences.append(word_tuple)
 		output.put((new_sentences, quasi_finished_sentences,madlib_sentences))
