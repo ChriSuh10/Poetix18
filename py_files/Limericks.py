@@ -67,6 +67,8 @@ class Limerick_Generate:
 
         self.word_embedding_alpha = 0.5
         self.word_embedding_coefficient = 0.1
+        self.verb_repeat_whitelist = set(['be', 'is', 'am', 'are', 'was', 'were',
+        'being', 'do', 'does', 'did', 'have', 'has', 'had'])
 
     def create_syll_dict(self, fname):
         """
@@ -186,11 +188,14 @@ class Limerick_Generate:
         bool
             Whether the word is a duplicate.
         """
+
         if word not in self.words_to_pos:
             return False
         word_pos = self.words_to_pos[word]
         if len(word_pos) == 0:
             return False
+        if 'VB' == word_pos[0]:
+            return (word in previous and word not in self.verb_repeat_whitelist)
         return ('JJ' == word_pos[0] or 'NN' == word_pos[0]) and word in previous
 
     def two_word_link(self, w1, w2, seen_words):
