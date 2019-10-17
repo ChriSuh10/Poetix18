@@ -591,7 +591,7 @@ class Limerick_Generate:
 
         return np.sum(np.array(scores) * weight_arr) / np.sum(weight_arr)
 
-    def storyline_filtering_henry(self, end_words_set, pos=["VBP"], n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
+    def storyline_filtering_henry(self, end_words_set, pos_list=["VBP"], n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
         """
         <args>:
         end_words_set: a set of end_words (returned in <func> get_two_sets_henry) that we want to reduce and filter;
@@ -610,7 +610,7 @@ class Limerick_Generate:
         end_words_dict = {}
 
         for end_word in end_words_set:
-            fill_in_return = self.fill_in_henry(end_word, pos=pos, n_return=n_fill_in, return_score=True)
+            fill_in_return = self.fill_in_henry(end_word, pos_list=pos_list, n_return=n_fill_in, return_score=True)
 
             if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= score_threshold:
                 end_words_dict[end_word] = [tup[0] for tup in fill_in_return]
@@ -642,13 +642,13 @@ class Limerick_Generate:
         w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict = {}, {}
 
         for w1 in w1s_rhyme_dict:
-            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos=[pos_list[0]], madlibs_dict=madlibs_dict)
+            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos_list=[pos_list[0]], madlibs_dict=madlibs_dict)
 
             if len(w1_rhyme_filtered) > 0:
                 w1s_rhyme_filtered_dict[w1.capitalize()] = w1_rhyme_filtered
 
         for w3 in w3s_rhyme_dict:
-            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos=[pos_list[1]], madlibs_dict=madlibs_dict)
+            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos_list=[pos_list[1]], madlibs_dict=madlibs_dict)
 
             if len(w3_rhyme_filtered) > 0:
                 w3s_rhyme_filtered_dict[w3] = w3_rhyme_filtered
@@ -656,14 +656,14 @@ class Limerick_Generate:
         return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
 
     def filter_common_word_henry(self, word):
-        fill_in_return = self.fill_in_henry(word, pos=["VB", "NN"], n_return=10, return_score=True)
+        fill_in_return = self.fill_in_henry(word, pos_list=["VB", "NN"], n_return=10, return_score=True)
 
         if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= 0.35:
             return True
         return False
 
     def download_names_rhymes_henry(self):
-        if self.names_rhymes in os.listdir("saved_objects"):
+        if self.names_rhymes in os.listdir("py_files/saved_objects"):
             print("=" * 20 + "\n" + self.names_rhymes + " already exists!\n" + "=" * 20)
             return
         names_rhymes_dict = {}
