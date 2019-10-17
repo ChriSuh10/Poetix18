@@ -70,6 +70,8 @@ class Limerick_Generate:
         self.verb_repeat_whitelist = set(['be', 'is', 'am', 'are', 'was', 'were',
         'being', 'do', 'does', 'did', 'have', 'has', 'had'])
 
+        self.names_rhymes = "downloaded_names_rhymes.pkl"
+
     def create_syll_dict(self, fname):
         """
         Using the cmudict file, returns a dictionary mapping words to their
@@ -436,7 +438,7 @@ class Limerick_Generate:
         w5 = self.get_similar_word_henry([prompt, w2, w3, w4], seen_words=[w1], weights=[1, 4, 1, 3], n_return=1, word_set=rhyme_w1)[0]
         return [w1.capitalize(), w2, w3, w4, w5]
 
-    def get_rhyming_words_one_step_henry(self, word, max_syllables=3):
+    def get_rhyming_words_one_step_henry(self, word, max_syllables=2):
         """
         get the rhyming words of <arg> word returned from datamuse api
         <args>:
@@ -548,7 +550,7 @@ class Limerick_Generate:
 
         return w1s_rhyme_dict, w3s_rhyme_dict
 
-    def fill_in_henry(self, end_word, pos="VB", seen_words_set=set(), n_return=10, return_score=False):
+    def fill_in_henry(self, end_word, pos_list=["VB"], seen_words_set=set(), n_return=10, return_score=False):
         """
         <args>:
         end_word: a given last word;
@@ -563,7 +565,7 @@ class Limerick_Generate:
         if return_score is False, the list contains <str>, i.e. mad-libs choices,
         if return_score is True, the list contains <tuple>, i.e. (mad-libs choice, its similarity score with end_word)'s;
         """
-        words_list_from_pos = [self.pos_to_words[pos_i] for pos_i in self.pos_to_words if pos_i[:len(pos)] == pos]
+        words_list_from_pos = [self.pos_to_words[pos_i] for pos_i in self.pos_to_words if pos_i[:2] in pos_list or pos_i in pos_list]
         words_set = set(reduce(lambda x, y: x + y, words_list_from_pos))
 
         for seen_word in seen_words_set | {end_word}:
@@ -594,7 +596,7 @@ class Limerick_Generate:
 
         return np.sum(np.array(scores) * weight_arr) / np.sum(weight_arr)
 
-    def storyline_filtering_henry(self, end_words_set, pos="VBP", n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
+    def storyline_filtering_henry(self, end_words_set, pos_list=["VBP"], n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
         """
         <args>:
         end_words_set: a set of end_words (returned in <func> get_two_sets_henry) that we want to reduce and filter;
@@ -613,7 +615,7 @@ class Limerick_Generate:
         end_words_dict = {}
 
         for end_word in end_words_set:
-            fill_in_return = self.fill_in_henry(end_word, pos=pos, n_return=n_fill_in, return_score=True)
+            fill_in_return = self.fill_in_henry(end_word, pos_list=pos_list, n_return=n_fill_in, return_score=True)
 
             if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= score_threshold:
                 end_words_dict[end_word] = [tup[0] for tup in fill_in_return]
@@ -645,18 +647,37 @@ class Limerick_Generate:
         w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict = {}, {}
 
         for w1 in w1s_rhyme_dict:
-            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos=pos_list[0], madlibs_dict=madlibs_dict)
+            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos_list=[pos_list[0]], madlibs_dict=madlibs_dict)
 
             if len(w1_rhyme_filtered) > 0:
                 w1s_rhyme_filtered_dict[w1.capitalize()] = w1_rhyme_filtered
 
         for w3 in w3s_rhyme_dict:
-            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos=pos_list[1], madlibs_dict=madlibs_dict)
+            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos_list=[pos_list[1]], madlibs_dict=madlibs_dict)
 
             if len(w3_rhyme_filtered) > 0:
                 w3s_rhyme_filtered_dict[w3] = w3_rhyme_filtered
 
         return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
+
+    def filter_common_word_henry(self, word):
+        fill_in_return = self.fill_in_henry(word, pos_list=["VB", "NN"], n_return=10, return_score=True)
+
+        if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= 0.35:
+            return True
+        return False
+
+    def download_names_rhymes_henry(self):
+        if self.names_rhymes in os.listdir("py_files/saved_objects"):
+            print("=" * 20 + "\n" + self.names_rhymes + " already exists!\n" + "=" * 20)
+            return
+        names_rhymes_dict = {}
+        for i, name in enumerate(self.filtered_names):
+            rhymes_set = self.get_rhyming_words_one_step_henry(name.lower())
+            names_rhymes_dict[name] = {word for word in rhymes_set if self.filter_common_word_henry(word)}
+            print("Downloading names_rhymes_dict, %d / %d done..." % (i + 1, len(self.filtered_names)))
+        with open(self.names_rhymes, "wb") as hf:
+            pickle.dump(names_rhymes_dict, hf)
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
