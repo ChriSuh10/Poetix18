@@ -70,7 +70,7 @@ class Limerick_Generate:
         self.verb_repeat_whitelist = set(['be', 'is', 'am', 'are', 'was', 'were',
         'being', 'do', 'does', 'did', 'have', 'has', 'had'])
 
-        self.names_rhymes = "downloaded_names_rhymes.pkl"
+        self.names_rhymes = "py_files/saved_objects/downloaded_names_rhymes.pkl"
         if self.names_rhymes in os.listdir("py_files/saved_objects"):
             with open(self.names_rhymes, "rb") as hf:
                 self.names_rhymes_dict = pickle.load(hf)
