@@ -676,12 +676,14 @@ class Limerick_Generate:
 
     def download_names_rhymes_henry(self):
         if self.names_rhymes in os.listdir("py_files/saved_objects"):
-            print("=" * 20 + "\n" + self.names_rhymes + " already exists!\n" + "=" * 20)
-            return
-        names_rhymes_dict = {}
-        for i, name in enumerate(self.filtered_names):
+            with open(self.names_rhymes, "rb") as hf:
+                names_rhymes_dict = pickle.load(hf)
+        else:
+            names_rhymes_dict = {}
+        names_to_download = [name for name in self.filtered_names if name not in names_rhymes_dict.keys()]
+        for i, name in enumerate(names_to_download):
             names_rhymes_dict[name] = self.get_rhyming_words_one_step_henry(name.lower())
-            print("Downloading names_rhymes_dict, %d / %d done..." % (i + 1, len(self.filtered_names)))
+            print("Downloading names_rhymes_dict, %d / %d done..." % (i + 1, len(names_to_download)))
         with open(self.names_rhymes, "wb") as hf:
             pickle.dump(names_rhymes_dict, hf)
 
