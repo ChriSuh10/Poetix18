@@ -144,7 +144,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		self.enforce_stress = stress
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
-
+		print(self.madlib_verbs)
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_filtered_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
@@ -638,12 +638,11 @@ class Limerick_Generate_new(Limerick_Generate):
 				p.join()
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
-			new_sentences, quasi_finished_sentences,madlib_sentences = [], [],[]
+			new_sentences, quasi_finished_sentences = [], []
 			#pdb.set_trace()
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
-				madlib_sentences+= result[2]
 
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
@@ -669,10 +668,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				for q in quasi_finished_sentences:
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
-			if len(madlib_sentences)>0:
-				sentences, diversity=self.diversity_sort(search_space,retain_space,madlib_sentences, finished=False)
-			else:
-				sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
+			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
 
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
@@ -688,7 +684,6 @@ class Limerick_Generate_new(Limerick_Generate):
 	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
 		quasi_finished_sentences = []
-		madlib_sentences = []
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
@@ -727,15 +722,6 @@ class Limerick_Generate_new(Limerick_Generate):
 					# previously, we discard the sentence.
 					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
 						continue
-					curr_vb_pos = None
-					for pos_tag in pos_set:
-						if 'VB' in pos_tag:
-							curr_vb_pos = pos_tag
-							break
-					if curr_vb_pos is not None and which_line == 'second' \
-						and not any('VB' in pos_tag for pos_tag in template_curr):
-						if word in self.madlib_verbs[curr_vb_pos]:
-							madlib_flag = True
 
 					# If stress is incorrect, continue
 					if self.enforce_stress:
@@ -761,6 +747,15 @@ class Limerick_Generate_new(Limerick_Generate):
 					if continue_flag:
 						word_list_against_duplication.append(word)
 						for continue_sub_flag in continue_flag:
+
+							# If current word POS is VB, current line is second line and word is not in our
+							# precomputed list, throw away the sentence
+							curr_vb_pos = continue_sub_flag[0]
+							if 'VB' in curr_vb_pos and which_line == 'second' \
+								and not any('VB' in pos_tag for pos_tag in template_curr):
+								if word not in self.madlib_verbs[curr_vb_pos]:
+									continue
+
 							word_tuple = (sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
@@ -770,8 +765,6 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average)
 							new_sentences.append(word_tuple)
-							if madlib_flag:
-								madlib_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
 							if which_line=="second" or which_line=="fifth":
@@ -804,4 +797,4 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
-		output.put((new_sentences, quasi_finished_sentences,madlib_sentences))
+		output.put((new_sentences, quasi_finished_sentences))
