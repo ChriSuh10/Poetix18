@@ -247,15 +247,15 @@ if __name__ == '__main__':
 	
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	template_to_line=defaultdict(list)
 	for i in ["second","third","fourth","fifth"]:
+		print("=======================")
 		for j in data[i].keys():
 			for k in data[i][j]:
-				template_to_line[" ".join(k[0])].append(k[1])
+				print(k)
+	'''
 	with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
 		pickle.dump(template_to_line,pickle_in)
-
-
+	'''
 		
 '''
 	with open("saved_objects/template_to_line.pickle","rb") as pickle_in:

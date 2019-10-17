@@ -143,6 +143,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			Whether we enforce stress.
 		"""
 		self.enforce_stress = stress
+		self.madlib_verbs = self.get_madlib_verbs(prompt)
 
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_filtered_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -641,11 +642,12 @@ class Limerick_Generate_new(Limerick_Generate):
 				p.join()
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
-			new_sentences, quasi_finished_sentences = [], []
+			new_sentences, quasi_finished_sentences,madlib_sentences = [], [],[]
 			#pdb.set_trace()
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
+				madlib_sentences+= result[2]
 
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
@@ -678,12 +680,18 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4]) for i in previous_data_temp]
 		return previous_data
 
+	def get_madlib_verbs(self, prompt):
+		
+		return ['go', 'sit', 'stand', 'come', 'walk']
+
 	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
 		new_sentences = []
 		quasi_finished_sentences = []
+		madlib_sentences = []
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
+			madlib_flag = False
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
@@ -718,6 +726,10 @@ class Limerick_Generate_new(Limerick_Generate):
 					# previously, we discard the sentence.
 					if self.is_duplicate_in_previous_words(word, sentences[i][2]):
 						continue
+					if any('VB' in pos_tag for pos_tag in pos_set) and which_line == 'second' \
+						and not any('VB' in pos_tag for pos_tag in template_curr) \
+						and word in self.madlib_verbs:
+						madlib_flag = True
 
 					# If stress is incorrect, continue
 					if self.enforce_stress:
@@ -743,41 +755,53 @@ class Limerick_Generate_new(Limerick_Generate):
 					if continue_flag:
 						word_list_against_duplication.append(word)
 						for continue_sub_flag in continue_flag:
-							new_sentences.append((sentences[i][0] + (index,),
+							word_tuple = (sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
 												sentences[i][3],
 												sentences[i][4]+(continue_sub_flag[0],),
 												sentences[i][5]+continue_sub_flag[1],
 												sentences[i][6],
-												word_embedding_moving_average))
+												word_embedding_moving_average)
+							new_sentences.append(word_tuple)
+							if madlib_flag:
+								madlib_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
 							if which_line=="second" or which_line=="fifth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
-									quasi_finished_sentences.append((sentences[i][0] + (index,),
+									word_tuple=(sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												word_embedding_moving_average))
+												word_embedding_moving_average)
+									quasi_finished_sentences.append(word_tuple)
+									if madlib_flag:
+										madlib_sentences.append(word_tuple)
 							if which_line=="third":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
-									quasi_finished_sentences.append((sentences[i][0] + (index,),
+									word_tuple=(sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												(sentences[i][6][0],word),
-												word_embedding_moving_average))
+												word_embedding_moving_average)
+									quasi_finished_sentences.append(word_tuple)
+									if madlib_flag:
+										madlib_sentences.append(word_tuple)
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
-									quasi_finished_sentences.append((sentences[i][0] + (index,),
+									word_tuple=(sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												word_embedding_moving_average))
-		output.put((new_sentences, quasi_finished_sentences))
+												word_embedding_moving_average)
+									quasi_finished_sentences.append(word_tuple)
+									if madlib_flag:
+										madlib_sentences.append(word_tuple)
+		output.put((new_sentences, quasi_finished_sentences,madlib_sentences))
