@@ -196,7 +196,7 @@ class Limerick_Generate:
         word_pos = self.words_to_pos[word]
         if len(word_pos) == 0:
             return False
-        if 'VB' == word_pos[0]:
+        if 'VB' in word_pos[0]:
             return (word in previous and word not in self.verb_repeat_whitelist)
         return ('JJ' == word_pos[0] or 'NN' == word_pos[0]) and word in previous
 
