@@ -1,4 +1,4 @@
-#### generate the syllabus distribution of all POS
+t#### generate the syllabus distribution of all POS
 
 import pickle
 from collections import defaultdict, Counter
