@@ -681,13 +681,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		return {pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))
 				for pos in pos_list}
 
-	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output):
+	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output,madlib_flag=False):
 		new_sentences = []
 		quasi_finished_sentences = []
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
-			madlib_flag = False
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
@@ -750,11 +749,12 @@ class Limerick_Generate_new(Limerick_Generate):
 
 							# If current word POS is VB, current line is second line and word is not in our
 							# precomputed list, throw away the sentence
-							curr_vb_pos = continue_sub_flag[0]
-							if 'NN' in curr_vb_pos and which_line == 'second' \
-								and not any('NN' in pos_tag for pos_tag in template_curr):
-								if word not in self.madlib_verbs[curr_vb_pos]:
-									continue
+							if madlib_flag:
+								curr_vb_pos = continue_sub_flag[0]
+								if 'NN' in curr_vb_pos and which_line == 'second' \
+									and not any('NN' in pos_tag for pos_tag in template_curr):
+									if word not in self.madlib_verbs[curr_vb_pos]:
+										continue
 
 							word_tuple = (sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
