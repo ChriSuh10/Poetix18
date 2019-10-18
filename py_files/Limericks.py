@@ -837,10 +837,11 @@ class Limerick_Generate:
                 return False
             n += len(self.dict_meters[x][0])
             curr_meter = self.dict_meters[x]
-            for i in range(len(curr_meter[0])):
+            for i in range(max([len(j) for j in curr_meter])):
                 curr_stress = []
                 for possible_stress in curr_meter:
-                    curr_stress.append(possible_stress[i])
+                    if len(possible_stress)>=i+1:
+                        curr_stress.append(possible_stress[i])
                 meter.append(curr_stress)
         return (not all(('1' not in meter[i]) for i in stress)) \
             and (n in num_syllables)
@@ -991,11 +992,9 @@ class Limerick_Generate:
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
                 # First line always has 8 or 9 syllables
-                try:
-                    if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
-                        candidate_sentences.append(new_sentence)
-                except:
-                    pdb.set_trace()
+                if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
+                    candidate_sentences.append(new_sentence)
+                
 
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]

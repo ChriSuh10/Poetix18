@@ -1,5 +1,3 @@
-t#### generate the syllabus distribution of all POS
-
 import pickle
 from collections import defaultdict, Counter
 import numpy as np
@@ -71,21 +69,43 @@ def split_chunks( data):
 			while_flag=False
 		flag+=chuck_len
 	return data_list
+def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
+	template=['there', 'was', 'a', 'young', 'fellow', 'named', 'salvatore']
+	meter = []
+	n = 0
+	for x in template:
+	    if x not in dict_meters:
+	        return False
+	    n += len(dict_meters[x][0])
+	    curr_meter = dict_meters[x]
+	    for i in range(max([len(j) for j in curr_meter])):
+	        curr_stress = []
+	        for possible_stress in curr_meter:
+	        	if len(possible_stress)>=i+1:
+	        		curr_stress.append(possible_stress[i])
+	        meter.append(curr_stress)
+	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
-	'''
+	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
 	dict_meters=create_syll_dict(syllables_file)
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
 		pos_to_words = postag_dict[1]
+	template=['there', 'was', 'a', 'young', 'fellow', 'named', 'salvatore']
+	a=is_correct_meter(template=template)
+	print(a)
+	'''
 	special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
 	special_pos=[i.upper() for i in special_pos.split(" ")]
 	special_words=set()
 	for k in special_pos:
 		for j in pos_to_words[k]:
 			special_words.add(j.upper())
+	'''
+	'''
 	with open("saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 		pos_sylls_mode= pickle.load(pickle_in)
 	for i in special_words:
@@ -95,7 +115,8 @@ if __name__ == '__main__':
 			pos_sylls_mode[i]=[1,1.0]
 	for i in pos_sylls_mode.keys():
 		print("{}:{}".format(i, pos_sylls_mode[i]))
-		'''
+	'''
+		
 	'''
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
@@ -244,7 +265,7 @@ if __name__ == '__main__':
 		for j in wu[i]:
 			print(j)
 	'''
-	
+	'''
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	for i in ["second","third","fourth","fifth"]:
@@ -252,6 +273,7 @@ if __name__ == '__main__':
 		for j in data[i].keys():
 			for k in data[i][j]:
 				print(k)
+	'''
 	'''
 	with open("saved_objects/template_to_line.pickle","wb") as pickle_in:
 		pickle.dump(template_to_line,pickle_in)
