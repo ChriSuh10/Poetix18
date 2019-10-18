@@ -25,7 +25,7 @@ from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp, get_first_line_templates, get_good_templates
-
+import pdb
 
 class Limerick_Generate:
     def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
