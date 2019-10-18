@@ -991,8 +991,12 @@ class Limerick_Generate:
                     if new_sentence[i] in placeholders:
                         new_sentence[i] = candidate[new_sentence[i]]
                 # First line always has 8 or 9 syllables
-                if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
-                    candidate_sentences.append(new_sentence)
+                try:
+                    if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
+                        candidate_sentences.append(new_sentence)
+                except:
+                    pdb.set_trace()
+
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]
 

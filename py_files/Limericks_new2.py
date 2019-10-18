@@ -142,6 +142,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		stress: bool
 			Whether we enforce stress.
 		"""
+		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		#self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
@@ -172,10 +173,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(rhyme+":"+"\n")
 			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
 			'''
-			try:
-				text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
-			except:
-				pdb.set_trace()
+			
+			text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
 			first_line_encodes = self.enc.encode(" ".join(text))
 			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
 
