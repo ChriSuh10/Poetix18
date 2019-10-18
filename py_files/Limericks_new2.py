@@ -144,8 +144,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
-		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
-		#self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
+		#self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
+		self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print(self.madlib_verbs)
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_new_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -752,7 +752,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							# precomputed list, throw away the sentence
 							curr_vb_pos = continue_sub_flag[0]
 							if 'VB' in curr_vb_pos and which_line == 'second' \
-								and not any('VB' in pos_tag for pos_tag in template_curr):
+								and not any('NN' in pos_tag for pos_tag in template_curr):
 								if word not in self.madlib_verbs[curr_vb_pos]:
 									continue
 
