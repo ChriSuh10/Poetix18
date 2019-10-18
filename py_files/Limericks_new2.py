@@ -172,7 +172,10 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(rhyme+":"+"\n")
 			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
 			'''
-			text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
+			try:
+				text=random.choice(self.gen_first_line_new(rhyme.lower(),strict=True))
+			except:
+				pdb.set_trace()
 			first_line_encodes = self.enc.encode(" ".join(text))
 			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
 
