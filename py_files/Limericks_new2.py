@@ -609,8 +609,12 @@ class Limerick_Generate_new(Limerick_Generate):
 				It records the rhyme word in this sense, second line and fifth line last word have to be
 				in the w1s_rhyme_dict[w1], the fourth line last word have to be in w3s_rhyme_dict[w3]. Note if we are only at line2,
 				then w3 is '', because it hasn't happened yet.
+		possible: list
+			Possible templates for current line.
 		search_space: int
 			We generate search_space lines and sort them by probability to find out the bes line.
+		num_sylls: int
+			Number of syllables of current line
 		which_line: int
 			which line it is (1,2,3,4 or 5)
 		'''
@@ -689,7 +693,26 @@ class Limerick_Generate_new(Limerick_Generate):
 		return {pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))
 				for pos in pos_list}
 
-	def batch_process_word(self, which_line,possible, num_sylls, logits, sentences, output,madlib_flag=False):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output, madlib_flag=False):
+		'''
+		Batch process the new possible word of a group of incomplete sentences.
+
+        Parameters
+        ----------
+		possible: list
+			list of possible templates
+		num_sylls: int
+			we generate search_space lines and sort them by probability to find out the bes line.
+		which_line: int
+			which line it is (1,2,3,4 or 5)
+		num_sylls: int
+			wumber of syllables of current line.
+		logits: list
+			Logits is the output of GPT model.
+		sentences: list
+			List of sentences that we currently are generating.
+		'''
+
 		new_sentences = []
 		quasi_finished_sentences = []
 		for i,j in enumerate(logits):
