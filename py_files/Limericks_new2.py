@@ -69,7 +69,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = 0.1
 
+
+		print("=========================== Processing Finer POS categories =======================================")
 		self.finer_pos_category()
+		print("=========================== Finished Finer POS categories =======================================")
+
 
 	def finer_pos_category(self):
 		self.special_words= get_finer_pos_words()
