@@ -994,7 +994,7 @@ class Limerick_Generate:
                 # First line always has 8 or 9 syllables
                 if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
                     candidate_sentences.append(new_sentence)
-                
+
 
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]

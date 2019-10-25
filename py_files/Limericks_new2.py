@@ -73,7 +73,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def finer_pos_category(self):
 		self.special_words= get_finer_pos_words()
-		print(self.special_words)
 		# special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
 		# special_pos=[i.upper() for i in special_pos.split(" ")]
 		# for k in special_pos:
@@ -96,7 +95,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							if w==len(j[1])-1: flag=True
 						else:
 							temp_j.append(j[0][w])
-					if flag: 
+					if flag:
 						temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
 					else:
 						temp_line[i].append((tuple(temp_j),j[1],j[2]))
@@ -118,6 +117,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.template_to_line=pickle.load(pickle_in)
 		with open("py_files/saved_objects/pos_sylls_mode.p","rb") as pickle_in:
 			self.pos_sylls_mode= pickle.load(pickle_in)
+		with open("py_files/saved_objects/blacklist_index.p","rb") as pickle_in:
+			self.blacklist_index= pickle.load(pickle_in)
+
 		for i in self.special_words:
 			try:
 				self.pos_sylls_mode[i]=[(len(self.dict_meters[i.lower()][0]),1.0)]
@@ -186,7 +188,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
 		'''
 		# Generate 2,3,4,5 lines of the poem
-		
+
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		#for which_line, num_sylls in zip(["third"],[6]):
 
@@ -198,12 +200,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
-		
-		
+
+
 		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
 		previous_data=pickle.load(f1)
 		f1.close()
-		
+
 		# Print out generated poems
 		temp_data=defaultdict(list)
 		for line in previous_data:
@@ -713,6 +715,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 					continue
 				else:
+					if index in self.blacklist_index:
+						continue
 					pos_set=self.get_word_pos(word)
 					sylls_set=set([len(m) for m in self.dict_meters[word]])
 					if len(pos_set)==0 or len(sylls_set)==0:
