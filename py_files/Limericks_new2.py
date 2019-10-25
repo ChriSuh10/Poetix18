@@ -69,10 +69,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = 0.1
 
-
-		print("=========== Processing Finer POS categories ===========")
 		self.finer_pos_category()
-		print("=========== Finished Finer POS categories ===========")
 
 
 	def finer_pos_category(self):
@@ -156,6 +153,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.prob_threshold = prob_threshold
 		#self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
+		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_new_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
@@ -698,9 +696,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
 			for ii,index in enumerate(sorted_index):
-				print(np.log(j[index]))
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
-					continue
+					break
 
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
