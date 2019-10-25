@@ -127,7 +127,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				self.pos_sylls_mode[i]=[1,1.0]
 
 
-	def gen_poem_andre_new(self,prompt,search_space,retain_space, stress=False):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, stress=False, prob_threshold=None):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -143,9 +143,13 @@ class Limerick_Generate_new(Limerick_Generate):
             How many sentences per template to keep.
 		stress: bool
 			Whether we enforce stress.
+		prob_threshold: float
+			If the probability of a word is lower than this threshold we will not consider
+			this word. Set it to None to get rid of it.
 		"""
 		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
+		self.prob_threshold = threshold
 		#self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print(self.madlib_verbs)
@@ -690,6 +694,10 @@ class Limerick_Generate_new(Limerick_Generate):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
 			for ii,index in enumerate(sorted_index):
+				print(np.log(j[index]))
+				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
+					continue
+
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
 				if word in word_list_against_duplication:
