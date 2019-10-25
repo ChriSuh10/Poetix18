@@ -70,9 +70,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_coefficient = 0.1
 
 
-		print("=========================== Processing Finer POS categories =======================================")
+		print("=========== Processing Finer POS categories ===========")
 		self.finer_pos_category()
-		print("=========================== Finished Finer POS categories =======================================")
+		print("=========== Finished Finer POS categories ===========")
 
 
 	def finer_pos_category(self):
@@ -153,7 +153,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
-		self.prob_threshold = threshold
+		self.prob_threshold = prob_threshold
 		#self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print(self.madlib_verbs)
