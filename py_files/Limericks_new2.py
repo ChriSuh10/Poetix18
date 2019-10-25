@@ -128,7 +128,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				self.pos_sylls_mode[i]=[1,1.0]
 
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, stress=False, prob_threshold=None):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, stress=False, prob_threshold=-15):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
