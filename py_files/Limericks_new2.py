@@ -151,8 +151,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
 		self.prob_threshold = prob_threshold
-		#self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
-		self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
+		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
+		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_new_henry(prompt)
@@ -718,6 +718,20 @@ class Limerick_Generate_new(Limerick_Generate):
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
+			template_curr=sentences[i][4]
+			num_sylls_curr=sentences[i][5]
+			moving_avg_curr=sentences[i][7]
+			rhyme_set_curr = set()
+			if which_line=="second" or which_line=="fifth":
+				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+				rhyme_word=sentences[i][6][0]
+			if which_line=="third":
+				rhyme_set_curr = self.w3s_rhyme_dict.keys()
+				rhyme_word="third_line_special_case"
+			if which_line=="fourth":
+				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
+				rhyme_word=sentences[i][6][1]
+
 			for ii,index in enumerate(sorted_index):
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
 					break
@@ -726,23 +740,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				word = self.enc.decode([index]).lower().strip()
 				if word in word_list_against_duplication:
 					continue
-				template_curr=sentences[i][4]
-				num_sylls_curr=sentences[i][5]
-				moving_avg_curr=sentences[i][7]
-				rhyme_set_curr = set()
-				if which_line=="second" or which_line=="fifth":
-					rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
-					rhyme_word=sentences[i][6][0]
-				if which_line=="third":
-					rhyme_set_curr = self.w3s_rhyme_dict.keys()
-					rhyme_word="third_line_special_case"
-				if which_line=="fourth":
-					rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
-					rhyme_word=sentences[i][6][1]
-
-				if len(word)==0:
+				elif len(word)==0:
 					continue
-
 				# note that both , and . are in these keys()
 				elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 					continue
