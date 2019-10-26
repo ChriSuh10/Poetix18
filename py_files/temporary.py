@@ -90,10 +90,15 @@ if __name__ == '__main__':
 	with open("saved_objects/templates_new.pickle","rb") as f:
 		data=pickle.load(f)
 		i="last2"
+		temp=defaultdict(list)
 		for j in data[i].keys():
 			for k in data[i][j]:
-				print(k)
-				print("\n")
+				fourth=tuple(k[0])
+				fifth=tuple(k[1])
+				temp[fourth].append(fifth)
+	with open("saved_objects/templates_last2_tuple.pickle","wb") as pickle_in:
+		pickle.dump(temp,pickle_in)
+
 				
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
