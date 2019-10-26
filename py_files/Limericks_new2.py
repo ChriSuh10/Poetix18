@@ -740,9 +740,11 @@ class Limerick_Generate_new(Limerick_Generate):
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
+			'''
 			if which_line == "fifth":
 				fourth_line_template = tuple(sentences[i][3].split["\n"][-1])
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
+			'''
 
 			for ii,index in enumerate(sorted_index):
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
