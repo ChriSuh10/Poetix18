@@ -71,11 +71,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		self.finer_pos_category()
 
-		# last two lines mapping
-		self.limerick_last_two_line_mapping = defaultdict(list)
-
 
 	def finer_pos_category(self):
+		# last two lines mapping
+		self.limerick_last_two_line_mapping = defaultdict(list)
 		self.special_words= get_finer_pos_words()
 		# special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
 		# special_pos=[i.upper() for i in special_pos.split(" ")]
