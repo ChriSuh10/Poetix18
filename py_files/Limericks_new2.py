@@ -71,6 +71,9 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		self.finer_pos_category()
 
+		# last two lines mapping
+		self.limerick_last_two_line_mapping = {}
+
 
 	def finer_pos_category(self):
 		self.special_words= get_finer_pos_words()
@@ -625,7 +628,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_sylls_curr=0
 			sentences.append([i[0],i[1],i[2],i[3],template_curr,num_sylls_curr,i[4], 0])
 		# sentences is a tuple, each element looks like (encodes, score, text, template, current_line_template, how_many_syllabus_used_in_current_line, (w1,w3), moving average)
-		# curren_line_template is a partial template of the currently developing line.
+		# curren_line_template is a partial template of the currently developing line. template is all the POS of the developing poem, with lines separated by "\n".
 		finished_sentences=[]
 		iteration=0
 		new_sentences=[1]
@@ -718,6 +721,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
+			# sentences is a tuple, each element looks like (encodes, score, text, template, current_line_template, how_many_syllabus_used_in_current_line, (w1,w3), moving average)
+			# curren_line_template is a partial template of the currently developing line.
+			#template is all the POS of the developing poem, with lines separated by "\n".
 			template_curr=sentences[i][4]
 			num_sylls_curr=sentences[i][5]
 			moving_avg_curr=sentences[i][7]
@@ -731,6 +737,12 @@ class Limerick_Generate_new(Limerick_Generate):
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
+
+			# If it is the fifth line, the current template has to corresponds to the fourth line template
+			# because they are usually one sentence
+			if which_line == "fifth":
+				fourth_line_template = tuple(sentences[i][3].split["\n"][-1])
+				possible = self.limerick_last_two_line_mapping[fourth_line_template]
 
 			for ii,index in enumerate(sorted_index):
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
