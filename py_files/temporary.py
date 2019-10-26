@@ -5,6 +5,7 @@ import pdb
 import time
 import multiprocessing as mp
 import math
+from Finer_POS import get_finer_pos_words
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -87,18 +88,54 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
+	limerick_last_two_line_mapping = defaultdict(list)
+	special_words= get_finer_pos_words()
+	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+	with open("saved_objects/last2_tuple.pickle","rb") as pickle_in:
+		last2_dict=pickle.load(pickle_in)
+	temp_data={}
+	fourth_line_dict={}
+	for k in data.keys():
+		temp_line=defaultdict(list)
+		for i in data[k].keys():
+			for j in data[k][i]:
+				temp_j=[]
+				flag=False
+				if len(j[1])!=len(j[0]): continue
+				for w in range(len(j[1])):
+					if j[1][w].upper() in special_words:
+						temp_j.append(j[1][w].upper())
+						if w==len(j[1])-1: flag=True
+					else:
+						temp_j.append(j[0][w])
+				if k=="fourth":
+					limerick_last_two_line_mapping[tuple(temp_j)]=[]
+					fourth_line_dict[tuple(j[1])]=tuple(temp_j)
+				if k=="fifth":
+					for s in last2_dict[j[1]]:
+						limerick_last_two_line_mapping[fourth_line_dict[s]].append(tuple(temp_j))
+				if flag:
+					temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
+				else:
+					temp_line[i].append((tuple(temp_j),j[1],j[2]))
+				#if (tuple(temp_j),j[1],j[2]) != j:
+					#temp_line[i].append(j)
+		temp_data[k]=temp_line
+	print(limerick_last_two_line_mapping)
+	'''
 	with open("saved_objects/templates_new.pickle","rb") as f:
 		data=pickle.load(f)
 		i="last2"
 		temp=defaultdict(list)
 		for j in data[i].keys():
 			for k in data[i][j]:
-				fourth=tuple(k[0])
-				fifth=tuple(k[1])
-				temp[fourth].append(fifth)
-	with open("saved_objects/templates_last2_tuple.pickle","wb") as pickle_in:
+				fourth=tuple(k[2])
+				fifth=tuple(k[3])
+				temp[fifth].append(fourth)
+	with open("saved_objects/last2_tuple.pickle","wb") as pickle_in:
 		pickle.dump(temp,pickle_in)
-
+	'''
 				
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
@@ -166,31 +203,7 @@ if __name__ == '__main__':
 		for j in pos_to_words[k]:
 			special.add(j.upper())
 	print(special)
-
-	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
-		data=pickle.load(pickle_in)
-	temp_data={}
-	for k in data.keys():
-		temp_line=defaultdict(list)
-		for i in data[k].keys():
-			for j in data[k][i]:
-				temp_j=[]
-				flag=False
-				if len(j[1])!=len(j[0]): continue
-				for w in range(len(j[1])):
-					if j[1][w].upper() in special:
-						temp_j.append(j[1][w].upper())
-						if w==len(j[1])-1: flag=True
-					else:
-						temp_j.append(j[0][w])
-				if flag: 
-					temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
-				else:
-					temp_line[i].append((tuple(temp_j),j[1],j[2]))
-				#if (tuple(temp_j),j[1],j[2]) != j:
-					#temp_line[i].append(j)
-		temp_data[k]=temp_line
-
+				
 
 	with open("saved_objects/templates_processed_more_tuple.pickle","wb") as pickle_in:
 		pickle.dump(temp_data,pickle_in)
@@ -316,4 +329,4 @@ if __name__ == '__main__':
 				line=template_to_line[" ".join(i_list)][0]+["\n"]
 				lines+=line
 	print(lines)
-'''
+	'''

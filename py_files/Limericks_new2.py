@@ -72,7 +72,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.finer_pos_category()
 
 		# last two lines mapping
-		self.limerick_last_two_line_mapping = {}
+		self.limerick_last_two_line_mapping = defaultdict(list)
 
 
 	def finer_pos_category(self):
@@ -85,7 +85,11 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 			data=pickle.load(pickle_in)
+		with open("py_files/saved_objects/last2_tuple.pickle","rb") as pickle_in:
+			last2_dict=pickle.load(pickle_in)
+			# this has key is fifth line sentence and value is a set of tuples all of whom are corresponding fourth line sentences
 		temp_data={}
+		fourth_line_dict={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
 			for i in data[k].keys():
@@ -99,6 +103,12 @@ class Limerick_Generate_new(Limerick_Generate):
 							if w==len(j[1])-1: flag=True
 						else:
 							temp_j.append(j[0][w])
+					if k=="fourth":
+						self.limerick_last_two_line_mapping[tuple(temp_j)]=[]
+						fourth_line_dict[tuple(j[1])]=tuple(temp_j)
+					if k=="fifth":
+						for s in last2_dict[j[1]]:
+							self.limerick_last_two_line_mapping[fourth_line_dict[s]].append(tuple(temp_j))
 					if flag:
 						temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
 					else:
@@ -740,11 +750,11 @@ class Limerick_Generate_new(Limerick_Generate):
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
-			'''
+			
 			if which_line == "fifth":
 				fourth_line_template = tuple(sentences[i][3].split["\n"][-1])
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
-			'''
+			
 
 			for ii,index in enumerate(sorted_index):
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
