@@ -4,7 +4,8 @@ import numpy as np
 import pdb
 import time
 import multiprocessing as mp
-import math 
+import math
+from gpt2.src.encoder import get_encoder
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -94,9 +95,12 @@ if __name__ == '__main__':
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
 		pos_to_words = postag_dict[1]
-	template=['there', 'was', 'a', 'young', 'fellow', 'named', 'salvatore']
-	a=is_correct_meter(template=template)
-	print(a)
+		words_to_pos=postag_dict[2]
+	enc = get_encoder('345M')
+
+
+	for i in range(60000):
+
 	'''
 	special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
 	special_pos=[i.upper() for i in special_pos.split(" ")]
