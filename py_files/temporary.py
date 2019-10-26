@@ -5,7 +5,6 @@ import pdb
 import time
 import multiprocessing as mp
 import math
-from gpt2.src.encoder import get_encoder
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -88,7 +87,15 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
-	
+	with open("saved_objects/templates_new.pickle","rb") as f:
+		data=pickle.load(f)
+		i="last2"
+		for j in data[i].keys():
+			for k in data[i][j]:
+				print(k)
+				print("\n")
+				
+	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
 	dict_meters=create_syll_dict(syllables_file)
@@ -100,7 +107,7 @@ if __name__ == '__main__':
 
 
 	for i in range(60000):
-
+	'''
 	'''
 	special_pos="in dt wdt wp md cc cd ex pdt wrb rp wp$"
 	special_pos=[i.upper() for i in special_pos.split(" ")]

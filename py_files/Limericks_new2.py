@@ -786,8 +786,8 @@ class Limerick_Generate_new(Limerick_Generate):
 							# precomputed list, throw away the sentence
 							if madlib_flag:
 								curr_vb_pos = continue_sub_flag[0]
-								if 'NN' in curr_vb_pos and which_line == 'second' \
-									and not any('NN' in pos_tag for pos_tag in template_curr):
+								if 'VB' in curr_vb_pos and which_line == 'second' \
+									and not any('VB' in pos_tag for pos_tag in template_curr):
 									if word not in self.madlib_verbs[curr_vb_pos]:
 										continue
 
