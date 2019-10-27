@@ -70,7 +70,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_coefficient = 0.1
 
 		self.finer_pos_category()
-		print(self.limerick_last_two_line_mapping)
 
 	def finer_pos_category(self):
 		# last two lines mapping
@@ -752,9 +751,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			
 			if which_line == "fifth":
 				fourth_line_template = tuple("*".join(sentences[i][3]).split("\n")[-2].split("*"))[1:-1]
-				print("fourth_line_template : "+ str(fourth_line_template)+"\n")
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
-				print(possible)
 			
 
 			for ii,index in enumerate(sorted_index):
