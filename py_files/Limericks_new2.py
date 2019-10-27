@@ -752,9 +752,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			
 			if which_line == "fifth":
 				fourth_line_template = tuple("*".join(sentences[i][3]).split("\n")[-1].split("*"))[1:]
-				print("fourth_line_template : "+ fourth_line_template+"\n")
+				print("fourth_line_template : "+ str(fourth_line_template)+"\n")
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
-				print("possible : "+ possible+"\n")
+				print(possible)
 			
 
 			for ii,index in enumerate(sorted_index):
