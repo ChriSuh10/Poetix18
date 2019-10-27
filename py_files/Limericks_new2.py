@@ -70,7 +70,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_coefficient = 0.1
 
 		self.finer_pos_category()
-
+		print(self.limerick_last_two_line_mapping)
 
 	def finer_pos_category(self):
 		# last two lines mapping
