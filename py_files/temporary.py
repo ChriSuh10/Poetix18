@@ -88,6 +88,10 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
+	y=("a","b","c","d","\n","a","c","d")
+	x=tuple("*".join(y).split("\n")[-1].split("*"))[1:]
+	print(x)
+	'''
 	limerick_last_two_line_mapping = defaultdict(list)
 	special_words= get_finer_pos_words()
 	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
@@ -123,6 +127,7 @@ if __name__ == '__main__':
 					#temp_line[i].append(j)
 		temp_data[k]=temp_line
 	print(limerick_last_two_line_mapping)
+	'''
 	'''
 	with open("saved_objects/templates_new.pickle","rb") as f:
 		data=pickle.load(f)
