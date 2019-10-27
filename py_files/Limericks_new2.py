@@ -207,8 +207,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		'''
 		# Generate 2,3,4,5 lines of the poem
 
-		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-		#for which_line, num_sylls in zip(["third"],[6]):
+		#for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
+		for which_line, num_sylls in zip(["fourth","fifth"],[6,9]):
 
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
@@ -752,7 +752,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			
 			if which_line == "fifth":
 				fourth_line_template = tuple("*".join(sentences[i][3]).split("\n")[-1].split("*"))[1:]
+				print("fourth_line_template : "+ fourth_line_template+"\n")
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
+				print("possible : "+ possible+"\n")
 			
 
 			for ii,index in enumerate(sorted_index):
