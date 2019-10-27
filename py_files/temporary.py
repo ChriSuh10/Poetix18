@@ -6,6 +6,7 @@ import time
 import multiprocessing as mp
 import math
 from Finer_POS import get_finer_pos_words
+import string
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -88,9 +89,6 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
-	y=("a","b","c","d","\n","a","c","d")
-	x=tuple("*".join(y).split("\n")[-1].split("*"))[1:]
-	print(x)
 	'''
 	limerick_last_two_line_mapping = defaultdict(list)
 	special_words= get_finer_pos_words()
@@ -128,19 +126,24 @@ if __name__ == '__main__':
 		temp_data[k]=temp_line
 	print(limerick_last_two_line_mapping)
 	'''
-	'''
-	with open("saved_objects/templates_new.pickle","rb") as f:
+	
+	with open("saved_objects/templates_processed_tuple.pickle","rb") as f:
 		data=pickle.load(f)
-		i="last2"
-		temp=defaultdict(list)
-		for j in data[i].keys():
-			for k in data[i][j]:
-				fourth=tuple(k[2])
-				fifth=tuple(k[3])
-				temp[fifth].append(fourth)
-	with open("saved_objects/last2_tuple.pickle","wb") as pickle_in:
-		pickle.dump(temp,pickle_in)
-	'''
+		count=0
+		for j in data["fourth"].keys():
+			fourth_list = []
+			for k in data["fourth"][j]:
+				fourth=tuple(k[1])
+				for punctuation in string.punctuation:
+					if punctuation in fourth:
+						print("bad"+str(fourth))
+						count+=1
+						break
+				else:
+					fourth_list.append(k)
+			data["fourth"][j] = fourth_list
+	with open("saved_objects/templates_processed_tuple.pickle","wb") as f:
+		pickle.dump(data,f)
 				
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
