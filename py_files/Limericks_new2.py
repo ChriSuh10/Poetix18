@@ -751,7 +751,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			# because they are usually one sentence
 			
 			if which_line == "fifth":
-				fourth_line_template = tuple("*".join(sentences[i][3]).split("\n")[-2].split("*"))[1:]
+				fourth_line_template = tuple("*".join(sentences[i][3]).split("\n")[-2].split("*"))[1:-1]
 				print("fourth_line_template : "+ str(fourth_line_template)+"\n")
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
 				print(possible)
