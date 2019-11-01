@@ -83,7 +83,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 			data=pickle.load(pickle_in)
-		with open("py_files/saved_objects/last2_tuple.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/last2_tuple_concise.pickle","rb") as pickle_in:
 			last2_dict=pickle.load(pickle_in)
 			# this has key is fifth line sentence and value is a set of tuples all of whom are corresponding fourth line sentences
 		temp_data={}
@@ -105,8 +105,9 @@ class Limerick_Generate_new(Limerick_Generate):
 						self.limerick_last_two_line_mapping[tuple(temp_j)]=[]
 						fourth_line_dict[tuple(j[1])]=tuple(temp_j)
 					if k=="fifth":
-						for s in last2_dict[j[1]]:
-							self.limerick_last_two_line_mapping[fourth_line_dict[s]].append(tuple(temp_j))
+						if j[1] in last2_dict:
+							for s in last2_dict[j[1]]:
+								self.limerick_last_two_line_mapping[fourth_line_dict[s]].append(tuple(temp_j))
 					if flag:
 						temp_line[j[1][-1].upper()].append((tuple(temp_j),j[1],j[2]))
 					else:

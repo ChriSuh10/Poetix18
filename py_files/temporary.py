@@ -89,6 +89,15 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
+	mylist=[0, 3, 8, 10, 19, 23, 25, 37, 42, 43, 44, 49, 50, 51, 54, 66, 70, 71, 74, 77, 80, 85, 86, 87, 88, 92, 93, 97, 100, 101, 102, 103, 112, 114, 115, 118, 122, 129, 131, 133, 134, 137,  139, 140, 141, 143, 150, 155, 160, 163, 166, 167, 170, 171, 172]
+	with open("saved_objects/last2_tuple.pickle","rb") as f:
+		data=pickle.load(f)
+		temp_data=defaultdict(list)
+		for j,i in enumerate(data):
+			if j not in mylist:
+				temp_data[i].append(data[i][0])
+	with open("saved_objects/last2_tuple_concise.pickle","wb") as pickle_in:
+		pickle.dump(temp_data,pickle_in)
 	'''
 	limerick_last_two_line_mapping = defaultdict(list)
 	special_words= get_finer_pos_words()
@@ -126,7 +135,7 @@ if __name__ == '__main__':
 		temp_data[k]=temp_line
 	print(limerick_last_two_line_mapping)
 	'''
-	
+	'''
 	with open("saved_objects/templates_processed_tuple.pickle","rb") as f:
 		data=pickle.load(f)
 		count=0
@@ -144,7 +153,7 @@ if __name__ == '__main__':
 			data["fourth"][j] = fourth_list
 	with open("saved_objects/templates_processed_tuple.pickle","wb") as f:
 		pickle.dump(data,f)
-				
+	'''	
 	'''
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
