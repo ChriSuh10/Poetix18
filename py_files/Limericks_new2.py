@@ -207,12 +207,21 @@ class Limerick_Generate_new(Limerick_Generate):
 		'''
 		# Generate 2,3,4,5 lines of the poem
 
+		# because of the linking of line4 and line5, the templates for line 4 templates is gonna have to limited 
+		possible_5=self.get_all_templates(9,"fifth",last_word_dict["fifth"])
+		possible_4=self.get_all_templates(9,"fourth",last_word_dict["fourth"])
+		temp_4=[]
+		for p in possible_4:
+			if self.limerick_last_two_line_mapping[p] in possible_5:
+				temp_4.append(p)
+		possible_4=temp_4
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		#for which_line, num_sylls in zip(["fourth","fifth"],[6,9]):
 
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
+			if which_line=="fourth":possible=possible_4
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
 		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
