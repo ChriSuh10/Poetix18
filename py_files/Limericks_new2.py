@@ -211,10 +211,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		possible_5=self.get_all_templates(9,"fifth",last_word_dict["fifth"])
 		possible_4=self.get_all_templates(9,"fourth",last_word_dict["fourth"])
 		temp_4=[]
-		pdb.set_trace()
 		for p in possible_4:
-			if self.limerick_last_two_line_mapping[p] in possible_5:
-				temp_4.append(p)
+			for pp in self.limerick_last_two_line_mapping[p]:
+				if pp in possible_5:
+					temp_4.append(p)
 		possible_4=temp_4
 		print("possible_4")
 		print(possible_4)
