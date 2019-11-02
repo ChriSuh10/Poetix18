@@ -215,6 +215,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			if self.limerick_last_two_line_mapping[p] in possible_5:
 				temp_4.append(p)
 		possible_4=temp_4
+		print("possible_4")
+		print(possible_4)
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		#for which_line, num_sylls in zip(["fourth","fifth"],[6,9]):
 
