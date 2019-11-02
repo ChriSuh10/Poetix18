@@ -170,6 +170,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_new_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
+		print("============= w1s_rhyme_dict=====================")
+		print(self.w1s_rhyme_dict)
+		print("=============== w3s_rhyme_dict ====================")
+		print(self.w3s_rhyme_dict)
 		female_name_list, male_name_list=self.load_name_list()
 
 		for name in w1s_rhyme_dict.keys():
