@@ -7,7 +7,7 @@ import multiprocessing as mp
 import math
 from Finer_POS import get_finer_pos_words
 import string
-from .Limericks_new2 import Limerick_Generate_new
+from Limericks_new2 import Limerick_Generate_new
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
