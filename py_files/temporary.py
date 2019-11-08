@@ -90,14 +90,6 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
 
 if __name__ == '__main__':
-	lg = Limerick_Generate_new()
-	w1s_rhyme_dict, w3s_rhyme_dict= lg.get_two_sets_new_henry(self, prompt, n_w1=2000, n_w3=2000)
-	for k in w1s_rhyme_dict:
-		print(k)
-		print(w1s_rhyme_dict[k])
-	for k in w3s_rhyme_dict:
-		print(k)
-		print(w3s_rhyme_dict)
 	'''
 	mylist=[0, 3, 8, 10, 19, 23, 25, 37, 42, 43, 44, 49, 50, 51, 54, 66, 70, 71, 74, 77, 80, 85, 86, 87, 88, 92, 93, 97, 100, 101, 102, 103, 112, 114, 115, 118, 122, 129, 131, 133, 134, 137,  139, 140, 141, 143, 150, 155, 160, 163, 166, 167, 170, 171, 172]
 	with open("saved_objects/last2_tuple.pickle","rb") as f:
