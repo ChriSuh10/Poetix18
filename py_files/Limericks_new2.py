@@ -767,8 +767,11 @@ class Limerick_Generate_new(Limerick_Generate):
 				rhyme_word=sentences[i][6][1]
 			rhyme_set_pos_curr=set()
 			for curr in rhyme_set_curr:
-				for curr_pos in self.get_word_pos(curr):
-					rhyme_set_pos_curr.add(curr_pos)
+				if self.get_word_pos(curr)!= None:
+					for curr_pos in self.get_word_pos(curr):
+						rhyme_set_pos_curr.add(curr_pos)
+			if rhyme_set_pos_curr==None:
+				continue
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
