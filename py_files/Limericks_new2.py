@@ -906,4 +906,4 @@ class Limerick_Generate_new(Limerick_Generate):
 												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
 		#output.put((new_sentences, quasi_finished_sentences))
-		new_sentences, quasi_finished_sentences
+		return new_sentences, quasi_finished_sentences
