@@ -771,11 +771,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				rhyme_word=sentences[i][6][0]
 			if which_line=="fifth":
 				second_last_word=tuple("*".join(sentences[i][2]).split("\n")[1].split("*"))[-3]
-				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
-				try:
-					rhyme_set_curr.remove(second_last_word)
-				except:
-					pdb.set_trace()
+				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]].copy()
+				rhyme_set_curr.remove(second_last_word)
 				rhyme_word=sentences[i][6][0]
 			if which_line=="third":
 				rhyme_set_curr = self.w3s_rhyme_dict.keys()
@@ -783,7 +780,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
-				rhyme_set_next= self.w1s_rhyme_dict[sentences[i][6][0]]
+				rhyme_set_next= self.w1s_rhyme_dict[sentences[i][6][0]].copy()
+				second_last_word=tuple("*".join(sentences[i][2]).split("\n")[1].split("*"))[-3]
+				rhyme_set_next.remove(second_last_word)
 				rhyme_set_pos_next=set()
 				for curr in rhyme_set_next:
 					if self.get_word_pos(curr)!= None:
