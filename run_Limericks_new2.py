@@ -12,7 +12,7 @@ if __name__ == '__main__':
 '''
 if __name__=="__main__":
 	lg = Limerick_Generate_new()
-	w1s_rhyme_dict, w3s_rhyme_dict= lg.get_two_sets_new_henry("queen", n_w1=2000, n_w3=2000)
+	w1s_rhyme_dict, w3s_rhyme_dict= lg.get_two_sets_new_henry("queen", n_w1=2000, n_w3=20)
 	for k in w1s_rhyme_dict:
 		print(k)
 		print(w1s_rhyme_dict[k])
