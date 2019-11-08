@@ -387,7 +387,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		temp=[x for x in set(tuple(x) for x in temp)]
 		return temp
 
-	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls):
+	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls,rhyme_set_pos_curr):
 		"""
 		Check whether the current word could fit into our template with given syllables constraint
 
@@ -414,6 +414,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		continue_flag=[]
 		for t in possible:
+			if t[-1] not in rhyme_set_pos_curr: continue
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
@@ -764,6 +765,10 @@ class Limerick_Generate_new(Limerick_Generate):
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
+			rhyme_set_pos_curr=set()
+			for curr in rhyme_set_curr:
+				for curr_pos in self.get_word_pos(curr):
+					rhyme_set_pos_curr.add(curr_pos)
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
@@ -815,7 +820,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
+					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls,rhyme_set_pos_curr=rhyme_set_pos_curr)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
 
