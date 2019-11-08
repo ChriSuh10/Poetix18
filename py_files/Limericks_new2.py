@@ -415,8 +415,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		continue_flag=[]
 		for t in possible:
 			if t[-1] not in rhyme_set_pos_curr: continue
-			next_flag=False
+			next_flag=True
 			if rhyme_set_pos_next!= None:
+				next_flag=False
 				if len(self.limerick_last_two_line_mapping[t])>0:
 					for tt in self.limerick_last_two_line_mapping[t]:
 						if tt[-1] in rhyme_set_pos_next:
