@@ -415,14 +415,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		continue_flag=[]
 		for t in possible:
 			if t[-1] not in rhyme_set_pos_curr: continue
-			print(" template : {}, rhymes: {}".format(t,rhyme_set_pos_curr))
 			next_flag=True
 			if rhyme_set_pos_next!= None:
 				next_flag=False
 				if len(self.limerick_last_two_line_mapping[t])>0:
 					for tt in self.limerick_last_two_line_mapping[t]:
 						if tt[-1] in rhyme_set_pos_next:
-							print(" template : {}, rhymes: {}".format(tt,rhyme_set_pos_next))
 							next_flag=True
 			if next_flag==False: continue
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
@@ -767,8 +765,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			moving_avg_curr=sentences[i][7]
 			rhyme_set_curr = set()
 			rhyme_set_pos_next=None
-			if which_line=="second" or which_line=="fifth":
+			if which_line=="second":
 				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+				rhyme_word=sentences[i][6][0]
+			if which_line=="fifth":
+				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+				rhyme_set_curr.remove(sentences[i][6][0])
+				rhyme_set_curr
 				rhyme_word=sentences[i][6][0]
 			if which_line=="third":
 				rhyme_set_curr = self.w3s_rhyme_dict.keys()
