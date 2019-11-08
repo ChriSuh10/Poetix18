@@ -50,7 +50,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.create_pos_syllables()
 		self.create_templates_dict(postag_dict[0])
 		self.cpu=mp.cpu_count()
-		self.cpu=1
 		print(self.cpu)
 		self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
 		self.width = 20
@@ -416,13 +415,14 @@ class Limerick_Generate_new(Limerick_Generate):
 		continue_flag=[]
 		for t in possible:
 			if t[-1] not in rhyme_set_pos_curr: continue
+			print(" template : {}, rhymes: {}".format(t,rhyme_set_pos_curr))
 			next_flag=True
 			if rhyme_set_pos_next!= None:
 				next_flag=False
 				if len(self.limerick_last_two_line_mapping[t])>0:
 					for tt in self.limerick_last_two_line_mapping[t]:
 						if tt[-1] in rhyme_set_pos_next:
-							pdb.set_trace()
+							print(" template : {}, rhymes: {}".format(tt,rhyme_set_pos_next))
 							next_flag=True
 			if next_flag==False: continue
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
