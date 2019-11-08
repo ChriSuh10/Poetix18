@@ -7,7 +7,6 @@ import multiprocessing as mp
 import math
 from Finer_POS import get_finer_pos_words
 import string
-from Limericks_new2 import Limerick_Generate_new
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -157,10 +156,12 @@ if __name__ == '__main__':
 	with open("saved_objects/templates_processed_tuple.pickle","wb") as f:
 		pickle.dump(data,f)
 	'''	
-	'''
+	
 	syllables_file='saved_objects/cmudict-0.7b.txt'
 	postag_file='saved_objects/postag_dict_all.p'
 	dict_meters=create_syll_dict(syllables_file)
+	print(dict_meters["clean"])
+	'''
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
 		pos_to_words = postag_dict[1]
