@@ -387,7 +387,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		temp=[x for x in set(tuple(x) for x in temp)]
 		return temp
 
-	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls,rhyme_set_pos_curr):
+	def template_sylls_checking(self, pos_set, sylls_set, template_curr, num_sylls_curr, possible, num_sylls,rhyme_set_pos_curr,rhyme_set_pos_next):
 		"""
 		Check whether the current word could fit into our template with given syllables constraint
 
@@ -415,6 +415,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		continue_flag=[]
 		for t in possible:
 			if t[-1] not in rhyme_set_pos_curr: continue
+			next_flag=False
+			if rhyme_set_pos_next!= None:
+				if len(self.limerick_last_two_line_mapping[t])>0:
+					for tt in self.limerick_last_two_line_mapping[t]:
+						if tt[-1] in rhyme_set_pos_next:
+							next_flag=True
+			if next_flag==False: continue
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
 					if pos==t[len(template_curr)]:
@@ -756,6 +763,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_sylls_curr=sentences[i][5]
 			moving_avg_curr=sentences[i][7]
 			rhyme_set_curr = set()
+			rhyme_set_pos_next=None
 			if which_line=="second" or which_line=="fifth":
 				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
 				rhyme_word=sentences[i][6][0]
@@ -765,6 +773,14 @@ class Limerick_Generate_new(Limerick_Generate):
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
+				rhyme_set_next= self.w1s_rhyme_dict[sentences[i][6][0]]
+				rhyme_set_pos_next=set()
+				for curr in rhyme_set_next:
+					if self.get_word_pos(curr)!= None:
+						for curr_pos in self.get_word_pos(curr):
+							rhyme_set_pos_next.add(curr_pos)
+				if rhyme_set_pos_next==None:
+					continue
 			rhyme_set_pos_curr=set()
 			for curr in rhyme_set_curr:
 				if self.get_word_pos(curr)!= None:
@@ -823,7 +839,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls,rhyme_set_pos_curr=rhyme_set_pos_curr)
+					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls,rhyme_set_pos_curr=rhyme_set_pos_curr,rhyme_set_pos_next=rhyme_set_pos_next)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
 
