@@ -200,7 +200,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
 			if len(candidates)>0: text=random.choice(candidates)
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
+			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), ("first_line","\n"),(rhyme,"")))
 
 		# Print out all 3\4 rhymes
 		'''
