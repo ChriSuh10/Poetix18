@@ -674,7 +674,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			'''
+			
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
@@ -692,8 +692,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
-			'''
-			new_sentences, quasi_finished_sentences= self.batch_process_word( which_line, possible, num_sylls, logits, sentences)
+			
+			#new_sentences, quasi_finished_sentences= self.batch_process_word( which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					context_token=[s[0] for s in quasi_finished_sentences]
@@ -733,7 +733,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return {pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))
 				for pos in pos_list}
 
-	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output, madlib_flag=True):
 		'''
 		Batch process the new possible word of a group of incomplete sentences.
 
@@ -906,5 +906,5 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
-		#output.put((new_sentences, quasi_finished_sentences))
-		return new_sentences, quasi_finished_sentences
+		output.put((new_sentences, quasi_finished_sentences))
+		#return new_sentences, quasi_finished_sentences
