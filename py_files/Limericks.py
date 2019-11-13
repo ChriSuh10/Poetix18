@@ -725,7 +725,7 @@ class Limerick_Generate:
         for names, rhymes in lis:
             filtered_rhymes = []
             for rhyme in rhymes:
-                if self.filter_common_word_henry(self, rhyme, fast=True, threshold=0.3):
+                if self.filter_common_word_henry(rhyme, fast=True, threshold=0.3):
                     filtered_rhymes.append(rhyme)
             if len(filtered_rhymes) > 0:
                 filtered_lis.append((names, filtered_rhymes))
