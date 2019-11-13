@@ -735,6 +735,20 @@ class Limerick_Generate:
         with open(self.filtered_names_rhymes, "wb") as hf:
             pickle.dump(filtered_lis, hf)
 
+    def get_two_sets_20191113_henry(self, prompt, n_w3=20, n_w25_threshold=10):
+        with open(self.filtered_names_rhymes, "rb") as hf:
+            names_rhymes_list = pickle.load(hf)
+
+        w1s_rhyme_dict = {}
+        for names, rhymes in names_rhymes_list:
+            if len(rhymes) >= n_w25_threshold:
+                w1s_rhyme_dict[random.choice(names)] = rhymes
+
+        w3s = self.get_similar_word_henry([prompt], seen_words=w1s, n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+
+        return w1s_rhyme_dict, w3s_rhyme_dict
+
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
         Returns all integer partitions of an int with a partition_size number
