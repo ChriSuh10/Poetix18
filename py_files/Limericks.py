@@ -71,6 +71,8 @@ class Limerick_Generate:
         'being', 'do', 'does', 'did', 'have', 'has', 'had'])
 
         self.names_rhymes = "py_files/saved_objects/downloaded_names_rhymes.pkl"
+        self.filtered_names_rhymes = "py_files/saved_objects/filtered_names_rhymes.pkl"
+
         if self.names_rhymes[self.names_rhymes.rfind("/") + 1:] in os.listdir("py_files/saved_objects"):
             with open(self.names_rhymes, "rb") as hf:
                 self.names_rhymes_dict = pickle.load(hf)
@@ -663,14 +665,14 @@ class Limerick_Generate:
 
         return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
 
-    def filter_common_word_henry(self, word, fast=False):
+    def filter_common_word_henry(self, word, fast=False, threshold=0.35):
         if fast:
             pos_list = ["VBP"]
         else:
             pos_list = ["VB", "NN"]
         fill_in_return = self.fill_in_henry(word, pos_list=pos_list, n_return=10, return_score=True)
 
-        if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= 0.35:
+        if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= threshold:
             return True
         return False
 
@@ -696,6 +698,53 @@ class Limerick_Generate:
         w1s_rhyme_dict = {w1: {word for word in self.names_rhymes_dict[w1] if self.filter_common_word_henry(word, fast=True)} for w1 in w1s}
 
         w3s = self.get_similar_word_henry([prompt], seen_words=w1s, n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+
+        return w1s_rhyme_dict, w3s_rhyme_dict
+
+    def combine_name_rhymes_henry(self):
+        with open(self.names_rhymes, "rb") as hf:
+            dic = pickle.load(hf)
+
+        lis = []
+        for k in dic:
+            v = dic[k]
+            for e in lis:
+                if len(e[1].symmetric_difference(v)) <= 2:
+                    e[1].update(v)
+                    e[0].append(k)
+                    break
+            else:
+                lis.append(([k], v))
+
+        return lis
+
+    def filter_name_rhymes_henry(self, save=True):
+        lis = self.combine_name_rhymes_henry()
+        filtered_lis = []
+        for names, rhymes in lis:
+            filtered_rhymes = []
+            for rhyme in rhymes:
+                if self.filter_common_word_henry(rhyme, fast=True, threshold=0.3):
+                    filtered_rhymes.append(rhyme)
+            if len(filtered_rhymes) > 0:
+                filtered_lis.append((names, filtered_rhymes))
+        if not save:
+            return filtered_lis
+
+        with open(self.filtered_names_rhymes, "wb") as hf:
+            pickle.dump(filtered_lis, hf)
+
+    def get_two_sets_20191113_henry(self, prompt, n_w3=20, n_w25_threshold=10):
+        with open(self.filtered_names_rhymes, "rb") as hf:
+            names_rhymes_list = pickle.load(hf)
+
+        w1s_rhyme_dict = {}
+        for names, rhymes in names_rhymes_list:
+            if len(rhymes) >= n_w25_threshold:
+                w1s_rhyme_dict[random.choice(names)] = rhymes
+
+        w3s = self.get_similar_word_henry([prompt], n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
         w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
 
         return w1s_rhyme_dict, w3s_rhyme_dict
