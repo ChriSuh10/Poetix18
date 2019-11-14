@@ -152,6 +152,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.enforce_stress = stress
 		self.prob_threshold = prob_threshold
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
+		# get rid of common words
+		if "was" in self.madlib_verbs:
+			self.madlib_verbs.remove("was")
+			print("remove was \n")
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
