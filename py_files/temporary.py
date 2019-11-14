@@ -157,10 +157,6 @@ if __name__ == '__main__':
 		pickle.dump(data,f)
 	'''	
 	
-	syllables_file='saved_objects/cmudict-0.7b.txt'
-	postag_file='saved_objects/postag_dict_all.p'
-	dict_meters=create_syll_dict(syllables_file)
-	print(dict_meters["clean"])
 	'''
 	with open(postag_file, 'rb') as f:
 		postag_dict = pickle.load(f)
