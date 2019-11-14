@@ -71,9 +71,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		self.finer_pos_category()
 
-		# last two lines mapping
-		self.limerick_last_two_line_mapping = {}
-
 
 	def finer_pos_category(self):
 		self.special_words= get_finer_pos_words()
@@ -158,7 +155,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_20191113_henry(prompt)
+		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_new_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
@@ -740,9 +737,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
-			if which_line == "fifth":
-				fourth_line_template = tuple(sentences[i][3].split["\n"][-1])
-				possible = self.limerick_last_two_line_mapping[fourth_line_template]
 
 			for ii,index in enumerate(sorted_index):
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
