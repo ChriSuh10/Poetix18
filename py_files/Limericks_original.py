@@ -66,8 +66,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.enforce_stress = False
 
 		# word embedding coefficients
-		self.word_embedding_alpha = 0
-		self.word_embedding_coefficient = 0
+		self.word_embedding_alpha = 0.5
+		self.word_embedding_coefficient = 0.1
 
 		self.finer_pos_category()
 
@@ -458,10 +458,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		# Key is "template; current_line_template". For each key we only keep retain_space sentences
 		for n in data:
 			if not finished:
-				key=n[4]
+				key=n[3]+n[4]
 			else:
-				curr_template=tuple("*".join(n[3]).split("\n")[-2].split("*"))[1:-1]
-				key=curr_template # because the curr is already merged.
+				key=n[3] # because the curr is already merged.
 			temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
@@ -492,7 +491,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			return set([word.upper()])
 		return set(self.words_to_pos[word])
 
-
 	def get_wema_dict_mp(self):
 			num_list_list= self.split_chunks(list(range(50256)))
 			manager_wema = mp.Manager()
@@ -510,68 +508,56 @@ class Limerick_Generate_new(Limerick_Generate):
 					self.wema_dict[word]=r[word]
 			print("********************************** multiprocessing ends for wema *****************************************************")
 
-
+	# wema dict structure
+	# {"happy" -> {"second": {"bee": 0.57 (avg distance to words that rhyme with bee), "cow": 0.69...}}}
 	def get_wema_dict(self, num_list, output_wema):
 		wema_dict=collections.defaultdict(dict)
 		for index in num_list:
+			# Decode index into word
 			word = self.enc.decode([index]).lower().strip()
-			if len(word)==0:
+			# note that both , and . are in these keys()
+			if len(word)==0 or word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
 				continue
-				# note that both , and . are in these keys()
-			elif word not in self.words_to_pos.keys() or word not in self.dict_meters.keys():
+
+			pos_set=self.get_word_pos(word)
+			sylls_set=set([len(m) for m in self.dict_meters[word]])
+			if len(pos_set)==0 or len(sylls_set)==0:
 				continue
-			else:
-				pos_set=self.get_word_pos(word)
-				sylls_set=set([len(m) for m in self.dict_meters[word]])
-				if len(pos_set)==0 or len(sylls_set)==0:
-					continue
+
+			line_dict=collections.defaultdict(dict)
+			# For each line, create a dictionary where the key is the rhyming word of the line
+			# and the value is the average distance to the rhyme set corresponding to the rhyme word.
+			for which_line in ["second or fifth", "third", "fourth"]:
+				word_dict = collections.defaultdict()
+
+				if which_line=="second or fifth":
+					rhyme_dict = self.w1s_rhyme_dict
+				# Hack: for third line, we do not have a rhyming word yet, and the legitimate
+				# ending word of the third line is chosen from the keys of our rhyming dictionary.
+				elif which_line == "third":
+					rhyme_dict = {"third_line_special_case": self.w3s_rhyme_dict.keys()}
 				else:
-					line_dict=collections.defaultdict(dict)
-					for which_line in ["second","third","fourth","fifth"]:
-						if which_line=="second":
-							for k in self.w1s_rhyme_dict.keys():
-								word_dict=collections.defaultdict()
-								rhyme_set=self.w1s_rhyme_dict[k]
-								distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
-								distances = list(filter(None, distances))
-								if len(distances)==0:
-									continue
-								else:
-									embedding_distance=max(distances)
-									word_dict[k]=embedding_distance
-						if which_line=="third":
-							word_dict=collections.defaultdict()
-							rhyme_set=self.w3s_rhyme_dict.keys()
-							distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
-							distances = list(filter(None, distances))
-							if len(distances)==0:
-								continue
-							else:
-								embedding_distance=max(distances)
-								word_dict["third_line_special_case"]=embedding_distance
-						if which_line=="fourth":
-							for k in self.w3s_rhyme_dict.keys():
-								word_dict=collections.defaultdict()
-								rhyme_set=self.w3s_rhyme_dict[k]
-								distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
-								distances = list(filter(None, distances))
-								if len(distances)==0:
-									continue
-								else:
-									embedding_distance=max(distances)
-									word_dict[k]=embedding_distance
-						line_dict[which_line]=word_dict
-					wema_dict[word]=line_dict
+					rhyme_dict = self.w3s_rhyme_dict
+
+				for rhyme_word in rhyme_dict.keys():
+					rhyme_set = rhyme_dict[rhyme_word]
+					distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
+					distances = list(filter(None, distances))
+					if len(distances) == 0:
+						continue
+
+					embedding_distance=max(distances)
+					word_dict[rhyme_word]=embedding_distance
+			line_dict[which_line]=word_dict
+			wema_dict[word]=line_dict
 		output_wema.put(wema_dict)
-
-
-
-
 
 	def get_word_embedding_moving_average(self, original_average, word, rhyme_word, which_line):
 		"""
 		Calculate word embedding moving average with the story line set selection.
 		"""
+		if which_line == "third" or which_line == "fifth":
+			which_line = "second or fifth"
 		if rhyme_word in self.wema_dict[word][which_line].keys():
 			embedding_distance=self.wema_dict[word][which_line][rhyme_word]
 		else:
