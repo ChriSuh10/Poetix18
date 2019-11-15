@@ -171,6 +171,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		print("===============================   helper       ==============================================")
 		self.helper()
+		print("===============================   end helper       ==============================================")
 		self.enforce_stress = stress
 		self.prob_threshold = prob_threshold
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
