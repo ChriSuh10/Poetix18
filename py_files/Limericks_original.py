@@ -541,7 +541,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 				for rhyme_word in rhyme_dict.keys():
 					rhyme_set = rhyme_dict[rhyme_word]
-					distance = get_word_similarity(word, rhyme_set)
+					distance = self.get_word_similarity(word, rhyme_set)
 					if distance is not None:
 						word_dict[rhyme_word] = distance
 
