@@ -158,7 +158,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_new_henry(prompt)
+		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_20191113_henry(prompt)
 		self.w1s_rhyme_dict=w1s_rhyme_dict
 		self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
@@ -506,8 +506,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			for r in results:
 				for word in r.keys():
 					self.wema_dict[word]=r[word]
+			print(self.wema_dict["happy"])
 			print("********************************** multiprocessing ends for wema *****************************************************")
-
 	# wema dict structure
 	# {"happy" -> {"second": {"bee": 0.57 (avg distance to words that rhyme with bee), "cow": 0.69...}}}
 	def get_wema_dict(self, num_list, output_wema):
@@ -541,13 +541,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 				for rhyme_word in rhyme_dict.keys():
 					rhyme_set = rhyme_dict[rhyme_word]
-					distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
-					distances = list(filter(None, distances))
-					if len(distances) == 0:
-						continue
+					distance = get_word_similarity(word, rhyme_set)
+					if distance is not None:
+						word_dict[rhyme_word] = distance
 
-					embedding_distance=max(distances)
-					word_dict[rhyme_word]=embedding_distance
 			line_dict[which_line]=word_dict
 			wema_dict[word]=line_dict
 		output_wema.put(wema_dict)
