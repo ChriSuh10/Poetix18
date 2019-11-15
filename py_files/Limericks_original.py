@@ -127,13 +127,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
 	def helper(self):
-		#with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
-			#mydict=pickle.load(pickle_in)
+		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
+			mydict=pickle.load(pickle_in)
 		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 		temp=prompt_list.split(", ")
-		#prompt_list=[t for t in prompt if t not in mydict.keys()]
-		mydict={}
-		prompt_list=temp
+		prompt_list=[t for t in prompt if t not in mydict.keys()]
+		#mydict={}
+		#prompt_list=temp
 		for prompt in prompt_list:
 			try:
 				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
@@ -185,14 +185,14 @@ class Limerick_Generate_new(Limerick_Generate):
 		#self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
 
-		for name in w1s_rhyme_dict.keys():
+		for name in self.w1s_rhyme_dict.keys():
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
-				del w1s_rhyme_dict[name]
+				del self.w1s_rhyme_dict[name]
 		print("=========================== Creating Wema =======================================")
 		self.get_wema_dict_mp()
 		print("=========================== Finished Wema =======================================")
 
-		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
+		assert len(self.w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
 		saved_directory="limericks_data_new_7/"
 		result_file_path = saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
@@ -200,7 +200,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		previous_data=[]
 		# Append all first lines
-		for rhyme in w1s_rhyme_dict.keys():
+		for rhyme in self.w1s_rhyme_dict.keys():
 			'''
 			f.write("================================ 125 rhymes ===================================")
 			f.write(rhyme+":"+"\n")
