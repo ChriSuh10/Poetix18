@@ -28,6 +28,7 @@ import pickle
 from .Limericks import Limerick_Generate
 from .Finer_POS import get_finer_pos_words
 import multiprocessing as mp
+import time
 random.seed(20)
 
 class Limerick_Generate_new(Limerick_Generate):
@@ -54,7 +55,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.first_line_words=pickle.load(open('py_files/saved_objects/first_line.p','rb'))
 		self.width = 20
 		self.enc = get_encoder(self.model_name)
-
 		# get male and female names
 		with open("py_files/saved_objects/dist.female.first.txt", "r") as hf:
 		    self.female_names = [lines.split()[0].lower() for lines in hf.readlines()]
@@ -67,9 +67,11 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		# word embedding coefficients
 		self.word_embedding_alpha = 0.5
-		self.word_embedding_coefficient = 0.1
+		self.word_embedding_coefficient = 0.5
 
 		self.finer_pos_category()
+		print("===============================   helper       ==============================================")
+		self.helper()
 
 
 	def finer_pos_category(self):
@@ -126,6 +128,24 @@ class Limerick_Generate_new(Limerick_Generate):
 				self.pos_sylls_mode[i]=[(len(self.dict_meters[i.lower()][0]),1.0)]
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
+	def helper(self):
+		#with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict"."wb") as pickle_in:
+			#mydict=pickle.load(pickle_in)
+		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
+		prompt_list=prompt_list.split(", ")
+		mydict={}
+		for prompt in prompt_list:
+			try:
+				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
+	        	w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+	        	mydict["prompt"]=w3s_rhyme_dict
+	        except:
+				print(prompt)
+				time.sleep(15)
+	        time.sleep(15)
+	    with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict"."wb") as pickle_in:
+	    	pickle.dump(mydict,pickle_in)
+
 
 
 	def gen_poem_andre_new(self, prompt, search_space, retain_space, stress=False, prob_threshold=None):
