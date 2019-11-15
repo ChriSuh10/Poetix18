@@ -141,7 +141,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				print(prompt)
 				time.sleep(15)
 			time.sleep(15)
-		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict"."wb") as pickle_in:
+		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
 
 
