@@ -67,7 +67,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		# word embedding coefficients
 		self.word_embedding_alpha = 0.5
-		self.word_embedding_coefficient = 0.5
+		self.word_embedding_coefficient = 1.0
 
 		self.finer_pos_category()
 
@@ -127,11 +127,12 @@ class Limerick_Generate_new(Limerick_Generate):
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
 	def helper(self):
-		#with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict"."wb") as pickle_in:
-			#mydict=pickle.load(pickle_in)
+		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict"."wb") as pickle_in:
+			mydict=pickle.load(pickle_in)
 		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
-		prompt_list=prompt_list.split(", ")
-		mydict={}
+		temp=prompt_list.split(", ")
+		prompt_list=[t for t in prompt if t not in mydict.keys()]
+		#mydict={}
 		for prompt in prompt_list:
 			try:
 				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
@@ -141,6 +142,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				print(prompt)
 				time.sleep(15)
 			time.sleep(15)
+		self.w3s_rhyme_dict=mydict
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
 
@@ -176,9 +178,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		w1s_rhyme_dict, w3s_rhyme_dict= self.get_two_sets_20191113_henry(prompt)
-		self.w1s_rhyme_dict=w1s_rhyme_dict
-		self.w3s_rhyme_dict=w3s_rhyme_dict
+		self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt)
+		#self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
 
 		for name in w1s_rhyme_dict.keys():
@@ -189,7 +190,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		print("=========================== Finished Wema =======================================")
 
 		assert len(w1s_rhyme_dict.keys()) > 0, "no storyline available"
-		last_word_dict=self.last_word_dict(w1s_rhyme_dict,w3s_rhyme_dict)
+		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
 		saved_directory="limericks_data_new_7/"
 		result_file_path = saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".txt"
 		f = open(result_file_path,"a+")
