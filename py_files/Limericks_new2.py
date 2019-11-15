@@ -160,7 +160,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			If the probability of a word is lower than this threshold we will not consider
 			this word. Set it to None to get rid of it.
 		"""
-		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
 		self.prob_threshold = prob_threshold
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
