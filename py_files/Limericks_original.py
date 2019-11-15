@@ -129,6 +129,7 @@ class Limerick_Generate_new(Limerick_Generate):
 	def helper(self):
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
 			mydict=pickle.load(pickle_in)
+		print(mydict.keys())
 		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 		temp=prompt_list.split(", ")
 		prompt_list=[t for t in prompt_list if t not in mydict.keys()]
