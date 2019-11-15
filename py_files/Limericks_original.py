@@ -70,8 +70,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_coefficient = 0.5
 
 		self.finer_pos_category()
-		print("===============================   helper       ==============================================")
-		self.helper()
 
 
 	def finer_pos_category(self):
@@ -275,6 +273,8 @@ class Limerick_Generate_new(Limerick_Generate):
 						f.write("\n")
 						temp_n+=1
 						temp_list=[]
+		print("===============================   helper       ==============================================")
+		self.helper()
 
 
 
