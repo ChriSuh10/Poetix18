@@ -506,8 +506,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			for r in results:
 				for word in r.keys():
 					self.wema_dict[word]=r[word]
+			print(self.wema_dict["happy"])
 			print("********************************** multiprocessing ends for wema *****************************************************")
-
 	# wema dict structure
 	# {"happy" -> {"second": {"bee": 0.57 (avg distance to words that rhyme with bee), "cow": 0.69...}}}
 	def get_wema_dict(self, num_list, output_wema):
@@ -544,7 +544,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					distance = get_word_similarity(word, rhyme_set)
 					if distance is not None:
 						word_dict[rhyme_word] = distance
-						
+
 			line_dict[which_line]=word_dict
 			wema_dict[word]=line_dict
 		output_wema.put(wema_dict)
