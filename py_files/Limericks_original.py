@@ -148,7 +148,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			If the probability of a word is lower than this threshold we will not consider
 			this word. Set it to None to get rid of it.
 		"""
-		self.gen_first_line_new("salvatore",strict=True)
 		self.enforce_stress = stress
 		self.prob_threshold = prob_threshold
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
@@ -697,7 +696,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return {pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))
 				for pos in pos_list}
 
-	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output, madlib_flag=False):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output, madlib_flag=True):
 		'''
 		Batch process the new possible word of a group of incomplete sentences.
 
