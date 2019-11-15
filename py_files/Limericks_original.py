@@ -66,8 +66,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.enforce_stress = False
 
 		# word embedding coefficients
-		self.word_embedding_alpha = 0.5
-		self.word_embedding_coefficient = 0.1
+		self.word_embedding_alpha = 0
+		self.word_embedding_coefficient = 0
 
 		self.finer_pos_category()
 
@@ -458,9 +458,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		# Key is "template; current_line_template". For each key we only keep retain_space sentences
 		for n in data:
 			if not finished:
-				key=";".join(n[3]+n[4])
+				key=n[4]
 			else:
-				key=";".join(n[3]) # because the curr is already merged.
+				curr_template=tuple("*".join(n[3]).split("\n")[-2].split("*"))[1:-1]
+				key=curr_template # because the curr is already merged.
 			temp_data[key].add(n)
 		data=[]
 		list_of_keys=list(temp_data.keys())
