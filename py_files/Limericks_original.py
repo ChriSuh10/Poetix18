@@ -542,13 +542,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 				for rhyme_word in rhyme_dict.keys():
 					rhyme_set = rhyme_dict[rhyme_word]
-					distances = [self.get_word_similarity(word, rhyme) for rhyme in rhyme_set]
-					distances = list(filter(None, distances))
-					if len(distances) == 0:
-						continue
-
-					embedding_distance=max(distances)
-					word_dict[rhyme_word]=embedding_distance
+					distance = get_word_similarity(word, rhyme_set)
+					if distance is not None:
+						word_dict[rhyme_word] = distance
+						
 			line_dict[which_line]=word_dict
 			wema_dict[word]=line_dict
 		output_wema.put(wema_dict)
