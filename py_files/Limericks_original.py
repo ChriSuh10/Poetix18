@@ -131,7 +131,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			mydict=pickle.load(pickle_in)
 		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 		temp=prompt_list.split(", ")
-		prompt_list=[t for t in prompt if t not in mydict.keys()]
+		prompt_list=[t for t in prompt_list if t not in mydict.keys()]
 		#mydict={}
 		#prompt_list=temp
 		for prompt in prompt_list:
