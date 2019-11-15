@@ -153,7 +153,7 @@ class Limerick_Generate:
                     self.templates_dict[(ending_pos, len(t))] = []
                 self.templates_dict[(ending_pos, len(t))].append(t)
 
-    def get_word_similarity(self, word, seed):
+    def get_word_similarity(self, word, rhyme_set):
         """
         Given a seed word, if the word is a noun, verb or adjective, return the
         similarity between the two words. Otherwise, return None.
@@ -163,8 +163,8 @@ class Limerick_Generate:
         word : str
             A word in the poem. We want it to be similar in meaning to the last
             word of the line.
-        seed : str
-            The last word of the line.
+        rhyme_set : list of str
+            The set of all possible last words of the line.
         Returns
         -------
         float
@@ -176,7 +176,7 @@ class Limerick_Generate:
         if 'JJ' in word_pos \
             or 'NN' in word_pos \
             or any('VB' in pos for pos in word_pos):
-            return self.poetic_vectors.similarity(word, seed)
+            return max([self.poetic_vectors.similarity(word, rhyme) for rhyme in rhyme_set])
         return None
 
     def is_duplicate_in_previous_words(self, word, previous):
