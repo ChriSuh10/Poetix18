@@ -66,8 +66,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.enforce_stress = False
 
 		# word embedding coefficients
-		self.word_embedding_alpha = 0.5
-		self.word_embedding_coefficient = 0.1
+		self.word_embedding_alpha = 0
+		self.word_embedding_coefficient = 0
 
 		self.finer_pos_category()
 
