@@ -938,9 +938,7 @@ class Limerick_Generate:
             last_word_is_male = last_word in male_name_list
             last_word_is_female = last_word in female_name_list
 
-        w_response = requests.get(self.api_url, params={'rel_rhy': last_word}).json()
-        w_response = set(d['word'] for d in w_response)
-        w_response.add(last_word)
+        w_response = {last_word}
         candidate_sentences = []
 
         for template in templates:
