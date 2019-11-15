@@ -127,12 +127,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
 	def helper(self):
-		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
-			mydict=pickle.load(pickle_in)
+		#with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
+			#mydict=pickle.load(pickle_in)
 		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 		temp=prompt_list.split(", ")
-		prompt_list=[t for t in prompt if t not in mydict.keys()]
-		#mydict={}
+		#prompt_list=[t for t in prompt if t not in mydict.keys()]
+		mydict={}
+		prompt_list=temp
 		for prompt in prompt_list:
 			try:
 				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
