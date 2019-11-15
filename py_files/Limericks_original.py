@@ -139,7 +139,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			try:
 				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
 				w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
-				mydict["prompt"]=w3s_rhyme_dict
+				mydict[prompt]=w3s_rhyme_dict
 			except:
 				print(prompt)
 				time.sleep(15)
