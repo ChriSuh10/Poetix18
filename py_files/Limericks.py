@@ -747,10 +747,10 @@ class Limerick_Generate:
             if len(rhymes) >= n_w25_threshold:
                 w1s_rhyme_dict[random.choice(names)] = rhymes
 
-        w3s = self.get_similar_word_henry([prompt], n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
-        w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+        #w3s = self.get_similar_word_henry([prompt], n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        #w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
 
-        return w1s_rhyme_dict, w3s_rhyme_dict
+        return w1s_rhyme_dict#, w3s_rhyme_dict
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
