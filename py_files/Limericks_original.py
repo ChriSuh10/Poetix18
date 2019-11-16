@@ -492,7 +492,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			if not finished:
 				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7] for m in temp])))
-				pdb.set_trace()
 			else:
 				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5] for m in temp])))
@@ -699,6 +698,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4]) for i in previous_data_temp]
+		print(previous_data)
 		return previous_data
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
