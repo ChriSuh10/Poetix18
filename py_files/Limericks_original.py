@@ -817,6 +817,7 @@ class Limerick_Generate_new(Limerick_Generate):
 									and not any('VB' in pos_tag for pos_tag in template_curr):
 									if word not in self.madlib_verbs[curr_vb_pos]:
 										continue
+									pdb.set_trace()
 									print("sentence number: {}, madlib_verbs: {}, and index: {}, score : {}".format(i, word,index, np.log(j[index])))
 
 							word_tuple = (sentences[i][0] + (index,),
