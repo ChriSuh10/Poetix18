@@ -817,6 +817,7 @@ class Limerick_Generate_new(Limerick_Generate):
 									and not any('VB' in pos_tag for pos_tag in template_curr):
 									if word not in self.madlib_verbs[curr_vb_pos]:
 										continue
+									print("sentence number: {}, madlib_verbs: {}, score : {}".format(i, word,np.log(j[index])))
 
 							word_tuple = (sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
@@ -827,7 +828,6 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												word_embedding_moving_average)
 							new_sentences.append(word_tuple)
-							print("sentence number: {}, madlib_verbs: {}, score : {}".format(i, word,np.log(j[index])))
 					if end_flag:
 						for end_sub_flag in end_flag:
 							if which_line=="second" or which_line=="fifth":
