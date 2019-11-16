@@ -410,7 +410,7 @@ class Limerick_Generate_new(Limerick_Generate):
             Format is [(POS, sylls)], a combination of possible POS
 			and number of syllables of the current word
 		"""
-		continue_flag={}
+		continue_flag=set()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
@@ -449,7 +449,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			and number of syllables of the current word
 		"""
 
-		end_flag=[]
+		end_flag=set()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
 				for pos in pos_set:
@@ -817,7 +817,6 @@ class Limerick_Generate_new(Limerick_Generate):
 									and not any('VB' in pos_tag for pos_tag in template_curr):
 									if word not in self.madlib_verbs[curr_vb_pos]:
 										continue
-									pdb.set_trace()
 									print("sentence number: {}, madlib_verbs: {}, and index: {}, score : {}".format(i, word,index, np.log(j[index])))
 
 							word_tuple = (sentences[i][0] + (index,),
