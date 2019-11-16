@@ -131,7 +131,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			mydict=pickle.load(pickle_in)
 		print(mydict.keys())
 		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
-		temp=prompt_list.split(", ")
+		prompt_list=prompt_list.split(", ")
 		prompt_list=[t for t in prompt_list if t not in mydict.keys()]
 		#mydict={}
 		#prompt_list=temp
@@ -140,10 +140,9 @@ class Limerick_Generate_new(Limerick_Generate):
 				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
 				w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
 				mydict[prompt]=w3s_rhyme_dict
+				print("success processing {}".format(prompt))
 			except:
-				print(prompt)
-				time.sleep(15)
-			time.sleep(15)
+				print("failure processing {}".format(prompt))
 		self.w3s_rhyme_dict=mydict
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
