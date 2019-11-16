@@ -410,7 +410,7 @@ class Limerick_Generate_new(Limerick_Generate):
             Format is [(POS, sylls)], a combination of possible POS
 			and number of syllables of the current word
 		"""
-		continue_flag=[]
+		continue_flag={}
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
@@ -418,7 +418,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						for sylls in sylls_set:
 							sylls_up, sylls_lo=self.sylls_bounds(t[len(template_curr)+1:])
 							if num_sylls-num_sylls_curr-sylls>=sylls_lo and num_sylls-num_sylls_curr-sylls<=sylls_up:
-								continue_flag.append((pos,sylls))
+								continue_flag.add((pos,sylls))
 		if len(continue_flag)==0: continue_flag=False
 		return continue_flag
 
