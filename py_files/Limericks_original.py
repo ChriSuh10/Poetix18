@@ -456,7 +456,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					if pos==t[len(template_curr)]:
 						for sylls in sylls_set:
 							if num_sylls_curr+sylls==num_sylls:
-								end_flag.append((pos,sylls))
+								end_flag.add((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
@@ -492,6 +492,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			if not finished:
 				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
 				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7] for m in temp])))
+				pdb.set_trace()
 			else:
 				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
 				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5] for m in temp])))
@@ -817,8 +818,6 @@ class Limerick_Generate_new(Limerick_Generate):
 									and not any('VB' in pos_tag for pos_tag in template_curr):
 									if word not in self.madlib_verbs[curr_vb_pos]:
 										continue
-									print("sentence number: {}, madlib_verbs: {}, and index: {}, score : {}".format(i, word,index, np.log(j[index])))
-
 							word_tuple = (sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
