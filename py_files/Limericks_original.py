@@ -702,13 +702,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
 		# dictionary {pos: set()}
-		try:
-			pickle_in=open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","rb")
-			pickle_in.close()
-		except:
-			pickle_in=open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","wb")
-			pickle.dump({prompt:None},pickle_in)
-			pickle_in.close()
 		pickle_in=open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","rb")
 		mydict=pickle.load(pickle_in)
 		pickle_in.close()
@@ -717,7 +710,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		else:
 			ret={pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))for pos in pos_list}
 			mydict[prompt]=ret
-			with open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","rb") as pickle_in:
+			with open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","wb") as pickle_in:
 				pickle.dump(mydict,pickle_in)
 			return ret
 
