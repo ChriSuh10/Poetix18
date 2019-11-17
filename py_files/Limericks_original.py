@@ -67,7 +67,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		# word embedding coefficients
 		self.word_embedding_alpha = 0.5
-		self.word_embedding_coefficient = 1.0
+		self.word_embedding_coefficient = 0.0
 
 		self.finer_pos_category()
 
@@ -231,11 +231,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
 		pickle.dump(previous_data,f1)
-		f1.close()
-
-
-		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","rb")
-		previous_data=pickle.load(f1)
 		f1.close()
 
 		# Print out generated poems
