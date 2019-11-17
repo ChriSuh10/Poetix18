@@ -37,6 +37,7 @@ class Limerick_Generate_new(Limerick_Generate):
             postag_file='py_files/saved_objects/postag_dict_all.p',
             model_dir='gpt2/models/345M',
             model_name='345M'):
+		print("=================== Initializing ==================================")
 		super(Limerick_Generate_new,self).__init__()
 		self.api_url='https://api.datamuse.com/words'
 		self.model_dir = model_dir
@@ -70,6 +71,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_coefficient = 0.0
 
 		self.finer_pos_category()
+		print("=================== Finished Initializing ==================================")
 
 
 	def finer_pos_category(self):
@@ -235,7 +237,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
 				del self.w1s_rhyme_dict[name]
 		print("=========================== Creating Wema =======================================")
-		self.get_wema_dict_mp()
+		self.get_wema_dict_mp(prompt)
 		print("=========================== Finished Wema =======================================")
 
 		assert len(self.w1s_rhyme_dict.keys()) > 0, "no storyline available"
@@ -513,7 +515,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			return set([word.upper()])
 		return set(self.words_to_pos[word])
 
-	def get_wema_dict_mp(self):
+	def get_wema_dict_mp(self,prompt):
 		try:
 			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
 				self.wema_dict=pick.load(pickle_in)
