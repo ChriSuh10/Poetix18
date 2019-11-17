@@ -517,7 +517,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		try:
 			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
 				self.wema_dict=pick.load(pickle_in)
-		else:
+		except:
 			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
 				num_list_list= self.split_chunks(list(range(50256)))
 				manager_wema = mp.Manager()
@@ -702,7 +702,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
 		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4]) for i in previous_data_temp]
-		print(previous_data)
 		return previous_data
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
