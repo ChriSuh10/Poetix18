@@ -517,7 +517,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_wema_dict_mp(self,prompt):
 		try:
-			pdb.set_trace()
 			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
 				self.wema_dict=pickle.load(pickle_in)
 		except:
