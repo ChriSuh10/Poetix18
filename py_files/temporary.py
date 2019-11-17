@@ -103,6 +103,8 @@ def printing(data, f,template_to_line):
 					num_of_words_each_line.append(0)
 				else:
 					num_of_words_each_line[count]+=1
+			break
+		print(num_of_words_each_line)
 		num_of_words_each_line=num_of_words_each_line[1:-1]
 		for i in k.split("\n")[1:]:
 			i=i.strip()
@@ -137,7 +139,7 @@ def printing(data, f,template_to_line):
 
 
 if __name__ == '__main__':
-	with open("limericks_data_new_7/planet_102_3.pickle","rb") as pickle_in:
+	with open("saved_objects/planet_102_3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
