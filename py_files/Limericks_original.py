@@ -67,8 +67,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.enforce_stress = False
 
 		# word embedding coefficients
-		self.word_embedding_alpha = 0.5
-		self.word_embedding_coefficient = 0.0
 
 		self.finer_pos_category()
 		print("=================== Finished Initializing ==================================")
@@ -196,7 +194,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					f.write(" line score is : {:04.03f}".format(np.mean(temp_list)))
 					f.write("\n")
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, stress=False, prob_threshold=None):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=None):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -216,6 +214,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			If the probability of a word is lower than this threshold we will not consider
 			this word. Set it to None to get rid of it.
 		"""
+		self.word_embedding_alpha = 0.5
+		self.word_embedding_coefficient = word_embedding_coefficient
 		self.n_w25_threshold=10
 		print("===============================   helper       ==============================================")
 		self.helper()
@@ -584,7 +584,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		Calculate word embedding moving average with the story line set selection.
 		"""
-		if which_line == "third" or which_line == "fifth":
+		if which_line == "second" or which_line == "fifth":
 			which_line = "second or fifth"
 		if rhyme_word in self.wema_dict[word][which_line].keys():
 			embedding_distance=self.wema_dict[word][which_line][rhyme_word]
