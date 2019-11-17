@@ -164,6 +164,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						num_of_words_each_line.append(0)
 					else:
 						num_of_words_each_line[count]+=1
+				break
 			num_of_words_each_line=num_of_words_each_line[1:-1]
 			for i in k.split("\n")[1:]:
 				i=i.strip()
