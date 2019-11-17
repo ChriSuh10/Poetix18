@@ -146,8 +146,52 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.w3s_rhyme_dict=mydict
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
+	def printing(self,data, f):
+		temp_data=defaultdict(list)
+		for line in data:
+			temp_data[" ".join(line[3])].append(line)
 
+		for t,k in enumerate(temp_data.keys()):
+			lines=[]
+			num_of_words_each_line=[0]
+			for pp in temp_data[k]:
+				count=0
+				for ppp in pp[3]:
+					if ppp=="\n":
+						count+=1
+						num_of_words_each_line.append(0)
+					else:
+						num_of_words_each_line[count]+=1
+			num_of_words_each_line=num_of_words_each_line[1:-1]
+			for i in k.split("\n")[1:]:
+				i=i.strip()
+				if len(i)!=0:
+					i_list=i.split(" ")
+					try:
+						line=list(self.template_to_line[" ".join(i_list)][0])+["\n"]
+					except:
+						line=list(self.template_to_line[" ".join(i_list[:-1])][0])+["\n"]
+					lines+=line
 
+			f.write("======================= template: {} ============================  \n".format(t+1))
+			f.write(k)
+			f.write("----------------------- original sentences ------------------------------------ \n")
+			f.write(" ".join(lines))
+			for j in temp_data[k]:
+				f.write("------------------------- score:  {}----------------------- \n".format(np.mean(j[1])))
+				f.write(" ".join(j[2]))
+				f.write("------------------------- score breakdown ------------------------ \n")
+				count_w=j[2].index("\n")+1
+				count_s=1
+				for s in range(4):
+					temp_list=[]
+					for ww,w in enumerate(j[2][count_w:count_w+num_of_words_each_line[s]]):
+						f.write("({} {:03.2f})".format(w,j[1][count_s+ww]))
+						temp_list.append(j[1][count_s+ww])
+					count_s+=ww
+					count_w+=ww+2
+					f.write(" line score is : {:04.03f}".format(np.mean(temp_list)))
+					f.write("\n")
 
 	def gen_poem_andre_new(self, prompt, search_space, retain_space, stress=False, prob_threshold=None):
 		"""
@@ -169,6 +213,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			If the probability of a word is lower than this threshold we will not consider
 			this word. Set it to None to get rid of it.
 		"""
+		self.n_w25_threshold=10
 		print("===============================   helper       ==============================================")
 		self.helper()
 		print("===============================   end helper       ==============================================")
@@ -182,7 +227,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt)
+		self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt,self.n_w25_threshold)
 		#self.w3s_rhyme_dict=w3s_rhyme_dict
 		female_name_list, male_name_list=self.load_name_list()
 
@@ -234,48 +279,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		f1.close()
 
 		# Print out generated poems
-		temp_data=defaultdict(list)
-		for line in previous_data:
-			temp_data[" ".join(line[3])].append(line)
-
-		for t,k in enumerate(temp_data.keys()):
-			lines=[]
-			for i in k.split("\n")[1:]:
-				i=i.strip()
-				if len(i)!=0:
-					i_list=i.split(" ")
-					if i_list[-1] in [",","."]:
-						i_list=i_list[:-1]
-					line=list(self.template_to_line[" ".join(i_list)][0])+["\n"]
-					lines+=line
-
-			f.write("======================= template: {} ============================  \n".format(t+1))
-			f.write(k)
-			f.write("----------------------- original sentences ------------------------------------ \n")
-			f.write(" ".join(lines))
-			for j in temp_data[k]:
-				f.write("------------------------- score:  {}----------------------- \n".format(np.mean(j[1])))
-				f.write(" ".join(j[2]))
-				rest_four_lines=j[2][j[2].index("\n")+1:]
-				temp_n=1
-				temp_list=[]
-				f.write("------------------------- score breakdown ------------------------ \n")
-				for i, ii in enumerate(j[3][2:]):
-					if ii!="\n":
-						if rest_four_lines[i] !="\n":
-							word_associated=rest_four_lines[i]
-						else:
-							word_associated=rest_four_lines[i+1]
-						f.write("("+str(round(j[1][i-temp_n],2))+" "+word_associated+")")
-						temp_list.append(j[1][i-temp_n])
-					else:
-						f.write("mean {:04.3f}".format(np.mean(temp_list)))
-						f.write("\n")
-						temp_n+=1
-						temp_list=[]
-
-
-
+		self.printing(previous_data,f)
 
 	def encodes_align(self,previous_data):
 		"""
@@ -510,23 +514,28 @@ class Limerick_Generate_new(Limerick_Generate):
 		return set(self.words_to_pos[word])
 
 	def get_wema_dict_mp(self):
-			num_list_list= self.split_chunks(list(range(50256)))
-			manager_wema = mp.Manager()
-			output_wema=manager_wema.Queue()
-			processes = [mp.Process(target=self.get_wema_dict, args=(num_list_list[i], output_wema)) for i in range(len(num_list_list))]
-			print("******************************** multiprocessing starts with {} processes *************************************".format(len(processes)))
-			for p in processes:
-				p.start()
-			for p in processes:
-				p.join()
-			results = [output_wema.get() for p in processes]
-			self.wema_dict=collections.defaultdict(dict)
-			for r in results:
-				for word in r.keys():
-					self.wema_dict[word]=r[word]
-			print(self.wema_dict["happy"])
-			print("********************************** multiprocessing ends for wema *****************************************************")
-
+		try:
+			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
+				self.wema_dict=pick.load(pickle_in)
+		else:
+			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
+				num_list_list= self.split_chunks(list(range(50256)))
+				manager_wema = mp.Manager()
+				output_wema=manager_wema.Queue()
+				processes = [mp.Process(target=self.get_wema_dict, args=(num_list_list[i], output_wema)) for i in range(len(num_list_list))]
+				print("******************************* create new wema, multiprocessing starts with {} processes *************************************".format(len(processes)))
+				for p in processes:
+					p.start()
+				for p in processes:
+					p.join()
+				results = [output_wema.get() for p in processes]
+				self.wema_dict=collections.defaultdict(dict)
+				for r in results:
+					for word in r.keys():
+						self.wema_dict[word]=r[word]
+				print(self.wema_dict["happy"])
+				print("********************************** multiprocessing ends for wema *****************************************************")
+				pickle.dump(self.wema_dict,pickle_in)
 	# wema dict structure
 	# {"happy" -> {"second": {"bee": 0.57 (avg distance to words that rhyme with bee), "cow": 0.69...}}}
 	def get_wema_dict(self, num_list, output_wema):
