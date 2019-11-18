@@ -87,8 +87,71 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	        		curr_stress.append(possible_stress[i])
 	        meter.append(curr_stress)
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
+def printing(data, f,template_to_line):
+	temp_data=defaultdict(list)
+	for line in data:
+		temp_data[" ".join(line[3])].append(line)
+
+	for t,k in enumerate(temp_data.keys()):
+		lines=[]
+		num_of_words_each_line=[0]
+		for pp in temp_data[k]:
+			count=0
+			for ppp in pp[3]:
+				if ppp=="\n":
+					count+=1
+					num_of_words_each_line.append(0)
+				else:
+					num_of_words_each_line[count]+=1
+			break
+		print(num_of_words_each_line)
+		num_of_words_each_line=num_of_words_each_line[1:-1]
+		for i in k.split("\n")[1:]:
+			i=i.strip()
+			if len(i)!=0:
+				i_list=i.split(" ")
+				try:
+					line=list(template_to_line[" ".join(i_list)][0])+["\n"]
+				except:
+					line=list(template_to_line[" ".join(i_list[:-1])][0])+["\n"]
+				lines+=line
+
+		f.write("======================= template: {} ============================  \n".format(t+1))
+		f.write(k)
+		f.write("----------------------- original sentences ------------------------------------ \n")
+		f.write(" ".join(lines))
+		for j in temp_data[k]:
+			f.write("------------------------- score:  {}----------------------- \n".format(np.mean(j[1])))
+			f.write(" ".join(j[2]))
+			f.write("------------------------- score breakdown ------------------------ \n")
+			count_w=j[2].index("\n")+1
+			count_s=1
+			for s in range(4):
+				temp_list=[]
+				for ww,w in enumerate(j[2][count_w:count_w+num_of_words_each_line[s]]):
+					pdb.set_trace()
+					f.write("({} {:03.2f})".format(w,j[1][count_s+ww]))
+					temp_list.append(j[1][count_s+ww])
+				count_s+=ww
+				count_w+=ww+2
+				f.write(" line score is : {:04.03f}".format(np.mean(temp_list)))
+				f.write("\n")
+
+
 
 if __name__ == '__main__':
+	with open("saved_objects/planet_101_5.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
+		templates= pickle.load(pickle_in)
+		template_to_line=defaultdict(list)
+		for i in ["second","third","fourth","fifth"]:
+			for j in templates[i].keys():
+				for k in templates[i][j]:
+					template_to_line[" ".join(k[0])].append(k[1])
+	with open("testting.txt","w") as f:
+		#data=[((37437, 323, 508, 2727, 257, 649, 995, 1123, 1110, 13, 383, 1621, 286, 607, 1918, 11, 673, 373, 2923, 416, 257, 582, 11, 673, 373, 1498, 284, 766, 290, 284, 307, 13), (0, -1.8686583, -7.9279566, -1.7537689, -3.5815325, -2.9823372, -7.3178396, -0.7854198, -1.3464375, -3.2089908, -4.305893, -1.7522461, -1.7720312, -6.1531906, -3.006908, -3.8320954, -2.208183, -2.292202, -0.61561483, -1.3350128, -3.2697363, -3.549174, -3.6850667, -0.94812435, -5.939119, -0.014559363, -3.7359376, -3.4837246, -4.6017675, -3.682684, -4.94672), ('there', 'was', 'a', 'kind', 'woman', 'named', 'sunday', '\n', 'who', 'created', 'a', 'new', 'world', 'each', 'day', '.', '\n', 'the', 'story', 'of', 'her', 'death', ',', '\n', 'she', 'was', 'killed', 'by', 'a', 'man', ',', '\n', 'she', 'was', 'able', 'to', 'see', 'and', 'to', 'be', '.', '\n'), ('sunday', '\n', 'WHO', 'VBD', 'A', 'JJ', 'NN', 'EACH', 'NN', '.', '\n', 'THE', 'NN', 'OF', 'PRP$', 'NN', ',', '\n', 'PRP', 'VBD', 'VBN', 'BY', 'A', 'NN', ',', '\n', 'PRP', 'VBD', 'JJ', 'TO', 'VB', 'AND', 'TO', 'VB', '.', '\n'), ('sunday', 'death'))]
+		printing(data,f, template_to_line)
 	'''
 	mylist=[0, 3, 8, 10, 19, 23, 25, 37, 42, 43, 44, 49, 50, 51, 54, 66, 70, 71, 74, 77, 80, 85, 86, 87, 88, 92, 93, 97, 100, 101, 102, 103, 112, 114, 115, 118, 122, 129, 131, 133, 134, 137,  139, 140, 141, 143, 150, 155, 160, 163, 166, 167, 170, 171, 172]
 	with open("saved_objects/last2_tuple.pickle","rb") as f:
