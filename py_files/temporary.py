@@ -129,6 +129,7 @@ def printing(data, f,template_to_line):
 			for s in range(4):
 				temp_list=[]
 				for ww,w in enumerate(j[2][count_w:count_w+num_of_words_each_line[s]]):
+					pdb.set_trace()
 					f.write("({} {:03.2f})".format(w,j[1][count_s+ww]))
 					temp_list.append(j[1][count_s+ww])
 				count_s+=ww
