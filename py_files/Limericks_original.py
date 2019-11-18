@@ -833,7 +833,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][4]+(continue_sub_flag[0],),
 												sentences[i][5]+continue_sub_flag[1],
 												sentences[i][6],
-												sentences[i][6]+(word_embedding_moving_average,))
+												sentences[i][7]+(word_embedding_moving_average,))
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
@@ -845,7 +845,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												sentences[i][6]+(word_embedding_moving_average,))
+												sentences[i][7]+(word_embedding_moving_average,))
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
 								if word in rhyme_set_curr:
@@ -855,7 +855,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												(sentences[i][6][0],word),
-												sentences[i][6]+(word_embedding_moving_average,))
+												sentences[i][7]+(word_embedding_moving_average,))
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
@@ -865,7 +865,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												sentences[i][6]+(word_embedding_moving_average,))
+												sentences[i][7]+(word_embedding_moving_average,))
 									quasi_finished_sentences.append(word_tuple)
 		output.put((new_sentences, quasi_finished_sentences))
 		#return new_sentences, quasi_finished_sentences

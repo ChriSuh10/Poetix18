@@ -139,7 +139,7 @@ def printing(data, f,template_to_line):
 
 
 if __name__ == '__main__':
-	with open("saved_objects/planet_102_3.pickle","rb") as pickle_in:
+	with open("saved_objects/planet_101_5.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
