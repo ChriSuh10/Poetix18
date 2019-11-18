@@ -695,7 +695,7 @@ class Limerick_Generate_new(Limerick_Generate):
 															quasi_finished_sentences[i][2]+(word,),
 															quasi_finished_sentences[i][3]+(word,),
 															quasi_finished_sentences[i][4],
-															quasi_finished_sentences[i][5]))
+															quasi_finished_sentences[i][5]+(0,)))
 								break
 			else:
 				for q in quasi_finished_sentences:
