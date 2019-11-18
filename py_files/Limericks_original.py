@@ -588,11 +588,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			which_line = "second or fifth"
 		if rhyme_word in self.wema_dict[word][which_line].keys():
 			embedding_distance=self.wema_dict[word][which_line][rhyme_word]
+			return embedding_distance
 		else:
 			#return original_average
-			return embedding_distance
+			return 0
 		#return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance
-		return embedding_distance
 
 	def split_chunks(self, data):
 		data_list=[]
