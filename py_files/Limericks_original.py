@@ -493,10 +493,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		for k in x:
 			if not finished:
 				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])
-				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7] for m in temp])))
+				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7][-1] for m in temp])))
 			else:
 				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5][-1])
-				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5] for m in temp])))
+				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5][-1] for m in temp])))
 		data=heapq.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
 		data_new=[]
 		for k in data:
