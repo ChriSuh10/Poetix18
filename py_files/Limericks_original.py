@@ -126,7 +126,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				self.pos_sylls_mode[i]=[(len(self.dict_meters[i.lower()][0]),1.0)]
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
-	def helper(self):
+	def helper(self,prompt_specific):
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
 			mydict=pickle.load(pickle_in)
 		print(mydict.keys())
@@ -143,7 +143,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				print("success processing {}".format(prompt))
 			except:
 				print("failure processing {}".format(prompt))
-		self.w3s_rhyme_dict=mydict
+		self.w3s_rhyme_dict=mydict[prompt_specific]
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
 	def printing(self,data, f):
@@ -218,7 +218,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.word_embedding_coefficient = word_embedding_coefficient
 		self.n_w25_threshold=10
 		print("===============================   helper       ==============================================")
-		self.helper()
+		self.helper(prompt)
 		print("===============================   end helper       ==============================================")
 		self.enforce_stress = stress
 		self.prob_threshold = prob_threshold
