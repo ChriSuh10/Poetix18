@@ -25,7 +25,7 @@ from gpt2.src.score import score_model
 from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp, get_first_line_templates, get_good_templates
-
+import pdb
 
 class Limerick_Generate:
     def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
@@ -67,6 +67,15 @@ class Limerick_Generate:
 
         self.word_embedding_alpha = 0.5
         self.word_embedding_coefficient = 0.1
+        self.verb_repeat_whitelist = set(['be', 'is', 'am', 'are', 'was', 'were',
+        'being', 'do', 'does', 'did', 'have', 'has', 'had'])
+
+        self.names_rhymes = "py_files/saved_objects/downloaded_names_rhymes.pkl"
+        self.filtered_names_rhymes = "py_files/saved_objects/filtered_names_rhymes.pkl"
+
+        if self.names_rhymes[self.names_rhymes.rfind("/") + 1:] in os.listdir("py_files/saved_objects"):
+            with open(self.names_rhymes, "rb") as hf:
+                self.names_rhymes_dict = pickle.load(hf)
 
     def create_syll_dict(self, fname):
         """
@@ -144,7 +153,7 @@ class Limerick_Generate:
                     self.templates_dict[(ending_pos, len(t))] = []
                 self.templates_dict[(ending_pos, len(t))].append(t)
 
-    def get_word_similarity(self, word, seed):
+    def get_word_similarity(self, word, rhyme_set):
         """
         Given a seed word, if the word is a noun, verb or adjective, return the
         similarity between the two words. Otherwise, return None.
@@ -154,20 +163,23 @@ class Limerick_Generate:
         word : str
             A word in the poem. We want it to be similar in meaning to the last
             word of the line.
-        seed : str
-            The last word of the line.
+        rhyme_set : list of str
+            The set of all possible last words of the line.
         Returns
         -------
         float
             Word similarity between the word and the seed word.
         """
-        if word not in self.words_to_pos or seed not in self.words_to_pos:
+        if word not in self.words_to_pos:
             return None
         word_pos = self.words_to_pos[word]
         if 'JJ' in word_pos \
             or 'NN' in word_pos \
             or any('VB' in pos for pos in word_pos):
-            return self.poetic_vectors.similarity(word, seed)
+            distances = [self.poetic_vectors.similarity(word, rhyme) for rhyme in rhyme_set if rhyme in self.words_to_pos]
+            if len(distances) == 0:
+                return None
+            return max(distances)
         return None
 
     def is_duplicate_in_previous_words(self, word, previous):
@@ -186,11 +198,14 @@ class Limerick_Generate:
         bool
             Whether the word is a duplicate.
         """
+
         if word not in self.words_to_pos:
             return False
         word_pos = self.words_to_pos[word]
         if len(word_pos) == 0:
             return False
+        if 'VB' in word_pos[0]:
+            return (word in previous and word not in self.verb_repeat_whitelist)
         return ('JJ' == word_pos[0] or 'NN' == word_pos[0]) and word in previous
 
     def two_word_link(self, w1, w2, seen_words):
@@ -431,7 +446,7 @@ class Limerick_Generate:
         w5 = self.get_similar_word_henry([prompt, w2, w3, w4], seen_words=[w1], weights=[1, 4, 1, 3], n_return=1, word_set=rhyme_w1)[0]
         return [w1.capitalize(), w2, w3, w4, w5]
 
-    def get_rhyming_words_one_step_henry(self, word, max_syllables=3):
+    def get_rhyming_words_one_step_henry(self, word, max_syllables=2):
         """
         get the rhyming words of <arg> word returned from datamuse api
         <args>:
@@ -543,7 +558,7 @@ class Limerick_Generate:
 
         return w1s_rhyme_dict, w3s_rhyme_dict
 
-    def fill_in_henry(self, end_word, pos="VB", seen_words_set=set(), n_return=10, return_score=False):
+    def fill_in_henry(self, end_word, pos_list=["VB"], seen_words_set=set(), n_return=10, return_score=False):
         """
         <args>:
         end_word: a given last word;
@@ -558,7 +573,7 @@ class Limerick_Generate:
         if return_score is False, the list contains <str>, i.e. mad-libs choices,
         if return_score is True, the list contains <tuple>, i.e. (mad-libs choice, its similarity score with end_word)'s;
         """
-        words_list_from_pos = [self.pos_to_words[pos_i] for pos_i in self.pos_to_words if pos_i[:len(pos)] == pos]
+        words_list_from_pos = [self.pos_to_words[pos_i] for pos_i in self.pos_to_words if pos_i[:2] in pos_list or pos_i in pos_list]
         words_set = set(reduce(lambda x, y: x + y, words_list_from_pos))
 
         for seen_word in seen_words_set | {end_word}:
@@ -589,7 +604,7 @@ class Limerick_Generate:
 
         return np.sum(np.array(scores) * weight_arr) / np.sum(weight_arr)
 
-    def storyline_filtering_henry(self, end_words_set, pos="VBP", n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
+    def storyline_filtering_henry(self, end_words_set, pos_list=["VBP"], n_fill_in=10, score_threshold=0.35, madlibs_dict=False):
         """
         <args>:
         end_words_set: a set of end_words (returned in <func> get_two_sets_henry) that we want to reduce and filter;
@@ -608,7 +623,7 @@ class Limerick_Generate:
         end_words_dict = {}
 
         for end_word in end_words_set:
-            fill_in_return = self.fill_in_henry(end_word, pos=pos, n_return=n_fill_in, return_score=True)
+            fill_in_return = self.fill_in_henry(end_word, pos_list=pos_list, n_return=n_fill_in, return_score=True)
 
             if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= score_threshold:
                 end_words_dict[end_word] = [tup[0] for tup in fill_in_return]
@@ -640,18 +655,102 @@ class Limerick_Generate:
         w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict = {}, {}
 
         for w1 in w1s_rhyme_dict:
-            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos=pos_list[0], madlibs_dict=madlibs_dict)
+            w1_rhyme_filtered = self.storyline_filtering_henry(w1s_rhyme_dict[w1], pos_list=[pos_list[0]], madlibs_dict=madlibs_dict)
 
             if len(w1_rhyme_filtered) > 0:
                 w1s_rhyme_filtered_dict[w1.capitalize()] = w1_rhyme_filtered
 
         for w3 in w3s_rhyme_dict:
-            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos=pos_list[1], madlibs_dict=madlibs_dict)
+            w3_rhyme_filtered = self.storyline_filtering_henry(w3s_rhyme_dict[w3], pos_list=[pos_list[1]], madlibs_dict=madlibs_dict)
 
             if len(w3_rhyme_filtered) > 0:
                 w3s_rhyme_filtered_dict[w3] = w3_rhyme_filtered
 
         return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
+
+    def filter_common_word_henry(self, word, fast=False, threshold=0.35):
+        if fast:
+            pos_list = ["VBP"]
+        else:
+            pos_list = ["VB", "NN"]
+        fill_in_return = self.fill_in_henry(word, pos_list=pos_list, n_return=10, return_score=True)
+
+        if self.score_averaging_henry([tup[1] for tup in fill_in_return]) >= threshold:
+            return True
+        return False
+
+    def download_names_rhymes_henry(self):
+        if self.names_rhymes in os.listdir("py_files/saved_objects"):
+            with open(self.names_rhymes, "rb") as hf:
+                names_rhymes_dict = pickle.load(hf)
+        else:
+            names_rhymes_dict = {}
+        names_to_download = [name for name in self.filtered_names if name not in names_rhymes_dict.keys()]
+        for i, name in enumerate(names_to_download):
+            names_rhymes_dict[name] = self.get_rhyming_words_one_step_henry(name.lower())
+            print("Downloading names_rhymes_dict, %d / %d done..." % (i + 1, len(names_to_download)))
+        with open(self.names_rhymes, "wb") as hf:
+            pickle.dump(names_rhymes_dict, hf)
+
+    def return_top_five_average_similarity_henry(self, prompt, word_set):
+        similarity_scores = [self.poetic_vectors.similarity(prompt, word) for word in word_set]
+        return sum(sorted(similarity_scores, reverse=True)[:5]) / 5
+
+    def get_two_sets_new_henry(self, prompt, n_w1=50, n_w3=20):
+        w1s = sorted(self.filtered_names, key=lambda x: self.return_top_five_average_similarity_henry(prompt, self.names_rhymes_dict[x]), reverse=True)[:n_w1]
+        w1s_rhyme_dict = {w1: {word for word in self.names_rhymes_dict[w1] if self.filter_common_word_henry(word, fast=True)} for w1 in w1s}
+
+        w3s = self.get_similar_word_henry([prompt], seen_words=w1s, n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+
+        return w1s_rhyme_dict, w3s_rhyme_dict
+
+    def combine_name_rhymes_henry(self):
+        with open(self.names_rhymes, "rb") as hf:
+            dic = pickle.load(hf)
+
+        lis = []
+        for k in dic:
+            v = dic[k]
+            for e in lis:
+                if len(e[1].symmetric_difference(v)) <= 2:
+                    e[1].update(v)
+                    e[0].append(k)
+                    break
+            else:
+                lis.append(([k], v))
+
+        return lis
+
+    def filter_name_rhymes_henry(self, save=True):
+        lis = self.combine_name_rhymes_henry()
+        filtered_lis = []
+        for names, rhymes in lis:
+            filtered_rhymes = []
+            for rhyme in rhymes:
+                if self.filter_common_word_henry(rhyme, fast=True, threshold=0.3):
+                    filtered_rhymes.append(rhyme)
+            if len(filtered_rhymes) > 0:
+                filtered_lis.append((names, filtered_rhymes))
+        if not save:
+            return filtered_lis
+
+        with open(self.filtered_names_rhymes, "wb") as hf:
+            pickle.dump(filtered_lis, hf)
+
+    def get_two_sets_20191113_henry(self, prompt, n_w25_threshold):
+        with open(self.filtered_names_rhymes, "rb") as hf:
+            names_rhymes_list = pickle.load(hf)
+
+        w1s_rhyme_dict = {}
+        for names, rhymes in names_rhymes_list:
+            if len(rhymes) >= n_w25_threshold:
+                w1s_rhyme_dict[names[0]] = rhymes
+
+        #w3s = self.get_similar_word_henry([prompt], n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        #w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+
+        return w1s_rhyme_dict#, w3s_rhyme_dict
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
@@ -790,10 +889,11 @@ class Limerick_Generate:
                 return False
             n += len(self.dict_meters[x][0])
             curr_meter = self.dict_meters[x]
-            for i in range(len(curr_meter[0])):
+            for i in range(max([len(j) for j in curr_meter])):
                 curr_stress = []
                 for possible_stress in curr_meter:
-                    curr_stress.append(possible_stress[i])
+                    if len(possible_stress)>=i+1:
+                        curr_stress.append(possible_stress[i])
                 meter.append(curr_stress)
         return (not all(('1' not in meter[i]) for i in stress)) \
             and (n in num_syllables)
@@ -841,9 +941,7 @@ class Limerick_Generate:
             last_word_is_male = last_word in male_name_list
             last_word_is_female = last_word in female_name_list
 
-        w_response = requests.get(self.api_url, params={'rel_rhy': last_word}).json()
-        w_response = set(d['word'] for d in w_response)
-        w_response.add(last_word)
+        w_response = {last_word}
         candidate_sentences = []
 
         for template in templates:
@@ -946,6 +1044,8 @@ class Limerick_Generate:
                 # First line always has 8 or 9 syllables
                 if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
                     candidate_sentences.append(new_sentence)
+
+
         random.shuffle(candidate_sentences)
         return candidate_sentences[:search_space]
 
@@ -1623,7 +1723,7 @@ class Limerick_Generate:
         return sentences
 
     def gen_poem_gpt(self, rhyme1, rhyme2, default_templates=None,
-                     story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
+                     story_line=False, prompt_length=20, save_as_pickle=False, search_space=50,
                      enforce_syllables=False, enforce_stress=False, search_space_coef=[1, 1, 0.5, 0.25],
                      use_word_embedding=False):
         """
