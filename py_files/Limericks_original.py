@@ -246,11 +246,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		assert len(self.w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
-		saved_directory="limericks_experiment_TB_CLS/"
-		pdb.set_trace()
+		saved_directory="limericks_experiment_TB_CLS"
 		if saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(saved_directory)
-		result_file_path = saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".txt"
+		result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".txt"
 		f = open(result_file_path,"a+")
 
 		previous_data=[]
