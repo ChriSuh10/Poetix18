@@ -80,11 +80,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		# 	for j in self.pos_to_words[k]:
 		# 		self.special_words.add(j.upper())
 
-		#with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
-			#data=pickle.load(pickle_in)
-		with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 			data=pickle.load(pickle_in)
-			data=data[5]
+		#with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
+			#data=pickle.load(pickle_in)
+			#data=data[5]
 		temp_data={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
