@@ -1723,7 +1723,7 @@ class Limerick_Generate:
         return sentences
 
     def gen_poem_gpt(self, rhyme1, rhyme2, default_templates=None,
-                     story_line=False, prompt_length=100, save_as_pickle=False, search_space=100,
+                     story_line=False, prompt_length=20, save_as_pickle=False, search_space=50,
                      enforce_syllables=False, enforce_stress=False, search_space_coef=[1, 1, 0.5, 0.25],
                      use_word_embedding=False):
         """
