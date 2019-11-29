@@ -1,3 +1,4 @@
+# this model has 34 lines linked, and also when approproate, relax the rhyming word pos constraints. 
 import tensorflow as tf
 import numpy as np
 import nltk
@@ -80,11 +81,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		# 	for j in self.pos_to_words[k]:
 		# 		self.special_words.add(j.upper())
 
-		#with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
-			#data=pickle.load(pickle_in)
-		with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
+		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 			data=pickle.load(pickle_in)
-			data=data[5]
+		#with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
+			#data=pickle.load(pickle_in)
+			#data=data[5]
 		temp_data={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
@@ -280,7 +281,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
-			pdb.set_trace()
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
 		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
