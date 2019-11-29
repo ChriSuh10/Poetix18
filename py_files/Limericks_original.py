@@ -80,8 +80,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		# 	for j in self.pos_to_words[k]:
 		# 		self.special_words.add(j.upper())
 
-		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+		#with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+			#data=pickle.load(pickle_in)
+		with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
 			data=pickle.load(pickle_in)
+			data=data[0]
 		temp_data={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
@@ -187,7 +190,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				for s in range(4):
 					temp_list=[]
 					for ww,w in enumerate(j[2][count_w:count_w+num_of_words_each_line[s]]):
-						f.write("({} {:03.2f} {:03.2f})".format(w,j[1][count_s+ww],j[5][count_s+ww]))
+						f.write("({} {:03.2f})".format(w,j[1][count_s+ww]))
 						temp_list.append(j[1][count_s+ww])
 					count_s+=ww
 					count_w+=ww+2
@@ -243,8 +246,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		assert len(self.w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
-		saved_directory="limericks_data_experiment/"
-		result_file_path = saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".txt"
+		saved_directory="limericks_experiment_TB_CLS"
+		if saved_directory not in os.listdir(os.getcwd()):
+			os.mkdir(saved_directory)
+		result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".txt"
 		f = open(result_file_path,"a+")
 
 		previous_data=[]
@@ -258,7 +263,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
 			if len(candidates)>0: text=random.choice(candidates)
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,""),(0,)))
+			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,""),0))
 
 		# Print out all 3\4 rhymes
 		'''
@@ -492,11 +497,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		x=random.sample(list_of_keys, len(list_of_keys))
 		for k in x:
 			if not finished:
-				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])
-				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7][-1] for m in temp])))
+				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7])
+				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7] for m in temp])))
 			else:
-				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5][-1])
-				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5][-1] for m in temp])))
+				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5])
+				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5] for m in temp])))
 		data=heapq.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
 		data_new=[]
 		for k in data:
@@ -588,11 +593,10 @@ class Limerick_Generate_new(Limerick_Generate):
 			which_line = "second or fifth"
 		if rhyme_word in self.wema_dict[word][which_line].keys():
 			embedding_distance=self.wema_dict[word][which_line][rhyme_word]
-			return embedding_distance
+			#return embedding_distance
 		else:
-			#return original_average
-			return 0
-		#return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance
+			return original_average
+		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance
 
 	def split_chunks(self, data):
 		data_list=[]
@@ -695,7 +699,7 @@ class Limerick_Generate_new(Limerick_Generate):
 															quasi_finished_sentences[i][2]+(word,),
 															quasi_finished_sentences[i][3]+(word,),
 															quasi_finished_sentences[i][4],
-															quasi_finished_sentences[i][5]+(0,)))
+															quasi_finished_sentences[i][5]))
 								break
 			else:
 				for q in quasi_finished_sentences:
@@ -706,7 +710,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
-		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4],i[5]) for i in previous_data_temp]
+		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4]) for i in previous_data_temp]
 		return previous_data
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
@@ -833,7 +837,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][4]+(continue_sub_flag[0],),
 												sentences[i][5]+continue_sub_flag[1],
 												sentences[i][6],
-												sentences[i][7]+(word_embedding_moving_average,))
+												word_embedding_moving_average)
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
@@ -845,7 +849,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												sentences[i][7]+(word_embedding_moving_average,))
+												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
 								if word in rhyme_set_curr:
@@ -855,7 +859,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												(sentences[i][6][0],word),
-												sentences[i][7]+(word_embedding_moving_average,))
+												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
@@ -865,7 +869,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												sentences[i][7]+(word_embedding_moving_average,))
+												word_embedding_moving_average)
 									quasi_finished_sentences.append(word_tuple)
 		output.put((new_sentences, quasi_finished_sentences))
 		#return new_sentences, quasi_finished_sentences
