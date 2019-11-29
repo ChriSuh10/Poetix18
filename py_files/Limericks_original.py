@@ -263,7 +263,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
 			if len(candidates)>0: text=random.choice(candidates)
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,""),[0]))
+			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,""),(0,)))
 
 		# Print out all 3\4 rhymes
 		'''
@@ -710,7 +710,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
-		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4],i[5]+[0]) for i in previous_data_temp]
+		previous_data=[(i[0],i[1],i[2]+("\n",),i[3]+("\n",),i[4],i[5]+(0,)) for i in previous_data_temp]
 		return previous_data
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
@@ -816,7 +816,8 @@ class Limerick_Generate_new(Limerick_Generate):
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-					sentences[i][7][-1] = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
+					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
+					tuple_of_wema=tuple([m for m in sentences[i][7][:-1]])+(word_embedding_moving_average,)
 					if continue_flag:
 						word_list_against_duplication.append(word)
 						for continue_sub_flag in continue_flag:
