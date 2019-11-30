@@ -776,7 +776,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
-				if debug:if word=="rebel":pdb.set_trace()
+				if debug and word=="rebel":pdb.set_trace()
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
 					break
 				if word in word_list_against_duplication:
@@ -815,7 +815,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-					if debug:if word=="rebel":pdb.set_trace()
+					if debug and word=="rebel":pdb.set_trace()
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
