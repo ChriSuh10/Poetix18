@@ -80,9 +80,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		# 	for j in self.pos_to_words[k]:
 		# 		self.special_words.add(j.upper())
 		with open("py_files/saved_objects/third_fourth.pickle","rb") as pickle_in:
-			34_list=pickle.load(pickle_in)
+			list_34=pickle.load(pickle_in)
 		self.map_34=defaultdict(list)
-		for i in 34_list:
+		for i in list_34:
 			temp_list=[]
 			for kk,k in enumerate(i.keys()):
 				temp_list.append(i[k][0][0])
