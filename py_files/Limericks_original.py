@@ -697,7 +697,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			#new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
-					quasi_finished_sentences, diversity=self.diversity_sort(search_space,retain_space,quasi_finished_sentences, finished=False)
+					quasi_finished_sentences, diversity=self.diversity_sort(search_space,retain_space,quasi_finished_sentences, finished=True)
 					context_token=[s[0] for s in quasi_finished_sentences]
 					m=len(context_token)
 					context_token=np.array(context_token).reshape(m,-1)
