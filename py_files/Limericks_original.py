@@ -680,9 +680,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
 			'''
-			debug=False
-			if iteration==5 and which_line=="third": debug=True
-			new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences,debug=debug)
+			#new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					context_token=[s[0] for s in quasi_finished_sentences]
@@ -708,9 +706,6 @@ class Limerick_Generate_new(Limerick_Generate):
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
-			if iteration==4 and which_line=="third":
-				sentences=[sentences[0]]
-				pdb.set_trace()
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
@@ -731,7 +726,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				pickle.dump(mydict,pickle_in)
 			return ret
 
-	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True,debug=False):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True):
 		'''
 		Batch process the new possible word of a group of incomplete sentences.
 
@@ -779,7 +774,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
-				if debug and word=="rebel":pdb.set_trace()
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
 					break
 				if word in word_list_against_duplication:
@@ -818,7 +812,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
-					if debug and word=="rebel":pdb.set_trace()
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
