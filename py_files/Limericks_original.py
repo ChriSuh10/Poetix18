@@ -280,7 +280,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
-			pdb.set_trace()
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
 		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
@@ -707,7 +706,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
-
+			if iteration==4 and which_line=="third":pdb.set_trace()
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
@@ -838,7 +837,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][4]+(continue_sub_flag[0],),
 												sentences[i][5]+continue_sub_flag[1],
 												sentences[i][6],
-												sentences[i][7])
+												tuple_of_wema)
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
@@ -850,7 +849,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												sentences[i][7])
+												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
 								if word in rhyme_set_curr:
@@ -860,7 +859,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												(sentences[i][6][0],word),
-												sentences[i][7])
+												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
@@ -870,7 +869,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												sentences[i][7])
+												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
 		output.put((new_sentences, quasi_finished_sentences))
 		#return new_sentences, quasi_finished_sentences
