@@ -797,6 +797,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
+				third_line_template = tuple("*".join(sentences[i][3]).split("\n")[-2].split("*"))[1:-1]
+				possible=self.map_34[third_line_template]
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
