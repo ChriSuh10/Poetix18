@@ -680,6 +680,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
 			'''
+			debug=False
 			if iteration==5 and which_line=="third": debug=True
 			new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences,debug=debug)
 			if self.punctuation[which_line]:
