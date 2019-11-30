@@ -85,7 +85,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		for i in list_34:
 			temp_list=[]
 			for kk,k in enumerate(i.keys()):
-				temp_list.append(i[k][0][0])
+				temp_list.append(i[k].values([0][0]))
 			self.map_34[temp_list[0]].append(temp_list[1])
 
 		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
