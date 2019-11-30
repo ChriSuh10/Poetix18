@@ -457,6 +457,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 
 		end_flag=set()
+		'''
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
 				for pos in pos_set:
@@ -464,6 +465,14 @@ class Limerick_Generate_new(Limerick_Generate):
 						for sylls in sylls_set:
 							if num_sylls_curr+sylls==num_sylls:
 								end_flag.add((pos,sylls))
+		'''
+		# this version, does not check last word pos.
+		for t in possible:
+			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
+				for pos in pos_set:
+					for sylls in sylls_set:
+						if num_sylls_curr+sylls==num_sylls:
+							end_flag.add((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
