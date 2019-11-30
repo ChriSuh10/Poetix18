@@ -661,7 +661,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			
+			'''
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
@@ -679,8 +679,9 @@ class Limerick_Generate_new(Limerick_Generate):
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
-			
-			#new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
+			'''
+			if iteration==5 and which_line=="third": debug=True
+			new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences,debug=debug)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					context_token=[s[0] for s in quasi_finished_sentences]
@@ -727,7 +728,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				pickle.dump(mydict,pickle_in)
 			return ret
 
-	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True,debug=False):
 		'''
 		Batch process the new possible word of a group of incomplete sentences.
 
@@ -773,11 +774,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			# because they are usually one sentence
 
 			for ii,index in enumerate(sorted_index):
-				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
-					break
-
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
+				if debug:if word=="rebel":pdb.set_trace()
+				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
+					break
 				if word in word_list_against_duplication:
 					continue
 				elif len(word)==0:
@@ -814,6 +815,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 					# end_flag is the (POS, Sylls) of word if word can be the last_word for a template, False if not
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
+					if debug:if word=="rebel":pdb.set_trace()
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
@@ -871,5 +873,5 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
-		output.put((new_sentences, quasi_finished_sentences))
-		#return new_sentences, quasi_finished_sentences
+		#output.put((new_sentences, quasi_finished_sentences))
+		return new_sentences, quasi_finished_sentences
