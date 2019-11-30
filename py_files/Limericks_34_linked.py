@@ -62,7 +62,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open("py_files/saved_objects/dist.male.first.txt", "r") as hf:
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		# punctuations
-		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
+		self.punctuation={"second":True,"third":False,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
 		self.enforce_stress = False
 
@@ -719,6 +719,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			#new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
+					quasi_finished_sentences, diversity=self.diversity_sort(search_space,retain_space,quasi_finished_sentences, finished=True)
 					context_token=[s[0] for s in quasi_finished_sentences]
 					m=len(context_token)
 					context_token=np.array(context_token).reshape(m,-1)
