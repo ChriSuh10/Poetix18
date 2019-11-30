@@ -715,6 +715,7 @@ class Limerick_Generate_new(Limerick_Generate):
 					finished_sentences.append(q)
 			print("\n ========================= iteration {} ends =============================".format(iteration))
 			sentences, diversity=self.diversity_sort(search_space,retain_space,new_sentences, finished=False)
+			if iteration==5 and which_line==fifth: pdb.set_trace()
 			print("{} sentences before diversity_sort, {} sentences afterwards, diversity {}, this iteration has {} quasi_finished_sentences,  now {} finished_sentences \n".format(len(new_sentences),len(sentences), diversity, len(quasi_finished_sentences),len(finished_sentences)))
 		assert len(sentences)==0, "something wrong"
 		previous_data_temp, _=self.diversity_sort(search_space,retain_space,finished_sentences, finished=True)
