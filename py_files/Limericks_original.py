@@ -282,7 +282,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
+		f1= open(saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
 
@@ -474,10 +474,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		# this version, does not check last word pos.
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				for pos in pos_set:
-					for sylls in sylls_set:
-						if num_sylls_curr+sylls==num_sylls:
-							end_flag.add((pos,sylls))
+				for sylls in sylls_set:
+					if num_sylls_curr+sylls==num_sylls:
+						pos=t[len(template_curr)]
+						end_flag.add((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
