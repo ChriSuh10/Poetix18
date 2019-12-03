@@ -17,7 +17,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 	mode_list=[0,1,2,3,4,5,6,7,8,9,10,11]
 	diversity_list=[True,False]
 	if saved_directory not in os.listdir(os.getcwd()):
-			os.mkdir(saved_directory)
+		os.mkdir(saved_directory)
 	f1_path=saved_directory+"/"+"success.txt"
 	f2_path=saved_directory+"/"+"failure.txt"
 	for search_space, retain_space in space_list:
