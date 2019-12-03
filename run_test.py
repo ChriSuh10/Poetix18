@@ -38,7 +38,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 								f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
 							except:
 								f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
-								break
+								continue
 
 				else:
 					diversity=False
@@ -52,9 +52,9 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 							lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, 
 									retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity,f_final=f_final, counter=counter)
 							counter+=1
-							f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
+							f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+"original"+"\n")
 						except:
-							f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
-							break
+							f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+"original"+"\n")
+							continue
 if __name__ == '__main__':
     fire.Fire(run_test)
