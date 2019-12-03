@@ -236,10 +236,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		print("=================== Finished Initializing ==================================")
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = word_embedding_coefficient
-		self.n_w25_threshold=10
-		print("===============================   helper       ==============================================")
-		self.helper(prompt)
-		print("===============================   end helper       ==============================================")
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		# get rid of common words
 		if "was" in self.madlib_verbs["VBD"]:

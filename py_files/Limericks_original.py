@@ -129,26 +129,17 @@ class Limerick_Generate_new(Limerick_Generate):
 				self.pos_sylls_mode[i]=[(len(self.dict_meters[i.lower()][0]),1.0)]
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
-	def helper(self,prompt_specific):
+	def helper(self,prompt):
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
 			mydict=pickle.load(pickle_in)
-		print(mydict.keys())
-		prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
-		prompt_list=prompt_list.split(", ")
-		prompt_list=[t for t in prompt_list if t not in mydict.keys()]
-		#mydict={}
-		#prompt_list=temp
-		for prompt in prompt_list:
-			try:
-				w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
-				w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
-				mydict[prompt]=w3s_rhyme_dict
-				print("success processing {}".format(prompt))
-			except:
-				print("failure processing {}".format(prompt))
-		self.w3s_rhyme_dict=mydict[prompt_specific]
+		if prompt not in mydict.keys():
+			w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
+			w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+			mydict[prompt]=w3s_rhyme_dict
+		self.w3s_rhyme_dict=mydict[prompt]
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
+	'''
 	def printing(self,data, f, f_final):
 		with open(f_final+"_"+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
@@ -213,8 +204,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		data_curr["adjusted_score"]=data_curr_adjusted_score
 		with open(f_final+"_"+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
-
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True, f_final=None):
+	'''
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.

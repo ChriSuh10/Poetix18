@@ -91,18 +91,18 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	if saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(saved_directory)
 	result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
-	try:
-		previous_data, template_to_line=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
-			word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity, f_final=f_final)
-		with open(result_file_path+".pickle","wb") as f3:
-			pickle.dump(previous_data,f3)
-		with open(result_file_path+".txt","a+") as f:
-			printing(previous_data,f, f_final, word_embedding_coefficient, template_to_line)
-		with open(f1_path,"a+") as f1:
-			f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
+	previous_data, template_to_line=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
+		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
+	with open(result_file_path+".pickle","wb") as f3:
+		pickle.dump(previous_data,f3)
+	with open(result_file_path+".txt","a+") as f:
+		printing(previous_data,f, f_final, word_embedding_coefficient, template_to_line)
+	with open(f1_path,"a+") as f1:
+		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
+	'''
 	except:
 		with open(f2_path,"a+") as f2:
 			f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
-
+	'''
 if __name__ == '__main__':
     fire.Fire(limericks_generation_gpt)
