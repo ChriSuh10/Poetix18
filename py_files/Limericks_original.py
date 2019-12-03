@@ -149,8 +149,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.w3s_rhyme_dict=mydict[prompt_specific]
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
-	def printing(self,data, f, f_final,counter):
-		with open(f_final+"_"+str(counter)+".pickle","rb") as pickle_in:
+	def printing(self,data, f, f_final):
+		with open(f_final+"_"+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
 		data_curr_score=[]
 		data_curr_adjusted_score=[]
@@ -211,10 +211,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		data_curr={}
 		data_curr["score"]=data_curr_score
 		data_curr["adjusted_score"]=data_curr_adjusted_score
-		with open(f_final+"_"+str(counter+1)+".pickle","wb") as pickle_in:
+		with open(f_final+"_"+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True, f_final=None, counter=None):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True, f_final=None):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -271,6 +271,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
 		#self.saved_directory="limericks_experiment_TB_CLS"
+		'''
 		if self.saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(self.saved_directory)
 		if self.mode=="multi":
@@ -278,7 +279,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		else:
 			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
 		f = open(result_file_path+".txt","a+")
-
+		'''
 		previous_data=[]
 		# Append all first lines
 		for rhyme in self.w1s_rhyme_dict.keys():
@@ -314,7 +315,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		f1.close()
 
 		# Print out generated poems
-		self.printing(previous_data,f, f_final, counter)
+		return previous_data, self.template_to_line
+		#self.printing(previous_data,f, f_final)
 
 	def encodes_align(self,previous_data):
 		"""
