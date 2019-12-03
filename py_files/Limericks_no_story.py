@@ -587,7 +587,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				pickle.dump(mydict,pickle_in)
 			return ret
 
-	def batch_process_word(self, which_line, possible, num_sylls, logits, s, output=None, madlib_flag=True):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True):
 		'''
 		Batch process the new possible word of a group of incomplete sentences.
 
