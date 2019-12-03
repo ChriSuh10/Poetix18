@@ -27,7 +27,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 						f_final=saved_directory +"/"+"results"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"
 						counter=0
 						data_curr={"score":[],"adjusted_score":[]}
-						with open(f_final+"_"+str(counter)+".pickle",wb) as pickle_in:
+						with open(f_final+"_"+str(counter)+".pickle","wb") as pickle_in:
 							pickle.dump(data_curr,pickle_in)
 						for prompt in prompt_list:
 							try:
@@ -44,7 +44,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 					f_final=saved_directory +"/"+"results"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+"original"
 					counter=0
 					data_curr={"score":[],"adjusted_score":[]}
-					with open(f_final+"_"+str(counter)+".pickle",wb) as pickle_in:
+					with open(f_final+"_"+str(counter)+".pickle","wb") as pickle_in:
 						pickle.dump(data_curr,pickle_in)
 					for prompt in prompt_list:
 						try:

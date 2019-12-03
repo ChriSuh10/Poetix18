@@ -150,7 +150,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
 	def printing(self,data, f, f_final,counter):
-		with open(f_final+"_"+str(counter)+".pickle",rb) as pickle_in:
+		with open(f_final+"_"+str(counter)+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
 		data_curr_score=[]
 		data_curr_adjusted_score=[]
@@ -211,7 +211,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		data_curr={}
 		data_curr["score"]=data_curr_score
 		data_curr["adjusted_score"]=data_curr_adjusted_score
-		with open(f_final+"_"+str(counter+1)+".pickle",wb) as pickle_in:
+		with open(f_final+"_"+str(counter+1)+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
 
 	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=True, prob_threshold=-10, mode="multi", relax_story_line=False, diversity=True, f_final=None, counter=None):
