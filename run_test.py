@@ -16,8 +16,8 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 	diversity_list=[True,False]
 	if saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(saved_directory)
-	f1=open(saved_directory+"/"+"success.txt",a+)
-	f2=open(saved_directory+"/"+"failure.txt",a+)
+	f1=open(saved_directory+"/"+"success.txt","a+")
+	f2=open(saved_directory+"/"+"failure.txt","a+")
 	for search_space, retain_space in space_list:
 		for word_embedding_coefficient in word_embedding_coefficient_list:
 			for mode in mode_list:
