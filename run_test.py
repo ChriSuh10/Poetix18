@@ -2,6 +2,7 @@ import tensorflow as tf
 import nltk
 import fire
 import pdb
+import os
 def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", saved_directory="final_testing"):
 	if type=="original":
 		from py_files.Limericks_original import Limerick_Generate_new
