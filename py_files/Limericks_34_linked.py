@@ -64,7 +64,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations
 		self.punctuation={"second":True,"third":False,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
-		self.enforce_stress = True
+		self.enforce_stress = False
 
 		# word embedding coefficients
 
@@ -79,6 +79,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		# for k in special_pos:
 		# 	for j in self.pos_to_words[k]:
 		# 		self.special_words.add(j.upper())
+
+		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+			data=pickle.load(pickle_in)
 		with open("py_files/saved_objects/third_fourth.pickle","rb") as pickle_in:
 			list_34=pickle.load(pickle_in)
 		self.map_34=defaultdict(list)
@@ -86,14 +89,16 @@ class Limerick_Generate_new(Limerick_Generate):
 			temp_list=[]
 			for k in i.keys():
 				for kk in i[k].keys():
-					temp_list.append(i[k][kk][0][0])
+					for j in i[k][kk]:
+						temp_j=[]
+						if len(j[1])!=len(j[0]): continue
+						for w in range(len(j[1])):
+							if j[1][w].upper() in self.special_words:
+								temp_j.append(j[1][w].upper())
+							else:
+								temp_j.append(j[0][w])
+						temp_list.append(tuple(temp_j))
 			self.map_34[temp_list[0]].append(temp_list[1])
-
-		with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
-			data=pickle.load(pickle_in)
-		#with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
-			#data=pickle.load(pickle_in)
-			#data=data[5]
 		temp_data={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
@@ -291,7 +296,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		f1= open(saved_directory + prompt+"_" + str(search_space)+"_"+str(retain_space)+".pickle","wb")
+		f1= open(saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
 
@@ -484,7 +489,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 
 		end_flag=set()
-		'''
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
 				for pos in pos_set:
@@ -492,14 +496,15 @@ class Limerick_Generate_new(Limerick_Generate):
 						for sylls in sylls_set:
 							if num_sylls_curr+sylls==num_sylls:
 								end_flag.add((pos,sylls))
-		'''
 		# this version, does not check last word pos.
+		'''
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				for pos in pos_set:
-					for sylls in sylls_set:
-						if num_sylls_curr+sylls==num_sylls:
-							end_flag.add((pos,sylls))
+				for sylls in sylls_set:
+					if num_sylls_curr+sylls==num_sylls:
+						pos=t[len(template_curr)]
+						end_flag.add((pos,sylls))
+		'''
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
