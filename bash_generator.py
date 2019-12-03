@@ -1,12 +1,12 @@
 def bash_generator():
-	type="no_story"
-	saved_directory="final_testing_no_story"
+	type="original"
+	saved_directory="final_testing_no_diversity"
 	search_space=100
 	retain_space=3
 	word_embedding_coefficient=0.1
 	mode="multi"
-	diversity=True
-	cuda=2
+	diversity=False
+	cuda=1
 	prompt_list="blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 	prompt_list=prompt_list.split(", ")
 	with open("run_Limericks"+"_"+str(cuda)+".sh","w") as f:

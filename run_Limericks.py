@@ -6,7 +6,8 @@ import os
 import pickle
 import numpy as np
 from collections import defaultdict
-def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
+import heapq
+def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line):
 	try:
 		with open(f_final+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
@@ -14,6 +15,13 @@ def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
 		with open(f_final+".pickle","wb") as pickle_in:
 			data_old={"score":[],"adjusted_score":[]}
 			pickle.dump(data_old,pickle_in)
+	try:
+		with open(f_final_best+".pickle","rb") as pickle_in:
+			data_old_best=pickle.load(pickle_in)
+	except:
+		with open(f_final_best+".pickle","wb") as pickle_in:
+			data_old_best={"score":[],"adjusted_score":[]}
+			pickle.dump(data_old_best,pickle_in)
 	data_curr_score=[]
 	data_curr_adjusted_score=[]
 	temp_data=defaultdict(list)
@@ -66,6 +74,13 @@ def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
 				count_w+=ww+2
 				f.write(" line score is : {:04.03f}, look ahead score is : {:04.03f}".format(np.mean(temp_list),j[5][s]))
 				f.write("\n")
+	data_old_best_score=data_old_best["score"]
+	data_old_best_adjusted_score=data_old_best["adjusted_score"]
+	data_curr_best_score=heapq.nlargest(min(len(data_curr_score),5), data_curr_score, key=lambda x: x)
+	data_curr_best_adjusted_score=heapq.nlargest(min(len(data_curr_adjusted_score),5), data_curr_score, key=lambda x: x)
+	data_curr_best_score+=data_old_best_score
+	data_curr_best_adjusted_score+=data_old_best_adjusted_score
+	data_curr_best={"score":data_curr_best_score,"adjusted_score":data_curr_best_adjusted_score}
 	data_old_score=data_old["score"]
 	data_old_adjusted_score=data_old["adjusted_score"]
 	data_curr_score+=data_old_score
@@ -75,6 +90,8 @@ def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
 	data_curr["adjusted_score"]=data_curr_adjusted_score
 	with open(f_final+".pickle","wb") as pickle_in:
 		pickle.dump(data_curr,pickle_in)
+	with open(f_final_best+".pickle","wb") as pickle_in:
+		pickle.dump(data_curr_best,pickle_in)
 def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type="original", saved_directory="final_testing", 
 	prompt="blood",search_space=100, retain_space=3, word_embedding_coefficient=0.1, 
 	mode="multi", diversity=True,cuda=3):
@@ -86,7 +103,8 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 		from py_files.Limericks_no_story import Limerick_Generate_new
 	lg = Limerick_Generate_new()
 	saved_directory=saved_directory+str(cuda)
-	f_final=saved_directory +"/"+"results"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
+	f_final=saved_directory +"/"+"results "+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
+	f_final_best=saved_directory +"/"+"best_results "+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	f1_path=saved_directory+"/"+"success.txt"
 	f2_path=saved_directory+"/"+"failure.txt"
 	if saved_directory not in os.listdir(os.getcwd()):
@@ -99,7 +117,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
 		pickle.dump(template_to_line,f4)
 	with open(result_file_path+".txt","a+") as f:
-		printing(previous_data,f, f_final, word_embedding_coefficient, template_to_line)
+		printing(previous_data,f, f_final, f_final_best,word_embedding_coefficient, template_to_line)
 	with open(f1_path,"a+") as f1:
 		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 	'''
