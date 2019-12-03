@@ -529,7 +529,14 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			
+			rhyme_word_set=set()
+			for sent in sentences:
+				if which_line=="fifth":rhyme_word_set.add(sent[6][0])
+				if which_line=="fourth":rhyme_word_set.add(sent[6][1])
+			for rhyme_word in rhyme_word_set:
+				if rhyme_word not in self.rhyming_dict.keys():
+					rhyming_dict[rhyme_word]=self.get_rhyming_words_one_step_henry(word=rhyme_word)
+
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
@@ -627,15 +634,12 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_sylls_curr=sentences[i][5]
 			moving_avg_curr=sentences[i][7][-1]
 			rhyme_set_curr = set()
-			if which_line=="second" or which_line=="fifth":
-				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+			if which_line=="fifth":
 				rhyme_word=sentences[i][6][0]
-			if which_line=="third":
-				rhyme_set_curr = self.w3s_rhyme_dict.keys()
-				rhyme_word="third_line_special_case"
+				rhyme_set_curr=self.rhyming_dict[rhyme_word]
 			if which_line=="fourth":
-				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
+				rhyme_set_curr=self.rhyming_dict[rhyme_word]
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
@@ -708,7 +712,25 @@ class Limerick_Generate_new(Limerick_Generate):
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
-							if which_line=="second" or which_line=="fifth":
+							if which_line=="second"
+								word_list_against_duplication.append(word)
+								word_tuple=(sentences[i][0] + (index,),
+											sentences[i][1] + (np.log(j[index]),),
+											sentences[i][2]+(word,),
+											sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
+											(word,""),
+											tuple_of_wema)
+								quasi_finished_sentences.append(word_tuple)
+							if which_line=="third":
+								word_list_against_duplication.append(word)
+								word_tuple=(sentences[i][0] + (index,),
+											sentences[i][1] + (np.log(j[index]),),
+											sentences[i][2]+(word,),
+											sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
+											(sentences[i][6][0],word),
+											tuple_of_wema)
+								quasi_finished_sentences.append(word_tuple)
+							if which_line=="fourth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
 									word_tuple=(sentences[i][0] + (index,),
@@ -718,17 +740,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
-							if which_line=="third":
-								if word in rhyme_set_curr:
-									word_list_against_duplication.append(word)
-									word_tuple=(sentences[i][0] + (index,),
-												sentences[i][1] + (np.log(j[index]),),
-												sentences[i][2]+(word,),
-												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
-												(sentences[i][6][0],word),
-												tuple_of_wema)
-									quasi_finished_sentences.append(word_tuple)
-							if which_line=="fourth":
+							if which_line=="fifth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
 									word_tuple=(sentences[i][0] + (index,),

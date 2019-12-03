@@ -9,7 +9,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 		from py_files.Limericks_original import Limerick_Generate_new
 	if type=="34linked":
 		from py_files.Limericks_34_linked import Limerick_Generate_new
-	prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
+	prompt_list="blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 	prompt_list=prompt_list.split(", ")
 	word_embedding_coefficient_list=[0.1]
 	space_list=[(100,3)]
