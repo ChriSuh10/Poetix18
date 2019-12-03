@@ -696,7 +696,7 @@ class Limerick_Generate_new(Limerick_Generate):
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
-							if which_line=="second"
+							if which_line=="second"：
 								word_list_against_duplication.append(word)
 								word_tuple=(sentences[i][0] + (index,),
 											sentences[i][1] + (np.log(j[index]),),
