@@ -55,4 +55,4 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 							f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
 							continue
 if __name__ == '__main__':
-    fire.Fire(limericks_generation_gpt)
+    fire.Fire(run_test)
