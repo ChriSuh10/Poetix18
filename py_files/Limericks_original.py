@@ -310,10 +310,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		f1= open(result_file_path+".pickle","wb")
-		pickle.dump(previous_data,f1)
-		f1.close()
-
 		# Print out generated poems
 		return previous_data, self.template_to_line
 		#self.printing(previous_data,f, f_final)
