@@ -520,7 +520,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				if which_line=="fourth":rhyme_word_set.add(sent[6][1])
 			for rhyme_word in rhyme_word_set:
 				if rhyme_word not in self.rhyming_dict.keys():
-					rhyming_dict[rhyme_word]=self.get_rhyming_words_one_step_henry(word=rhyme_word)
+					self.rhyming_dict[rhyme_word]=self.get_rhyming_words_one_step_henry(word=rhyme_word)
 			
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
