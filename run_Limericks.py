@@ -89,7 +89,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	try:
 		previous_data, template_to_line=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
 			word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity, f_final=f_final)
-		with open(result_file_path+".pickle","wb") as f3
+		with open(result_file_path+".pickle","wb") as f3:
 			pickle.dump(previous_data,f3)
 		with open(result_file_path+".txt","a+") as f:
 			printing(previous_data,f, f_final, word_embedding_coefficient, template_to_line)
