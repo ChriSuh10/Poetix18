@@ -14,7 +14,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 	prompt_list=prompt_list.split(", ")
 	word_embedding_coefficient_list=[0.1]
 	space_list=[(100,3)]
-	mode_list=["multi",5]
+	mode_list=[5]
 	diversity_list=[True,False]
 	if saved_directory not in os.listdir(os.getcwd()):
 		os.mkdir(saved_directory)
