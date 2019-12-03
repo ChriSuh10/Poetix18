@@ -833,13 +833,15 @@ class Limerick_Generate_new(Limerick_Generate):
 					# If stress is incorrect, continue
 					if self.enforce_stress:
 						word_length = min(sylls_set)
+						possible_syllables = self.dict_meters[word]
+
 						stress = [1, 4] if (which_line == "third" or which_line == "fourth") else [1, 4, 7]
 						correct_stress = True
 						# There is a stress on current word
 						for stress_position in stress:
 							if num_sylls_curr <= stress_position and num_sylls_curr + word_length > stress_position:
 								stress_syllable_pos = stress_position - num_sylls_curr
-								if all(s[stress_syllable_pos] != '1' for s in sylls_set):
+								if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
 									correct_stress = False
 								break
 						if not correct_stress:
