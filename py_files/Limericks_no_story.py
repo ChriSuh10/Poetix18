@@ -242,11 +242,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		if "was" in self.madlib_verbs["VBD"]:
 			self.madlib_verbs["VBD"].remove("was")
 			print("remove was \n")
-		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
-		print("------- Madlib Verbs ------")
-		print(self.madlib_verbs)
-		female_name_list, male_name_list=self.load_name_list()
-
 		previous_data=[]
 		text=["there","once","was","a", "nice","lady","named","Freya"]
 		first_line_encodes = self.enc.encode(" ".join(text))
@@ -522,7 +517,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			for rhyme_word in rhyme_word_set:
 				if rhyme_word not in self.rhyming_dict.keys():
 					rhyming_dict[rhyme_word]=self.get_rhyming_words_one_step_henry(word=rhyme_word)
-
+			'''
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
@@ -540,8 +535,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
-			
-			#new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
+			'''
+			new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					quasi_finished_sentences, diversity=self.diversity_sort(search_space,retain_space,quasi_finished_sentences, finished=True)
@@ -607,9 +602,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		sentences: list
 			List of sentences that we currently are generating.
 		'''
-
 		new_sentences = []
 		quasi_finished_sentences = []
+		pdb.set_trace()
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
@@ -618,7 +613,6 @@ class Limerick_Generate_new(Limerick_Generate):
 			#template is all the POS of the developing poem, with lines separated by "\n".
 			template_curr=sentences[i][4]
 			num_sylls_curr=sentences[i][5]
-			moving_avg_curr=sentences[i][7][-1]
 			rhyme_set_curr = set()
 			if which_line=="fifth":
 				rhyme_word=sentences[i][6][0]
@@ -629,7 +623,6 @@ class Limerick_Generate_new(Limerick_Generate):
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
-
 			for ii,index in enumerate(sorted_index):
 				# Get current line's template, word embedding average, word, rhyme set, etc.
 				word = self.enc.decode([index]).lower().strip()
@@ -734,5 +727,5 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												sentences[i][7])
 									quasi_finished_sentences.append(word_tuple)
-		output.put((new_sentences, quasi_finished_sentences))
-		#return new_sentences, quasi_finished_sentences
+		#output.put((new_sentences, quasi_finished_sentences))
+		return new_sentences, quasi_finished_sentences
