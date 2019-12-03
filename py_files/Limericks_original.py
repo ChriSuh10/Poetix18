@@ -274,7 +274,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		#self.saved_directory="limericks_experiment_TB_CLS"
 		if self.saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(self.saved_directory)
-		if self.mode="multi":
+		if self.mode=="multi":
 			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+self.mode+"_"+str(diversity)+"_"+"original"
 		else:
 			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
