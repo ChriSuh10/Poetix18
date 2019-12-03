@@ -95,6 +95,8 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
 	with open(result_file_path+".pickle","wb") as f3:
 		pickle.dump(previous_data,f3)
+	with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
+		pickle.dump(template_to_line,f4)
 	with open(result_file_path+".txt","a+") as f:
 		printing(previous_data,f, f_final, word_embedding_coefficient, template_to_line)
 	with open(f1_path,"a+") as f1:
