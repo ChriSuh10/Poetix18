@@ -36,9 +36,11 @@ class Limerick_Generate_new(Limerick_Generate):
             syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
             postag_file='py_files/saved_objects/postag_dict_all.p',
             model_dir='gpt2/models/345M',
-            model_name='345M'):
+            model_name='345M',
+            saved_directory=None):
 		print("=================== Initializing ==================================")
 		super(Limerick_Generate_new,self).__init__()
+		self.saved_directory=saved_directory
 		self.api_url='https://api.datamuse.com/words'
 		self.model_dir = model_dir
 		self.model_name = model_name
@@ -64,12 +66,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
-		self.enforce_stress = True
 
 		# word embedding coefficients
 
-		self.finer_pos_category()
-		print("=================== Finished Initializing ==================================")
 
 
 	def finer_pos_category(self):
@@ -79,12 +78,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		# for k in special_pos:
 		# 	for j in self.pos_to_words[k]:
 		# 		self.special_words.add(j.upper())
-
-		#with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
-			#data=pickle.load(pickle_in)
-		with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
-			data=pickle.load(pickle_in)
-			data=data[5]
+		if self.mode=="multi":
+			with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+				data=pickle.load(pickle_in)
+		else:
+			with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
+				data=pickle.load(pickle_in)
+				data=data[mode]
 		temp_data={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
@@ -149,7 +149,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.w3s_rhyme_dict=mydict[prompt_specific]
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
-	def printing(self,data, f):
+	def printing(self,data, f, f_final,counter):
+		with open(f_final+"_"+str(counter)+".pickle",rb) as pickle_in:
+			data_old=pickle.load(pickle_in)
+		data_curr_score=[]
+		data_curr_adjusted_score=[]
 		temp_data=defaultdict(list)
 		for line in data:
 			temp_data[" ".join(line[3])].append(line)
@@ -182,7 +186,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			f.write("----------------------- original sentences ------------------------------------ \n")
 			f.write(" ".join(lines))
 			for j in temp_data[k]:
-				f.write("------------------------- score:  {}----------------------- \n".format(np.mean(j[1])+self.word_embedding_coefficient*np.mean(j[5])))
+				adjusted_score=np.mean(j[1])+self.word_embedding_coefficient*np.mean(j[5])
+				score=np.mean(j[1])
+				data_curr_score.append(score)
+				data_curr_adjusted_score.append(adjusted_score)
+				f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
 				f.write(" ".join(j[2]))
 				f.write("------------------------- score breakdown ------------------------ \n")
 				count_w=j[2].index("\n")+1
@@ -196,8 +204,17 @@ class Limerick_Generate_new(Limerick_Generate):
 					count_w+=ww+2
 					f.write(" line score is : {:04.03f}, look ahead score is : {:04.03f}".format(np.mean(temp_list),j[5][s]))
 					f.write("\n")
+		data_old_score=data_old["score"]
+		data_old_adjusted_score=data_old["adjusted_score"]
+		data_curr_score+=data_old_score
+		data_curr_adjusted_score+=data_old_adjusted_score
+		data_curr={}
+		data_curr["score"]=data_curr_score
+		data_curr["adjusted_score"]=data_curr_adjusted_score
+		with open(f_final+"_"+str(counter+1)+".pickle",wb) as pickle_in:
+			pickle.dump(data_curr,pickle_in)
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=None):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=True, prob_threshold=-10, mode="multi", relax_story_line=False, diversity=True, f_final=None, counter=None):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -217,14 +234,22 @@ class Limerick_Generate_new(Limerick_Generate):
 			If the probability of a word is lower than this threshold we will not consider
 			this word. Set it to None to get rid of it.
 		"""
+		self.mode=mode
+		self.relax_story_line=relax_story_line
+		self.prob_threshold = prob_threshold
+		self.enforce_stress = stress
+		self.diversity=diversity
+		if self.mode!="multi":
+			self.relax_story_line=True
+			self.prob_threshold = None
+		self.finer_pos_category()
+		print("=================== Finished Initializing ==================================")
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = word_embedding_coefficient
 		self.n_w25_threshold=10
 		print("===============================   helper       ==============================================")
 		self.helper(prompt)
 		print("===============================   end helper       ==============================================")
-		self.enforce_stress = stress
-		self.prob_threshold = prob_threshold
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		# get rid of common words
 		if "was" in self.madlib_verbs["VBD"]:
@@ -246,11 +271,14 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		assert len(self.w1s_rhyme_dict.keys()) > 0, "no storyline available"
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
-		saved_directory="limericks_experiment_TB_CLS"
-		if saved_directory not in os.listdir(os.getcwd()):
-			os.mkdir(saved_directory)
-		result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".txt"
-		f = open(result_file_path,"a+")
+		#self.saved_directory="limericks_experiment_TB_CLS"
+		if self.saved_directory not in os.listdir(os.getcwd()):
+			os.mkdir(self.saved_directory)
+		if self.mode="multi":
+			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+self.mode+"_"+str(diversity)+"_"+"original"
+		else:
+			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
+		f = open(result_file_path+".txt","a+")
 
 		previous_data=[]
 		# Append all first lines
@@ -282,12 +310,12 @@ class Limerick_Generate_new(Limerick_Generate):
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		f1= open(saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+".pickle","wb")
+		f1= open(result_file_path+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
 
 		# Print out generated poems
-		self.printing(previous_data,f)
+		self.printing(previous_data,f, f_final, counter)
 
 	def encodes_align(self,previous_data):
 		"""
@@ -462,22 +490,23 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 
 		end_flag=set()
-		'''
-		for t in possible:
-			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				for pos in pos_set:
-					if pos==t[len(template_curr)]:
-						for sylls in sylls_set:
-							if num_sylls_curr+sylls==num_sylls:
-								end_flag.add((pos,sylls))
-		'''
+		if self.mode=="multi" and self.relax_story_line==False:
+			for t in possible:
+				if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
+					for pos in pos_set:
+						if pos==t[len(template_curr)]:
+							for sylls in sylls_set:
+								if num_sylls_curr+sylls==num_sylls:
+									end_flag.add((pos,sylls))
+		
 		# this version, does not check last word pos.
-		for t in possible:
-			if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
-				for sylls in sylls_set:
-					if num_sylls_curr+sylls==num_sylls:
-						pos=t[len(template_curr)]
-						end_flag.add((pos,sylls))
+		else:
+			for t in possible:
+				if t[:len(template_curr)]==template_curr and len(t)==len(template_curr)+1:
+					for sylls in sylls_set:
+						if num_sylls_curr+sylls==num_sylls:
+							pos=t[len(template_curr)]
+							end_flag.add((pos,sylls))
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
@@ -498,29 +527,36 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
-		temp_data=defaultdict(set)
-		# Key is "template; current_line_template". For each key we only keep retain_space sentences
-		for n in data:
+		if self.diversity:
+			temp_data=defaultdict(set)
+			# Key is "template; current_line_template". For each key we only keep retain_space sentences
+			for n in data:
+				if not finished:
+					key=n[3]+n[4]
+				else:
+					key=n[3] # because the curr is already merged.
+				temp_data[key].add(n)
+			data=[]
+			list_of_keys=list(temp_data.keys())
+			x=random.sample(list_of_keys, len(list_of_keys))
+			for k in x:
+				if not finished:
+					temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])
+					data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7][-1] for m in temp])))
+				else:
+					temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5][-1])
+					data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5][-1] for m in temp])))
+			data=heapq.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
+			data_new=[]
+			for k in data:
+				data_new+=k[0]
+			data=data_new
+		else:
 			if not finished:
-				key=n[3]+n[4]
+				data_new=heapq.nlargest(min(len(data),search_space*retain_space), data, key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])
 			else:
-				key=n[3] # because the curr is already merged.
-			temp_data[key].add(n)
-		data=[]
-		list_of_keys=list(temp_data.keys())
-		x=random.sample(list_of_keys, len(list_of_keys))
-		for k in x:
-			if not finished:
-				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])
-				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7][-1] for m in temp])))
-			else:
-				temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5][-1])
-				data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[5][-1] for m in temp])))
-		data=heapq.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
-		data_new=[]
-		for k in data:
-			data_new+=k[0]
-		data=data_new
+				data_new=heapq.nlargest(min(len(data),search_space*retain_space), data, key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5][-1])
+			return data_new, 0
 
 		return data_new, len(temp_data.keys())
 
