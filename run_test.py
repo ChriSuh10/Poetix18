@@ -38,7 +38,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 								f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
 							except:
 								f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
-								continue
+								break
 
 				else:
 					diversity=False
@@ -55,6 +55,6 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 							f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
 						except:
 							f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
-							continue
+							break
 if __name__ == '__main__':
     fire.Fire(run_test)
