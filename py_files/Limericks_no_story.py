@@ -194,7 +194,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open(f_final+"_"+str(counter+1)+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=True,diversity=True, f_final=None):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=True,diversity=True):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -216,7 +216,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		"""
 		self.mode=mode
 		self.relax_story_line=relax_story_line
-		if self.relax_story_line:
+		self.story_line=False
+		if not self.story_line:
 			try:
 				pickle_in=open("py_files/saved_objects/rhyming_dict_for_no_storyline.pickle","rb")
 				self.rhyming_dict=pickle.load(pickle_in)
