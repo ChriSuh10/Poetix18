@@ -330,7 +330,7 @@ class Limerick_Generate_new(Limerick_Generate):
             Format is [(POS, sylls)], a combination of possible POS
 			and number of syllables of the current word
 		"""
-		p=set()
+		continue_flag=set()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
