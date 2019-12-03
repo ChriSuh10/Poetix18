@@ -210,7 +210,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		'''
 		# Generate 2,3,4,5 lines of the poem
 
-		# because of the linking of line4 and line5, the templates for line 4 templates is gonna have to limited 
+		# because of the linking of line4 and line5, the templates for line 4 templates is gonna have to limited
 		possible_5=self.get_all_templates(9,"fifth",last_word_dict["fifth"])
 		possible_4=self.get_all_templates(9,"fourth",last_word_dict["fourth"])
 		temp_4=[]
@@ -673,7 +673,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("******************************** gpt2 Starts Processing Next Word **********************************")
 			logits = score_model(model_name=self.model_name, context_token = context_token)
 			print("******************************** gpt2 Finished Processing Next Word **********************************")
-			
+
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
@@ -687,11 +687,11 @@ class Limerick_Generate_new(Limerick_Generate):
 				p.join()
 			print("********************************** multiprocessing ends *****************************************************")
 			results = [output.get() for p in processes]
-			new_sentences, quasi_finished_sentences = [], []			
+			new_sentences, quasi_finished_sentences = [], []
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
-			
+
 			#new_sentences, quasi_finished_sentences= self.batch_process_word( which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
@@ -799,11 +799,11 @@ class Limerick_Generate_new(Limerick_Generate):
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
-			
+
 			if which_line == "fifth":
 				fourth_line_template = tuple("*".join(sentences[i][3]).split("\n")[-2].split("*"))[1:-1]
 				possible = self.limerick_last_two_line_mapping[fourth_line_template]
-			
+
 
 			for ii,index in enumerate(sorted_index):
 				if self.prob_threshold is not None and np.log(j[index]) < self.prob_threshold:
@@ -839,7 +839,7 @@ class Limerick_Generate_new(Limerick_Generate):
 						for stress_position in stress:
 							if num_sylls_curr <= stress_position and num_sylls_curr + word_length > stress_position:
 								stress_syllable_pos = stress_position - num_sylls_curr
-								if all(s[stress_syllable_pos] != '1' for s in possible_syllables):
+								if all(s[stress_syllable_pos] != '1' for s in sylls_set):
 									correct_stress = False
 								break
 						if not correct_stress:
