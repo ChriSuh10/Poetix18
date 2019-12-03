@@ -9,12 +9,11 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 		from py_files.Limericks_original import Limerick_Generate_new
 	if type=="34linked":
 		from py_files.Limericks_34_linked import Limerick_Generate_new
-	lg = Limerick_Generate_new(model_name=model_name,model_dir=model_dir, saved_directory=saved_directory)
 	prompt_list="hound, blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 	prompt_list=prompt_list.split(", ")
 	word_embedding_coefficient_list=[0.1]
 	space_list=[(100,3)]
-	mode_list=[5]
+	mode_list=['multi',5]
 	diversity_list=[True,False]
 	if saved_directory not in os.listdir(os.getcwd()):
 		os.mkdir(saved_directory)
@@ -32,6 +31,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 							pickle.dump(data_curr,pickle_in)
 						for prompt in prompt_list:
 							try:
+								lg = Limerick_Generate_new(model_name=model_name,model_dir=model_dir, saved_directory=saved_directory)
 								lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, 
 										retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity, f_final=f_final, counter=counter)
 								counter+=1
@@ -51,6 +51,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 						pickle.dump(data_curr,pickle_in)
 					for prompt in prompt_list:
 						try:
+							lg = Limerick_Generate_new(model_name=model_name,model_dir=model_dir, saved_directory=saved_directory)
 							lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, 
 									retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity,f_final=f_final, counter=counter)
 							counter+=1
