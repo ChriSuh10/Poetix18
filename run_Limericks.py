@@ -95,7 +95,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	#previous_data, template_to_line=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
 		#word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
 	with open(result_file_path+".pickle","rb") as f3:
-		previosu_data=pickle.load(f3)
+		previous_data=pickle.load(f3)
 	with open(result_file_path+"template_to_line"+".pickle","rb") as f4:
 		template_to_line=pickle.load(f4)
 	with open(result_file_path+".pickle","wb") as f3:
