@@ -64,7 +64,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations
 		self.punctuation={"second":True,"third":False,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
-		self.enforce_stress = False
+		self.enforce_stress = True
 
 		# word embedding coefficients
 
