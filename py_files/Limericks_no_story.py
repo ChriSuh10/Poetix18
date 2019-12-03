@@ -251,7 +251,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		#for which_line, num_sylls in zip(["third"],[6]):
 
 			print("======================= starting {} line generation =============================".format(which_line))
-			possible=self.templates[which_line]
+			dataset=self.templates[which_line]
+			possible=[]
+			for pos in dataset.keys():
+				for i,_,_ in dataset[pos]:
+					possible.append(i)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 		'''
 		f1= open(result_file_path+".pickle","wb")
@@ -326,7 +330,7 @@ class Limerick_Generate_new(Limerick_Generate):
             Format is [(POS, sylls)], a combination of possible POS
 			and number of syllables of the current word
 		"""
-		continue_flag=set()
+		p=set()
 		for t in possible:
 			if t[:len(template_curr)]==template_curr and len(t)>len(template_curr)+1:
 				for pos in pos_set:
@@ -517,7 +521,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			for rhyme_word in rhyme_word_set:
 				if rhyme_word not in self.rhyming_dict.keys():
 					rhyming_dict[rhyme_word]=self.get_rhyming_words_one_step_henry(word=rhyme_word)
-			'''
+			
 			logits_list= self.split_chunks(logits)
 			sentences_list=self.split_chunks(sentences)
 			manager = mp.Manager()
@@ -535,8 +539,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			for result in results:
 				new_sentences += result[0]
 				quasi_finished_sentences += result[1]
-			'''
-			new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
+			
+			#new_sentences, quasi_finished_sentences= self.batch_process_word(which_line, possible, num_sylls, logits, sentences)
 			if self.punctuation[which_line]:
 				if len(quasi_finished_sentences)>0:
 					quasi_finished_sentences, diversity=self.diversity_sort(search_space,retain_space,quasi_finished_sentences, finished=True)
@@ -583,7 +587,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				pickle.dump(mydict,pickle_in)
 			return ret
 
-	def batch_process_word(self, which_line, possible, num_sylls, logits, sentences, output=None, madlib_flag=True):
+	def batch_process_word(self, which_line, possible, num_sylls, logits, s, output=None, madlib_flag=True):
 		'''
 		Batch process the new possible word of a group of incomplete sentences.
 
@@ -604,7 +608,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		'''
 		new_sentences = []
 		quasi_finished_sentences = []
-		pdb.set_trace()
 		for i,j in enumerate(logits):
 			sorted_index=np.argsort(-1*j)
 			word_list_against_duplication=[]
@@ -727,5 +730,5 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][6],
 												sentences[i][7])
 									quasi_finished_sentences.append(word_tuple)
-		#output.put((new_sentences, quasi_finished_sentences))
-		return new_sentences, quasi_finished_sentences
+		output.put((new_sentences, quasi_finished_sentences))
+		#return new_sentences, quasi_finished_sentences
