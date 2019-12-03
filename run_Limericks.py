@@ -8,6 +8,6 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',sear
 	if type=="34linked":
 		from py_files.Limericks_34_linked import Limerick_Generate_new
 	lg = Limerick_Generate_new()
-	lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, prob_threshold=prob_threshold, word_embedding_coefficient=embedding)
+	lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity, f_final=f_final, counter=counter)
 if __name__ == '__main__':
     fire.Fire(limericks_generation_gpt)
