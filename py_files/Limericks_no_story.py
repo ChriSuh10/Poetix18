@@ -194,7 +194,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open(f_final+"_"+str(counter+1)+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=True,diversity=True, f_final=None, counter=None):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=True,diversity=True, f_final=None):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -250,17 +250,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		print(self.madlib_verbs)
 		female_name_list, male_name_list=self.load_name_list()
 
-		print("=========================== Finished Wema =======================================")
-
-		#self.saved_directory="limericks_experiment_TB_CLS"
-		if self.saved_directory not in os.listdir(os.getcwd()):
-			os.mkdir(self.saved_directory)
-		if self.mode=="multi":
-			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+self.mode+"_"+str(diversity)+"_"+"original"
-		else:
-			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
-		f = open(result_file_path+".txt","a+")
-
 		previous_data=[]
 		text=["there","once","was","a", "nice","lady","named","Freya"]
 		first_line_encodes = self.enc.encode(" ".join(text))
@@ -272,14 +261,16 @@ class Limerick_Generate_new(Limerick_Generate):
 			print("======================= starting {} line generation =============================".format(which_line))
 			possible=self.templates[which_line]
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
-
+		'''
 		f1= open(result_file_path+".pickle","wb")
 		pickle.dump(previous_data,f1)
 		f1.close()
+		'''
 		with open("py_files/saved_objects/rhyming_dict_for_no_storyline.pickle","wb") as pickle_in:
 			pickle.dump(self.rhyming_dict,pickle_in)
 		# Print out generated poems
-		self.printing(previous_data,f, f_final, counter)
+		#self.printing(previous_data,f, f_final, counter)
+		return previous_data, self.template_to_line
 
 	def encodes_align(self,previous_data):
 		"""
@@ -463,19 +454,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		if word.upper() in self.special_words:
 			return set([word.upper()])
 		return set(self.words_to_pos[word])
-
-	def get_word_embedding_moving_average(self, original_average, word, rhyme_word, which_line):
-		"""
-		Calculate word embedding moving average with the story line set selection.
-		"""
-		if which_line == "second" or which_line == "fifth":
-			which_line = "second or fifth"
-		if rhyme_word in self.wema_dict[word][which_line].keys():
-			embedding_distance=self.wema_dict[word][which_line][rhyme_word]
-			#return embedding_distance
-		else:
-			return original_average
-		return (1 - self.word_embedding_alpha) * original_average + self.word_embedding_alpha * embedding_distance
 
 	def split_chunks(self, data):
 		data_list=[]
@@ -698,8 +676,6 @@ class Limerick_Generate_new(Limerick_Generate):
 					# continue_flag is (POS,Sylls) if word can be in a template and is not the last word. False if not
 					continue_flag=self.template_sylls_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
 					end_flag=self.end_template_checking(pos_set=pos_set,sylls_set=sylls_set,template_curr=template_curr,num_sylls_curr=num_sylls_curr,possible=possible, num_sylls=num_sylls)
-					word_embedding_moving_average = self.get_word_embedding_moving_average(moving_avg_curr, word, rhyme_word, which_line)
-					tuple_of_wema=tuple([m for m in sentences[i][7][:-1]])+(word_embedding_moving_average,)
 					if continue_flag:
 						word_list_against_duplication.append(word)
 						for continue_sub_flag in continue_flag:
@@ -719,7 +695,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][4]+(continue_sub_flag[0],),
 												sentences[i][5]+continue_sub_flag[1],
 												sentences[i][6],
-												tuple_of_wema)
+												sentences[i][7])
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
@@ -730,7 +706,7 @@ class Limerick_Generate_new(Limerick_Generate):
 											sentences[i][2]+(word,),
 											sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 											(word,""),
-											tuple_of_wema)
+											sentences[i][7])
 								quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
 								word_list_against_duplication.append(word)
@@ -739,7 +715,7 @@ class Limerick_Generate_new(Limerick_Generate):
 											sentences[i][2]+(word,),
 											sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 											(sentences[i][6][0],word),
-											tuple_of_wema)
+											sentences[i][7])
 								quasi_finished_sentences.append(word_tuple)
 							if which_line=="fourth":
 								if word in rhyme_set_curr:
@@ -749,7 +725,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												tuple_of_wema)
+												sentences[i][7])
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="fifth":
 								if word in rhyme_set_curr:
@@ -759,7 +735,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
 												sentences[i][6],
-												tuple_of_wema)
+												sentences[i][7])
 									quasi_finished_sentences.append(word_tuple)
 		output.put((new_sentences, quasi_finished_sentences))
 		#return new_sentences, quasi_finished_sentences

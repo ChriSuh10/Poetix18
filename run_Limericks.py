@@ -6,8 +6,13 @@ import os
 import pickle
 import numpy as np
 def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
-	with open(f_final+"_"+".pickle","rb") as pickle_in:
-		data_old=pickle.load(pickle_in)
+	try:
+		with open(f_final+".pickle","rb") as pickle_in:
+			data_old=pickle.load(pickle_in)
+	except:
+		with open(f_final+".pickle","wb") as pickle_in:
+			data_old={"score":[],"adjusted_score":[]}
+			pickle.dump(data_old,pickle_in)
 	data_curr_score=[]
 	data_curr_adjusted_score=[]
 	temp_data=defaultdict(list)
@@ -67,7 +72,7 @@ def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
 	data_curr={}
 	data_curr["score"]=data_curr_score
 	data_curr["adjusted_score"]=data_curr_adjusted_score
-	with open(f_final+"_"+".pickle","wb") as pickle_in:
+	with open(f_final+".pickle","wb") as pickle_in:
 		pickle.dump(data_curr,pickle_in)
 def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type="original", saved_directory="final_testing", 
 	prompt="blood",search_space=100, retain_space=3, word_embedding_coefficient=0.1, 
@@ -96,7 +101,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 		with open(f1_path,"a+") as f1:
 			f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 	except:
-		with open(f1_path,"a+") as f2:
+		with open(f2_path,"a+") as f2:
 			f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 
 if __name__ == '__main__':

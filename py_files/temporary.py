@@ -7,6 +7,7 @@ import multiprocessing as mp
 import math
 from Finer_POS import get_finer_pos_words
 import string
+import os
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -87,8 +88,16 @@ def is_correct_meter(template, num_syllables=[8], stress=[1, 4, 7]):
 	        		curr_stress.append(possible_stress[i])
 	        meter.append(curr_stress)
 	return (not all(('1' not in meter[i]) for i in stress)) and (n in num_syllables)
-def printing(data, f, template_to_line):
-	word_embedding_coefficient=0.3
+def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
+	try:
+		with open(f_final+".pickle","rb") as pickle_in:
+			data_old=pickle.load(pickle_in)
+	except:
+		with open(f_final+".pickle","wb") as pickle_in:
+			data_old={"score":[],"adjusted_score":[]}
+			pickle.dump(data_old,pickle_in)
+	data_curr_score=[]
+	data_curr_adjusted_score=[]
 	temp_data=defaultdict(list)
 	for line in data:
 		temp_data[" ".join(line[3])].append(line)
@@ -113,11 +122,7 @@ def printing(data, f, template_to_line):
 				try:
 					line=list(template_to_line[" ".join(i_list)][0])+["\n"]
 				except:
-					try:
-						line=list(template_to_line[" ".join(i_list[:-1])][0])+["\n"]
-					except:
-						pass
-
+					line=list(template_to_line[" ".join(i_list[:-1])][0])+["\n"]
 				lines+=line
 
 		f.write("======================= template: {} ============================  \n".format(t+1))
@@ -125,7 +130,11 @@ def printing(data, f, template_to_line):
 		f.write("----------------------- original sentences ------------------------------------ \n")
 		f.write(" ".join(lines))
 		for j in temp_data[k]:
-			f.write("------------------------- score:  {}----------------------- \n".format(np.mean(j[1])+word_embedding_coefficient*np.mean(j[5])))
+			adjusted_score=np.mean(j[1])+word_embedding_coefficient*np.mean(j[5])
+			score=np.mean(j[1])
+			data_curr_score.append(score)
+			data_curr_adjusted_score.append(adjusted_score)
+			f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
 			f.write(" ".join(j[2]))
 			f.write("------------------------- score breakdown ------------------------ \n")
 			count_w=j[2].index("\n")+1
@@ -139,31 +148,20 @@ def printing(data, f, template_to_line):
 				count_w+=ww+2
 				f.write(" line score is : {:04.03f}, look ahead score is : {:04.03f}".format(np.mean(temp_list),j[5][s]))
 				f.write("\n")
+	data_old_score=data_old["score"]
+	data_old_adjusted_score=data_old["adjusted_score"]
+	data_curr_score+=data_old_score
+	data_curr_adjusted_score+=data_old_adjusted_score
+	data_curr={}
+	data_curr["score"]=data_curr_score
+	data_curr["adjusted_score"]=data_curr_adjusted_score
+	with open(f_final+".pickle","wb") as pickle_in:
+		pickle.dump(data_curr,pickle_in)
 
 
 
 if __name__ == '__main__':
-	special_words=get_finer_pos_words()
-	map_34=defaultdict(list)
-	with open("saved_objects/third_fourth.pickle","rb") as pickle_in:
-		list_34=pickle.load(pickle_in)
-	for i in list_34:
-		temp_list=[]
-		for k in i.keys():
-			for kk in i[k].keys():
-				for j in i[k][kk]:
-					temp_j=[]
-					if len(j[1])!=len(j[0]): continue
-					for w in range(len(j[1])):
-						if j[1][w].upper() in special_words:
-							temp_j.append(j[1][w].upper())
-						else:
-							temp_j.append(j[0][w])
-					temp_list.append(tuple(temp_j))
-		map_34[temp_list[0]].append(temp_list[1])
-	print(map_34.keys())
-	'''
-	with open("saved_objects/tiger_44_3_0.3.pickle","rb") as pickle_in:
+	with open("saved_objects//blood_100_3_0.1_multi_True_original.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
@@ -173,10 +171,13 @@ if __name__ == '__main__':
 				for k in templates[i][j]:
 					if k[0][0]=="PRP$" and i=="third":print(" ".join(k[0]))
 					template_to_line[" ".join(k[0])].append(k[1])
-	with open("testting.txt","w") as f:
+	saved_directory="testing"
+	f_final=saved_directory+"/"+"something"
+	if saved_directory not in os.listdir(os.getcwd()):
+			os.mkdir(saved_directory)
+	with open(saved_directory+"/"+"testting.txt","w") as f:
 		#data=[((37437, 323, 508, 2727, 257, 649, 995, 1123, 1110, 13, 383, 1621, 286, 607, 1918, 11, 673, 373, 2923, 416, 257, 582, 11, 673, 373, 1498, 284, 766, 290, 284, 307, 13), (0, -1.8686583, -7.9279566, -1.7537689, -3.5815325, -2.9823372, -7.3178396, -0.7854198, -1.3464375, -3.2089908, -4.305893, -1.7522461, -1.7720312, -6.1531906, -3.006908, -3.8320954, -2.208183, -2.292202, -0.61561483, -1.3350128, -3.2697363, -3.549174, -3.6850667, -0.94812435, -5.939119, -0.014559363, -3.7359376, -3.4837246, -4.6017675, -3.682684, -4.94672), ('there', 'was', 'a', 'kind', 'woman', 'named', 'sunday', '\n', 'who', 'created', 'a', 'new', 'world', 'each', 'day', '.', '\n', 'the', 'story', 'of', 'her', 'death', ',', '\n', 'she', 'was', 'killed', 'by', 'a', 'man', ',', '\n', 'she', 'was', 'able', 'to', 'see', 'and', 'to', 'be', '.', '\n'), ('sunday', '\n', 'WHO', 'VBD', 'A', 'JJ', 'NN', 'EACH', 'NN', '.', '\n', 'THE', 'NN', 'OF', 'PRP$', 'NN', ',', '\n', 'PRP', 'VBD', 'VBN', 'BY', 'A', 'NN', ',', '\n', 'PRP', 'VBD', 'JJ', 'TO', 'VB', 'AND', 'TO', 'VB', '.', '\n'), ('sunday', 'death'))]
-		printing(data,f, template_to_line)
-	'''
+		printing(data,f, f_final, 0.1, template_to_line)
 	'''
 	mylist=[0, 3, 8, 10, 19, 23, 25, 37, 42, 43, 44, 49, 50, 51, 54, 66, 70, 71, 74, 77, 80, 85, 86, 87, 88, 92, 93, 97, 100, 101, 102, 103, 112, 114, 115, 118, 122, 129, 131, 133, 134, 137,  139, 140, 141, 143, 150, 155, 160, 163, 166, 167, 170, 171, 172]
 	with open("saved_objects/last2_tuple.pickle","rb") as f:
