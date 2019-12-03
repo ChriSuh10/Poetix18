@@ -113,8 +113,11 @@ def printing(data, f, template_to_line):
 				try:
 					line=list(template_to_line[" ".join(i_list)][0])+["\n"]
 				except:
-					pdb.set_trace()
-					line=list(template_to_line[" ".join(i_list[:-1])][0])+["\n"]
+					try:
+						line=list(template_to_line[" ".join(i_list[:-1])][0])+["\n"]
+					except:
+						pass
+
 				lines+=line
 
 		f.write("======================= template: {} ============================  \n".format(t+1))
@@ -140,8 +143,27 @@ def printing(data, f, template_to_line):
 
 
 if __name__ == '__main__':
-	
-	with open("saved_objects/limericks_experiment_TB_CLStiger_90_1.pickle","rb") as pickle_in:
+	special_words=get_finer_pos_words()
+	map_34=defaultdict(list)
+	with open("saved_objects/third_fourth.pickle","rb") as pickle_in:
+		list_34=pickle.load(pickle_in)
+	for i in list_34:
+		temp_list=[]
+		for k in i.keys():
+			for kk in i[k].keys():
+				for j in i[k][kk]:
+					temp_j=[]
+					if len(j[1])!=len(j[0]): continue
+					for w in range(len(j[1])):
+						if j[1][w].upper() in special_words:
+							temp_j.append(j[1][w].upper())
+						else:
+							temp_j.append(j[0][w])
+					temp_list.append(tuple(temp_j))
+		map_34[temp_list[0]].append(temp_list[1])
+		print(map_34.keys())
+	'''
+	with open("saved_objects/tiger_44_3_0.3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
 		templates= pickle.load(pickle_in)
@@ -149,11 +171,12 @@ if __name__ == '__main__':
 		for i in ["second","third","fourth","fifth"]:
 			for j in templates[i].keys():
 				for k in templates[i][j]:
-					if k[0][0]=="WHOSE":print(" ".join(k[0]))
+					if k[0][0]=="PRP$" and i=="third":print(" ".join(k[0]))
 					template_to_line[" ".join(k[0])].append(k[1])
 	with open("testting.txt","w") as f:
 		#data=[((37437, 323, 508, 2727, 257, 649, 995, 1123, 1110, 13, 383, 1621, 286, 607, 1918, 11, 673, 373, 2923, 416, 257, 582, 11, 673, 373, 1498, 284, 766, 290, 284, 307, 13), (0, -1.8686583, -7.9279566, -1.7537689, -3.5815325, -2.9823372, -7.3178396, -0.7854198, -1.3464375, -3.2089908, -4.305893, -1.7522461, -1.7720312, -6.1531906, -3.006908, -3.8320954, -2.208183, -2.292202, -0.61561483, -1.3350128, -3.2697363, -3.549174, -3.6850667, -0.94812435, -5.939119, -0.014559363, -3.7359376, -3.4837246, -4.6017675, -3.682684, -4.94672), ('there', 'was', 'a', 'kind', 'woman', 'named', 'sunday', '\n', 'who', 'created', 'a', 'new', 'world', 'each', 'day', '.', '\n', 'the', 'story', 'of', 'her', 'death', ',', '\n', 'she', 'was', 'killed', 'by', 'a', 'man', ',', '\n', 'she', 'was', 'able', 'to', 'see', 'and', 'to', 'be', '.', '\n'), ('sunday', '\n', 'WHO', 'VBD', 'A', 'JJ', 'NN', 'EACH', 'NN', '.', '\n', 'THE', 'NN', 'OF', 'PRP$', 'NN', ',', '\n', 'PRP', 'VBD', 'VBN', 'BY', 'A', 'NN', ',', '\n', 'PRP', 'VBD', 'JJ', 'TO', 'VB', 'AND', 'TO', 'VB', '.', '\n'), ('sunday', 'death'))]
 		printing(data,f, template_to_line)
+	'''
 	'''
 	mylist=[0, 3, 8, 10, 19, 23, 25, 37, 42, 43, 44, 49, 50, 51, 54, 66, 70, 71, 74, 77, 80, 85, 86, 87, 88, 92, 93, 97, 100, 101, 102, 103, 112, 114, 115, 118, 122, 129, 131, 133, 134, 137,  139, 140, 141, 143, 150, 155, 160, 163, 166, 167, 170, 171, 172]
 	with open("saved_objects/last2_tuple.pickle","rb") as f:

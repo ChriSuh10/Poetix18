@@ -89,7 +89,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			temp_list=[]
 			for k in i.keys():
 				for kk in i[k].keys():
-					temp_list.append(i[k][kk][0][0])
+					for j in i[k][kk]:
+						temp_j=[]
+						if len(j[1])!=len(j[0]): continue
+						for w in range(len(j[1])):
+							if j[1][w].upper() in self.special_words:
+								temp_j.append(j[1][w].upper())
+							else:
+								temp_j.append(j[0][w])
+						temp_list.append(tuple(temp_j))
 			self.map_34[temp_list[0]].append(temp_list[1])
 		temp_data={}
 		for k in data.keys():
