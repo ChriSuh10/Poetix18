@@ -14,7 +14,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 	prompt_list=prompt_list.split(", ")
 	word_embedding_coefficient_list=[0.1]
 	space_list=[(100,3)]
-	mode_list=[0,1,2,3,4,5,6,7,8,9,10,11]
+	mode_list=["multi",5]
 	diversity_list=[True,False]
 	if saved_directory not in os.listdir(os.getcwd()):
 		os.mkdir(saved_directory)
@@ -35,10 +35,10 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 								lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, 
 										retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity, f_final=f_final, counter=counter)
 								counter+=1
-								with open(f1_path,"a+") as f_1:
+								with open(f1_path,"a+") as f1:
 									f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
 							except:
-								with open(f2_path,"a+") as f_2:
+								with open(f2_path,"a+") as f2:
 									f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+mode+"_"+str(diversity)+"_"+"original"+"\n")
 								continue
 
