@@ -161,7 +161,7 @@ if __name__ == '__main__':
 							temp_j.append(j[0][w])
 					temp_list.append(tuple(temp_j))
 		map_34[temp_list[0]].append(temp_list[1])
-		print(map_34.keys())
+	print(map_34.keys())
 	'''
 	with open("saved_objects/tiger_44_3_0.3.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
