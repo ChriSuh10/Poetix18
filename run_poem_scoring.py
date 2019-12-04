@@ -51,7 +51,6 @@ while True:
             new_encodes.append(encodes[i])
         else:
             finished.append(encodes[i])
-    index += 1
     encodes = new_encodes
     logits = score_model(model_name=model_name, context_token=[e[0] for e in encodes])
     for i in range(len(encodes)):
@@ -68,6 +67,7 @@ while True:
         encodes[i][3] = (1 - lg.word_embedding_alpha) * encodes[i][3] + lg.word_embedding_alpha * embedding_distance \
                          if embedding_distance is not None \
                          else encodes[i][3]
+     index += 1
 
 print("score generated successfully")
 now = datetime.now().time() # time object
