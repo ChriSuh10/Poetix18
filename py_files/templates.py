@@ -641,7 +641,11 @@ def get_first_line_templates():
             'NEUTRAL': []
         },
         'JJ': ['young', 'humble', 'dear', 'clever', 'polite', 'likeable',
-        'sincere', 'kind', 'bright', 'witty'],
+        'sincere', 'kind', 'bright', 'witty', 'brave', 'chatty',
+        'cowardly', 'friendly', 'funny', 'grumpy', 'honest', 'lazy', 'loud',
+        'lucky', 'neat', 'nasty', 'nervous', 'quiet', 'rude', 'selfish',
+        'serious', 'shy', 'silly', 'smart', 'stupid', 'unlucky','untidy',
+        'vain', 'wise'],
         'IN': ['from', 'of', 'in']
     }
     return lines, placeholders, placeholder_dict

@@ -898,7 +898,7 @@ class Limerick_Generate:
         return (not all(('1' not in meter[i]) for i in stress)) \
             and (n in num_syllables)
 
-    def gen_first_line_new(self, last_word, contains_adjective=True, strict=False, search_space=100):
+    def gen_first_line_new(self, last_word, contains_adjective=True, strict=False, search_space=100, seed=None):
         """
         Generetes all possible first lines of a Limerick by going through a
         set of template. Number of syllables is always 8 or 9.
@@ -944,6 +944,11 @@ class Limerick_Generate:
         w_response = {last_word}
         candidate_sentences = []
 
+        # Get top 5 that is related to the seed word
+        if seed is not None:
+            adj_dict_with_distances = [(self.poetic_vectors.similarity(word, seed), word) for word in dict['JJ'] if word in self.words_to_pos]
+            adj_dict_with_distances = heapq.nlargest(5, adj_dict_with_distances, key=lambda x: x[0])
+
         for template in templates:
             if strict and last_word_is_location and template[-1] != 'PLACE':
                 continue
@@ -974,6 +979,9 @@ class Limerick_Generate:
                         candidates = new_candidates
                 if word == 'JJ':
                     adj_dict = dict['JJ']
+                    if seed is not None:
+                        adj_dict = adj_dict_with_distances
+
                     if len(candidates) == 0:
                         candidates = [{'JJ': w} for w in adj_dict]
                     else:
