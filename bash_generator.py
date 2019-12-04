@@ -1,8 +1,8 @@
 def bash_generator():
 	type="original"
 	saved_directory="final_testing_no_diversity"
-	search_space=100
-	retain_space=3
+	search_space=20
+	retain_space=30
 	word_embedding_coefficient=0.1
 	mode="multi"
 	diversity=False

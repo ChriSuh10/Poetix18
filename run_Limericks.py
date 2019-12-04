@@ -103,8 +103,8 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 		from py_files.Limericks_no_story import Limerick_Generate_new
 	lg = Limerick_Generate_new()
 	saved_directory=saved_directory+str(cuda)
-	f_final=saved_directory +"/"+"results "+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
-	f_final_best=saved_directory +"/"+"best_results "+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
+	f_final=saved_directory +"/"+"results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
+	f_final_best=saved_directory +"/"+"best_results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	f1_path=saved_directory+"/"+"success.txt"
 	f2_path=saved_directory+"/"+"failure.txt"
 	if saved_directory not in os.listdir(os.getcwd()):
