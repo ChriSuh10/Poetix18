@@ -67,7 +67,7 @@ while True:
         encodes[i][3] = (1 - lg.word_embedding_alpha) * encodes[i][3] + lg.word_embedding_alpha * embedding_distance \
                          if embedding_distance is not None \
                          else encodes[i][3]
-     index += 1
+    index += 1
 
 print("score generated successfully")
 now = datetime.now().time() # time object
