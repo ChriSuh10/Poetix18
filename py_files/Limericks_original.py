@@ -205,7 +205,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open(f_final+"_"+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
 	'''
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True):
+	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=False, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True,half_diversity=False):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -225,6 +225,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			If the probability of a word is lower than this threshold we will not consider
 			this word. Set it to None to get rid of it.
 		"""
+		self.half_diversity=half_diversity
 		self.mode=mode
 		self.relax_story_line=relax_story_line
 		self.prob_threshold = prob_threshold
@@ -243,6 +244,8 @@ class Limerick_Generate_new(Limerick_Generate):
 		print("===============================   end helper       ==============================================")
 		self.madlib_verbs = self.get_madlib_verbs(prompt,["VBD", "VBN", "VB", "VBZ", "VBP", "VBG"])
 		# get rid of common words
+		#notice diversity and half diversity only one of them can be true
+		assert (self.diversity and self.half_diversity)==False, "conflicts between arguments, diversity and half diversity only one of them can be true"
 		if "was" in self.madlib_verbs["VBD"]:
 			self.madlib_verbs["VBD"].remove("was")
 			print("remove was \n")
@@ -539,6 +542,28 @@ class Limerick_Generate_new(Limerick_Generate):
 			for k in data:
 				data_new+=k[0]
 			data=data_new
+		elif self.half_diversity:
+			if not finished:
+				temp_data=defaultdict(set)
+				for n in data:
+					key=n[3]+n[4]
+					temp_data[key].add(n)
+				data=[]
+				list_of_keys=list(temp_data.keys())
+				x=random.sample(list_of_keys, len(list_of_keys))
+				for k in x:
+					temp=heapq.nlargest(min(len(temp_data[k]),retain_space), temp_data[k], key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])
+					data.append((temp,np.max([np.mean(m[1])+self.word_embedding_coefficient * m[7][-1] for m in temp])))
+				data=heapq.nlargest(min(len(data),search_space),data, key = lambda x: x[1])
+				data_new=[]
+				for k in data:
+					data_new+=k[0]
+				data=data_new
+				return data_new, len(temp_data.keys())
+			else:
+				data_new=heapq.nlargest(min(len(data),search_space*retain_space), data, key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[5][-1])
+				return data_new,0
+
 		else:
 			if not finished:
 				data_new=heapq.nlargest(min(len(data),search_space*retain_space), data, key=lambda x: np.mean(x[1]) + self.word_embedding_coefficient * x[7][-1])

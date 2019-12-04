@@ -94,7 +94,7 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 		pickle.dump(data_curr_best,pickle_in)
 def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type="original", saved_directory="final_testing", 
 	prompt="blood",search_space=100, retain_space=3, word_embedding_coefficient=0.1, 
-	mode="multi", diversity=True,cuda=3):
+	mode="multi", diversity=True,cuda=3, half_diversity=False):
 	if type=="original":
 		from py_files.Limericks_original import Limerick_Generate_new
 	if type=="34linked":
@@ -111,7 +111,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 			os.mkdir(saved_directory)
 	result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	previous_data, template_to_line=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
-		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
+		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity, half_diversity=half_diversity)
 	with open(result_file_path+".pickle","wb") as f3:
 		pickle.dump(previous_data,f3)
 	with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
