@@ -42,7 +42,7 @@ for i in range(0, len(lines[0])):
 
 encodes = [[[], poems[i], [], 0] for i in range(len(poems))]
 finished = []
-index = 10
+index = 0
 while True:
     new_encodes = []
     for i in range(len(encodes)):
@@ -68,8 +68,6 @@ while True:
         encodes[i][3] = (1 - lg.word_embedding_alpha) * encodes[i][3] + lg.word_embedding_alpha * embedding_distance \
                          if embedding_distance is not None \
                          else encodes[i][3]
-    if index == 15:
-        break
 
 print("score generated successfully")
 now = datetime.now().time() # time object
