@@ -46,7 +46,7 @@ index = 0
 while True:
     new_encodes = []
     for i in range(len(encodes)):
-        if len(encodes[i][0]) < len(encodes[i][1]):
+        if index + 1 < len(encodes[i][1]):
             encodes[i][0].append(enc.encode(encodes[i][1][index])[0])
             new_encodes.append(encodes[i])
         else:
