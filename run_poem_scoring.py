@@ -52,6 +52,8 @@ while True:
         else:
             finished.append(encodes[i])
     encodes = new_encodes
+    if len(encodes) == 0:
+        break
     logits = score_model(model_name=model_name, context_token=[e[0] for e in encodes])
     for i in range(len(encodes)):
         # Calculate logit score
@@ -73,4 +75,4 @@ print("score generated successfully")
 now = datetime.now().time() # time object
 file_name = str(len(poems)) + "_poems_generated_at_" + now.strftime("%H_%M_%S") + ".p"
 print("saved at " + file_name)
-pickle.dump(encodes, open(file_name, "wb"))
+pickle.dump(finished, open(file_name, "wb"))
