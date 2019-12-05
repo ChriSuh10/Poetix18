@@ -66,9 +66,25 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
-
+		with open(self.filtered_names_rhymes, "rb") as hf:
+			self.names_rhymes_list = pickle.load(hf)
 		# word embedding coefficients
 
+	def create_w1s_rhyme_dict(self):
+		self.sum_rhyme=[]
+		self.w1s_rhyme_dict=defaultdict(list)
+		self.words_to_names_rhyme_dict=defaultdict(list)
+		for item in self.names_rhymes_list:
+			self.sum_rhyme+=item_rhyme
+		self.storyline_second_words=self.get_similar_word_henry([prompt], n_return=200, word_set=set(self.sum_rhyme))
+		for item in self.names_rhymes_list:
+			item_name, item_rhyme= item[0],item[1] 
+			for i in item_rhyme:
+				if i in self.storyline_second_words:
+					temp=[t for t in item_rhyme if t in self.storyline_second_words]
+					temp.remove(i)
+					self.w1s_rhyme_dict[i].append(temp)
+					self.words_to_names_rhyme_dict[i].append(item_name)
 
 
 	def finer_pos_category(self):
@@ -266,7 +282,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			pickle.dump(self.rhyming_dict,pickle_in)
 		# Print out generated poems
 		#self.printing(previous_data,f, f_final, counter)
-		return previous_data, self.template_to_line
+		return previous_data, self.template_to_line,self.words_to_names_rhyme_dict
 
 	def encodes_align(self,previous_data):
 		"""
@@ -575,15 +591,20 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
 		# dictionary {pos: set()}
-		pickle_in=open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","rb")
-		mydict=pickle.load(pickle_in)
-		pickle_in.close()
+		try:
+			pickle_in=open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","rb")
+			mydict=pickle.load(pickle_in)
+			pickle_in.close()
+		except:
+			pickle_in=open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","rb")
+			pickle.dump({},pickle_in)
+			pickle_in.close()
 		if prompt in mydict.keys() and mydict[prompt]!=None:
 			return mydict[prompt]
 		else:
 			ret={pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))for pos in pos_list}
 			mydict[prompt]=ret
-			with open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","wb") as pickle_in:
+			with open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","wb") as pickle_in:
 				pickle.dump(mydict,pickle_in)
 			return ret
 
@@ -693,14 +714,15 @@ class Limerick_Generate_new(Limerick_Generate):
 					if end_flag:
 						for end_sub_flag in end_flag:
 							if which_line=="second":
-								word_list_against_duplication.append(word)
-								word_tuple=(sentences[i][0] + (index,),
-											sentences[i][1] + (np.log(j[index]),),
-											sentences[i][2]+(word,),
-											sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
-											(word,""),
-											sentences[i][7])
-								quasi_finished_sentences.append(word_tuple)
+								if word in self.storyline_second_words:
+									word_list_against_duplication.append(word)
+									word_tuple=(sentences[i][0] + (index,),
+												sentences[i][1] + (np.log(j[index]),),
+												sentences[i][2]+(word,),
+												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
+												(word,""),
+												sentences[i][7])
+									quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
 								word_list_against_duplication.append(word)
 								word_tuple=(sentences[i][0] + (index,),

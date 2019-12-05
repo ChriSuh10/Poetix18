@@ -66,9 +66,27 @@ class Limerick_Generate_new(Limerick_Generate):
 		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
+		with open(self.filtered_names_rhymes, "rb") as hf:
+			self.names_rhymes_list = pickle.load(hf)
 
 		# word embedding coefficients
 
+	def create_w1s_rhyme_dict(self):
+		self.sum_rhyme=[]
+		self.w1s_rhyme_dict=defaultdict(list)
+		self.words_to_names_rhyme_dict=defaultdict(list)
+		for item in self.names_rhymes_list:
+			self.sum_rhyme+=item_rhyme
+		self.storyline_second_words=self.get_similar_word_henry([prompt], n_return=200, word_set=set(self.sum_rhyme))
+		print(self.storyline_second_words)
+		for item in self.names_rhymes_list:
+			item_name, item_rhyme= item[0],item[1] 
+			for i in item_rhyme:
+				if i in self.storyline_second_words:
+					temp=[t for t in item_rhyme if t in self.storyline_second_words]
+					temp.remove(i)
+					self.w1s_rhyme_dict[i].append(temp)
+					self.words_to_names_rhyme_dict[i].append(item_name)
 
 
 	def finer_pos_category(self):
@@ -130,14 +148,18 @@ class Limerick_Generate_new(Limerick_Generate):
 			except:
 				self.pos_sylls_mode[i]=[1,1.0]
 	def helper(self,prompt):
-		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","rb") as pickle_in:
-			mydict=pickle.load(pickle_in)
+		try:
+			with open("py_files/saved_objects/spacy_prompt_to_w3s_rhyme_dict","rb") as pickle_in:
+				mydict=pickle.load(pickle_in)
+		except:
+			with open("py_files/saved_objects/spacy_prompt_to_w3s_rhyme_dict","wb") as pickle_in:
+				pickle.dump({},pickle_in)
 		if prompt not in mydict.keys():
 			w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
 			w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
 			mydict[prompt]=w3s_rhyme_dict
 		self.w3s_rhyme_dict=mydict[prompt]
-		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
+		with open("py_files/saved_objects/spacy_prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
 	'''
 	def printing(self,data, f, f_final):
@@ -205,6 +227,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		with open(f_final+"_"+".pickle","wb") as pickle_in:
 			pickle.dump(data_curr,pickle_in)
 	'''
+
 	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=True, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
@@ -234,6 +257,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.relax_story_line=True
 			self.prob_threshold = None
 		self.finer_pos_category()
+		self.create_w1s_rhyme_dict
 		print("=================== Finished Initializing ==================================")
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = word_embedding_coefficient
@@ -249,15 +273,16 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt,self.n_w25_threshold)
+		#self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt,self.n_w25_threshold)
 		#self.w3s_rhyme_dict=w3s_rhyme_dict
 		
-		female_name_list, male_name_list=self.load_name_list()
+		#female_name_list, male_name_list=self.load_name_list()
 
+		'''
 		for name in self.w1s_rhyme_dict.keys():
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
 				del self.w1s_rhyme_dict[name]
-		
+		'''
 		print("=========================== Creating Wema =======================================")
 		self.get_wema_dict_mp(prompt)
 		print("=========================== Finished Wema =======================================")
@@ -274,11 +299,16 @@ class Limerick_Generate_new(Limerick_Generate):
 		f = open(result_file_path+".txt","a+")
 		'''
 		previous_data=[]
-		for rhyme in self.w1s_rhyme_dict.keys():
-			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
-			if len(candidates)>0: text=random.choice(candidates)
+		if self.get_spacy_similarity("Robert", prompt)>=self.get_spacy_similarity("Sarah",prompt):
+			temp_name="Robert"
+		else:
+			temp_name="Sarah"
+		candidates=self.gen_first_line_new(temp_name.lower(),search_space=5,strict=True,seed=prompt)
+		assert len(candidates)>0, "no first line"
+		print(candidates)
+		for text in candidates
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,""),(0,)))
+			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),("",""),(0,)))
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 
 			print("======================= starting {} line generation =============================".format(which_line))
@@ -286,7 +316,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		return previous_data, self.template_to_line
+		return previous_data, self.template_to_line, self.words_to_names_rhyme_dict
 		#self.printing(previous_data,f, f_final)
 
 	def encodes_align(self,previous_data):
@@ -323,11 +353,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		last_word_dict={}
 		for i in ["second","third","fourth","fifth"]:
 			temp=[]
-			
-			if i == "second" or i =="fifth":
+			if i== "fifth":
 				for k in w1s_rhyme_dict.keys():
 					temp+=w1s_rhyme_dict[k]
-			
+			if i=="second":
+				for k in w1s_rhyme_dict.keys():
+					temp.append(k)
 			if i== "fourth":
 				for k in w3s_rhyme_dict.keys():
 					temp+=w3s_rhyme_dict[k]
@@ -547,10 +578,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_wema_dict_mp(self,prompt):
 		try:
-			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
+			with open("py_files/saved_objects/spacy_wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
 				self.wema_dict=pickle.load(pickle_in)
 		except:
-			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
+			with open("py_files/saved_objects/spacy_wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
 				num_list_list= self.split_chunks(list(range(50256)))
 				manager_wema = mp.Manager()
 				output_wema=manager_wema.Queue()
@@ -590,8 +621,10 @@ class Limerick_Generate_new(Limerick_Generate):
 			for which_line in ["second or fifth", "third", "fourth"]:
 				word_dict = collections.defaultdict()
 
-				if which_line=="second or fifth":
-					rhyme_dict = self.w1s_rhyme_dict
+				if which_line=="second":
+					rhyme_dict = {"second_line_special_case": self.w3s_rhyme_dict.keys()}
+				elif which_line=="fifth":
+					rhyme_dict=self.w1s_rhyme_dict
 				# Hack: for third line, we do not have a rhyming word yet, and the legitimate
 				# ending word of the third line is chosen from the keys of our rhyming dictionary.
 				elif which_line == "third":
@@ -739,15 +772,20 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_madlib_verbs(self, prompt, pos_list, n_return=20):
 		# dictionary {pos: set()}
-		pickle_in=open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","rb")
-		mydict=pickle.load(pickle_in)
-		pickle_in.close()
+		try:
+			pickle_in=open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","rb")
+			mydict=pickle.load(pickle_in)
+			pickle_in.close()
+		except:
+			pickle_in=open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","rb")
+			pickle.dump({},pickle_in)
+			pickle_in.close()
 		if prompt in mydict.keys() and mydict[prompt]!=None:
 			return mydict[prompt]
 		else:
 			ret={pos: self.get_similar_word_henry([prompt], n_return=n_return, word_set=set(self.pos_to_words[pos]))for pos in pos_list}
 			mydict[prompt]=ret
-			with open("py_files/saved_objects/prompt_to_madlib_verbs.pickle","wb") as pickle_in:
+			with open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","wb") as pickle_in:
 				pickle.dump(mydict,pickle_in)
 			return ret
 
@@ -783,8 +821,11 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_sylls_curr=sentences[i][5]
 			moving_avg_curr=sentences[i][7][-1]
 			rhyme_set_curr = set()
-			if which_line=="second" or which_line=="fifth":
-				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
+			if which_line=="second":
+				rhyme_set_curr = self.w1s_rhyme_dict.keys()
+				rhyme_word="second_line_special_case"
+			if which_line=="fifth":
+				rhyme_set_curr=self.w1s_rhyme_dict[sentences[i][6][0]]
 				rhyme_word=sentences[i][6][0]
 			if which_line=="third":
 				rhyme_set_curr = self.w3s_rhyme_dict.keys()
@@ -866,14 +907,14 @@ class Limerick_Generate_new(Limerick_Generate):
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
-							if which_line=="second" or which_line=="fifth":
+							if which_line=="second":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
 									word_tuple=(sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
-												sentences[i][6],
+												(word,""),
 												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
@@ -886,7 +927,7 @@ class Limerick_Generate_new(Limerick_Generate):
 												(sentences[i][6][0],word),
 												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
-							if which_line=="fourth":
+							if which_line=="fourth" or which_line=="fifth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
 									word_tuple=(sentences[i][0] + (index,),

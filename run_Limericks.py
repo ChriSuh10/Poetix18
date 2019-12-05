@@ -7,7 +7,7 @@ import pickle
 import numpy as np
 from collections import defaultdict
 import heapq
-def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line):
+def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict):
 	try:
 		with open(f_final+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
@@ -61,6 +61,8 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 			data_curr_score.append(score)
 			data_curr_adjusted_score.append(adjusted_score)
 			f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
+			limerick=list(j[2])
+			limerick[limerick.index("\n")-1]=words_to_names_rhyme_dict[j[4][0]][0]
 			f.write(" ".join(j[2]))
 			f.write("------------------------- score breakdown ------------------------ \n")
 			count_w=j[2].index("\n")+1
@@ -97,12 +99,8 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	mode="multi", diversity=True,cuda=3):
 	if type=="original":
 		from py_files.Limericks_original import Limerick_Generate_new
-	if type=="34linked":
-		from py_files.Limericks_34_linked import Limerick_Generate_new
 	if type=="no_story":
 		from py_files.Limericks_no_story import Limerick_Generate_new
-	if type=="flexible_storyline":
-		from py_files.Limericks_flexible_storyline import Limerick_Generate_new
 	lg = Limerick_Generate_new()
 	saved_directory=saved_directory+str(cuda)
 	f_final=saved_directory +"/"+"results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
@@ -112,7 +110,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	if saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(saved_directory)
 	result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
-	previous_data, template_to_line=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
+	previous_data, template_to_line,words_to_names_rhyme_dict=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
 		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
 	with open(result_file_path+".pickle","wb") as f3:
 		pickle.dump(previous_data,f3)
