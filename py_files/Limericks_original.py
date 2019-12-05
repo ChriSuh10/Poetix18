@@ -318,7 +318,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
-		previous_data, _ = self.diversity_sort(previous_data,last=True)
+		previous_data, _ = self.diversity_sort(data=previous_data,last=True)
 		return previous_data, self.template_to_line, self.words_to_names_rhyme_dict
 		#self.printing(previous_data,f, f_final)
 

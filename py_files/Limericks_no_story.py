@@ -287,7 +287,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			pickle.dump(self.rhyming_dict,pickle_in)
 		# Print out generated poems
 		#self.printing(previous_data,f, f_final, counter)
-		previous_data, _ = self.diversity_sort(previous_data,last=True)
+		previous_data, _ = self.diversity_sort(data=previous_data,last=True)
 		return previous_data, self.template_to_line, self.words_to_names_rhyme_dict
 	def encodes_align(self,previous_data):
 		"""
