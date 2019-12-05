@@ -40,35 +40,23 @@ poems = []
 for i in range(0, len(lines[0])):
     poems.append(lines[0][i] + lines[1][i] + lines[2][i] + lines[3][i] + lines[4][i])
 
-encodes = [[[], poems[i], [], 0] for i in range(len(poems))]
+encodes = [[enc.encode(' '.join(poems[i])), poems[i], []] for i in range(len(poems))]
 finished = []
 index = 0
 while True:
     new_encodes = []
     for i in range(len(encodes)):
-        if index + 1 < len(encodes[i][1]):
-            encodes[i][0].append(enc.encode(encodes[i][1][index])[0])
+        if index + 1 < len(encodes[i][0]):
             new_encodes.append(encodes[i])
         else:
             finished.append(encodes[i])
     encodes = new_encodes
     if len(encodes) == 0:
         break
-    logits = score_model(model_name=model_name, context_token=[e[0] for e in encodes])
+    logits = score_model(model_name=model_name, context_token=[e[0][:index+1] for e in encodes])
     for i in range(len(encodes)):
         # Calculate logit score
-        for j in range(len(logits[i])):
-            word = enc.decode([j]).lower().strip()
-            if word == encodes[i][1][index + 1]:
-                encodes[i][2].append(np.log(logits[i][j]))
-                break
-        else:
-            print("word not found!!!")
-        # Calculate WEMA
-        embedding_distance = lg.get_word_similarity(word, [encodes[i][1][-1]])
-        encodes[i][3] = (1 - lg.word_embedding_alpha) * encodes[i][3] + lg.word_embedding_alpha * embedding_distance \
-                         if embedding_distance is not None \
-                         else encodes[i][3]
+            encodes[i][2].append(np.log(logits[i][encodes[i][0][index+1]]))
     index += 1
 
 print("score generated successfully")
