@@ -65,6 +65,7 @@ class Limerick_Generate:
             self.filtered_names = [line.split()[0].lower() for line in hf.readlines()]
         with open("py_files/saved_objects/filtered_nouns_verbs.txt", "r") as hf:
             self.filtered_nouns_verbs = [line.strip() for line in hf.readlines()]
+            self.filtered_nouns_verbs += self.pos_to_words["IN"] + self.pos_to_words["PRP"]
 
         self.word_embedding_alpha = 0.5
         self.word_embedding_coefficient = 0.1
@@ -79,6 +80,9 @@ class Limerick_Generate:
                 self.names_rhymes_dict = pickle.load(hf)
 
         self.spacy_nlp = spacy.load("en_core_web_lg")
+
+        with open(self.filtered_names_rhymes, "rb") as hf:
+            self.names_rhymes_list = pickle.load(hf)
 
 
     def get_spacy_similarity(self, word1, word2):
@@ -751,10 +755,10 @@ class Limerick_Generate:
             if len(rhymes) >= n_w25_threshold:
                 w1s_rhyme_dict[names[0]] = rhymes
 
-        #w3s = self.get_similar_word_henry([prompt], n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
-        #w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+        # w3s = self.get_similar_word_henry([prompt], n_return=n_w3, word_set=set(self.filtered_nouns_verbs))
+        # w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
 
-        return w1s_rhyme_dict#, w3s_rhyme_dict
+        return w1s_rhyme_dict  # , w3s_rhyme_dict
 
     def get_all_partition_size_n(self, num_sylls, template, last_word_sylls):
         """
