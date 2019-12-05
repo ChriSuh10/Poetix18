@@ -287,8 +287,8 @@ class Limerick_Generate_new(Limerick_Generate):
 			pickle.dump(self.rhyming_dict,pickle_in)
 		# Print out generated poems
 		#self.printing(previous_data,f, f_final, counter)
-		return previous_data, self.template_to_line,self.words_to_names_rhyme_dict
-
+		previous_data, _ = self.diversity_sort(previous_data,last=True)
+		return previous_data, self.template_to_line, self.words_to_names_rhyme_dict
 	def encodes_align(self,previous_data):
 		"""
 		Different lines have different encodes length. We force the encodes to
@@ -413,7 +413,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return end_flag
 
 
-	def diversity_sort(self,search_space, retain_space,data, finished):
+	def diversity_sort(self,search_space=None, retain_space=None,data, finished=None,last=False):
 		"""
 		Given a list of sentences, put them in bins according to their templates, get
 		retain_space sentences from each bin and form a list, and get top search_space sentences from
@@ -428,6 +428,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
+		if last:
+			data_new=heapq.nlargest(len(data), data, key=lambda x: np.mean(x[1]))
+			return data_new,0
 		if self.diversity:
 			temp_data=defaultdict(set)
 			# Key is "template; current_line_template". For each key we only keep retain_space sentences
