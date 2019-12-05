@@ -33,7 +33,7 @@ class Limerick_Generate:
                  syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
                  postag_file='py_files/saved_objects/postag_dict_all.p',
                  model_dir='py_files/models/all_combined_back',
-                 model_name='345M', load_poetic_vectors=True):
+                 model_name='345M', load_poetic_vectors=False):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
@@ -245,10 +245,8 @@ class Limerick_Generate:
             word_set.update(clean_def.lower().split())
 
         for other_word in word_set:
-            if other_word not in self.poetic_vectors:
-                continue
-            sim = self.poetic_vectors.similarity(w1, other_word)
-            sim += self.poetic_vectors.similarity(w2, other_word)
+            sim = self.get_spacy_similarity(w1, other_word)
+            sim += self.get_spacy_similarity(w2, other_word)
 
             if sim > max_sim and other_word != w1 and other_word != w2 and self.ps.stem(other_word) not in seen_words:
                 max_sim = sim
@@ -273,12 +271,12 @@ class Limerick_Generate:
         best_word = None
 
         for other_word in word_set:
-            if other_word not in self.poetic_vectors:
-                continue
+            # if other_word not in self.poetic_vectors:
+            #     continue
 
             sim = 0
             for word in words:
-                sim += self.poetic_vectors.similarity(word, other_word) ** 0.5
+                sim += self.get_spacy_similarity(word, other_word) ** 0.5
 
             if sim > max_sim and self.ps.stem(other_word) not in seen_words_set:
                 max_sim = sim
@@ -317,10 +315,10 @@ class Limerick_Generate:
         def cal_score(words, weights, syn):
             score = 0
             for word, weight in zip(words, weights):
-                score += max(self.poetic_vectors.similarity(word, syn), 0) ** 0.5 * weight
+                score += max(self.get_spacy_similarity(word, syn), 0) ** 0.5 * weight
             return score / sum(weights)
 
-        syn_score_list = [(syn, cal_score(words, weights, syn)) for syn in word_set if self.ps.stem(syn) not in seen_words_set and syn in self.poetic_vectors]
+        syn_score_list = [(syn, cal_score(words, weights, syn)) for syn in word_set if self.ps.stem(syn) not in seen_words_set]
         syn_score_list.sort(key=lambda x: x[1], reverse=True)
 
         return [e[0] for e in syn_score_list[:n_return]]
@@ -371,9 +369,9 @@ class Limerick_Generate:
         # Find word most similar to w4 that rhymes with it
         max_sim = 0
         for r in w3_response:
-            if r['word'] not in self.words_to_pos or r['word'] not in self.poetic_vectors.vocab:
+            if r['word'] not in self.words_to_pos:
                 continue
-            this_sim = self.poetic_vectors.similarity(r['word'], w4)
+            this_sim = self.get_spacy_similarity(r['word'], w4)
             if this_sim > max_sim and self.ps.stem(r['word']) not in seen_words:
                 w3 = r['word']
                 max_sim = this_sim
@@ -461,8 +459,7 @@ class Limerick_Generate:
         <return>:
         a set of words
         """
-        return set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': word}).json() if " " not in d['word'] and d['word'] in self.poetic_vectors and
-                   d['numSyllables'] <= max_syllables)
+        return set(d['word'] for d in requests.get(self.api_url, params={'rel_rhy': word}).json() if " " not in d['word'] and d['numSyllables'] <= max_syllables)
 
     def get_rhyming_words_henry(self, word, max_iter=10, max_words=1000, min_words=30):
         """
@@ -587,7 +584,7 @@ class Limerick_Generate:
             if seen_word in words_set:
                 words_set.remove(seen_word)
 
-        related_words_list = [(w, self.poetic_vectors.similarity(w, end_word)) for w in words_set if w in self.poetic_vectors]
+        related_words_list = [(w, self.get_spacy_similarity(w, end_word)) for w in words_set]
         top_related_words_list = sorted(related_words_list, reverse=True, key=lambda x: x[1])[:n_return]
 
         return top_related_words_list if return_score else [tup[0] for tup in top_related_words_list]
@@ -700,7 +697,7 @@ class Limerick_Generate:
             pickle.dump(names_rhymes_dict, hf)
 
     def return_top_five_average_similarity_henry(self, prompt, word_set):
-        similarity_scores = [self.poetic_vectors.similarity(prompt, word) for word in word_set]
+        similarity_scores = [self.get_spacy_similarity(prompt, word) for word in word_set]
         return sum(sorted(similarity_scores, reverse=True)[:5]) / 5
 
     def get_two_sets_new_henry(self, prompt, n_w1=50, n_w3=20):
