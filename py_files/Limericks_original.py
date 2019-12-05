@@ -778,7 +778,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			mydict=pickle.load(pickle_in)
 			pickle_in.close()
 		except:
-			pickle_in=open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","rb")
+			pickle_in=open("py_files/saved_objects/spacy_prompt_to_madlib_verbs.pickle","wb")
 			pickle.dump({},pickle_in)
 			pickle_in.close()
 		if prompt in mydict.keys() and mydict[prompt]!=None:
