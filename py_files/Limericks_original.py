@@ -153,7 +153,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				mydict=pickle.load(pickle_in)
 		except:
 			with open("py_files/saved_objects/spacy_prompt_to_w3s_rhyme_dict","wb") as pickle_in:
-				pickle.dump({},pickle_in)
+				mydict={}
+				pickle.dump(mydict,pickle_in)
 		if prompt not in mydict.keys():
 			w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
 			w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
