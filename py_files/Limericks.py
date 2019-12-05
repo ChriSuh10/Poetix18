@@ -183,7 +183,7 @@ class Limerick_Generate:
         if 'JJ' in word_pos \
             or 'NN' in word_pos \
             or any('VB' in pos for pos in word_pos):
-            distances = [self.poetic_vectors.similarity(word, rhyme) for rhyme in rhyme_set if rhyme in self.words_to_pos]
+            distances = [self.get_spacy_similarity(word, rhyme) for rhyme in rhyme_set]
             if len(distances) == 0:
                 return None
             return max(distances)
@@ -954,7 +954,6 @@ class Limerick_Generate:
         # Get top 5 that is related to the seed word
         if seed is not None:
             adj_dict_with_distances = [(self.get_spacy_similarity(word, seed), word) for word in dict['JJ'] if word in self.words_to_pos]
-            print(adj_dict_with_distances)
             adj_dict_with_distances = heapq.nlargest(5, adj_dict_with_distances, key=lambda x: x[0])
             adj_dict_with_distances = [a[1] for a in adj_dict_with_distances]
 
