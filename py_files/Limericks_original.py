@@ -249,14 +249,15 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		#self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt,self.n_w25_threshold)
-		self.w1s_rhyme_dict=self.w3s_rhyme_dict
+		self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt,self.n_w25_threshold)
 		#self.w3s_rhyme_dict=w3s_rhyme_dict
+		
 		female_name_list, male_name_list=self.load_name_list()
 
 		for name in self.w1s_rhyme_dict.keys():
 			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
 				del self.w1s_rhyme_dict[name]
+		
 		print("=========================== Creating Wema =======================================")
 		self.get_wema_dict_mp(prompt)
 		print("=========================== Finished Wema =======================================")
@@ -272,37 +273,19 @@ class Limerick_Generate_new(Limerick_Generate):
 			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
 		f = open(result_file_path+".txt","a+")
 		'''
-		previous_data=[]
-		# Append all first lines
-		for rhyme in self.w1s_rhyme_dict.keys():
-			'''
-			f.write("================================ 125 rhymes ===================================")
-			f.write(rhyme+":"+"\n")
-			f.write(" ".join(w1s_rhyme_dict[rhyme])+"\n")
-			'''
+		for rhyme in w1s_rhyme_dict.keys():
 			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
 			if len(candidates)>0: text=random.choice(candidates)
 			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,""),(0,)))
-
-		# Print out all 3\4 rhymes
-		'''
-		for i in w3s_rhyme_dict.keys():
-			f.write("=============================== 34 rhymes  =====================================")
-			f.write(i+":"+"\n")
-			f.write(" ".join(w3s_rhyme_dict[i])+"\n")
-		'''
-		# Generate 2,3,4,5 lines of the poem
+			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
 
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
-		#for which_line, num_sylls in zip(["third"],[6]):
 
 			print("======================= starting {} line generation =============================".format(which_line))
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
 
-		# Print out generated poems
 		return previous_data, self.template_to_line
 		#self.printing(previous_data,f, f_final)
 
@@ -340,9 +323,11 @@ class Limerick_Generate_new(Limerick_Generate):
 		last_word_dict={}
 		for i in ["second","third","fourth","fifth"]:
 			temp=[]
+			
 			if i == "second" or i =="fifth":
 				for k in w1s_rhyme_dict.keys():
 					temp+=w1s_rhyme_dict[k]
+			
 			if i== "fourth":
 				for k in w3s_rhyme_dict.keys():
 					temp+=w3s_rhyme_dict[k]
