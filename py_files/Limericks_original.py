@@ -318,7 +318,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			last_word_set=last_word_dict[which_line]
 			possible=self.get_all_templates(num_sylls,which_line,last_word_set)
 			previous_data=self.gen_line_flexible(previous_data=previous_data, possible=possible,num_sylls=num_sylls, search_space=search_space,retain_space=retain_space, which_line=which_line)
-
+		previous_data, _ = self.diversity_sort(previous_data,last=True)
 		return previous_data, self.template_to_line, self.words_to_names_rhyme_dict
 		#self.printing(previous_data,f, f_final)
 
@@ -520,7 +520,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return end_flag
 
 
-	def diversity_sort(self,search_space, retain_space,data, finished):
+	def diversity_sort(self,search_space, retain_space,data, finished, last=False):
 		"""
 		Given a list of sentences, put them in bins according to their templates, get
 		retain_space sentences from each bin and form a list, and get top search_space sentences from
@@ -535,6 +535,9 @@ class Limerick_Generate_new(Limerick_Generate):
 		finished: bool
 			Whether the current sentence is completed
 		"""
+		if last:
+			data_new=heapq.nlargest(len(data), data, key=lambda x: np.mean(x[1]))
+			return data_new,0
 		if self.diversity:
 			temp_data=defaultdict(set)
 			# Key is "template; current_line_template". For each key we only keep retain_space sentences

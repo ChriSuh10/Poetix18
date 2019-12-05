@@ -7,7 +7,7 @@ import pickle
 import numpy as np
 from collections import defaultdict
 import heapq
-def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict):
+def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict,f_all,prompt):
 	try:
 		with open(f_final+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
@@ -55,7 +55,7 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 		f.write(k)
 		f.write("----------------------- original sentences ------------------------------------ \n")
 		f.write(" ".join(lines))
-		for j in temp_data[k]:
+		for jj,j in enumerate(temp_data[k]):
 			adjusted_score=np.mean(j[1])+word_embedding_coefficient*np.mean(j[5])
 			score=np.mean(j[1])
 			data_curr_score.append(score)
@@ -63,6 +63,9 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 			f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
 			limerick=list(j[2])
 			limerick[limerick.index("\n")-1]=words_to_names_rhyme_dict[j[4][0]][0]
+			if jj<3:
+				f_all.write("{}:{}".format(prompt,score)+"\n")
+				f_all.write(" ".join(limerick)+"\n")
 			f.write(" ".join(limerick))
 			f.write("------------------------- score breakdown ------------------------ \n")
 			count_w=j[2].index("\n")+1
@@ -110,14 +113,16 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	if saved_directory not in os.listdir(os.getcwd()):
 			os.mkdir(saved_directory)
 	result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
+	all_result_file_path=saved_directory +"/" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	previous_data, template_to_line,words_to_names_rhyme_dict=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
 		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
 	with open(result_file_path+".pickle","wb") as f3:
 		pickle.dump(previous_data,f3)
-	with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
-		pickle.dump(template_to_line,f4)
+	#with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
+		#pickle.dump(template_to_line,f4)
 	with open(result_file_path+".txt","a+") as f:
-		printing(previous_data,f, f_final, f_final_best,word_embedding_coefficient, template_to_line, words_to_names_rhyme_dict)
+		with open(all_result_file_path+".txt","a+") as f_all:
+			printing(previous_data,f, f_final,f_final_best,word_embedding_coefficient, template_to_line, words_to_names_rhyme_dict,f_all,prompt)
 	with open(f1_path,"a+") as f1:
 		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 	'''
