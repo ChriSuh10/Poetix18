@@ -238,7 +238,12 @@ class Limerick_Generate_new(Limerick_Generate):
 		last_word_dict={}
 		for i in ["second","third","fourth","fifth"]:
 			temp=[]
-			
+			if i== "fifth":
+				for k in w1s_rhyme_dict.keys():
+					temp+=w1s_rhyme_dict[k]
+			if i=="second":
+				for k in w1s_rhyme_dict.keys():
+					temp.append(k)
 			if i== "fourth":
 				for k in w3s_rhyme_dict.keys():
 					temp+=w3s_rhyme_dict[k]
