@@ -86,8 +86,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				if i in self.storyline_second_words:
 					temp=[t for t in item_rhyme if t in self.storyline_second_words]
 					temp.remove(i)
-					self.w1s_rhyme_dict[i].append(temp)
-					self.words_to_names_rhyme_dict[i].append(item_name)
+					self.w1s_rhyme_dict[i]+=temp
+					self.words_to_names_rhyme_dict[i]+=item_name
 
 
 	def finer_pos_category(self):
@@ -624,7 +624,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				word_dict = collections.defaultdict()
 
 				if which_line=="second":
-					rhyme_dict = {"second_line_special_case": self.w3s_rhyme_dict.keys()}
+					rhyme_dict = {"second_line_special_case": self.w1s_rhyme_dict.keys()}
 				elif which_line=="fifth":
 					rhyme_dict=self.w1s_rhyme_dict
 				# Hack: for third line, we do not have a rhyming word yet, and the legitimate

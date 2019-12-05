@@ -85,8 +85,8 @@ class Limerick_Generate_new(Limerick_Generate):
 				if i in self.storyline_second_words:
 					temp=[t for t in item_rhyme if t in self.storyline_second_words]
 					temp.remove(i)
-					self.w1s_rhyme_dict[i].append(temp)
-					self.words_to_names_rhyme_dict[i].append(item_name)
+					self.w1s_rhyme_dict[i]+=temp
+					self.words_to_names_rhyme_dict[i]+=item_name
 
 
 	def finer_pos_category(self):
