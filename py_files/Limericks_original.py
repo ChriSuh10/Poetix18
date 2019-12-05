@@ -273,6 +273,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
 		f = open(result_file_path+".txt","a+")
 		'''
+		previous_data=[]
 		for rhyme in self.w1s_rhyme_dict.keys():
 			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
 			if len(candidates)>0: text=random.choice(candidates)

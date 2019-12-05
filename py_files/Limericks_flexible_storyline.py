@@ -184,35 +184,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		# self.madlib_verbs = self.get_madlib_verbs(prompt,["NN","NNS"])
 		print("------- Madlib Verbs ------")
 		print(self.madlib_verbs)
-		self.w1s_rhyme_dict= self.get_two_sets_20191113_henry(prompt,self.n_w25_threshold)
-		#self.w3s_rhyme_dict=w3s_rhyme_dict
-		
-		female_name_list, male_name_list=self.load_name_list()
-
-		for name in self.w1s_rhyme_dict.keys():
-			if name.lower() not in female_name_list and  name.lower() not in male_name_list:
-				del self.w1s_rhyme_dict[name]
+		self.w1s_rhyme_dict=self.w3s_rhyme_dict		
 		
 		print("=========================== Creating Wema =======================================")
 		self.get_wema_dict_mp(prompt)
 		print("=========================== Finished Wema =======================================")
 
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
-		#self.saved_directory="limericks_experiment_TB_CLS"
-		'''
-		if self.saved_directory not in os.listdir(os.getcwd()):
-			os.mkdir(self.saved_directory)
-		if self.mode=="multi":
-			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+self.mode+"_"+str(diversity)+"_"+"original"
-		else:
-			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
-		f = open(result_file_path+".txt","a+")
-		'''
-		for rhyme in w1s_rhyme_dict.keys():
-			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
-			if len(candidates)>0: text=random.choice(candidates)
-			first_line_encodes = self.enc.encode(" ".join(text))
-			previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),(rhyme,"")))
 
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 
@@ -258,10 +236,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		last_word_dict={}
 		for i in ["second","third","fourth","fifth"]:
 			temp=[]
-			
-			if i == "second" or i =="fifth":
-				for k in w1s_rhyme_dict.keys():
-					temp+=w1s_rhyme_dict[k]
 			
 			if i== "fourth":
 				for k in w3s_rhyme_dict.keys():
