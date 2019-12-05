@@ -413,7 +413,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		return end_flag
 
 
-	def diversity_sort(self,search_space=None, retain_space=None,data, finished=None,last=False):
+	def diversity_sort(self,search_space=None, retain_space=None,data=None, finished=None,last=False):
 		"""
 		Given a list of sentences, put them in bins according to their templates, get
 		retain_space sentences from each bin and form a list, and get top search_space sentences from
