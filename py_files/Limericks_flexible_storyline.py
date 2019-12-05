@@ -139,72 +139,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.w3s_rhyme_dict=mydict[prompt]
 		with open("py_files/saved_objects/prompt_to_w3s_rhyme_dict","wb") as pickle_in:
 			pickle.dump(mydict,pickle_in)
-	'''
-	def printing(self,data, f, f_final):
-		with open(f_final+"_"+".pickle","rb") as pickle_in:
-			data_old=pickle.load(pickle_in)
-		data_curr_score=[]
-		data_curr_adjusted_score=[]
-		temp_data=defaultdict(list)
-		for line in data:
-			temp_data[" ".join(line[3])].append(line)
 
-		for t,k in enumerate(temp_data.keys()):
-			lines=[]
-			num_of_words_each_line=[0]
-			for pp in temp_data[k]:
-				count=0
-				for ppp in pp[3]:
-					if ppp=="\n":
-						count+=1
-						num_of_words_each_line.append(0)
-					else:
-						num_of_words_each_line[count]+=1
-				break
-			num_of_words_each_line=num_of_words_each_line[1:-1]
-			for i in k.split("\n")[1:]:
-				i=i.strip()
-				if len(i)!=0:
-					i_list=i.split(" ")
-					try:
-						line=list(self.template_to_line[" ".join(i_list)][0])+["\n"]
-					except:
-						line=list(self.template_to_line[" ".join(i_list[:-1])][0])+["\n"]
-					lines+=line
-
-			f.write("======================= template: {} ============================  \n".format(t+1))
-			f.write(k)
-			f.write("----------------------- original sentences ------------------------------------ \n")
-			f.write(" ".join(lines))
-			for j in temp_data[k]:
-				adjusted_score=np.mean(j[1])+self.word_embedding_coefficient*np.mean(j[5])
-				score=np.mean(j[1])
-				data_curr_score.append(score)
-				data_curr_adjusted_score.append(adjusted_score)
-				f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
-				f.write(" ".join(j[2]))
-				f.write("------------------------- score breakdown ------------------------ \n")
-				count_w=j[2].index("\n")+1
-				count_s=1
-				for s in range(4):
-					temp_list=[]
-					for ww,w in enumerate(j[2][count_w:count_w+num_of_words_each_line[s]]):
-						f.write("({} {:03.2f})".format(w,j[1][count_s+ww]))
-						temp_list.append(j[1][count_s+ww])
-					count_s+=ww
-					count_w+=ww+2
-					f.write(" line score is : {:04.03f}, look ahead score is : {:04.03f}".format(np.mean(temp_list),j[5][s]))
-					f.write("\n")
-		data_old_score=data_old["score"]
-		data_old_adjusted_score=data_old["adjusted_score"]
-		data_curr_score+=data_old_score
-		data_curr_adjusted_score+=data_old_adjusted_score
-		data_curr={}
-		data_curr["score"]=data_curr_score
-		data_curr["adjusted_score"]=data_curr_adjusted_score
-		with open(f_final+"_"+".pickle","wb") as pickle_in:
-			pickle.dump(data_curr,pickle_in)
-	'''
 	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=True, prob_threshold=-10, mode="multi", relax_story_line=False,diversity=True):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
@@ -273,7 +208,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			result_file_path = self.saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(self.word_embedding_coefficient)+"_"+str(self.mode)+"_"+str(diversity)+"_"+"original"
 		f = open(result_file_path+".txt","a+")
 		'''
-		for rhyme in self.w1s_rhyme_dict.keys():
+		for rhyme in w1s_rhyme_dict.keys():
 			candidates=self.gen_first_line_new(rhyme.lower(),strict=True)
 			if len(candidates)>0: text=random.choice(candidates)
 			first_line_encodes = self.enc.encode(" ".join(text))
