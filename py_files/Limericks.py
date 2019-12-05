@@ -948,7 +948,6 @@ class Limerick_Generate:
         if seed is not None:
             adj_dict_with_distances = [(self.poetic_vectors.similarity(word, seed), word) for word in dict['JJ'] if word in self.words_to_pos]
             adj_dict_with_distances = heapq.nlargest(5, adj_dict_with_distances, key=lambda x: x[0])
-        pdb.set_trace()
         for template in templates:
             if strict and last_word_is_location and template[-1] != 'PLACE':
                 continue
