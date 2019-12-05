@@ -13,6 +13,7 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 		from py_files.Limericks_no_story import Limerick_Generate_new
 	lg = Limerick_Generate_new(model_name=model_name,model_dir=model_dir, saved_directory=saved_directory)
 	x=lg.gen_first_line_new("Freya", contains_adjective=True, strict=False, search_space=10, seed=seed)
+	pdb.set_trace()
 	print(x)
 	'''
 	prompt_list="blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
