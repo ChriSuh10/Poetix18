@@ -1,13 +1,13 @@
 def bash_generator():
-	type="original"
-	saved_directory="final_testing_DTS_storyline_120_5"
-	search_space=120
-	retain_space=5
+	type="no_story"
+	saved_directory="final_testing_DTS_no_story_no_diversity"
+	search_space=20
+	retain_space=30
 	word_embedding_coefficient=0.1
 	mode="multi"
-	diversity=True
-	cuda=2
-	prompt_list="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive,"
+	diversity=False
+	cuda=1
+	prompt_list="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
 	prompt_list=set(prompt_list.split(", "))
 	with open("run_Limericks_"+saved_directory+"_"+str(cuda)+".sh","w") as f:
 		f.write("#!/bin/bash \n")
