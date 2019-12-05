@@ -71,7 +71,7 @@ class Limerick_Generate_new(Limerick_Generate):
 
 		# word embedding coefficients
 
-	def create_w1s_rhyme_dict(self):
+	def create_w1s_rhyme_dict(self,prompt):
 		self.sum_rhyme=[]
 		self.w1s_rhyme_dict=defaultdict(list)
 		self.words_to_names_rhyme_dict=defaultdict(list)
@@ -259,7 +259,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.relax_story_line=True
 			self.prob_threshold = None
 		self.finer_pos_category()
-		self.create_w1s_rhyme_dict()
+		self.create_w1s_rhyme_dict(prompt)
 		print("=================== Finished Initializing ==================================")
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = word_embedding_coefficient
@@ -580,10 +580,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_wema_dict_mp(self,prompt):
 		try:
-			with open("py_files/saved_objects/spacy_wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
+			with open("py_files/saved_objects/poetic_wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
 				self.wema_dict=pickle.load(pickle_in)
 		except:
-			with open("py_files/saved_objects/spacy_wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
+			with open("py_files/saved_objects/poetic_wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
 				num_list_list= self.split_chunks(list(range(50256)))
 				manager_wema = mp.Manager()
 				output_wema=manager_wema.Queue()

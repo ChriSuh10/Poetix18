@@ -187,7 +187,7 @@ class Limerick_Generate:
         if 'JJ' in word_pos \
             or 'NN' in word_pos \
             or any('VB' in pos for pos in word_pos):
-            distances = [self.get_spacy_similarity(word, rhyme) for rhyme in rhyme_set]
+            distances = [self.poetic_vectors.similarity(word, rhyme) for rhyme in rhyme_set if rhyme not in self.poetic_vectors]
             if len(distances) == 0:
                 return None
             return max(distances)

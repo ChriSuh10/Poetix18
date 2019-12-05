@@ -70,13 +70,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.names_rhymes_list = pickle.load(hf)
 		# word embedding coefficients
 
-	def create_w1s_rhyme_dict(self):
+	def create_w1s_rhyme_dict(self,prompt):
 		self.sum_rhyme=[]
 		self.w1s_rhyme_dict=defaultdict(list)
 		self.words_to_names_rhyme_dict=defaultdict(list)
 		for item in self.names_rhymes_list:
+			item_name, item_rhyme= item[0],item[1]
 			self.sum_rhyme+=item_rhyme
 		self.storyline_second_words=self.get_similar_word_henry([prompt], n_return=200, word_set=set(self.sum_rhyme))
+		print(self.storyline_second_words)
 		for item in self.names_rhymes_list:
 			item_name, item_rhyme= item[0],item[1] 
 			for i in item_rhyme:
@@ -235,7 +237,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.mode=mode
 		self.relax_story_line=relax_story_line
 		self.story_line=False
-		self.create_w1s_rhyme_dict()
+		self.create_w1s_rhyme_dict(prompt)
 		if not self.story_line:
 			try:
 				pickle_in=open("py_files/saved_objects/rhyming_dict_for_no_storyline.pickle","rb")
