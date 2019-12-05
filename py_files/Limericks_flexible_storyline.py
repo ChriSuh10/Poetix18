@@ -191,7 +191,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		print("=========================== Finished Wema =======================================")
 
 		last_word_dict=self.last_word_dict(self.w1s_rhyme_dict,self.w3s_rhyme_dict)
-
+		previous_data=[]
+		text=["there","once","was","a", "nice","lady","named","Freya"]
+		first_line_encodes = self.enc.encode(" ".join(text))
+		previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),("",""),(0,)))
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 
 			print("======================= starting {} line generation =============================".format(which_line))
