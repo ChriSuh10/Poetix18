@@ -258,7 +258,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			self.relax_story_line=True
 			self.prob_threshold = None
 		self.finer_pos_category()
-		self.create_w1s_rhyme_dict
+		self.create_w1s_rhyme_dict()
 		print("=================== Finished Initializing ==================================")
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = word_embedding_coefficient
@@ -620,7 +620,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			line_dict=collections.defaultdict(dict)
 			# For each line, create a dictionary where the key is the rhyming word of the line
 			# and the value is the average distance to the rhyme set corresponding to the rhyme word.
-			for which_line in ["second or fifth", "third", "fourth"]:
+			for which_line in ["second","fifth", "third", "fourth"]:
 				word_dict = collections.defaultdict()
 
 				if which_line=="second":
