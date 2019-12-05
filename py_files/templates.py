@@ -624,12 +624,12 @@ def get_first_nnp():
 def get_first_line_templates():
     lines=[
             ['there', 'was', 'a', 'JJ', 'PERSON', 'IN', 'PLACE'],
-            ['there', 'was', 'a', 'PERSON', 'IN', 'PLACE'],
+            # ['there', 'was', 'a', 'PERSON', 'IN', 'PLACE'],
             ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
-            ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
+            # ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
             ['there', 'was', 'a', 'JJ', 'PERSON', 'whose', 'name', 'was', 'NAME'],
-            ['there', 'was', 'a', 'PERSON', 'whose', 'name', 'was', 'NAME'],
-            ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
+            # ['there', 'was', 'a', 'PERSON', 'whose', 'name', 'was', 'NAME'],
+            # ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
             ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
             ['there', 'once', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
         ]

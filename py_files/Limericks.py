@@ -26,6 +26,7 @@ from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
 from .templates import get_first_nnp, get_first_line_templates, get_good_templates
 import pdb
+import spacy
 
 class Limerick_Generate:
     def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
@@ -76,6 +77,12 @@ class Limerick_Generate:
         if self.names_rhymes[self.names_rhymes.rfind("/") + 1:] in os.listdir("py_files/saved_objects"):
             with open(self.names_rhymes, "rb") as hf:
                 self.names_rhymes_dict = pickle.load(hf)
+
+        self.spacy_nlp = spacy.load("en_core_web_lg")
+
+
+    def get_spacy_similarity(self, word1, word2):
+        return self.spacy_nlp(word1).similarity(self.spacy_nlp(word2))
 
     def create_syll_dict(self, fname):
         """
@@ -946,8 +953,11 @@ class Limerick_Generate:
 
         # Get top 5 that is related to the seed word
         if seed is not None:
-            adj_dict_with_distances = [(self.poetic_vectors.similarity(word, seed), word) for word in dict['JJ'] if word in self.words_to_pos]
+            adj_dict_with_distances = [(self.get_spacy_similarity(word, seed), word) for word in dict['JJ'] if word in self.words_to_pos]
+            print(adj_dict_with_distances)
             adj_dict_with_distances = heapq.nlargest(5, adj_dict_with_distances, key=lambda x: x[0])
+            adj_dict_with_distances = [a[1] for a in adj_dict_with_distances]
+
         for template in templates:
             if strict and last_word_is_location and template[-1] != 'PLACE':
                 continue
