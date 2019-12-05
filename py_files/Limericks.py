@@ -588,7 +588,7 @@ class Limerick_Generate:
             if seen_word in words_set:
                 words_set.remove(seen_word)
 
-        related_words_list = [(w, self.poetic_vectors.similarity(w, end_word)) for w in words_set if w not in self.poetic_vectors]
+        related_words_list = [(w, self.poetic_vectors.similarity(w, end_word)) for w in words_set if w  in self.poetic_vectors]
         top_related_words_list = sorted(related_words_list, reverse=True, key=lambda x: x[1])[:n_return]
 
         return top_related_words_list if return_score else [tup[0] for tup in top_related_words_list]
@@ -676,7 +676,7 @@ class Limerick_Generate:
 
         return w1s_rhyme_filtered_dict, w3s_rhyme_filtered_dict
 
-    def filter_common_word_henry(self, word, fast=False, threshold=0.35):
+    def filter_common_word_henry(self, word, fast=False, threshold=0.3):
         if fast:
             pos_list = ["VBP"]
         else:
