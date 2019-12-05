@@ -76,6 +76,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.w1s_rhyme_dict=defaultdict(list)
 		self.words_to_names_rhyme_dict=defaultdict(list)
 		for item in self.names_rhymes_list:
+			item_name, item_rhyme= item[0],item[1]
 			self.sum_rhyme+=item_rhyme
 		self.storyline_second_words=self.get_similar_word_henry([prompt], n_return=200, word_set=set(self.sum_rhyme))
 		print(self.storyline_second_words)
@@ -600,7 +601,6 @@ class Limerick_Generate_new(Limerick_Generate):
 				print(self.wema_dict["happy"])
 				print("********************************** multiprocessing ends for wema *****************************************************")
 				pickle.dump(self.wema_dict,pickle_in)
-				pdb.set_trace()
 	# wema dict structure
 	# {"happy" -> {"second": {"bee": 0.57 (avg distance to words that rhyme with bee), "cow": 0.69...}}}
 	def get_wema_dict(self, num_list, output_wema):
