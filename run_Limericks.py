@@ -63,7 +63,7 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 			f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
 			limerick=list(j[2])
 			limerick[limerick.index("\n")-1]=words_to_names_rhyme_dict[j[4][0]][0]
-			f.write(" ".join(j[2]))
+			f.write(" ".join(limerick))
 			f.write("------------------------- score breakdown ------------------------ \n")
 			count_w=j[2].index("\n")+1
 			count_s=1
@@ -117,7 +117,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
 		pickle.dump(template_to_line,f4)
 	with open(result_file_path+".txt","a+") as f:
-		printing(previous_data,f, f_final, f_final_best,word_embedding_coefficient, template_to_line)
+		printing(previous_data,f, f_final, f_final_best,word_embedding_coefficient, template_to_line, words_to_names_rhyme_dict)
 	with open(f1_path,"a+") as f1:
 		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 	'''
