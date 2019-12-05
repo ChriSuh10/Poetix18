@@ -172,7 +172,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		print("=================== Finished Initializing ==================================")
 		self.word_embedding_alpha = 0.5
 		self.word_embedding_coefficient = word_embedding_coefficient
-		self.n_w25_threshold=10
 		print("===============================   helper       ==============================================")
 		self.helper(prompt)
 		print("===============================   end helper       ==============================================")
@@ -459,10 +458,10 @@ class Limerick_Generate_new(Limerick_Generate):
 
 	def get_wema_dict_mp(self,prompt):
 		try:
-			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"rb") as pickle_in:
+			with open("py_files/saved_objects/small_wema_dict_{}.pickle".format(prompt),"rb") as pickle_in:
 				self.wema_dict=pickle.load(pickle_in)
 		except:
-			with open("py_files/saved_objects/wema_dict_{}_{}.pickle".format(prompt,self.n_w25_threshold),"wb") as pickle_in:
+			with open("py_files/saved_objects/small_wema_dict_{}.pickle".format(prompt),"wb") as pickle_in:
 				num_list_list= self.split_chunks(list(range(50256)))
 				manager_wema = mp.Manager()
 				output_wema=manager_wema.Queue()
@@ -499,15 +498,13 @@ class Limerick_Generate_new(Limerick_Generate):
 			line_dict=collections.defaultdict(dict)
 			# For each line, create a dictionary where the key is the rhyming word of the line
 			# and the value is the average distance to the rhyme set corresponding to the rhyme word.
-			for which_line in ["second or fifth", "third", "fourth"]:
+			for which_line in ["third", "fourth"]:
 				word_dict = collections.defaultdict()
 
-				if which_line=="second or fifth":
-					rhyme_dict = self.w1s_rhyme_dict
 				# Hack: for third line, we do not have a rhyming word yet, and the legitimate
 				# ending word of the third line is chosen from the keys of our rhyming dictionary.
-				elif which_line == "third":
-					rhyme_dict = {"third_line_special_case": self.w3s_rhyme_dict.keys()}
+				if which_line == "third":
+					rhyme_dict = {"special_case": self.w3s_rhyme_dict.keys()}
 				else:
 					rhyme_dict = self.w3s_rhyme_dict
 
@@ -695,12 +692,15 @@ class Limerick_Generate_new(Limerick_Generate):
 			num_sylls_curr=sentences[i][5]
 			moving_avg_curr=sentences[i][7][-1]
 			rhyme_set_curr = set()
-			if which_line=="second" or which_line=="fifth":
+			if which_line=="second":
+				rhyme_set_curr = self.w1s_rhyme_dict.keys()
+				rhyme_word="special_case"
+			if which_line=="fifth":
 				rhyme_set_curr = self.w1s_rhyme_dict[sentences[i][6][0]]
 				rhyme_word=sentences[i][6][0]
 			if which_line=="third":
 				rhyme_set_curr = self.w3s_rhyme_dict.keys()
-				rhyme_word="third_line_special_case"
+				rhyme_word="special_case"
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
@@ -778,14 +778,14 @@ class Limerick_Generate_new(Limerick_Generate):
 							new_sentences.append(word_tuple)
 					if end_flag:
 						for end_sub_flag in end_flag:
-							if which_line=="second" or which_line=="fifth":
+							if which_line=="second":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
 									word_tuple=(sentences[i][0] + (index,),
 												sentences[i][1] + (np.log(j[index]),),
 												sentences[i][2]+(word,),
 												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
-												sentences[i][6],
+												(word,""),
 												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="third":
@@ -799,6 +799,16 @@ class Limerick_Generate_new(Limerick_Generate):
 												tuple_of_wema)
 									quasi_finished_sentences.append(word_tuple)
 							if which_line=="fourth":
+								if word in rhyme_set_curr:
+									word_list_against_duplication.append(word)
+									word_tuple=(sentences[i][0] + (index,),
+												sentences[i][1] + (np.log(j[index]),),
+												sentences[i][2]+(word,),
+												sentences[i][3]+sentences[i][4]+(end_sub_flag[0],),
+												sentences[i][6],
+												tuple_of_wema)
+									quasi_finished_sentences.append(word_tuple)
+							if which_line=="fifth":
 								if word in rhyme_set_curr:
 									word_list_against_duplication.append(word)
 									word_tuple=(sentences[i][0] + (index,),

@@ -101,6 +101,8 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 		from py_files.Limericks_34_linked import Limerick_Generate_new
 	if type=="no_story":
 		from py_files.Limericks_no_story import Limerick_Generate_new
+	if type=="flexible_storyline":
+		from py_files.Limericks_flexible_storyline import Limerick_Generate_new
 	lg = Limerick_Generate_new()
 	saved_directory=saved_directory+str(cuda)
 	f_final=saved_directory +"/"+"results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
