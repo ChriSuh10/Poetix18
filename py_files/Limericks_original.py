@@ -600,6 +600,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				print(self.wema_dict["happy"])
 				print("********************************** multiprocessing ends for wema *****************************************************")
 				pickle.dump(self.wema_dict,pickle_in)
+				pdb.set_trace()
 	# wema dict structure
 	# {"happy" -> {"second": {"bee": 0.57 (avg distance to words that rhyme with bee), "cow": 0.69...}}}
 	def get_wema_dict(self, num_list, output_wema):
