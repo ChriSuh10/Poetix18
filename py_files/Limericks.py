@@ -33,7 +33,7 @@ class Limerick_Generate:
                  syllables_file='py_files/saved_objects/cmudict-0.7b.txt',
                  postag_file='py_files/saved_objects/postag_dict_all.p',
                  model_dir='py_files/models/all_combined_back',
-                 model_name='345M', load_poetic_vectors=False):
+                 model_name='345M', load_poetic_vectors=True):
         self.api_url = 'https://api.datamuse.com/words'
         self.ps = nltk.stem.PorterStemmer()
         self.punct = re.compile(r'[^\w\s]')
@@ -588,7 +588,7 @@ class Limerick_Generate:
             if seen_word in words_set:
                 words_set.remove(seen_word)
 
-        related_words_list = [(w, self.get_spacy_similarity(w, end_word)) for w in words_set]
+        related_words_list = [(w, self.poetic_vectors.similarity(w, end_word)) for w in words_set]
         top_related_words_list = sorted(related_words_list, reverse=True, key=lambda x: x[1])[:n_return]
 
         return top_related_words_list if return_score else [tup[0] for tup in top_related_words_list]
