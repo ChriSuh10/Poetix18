@@ -158,7 +158,7 @@ class Limerick_Generate_new(Limerick_Generate):
 				pickle.dump(mydict,pickle_in)
 		if prompt not in mydict.keys():
 			w3s = self.get_similar_word_henry([prompt], n_return=20, word_set=set(self.filtered_nouns_verbs))
-			w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
+			w3s_rhyme_dict = {w3: {word for word in self.get_rhyming_words_one_step_henry(w3) if word in self.poetic_vectors and self.filter_common_word_henry(word, fast=True)} for w3 in w3s}
 			mydict[prompt]=w3s_rhyme_dict
 		self.w3s_rhyme_dict=mydict[prompt]
 		print(self.w3s_rhyme_dict)
