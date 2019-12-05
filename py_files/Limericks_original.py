@@ -836,7 +836,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			if which_line=="fourth":
 				rhyme_set_curr = self.w3s_rhyme_dict[sentences[i][6][1]]
 				rhyme_word=sentences[i][6][1]
-			pdb.set_trace()
+				pdb.set_trace()
 
 			# If it is the fifth line, the current template has to corresponds to the fourth line template
 			# because they are usually one sentence
