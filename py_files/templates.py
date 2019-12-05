@@ -624,28 +624,41 @@ def get_first_nnp():
 def get_first_line_templates():
     lines=[
             ['there', 'was', 'a', 'JJ', 'PERSON', 'IN', 'PLACE'],
-            # ['there', 'was', 'a', 'PERSON', 'IN', 'PLACE'],
+            ['there', 'was', 'a', 'PERSON', 'IN', 'PLACE'],
             ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
-            # ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
-            ['there', 'was', 'a', 'JJ', 'PERSON', 'whose', 'name', 'was', 'NAME'],
-            # ['there', 'was', 'a', 'PERSON', 'whose', 'name', 'was', 'NAME'],
-            # ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
+            ['there', 'was', 'a', 'PERSON', 'named', 'NAME'],
+            # ['there', 'was', 'a', 'PERSON', 'IN', 'PLACE', 'named', 'NAME'],
             ['there', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
-            ['there', 'once', 'was', 'a', 'JJ', 'PERSON', 'named', 'NAME'],
+            ['there', 'once', 'was', 'a', 'PERSON', 'named', 'NAME'],
         ]
     placeholders = ['JJ', 'PERSON', 'PLACE', 'NAME', 'IN']
     placeholder_dict = {
         'PERSON': {
-            'MALE' : ['fellow', 'man', 'boy', 'gentleman'],
-            'FEMALE': ['lady', 'woman', 'girl'],
-            'NEUTRAL': []
+            'MALE' : ['man', 'boy', 'actor', 'waiter', 'grandpa', 'king'],
+            'FEMALE': ['lady', 'woman', 'girl', 'wildcat', 'actress', 'waitress',
+            'grandma', 'witch', 'queen'],
+            'NEUTRAL': ['soldier', 'general', 'bully', 'dancer',
+                        'boxer', 'warrior', 'scrapper', 'teacher', 'lawyer',
+                        'writer', 'engineer', 'professor', 'author', 'architect',
+                        'scientist', 'tailor', 'nurse', 'chef', 'technician',
+                        'firefighter', 'farmer', 'judge', 'surgeon',
+                        'designer', 'plumber', 'dentist', 'artist', 'blacksmith',
+                        'butcher', 'librarian', 'secretary', 'bartender',
+                        'doctor', 'cleaner', 'journalist', 'hustler', 'grifter',
+                        'liar', 'captain', 'phony', 'lieutenant',
+                        'quack', 'impostor', 'magician']
         },
-        'JJ': ['young', 'humble', 'dear', 'clever', 'polite', 'likeable',
-        'sincere', 'kind', 'bright', 'witty', 'brave', 'chatty',
-        'cowardly', 'friendly', 'funny', 'grumpy', 'honest', 'lazy', 'loud',
+        'JJ': ['humble', 'clever', 'polite', 'bright', 'witty', 'brave', 'chatty',
+        'cowardly', 'funny', 'honest', 'lazy', 'loud',
         'lucky', 'neat', 'nasty', 'nervous', 'quiet', 'rude', 'selfish',
         'serious', 'shy', 'silly', 'smart', 'stupid', 'unlucky','untidy',
-        'vain', 'wise'],
+        'vain', 'wise', 'skinny', 'lame', 'funky', 'hippy', 'uptight',
+        'hairy', 'husky', 'nippy', 'chunky', 'smelly', 'drooling', 'vulgar',
+        'unkind', 'sneaky', 'stingy', 'stubborn', 'jealous', 'harsh', 'greedy',
+        'grumpy', 'fussy', 'cruel', 'careless', 'cunning', 'bossy', 'boring',
+        'aloof', 'bitchy', 'callous', 'clingy', 'jittery', 'feisty', 'fierce',
+        'quirky',  'sexy', 'bubbly', 'lively', 'pushy', 'sassy', 'curvy',
+        'shrill', 'sly', 'lusty', 'dazzling', 'classy'],
         'IN': ['from', 'of', 'in']
     }
     return lines, placeholders, placeholder_dict

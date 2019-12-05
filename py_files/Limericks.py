@@ -950,12 +950,21 @@ class Limerick_Generate:
 
         w_response = {last_word}
         candidate_sentences = []
+        candidate_sentences_with_place = []
 
         # Get top 5 that is related to the seed word
         if seed is not None:
             adj_dict_with_distances = [(self.get_spacy_similarity(word, seed), word) for word in dict['JJ'] if word in self.words_to_pos]
             adj_dict_with_distances = heapq.nlargest(5, adj_dict_with_distances, key=lambda x: x[0])
             adj_dict_with_distances = [a[1] for a in adj_dict_with_distances]
+
+            person_with_distances = []
+            for gender in dict['PERSON']:
+                person_with_distances += [(self.get_spacy_similarity(word, seed), word, gender) for word in dict['PERSON'][gender]]
+            person_with_distances = heapq.nlargest(5, person_with_distances, key=lambda x: x[0])
+            person_with_distances_dict = collections.defaultdict(list)
+            for person in person_with_distances:
+                person_with_distances_dict[person[2]].append(person[1])
 
         for template in templates:
             if strict and last_word_is_location and template[-1] != 'PLACE':
@@ -971,6 +980,8 @@ class Limerick_Generate:
                     continue
                 if word == 'PERSON':
                     person_dict = dict['PERSON']
+                    if seed is not None:
+                        person_dict = person_with_distances_dict
                     if len(candidates) == 0:
                         candidates = [{'PERSON': p, 'GENDER': 'MALE'} for p in person_dict['MALE']] \
                             + [{'PERSON': p, 'GENDER': 'FEMALE'} for p in person_dict['FEMALE']] \
@@ -1050,6 +1061,8 @@ class Limerick_Generate:
                                 new_d['NAME'] = name
                                 new_candidates.append(new_d)
                     candidates = new_candidates
+
+            is_template_with_place = ('PLACE' in template)
             for candidate in candidates:
                 if candidate[template[-1]] not in w_response:
                     continue
@@ -1059,12 +1072,16 @@ class Limerick_Generate:
                         new_sentence[i] = candidate[new_sentence[i]]
                 # First line always has 8 or 9 syllables
                 if self.is_correct_meter(new_sentence, num_syllables=[8, 9]):
-                    candidate_sentences.append(new_sentence)
-
+                    if is_template_with_place:
+                        candidate_sentences_with_place.append(new_sentence)
+                    else:
+                        candidate_sentences.append(new_sentence)
 
         random.shuffle(candidate_sentences)
+        random.shuffle(candidate_sentences_with_place)
+        return candidate_sentences[:int(search_space*0.7)] \
+        + candidate_sentences_with_place[:min(int(search_space*0.3), int(len(candidate_sentences)*0.3))]
         return candidate_sentences[:search_space]
-
     def gen_first_line(self, w2, num_sylls):
         def get_num_sylls(template):
             n = 0
