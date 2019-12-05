@@ -4,13 +4,17 @@ import fire
 import pdb
 import os
 import pickle
-def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", saved_directory="final_testing"):
+def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", saved_directory="final_testing", seed=None):
 	if type=="original":
 		from py_files.Limericks_original import Limerick_Generate_new
 	if type=="34linked":
 		from py_files.Limericks_34_linked import Limerick_Generate_new
 	if type=="no_story":
 		from py_files.Limericks_no_story import Limerick_Generate_new
+	lg = Limerick_Generate_new(model_name=model_name,model_dir=model_dir, saved_directory=saved_directory)
+	x=lg.gen_first_line_new("Freya", contains_adjective=True, strict=True, search_space=10, seed=seed)
+	print(x)
+	'''
 	prompt_list="blood, death, war, queen, happy, world, planet, fire, water, game, love, vegetable, fish, theater, tiger, library, fairy, duke, print, click"
 	prompt_list=prompt_list.split(", ")
 	word_embedding_coefficient_list=[0.1]
@@ -63,5 +67,6 @@ def run_test(model_name="345M",model_dir='gpt2/models/345M', type="original", sa
 							with open(f2_path,"a+") as f2:
 								f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+"original"+"\n")
 							continue
+	'''
 if __name__ == '__main__':
     fire.Fire(run_test)
