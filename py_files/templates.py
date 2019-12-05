@@ -634,15 +634,14 @@ def get_first_line_templates():
     placeholders = ['JJ', 'PERSON', 'PLACE', 'NAME', 'IN']
     placeholder_dict = {
         'PERSON': {
-            'MALE' : ['man', 'boy', 'actor', 'waiter', 'grandpa', 'king'],
+            'MALE' : ['man', 'boy', 'actor', 'waiter', 'grandpa','plumber','soldier', 'general', 'bully', 'boxer'],
             'FEMALE': ['lady', 'woman', 'girl', 'wildcat', 'actress', 'waitress',
-            'grandma', 'witch', 'queen'],
-            'NEUTRAL': ['soldier', 'general', 'bully', 'dancer',
-                        'boxer', 'warrior', 'scrapper', 'teacher', 'lawyer',
+            'grandma', 'witch', 'dancer','nurse'],
+            'NEUTRAL': ['warrior', 'scrapper', 'teacher', 'lawyer',
                         'writer', 'engineer', 'professor', 'author', 'architect',
-                        'scientist', 'tailor', 'nurse', 'chef', 'technician',
+                        'scientist', 'tailor', 'chef', 'technician',
                         'firefighter', 'farmer', 'judge', 'surgeon',
-                        'designer', 'plumber', 'dentist', 'artist', 'blacksmith',
+                        'designer','dentist', 'artist', 'blacksmith',
                         'butcher', 'librarian', 'secretary', 'bartender',
                         'doctor', 'cleaner', 'journalist', 'hustler', 'grifter',
                         'liar', 'captain', 'phony', 'lieutenant',
