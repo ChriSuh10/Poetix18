@@ -1,0 +1,198 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ BUT THE NN NN VBD PRP VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ but the telephone book caused him pain 
+-------------------------score:  -3.057072713971138;  adjusted_score: -3.0327716247737406----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant saw him see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(saw -2.13)(him -3.50)(see -1.95)(. -4.19) line score is : -3.405, look ahead score is : 0.000
+-------------------------score:  -3.0912182526662946;  adjusted_score: -3.066917163468897----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant told him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(told -2.13)(him -3.50)(be -1.95)(. -2.11) line score is : -3.145, look ahead score is : 0.000
+-------------------------score:  -3.1279572397470474;  adjusted_score: -3.10365615054965----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant saw him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(saw -2.13)(him -3.50)(be -1.95)(. -4.19) line score is : -3.405, look ahead score is : 0.000
+-------------------------score:  -3.148846361786127;  adjusted_score: -3.1245452725887297----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant kept him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(kept -2.13)(him -3.50)(be -1.95)(. -4.11) line score is : -3.395, look ahead score is : 0.000
+-------------------------score:  -3.1639941576868296;  adjusted_score: -3.139693068489432----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and we went to the plane , 
+ but the flight attendant told us be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(we -2.55)(went -1.62)(to -4.20)(the -3.09)(plane -1.15)(, -1.86) line score is : -3.100, look ahead score is : 0.653
+(but -1.86)(the -8.43)(flight -2.28)(attendant -3.30)(told -2.23)(us -3.41)(be -2.41)(. -2.03) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.183103196322918;  adjusted_score: -3.1588021071255206----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and we went to the plane , 
+ but the flight attendant told him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(we -2.55)(went -1.62)(to -4.20)(the -3.09)(plane -1.15)(, -1.86) line score is : -3.100, look ahead score is : 0.653
+(but -1.86)(the -8.43)(flight -2.28)(attendant -3.30)(told -2.23)(him -3.41)(be -2.41)(. -2.03) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.1908138878643513;  adjusted_score: -3.166512798666954----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant found him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(found -2.13)(him -3.50)(be -1.95)(. -4.72) line score is : -3.471, look ahead score is : 0.000
+-------------------------score:  -3.1919269263744354;  adjusted_score: -3.167625837177038----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and we went to the plane , 
+ but the flight attendant told me be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(we -2.55)(went -1.62)(to -4.20)(the -3.09)(plane -1.15)(, -1.86) line score is : -3.100, look ahead score is : 0.653
+(but -1.86)(the -8.43)(flight -2.28)(attendant -3.30)(told -2.23)(me -3.41)(be -2.41)(. -2.03) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.2117237597703934;  adjusted_score: -3.187422670572996----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant told us be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(told -2.13)(us -3.50)(be -1.95)(. -2.11) line score is : -3.145, look ahead score is : 0.000
+-------------------------score:  -3.2152564376592636;  adjusted_score: -3.1909553484618662----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant told them be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(told -2.13)(them -3.50)(be -1.95)(. -2.11) line score is : -3.145, look ahead score is : 0.000
+-------------------------score:  -3.2221817448735237;  adjusted_score: -3.1978806556761263----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant got him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(got -2.13)(him -3.50)(be -1.95)(. -4.23) line score is : -3.409, look ahead score is : 0.000
+-------------------------score:  -3.246298909187317;  adjusted_score: -3.2219978199899195----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight crew decided he be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(crew -2.98)(decided -2.13)(he -3.50)(be -2.56)(. -3.88) line score is : -3.442, look ahead score is : 0.000
+-------------------------score:  -3.249771077185869;  adjusted_score: -3.225469987988472----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and we went to the plane , 
+ but the flight attendant asked us be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(we -2.55)(went -1.62)(to -4.20)(the -3.09)(plane -1.15)(, -1.86) line score is : -3.100, look ahead score is : 0.653
+(but -1.86)(the -8.43)(flight -2.28)(attendant -3.30)(asked -2.23)(us -3.41)(be -2.41)(. -3.30) line score is : -3.403, look ahead score is : 0.000
+-------------------------score:  -3.250992886722088;  adjusted_score: -3.2266917975246905----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and we went to the plane , 
+ but the flight attendant asked him be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(we -2.55)(went -1.62)(to -4.20)(the -3.09)(plane -1.15)(, -1.86) line score is : -3.100, look ahead score is : 0.653
+(but -1.86)(the -8.43)(flight -2.28)(attendant -3.30)(asked -2.23)(him -3.41)(be -2.41)(. -3.30) line score is : -3.403, look ahead score is : 0.000
+-------------------------score:  -3.272870346903801;  adjusted_score: -3.2485692577064036----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the plane , 
+ but the flight attendant thought it be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(plane -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(but -1.45)(the -8.96)(flight -2.07)(attendant -2.98)(thought -2.13)(it -3.50)(be -1.95)(. -4.53) line score is : -3.447, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.225002194604566;  adjusted_score: -3.2007011048111225----------------------- 
+there was a general named lee 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the train , 
+ and he saw somebody again see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(train -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(and -1.45)(he -7.03)(saw -2.90)(somebody -0.80)(again -1.32)(see -3.09)(. -5.52) line score is : -3.161, look ahead score is : 0.000
