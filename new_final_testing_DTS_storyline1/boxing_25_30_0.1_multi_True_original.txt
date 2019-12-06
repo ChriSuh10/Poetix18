@@ -1,0 +1,55 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD RB THE NN PRP VBD . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ he was n't the wizard he woz 
+-------------------------score:  -3.179044059718088;  adjusted_score: -3.1529324708674706----------------------- 
+there once was a man named theodore 
+ who lost all his money in a war . 
+ he came back from the fight , 
+ he was able to write , 
+ he was even the author he wore . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(lost -6.33)(all -3.48)(his -0.43)(money -0.98)(in -1.69)(a -0.75)(war -6.20)(. -1.49) line score is : -2.612, look ahead score is : 0.000
+(he -1.49)(came -1.46)(back -4.35)(from -1.68)(the -2.45)(fight -1.30)(, -6.58) line score is : -2.757, look ahead score is : 0.606
+(he -6.58)(was -2.50)(able -2.70)(to -1.85)(write -4.76)(, -0.01) line score is : -3.066, look ahead score is : 0.700
+(he -0.01)(was -5.24)(even -3.26)(the -0.97)(author -0.73)(he -6.10)(wore -4.59)(. -3.16) line score is : -3.006, look ahead score is : 0.000
+-------------------------score:  -3.188402473475904;  adjusted_score: -3.162290884625287----------------------- 
+there once was a man named theodore 
+ who lost all his money in a war . 
+ he came back from the fight , 
+ he was able to write , 
+ he was also the author he wore . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(lost -6.33)(all -3.48)(his -0.43)(money -0.98)(in -1.69)(a -0.75)(war -6.20)(. -1.49) line score is : -2.612, look ahead score is : 0.000
+(he -1.49)(came -1.46)(back -4.35)(from -1.68)(the -2.45)(fight -1.30)(, -6.58) line score is : -2.757, look ahead score is : 0.606
+(he -6.58)(was -2.50)(able -2.70)(to -1.85)(write -4.76)(, -0.01) line score is : -3.066, look ahead score is : 0.700
+(he -0.01)(was -5.24)(also -3.26)(the -0.97)(author -0.73)(he -6.23)(wore -4.07)(. -3.24) line score is : -2.967, look ahead score is : 0.000
+-------------------------score:  -3.1917192604573024;  adjusted_score: -3.165607671606685----------------------- 
+there once was a man named flor 
+ who lost all his money in a war . 
+ he came back from the fight , 
+ he was able to write , 
+ he was actually the author he wore . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(lost -6.33)(all -3.48)(his -0.43)(money -0.98)(in -1.69)(a -0.75)(war -6.20)(. -1.49) line score is : -2.612, look ahead score is : 0.000
+(he -1.49)(came -1.46)(back -4.35)(from -1.68)(the -2.45)(fight -1.30)(, -6.58) line score is : -2.757, look ahead score is : 0.606
+(he -6.58)(was -2.50)(able -2.70)(to -1.85)(write -4.76)(, -0.01) line score is : -3.066, look ahead score is : 0.700
+(he -0.01)(was -5.24)(actually -3.26)(the -0.97)(author -0.73)(he -7.24)(wore -4.12)(. -3.42) line score is : -3.123, look ahead score is : 0.000
+-------------------------score:  -3.1993169530084535;  adjusted_score: -3.173205364157836----------------------- 
+there once was a man named salvador 
+ who lost all his money in a war . 
+ he came back from the fight , 
+ he was able to write , 
+ he was also the father he wore . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(lost -6.33)(all -3.48)(his -0.43)(money -0.98)(in -1.69)(a -0.75)(war -6.20)(. -1.49) line score is : -2.612, look ahead score is : 0.000
+(he -1.49)(came -1.46)(back -4.35)(from -1.68)(the -2.45)(fight -1.30)(, -6.58) line score is : -2.757, look ahead score is : 0.606
+(he -6.58)(was -2.50)(able -2.70)(to -1.85)(write -4.76)(, -0.01) line score is : -3.066, look ahead score is : 0.700
+(he -0.01)(was -5.24)(also -3.26)(the -0.97)(father -0.73)(he -6.23)(wore -4.07)(. -3.66) line score is : -3.020, look ahead score is : 0.000

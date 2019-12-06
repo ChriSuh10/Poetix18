@@ -1,0 +1,957 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.8342834069873346;  adjusted_score: -2.807348628147985----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and that is the beauty of this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(that -7.92)(is -2.15)(the -2.13)(beauty -3.81)(of -2.48)(this -2.43)(case -4.31)(. -0.21) line score is : -3.291, look ahead score is : 0.000
+-------------------------score:  -2.8423982831564816;  adjusted_score: -2.815463504317132----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and that is the beauty of this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(that -9.21)(is -2.47)(the -2.07)(beauty -3.86)(of -2.57)(this -2.35)(case -4.38)(. -0.17) line score is : -3.322, look ahead score is : 0.000
+-------------------------score:  -3.0049548523895666;  adjusted_score: -2.978020073550217----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and that is the difference of this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(that -7.92)(is -2.15)(the -2.13)(difference -3.81)(of -2.48)(this -2.43)(case -4.51)(. -4.99) line score is : -3.844, look ahead score is : 0.000
+-------------------------score:  -3.074288562843294;  adjusted_score: -3.047353784003944----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and that is the reason of this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(that -7.92)(is -2.15)(the -2.13)(reason -3.81)(of -2.48)(this -2.43)(case -4.28)(. -6.56) line score is : -3.993, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and the smile on the face of the tiger 
+-------------------------score:  -2.8517688894096542;  adjusted_score: -2.8248341105703045----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the side on the front of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(side -2.15)(on -2.13)(the -3.66)(front -3.95)(of -5.02)(the -0.55)(case -2.96)(. -2.33) line score is : -3.483, look ahead score is : 0.000
+-------------------------score:  -2.8551679144010826;  adjusted_score: -2.828233135561733----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the side on the top of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(side -2.15)(on -2.13)(the -3.66)(top -3.95)(of -5.02)(the -0.55)(case -3.11)(. -1.96) line score is : -3.462, look ahead score is : 0.000
+-------------------------score:  -2.868406828273745;  adjusted_score: -2.8414720494343952----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the nose on the side of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(nose -2.15)(on -2.13)(the -3.66)(side -4.15)(of -3.77)(the -1.09)(case -3.06)(. -1.27) line score is : -3.339, look ahead score is : 0.000
+-------------------------score:  -2.8688067281070877;  adjusted_score: -2.841871949267738----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the nose on the top of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(nose -2.15)(on -2.13)(the -3.66)(top -4.15)(of -3.77)(the -1.09)(case -2.97)(. -1.05) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -2.8815829258631256;  adjusted_score: -2.854648147023776----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the side on the right of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(side -2.15)(on -2.13)(the -3.66)(right -3.95)(of -5.02)(the -0.55)(case -2.06)(. -2.99) line score is : -3.460, look ahead score is : 0.000
+-------------------------score:  -2.882205752327162;  adjusted_score: -2.855270973487812----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the nose on the front of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(nose -2.15)(on -2.13)(the -3.66)(front -4.15)(of -3.77)(the -1.09)(case -3.60)(. -1.73) line score is : -3.438, look ahead score is : 0.000
+-------------------------score:  -2.9084008559584618;  adjusted_score: -2.881466077119112----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at your end , 
+ and the side on the front of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(your -1.01)(end -0.17)(, -3.26) line score is : -2.367, look ahead score is : 0.680
+(and -3.26)(the -9.32)(side -2.34)(on -1.90)(the -4.09)(front -3.62)(of -4.62)(the -1.04)(case -2.95)(. -2.07) line score is : -3.522, look ahead score is : 0.000
+-------------------------score:  -2.9124153725364628;  adjusted_score: -2.885480593697113----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at your end , 
+ and the side on the top of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(your -1.01)(end -0.17)(, -3.26) line score is : -2.367, look ahead score is : 0.680
+(and -3.26)(the -9.32)(side -2.34)(on -1.90)(the -4.09)(top -3.62)(of -4.62)(the -1.04)(case -2.93)(. -1.73) line score is : -3.486, look ahead score is : 0.000
+-------------------------score:  -2.9396031126379967;  adjusted_score: -2.912668333798647----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and the side on the top of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(the -9.21)(side -2.47)(on -2.07)(the -3.94)(top -4.04)(of -4.55)(the -1.20)(case -2.97)(. -1.61) line score is : -3.487, look ahead score is : 0.000
+-------------------------score:  -2.948072343626443;  adjusted_score: -2.9211375647870934----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at your end , 
+ and the side on the right of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(your -1.01)(end -0.17)(, -3.26) line score is : -2.367, look ahead score is : 0.680
+(and -3.26)(the -9.32)(side -2.34)(on -1.90)(the -4.09)(right -3.62)(of -4.62)(the -1.04)(case -2.48)(. -3.04) line score is : -3.572, look ahead score is : 0.000
+-------------------------score:  -2.9559579048963154;  adjusted_score: -2.9290231260569657----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and the nose on the right of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(the -7.92)(nose -2.15)(on -2.13)(the -3.66)(right -4.15)(of -3.77)(the -1.09)(case -2.46)(. -4.81) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -2.968955255168326;  adjusted_score: -2.942020476328976----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and the side on the right of the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(the -9.21)(side -2.47)(on -2.07)(the -3.94)(right -4.04)(of -4.55)(the -1.20)(case -2.55)(. -3.08) line score is : -3.592, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and I hope that your day is a blast 
+-------------------------score:  -2.9489038880257046;  adjusted_score: -2.921969109186355----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and you see that his nose is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(you -9.21)(see -2.47)(that -2.07)(his -2.07)(nose -3.66)(is -2.10)(a -2.81)(case -2.48)(. -0.43) line score is : -3.011, look ahead score is : 0.000
+-------------------------score:  -2.9539424132774856;  adjusted_score: -2.927007634438136----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at my end , 
+ and you see that my nose is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(my -1.01)(end -0.17)(, -3.92) line score is : -2.462, look ahead score is : 0.680
+(and -3.92)(you -9.07)(see -2.18)(that -2.06)(my -1.99)(nose -3.70)(is -1.91)(a -2.63)(case -2.40)(. -0.44) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -2.9753154774799064;  adjusted_score: -2.9483806986405567----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and you see that our nose is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(you -7.92)(see -2.15)(that -2.13)(our -2.15)(nose -3.56)(is -2.00)(a -3.08)(case -3.45)(. -0.59) line score is : -3.120, look ahead score is : 0.000
+-------------------------score:  -2.987777123994687;  adjusted_score: -2.960842345155337----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and you see that his chin is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(you -9.21)(see -2.47)(that -2.07)(his -2.07)(chin -3.66)(is -2.10)(a -2.81)(case -3.27)(. -0.53) line score is : -3.100, look ahead score is : 0.000
+-------------------------score:  -2.997148352949058;  adjusted_score: -2.9702135741097084----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and you see that his mouth is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(you -9.21)(see -2.47)(that -2.07)(his -2.07)(mouth -3.66)(is -2.10)(a -2.81)(case -3.94)(. -0.40) line score is : -3.155, look ahead score is : 0.000
+-------------------------score:  -3.004397537340136;  adjusted_score: -2.9774627585007862----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and you see that his nose has a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(you -9.21)(see -2.47)(that -2.07)(his -2.07)(nose -3.66)(has -2.10)(a -2.81)(case -2.48)(. -3.12) line score is : -3.280, look ahead score is : 0.000
+-------------------------score:  -3.0101358965039253;  adjusted_score: -2.9832011176645756----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and you see that his skin is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(you -9.21)(see -2.47)(that -2.07)(his -2.07)(skin -3.66)(is -2.10)(a -2.81)(case -3.36)(. -0.45) line score is : -3.102, look ahead score is : 0.000
+-------------------------score:  -3.012611916398301;  adjusted_score: -2.9856771375589513----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ and you see that our skin is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(and -4.18)(you -7.92)(see -2.15)(that -2.13)(our -2.15)(skin -3.56)(is -2.00)(a -3.08)(case -3.78)(. -0.58) line score is : -3.151, look ahead score is : 0.000
+-------------------------score:  -3.0130198611056103;  adjusted_score: -2.9860850822662606----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at my end , 
+ and you see that my nose has a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(my -1.01)(end -0.17)(, -3.92) line score is : -2.462, look ahead score is : 0.680
+(and -3.92)(you -9.07)(see -2.18)(that -2.06)(my -1.99)(nose -3.70)(has -1.91)(a -2.63)(case -2.40)(. -3.06) line score is : -3.292, look ahead score is : 0.000
+-------------------------score:  -3.0173749551177025;  adjusted_score: -2.990440176278353----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ and you see that his jaw is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(and -2.81)(you -9.21)(see -2.47)(that -2.07)(his -2.07)(jaw -3.66)(is -2.10)(a -2.81)(case -3.78)(. -0.77) line score is : -3.176, look ahead score is : 0.000
+-------------------------score:  -3.0201215020873966;  adjusted_score: -2.993186723248047----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at my end , 
+ and you see that my skin is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(my -1.01)(end -0.17)(, -3.92) line score is : -2.462, look ahead score is : 0.680
+(and -3.92)(you -9.07)(see -2.18)(that -2.06)(my -1.99)(skin -3.70)(is -1.91)(a -2.63)(case -3.18)(. -0.52) line score is : -3.115, look ahead score is : 0.000
+-------------------------score:  -3.0303861739880897;  adjusted_score: -3.00345139514874----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at my end , 
+ and you see that my jaw is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(my -1.01)(end -0.17)(, -3.92) line score is : -2.462, look ahead score is : 0.680
+(and -3.92)(you -9.07)(see -2.18)(that -2.06)(my -1.99)(jaw -3.70)(is -1.91)(a -2.63)(case -3.74)(. -0.77) line score is : -3.196, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and I hope that your day is a blast 
+-------------------------score:  -3.0396595484379567;  adjusted_score: -3.0134214848641196----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that my wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(tell -3.41)(a -2.48)(girlfriend -2.96)(, -4.63) line score is : -2.994, look ahead score is : 0.645
+(and -4.63)(i -5.96)(think -0.91)(that -4.19)(my -1.78)(wife -2.46)(is -1.90)(a -5.34)(case -2.75)(. -2.59) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.047608745369044;  adjusted_score: -3.0219546679881484----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would have a girlfriend , 
+ and i know that my wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(have -3.41)(a -2.48)(girlfriend -4.36)(, -3.05) line score is : -2.964, look ahead score is : 0.616
+(and -3.05)(i -6.59)(know -2.12)(that -1.74)(my -1.45)(wife -4.46)(is -2.15)(a -3.87)(case -2.76)(. -1.92) line score is : -3.012, look ahead score is : 0.000
+-------------------------score:  -3.0493526725154934;  adjusted_score: -3.0236985951345976----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would have a girlfriend , 
+ and i know that her name is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(have -3.41)(a -2.48)(girlfriend -4.36)(, -3.05) line score is : -2.964, look ahead score is : 0.616
+(and -3.05)(i -6.59)(know -2.12)(that -1.74)(her -1.45)(name -4.46)(is -2.15)(a -5.21)(case -1.13)(. -0.39) line score is : -2.830, look ahead score is : 0.000
+-------------------------score:  -3.0566930387056237;  adjusted_score: -3.0304549751317866----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that my wife has a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(tell -3.41)(a -2.48)(girlfriend -2.96)(, -4.63) line score is : -2.994, look ahead score is : 0.645
+(and -4.63)(i -5.96)(think -0.91)(that -4.19)(my -1.78)(wife -2.46)(has -1.90)(a -5.34)(case -2.75)(. -3.35) line score is : -3.326, look ahead score is : 0.000
+-------------------------score:  -3.058747487989339;  adjusted_score: -3.032509424415502----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i know that my wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(tell -3.41)(a -2.48)(girlfriend -2.96)(, -4.63) line score is : -2.994, look ahead score is : 0.645
+(and -4.63)(i -5.96)(know -0.91)(that -4.19)(my -1.78)(wife -4.13)(is -2.28)(a -3.63)(case -2.57)(. -2.32) line score is : -3.240, look ahead score is : 0.000
+-------------------------score:  -3.0654224821112375;  adjusted_score: -3.0397684047303417----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would have a girlfriend , 
+ and i know that my wife has a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(have -3.41)(a -2.48)(girlfriend -4.36)(, -3.05) line score is : -2.964, look ahead score is : 0.616
+(and -3.05)(i -6.59)(know -2.12)(that -1.74)(my -1.45)(wife -4.46)(has -2.15)(a -3.87)(case -2.76)(. -3.59) line score is : -3.178, look ahead score is : 0.000
+-------------------------score:  -3.0656252426631525;  adjusted_score: -3.0399711652822567----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would have a girlfriend , 
+ and i think that my wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(have -3.41)(a -2.48)(girlfriend -4.36)(, -3.05) line score is : -2.964, look ahead score is : 0.616
+(and -3.05)(i -6.59)(think -2.12)(that -1.74)(my -1.45)(wife -3.66)(is -2.09)(a -5.50)(case -2.98)(. -2.22) line score is : -3.140, look ahead score is : 0.000
+-------------------------score:  -3.0711678316195807;  adjusted_score: -3.0449297680457437----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that my hair is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(tell -3.41)(a -2.48)(girlfriend -2.96)(, -4.63) line score is : -2.994, look ahead score is : 0.645
+(and -4.63)(i -5.96)(think -0.91)(that -4.19)(my -1.78)(hair -2.46)(is -1.90)(a -5.34)(case -4.92)(. -1.24) line score is : -3.333, look ahead score is : 0.000
+-------------------------score:  -3.1032171190688103;  adjusted_score: -3.076979055494973----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that my voice is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(tell -3.41)(a -2.48)(girlfriend -2.96)(, -4.63) line score is : -2.994, look ahead score is : 0.645
+(and -4.63)(i -5.96)(think -0.91)(that -4.19)(my -1.78)(voice -2.46)(is -1.90)(a -5.34)(case -5.03)(. -1.03) line score is : -3.322, look ahead score is : 0.000
+-------------------------score:  -3.133408121538885;  adjusted_score: -3.107170057965048----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that our team is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(tell -3.41)(a -2.48)(girlfriend -2.96)(, -4.63) line score is : -2.994, look ahead score is : 0.645
+(and -4.63)(i -5.96)(think -0.91)(that -4.19)(our -1.78)(team -2.46)(is -1.90)(a -5.92)(case -3.90)(. -1.70) line score is : -3.334, look ahead score is : 0.000
+-------------------------score:  -3.148113024505702;  adjusted_score: -3.122458947124806----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would have a girlfriend , 
+ and i know that my life is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(have -3.41)(a -2.48)(girlfriend -4.36)(, -3.05) line score is : -2.964, look ahead score is : 0.616
+(and -3.05)(i -6.59)(know -2.12)(that -1.74)(my -1.45)(life -4.46)(is -2.15)(a -3.87)(case -4.61)(. -1.30) line score is : -3.134, look ahead score is : 0.000
+-------------------------score:  -3.160129609884638;  adjusted_score: -3.134475532503742----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ i would have a girlfriend , 
+ and i feel that my life is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(i -2.92)(would -1.57)(have -3.41)(a -2.48)(girlfriend -4.36)(, -3.05) line score is : -2.964, look ahead score is : 0.616
+(and -3.05)(i -6.59)(feel -2.12)(that -1.74)(my -1.45)(life -5.42)(is -3.00)(a -3.80)(case -3.62)(. -1.11) line score is : -3.189, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ but it does n't come out of my purse 
+-------------------------score:  -3.0406911784049235;  adjusted_score: -3.013756399565574----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at his end , 
+ but he does not come in our case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(his -1.01)(end -0.17)(, -2.81) line score is : -2.302, look ahead score is : 0.680
+(but -2.81)(he -9.21)(does -2.47)(not -3.46)(come -2.33)(in -4.08)(our -1.96)(case -4.86)(. -3.11) line score is : -3.809, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ PRP VBD RB THE NN PRP VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ he was n't the wizard he woz 
+-------------------------score:  -3.161176949273795;  adjusted_score: -3.134242170434445----------------------- 
+there was a dentist named ned 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the guy i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(guy -3.39)(i -4.59)(said -1.17)(. -6.37) line score is : -4.004, look ahead score is : 0.000
+-------------------------score:  -3.178223281633109;  adjusted_score: -3.151288502793759----------------------- 
+there was a dentist named ned 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the guy you said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(guy -3.39)(you -4.59)(said -1.17)(. -6.37) line score is : -4.004, look ahead score is : 0.000
+-------------------------score:  -3.211237236391753;  adjusted_score: -3.1843024575524033----------------------- 
+there was a dentist named jed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the top he said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(top -3.39)(he -4.59)(said -1.17)(. -4.99) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.217282212805003;  adjusted_score: -3.1903474339656532----------------------- 
+there was a dentist named ned 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the top i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(top -3.39)(i -4.59)(said -1.17)(. -4.99) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.2335963691584766;  adjusted_score: -3.206661590319127----------------------- 
+there was a dentist named ted 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the guy we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(guy -3.39)(we -4.59)(said -1.17)(. -6.37) line score is : -4.004, look ahead score is : 0.000
+-------------------------score:  -3.24652363313362;  adjusted_score: -3.2195888542942703----------------------- 
+there was a dentist named ed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the man i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(man -3.39)(i -4.59)(said -1.17)(. -7.57) line score is : -4.155, look ahead score is : 0.000
+-------------------------score:  -3.249737262260169;  adjusted_score: -3.222802483420819----------------------- 
+there was a dentist named ed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the guy they said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(guy -3.39)(they -4.59)(said -1.17)(. -6.37) line score is : -4.004, look ahead score is : 0.000
+-------------------------score:  -3.2655204529874027;  adjusted_score: -3.238585674148053----------------------- 
+there was a dentist named jed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the guy he said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(guy -3.39)(he -4.59)(said -1.17)(. -6.37) line score is : -4.004, look ahead score is : 0.000
+-------------------------score:  -3.279874026309699;  adjusted_score: -3.252939247470349----------------------- 
+there was a dentist named jed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the man they said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(man -3.39)(they -4.59)(said -1.17)(. -7.57) line score is : -4.155, look ahead score is : 0.000
+-------------------------score:  -3.2915072138421237;  adjusted_score: -3.264572435002774----------------------- 
+there was a dentist named ed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the man he said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(man -3.39)(he -4.59)(said -1.17)(. -7.57) line score is : -4.155, look ahead score is : 0.000
+-------------------------score:  -3.2922914470545948;  adjusted_score: -3.265356668215245----------------------- 
+there was a dentist named fred 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the man you said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(man -3.39)(you -4.59)(said -1.17)(. -7.57) line score is : -4.155, look ahead score is : 0.000
+-------------------------score:  -3.294404237996787;  adjusted_score: -3.267469459157437----------------------- 
+there was a dentist named jed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the guy it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(guy -3.39)(it -4.59)(said -1.17)(. -6.37) line score is : -4.004, look ahead score is : 0.000
+-------------------------score:  -3.3080731402151287;  adjusted_score: -3.281138361375779----------------------- 
+there was a dentist named fred 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the size we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(size -3.39)(we -4.59)(said -1.17)(. -7.57) line score is : -4.154, look ahead score is : 0.000
+-------------------------score:  -3.312485873233527;  adjusted_score: -3.2855510943941773----------------------- 
+there was a dentist named freda 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the type i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(type -3.39)(i -4.59)(said -1.17)(. -7.66) line score is : -4.166, look ahead score is : 0.000
+-------------------------score:  -3.3197379405610263;  adjusted_score: -3.2928031617216766----------------------- 
+there was a dentist named ned 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the man we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(man -3.39)(we -4.59)(said -1.17)(. -7.57) line score is : -4.155, look ahead score is : 0.000
+-------------------------score:  -3.3211276228539646;  adjusted_score: -3.294192844014615----------------------- 
+there was a dentist named jed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the type you said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(type -3.39)(you -4.59)(said -1.17)(. -7.66) line score is : -4.166, look ahead score is : 0.000
+-------------------------score:  -3.325128227006644;  adjusted_score: -3.2981934481672943----------------------- 
+there was a dentist named freda 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the top self said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(top -3.39)(self -4.59)(said -1.17)(. -4.99) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.335098325740546;  adjusted_score: -3.3081635469011963----------------------- 
+there was a dentist named freda 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the top we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(top -3.39)(we -4.59)(said -1.17)(. -4.99) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.352437003981322;  adjusted_score: -3.3255022251419724----------------------- 
+there was a dentist named ned 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the team i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(team -3.39)(i -4.59)(said -1.17)(. -7.06) line score is : -4.092, look ahead score is : 0.000
+-------------------------score:  -3.3553482587449253;  adjusted_score: -3.3284134799055756----------------------- 
+there was a dentist named jed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the game i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(game -3.39)(i -4.59)(said -1.17)(. -7.92) line score is : -4.199, look ahead score is : 0.000
+-------------------------score:  -3.3620001072995365;  adjusted_score: -3.3350653284601868----------------------- 
+there was a dentist named ted 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the type we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(type -3.39)(we -4.59)(said -1.17)(. -7.66) line score is : -4.166, look ahead score is : 0.000
+-------------------------score:  -3.371357202064246;  adjusted_score: -3.3444224232248962----------------------- 
+there was a dentist named ed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ he was probably the game he said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(he -2.85)(was -8.70)(probably -2.62)(the -2.34)(game -3.39)(he -4.59)(said -1.17)(. -7.92) line score is : -4.199, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.1819363716058433;  adjusted_score: -3.1550015927664936----------------------- 
+there was a dentist named ned 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at our end , 
+ but we had our problems and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(our -1.00)(end -0.16)(, -4.15) line score is : -2.546, look ahead score is : 0.680
+(but -4.15)(we -7.38)(had -2.20)(our -3.49)(problems -2.47)(and -3.32)(said -3.92)(. -2.53) line score is : -3.682, look ahead score is : 0.000
+-------------------------score:  -3.2026533889584243;  adjusted_score: -3.1757186101190746----------------------- 
+there was a dentist named ted 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at our end , 
+ but we had our moments and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(our -1.00)(end -0.16)(, -4.15) line score is : -2.546, look ahead score is : 0.680
+(but -4.15)(we -7.38)(had -2.20)(our -3.49)(moments -2.47)(and -3.32)(said -3.92)(. -3.43) line score is : -3.795, look ahead score is : 0.000
+-------------------------score:  -3.210112083237618;  adjusted_score: -3.1831773043982685----------------------- 
+there was a dentist named ed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at our end , 
+ but we had our issues and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(our -1.00)(end -0.16)(, -4.15) line score is : -2.546, look ahead score is : 0.680
+(but -4.15)(we -7.38)(had -2.20)(our -3.49)(issues -2.47)(and -3.32)(said -3.92)(. -3.67) line score is : -3.825, look ahead score is : 0.000
+-------------------------score:  -3.2209639656357467;  adjusted_score: -3.194029186796397----------------------- 
+there was a dentist named ted 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at our end , 
+ but we had our struggles and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(our -1.00)(end -0.16)(, -4.15) line score is : -2.546, look ahead score is : 0.680
+(but -4.15)(we -7.38)(had -2.20)(our -3.49)(struggles -2.47)(and -3.32)(said -3.92)(. -3.90) line score is : -3.854, look ahead score is : 0.000
+-------------------------score:  -3.2243358599953353;  adjusted_score: -3.1974010811559856----------------------- 
+there was a dentist named ed 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ but we had our problems and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(but -2.85)(we -8.70)(had -2.62)(our -3.47)(problems -3.47)(and -3.05)(said -4.04)(. -2.43) line score is : -3.831, look ahead score is : 0.000
+-------------------------score:  -3.2362707587890327;  adjusted_score: -3.209335979949683----------------------- 
+there was a dentist named freda 
+ who did a great job on our head . 
+ i would say to a friend , 
+ take a look at his end , 
+ but we had our moments and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(head -4.77)(. -1.73) line score is : -2.493, look ahead score is : 0.000
+(i -1.73)(would -2.47)(say -4.06)(to -2.11)(a -4.67)(friend -5.15)(, -3.22) line score is : -3.345, look ahead score is : 0.667
+(take -3.22)(a -1.66)(look -6.33)(at -1.29)(his -1.00)(end -0.16)(, -2.85) line score is : -2.361, look ahead score is : 0.680
+(but -2.85)(we -8.70)(had -2.62)(our -3.47)(moments -3.47)(and -3.05)(said -4.04)(. -3.19) line score is : -3.925, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ I did n't think life was this way 
+-------------------------score:  -3.287202269290433;  adjusted_score: -3.260267490451083----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not have color bleed this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(have -2.79)(color -3.66)(bleed -3.46)(this -1.49)(case -7.35)(. -5.34) line score is : -4.260, look ahead score is : 0.000
+-------------------------score:  -3.316612226944981;  adjusted_score: -3.2896774481056315----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not have skin damaged this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(have -2.79)(skin -3.66)(damaged -3.46)(this -1.49)(case -6.95)(. -6.58) line score is : -4.354, look ahead score is : 0.000
+-------------------------score:  -3.3291666810259675;  adjusted_score: -3.3022319021866178----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not have hair removed this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(have -2.79)(hair -3.66)(removed -3.46)(this -1.49)(case -6.74)(. -7.37) line score is : -4.419, look ahead score is : 0.000
+-------------------------score:  -3.3306937700871266;  adjusted_score: -3.303758991247777----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not have skin exposed this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(have -2.79)(skin -3.66)(exposed -3.46)(this -1.49)(case -6.95)(. -6.22) line score is : -4.315, look ahead score is : 0.000
+-------------------------score:  -3.3421674257878102;  adjusted_score: -3.3152326469484605----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not have color left this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(have -2.79)(color -3.66)(left -3.46)(this -1.49)(case -7.35)(. -5.79) line score is : -4.310, look ahead score is : 0.000
+-------------------------score:  -3.4120058087688503;  adjusted_score: -3.3850710299295006----------------------- 
+there was a dentist named chase 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not get beat tonight this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(get -2.79)(beat -3.66)(tonight -3.46)(this -3.19)(case -4.88)(. -5.96) line score is : -4.244, look ahead score is : 0.000
+-------------------------score:  -3.437820179444371;  adjusted_score: -3.410885400605021----------------------- 
+there was a dentist named grace 
+ who did a great job on our face . 
+ i would say to a friend , 
+ take a look at our end , 
+ we did not get hurt tonight this case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(face -5.11)(. -1.61) line score is : -2.518, look ahead score is : 0.000
+(i -1.61)(would -2.32)(say -4.30)(to -2.18)(a -4.56)(friend -5.14)(, -2.92) line score is : -3.291, look ahead score is : 0.667
+(take -2.92)(a -1.57)(look -6.42)(at -1.21)(our -1.01)(end -0.17)(, -4.18) line score is : -2.499, look ahead score is : 0.680
+(we -4.18)(did -7.92)(not -2.15)(get -2.79)(hurt -3.66)(tonight -3.46)(this -3.19)(case -5.72)(. -6.36) line score is : -4.382, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3455994757823646;  adjusted_score: -3.3193614122085275----------------------- 
+there was a dentist named pierre 
+ who did a great job on our hair . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and it was not like something of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(hair -5.30)(. -1.63) line score is : -2.542, look ahead score is : 0.000
+(i -1.63)(would -2.20)(say -4.20)(to -2.31)(a -4.53)(friend -5.19)(, -3.19) line score is : -3.324, look ahead score is : 0.667
+(i -3.19)(would -1.57)(tell -3.35)(a -2.61)(girlfriend -2.94)(, -5.10) line score is : -3.127, look ahead score is : 0.645
+(and -5.10)(it -5.44)(was -0.95)(not -4.09)(like -2.84)(something -2.24)(of -4.20)(care -3.64)(. -5.31) line score is : -3.757, look ahead score is : 0.000
+-------------------------score:  -3.3904098900966346;  adjusted_score: -3.3641718265227976----------------------- 
+there was a dentist named pierre 
+ who did a great job on our hair . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i was always like look of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(a -2.13)(great -3.02)(job -0.21)(on -2.22)(our -3.62)(hair -5.30)(. -1.63) line score is : -2.542, look ahead score is : 0.000
+(i -1.63)(would -2.20)(say -4.20)(to -2.31)(a -4.53)(friend -5.19)(, -3.19) line score is : -3.324, look ahead score is : 0.667
+(i -3.19)(would -1.57)(tell -3.35)(a -2.61)(girlfriend -2.94)(, -5.10) line score is : -3.127, look ahead score is : 0.645
+(and -5.10)(i -5.44)(was -0.95)(always -4.09)(like -1.96)(look -3.70)(of -3.63)(care -2.51)(. -7.60) line score is : -3.887, look ahead score is : 0.000

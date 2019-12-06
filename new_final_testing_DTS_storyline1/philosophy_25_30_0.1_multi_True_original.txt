@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ in my pocket for cash 
+ he was pained by a tooth 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.3331706874793574;  adjusted_score: -3.307990000245552----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was led by a light , 
+ but he knew his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(in -3.55)(his -4.32)(quest -2.76)(for -4.77)(insight -1.33)(, -6.57) line score is : -3.882, look ahead score is : 0.580
+(he -6.57)(was -0.72)(led -0.53)(by -3.21)(a -4.24)(light -1.34)(, -2.09) line score is : -2.671, look ahead score is : 0.679
+(but -2.09)(he -6.09)(knew -2.69)(his -3.43)(enemies -1.88)(and -3.23)(lay -3.33)(. -5.78) line score is : -3.567, look ahead score is : 0.000
+-------------------------score:  -3.3332526515568457;  adjusted_score: -3.30807196432304----------------------- 
+there was a wise teacher named rene 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was led by a light , 
+ but it was his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(in -3.55)(his -4.32)(quest -2.76)(for -4.77)(insight -1.33)(, -6.57) line score is : -3.882, look ahead score is : 0.580
+(he -6.57)(was -0.72)(led -0.53)(by -3.21)(a -4.24)(light -1.34)(, -2.09) line score is : -2.671, look ahead score is : 0.679
+(but -2.09)(it -6.09)(was -2.69)(his -3.43)(enemies -2.57)(and -0.83)(lay -4.11)(. -6.01) line score is : -3.478, look ahead score is : 0.000
+-------------------------score:  -3.349383320058546;  adjusted_score: -3.3242026328247403----------------------- 
+there was a wise teacher named pei 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was led by a light , 
+ but he had his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(in -3.55)(his -4.32)(quest -2.76)(for -4.77)(insight -1.33)(, -6.57) line score is : -3.882, look ahead score is : 0.580
+(he -6.57)(was -0.72)(led -0.53)(by -3.21)(a -4.24)(light -1.34)(, -2.09) line score is : -2.671, look ahead score is : 0.679
+(but -2.09)(he -6.09)(had -2.69)(his -3.43)(enemies -1.88)(and -3.13)(lay -4.27)(. -5.07) line score is : -3.583, look ahead score is : 0.000

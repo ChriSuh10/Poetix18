@@ -1,0 +1,385 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD AN NN OF NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who hadnt an atom of fear 
+ he would go to a party 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.2093646795518938;  adjusted_score: -3.185488818831021----------------------- 
+there once was a man named brande 
+ who covered an area of land . 
+ he would go to a lake , 
+ and he went to the break , 
+ and he sat down and started his stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(covered -9.44)(an -4.95)(area -1.62)(of -0.69)(land -1.92)(. -4.35) line score is : -3.589, look ahead score is : 0.000
+(he -4.35)(would -1.36)(go -3.87)(to -2.73)(a -1.75)(lake -2.81)(, -5.59) line score is : -3.209, look ahead score is : 0.577
+(and -5.59)(he -1.75)(went -2.43)(to -2.20)(the -6.05)(break -1.09)(, -1.57) line score is : -2.955, look ahead score is : 0.616
+(and -1.57)(he -9.85)(sat -3.13)(down -0.58)(and -0.64)(started -4.71)(his -0.95)(stand -1.61)(. -4.45) line score is : -3.055, look ahead score is : 0.000
+-------------------------score:  -3.232386048763029;  adjusted_score: -3.2085101880421565----------------------- 
+there once was a man named brande 
+ who covered an area of land . 
+ he would go to a lake , 
+ and he went to the break , 
+ and he looked down and saw our stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(covered -9.44)(an -4.95)(area -1.62)(of -0.69)(land -1.92)(. -4.35) line score is : -3.589, look ahead score is : 0.000
+(he -4.35)(would -1.36)(go -3.87)(to -2.73)(a -1.75)(lake -2.81)(, -5.59) line score is : -3.209, look ahead score is : 0.577
+(and -5.59)(he -1.75)(went -2.43)(to -2.20)(the -6.05)(break -1.09)(, -1.57) line score is : -2.955, look ahead score is : 0.616
+(and -1.57)(he -9.85)(looked -3.13)(down -0.58)(and -0.64)(saw -5.34)(our -2.28)(stand -1.47)(. -1.59) line score is : -2.940, look ahead score is : 0.000
+-------------------------score:  -3.2542404936205958;  adjusted_score: -3.230364632899723----------------------- 
+there once was a man named brande 
+ who covered an area of land . 
+ he would go to a lake , 
+ and he went to the break , 
+ and he sat down and waited his stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(covered -9.44)(an -4.95)(area -1.62)(of -0.69)(land -1.92)(. -4.35) line score is : -3.589, look ahead score is : 0.000
+(he -4.35)(would -1.36)(go -3.87)(to -2.73)(a -1.75)(lake -2.81)(, -5.59) line score is : -3.209, look ahead score is : 0.577
+(and -5.59)(he -1.75)(went -2.43)(to -2.20)(the -6.05)(break -1.09)(, -1.57) line score is : -2.955, look ahead score is : 0.616
+(and -1.57)(he -9.85)(sat -3.13)(down -0.58)(and -0.64)(waited -4.71)(his -0.95)(stand -1.61)(. -3.80) line score is : -2.982, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.2586565053824224;  adjusted_score: -3.23137952823079----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and say something to his friend in stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(say -9.19)(something -0.70)(to -0.56)(his -2.84)(friend -4.67)(in -2.02)(stand -2.22)(. -4.27) line score is : -3.345, look ahead score is : 0.000
+-------------------------score:  -3.300559314814481;  adjusted_score: -3.2732823358747094----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his cake , 
+ and say something to his friend in stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(cake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(say -9.39)(something -0.79)(to -0.63)(his -2.48)(friend -4.57)(in -2.10)(stand -2.08)(. -3.90) line score is : -3.285, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and now he 's a college professor 
+-------------------------score:  -3.259332310408354;  adjusted_score: -3.2320553332567217----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and then he has a family stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(then -9.19)(he -0.70)(has -0.56)(a -1.95)(family -2.84)(stand -7.52)(. -1.73) line score is : -3.515, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD AN NN OF NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who hadnt an atom of fear 
+ he would go to a party 
+ take a pull at his hair 
+ and returned on the previous night 
+-------------------------score:  -3.354008898652833;  adjusted_score: -3.3303252433163335----------------------- 
+there once was a man named brande 
+ who covered an area of land . 
+ he would go to a tree , 
+ cut a branch at his knee , 
+ and put on the artificial stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(covered -9.44)(an -4.95)(area -1.62)(of -0.69)(land -1.92)(. -4.35) line score is : -3.589, look ahead score is : 0.000
+(he -4.35)(would -1.36)(go -3.87)(to -2.73)(a -1.75)(tree -2.81)(, -5.86) line score is : -3.247, look ahead score is : 0.577
+(cut -5.86)(a -2.40)(branch -3.43)(at -2.03)(his -1.59)(knee -5.60)(, -4.51) line score is : -3.631, look ahead score is : 0.607
+(and -4.51)(put -4.18)(on -0.56)(the -0.76)(artificial -3.84)(stand -3.56)(. -2.78) line score is : -2.883, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.3681736534292046;  adjusted_score: -3.3408966762775725----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and he found down and buried his stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(he -9.19)(found -0.70)(down -0.56)(and -4.31)(buried -4.99)(his -9.18)(stand -4.30)(. -1.53) line score is : -4.266, look ahead score is : 0.000
+-------------------------score:  -3.400023492899808;  adjusted_score: -3.372746515748176----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and it was down and buried his stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(it -9.19)(was -0.70)(down -0.56)(and -5.49)(buried -1.53)(his -6.57)(stand -4.13)(. -3.10) line score is : -3.878, look ahead score is : 0.000
+-------------------------score:  -3.4367968060753564;  adjusted_score: -3.4095198289237243----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and he was down and buried his stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(he -9.19)(was -0.70)(down -0.56)(and -4.31)(buried -3.69)(his -6.87)(stand -3.83)(. -4.33) line score is : -4.124, look ahead score is : 0.000
+-------------------------score:  -3.4567334164272654;  adjusted_score: -3.4294564392756333----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and it was down and buried its stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(it -9.19)(was -0.70)(down -0.56)(and -5.49)(buried -1.53)(its -6.57)(stand -4.13)(. -3.10) line score is : -3.878, look ahead score is : 0.000
+-------------------------score:  -3.4951431931871357;  adjusted_score: -3.4678662160355036----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and he felt down and wanted his stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(he -9.19)(felt -0.70)(down -0.56)(and -4.31)(wanted -5.68)(his -7.53)(stand -2.39)(. -4.60) line score is : -4.289, look ahead score is : 0.000
+-------------------------score:  -3.5017503572232798;  adjusted_score: -3.4744733800716476----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and he found down and buried their stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(he -9.19)(found -0.70)(down -0.56)(and -4.31)(buried -4.99)(their -9.18)(stand -4.30)(. -1.53) line score is : -4.266, look ahead score is : 0.000
+-------------------------score:  -3.509846969084306;  adjusted_score: -3.482569991932674----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and he found down and buried its stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(he -9.19)(found -0.70)(down -0.56)(and -4.31)(buried -4.99)(its -9.18)(stand -4.30)(. -1.53) line score is : -4.266, look ahead score is : 0.000
+-------------------------score:  -3.518949046279445;  adjusted_score: -3.4916720691278127----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and it looked down and said our stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(it -9.19)(looked -0.70)(down -0.56)(and -5.49)(said -4.72)(our -7.35)(stand -3.65)(. -1.23) line score is : -4.059, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD AS PRP VBD ON A NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ he would go to a party 
+ take a pull at his hair 
+ and returned on the previous night 
+-------------------------score:  -3.397950691561545;  adjusted_score: -3.3743808136688127----------------------- 
+there was a fierce man named bok 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ shoot a deer at its knee , 
+ and put on the necessary walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(shoot -2.85)(a -1.84)(deer -4.37)(at -1.54)(its -1.59)(knee -3.94)(, -2.59) line score is : -2.674, look ahead score is : 0.607
+(and -2.59)(put -5.68)(on -0.57)(the -0.93)(necessary -5.44)(walk -3.96)(. -2.65) line score is : -3.117, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD AS PRP VBD ON A NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ he would go to a party 
+ take a pull at his hair 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.404693119453661;  adjusted_score: -3.380089465456478----------------------- 
+there was a fierce man named brock 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and the ball almost hit a whole flock . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(the -6.99)(ball -0.70)(almost -0.72)(hit -4.25)(a -3.77)(whole -7.80)(flock -2.44)(. -3.99) line score is : -3.929, look ahead score is : 0.000
+-------------------------score:  -3.4517872694766885;  adjusted_score: -3.4271836154795055----------------------- 
+there was a fierce man named bok 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and the ball always went a whole walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(the -6.99)(ball -0.70)(always -0.72)(went -4.25)(a -3.77)(whole -7.72)(walk -2.31)(. -5.88) line score is : -4.116, look ahead score is : 0.000
+-------------------------score:  -3.4920629515792383;  adjusted_score: -3.4674592975820553----------------------- 
+there was a fierce man named brock 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and the ball always bounced a whole walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(the -6.99)(ball -0.70)(always -0.72)(bounced -4.25)(a -3.77)(whole -7.72)(walk -1.70)(. -5.19) line score is : -3.970, look ahead score is : 0.000
+-------------------------score:  -3.5271937594269263;  adjusted_score: -3.5025901054297433----------------------- 
+there was a fierce man named bok 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and the ball always came a whole walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(the -6.99)(ball -0.70)(always -0.72)(came -4.25)(a -3.77)(whole -7.72)(walk -2.27)(. -6.86) line score is : -4.220, look ahead score is : 0.000
+-------------------------score:  -3.5477497216426963;  adjusted_score: -3.5231460676455133----------------------- 
+there was a fierce man named brock 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and the ball almost hit a whole walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(the -6.99)(ball -0.70)(almost -0.72)(hit -4.25)(a -3.77)(whole -7.80)(walk -2.44)(. -3.99) line score is : -3.929, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and now a new teacher they seek 
+-------------------------score:  -3.5325466580688953;  adjusted_score: -3.505269680917263----------------------- 
+there once was a man named brande 
+ who planted a great tree on his land . 
+ he would go to a lake , 
+ take a look at his stake , 
+ and maybe a little fish you stand . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(planted -8.52)(a -1.35)(great -4.98)(tree -1.83)(on -3.00)(his -2.31)(land -2.64)(. -1.36) line score is : -3.127, look ahead score is : 0.000
+(he -1.36)(would -1.80)(go -4.38)(to -3.69)(a -1.80)(lake -3.36)(, -4.99) line score is : -3.055, look ahead score is : 0.577
+(take -4.99)(a -2.09)(look -3.98)(at -0.71)(his -4.40)(stake -0.73)(, -3.63) line score is : -2.934, look ahead score is : 0.786
+(and -3.63)(maybe -9.19)(a -0.70)(little -0.56)(fish -6.19)(you -4.12)(stand -2.91)(. -3.28) line score is : -3.823, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD AS PRP VBD ON A NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ he would go to a party 
+ take a pull at his hair 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.555553342356826;  adjusted_score: -3.530949688359643----------------------- 
+there was a fierce man named bok 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and it was then like magic of walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(it -6.99)(was -0.70)(then -0.72)(like -4.95)(magic -3.49)(of -4.18)(walk -6.30)(. -4.06) line score is : -4.009, look ahead score is : 0.000
+-------------------------score:  -3.571806839018157;  adjusted_score: -3.5451659432640583----------------------- 
+there was a fierce man named brock 
+ who hunted as he sat on a rock . 
+ he would come to a tree , 
+ take a look at my knee , 
+ and he was not like someone of walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(come -3.92)(to -3.85)(a -2.04)(tree -3.58)(, -4.23) line score is : -3.076, look ahead score is : 0.577
+(take -4.23)(a -2.19)(look -4.23)(at -0.81)(my -3.17)(knee -0.97)(, -4.41) line score is : -2.858, look ahead score is : 0.755
+(and -4.41)(he -7.72)(was -0.90)(not -0.58)(like -4.69)(someone -3.45)(of -4.29)(walk -5.56)(. -5.46) line score is : -4.118, look ahead score is : 0.000
+-------------------------score:  -3.5751767880988843;  adjusted_score: -3.5505731341017013----------------------- 
+there was a fierce man named brock 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and he was not like someone of walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(he -6.99)(was -0.70)(not -0.72)(like -4.11)(someone -3.33)(of -4.14)(walk -6.59)(. -6.00) line score is : -4.142, look ahead score is : 0.000
+-------------------------score:  -3.6496847181609184;  adjusted_score: -3.6250810641637354----------------------- 
+there was a fierce man named bok 
+ who hunted as he sat on a rock . 
+ he would run to a tree , 
+ take a swing at his knee , 
+ and he was not like today of walk . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(hunted -7.01)(as -5.77)(he -2.40)(sat -4.86)(on -2.04)(a -1.53)(rock -2.96)(. -2.23) line score is : -3.380, look ahead score is : 0.000
+(he -2.23)(would -1.68)(run -3.92)(to -4.67)(a -3.53)(tree -2.58)(, -2.85) line score is : -3.066, look ahead score is : 0.571
+(take -2.85)(a -1.84)(swing -4.47)(at -0.71)(his -3.30)(knee -1.37)(, -4.70) line score is : -2.748, look ahead score is : 0.659
+(and -4.70)(he -6.99)(was -0.70)(not -0.72)(like -4.11)(today -3.33)(of -4.14)(walk -6.59)(. -6.30) line score is : -4.176, look ahead score is : 0.000

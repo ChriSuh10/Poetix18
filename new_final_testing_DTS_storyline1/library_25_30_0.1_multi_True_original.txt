@@ -1,0 +1,715 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ she 's a person of note 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.017684906721115;  adjusted_score: -2.9936223451793196----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he came down and bought our clock . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(came -1.20)(down -1.80)(and -0.77)(bought -4.65)(our -3.03)(clock -1.58)(. -2.99) line score is : -2.739, look ahead score is : 0.000
+-------------------------score:  -3.0256887450814247;  adjusted_score: -3.001626183539629----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he came down and took our talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(came -1.20)(down -1.80)(and -0.77)(took -4.65)(our -3.03)(talk -1.58)(. -3.86) line score is : -2.836, look ahead score is : 0.000
+-------------------------score:  -3.059555221349001;  adjusted_score: -3.0354926598072054----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he came down and took our walk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(came -1.20)(down -1.80)(and -0.77)(took -4.65)(our -3.03)(walk -1.58)(. -3.86) line score is : -2.836, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.060273710920504;  adjusted_score: -3.035700451268843----------------------- 
+there once was a teacher named margarete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ and it was to the door , 
+ and it was almost like kind of neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(and -3.11)(it -1.91)(was -2.68)(to -4.44)(the -1.13)(door -6.42)(, -2.82) line score is : -3.213, look ahead score is : 0.633
+(and -2.82)(it -4.89)(was -2.05)(almost -0.99)(like -3.32)(kind -0.52)(of -5.75)(neat -1.01)(. -8.18) line score is : -3.279, look ahead score is : 0.000
+-------------------------score:  -3.111368750588912;  adjusted_score: -3.0867954909372513----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ and it was to the door , 
+ and it was almost like sort of neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(and -3.11)(it -1.91)(was -2.68)(to -4.44)(the -1.13)(door -6.42)(, -2.82) line score is : -3.213, look ahead score is : 0.633
+(and -2.82)(it -4.89)(was -2.05)(almost -0.99)(like -3.32)(sort -0.52)(of -5.75)(neat -1.01)(. -8.67) line score is : -3.334, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ she 's a person of note 
+ and I hope that your day is a blast 
+-------------------------score:  -3.0990984132795623;  adjusted_score: -3.0750358517377667----------------------- 
+there once was a teacher named bok 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i know that his life is a walk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(i -7.14)(know -1.20)(that -1.80)(his -2.53)(life -3.48)(is -1.95)(a -4.45)(walk -4.17)(. -0.86) line score is : -2.909, look ahead score is : 0.000
+-------------------------score:  -3.164188860943823;  adjusted_score: -3.1401262994020276----------------------- 
+there once was a teacher named bok 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i know that his name is a walk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(i -7.14)(know -1.20)(that -1.80)(his -2.53)(name -3.48)(is -1.95)(a -4.45)(walk -3.91)(. -0.37) line score is : -2.833, look ahead score is : 0.000
+-------------------------score:  -3.196777885610407;  adjusted_score: -3.1727153240686117----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i heard that his name is a walk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(i -7.14)(heard -1.20)(that -1.80)(his -2.53)(name -4.86)(is -2.25)(a -3.70)(walk -3.26)(. -1.03) line score is : -2.927, look ahead score is : 0.000
+-------------------------score:  -3.199651286457524;  adjusted_score: -3.1755887249157286----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i think that his son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(the -1.18)(owner -3.20)(of -2.51)(his -2.15)(store -3.68)(, -1.82) line score is : -2.423, look ahead score is : 0.608
+(he -1.82)('s -2.25)(a -4.53)(man -3.13)(of -1.45)(war -4.06)(, -1.50) line score is : -2.677, look ahead score is : 0.595
+(and -1.50)(i -7.06)(think -1.18)(that -1.88)(his -2.54)(son -2.87)(is -2.07)(a -4.70)(neat -4.54)(. -1.91) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -3.201605906992248;  adjusted_score: -3.1775433454504523----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i think that his life is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(the -1.18)(owner -3.20)(of -2.51)(his -2.15)(store -3.68)(, -1.82) line score is : -2.423, look ahead score is : 0.608
+(he -1.82)('s -2.25)(a -4.53)(man -3.13)(of -1.45)(war -4.06)(, -1.50) line score is : -2.677, look ahead score is : 0.595
+(and -1.50)(i -7.06)(think -1.18)(that -1.88)(his -2.54)(life -2.87)(is -2.07)(a -4.70)(neat -4.62)(. -1.30) line score is : -2.971, look ahead score is : 0.000
+-------------------------score:  -3.227861709666975;  adjusted_score: -3.2037991481251793----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i think that his work is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(the -1.18)(owner -3.20)(of -2.51)(his -2.15)(store -3.68)(, -1.82) line score is : -2.423, look ahead score is : 0.608
+(he -1.82)('s -2.25)(a -4.53)(man -3.13)(of -1.45)(war -4.06)(, -1.50) line score is : -2.677, look ahead score is : 0.595
+(and -1.50)(i -7.06)(think -1.18)(that -1.88)(his -2.54)(work -2.87)(is -2.07)(a -4.70)(neat -4.58)(. -1.18) line score is : -2.956, look ahead score is : 0.000
+-------------------------score:  -3.2337092955907187;  adjusted_score: -3.209646734048923----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i think that his name is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(the -1.18)(owner -3.20)(of -2.51)(his -2.15)(store -3.68)(, -1.82) line score is : -2.423, look ahead score is : 0.608
+(he -1.82)('s -2.25)(a -4.53)(man -3.13)(of -1.45)(war -4.06)(, -1.50) line score is : -2.677, look ahead score is : 0.595
+(and -1.50)(i -7.06)(think -1.18)(that -1.88)(his -2.54)(name -2.87)(is -2.07)(a -4.70)(neat -4.27)(. -0.60) line score is : -2.867, look ahead score is : 0.000
+-------------------------score:  -3.2394434466506494;  adjusted_score: -3.215380885108854----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i heard that his name is a talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(i -7.14)(heard -1.20)(that -1.80)(his -2.53)(name -4.86)(is -2.25)(a -3.70)(talk -3.26)(. -1.03) line score is : -2.927, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ VBD PRP$ NN NN PRP$ NNS AND VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ put his arm round her shoulders and kr 
+-------------------------score:  -3.166580642714645;  adjusted_score: -3.1403843216146483----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ put his arm round my shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(put -4.93)(his -6.73)(arm -0.94)(round -5.05)(my -1.77)(shoulders -2.89)(and -4.83)(meet -1.03)(. -2.80) line score is : -3.442, look ahead score is : 0.000
+-------------------------score:  -3.1682227633216162;  adjusted_score: -3.1420264422216198----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round their shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(their -1.59)(shoulders -3.23)(and -5.12)(meet -2.68)(. -2.21) line score is : -3.610, look ahead score is : 0.000
+-------------------------score:  -3.2215012167439316;  adjusted_score: -3.195304895643935----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round my shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(my -1.59)(shoulders -3.23)(and -5.12)(meet -2.44)(. -3.06) line score is : -3.678, look ahead score is : 0.000
+-------------------------score:  -3.244908191941001;  adjusted_score: -3.2187118708410045----------------------- 
+there once was a teacher named margarete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round my shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(my -1.45)(shoulders -3.39)(and -5.06)(meet -2.84)(. -3.08) line score is : -3.722, look ahead score is : 0.000
+-------------------------score:  -3.2576710599841494;  adjusted_score: -3.231474738884153----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round their shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(their -1.45)(shoulders -3.39)(and -5.06)(meet -6.28)(. -1.53) line score is : -3.932, look ahead score is : 0.000
+-------------------------score:  -3.275274912516276;  adjusted_score: -3.2490785914162794----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round its shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(its -1.45)(shoulders -3.39)(and -5.06)(meet -3.79)(. -3.86) line score is : -3.914, look ahead score is : 0.000
+-------------------------score:  -3.288389001831864;  adjusted_score: -3.2621926807318675----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round his shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(his -1.59)(shoulders -3.23)(and -5.12)(meet -4.57)(. -3.65) line score is : -3.981, look ahead score is : 0.000
+-------------------------score:  -3.298226815281492;  adjusted_score: -3.2720304941814957----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round our shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(our -1.59)(shoulders -3.23)(and -5.12)(meet -6.22)(. -2.65) line score is : -4.053, look ahead score is : 0.000
+-------------------------score:  -3.304993298920718;  adjusted_score: -3.2787969778207215----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ put his arm round your shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(put -4.93)(his -6.73)(arm -0.94)(round -5.05)(your -1.77)(shoulders -2.89)(and -4.83)(meet -6.20)(. -3.05) line score is : -4.044, look ahead score is : 0.000
+-------------------------score:  -3.3113860885302224;  adjusted_score: -3.285189767430226----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round your shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(your -1.59)(shoulders -3.23)(and -5.12)(meet -5.68)(. -3.15) line score is : -4.047, look ahead score is : 0.000
+-------------------------score:  -3.3202378948529563;  adjusted_score: -3.29404157375296----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round its shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(its -1.59)(shoulders -3.23)(and -5.12)(meet -5.53)(. -3.86) line score is : -4.110, look ahead score is : 0.000
+-------------------------score:  -3.3215689857800803;  adjusted_score: -3.295372664680084----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round her shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(her -1.59)(shoulders -3.23)(and -5.12)(meet -6.10)(. -2.67) line score is : -4.042, look ahead score is : 0.000
+-------------------------score:  -3.3259721289981496;  adjusted_score: -3.299775807898153----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round his shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(his -1.45)(shoulders -3.39)(and -5.06)(meet -5.16)(. -3.84) line score is : -4.064, look ahead score is : 0.000
+-------------------------score:  -3.3327285304214014;  adjusted_score: -3.306532209321405----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round our shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(our -1.45)(shoulders -3.39)(and -5.06)(meet -6.91)(. -2.78) line score is : -4.141, look ahead score is : 0.000
+-------------------------score:  -3.338696615262465;  adjusted_score: -3.3125002941624686----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ put his arm round my parents and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(put -4.93)(his -6.73)(arm -0.94)(round -5.05)(my -1.77)(parents -2.89)(and -4.83)(meet -1.03)(. -9.09) line score is : -4.141, look ahead score is : 0.000
+-------------------------score:  -3.342438087318883;  adjusted_score: -3.3162417662188863----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round your shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(your -1.45)(shoulders -3.39)(and -5.06)(meet -6.33)(. -3.22) line score is : -4.125, look ahead score is : 0.000
+-------------------------score:  -3.343013786908352;  adjusted_score: -3.3168174658083553----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at their door , 
+ put his arm round my parents and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(their -2.59)(door -0.96)(, -3.96) line score is : -2.501, look ahead score is : 0.714
+(put -3.96)(his -7.53)(arm -1.24)(round -4.93)(my -1.59)(parents -3.23)(and -5.12)(meet -2.44)(. -7.38) line score is : -4.158, look ahead score is : 0.000
+-------------------------score:  -3.348523183302446;  adjusted_score: -3.3223268622024493----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at its door , 
+ put his arm round her shoulders and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(its -2.59)(door -0.96)(, -5.15) line score is : -2.671, look ahead score is : 0.714
+(put -5.15)(his -6.81)(arm -0.95)(round -4.77)(her -1.45)(shoulders -3.39)(and -5.06)(meet -6.81)(. -2.56) line score is : -4.105, look ahead score is : 0.000
+-------------------------score:  -3.3804740273591243;  adjusted_score: -3.354277706259128----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ put his arm round my ankles and meet . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(put -4.93)(his -6.73)(arm -0.94)(round -5.05)(my -1.77)(ankles -2.89)(and -4.83)(meet -1.03)(. -9.20) line score is : -4.154, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1768023827496696;  adjusted_score: -3.150606061649673----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ and i know that my house is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(and -4.93)(i -6.73)(know -0.94)(that -0.87)(my -3.94)(house -4.88)(is -2.37)(a -4.22)(neat -4.16)(. -1.66) line score is : -3.471, look ahead score is : 0.000
+-------------------------score:  -3.184000066098045;  adjusted_score: -3.1593715248519882----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at my door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(my -2.52)(door -4.81)(, -3.19) line score is : -3.044, look ahead score is : 0.635
+(and -3.19)(i -3.99)(know -0.65)(that -0.94)(his -3.04)(wife -5.74)(is -2.22)(a -4.54)(neat -1.81)(. -3.51) line score is : -2.964, look ahead score is : 0.000
+-------------------------score:  -3.1963907375055203;  adjusted_score: -3.1717621962594635----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at his door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(his -2.52)(door -4.81)(, -3.06) line score is : -3.026, look ahead score is : 0.635
+(and -3.06)(i -4.63)(know -0.58)(that -0.98)(his -3.79)(wife -5.25)(is -2.24)(a -4.26)(neat -1.70)(. -3.90) line score is : -3.039, look ahead score is : 0.000
+-------------------------score:  -3.2042682854568256;  adjusted_score: -3.179639744210769----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at their door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(their -2.52)(door -4.81)(, -4.35) line score is : -3.210, look ahead score is : 0.635
+(and -4.35)(i -3.19)(know -0.56)(that -1.03)(his -3.93)(wife -5.38)(is -2.21)(a -4.46)(neat -1.79)(. -3.89) line score is : -3.079, look ahead score is : 0.000
+-------------------------score:  -3.2143025240477394;  adjusted_score: -3.1896739828016827----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at my door , 
+ and i know that his wife has a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(my -2.52)(door -4.81)(, -3.19) line score is : -3.044, look ahead score is : 0.635
+(and -3.19)(i -3.99)(know -0.65)(that -0.94)(his -3.04)(wife -5.74)(has -2.22)(a -4.54)(neat -1.81)(. -4.83) line score is : -3.096, look ahead score is : 0.000
+-------------------------score:  -3.221239670234568;  adjusted_score: -3.197060359957464----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ buy a beer at their door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(buy -3.11)(a -1.91)(beer -1.73)(at -1.08)(their -3.92)(door -5.22)(, -5.16) line score is : -3.160, look ahead score is : 0.613
+(and -5.16)(i -3.40)(know -0.60)(that -0.96)(his -4.18)(wife -5.55)(is -2.23)(a -4.43)(neat -1.86)(. -4.06) line score is : -3.243, look ahead score is : 0.000
+-------------------------score:  -3.229005662833943;  adjusted_score: -3.2043771215878865----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at his door , 
+ and i know that his wife has a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(his -2.52)(door -4.81)(, -3.06) line score is : -3.026, look ahead score is : 0.635
+(and -3.06)(i -4.63)(know -0.58)(that -0.98)(his -3.79)(wife -5.25)(has -2.24)(a -4.26)(neat -1.70)(. -4.99) line score is : -3.148, look ahead score is : 0.000
+-------------------------score:  -3.2309090863255894;  adjusted_score: -3.2062805450795326----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at my door , 
+ and i know that my son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(my -2.52)(door -4.81)(, -3.19) line score is : -3.044, look ahead score is : 0.635
+(and -3.19)(i -3.99)(know -0.65)(that -0.94)(my -3.04)(son -5.74)(is -2.22)(a -4.26)(neat -2.96)(. -3.44) line score is : -3.043, look ahead score is : 0.000
+-------------------------score:  -3.232994258403778;  adjusted_score: -3.2083638075739147----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ get a beer at my door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(get -3.11)(a -1.91)(beer -3.37)(at -1.09)(my -3.80)(door -5.23)(, -4.19) line score is : -3.242, look ahead score is : 0.635
+(and -4.19)(i -3.77)(know -0.61)(that -0.92)(his -3.12)(wife -5.93)(is -2.33)(a -4.67)(neat -1.99)(. -3.65) line score is : -3.118, look ahead score is : 0.000
+-------------------------score:  -3.233380640254301;  adjusted_score: -3.2071843191543046----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(and -4.93)(i -6.73)(know -0.94)(that -0.87)(his -3.94)(wife -4.88)(is -2.37)(a -4.33)(neat -2.74)(. -3.36) line score is : -3.509, look ahead score is : 0.000
+-------------------------score:  -3.236756557927412;  adjusted_score: -3.211493920938057----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ make a sale at my door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(make -3.11)(a -1.91)(sale -4.91)(at -1.09)(my -2.35)(door -4.75)(, -5.01) line score is : -3.303, look ahead score is : 0.667
+(and -5.01)(i -2.36)(know -0.62)(that -0.75)(his -2.68)(wife -6.76)(is -2.16)(a -4.38)(neat -2.20)(. -3.87) line score is : -3.079, look ahead score is : 0.000
+-------------------------score:  -3.2460602311527027;  adjusted_score: -3.2207975941633475----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ make a sale at his door , 
+ and i know that his wife is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(make -3.11)(a -1.91)(sale -4.91)(at -1.09)(his -2.35)(door -4.75)(, -3.73) line score is : -3.119, look ahead score is : 0.667
+(and -3.73)(i -4.50)(know -0.56)(that -0.79)(his -3.36)(wife -5.85)(is -2.18)(a -4.13)(neat -2.05)(. -4.28) line score is : -3.142, look ahead score is : 0.000
+-------------------------score:  -3.2489031938945545;  adjusted_score: -3.2242746526484978----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at his door , 
+ and i know that his son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(his -2.52)(door -4.81)(, -3.06) line score is : -3.026, look ahead score is : 0.635
+(and -3.06)(i -4.63)(know -0.58)(that -0.98)(his -3.79)(son -5.25)(is -2.24)(a -4.26)(neat -3.38)(. -3.28) line score is : -3.146, look ahead score is : 0.000
+-------------------------score:  -3.249064920579686;  adjusted_score: -3.2244363793336293----------------------- 
+there once was a teacher named margarete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at my door , 
+ and i know that his son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(my -2.52)(door -4.81)(, -3.19) line score is : -3.044, look ahead score is : 0.635
+(and -3.19)(i -3.99)(know -0.65)(that -0.94)(his -3.04)(son -5.74)(is -2.22)(a -4.54)(neat -3.73)(. -3.11) line score is : -3.115, look ahead score is : 0.000
+-------------------------score:  -3.268919776467716;  adjusted_score: -3.2427234553677193----------------------- 
+there once was a teacher named pete 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ take a look at my door , 
+ and i know that my son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(take -3.11)(a -1.91)(look -3.66)(at -1.33)(my -2.59)(door -0.96)(, -4.93) line score is : -2.640, look ahead score is : 0.714
+(and -4.93)(i -6.73)(know -0.94)(that -0.87)(my -3.94)(son -4.88)(is -2.37)(a -4.22)(neat -3.73)(. -2.90) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -3.2748152245493496;  adjusted_score: -3.2495525875599944----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ make a sale at my door , 
+ and i know that my son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(make -3.11)(a -1.91)(sale -4.91)(at -1.09)(my -2.35)(door -4.75)(, -5.01) line score is : -3.303, look ahead score is : 0.667
+(and -5.01)(i -2.36)(know -0.62)(that -0.75)(my -2.68)(son -6.76)(is -2.16)(a -4.09)(neat -2.85)(. -3.65) line score is : -3.094, look ahead score is : 0.000
+-------------------------score:  -3.278250492670957;  adjusted_score: -3.2529878556816016----------------------- 
+there once was a teacher named marguerite 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ make a sale at my door , 
+ and i know that his son is a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(make -3.11)(a -1.91)(sale -4.91)(at -1.09)(my -2.35)(door -4.75)(, -5.01) line score is : -3.303, look ahead score is : 0.667
+(and -5.01)(i -2.36)(know -0.62)(that -0.75)(his -2.68)(son -6.76)(is -2.16)(a -4.38)(neat -3.56)(. -3.29) line score is : -3.157, look ahead score is : 0.000
+-------------------------score:  -3.3293884940007152;  adjusted_score: -3.3047599527546585----------------------- 
+there once was a teacher named bridgette 
+ who opened a small shop on my street . 
+ he would go to a store , 
+ have a beer at my door , 
+ and i know that his wife lives a neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(he -1.18)(would -1.64)(go -3.47)(to -3.78)(a -1.56)(store -3.09)(, -3.11) line score is : -2.547, look ahead score is : 0.596
+(have -3.11)(a -1.91)(beer -4.94)(at -0.83)(my -2.52)(door -4.81)(, -3.19) line score is : -3.044, look ahead score is : 0.635
+(and -3.19)(i -3.99)(know -0.65)(that -0.94)(his -3.04)(wife -5.74)(lives -2.22)(a -4.54)(neat -1.81)(. -5.37) line score is : -3.150, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ she 's a person of note 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.293094366788864;  adjusted_score: -3.2690318052470686----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he was not like someone of talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(was -1.20)(not -1.80)(like -0.77)(someone -2.83)(of -5.25)(talk -4.90)(. -6.21) line score is : -3.510, look ahead score is : 0.000
+-------------------------score:  -3.304634101688862;  adjusted_score: -3.2805715401470663----------------------- 
+there once was a teacher named bok 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he was always like hell of talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(was -1.20)(always -1.80)(like -0.77)(hell -2.83)(of -3.85)(talk -5.30)(. -7.42) line score is : -3.534, look ahead score is : 0.000
+-------------------------score:  -3.361493106931448;  adjusted_score: -3.3374305453896524----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he came here like crazy of talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(came -1.20)(here -1.80)(like -0.77)(crazy -4.65)(of -3.01)(talk -5.55)(. -5.56) line score is : -3.463, look ahead score is : 0.000
+-------------------------score:  -3.4067460112273693;  adjusted_score: -3.3826834496855738----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he was not like someone of walk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(was -1.20)(not -1.80)(like -0.77)(someone -2.83)(of -5.25)(walk -4.90)(. -6.21) line score is : -3.510, look ahead score is : 0.000
+-------------------------score:  -3.4086014814674854;  adjusted_score: -3.38453891992569----------------------- 
+there once was a teacher named brock 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and he was here like crazy of talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(he -7.14)(was -1.20)(here -1.80)(like -0.77)(crazy -2.83)(of -5.19)(talk -6.22)(. -5.17) line score is : -3.535, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ she 's a person of note 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.3093774851524467;  adjusted_score: -3.285314923610651----------------------- 
+there once was a teacher named bok 
+ who opened a small shop on my block . 
+ the owner of his store , 
+ he 's a man of war , 
+ and i have come to the point with talk . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(block -1.99)(. -1.22) line score is : -3.258, look ahead score is : 0.000
+(the -1.22)(owner -3.19)(of -2.40)(his -2.18)(store -3.49)(, -1.63) line score is : -2.354, look ahead score is : 0.608
+(he -1.63)('s -2.15)(a -4.45)(man -3.00)(of -1.44)(war -4.28)(, -1.50) line score is : -2.634, look ahead score is : 0.595
+(and -1.50)(i -7.14)(have -1.20)(come -1.80)(to -2.53)(the -4.09)(point -5.01)(with -0.43)(talk -4.10)(. -4.23) line score is : -3.202, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ she 's a person of note 
+ but it does n't come out of my purse 
+-------------------------score:  -3.3581836707890034;  adjusted_score: -3.334121109247208----------------------- 
+there once was a teacher named marquerite 
+ who opened a small shop on my street . 
+ the owner of his store , 
+ he 's a man of war , 
+ but he has always come in his neat . 
+------------------------- score breakdown ------------------------ 
+(who -3.65)(opened -6.99)(a -1.66)(small -3.22)(shop -3.05)(on -2.21)(my -5.33)(street -0.72)(. -1.18) line score is : -3.112, look ahead score is : 0.000
+(the -1.18)(owner -3.20)(of -2.51)(his -2.15)(store -3.68)(, -1.82) line score is : -2.423, look ahead score is : 0.608
+(he -1.82)('s -2.25)(a -4.53)(man -3.13)(of -1.45)(war -4.06)(, -1.50) line score is : -2.677, look ahead score is : 0.595
+(but -1.50)(he -7.06)(has -1.18)(always -3.26)(come -0.68)(in -3.17)(his -4.09)(neat -5.21)(. -3.05) line score is : -3.245, look ahead score is : 0.000

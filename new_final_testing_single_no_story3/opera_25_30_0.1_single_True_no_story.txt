@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN RB VBD JJ . 
+ THERE VBZ NN LIKE A NN , 
+ PRP RB VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose appetite simply was unich 
+ there was nothing like a food 
+ she contentedly cooed 
+ as she let out three tucks in her tunic 
+-------------------------score:  -4.396002669760492;  adjusted_score: -4.396002669760492----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in his fur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(his -8.36)(fur -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.420544062341962;  adjusted_score: -4.420544062341962----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as he put out two books in his fur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(he -4.03)(put -6.62)(out -5.90)(two -2.87)(books -3.20)(in -6.62)(his -5.25)(fur -1.07)(. -2.75) line score is : -4.397, look ahead score is : 0.000
+-------------------------score:  -4.426388172507619;  adjusted_score: -4.426388172507619----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in its were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(its -8.36)(were -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.428924035089689;  adjusted_score: -4.428924035089689----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out three books in his fur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(three -3.23)(books -3.48)(in -0.00)(his -8.89)(fur -3.08)(. -3.40) line score is : -4.428, look ahead score is : 0.000
+-------------------------score:  -4.453759212919977;  adjusted_score: -4.453759212919977----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in his were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(his -8.36)(were -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.461696584650781;  adjusted_score: -4.461696584650781----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out three times in her were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(three -3.23)(times -3.48)(in -0.00)(her -8.89)(were -3.94)(. -3.30) line score is : -4.504, look ahead score is : 0.000
+-------------------------score:  -4.461927737508502;  adjusted_score: -4.461927737508502----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as he put out two books in his were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(he -4.03)(put -6.62)(out -5.90)(two -2.87)(books -3.20)(in -6.62)(his -5.25)(were -1.07)(. -2.75) line score is : -4.397, look ahead score is : 0.000
+-------------------------score:  -4.480840676938117;  adjusted_score: -4.480840676938117----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out three books in his were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(three -3.23)(books -3.48)(in -0.00)(his -8.89)(were -3.08)(. -3.40) line score is : -4.428, look ahead score is : 0.000
+-------------------------score:  -4.508745936751699;  adjusted_score: -4.508745936751699----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in her were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(her -8.36)(were -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.523807323745651;  adjusted_score: -4.523807323745651----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two girls in her were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(girls -3.48)(in -0.00)(her -8.36)(were -5.13)(. -3.13) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -4.534903287887573;  adjusted_score: -4.534903287887573----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as he put out two books in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(he -4.03)(put -6.62)(out -5.90)(two -2.87)(books -3.20)(in -6.62)(his -5.25)(per -1.07)(. -2.75) line score is : -4.397, look ahead score is : 0.000
+-------------------------score:  -4.543581877435956;  adjusted_score: -4.543581877435956----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as he put out two books in his blur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(he -4.03)(put -6.62)(out -5.90)(two -2.87)(books -3.20)(in -6.62)(his -5.25)(blur -1.07)(. -2.75) line score is : -4.397, look ahead score is : 0.000
+-------------------------score:  -4.555791789208472;  adjusted_score: -4.555791789208472----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two kids in her were . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(kids -3.48)(in -0.00)(her -8.36)(were -4.96)(. -3.31) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -4.567211187652512;  adjusted_score: -4.567211187652512----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two kids in their per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(kids -3.48)(in -0.00)(their -8.36)(per -4.96)(. -3.31) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -4.568161966886172;  adjusted_score: -4.568161966886172----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(his -8.36)(per -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.569370431559427;  adjusted_score: -4.569370431559427----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as he put out three books in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(he -4.03)(put -6.62)(out -5.90)(three -2.87)(books -3.20)(in -6.62)(his -5.73)(per -1.34)(. -2.46) line score is : -4.443, look ahead score is : 0.000
+-------------------------score:  -4.581718626107821;  adjusted_score: -4.581718626107821----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two girls in their per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(girls -3.48)(in -0.00)(their -8.36)(per -5.13)(. -3.13) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -4.58528114463635;  adjusted_score: -4.58528114463635----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in her per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(her -8.36)(per -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.585477729269769;  adjusted_score: -4.585477729269769----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in his bur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(his -8.36)(bur -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.595139446344027;  adjusted_score: -4.595139446344027----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out three books in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(three -3.23)(books -3.48)(in -0.00)(his -8.89)(per -3.08)(. -3.40) line score is : -4.428, look ahead score is : 0.000
+-------------------------score:  -4.5957119574720435;  adjusted_score: -4.5957119574720435----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two books in its per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(books -3.48)(in -0.00)(its -8.36)(per -3.04)(. -3.68) line score is : -4.399, look ahead score is : 0.000
+-------------------------score:  -4.598702228835983;  adjusted_score: -4.598702228835983----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two girls in her per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(girls -3.48)(in -0.00)(her -8.36)(per -5.13)(. -3.13) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -4.6045133155587665;  adjusted_score: -4.6045133155587665----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out three times in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(three -3.23)(times -3.48)(in -0.00)(his -8.89)(per -3.94)(. -3.30) line score is : -4.504, look ahead score is : 0.000
+-------------------------score:  -4.608719606825616;  adjusted_score: -4.608719606825616----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two guys in their per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(guys -3.48)(in -0.00)(their -8.36)(per -4.82)(. -3.18) line score is : -4.527, look ahead score is : 0.000
+-------------------------score:  -4.611341930202408;  adjusted_score: -4.611341930202408----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two things in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(things -3.48)(in -0.00)(his -8.36)(per -4.26)(. -4.39) line score is : -4.592, look ahead score is : 0.000
+-------------------------score:  -4.613414094192974;  adjusted_score: -4.613414094192974----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out three times in her per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(three -3.23)(times -3.48)(in -0.00)(her -8.89)(per -3.94)(. -3.30) line score is : -4.504, look ahead score is : 0.000
+-------------------------score:  -4.615701626795011;  adjusted_score: -4.615701626795011----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two guys in his per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(guys -3.48)(in -0.00)(his -8.36)(per -4.82)(. -3.18) line score is : -4.527, look ahead score is : 0.000
+-------------------------score:  -4.617160220572259;  adjusted_score: -4.617160220572259----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two men in their per . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(men -3.48)(in -0.00)(their -8.36)(per -5.16)(. -3.31) line score is : -4.574, look ahead score is : 0.000
+-------------------------score:  -4.631599599038184;  adjusted_score: -4.631599599038184----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two kids in their bur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(kids -3.48)(in -0.00)(their -8.36)(bur -4.96)(. -3.31) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -4.645861159818845;  adjusted_score: -4.645861159818845----------------------- 
+there once was a artist named yer 
+ whose work really fascinated her . 
+ there is stuff like a book , 
+ he actually took , 
+ as it turned out two girls in their bur . 
+------------------------- score breakdown ------------------------ 
+(whose -6.53)(work -1.85)(really -5.69)(fascinated -5.24)(her -6.44)(. -1.45) line score is : -4.535, look ahead score is : 0.000
+(there -1.45)(is -5.11)(stuff -2.47)(like -7.52)(a -2.26)(book -3.31)(, -5.15) line score is : -3.895, look ahead score is : 0.000
+(he -5.15)(actually -4.11)(took -4.78)(, -5.65) line score is : -4.922, look ahead score is : 0.000
+(as -5.65)(it -4.03)(turned -6.62)(out -5.90)(two -3.23)(girls -3.48)(in -0.00)(their -8.36)(bur -5.13)(. -3.13) line score is : -4.554, look ahead score is : 0.000

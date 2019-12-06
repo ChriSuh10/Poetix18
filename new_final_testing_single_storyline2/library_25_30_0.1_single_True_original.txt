@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN RB VBD JJ . 
+ THERE VBZ NN LIKE A NN , 
+ PRP RB VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose appetite simply was unich 
+ there was nothing like a food 
+ she contentedly cooed 
+ as she let out three tucks in her tunic 
+-------------------------score:  -4.777328186801502;  adjusted_score: -4.7549571039740535----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two schools in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(wrote -2.05)(out -5.49)(two -3.68)(schools -3.42)(in -6.23)(his -6.53)(checks -4.27)(. -2.37) line score is : -5.055, look ahead score is : 0.000
+-------------------------score:  -4.791516776595797;  adjusted_score: -4.7691456937683485----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two words in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(wrote -2.05)(out -5.49)(two -3.68)(words -3.42)(in -6.23)(his -6.53)(checks -4.26)(. -2.83) line score is : -5.100, look ahead score is : 0.000
+-------------------------score:  -4.796529906136649;  adjusted_score: -4.7741588233092----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out three words in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(wrote -2.05)(out -5.49)(three -3.68)(words -3.42)(in -6.23)(his -6.97)(checks -3.95)(. -2.84) line score is : -5.114, look ahead score is : 0.000
+-------------------------score:  -4.831310774598803;  adjusted_score: -4.8089396917713545----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he put out two books in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(put -2.05)(out -5.49)(two -3.68)(books -3.62)(in -7.51)(his -5.37)(checks -0.58)(. -2.98) line score is : -4.779, look ahead score is : 0.000
+-------------------------score:  -4.856941640377045;  adjusted_score: -4.834570557549596----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he put out three books in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(put -2.05)(out -5.49)(three -3.68)(books -3.62)(in -7.51)(his -6.12)(checks -0.74)(. -2.60) line score is : -4.831, look ahead score is : 0.000
+-------------------------score:  -4.874108246394566;  adjusted_score: -4.851737163567117----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two schools in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(schools -2.97)(in -6.28)(his -6.17)(spent -3.47)(. -2.12) line score is : -4.857, look ahead score is : 0.000
+-------------------------score:  -4.87429569874491;  adjusted_score: -4.851924615917461----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two kids in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(wrote -2.05)(out -5.49)(two -3.68)(kids -3.42)(in -6.23)(his -6.53)(checks -4.55)(. -2.80) line score is : -5.126, look ahead score is : 0.000
+-------------------------score:  -4.890945915664945;  adjusted_score: -4.8685748328374965----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two books in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(it -7.86)(actually -4.78)(cool -6.43)(, -6.19) line score is : -6.315, look ahead score is : 0.500
+(as -6.19)(he -10.32)(wrote -2.05)(out -5.49)(two -3.68)(books -3.42)(in -6.23)(his -6.53)(checks -3.62)(. -3.24) line score is : -5.077, look ahead score is : 0.000
+-------------------------score:  -4.901101248604911;  adjusted_score: -4.878730165777462----------------------- 
+there was a neat author named rex 
+ whose work often included objects . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two books in his checks . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(often -5.54)(included -3.77)(objects -8.86)(. -3.45) line score is : -5.238, look ahead score is : 0.000
+(there -3.45)(is -4.54)(stuff -2.28)(like -7.61)(a -1.89)(school -1.53)(, -7.86) line score is : -4.165, look ahead score is : 0.619
+(he -7.86)(actually -4.78)(cool -6.50)(, -6.87) line score is : -6.500, look ahead score is : 0.500
+(as -6.87)(he -10.67)(wrote -2.67)(out -5.29)(two -3.04)(books -3.08)(in -6.40)(his -6.32)(checks -3.24)(. -3.19) line score is : -5.078, look ahead score is : 0.000
+-------------------------score:  -4.902275208915983;  adjusted_score: -4.879904126088534----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two schools in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(it -7.48)(actually -4.35)(cool -6.34)(, -6.15) line score is : -6.083, look ahead score is : 0.500
+(as -6.15)(he -10.31)(wrote -1.98)(out -5.42)(two -3.73)(schools -3.40)(in -6.00)(his -6.40)(spent -3.34)(. -2.33) line score is : -4.906, look ahead score is : 0.000
+-------------------------score:  -4.904755668980735;  adjusted_score: -4.882384586153286----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two schools in his meant . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(schools -2.97)(in -6.28)(his -6.17)(meant -3.47)(. -2.12) line score is : -4.857, look ahead score is : 0.000
+-------------------------score:  -4.90538398708616;  adjusted_score: -4.883012904258711----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out three schools in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(three -3.08)(schools -2.97)(in -6.28)(his -6.74)(spent -3.93)(. -2.02) line score is : -4.950, look ahead score is : 0.000
+-------------------------score:  -4.92929636154856;  adjusted_score: -4.906925278721111----------------------- 
+there was a neat author named kent 
+ whose work also included content . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out three schools in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(it -7.48)(actually -4.35)(cool -6.34)(, -6.15) line score is : -6.083, look ahead score is : 0.500
+(as -6.15)(he -10.31)(wrote -1.98)(out -5.42)(three -3.73)(schools -3.40)(in -6.00)(his -6.92)(spent -3.80)(. -2.20) line score is : -4.991, look ahead score is : 0.000
+-------------------------score:  -4.931965806654522;  adjusted_score: -4.909594723827073----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two schools in his meant . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(it -7.48)(actually -4.35)(cool -6.34)(, -6.15) line score is : -6.083, look ahead score is : 0.500
+(as -6.15)(he -10.31)(wrote -1.98)(out -5.42)(two -3.73)(schools -3.40)(in -6.00)(his -6.40)(meant -3.34)(. -2.33) line score is : -4.906, look ahead score is : 0.000
+-------------------------score:  -4.933693153517587;  adjusted_score: -4.911322070690138----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out ten years in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(ten -3.08)(years -2.97)(in -6.28)(his -7.85)(spent -2.68)(. -3.20) line score is : -5.054, look ahead score is : 0.000
+-------------------------score:  -4.934785723686218;  adjusted_score: -4.91241464085877----------------------- 
+there was a neat author named kent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out four years in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(four -3.08)(years -2.97)(in -6.28)(his -7.47)(spent -3.52)(. -2.64) line score is : -5.043, look ahead score is : 0.000
+-------------------------score:  -4.935480049678257;  adjusted_score: -4.913108966850809----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two years in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(years -2.97)(in -6.28)(his -6.17)(spent -4.72)(. -2.81) line score is : -5.052, look ahead score is : 0.000
+-------------------------score:  -4.936795132500785;  adjusted_score: -4.914424049673336----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out three years in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(three -3.08)(years -2.97)(in -6.28)(his -6.74)(spent -4.16)(. -2.81) line score is : -5.052, look ahead score is : 0.000
+-------------------------score:  -4.9435363837650845;  adjusted_score: -4.921165300937636----------------------- 
+there was a neat author named kent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out three schools in his meant . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(three -3.08)(schools -2.97)(in -6.28)(his -6.74)(meant -3.93)(. -2.02) line score is : -4.950, look ahead score is : 0.000
+-------------------------score:  -4.944417629923139;  adjusted_score: -4.9220465470956904----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out five years in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(five -3.08)(years -2.97)(in -6.28)(his -7.92)(spent -3.07)(. -2.94) line score is : -5.075, look ahead score is : 0.000
+-------------------------score:  -4.95947082553591;  adjusted_score: -4.937099742708462----------------------- 
+there was a neat author named kent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two books in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(books -2.97)(in -6.28)(his -6.17)(spent -3.20)(. -2.91) line score is : -4.909, look ahead score is : 0.000
+-------------------------score:  -4.966265222855976;  adjusted_score: -4.943894140028528----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out three schools in his meant . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(it -7.48)(actually -4.35)(cool -6.34)(, -6.15) line score is : -6.083, look ahead score is : 0.500
+(as -6.15)(he -10.31)(wrote -1.98)(out -5.42)(three -3.73)(schools -3.40)(in -6.00)(his -6.92)(meant -3.80)(. -2.20) line score is : -4.991, look ahead score is : 0.000
+-------------------------score:  -4.974776480879102;  adjusted_score: -4.952405398051654----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two books in his meant . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(books -2.97)(in -6.28)(his -6.17)(meant -3.20)(. -2.91) line score is : -4.909, look ahead score is : 0.000
+-------------------------score:  -4.982395929949624;  adjusted_score: -4.960024847122176----------------------- 
+there was a neat author named kent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two kids in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(kids -2.97)(in -6.28)(his -6.17)(spent -4.60)(. -2.61) line score is : -5.019, look ahead score is : 0.000
+-------------------------score:  -4.9844366908073425;  adjusted_score: -4.962065607979894----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out three books in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(three -3.08)(books -2.97)(in -6.28)(his -6.74)(spent -3.46)(. -2.54) line score is : -4.954, look ahead score is : 0.000
+-------------------------score:  -4.990664780139923;  adjusted_score: -4.9682936973124745----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out four books in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(four -3.08)(books -2.97)(in -6.28)(his -7.47)(spent -3.15)(. -2.34) line score is : -4.976, look ahead score is : 0.000
+-------------------------score:  -4.992798724344799;  adjusted_score: -4.97042764151735----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ it actually cool , 
+ as he wrote out two books in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(it -7.48)(actually -4.35)(cool -6.34)(, -6.15) line score is : -6.083, look ahead score is : 0.500
+(as -6.15)(he -10.31)(wrote -1.98)(out -5.42)(two -3.73)(books -3.40)(in -6.00)(his -6.40)(spent -3.62)(. -2.95) line score is : -4.996, look ahead score is : 0.000
+-------------------------score:  -4.9971514855112344;  adjusted_score: -4.974780402683786----------------------- 
+there was a neat author named brent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out three books in his meant . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(three -3.08)(books -2.97)(in -6.28)(his -6.74)(meant -3.46)(. -2.54) line score is : -4.954, look ahead score is : 0.000
+-------------------------score:  -5.003402948379517;  adjusted_score: -4.981031865552068----------------------- 
+there was a neat author named trent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out five books in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(five -3.08)(books -2.97)(in -6.28)(his -7.92)(spent -3.07)(. -2.33) line score is : -5.014, look ahead score is : 0.000
+-------------------------score:  -5.004616814000266;  adjusted_score: -4.982245731172817----------------------- 
+there was a neat author named kent 
+ whose work also included content . 
+ there is stuff like a school , 
+ he actually cool , 
+ as he wrote out two words in his spent . 
+------------------------- score breakdown ------------------------ 
+(whose -7.59)(work -2.21)(also -5.78)(included -2.98)(content -9.23)(. -4.62) line score is : -5.402, look ahead score is : 0.000
+(there -4.62)(is -4.79)(stuff -2.11)(like -6.67)(a -2.29)(school -2.73)(, -7.48) line score is : -4.385, look ahead score is : 0.619
+(he -7.48)(actually -4.35)(cool -6.16)(, -6.18) line score is : -6.042, look ahead score is : 0.500
+(as -6.18)(he -10.55)(wrote -2.42)(out -5.33)(two -3.08)(words -2.97)(in -6.28)(his -6.17)(spent -4.80)(. -2.78) line score is : -5.056, look ahead score is : 0.000

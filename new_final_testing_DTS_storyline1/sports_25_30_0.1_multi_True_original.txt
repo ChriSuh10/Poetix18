@@ -1,0 +1,1529 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and now he 's a college professor 
+-------------------------score:  -2.854105026461184;  adjusted_score: -2.8292848927900196----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ get a job at his pool , 
+ and now he is a college athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(get -5.01)(a -2.58)(job -3.74)(at -1.20)(his -1.43)(pool -3.01)(, -3.94) line score is : -2.990, look ahead score is : 0.620
+(and -3.94)(now -8.63)(he -1.40)(is -1.48)(a -5.98)(college -0.77)(athlete -2.10)(. -2.46) line score is : -3.345, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ OR THE NN OF A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ or the joy of a pleasant surprise 
+-------------------------score:  -2.857129018152914;  adjusted_score: -2.8335287991863107----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a local athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(local -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -2.866046528662405;  adjusted_score: -2.8424463096958017----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the gym of a local athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(gym -1.25)(of -2.86)(a -4.33)(local -3.44)(athlete -6.11)(. -1.37) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -2.8761526634616237;  adjusted_score: -2.8525524444950205----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a fellow athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(fellow -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -2.927452702676096;  adjusted_score: -2.903852483709493----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a great athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(great -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -2.934328181128348;  adjusted_score: -2.910727962161745----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a former athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(former -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -2.940373238055937;  adjusted_score: -2.9167730190893337----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a young athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(young -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -2.940609706986335;  adjusted_score: -2.917009488019732----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a favorite athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(favorite -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -2.9542182145580167;  adjusted_score: -2.9306179955914136----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a big athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(big -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -2.9579625956473814;  adjusted_score: -2.9343623766807783----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a top athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(top -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -2.9610118019965386;  adjusted_score: -2.9374115830299354----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the gym of a nearby athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(gym -1.25)(of -2.86)(a -4.33)(nearby -3.44)(athlete -6.11)(. -1.37) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -2.9850855796567854;  adjusted_score: -2.9614853606901823----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a good athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(good -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -2.9943623254376073;  adjusted_score: -2.970762106471004----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a new athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(new -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -2.9974910213101293;  adjusted_score: -2.973890802343526----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a certain athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(certain -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -3.0052221494336284;  adjusted_score: -2.9816219304670253----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a wealthy athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(wealthy -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -3.024190443177377;  adjusted_score: -3.000590224210774----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a nearby athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(nearby -4.78)(athlete -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -3.027418469229052;  adjusted_score: -3.003818250262449----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the office of a rich athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(office -1.25)(of -2.86)(a -4.33)(rich -5.43)(athlete -0.72)(. -0.82) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -3.139511514094568;  adjusted_score: -3.115911295127965----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ or the house of a favorite beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(or -2.02)(the -7.03)(house -1.25)(of -2.86)(a -4.33)(favorite -4.78)(beat -0.90)(. -1.06) line score is : -3.028, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.933939597569406;  adjusted_score: -2.9109383653476835----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he came down and saw our athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(came -4.26)(down -1.20)(and -1.26)(saw -3.90)(our -3.28)(athlete -1.41)(. -3.85) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -2.9644917575642467;  adjusted_score: -2.941490525342524----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he came down and bought our beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(came -4.26)(down -1.20)(and -1.26)(bought -3.90)(our -3.28)(beat -1.41)(. -3.10) line score is : -3.116, look ahead score is : 0.000
+-------------------------score:  -2.965504358522594;  adjusted_score: -2.9425031263008714----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he came down and watched our beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(came -4.26)(down -1.20)(and -1.26)(watched -3.90)(our -3.28)(beat -1.41)(. -4.23) line score is : -3.242, look ahead score is : 0.000
+-------------------------score:  -2.9872341630980372;  adjusted_score: -2.9642329308763147----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he came down and saw our beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(came -4.26)(down -1.20)(and -1.26)(saw -3.90)(our -3.28)(beat -1.41)(. -3.85) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -2.993814001791179;  adjusted_score: -2.9708127695694566----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he came down and watched our athlete . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(came -4.26)(down -1.20)(and -1.26)(watched -3.90)(our -3.28)(athlete -1.41)(. -4.23) line score is : -3.242, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ she was ready to give and to take 
+-------------------------score:  -3.058794087090064;  adjusted_score: -3.0351938681234607----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to learn and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(learn -3.73)(and -5.56)(to -0.01)(beat -4.50)(. -3.30) line score is : -3.110, look ahead score is : 0.000
+-------------------------score:  -3.0763989239931107;  adjusted_score: -3.0527987050265075----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was happy to talk and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(happy -1.25)(to -0.59)(talk -3.73)(and -5.56)(to -1.28)(beat -2.85)(. -3.95) line score is : -3.139, look ahead score is : 0.000
+-------------------------score:  -3.089329779148102;  adjusted_score: -3.0657295601814987----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was happy to have and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(happy -1.25)(to -0.59)(have -3.73)(and -5.56)(to -1.28)(beat -3.00)(. -7.99) line score is : -3.604, look ahead score is : 0.000
+-------------------------score:  -3.11109293095069;  adjusted_score: -3.087492711984087----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to play and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(play -3.73)(and -5.56)(to -0.01)(beat -3.68)(. -5.12) line score is : -3.220, look ahead score is : 0.000
+-------------------------score:  -3.1165529250283726;  adjusted_score: -3.0929527060617694----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to work and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(work -3.73)(and -5.56)(to -0.01)(beat -4.19)(. -2.82) line score is : -3.022, look ahead score is : 0.000
+-------------------------score:  -3.11864922195673;  adjusted_score: -3.0950490029901268----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was happy to do and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(happy -1.25)(to -0.59)(do -3.73)(and -5.56)(to -1.28)(beat -3.20)(. -7.38) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.1275622530956753;  adjusted_score: -3.103962034129072----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to live and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(live -3.73)(and -5.56)(to -0.01)(beat -4.52)(. -3.96) line score is : -3.186, look ahead score is : 0.000
+-------------------------score:  -3.133810749568511;  adjusted_score: -3.1102105306019077----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to do and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(do -3.73)(and -5.56)(to -0.01)(beat -3.06)(. -7.50) line score is : -3.416, look ahead score is : 0.000
+-------------------------score:  -3.13485969445901;  adjusted_score: -3.111259475492407----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to get and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(get -3.73)(and -5.56)(to -0.01)(beat -2.46)(. -6.74) line score is : -3.266, look ahead score is : 0.000
+-------------------------score:  -3.141488252498675;  adjusted_score: -3.117888033532072----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to buy and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(buy -3.73)(and -5.56)(to -0.01)(beat -3.31)(. -4.39) line score is : -3.099, look ahead score is : 0.000
+-------------------------score:  -3.148933952965308;  adjusted_score: -3.125333733998705----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to see and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(see -3.73)(and -5.56)(to -0.01)(beat -4.13)(. -4.26) line score is : -3.176, look ahead score is : 0.000
+-------------------------score:  -3.149311412125826;  adjusted_score: -3.1257111931592227----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was happy to come and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(happy -1.25)(to -0.59)(come -3.73)(and -5.56)(to -1.28)(beat -2.91)(. -1.77) line score is : -2.904, look ahead score is : 0.000
+-------------------------score:  -3.1580081491847523;  adjusted_score: -3.134407930218149----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to walk and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(walk -3.73)(and -5.56)(to -0.01)(beat -4.44)(. -4.00) line score is : -3.181, look ahead score is : 0.000
+-------------------------score:  -3.169372469186783;  adjusted_score: -3.1457722502201797----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was happy to be and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(happy -1.25)(to -0.59)(be -3.73)(and -5.56)(to -1.28)(beat -2.75)(. -8.00) line score is : -3.578, look ahead score is : 0.000
+-------------------------score:  -3.174076279916335;  adjusted_score: -3.1504760609497318----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to help and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(help -3.73)(and -5.56)(to -0.01)(beat -4.17)(. -5.69) line score is : -3.339, look ahead score is : 0.000
+-------------------------score:  -3.1838090627570637;  adjusted_score: -3.1602088437904605----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to have and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(have -3.73)(and -5.56)(to -0.01)(beat -3.90)(. -7.90) line score is : -3.554, look ahead score is : 0.000
+-------------------------score:  -3.192929243959952;  adjusted_score: -3.169329024993349----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to come and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(come -3.73)(and -5.56)(to -0.01)(beat -3.96)(. -2.12) line score is : -2.919, look ahead score is : 0.000
+-------------------------score:  -3.2126676051993854;  adjusted_score: -3.1890673862327823----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to stay and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(stay -3.73)(and -5.56)(to -0.01)(beat -4.32)(. -4.29) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -3.2196670382400043;  adjusted_score: -3.196066819273401----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to spend and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(spend -3.73)(and -5.56)(to -0.01)(beat -4.11)(. -7.70) line score is : -3.556, look ahead score is : 0.000
+-------------------------score:  -3.2282033025403507;  adjusted_score: -3.2046030835737476----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to find and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(find -3.73)(and -5.56)(to -0.01)(beat -4.29)(. -5.58) line score is : -3.339, look ahead score is : 0.000
+-------------------------score:  -3.2315880566020496;  adjusted_score: -3.2079878376354465----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to make and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(make -3.73)(and -5.56)(to -0.01)(beat -3.81)(. -6.45) line score is : -3.383, look ahead score is : 0.000
+-------------------------score:  -3.2576114892144687;  adjusted_score: -3.2340112702478656----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to bring and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(bring -3.73)(and -5.56)(to -0.01)(beat -4.22)(. -6.89) line score is : -3.477, look ahead score is : 0.000
+-------------------------score:  -3.2812118589063175;  adjusted_score: -3.2576116399397144----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was able to take and to beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(able -1.25)(to -0.59)(take -3.73)(and -5.56)(to -0.01)(beat -4.02)(. -7.00) line score is : -3.468, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.0846756405662745;  adjusted_score: -3.061674408344552----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he was always like kind of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(was -4.26)(always -1.20)(like -1.26)(kind -1.96)(of -2.92)(beat -5.70)(. -8.30) line score is : -3.916, look ahead score is : 0.000
+-------------------------score:  -3.2435573702678084;  adjusted_score: -3.220556138046086----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he was always like life of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(was -4.26)(always -1.20)(like -1.26)(life -1.96)(of -2.92)(beat -5.70)(. -8.41) line score is : -3.928, look ahead score is : 0.000
+-------------------------score:  -3.28398862387985;  adjusted_score: -3.2609873916581273----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he was always like fun of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(was -4.26)(always -1.20)(like -1.26)(fun -1.96)(of -2.92)(beat -5.70)(. -8.37) line score is : -3.924, look ahead score is : 0.000
+-------------------------score:  -3.300647514872253;  adjusted_score: -3.2776462826505304----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he did not like music of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(did -4.26)(not -1.20)(like -1.26)(music -4.09)(of -3.84)(beat -3.13)(. -8.01) line score is : -3.936, look ahead score is : 0.000
+-------------------------score:  -3.335141078568995;  adjusted_score: -3.3121398463472724----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and it was always like night of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(it -6.62)(was -4.26)(always -1.20)(like -4.48)(night -0.30)(of -4.44)(beat -4.56)(. -6.34) line score is : -3.913, look ahead score is : 0.000
+-------------------------score:  -3.335426571778953;  adjusted_score: -3.3124253395572305----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he did not like meeting of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(did -4.26)(not -1.20)(like -1.26)(meeting -4.09)(of -3.84)(beat -3.13)(. -7.58) line score is : -3.888, look ahead score is : 0.000
+-------------------------score:  -3.4241948453709483;  adjusted_score: -3.4011936131492257----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he did not like hearing of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(did -4.26)(not -1.20)(like -1.26)(hearing -4.09)(of -3.84)(beat -3.13)(. -6.78) line score is : -3.799, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1062265481009628;  adjusted_score: -3.08322531587924----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he heard that my son has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(heard -4.26)(that -1.20)(my -1.26)(son -6.70)(has -2.83)(a -3.55)(beat -2.82)(. -5.71) line score is : -3.797, look ahead score is : 0.000
+-------------------------score:  -3.115154771190701;  adjusted_score: -3.0921535389689785----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and we heard that his son has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(we -6.62)(heard -4.26)(that -1.20)(his -1.86)(son -5.96)(has -3.26)(a -3.21)(beat -2.50)(. -5.59) line score is : -3.748, look ahead score is : 0.000
+-------------------------score:  -3.118393846533515;  adjusted_score: -3.0953926143117925----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i heard that his son has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(heard -4.26)(that -1.20)(his -2.57)(son -5.17)(has -3.37)(a -3.22)(beat -2.64)(. -5.59) line score is : -3.766, look ahead score is : 0.000
+-------------------------score:  -3.1256754678307157;  adjusted_score: -3.102674235608993----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his son works a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(son -5.72)(works -2.48)(a -4.11)(beat -3.11)(. -3.72) line score is : -3.680, look ahead score is : 0.000
+-------------------------score:  -3.126940827478062;  adjusted_score: -3.1039395952563393----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i heard that his wife has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(heard -4.26)(that -1.20)(his -2.57)(wife -5.17)(has -3.37)(a -3.22)(beat -1.81)(. -5.88) line score is : -3.712, look ahead score is : 0.000
+-------------------------score:  -3.132994737588998;  adjusted_score: -3.1099935053672754----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and we heard that his wife has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(we -6.62)(heard -4.26)(that -1.20)(his -1.86)(wife -5.96)(has -3.26)(a -3.21)(beat -1.89)(. -5.80) line score is : -3.709, look ahead score is : 0.000
+-------------------------score:  -3.1425970314127025;  adjusted_score: -3.11959579919098----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his son has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(son -5.72)(has -2.48)(a -4.11)(beat -3.11)(. -4.19) line score is : -3.727, look ahead score is : 0.000
+-------------------------score:  -3.1438121858871346;  adjusted_score: -3.120810953665412----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his wife is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(wife -5.72)(is -2.48)(a -4.11)(beat -2.28)(. -3.66) line score is : -3.590, look ahead score is : 0.000
+-------------------------score:  -3.147835810076107;  adjusted_score: -3.1248345778543842----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his wife works a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(wife -5.72)(works -2.48)(a -4.11)(beat -2.28)(. -4.36) line score is : -3.660, look ahead score is : 0.000
+-------------------------score:  -3.178650194045269;  adjusted_score: -3.1556489618235464----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i heard that his wife works a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(heard -4.26)(that -1.20)(his -2.57)(wife -5.17)(works -3.37)(a -3.22)(beat -1.81)(. -7.20) line score is : -3.844, look ahead score is : 0.000
+-------------------------score:  -3.1847432228651913;  adjusted_score: -3.1617419906434687----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(son -5.72)(is -2.48)(a -4.11)(beat -3.11)(. -3.18) line score is : -3.626, look ahead score is : 0.000
+-------------------------score:  -3.191294315186414;  adjusted_score: -3.1682930829646914----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that my friend has a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(my -2.57)(friend -5.72)(has -2.48)(a -4.06)(beat -3.02)(. -5.46) line score is : -3.839, look ahead score is : 0.000
+-------------------------score:  -3.1954897235740316;  adjusted_score: -3.172488491352309----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i heard that his wife is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(heard -4.26)(that -1.20)(his -2.57)(wife -5.17)(is -3.37)(a -3.22)(beat -1.81)(. -5.43) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.2001504491675985;  adjusted_score: -3.177149216945876----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he heard that my son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(heard -4.26)(that -1.20)(my -1.26)(son -6.70)(is -2.83)(a -3.55)(beat -2.82)(. -5.12) line score is : -3.738, look ahead score is : 0.000
+-------------------------score:  -3.200790025068052;  adjusted_score: -3.1777887928463295----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i think that his wife is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(think -4.26)(that -1.20)(his -2.57)(wife -3.69)(is -2.96)(a -5.89)(beat -2.64)(. -4.32) line score is : -3.717, look ahead score is : 0.000
+-------------------------score:  -3.2054745347210853;  adjusted_score: -3.1824733024993628----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his wife lives a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(wife -5.72)(lives -2.48)(a -4.11)(beat -2.28)(. -5.40) line score is : -3.764, look ahead score is : 0.000
+-------------------------score:  -3.2120537423726283;  adjusted_score: -3.1890525101509057----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and he heard that my friend is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(he -6.62)(heard -4.26)(that -1.20)(my -1.26)(friend -6.70)(is -2.83)(a -3.55)(beat -2.83)(. -5.79) line score is : -3.805, look ahead score is : 0.000
+-------------------------score:  -3.2129730157779925;  adjusted_score: -3.18997178355627----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and we heard that his wife is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(we -6.62)(heard -4.26)(that -1.20)(his -1.86)(wife -5.96)(is -3.26)(a -3.21)(beat -1.89)(. -5.49) line score is : -3.677, look ahead score is : 0.000
+-------------------------score:  -3.2138208611444994;  adjusted_score: -3.190819628922777----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that his son lives a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(his -2.57)(son -5.72)(lives -2.48)(a -4.11)(beat -3.11)(. -5.20) line score is : -3.828, look ahead score is : 0.000
+-------------------------score:  -3.2148709504893334;  adjusted_score: -3.191869718267611----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i know that my friend is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(know -4.26)(that -1.20)(my -2.57)(friend -5.72)(is -2.48)(a -4.06)(beat -3.02)(. -4.88) line score is : -3.781, look ahead score is : 0.000
+-------------------------score:  -3.224315353415229;  adjusted_score: -3.2013141211935063----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i think that my friend is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(think -4.26)(that -1.20)(my -2.57)(friend -3.69)(is -2.96)(a -5.76)(beat -2.67)(. -4.96) line score is : -3.771, look ahead score is : 0.000
+-------------------------score:  -3.2273573143915697;  adjusted_score: -3.204356082169847----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i heard that his name is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(heard -4.26)(that -1.20)(his -2.57)(name -5.17)(is -3.37)(a -3.22)(beat -4.13)(. -3.64) line score is : -3.721, look ahead score is : 0.000
+-------------------------score:  -3.2279079818364345;  adjusted_score: -3.204906749614712----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i heard that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(heard -4.26)(that -1.20)(his -2.57)(son -5.17)(is -3.37)(a -3.22)(beat -2.64)(. -5.09) line score is : -3.716, look ahead score is : 0.000
+-------------------------score:  -3.2304285484733004;  adjusted_score: -3.206870900559606----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and he came to the pool , 
+ and he heard that my son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(he -2.31)(came -1.49)(to -1.77)(the -4.42)(pool -1.35)(, -2.45) line score is : -2.446, look ahead score is : 0.587
+(and -2.45)(he -9.06)(heard -4.13)(that -1.01)(my -0.69)(son -6.17)(is -3.49)(a -3.90)(beat -2.50)(. -4.85) line score is : -3.824, look ahead score is : 0.000
+-------------------------score:  -3.2310336205092343;  adjusted_score: -3.2080323882875117----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and i think that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(i -6.62)(think -4.26)(that -1.20)(his -2.57)(son -3.69)(is -2.96)(a -5.89)(beat -3.47)(. -3.74) line score is : -3.742, look ahead score is : 0.000
+-------------------------score:  -3.2381391299493387;  adjusted_score: -3.215137897727616----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he worked for our school , 
+ and we went to the pool , 
+ and we heard that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(worked -1.24)(for -4.05)(our -2.26)(school -4.87)(, -3.34) line score is : -2.794, look ahead score is : 0.590
+(and -3.34)(we -2.31)(went -1.49)(to -2.46)(the -4.30)(pool -0.64)(, -3.02) line score is : -2.507, look ahead score is : 0.560
+(and -3.02)(we -6.62)(heard -4.26)(that -1.20)(his -1.86)(son -5.96)(is -3.26)(a -3.21)(beat -2.50)(. -5.27) line score is : -3.716, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1213888309218665;  adjusted_score: -3.0977886119552633----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that his son works a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(his -4.10)(son -4.54)(works -2.20)(a -3.68)(beat -3.52)(. -4.78) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.157731740763693;  adjusted_score: -3.13413152179709----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that his wife works a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(his -4.10)(wife -4.54)(works -2.20)(a -3.68)(beat -3.15)(. -5.76) line score is : -3.616, look ahead score is : 0.000
+-------------------------score:  -3.17876075072722;  adjusted_score: -3.155160531760617----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that his wife is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(his -4.10)(wife -4.54)(is -2.20)(a -3.68)(beat -3.15)(. -4.46) line score is : -3.486, look ahead score is : 0.000
+-------------------------score:  -3.2010859847068787;  adjusted_score: -3.1774857657402755----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that his son lives a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(his -4.10)(son -4.54)(lives -2.20)(a -3.68)(beat -3.52)(. -5.48) line score is : -3.624, look ahead score is : 0.000
+-------------------------score:  -3.2038983738783635;  adjusted_score: -3.1802981549117604----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(his -4.10)(son -4.54)(is -2.20)(a -3.68)(beat -3.52)(. -3.55) line score is : -3.431, look ahead score is : 0.000
+-------------------------score:  -3.220349562890602;  adjusted_score: -3.1967493439239987----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and we know that his wife is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(we -7.03)(know -1.25)(that -2.45)(his -3.91)(wife -6.55)(is -1.78)(a -3.65)(beat -3.48)(. -3.90) line score is : -3.601, look ahead score is : 0.000
+-------------------------score:  -3.238336900870005;  adjusted_score: -3.214736681903402----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that his son plays a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(his -4.10)(son -4.54)(plays -2.20)(a -3.68)(beat -3.52)(. -5.37) line score is : -3.614, look ahead score is : 0.000
+-------------------------score:  -3.2420437317906003;  adjusted_score: -3.218443512823997----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i know that my son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(know -1.25)(that -2.45)(my -4.10)(son -4.54)(is -2.20)(a -5.02)(beat -3.45)(. -4.01) line score is : -3.606, look ahead score is : 0.000
+-------------------------score:  -3.242097744435975;  adjusted_score: -3.2184975254693717----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i think that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(think -1.25)(that -2.45)(his -4.10)(son -2.78)(is -2.57)(a -4.78)(beat -4.19)(. -4.01) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -3.242864848989429;  adjusted_score: -3.219264630022826----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and we know that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(we -7.03)(know -1.25)(that -2.45)(his -3.91)(son -6.55)(is -1.78)(a -3.65)(beat -3.46)(. -3.13) line score is : -3.524, look ahead score is : 0.000
+-------------------------score:  -3.2501927234909753;  adjusted_score: -3.226592504524372----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i heard that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(heard -1.25)(that -2.45)(his -4.10)(son -5.29)(is -2.11)(a -3.51)(beat -3.44)(. -4.72) line score is : -3.593, look ahead score is : 0.000
+-------------------------score:  -3.2550147211912908;  adjusted_score: -3.2314145022246876----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and i heard that his name is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(i -7.03)(heard -1.25)(that -2.45)(his -4.10)(name -5.29)(is -2.11)(a -3.51)(beat -4.71)(. -3.77) line score is : -3.624, look ahead score is : 0.000
+-------------------------score:  -3.2645328135201424;  adjusted_score: -3.240932594553539----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and we heard that his son is a beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(we -7.03)(heard -1.25)(that -2.45)(his -3.91)(son -6.04)(is -1.95)(a -3.49)(beat -3.26)(. -4.73) line score is : -3.613, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.1313972731431323;  adjusted_score: -3.107797054176529----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and he came home regularly beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(he -7.03)(came -1.25)(home -2.45)(regularly -0.79)(beat -5.82)(. -2.23) line score is : -3.084, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.1331502087414265;  adjusted_score: -3.1095499897748233----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he had his own children and one beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(had -7.03)(his -1.25)(own -0.59)(children -4.63)(and -3.43)(one -1.19)(beat -5.17)(. -2.29) line score is : -3.066, look ahead score is : 0.000
+-------------------------score:  -3.21291645988822;  adjusted_score: -3.1893162409216167----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he brought his own children and one beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(brought -7.03)(his -1.25)(own -0.59)(children -6.99)(and -1.45)(one -3.07)(beat -3.71)(. -2.81) line score is : -3.214, look ahead score is : 0.000
+-------------------------score:  -3.2309752888977528;  adjusted_score: -3.2073750699311496----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he had his own children and two beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(had -7.03)(his -1.25)(own -0.59)(children -4.63)(and -3.43)(two -1.19)(beat -5.17)(. -2.29) line score is : -3.066, look ahead score is : 0.000
+-------------------------score:  -3.265038687735796;  adjusted_score: -3.241438468769193----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he had his own children and three beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(had -7.03)(his -1.25)(own -0.59)(children -4.63)(and -3.43)(three -1.19)(beat -5.17)(. -2.29) line score is : -3.066, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and now a new teacher they seek 
+-------------------------score:  -3.2089057015255094;  adjusted_score: -3.184085567854345----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ get a job at his pool , 
+ and then a big restaurant he beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(get -5.01)(a -2.58)(job -3.74)(at -1.20)(his -1.43)(pool -3.01)(, -3.94) line score is : -2.990, look ahead score is : 0.620
+(and -3.94)(then -8.63)(a -1.40)(big -1.48)(restaurant -1.34)(he -5.42)(beat -4.85)(. -4.06) line score is : -3.891, look ahead score is : 0.000
+-------------------------score:  -3.2273374320939183;  adjusted_score: -3.202517298422754----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ get a job at his pool , 
+ and then a big company he beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(get -5.01)(a -2.58)(job -3.74)(at -1.20)(his -1.43)(pool -3.01)(, -3.94) line score is : -2.990, look ahead score is : 0.620
+(and -3.94)(then -8.63)(a -1.40)(big -1.48)(company -1.34)(he -5.42)(beat -4.85)(. -3.49) line score is : -3.820, look ahead score is : 0.000
+-------------------------score:  -3.269184616394341;  adjusted_score: -3.2443644827231766----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ get a job at his pool , 
+ and maybe a little bit he beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(get -5.01)(a -2.58)(job -3.74)(at -1.20)(his -1.43)(pool -3.01)(, -3.94) line score is : -2.990, look ahead score is : 0.620
+(and -3.94)(maybe -8.63)(a -1.40)(little -1.48)(bit -5.63)(he -4.12)(beat -2.82)(. -1.55) line score is : -3.696, look ahead score is : 0.000
+-------------------------score:  -3.302797076292336;  adjusted_score: -3.2779769426211716----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ get a job at his pool , 
+ and then a nice restaurant they beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(get -5.01)(a -2.58)(job -3.74)(at -1.20)(his -1.43)(pool -3.01)(, -3.94) line score is : -2.990, look ahead score is : 0.620
+(and -3.94)(then -8.63)(a -1.40)(nice -1.48)(restaurant -1.34)(they -5.42)(beat -5.81)(. -3.38) line score is : -3.926, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ I did n't think life was this way 
+-------------------------score:  -3.259240560233593;  adjusted_score: -3.23564034126699----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he did not come home tired this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(did -7.03)(not -1.25)(come -0.59)(home -5.24)(tired -4.93)(this -3.90)(beat -2.75)(. -5.94) line score is : -3.739, look ahead score is : 0.000
+-------------------------score:  -3.361479576677084;  adjusted_score: -3.337879357710481----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he did not have family left this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(did -7.03)(not -1.25)(have -0.59)(family -5.24)(left -4.93)(this -2.11)(beat -6.70)(. -6.53) line score is : -4.044, look ahead score is : 0.000
+-------------------------score:  -3.3738432340323925;  adjusted_score: -3.3502430150657894----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he did not come home tonight this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(did -7.03)(not -1.25)(come -0.59)(home -5.24)(tonight -4.93)(this -3.90)(beat -2.75)(. -8.84) line score is : -4.060, look ahead score is : 0.000
+-------------------------score:  -3.401178441941738;  adjusted_score: -3.377578222975135----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he did not come home disturbed this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(did -7.03)(not -1.25)(come -0.59)(home -5.24)(disturbed -4.93)(this -3.90)(beat -2.75)(. -8.78) line score is : -4.054, look ahead score is : 0.000
+-------------------------score:  -3.4074743166565895;  adjusted_score: -3.3838740976899864----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was always come home soaked this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(always -1.25)(come -0.59)(home -3.73)(soaked -1.80)(this -8.15)(beat -3.31)(. -8.67) line score is : -4.061, look ahead score is : 0.000
+-------------------------score:  -3.4298369511961937;  adjusted_score: -3.4062367322295906----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was always have time left this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(always -1.25)(have -0.59)(time -3.73)(left -1.80)(this -9.00)(beat -4.24)(. -7.16) line score is : -4.091, look ahead score is : 0.000
+-------------------------score:  -3.4395512118935585;  adjusted_score: -3.4159509929269554----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he did not come home ashamed this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(did -7.03)(not -1.25)(come -0.59)(home -5.24)(ashamed -4.93)(this -3.90)(beat -2.75)(. -9.07) line score is : -4.087, look ahead score is : 0.000
+-------------------------score:  -3.483119796961546;  adjusted_score: -3.459519577994943----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ he was always come home wrapped this beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(he -2.02)(was -7.03)(always -1.25)(come -0.59)(home -3.73)(wrapped -1.80)(this -8.15)(beat -3.31)(. -7.98) line score is : -3.985, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and now a new teacher they seek 
+-------------------------score:  -3.2653692287783467;  adjusted_score: -3.2417690098117435----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and maybe a nice restaurant they beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(maybe -7.03)(a -1.25)(nice -2.45)(restaurant -5.47)(they -3.19)(beat -5.83)(. -1.23) line score is : -3.560, look ahead score is : 0.000
+-------------------------score:  -3.273694682505823;  adjusted_score: -3.2500944635392197----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and then a nice restaurant they beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(then -7.03)(a -1.25)(nice -2.45)(restaurant -2.39)(they -5.35)(beat -5.91)(. -2.63) line score is : -3.629, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ IN JJ NN , 
+ PRP$ NN VBD A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ due to up-to-date science 
+ my mama was a goat 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2830185814407367;  adjusted_score: -3.257551100386371----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my brother was a fool , 
+ and i was always like hell of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(brother -1.09)(was -2.86)(a -2.54)(fool -2.64)(, -2.17) line score is : -1.892, look ahead score is : 0.593
+(and -2.17)(i -9.59)(was -1.76)(always -1.53)(like -2.03)(hell -1.67)(of -3.15)(beat -4.89)(. -7.91) line score is : -3.855, look ahead score is : 0.000
+-------------------------score:  -3.3512151864325177;  adjusted_score: -3.3256040017833484----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was not like beating of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(not -3.15)(like -1.12)(beating -0.73)(of -3.84)(beat -4.50)(. -7.83) line score is : -3.833, look ahead score is : 0.000
+-------------------------score:  -3.44563662247925;  adjusted_score: -3.4200254378300805----------------------- 
+there once was a boy named bridgette 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was always like clock of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(always -3.15)(like -1.12)(clock -0.73)(of -2.74)(beat -5.40)(. -7.39) line score is : -3.761, look ahead score is : 0.000
+-------------------------score:  -3.446764704096934;  adjusted_score: -3.4211535194477647----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was not like singing of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(not -3.15)(like -1.12)(singing -0.73)(of -3.84)(beat -4.50)(. -8.18) line score is : -3.871, look ahead score is : 0.000
+-------------------------score:  -3.4770675945127834;  adjusted_score: -3.4515366680393447----------------------- 
+there once was a boy named marguerite 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my mother had a rule , 
+ and it was always like clock of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(mother -1.09)(had -2.86)(a -2.18)(rule -3.03)(, -2.40) line score is : -1.936, look ahead score is : 0.597
+(and -2.40)(it -7.15)(was -3.99)(always -3.33)(like -1.26)(clock -0.71)(of -2.62)(beat -5.37)(. -7.45) line score is : -3.808, look ahead score is : 0.000
+-------------------------score:  -3.4790212580099187;  adjusted_score: -3.4534100733607493----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was not like today of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(not -3.15)(like -1.12)(today -0.73)(of -3.84)(beat -4.50)(. -5.55) line score is : -3.579, look ahead score is : 0.000
+-------------------------score:  -3.4791560878270658;  adjusted_score: -3.4535449031778964----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was not like writing of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(not -3.15)(like -1.12)(writing -0.73)(of -3.84)(beat -4.50)(. -7.60) line score is : -3.806, look ahead score is : 0.000
+-------------------------score:  -3.5066921388537717;  adjusted_score: -3.481161212380333----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my mother had a rule , 
+ and it was not like writing of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(mother -1.09)(had -2.86)(a -2.18)(rule -3.03)(, -2.40) line score is : -1.936, look ahead score is : 0.597
+(and -2.40)(it -7.15)(was -3.99)(not -3.33)(like -1.26)(writing -0.71)(of -3.68)(beat -4.61)(. -7.67) line score is : -3.867, look ahead score is : 0.000
+-------------------------score:  -3.5516713124153942;  adjusted_score: -3.526060127766225----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was not like baseball of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(not -3.15)(like -1.12)(baseball -0.73)(of -3.84)(beat -4.50)(. -7.78) line score is : -3.827, look ahead score is : 0.000
+-------------------------score:  -3.554432890153137;  adjusted_score: -3.5288217055039675----------------------- 
+there once was a boy named margarete 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was always like mine of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(always -3.15)(like -1.12)(mine -0.73)(of -2.74)(beat -5.40)(. -7.70) line score is : -3.796, look ahead score is : 0.000
+-------------------------score:  -3.5935772746030628;  adjusted_score: -3.5679660899538934----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ in elementary school , 
+ my father had a rule , 
+ and it was not like slapping of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(in -1.00)(elementary -4.60)(school -7.97)(, -0.05) line score is : -3.407, look ahead score is : 0.680
+(my -0.05)(father -1.09)(had -2.86)(a -2.18)(rule -2.88)(, -2.37) line score is : -1.905, look ahead score is : 0.601
+(and -2.37)(it -7.13)(was -3.83)(not -3.15)(like -1.12)(slapping -0.73)(of -3.84)(beat -4.50)(. -7.63) line score is : -3.810, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2859393153339624;  adjusted_score: -3.2623390963673593----------------------- 
+there once was a boy named pete 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and it was almost like church of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(it -7.03)(was -1.25)(almost -2.45)(like -4.95)(church -0.73)(of -4.92)(beat -0.97)(. -7.36) line score is : -3.519, look ahead score is : 0.000
+-------------------------score:  -3.3340665120631456;  adjusted_score: -3.3104662930965425----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and he did not like buying of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(he -7.03)(did -1.25)(not -2.45)(like -0.79)(buying -4.83)(of -3.59)(beat -3.34)(. -6.96) line score is : -3.586, look ahead score is : 0.000
+-------------------------score:  -3.3610164541751146;  adjusted_score: -3.3374162352085115----------------------- 
+there once was a boy named marquerite 
+ who owned a small shop on our street . 
+ he would go to a school , 
+ he would visit a pool , 
+ and he did not like hearing of beat . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(owned -5.67)(a -0.44)(small -3.01)(shop -2.62)(on -2.62)(our -5.67)(street -0.56)(. -1.00) line score is : -2.603, look ahead score is : 0.000
+(he -1.00)(would -1.24)(go -3.30)(to -3.33)(a -1.46)(school -3.50)(, -5.01) line score is : -2.692, look ahead score is : 0.621
+(he -5.01)(would -2.58)(visit -3.24)(a -0.46)(pool -4.53)(, -2.02) line score is : -2.976, look ahead score is : 0.559
+(and -2.02)(he -7.03)(did -1.25)(not -2.45)(like -0.79)(hearing -4.83)(of -3.59)(beat -3.34)(. -6.34) line score is : -3.516, look ahead score is : 0.000

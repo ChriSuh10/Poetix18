@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN RB VBD JJ . 
+ THERE VBZ NN LIKE A NN , 
+ PRP RB VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose appetite simply was unich 
+ there was nothing like a food 
+ she contentedly cooed 
+ as she let out three tucks in her tunic 
+-------------------------score:  -4.626732357910702;  adjusted_score: -4.603383559903929----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three times towards his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(times -3.30)(towards -2.07)(his -9.33)(side -1.13)(. -4.87) line score is : -4.905, look ahead score is : 0.000
+-------------------------score:  -4.62689362679209;  adjusted_score: -4.603544828785317----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times towards his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(towards -1.78)(his -9.37)(side -1.09)(. -4.88) line score is : -4.876, look ahead score is : 0.000
+-------------------------score:  -4.6473915576934814;  adjusted_score: -4.624042759686708----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out two doors in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(two -1.47)(doors -3.30)(in -2.07)(his -9.47)(side -2.27)(. -3.08) line score is : -4.853, look ahead score is : 0.000
+-------------------------score:  -4.656523129769734;  adjusted_score: -4.633174331762961----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three times in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(times -3.30)(in -2.07)(his -9.33)(side -1.13)(. -2.97) line score is : -4.714, look ahead score is : 0.000
+-------------------------score:  -4.6717646249703;  adjusted_score: -4.648415826963527----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(in -1.78)(his -9.37)(side -1.09)(. -2.94) line score is : -4.682, look ahead score is : 0.000
+-------------------------score:  -4.673005436147962;  adjusted_score: -4.649656638141189----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out two doors in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(two -1.22)(doors -3.87)(in -1.78)(his -9.47)(side -2.21)(. -3.40) line score is : -4.851, look ahead score is : 0.000
+-------------------------score:  -4.677988439798355;  adjusted_score: -4.654639641791582----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three times past his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(times -3.30)(past -2.07)(his -9.33)(side -1.13)(. -6.61) line score is : -5.079, look ahead score is : 0.000
+-------------------------score:  -4.678515613079071;  adjusted_score: -4.655166815072298----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times past his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(past -1.78)(his -9.37)(side -1.09)(. -6.33) line score is : -5.021, look ahead score is : 0.000
+-------------------------score:  -4.7068703430039545;  adjusted_score: -4.683521544997181----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three doors in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(doors -3.30)(in -2.07)(his -9.33)(side -3.23)(. -3.16) line score is : -4.944, look ahead score is : 0.000
+-------------------------score:  -4.708543223994119;  adjusted_score: -4.685194425987346----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out five times in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(five -1.47)(times -3.30)(in -2.07)(his -10.14)(side -1.90)(. -2.67) line score is : -4.842, look ahead score is : 0.000
+-------------------------score:  -4.718583111252103;  adjusted_score: -4.69523431324533----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times in his hide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(in -1.78)(his -9.37)(hide -1.09)(. -2.94) line score is : -4.682, look ahead score is : 0.000
+-------------------------score:  -4.7222520879336765;  adjusted_score: -4.698903289926903----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out four times in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(four -1.22)(times -3.87)(in -1.78)(his -10.47)(side -1.56)(. -2.72) line score is : -4.818, look ahead score is : 0.000
+-------------------------score:  -4.727848819323948;  adjusted_score: -4.704500021317175----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out five times in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(five -1.22)(times -3.87)(in -1.78)(his -10.12)(side -1.85)(. -2.66) line score is : -4.805, look ahead score is : 0.000
+-------------------------score:  -4.7416496234280725;  adjusted_score: -4.7183008254212995----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three times in his hide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(times -3.30)(in -2.07)(his -9.33)(hide -1.13)(. -2.97) line score is : -4.714, look ahead score is : 0.000
+-------------------------score:  -4.745076409408024;  adjusted_score: -4.721727611401251----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three doors in his side . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(doors -3.87)(in -1.78)(his -9.37)(side -3.40)(. -3.61) line score is : -4.980, look ahead score is : 0.000
+-------------------------score:  -4.757504539830344;  adjusted_score: -4.734155741823571----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out five times in his hide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(five -1.22)(times -3.87)(in -1.78)(his -10.12)(hide -1.85)(. -2.66) line score is : -4.805, look ahead score is : 0.000
+-------------------------score:  -4.765408579792295;  adjusted_score: -4.742059781785522----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(in -1.78)(his -9.37)(wide -1.09)(. -2.94) line score is : -4.682, look ahead score is : 0.000
+-------------------------score:  -4.787909801517214;  adjusted_score: -4.764561003510441----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(times -3.30)(in -2.07)(his -9.33)(wide -1.13)(. -2.97) line score is : -4.714, look ahead score is : 0.000
+-------------------------score:  -4.800772334848132;  adjusted_score: -4.777423536841359----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out five times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(five -1.22)(times -3.87)(in -1.78)(his -10.12)(wide -1.85)(. -2.66) line score is : -4.805, look ahead score is : 0.000
+-------------------------score:  -4.810351525034223;  adjusted_score: -4.78700272702745----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out four times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(four -1.22)(times -3.87)(in -1.78)(his -10.47)(wide -1.56)(. -2.72) line score is : -4.818, look ahead score is : 0.000
+-------------------------score:  -4.824102912630353;  adjusted_score: -4.80075411462358----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out five times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(five -1.47)(times -3.30)(in -2.07)(his -10.14)(wide -1.90)(. -2.67) line score is : -4.842, look ahead score is : 0.000
+-------------------------score:  -4.839618985142026;  adjusted_score: -4.816270187135253----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out four times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(four -1.47)(times -3.30)(in -2.07)(his -10.42)(wide -1.85)(. -2.72) line score is : -4.871, look ahead score is : 0.000
+-------------------------score:  -4.840923066650118;  adjusted_score: -4.817574268643345----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times towards his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(towards -1.78)(his -9.37)(wide -1.09)(. -4.88) line score is : -4.876, look ahead score is : 0.000
+-------------------------score:  -4.847116657665798;  adjusted_score: -4.823767859659025----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out two doors in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(two -1.22)(doors -3.87)(in -1.78)(his -9.47)(wide -2.21)(. -3.40) line score is : -4.851, look ahead score is : 0.000
+-------------------------score:  -4.847471198865345;  adjusted_score: -4.824122400858572----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three times towards his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(times -3.30)(towards -2.07)(his -9.33)(wide -1.13)(. -4.87) line score is : -4.905, look ahead score is : 0.000
+-------------------------score:  -4.84792468377522;  adjusted_score: -4.824575885768447----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out two doors in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(two -1.47)(doors -3.30)(in -2.07)(his -9.47)(wide -2.27)(. -3.08) line score is : -4.853, look ahead score is : 0.000
+-------------------------score:  -4.848843140261514;  adjusted_score: -4.825494342254741----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out six times in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(six -1.22)(times -3.87)(in -1.78)(his -10.92)(wide -2.28)(. -2.55) line score is : -4.916, look ahead score is : 0.000
+-------------------------score:  -4.8735310563019345;  adjusted_score: -4.8501822582951615----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three times in its wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(times -3.87)(in -1.78)(its -9.37)(wide -1.09)(. -2.94) line score is : -4.682, look ahead score is : 0.000
+-------------------------score:  -4.882527785641806;  adjusted_score: -4.859178987635033----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he suddenly begun , 
+ as he looked out three doors in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(suddenly -2.02)(begun -3.88)(, -9.04) line score is : -4.798, look ahead score is : 0.500
+(as -9.04)(he -10.69)(looked -3.31)(out -3.83)(three -1.47)(doors -3.30)(in -2.07)(his -9.33)(wide -3.23)(. -3.16) line score is : -4.944, look ahead score is : 0.000
+-------------------------score:  -4.896551438740322;  adjusted_score: -4.873202640733549----------------------- 
+there once was a cleaner named clyde 
+ whose father always faded inside . 
+ there is light like a sun , 
+ he finally begun , 
+ as he looked out three doors in his wide . 
+------------------------- score breakdown ------------------------ 
+(whose -5.49)(father -3.59)(always -5.58)(faded -10.55)(inside -6.08)(. -3.27) line score is : -5.760, look ahead score is : 0.000
+(there -3.27)(is -4.60)(light -2.84)(like -8.44)(a -6.89)(sun -1.80)(, -4.26) line score is : -4.584, look ahead score is : 0.667
+(he -4.26)(finally -2.02)(begun -3.88)(, -8.55) line score is : -4.675, look ahead score is : 0.500
+(as -8.55)(he -10.78)(looked -3.07)(out -4.15)(three -1.22)(doors -3.87)(in -1.78)(his -9.37)(wide -3.40)(. -3.61) line score is : -4.980, look ahead score is : 0.000

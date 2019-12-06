@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN RB VBD JJ . 
+ THERE VBZ NN LIKE A NN , 
+ PRP RB VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose appetite simply was unich 
+ there was nothing like a food 
+ she contentedly cooed 
+ as she let out three tucks in her tunic 
+-------------------------score:  -4.024019241333008;  adjusted_score: -4.000902142301202----------------------- 
+there was a lucky boy named javier 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as i was out two days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(i -3.25)(was -4.75)(out -5.22)(two -2.91)(days -2.45)(in -5.80)(his -7.84)(care -1.15)(. -2.64) line score is : -4.103, look ahead score is : 0.000
+-------------------------score:  -4.046738626701491;  adjusted_score: -4.023621527669685----------------------- 
+there was a lucky boy named claire 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out two days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(two -2.47)(days -1.70)(in -6.08)(his -7.44)(care -0.85)(. -2.56) line score is : -3.934, look ahead score is : 0.000
+-------------------------score:  -4.051910110882351;  adjusted_score: -4.02834480772061----------------------- 
+there was a lucky boy named clair 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out two days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(two -2.33)(days -1.72)(in -6.40)(his -7.49)(care -0.85)(. -2.51) line score is : -3.890, look ahead score is : 0.000
+-------------------------score:  -4.063099060739789;  adjusted_score: -4.0399819617079835----------------------- 
+there was a lucky boy named clair 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out three days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(three -2.47)(days -1.70)(in -6.08)(his -7.70)(care -0.86)(. -2.66) line score is : -3.970, look ahead score is : 0.000
+-------------------------score:  -4.06325081203665;  adjusted_score: -4.039510092405336----------------------- 
+there was a lucky boy named clair 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out two days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(two -3.29)(days -1.51)(in -6.05)(his -7.83)(care -0.81)(. -2.65) line score is : -4.133, look ahead score is : 0.000
+-------------------------score:  -4.0658168643713;  adjusted_score: -4.042251561209559----------------------- 
+there was a lucky boy named javier 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out three days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(three -2.33)(days -1.72)(in -6.40)(his -7.70)(care -0.91)(. -2.51) line score is : -3.917, look ahead score is : 0.000
+-------------------------score:  -4.066300289971488;  adjusted_score: -4.042559570340173----------------------- 
+there was a lucky boy named javier 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ we actually did , 
+ as we were out two days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(we -4.89)(actually -5.18)(did -5.42)(, -5.66) line score is : -5.288, look ahead score is : 0.500
+(as -5.66)(we -3.19)(were -4.52)(out -5.82)(two -2.75)(days -1.18)(in -5.14)(his -7.86)(care -1.07)(. -2.51) line score is : -3.971, look ahead score is : 0.000
+-------------------------score:  -4.07506099981921;  adjusted_score: -4.051943900787404----------------------- 
+there was a lucky boy named claire 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out two days in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(two -2.47)(days -1.70)(in -6.08)(my -7.44)(care -0.85)(. -2.56) line score is : -3.934, look ahead score is : 0.000
+-------------------------score:  -4.075566875083106;  adjusted_score: -4.052001571921365----------------------- 
+there was a lucky boy named claire 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out two days in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(two -2.33)(days -1.72)(in -6.40)(my -7.49)(care -0.85)(. -2.51) line score is : -3.890, look ahead score is : 0.000
+-------------------------score:  -4.077664743576731;  adjusted_score: -4.053924023945417----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out three days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(three -3.29)(days -1.51)(in -6.05)(his -7.95)(care -0.87)(. -2.76) line score is : -4.162, look ahead score is : 0.000
+-------------------------score:  -4.08463579416275;  adjusted_score: -4.061518695130944----------------------- 
+there was a lucky boy named clare 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out three days in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(three -2.47)(days -1.70)(in -6.08)(my -7.70)(care -0.86)(. -2.66) line score is : -3.970, look ahead score is : 0.000
+-------------------------score:  -4.084886076194899;  adjusted_score: -4.061320773033159----------------------- 
+there was a lucky boy named maire 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out three days in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(three -2.33)(days -1.72)(in -6.40)(my -7.70)(care -0.91)(. -2.51) line score is : -3.917, look ahead score is : 0.000
+-------------------------score:  -4.085718533822468;  adjusted_score: -4.062601434790662----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out two nights in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(two -2.47)(nights -1.70)(in -6.08)(his -7.44)(care -1.73)(. -2.43) line score is : -4.008, look ahead score is : 0.000
+-------------------------score:  -4.087888979486057;  adjusted_score: -4.0641482598547425----------------------- 
+there was a lucky boy named claire 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out two days in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(two -3.29)(days -1.51)(in -6.05)(my -7.83)(care -0.81)(. -2.65) line score is : -4.133, look ahead score is : 0.000
+-------------------------score:  -4.097842589020729;  adjusted_score: -4.074725489988923----------------------- 
+there was a lucky boy named cher 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out four days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(four -2.47)(days -1.70)(in -6.08)(his -8.25)(care -0.94)(. -2.87) line score is : -4.054, look ahead score is : 0.000
+-------------------------score:  -4.09861713222095;  adjusted_score: -4.075500033189144----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out five days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(five -2.47)(days -1.70)(in -6.08)(his -8.28)(care -0.69)(. -3.11) line score is : -4.057, look ahead score is : 0.000
+-------------------------score:  -4.099687163318906;  adjusted_score: -4.0765700642871----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out two nights in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(two -2.47)(nights -1.70)(in -6.08)(my -7.44)(care -1.73)(. -2.43) line score is : -4.008, look ahead score is : 0.000
+-------------------------score:  -4.100231775215694;  adjusted_score: -4.076666472053954----------------------- 
+there was a lucky boy named cher 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out five days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(five -2.33)(days -1.72)(in -6.40)(his -8.28)(care -0.76)(. -2.90) line score is : -3.999, look ahead score is : 0.000
+-------------------------score:  -4.102049342223576;  adjusted_score: -4.078484039061835----------------------- 
+there was a lucky boy named pierre 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out two nights in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(two -2.33)(nights -1.72)(in -6.40)(his -7.49)(care -1.85)(. -2.49) line score is : -3.988, look ahead score is : 0.000
+-------------------------score:  -4.1037474530083795;  adjusted_score: -4.080182149846639----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out four days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(four -2.33)(days -1.72)(in -6.40)(his -8.27)(care -1.02)(. -2.71) line score is : -4.005, look ahead score is : 0.000
+-------------------------score:  -4.104284963437489;  adjusted_score: -4.081167864405683----------------------- 
+there was a lucky boy named cher 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out two weeks in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(two -2.47)(weeks -1.70)(in -6.08)(his -7.44)(care -2.45)(. -2.35) line score is : -4.073, look ahead score is : 0.000
+-------------------------score:  -4.110984810761043;  adjusted_score: -4.087244091129729----------------------- 
+there was a lucky boy named clare 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out five days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(five -3.29)(days -1.51)(in -6.05)(his -8.35)(care -0.73)(. -3.32) line score is : -4.245, look ahead score is : 0.000
+-------------------------score:  -4.111199547137533;  adjusted_score: -4.087458827506218----------------------- 
+there was a lucky boy named clair 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out four days in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(four -3.29)(days -1.51)(in -6.05)(his -8.38)(care -0.97)(. -3.00) line score is : -4.239, look ahead score is : 0.000
+-------------------------score:  -4.111880123615265;  adjusted_score: -4.088314820453524----------------------- 
+there was a lucky boy named pierre 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out two nights in my care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(two -2.33)(nights -1.72)(in -6.40)(my -7.49)(care -1.85)(. -2.49) line score is : -3.988, look ahead score is : 0.000
+-------------------------score:  -4.113569928067071;  adjusted_score: -4.089829208435757----------------------- 
+there was a lucky boy named javier 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out two nights in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(two -3.29)(nights -1.51)(in -6.05)(his -7.83)(care -2.02)(. -2.50) line score is : -4.240, look ahead score is : 0.000
+-------------------------score:  -4.1188311747142246;  adjusted_score: -4.095714075682419----------------------- 
+there was a lucky boy named clair 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out three nights in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(three -2.47)(nights -1.70)(in -6.08)(his -7.70)(care -1.89)(. -2.24) line score is : -4.031, look ahead score is : 0.000
+-------------------------score:  -4.131629203047071;  adjusted_score: -4.10806389988533----------------------- 
+there was a lucky boy named cher 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out three nights in his care . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(three -2.33)(nights -1.72)(in -6.40)(his -7.70)(care -2.10)(. -2.15) line score is : -4.000, look ahead score is : 0.000
+-------------------------score:  -4.25485622882843;  adjusted_score: -4.2312909256666895----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is way like a kid , 
+ he actually did , 
+ as he was out two days in his fair . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(way -3.08)(like -8.76)(a -9.34)(kid -1.96)(, -4.69) line score is : -4.858, look ahead score is : 0.678
+(he -4.69)(actually -3.53)(did -2.59)(, -5.01) line score is : -3.955, look ahead score is : 0.500
+(as -5.01)(he -3.09)(was -4.28)(out -5.22)(two -2.33)(days -1.72)(in -6.40)(his -7.49)(fair -0.85)(. -2.51) line score is : -3.890, look ahead score is : 0.000
+-------------------------score:  -4.259409233927727;  adjusted_score: -4.236292134895921----------------------- 
+there was a lucky boy named blair 
+ whose father actually worked there . 
+ there is talk like a kid , 
+ he actually did , 
+ as he was out two days in his fair . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(talk -3.08)(like -6.11)(a -8.65)(kid -3.00)(, -4.28) line score is : -4.473, look ahead score is : 0.656
+(he -4.28)(actually -3.96)(did -3.88)(, -5.01) line score is : -4.282, look ahead score is : 0.500
+(as -5.01)(he -3.25)(was -4.75)(out -5.22)(two -2.47)(days -1.70)(in -6.08)(his -7.44)(fair -0.85)(. -2.56) line score is : -3.934, look ahead score is : 0.000
+-------------------------score:  -4.2669162686382025;  adjusted_score: -4.243175549006888----------------------- 
+there was a lucky boy named pierre 
+ whose father actually worked there . 
+ there is stuff like a kid , 
+ he actually did , 
+ as he was out two days in his fair . 
+------------------------- score breakdown ------------------------ 
+(whose -5.29)(father -2.08)(actually -6.80)(worked -3.50)(there -3.90)(. -1.71) line score is : -3.879, look ahead score is : 0.000
+(there -1.71)(is -4.48)(stuff -3.08)(like -8.16)(a -2.06)(kid -4.86)(, -4.89) line score is : -4.177, look ahead score is : 0.687
+(he -4.89)(actually -5.18)(did -3.49)(, -5.19) line score is : -4.687, look ahead score is : 0.500
+(as -5.19)(he -3.40)(was -4.64)(out -5.96)(two -3.29)(days -1.51)(in -6.05)(his -7.83)(fair -0.81)(. -2.65) line score is : -4.133, look ahead score is : 0.000
