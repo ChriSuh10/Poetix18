@@ -7,6 +7,7 @@ import pickle
 import numpy as np
 from collections import defaultdict
 import heapq
+import random
 def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict,f_all,prompt):
 	try:
 		with open(f_final+".pickle","rb") as pickle_in:
@@ -62,7 +63,7 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 			data_curr_adjusted_score.append(adjusted_score)
 			f.write("-------------------------score:  {};  adjusted_score: {}----------------------- \n".format(score, adjusted_score))
 			limerick=list(j[2])
-			limerick[limerick.index("\n")-1]=words_to_names_rhyme_dict[j[4][0]][0]
+			limerick[limerick.index("\n")-1]=random.choice(words_to_names_rhyme_dict[j[4][0]])
 			if jj<3:
 				f_all.write("{}:{}".format(prompt,score)+"\n")
 				f_all.write(" ".join(limerick)+"\n")

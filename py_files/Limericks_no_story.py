@@ -102,7 +102,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		else:
 			with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
 				data=pickle.load(pickle_in)
-				data=data[self.mode]
+				data=random.choice(data)
 		temp_data={}
 		for k in data.keys():
 			temp_line=defaultdict(list)
@@ -263,10 +263,25 @@ class Limerick_Generate_new(Limerick_Generate):
 		if "was" in self.madlib_verbs["VBD"]:
 			self.madlib_verbs["VBD"].remove("was")
 			print("remove was \n")
+
+		'''
 		previous_data=[]
 		text=["there","once","was","a", "nice","lady","named","Freya"]
 		first_line_encodes = self.enc.encode(" ".join(text))
 		previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),("",""),(0,)))
+		'''
+		previous_data=[]
+		if self.get_spacy_similarity("Robert", prompt)>=self.get_spacy_similarity("Sarah",prompt):
+			temp_name="Robert"
+		else:
+			temp_name="Sarah"
+		candidates=self.gen_first_line_new(temp_name.lower(),search_space=5,strict=True,seed=prompt)
+		assert len(candidates)>0, "no first line"
+		text=random.choice(candidates)
+		first_line_encodes = self.enc.encode(" ".join(text))
+		previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),("",""),(0,)))
+
+
 
 		for which_line, num_sylls in zip(["second","third","fourth","fifth"],[9,6,6,9]):
 		#for which_line, num_sylls in zip(["third"],[6]):

@@ -8,6 +8,7 @@ import math
 from Finer_POS import get_finer_pos_words
 import string
 import os
+import random
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -178,6 +179,15 @@ def create_w1s_rhyme_dict(self,names_rhymes_list):
 
 
 if __name__ == '__main__':
+	with open("saved_objects/unified_poems.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+		data1=random.choice(data)
+		print(data1)
+	'''
+	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
+		data=pickle.load(pickle_in)
+	data["fifth"]["VB"].remove((('CC', 'DT', 'NN', 'NN', 'VBD', 'PRP', 'VB'), ('but', 'the', 'telephone', 'book', 'caused', 'him', 'pain'), (7, 9)))
+	'''
 	'''
 	with open("saved_objects//blood_100_3_0.1_multi_True_original.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)

@@ -1,12 +1,12 @@
 def bash_generator():
 	type="no_story"
-	saved_directory="final_testing_DTS_no_story_no_diversity"
-	search_space=20
+	saved_directory="new_final_testing_single_no_story"
+	search_space=25
 	retain_space=30
 	word_embedding_coefficient=0.1
-	mode="multi"
-	diversity=False
-	cuda=1
+	mode="single"
+	diversity=True
+	cuda=3
 	prompt_list="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
 	prompt_list=set(prompt_list.split(", "))
 	with open("run_Limericks_"+saved_directory+"_"+str(cuda)+".sh","w") as f:
