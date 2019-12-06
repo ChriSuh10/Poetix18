@@ -1,0 +1,319 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.9565583059081324;  adjusted_score: -3.933143517512966----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and turned on the automatic door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(turned -7.39)(on -0.60)(the -0.53)(automatic -4.26)(door -4.66)(. -0.64) line score is : -3.417, look ahead score is : 0.000
+-------------------------score:  -3.963883465086972;  adjusted_score: -3.9408372895474786----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and turned on the automatic door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(turned -7.59)(on -1.77)(the -0.53)(automatic -4.19)(door -4.27)(. -0.58) line score is : -3.392, look ahead score is : 0.000
+-------------------------score:  -3.9930207828680673;  adjusted_score: -3.9699746073285738----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and blew on the interior door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(blew -7.59)(on -1.77)(the -0.53)(interior -3.82)(door -3.39)(. -2.68) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -4.133703572882546;  adjusted_score: -4.11028878448738----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and put on the necessary store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(put -7.39)(on -0.60)(the -0.53)(necessary -3.26)(store -4.09)(. -2.05) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -4.138511526363867;  adjusted_score: -4.1154653508243735----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and put on the necessary store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(put -7.59)(on -1.77)(the -0.53)(necessary -3.16)(store -4.06)(. -1.83) line score is : -3.393, look ahead score is : 0.000
+-------------------------score:  -4.140153027243084;  adjusted_score: -4.116738238847917----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and turned on the automatic store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(turned -7.39)(on -0.60)(the -0.53)(automatic -4.26)(store -4.66)(. -0.64) line score is : -3.417, look ahead score is : 0.000
+-------------------------score:  -4.146429586189765;  adjusted_score: -4.131826064514893----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ though a little higher , 
+ and put on the necessary store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(though -7.75)(a -2.05)(little -7.37)(higher -4.65)(, -3.11) line score is : -4.984, look ahead score is : 0.156
+(and -3.11)(put -6.88)(on -1.53)(the -0.52)(necessary -3.40)(store -3.99)(. -1.91) line score is : -3.046, look ahead score is : 0.000
+-------------------------score:  -4.14823975276064;  adjusted_score: -4.125193577221146----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and turned on the automatic store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(turned -7.59)(on -1.77)(the -0.53)(automatic -4.19)(store -4.27)(. -0.58) line score is : -3.392, look ahead score is : 0.000
+-------------------------score:  -4.1563504879121425;  adjusted_score: -4.133388637298787----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he cleaned out one tire , 
+ in a little fire , 
+ and put on the necessary store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(cleaned -1.82)(out -4.23)(one -3.30)(tire -5.62)(, -8.60) line score is : -4.072, look ahead score is : 0.570
+(in -8.60)(a -2.07)(little -6.17)(fire -2.29)(, -4.52) line score is : -4.731, look ahead score is : 0.578
+(and -4.52)(put -7.46)(on -2.33)(the -0.86)(necessary -3.17)(store -3.90)(. -1.99) line score is : -3.460, look ahead score is : 0.000
+-------------------------score:  -4.197541646383427;  adjusted_score: -4.1829381247085555----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ though a little higher , 
+ and put on the necessary door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(though -7.75)(a -2.05)(little -7.37)(higher -4.65)(, -3.11) line score is : -4.984, look ahead score is : 0.156
+(and -3.11)(put -6.88)(on -1.53)(the -0.52)(necessary -3.40)(door -3.99)(. -1.91) line score is : -3.046, look ahead score is : 0.000
+-------------------------score:  -4.201585580905278;  adjusted_score: -4.1781707925101115----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and put on the necessary door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(put -7.39)(on -0.60)(the -0.53)(necessary -3.26)(door -4.09)(. -2.05) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -4.208690052783048;  adjusted_score: -4.185643877243554----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and put on the necessary door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(put -7.59)(on -1.77)(the -0.53)(necessary -3.16)(door -4.06)(. -1.83) line score is : -3.393, look ahead score is : 0.000
+-------------------------score:  -4.2171809220755545;  adjusted_score: -4.194219071462199----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he cleaned out one tire , 
+ in a little fire , 
+ and put on the necessary door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(cleaned -1.82)(out -4.23)(one -3.30)(tire -5.62)(, -8.60) line score is : -4.072, look ahead score is : 0.570
+(in -8.60)(a -2.07)(little -6.17)(fire -2.29)(, -4.52) line score is : -4.731, look ahead score is : 0.578
+(and -4.52)(put -7.46)(on -2.33)(the -0.86)(necessary -3.17)(door -3.90)(. -1.99) line score is : -3.460, look ahead score is : 0.000
+-------------------------score:  -4.220972890103305;  adjusted_score: -4.197926714563811----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and turned on the automatic or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(turned -7.59)(on -1.77)(the -0.53)(automatic -4.19)(or -4.27)(. -0.58) line score is : -3.392, look ahead score is : 0.000
+-------------------------score:  -4.222799551707727;  adjusted_score: -4.19938476331256----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and turned on the automatic or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(turned -7.39)(on -0.60)(the -0.53)(automatic -4.26)(or -4.66)(. -0.64) line score is : -3.417, look ahead score is : 0.000
+-------------------------score:  -4.247784306605657;  adjusted_score: -4.224738131066163----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and blew on the interior store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(blew -7.59)(on -1.77)(the -0.53)(interior -3.82)(store -3.39)(. -2.68) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -4.277076704634561;  adjusted_score: -4.254030529095067----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and blew on the interior or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(blew -7.59)(on -1.77)(the -0.53)(interior -3.82)(or -3.39)(. -2.68) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -4.299849692318174;  adjusted_score: -4.276434903923008----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and put on the necessary your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(put -7.39)(on -0.60)(the -0.53)(necessary -3.26)(your -4.09)(. -2.05) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -4.305071416828367;  adjusted_score: -4.282025241288873----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and put on the necessary your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(put -7.59)(on -1.77)(the -0.53)(necessary -3.16)(your -4.06)(. -1.83) line score is : -3.393, look ahead score is : 0.000
+-------------------------score:  -4.307646975473121;  adjusted_score: -4.29304345379825----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ though a little higher , 
+ and put on the necessary your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(though -7.75)(a -2.05)(little -7.37)(higher -4.65)(, -3.11) line score is : -4.984, look ahead score is : 0.156
+(and -3.11)(put -6.88)(on -1.53)(the -0.52)(necessary -3.40)(your -3.99)(. -1.91) line score is : -3.046, look ahead score is : 0.000
+-------------------------score:  -4.310682918186541;  adjusted_score: -4.287268129791374----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and turned on the automatic your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(turned -7.39)(on -0.60)(the -0.53)(automatic -4.26)(your -4.66)(. -0.64) line score is : -3.417, look ahead score is : 0.000
+-------------------------score:  -4.314589375699008;  adjusted_score: -4.291627525085652----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he cleaned out one tire , 
+ in a little fire , 
+ and put on the necessary your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(cleaned -1.82)(out -4.23)(one -3.30)(tire -5.62)(, -8.60) line score is : -4.072, look ahead score is : 0.570
+(in -8.60)(a -2.07)(little -6.17)(fire -2.29)(, -4.52) line score is : -4.731, look ahead score is : 0.578
+(and -4.52)(put -7.46)(on -2.33)(the -0.86)(necessary -3.17)(your -3.90)(. -1.99) line score is : -3.460, look ahead score is : 0.000
+-------------------------score:  -4.321520345078574;  adjusted_score: -4.29847416953908----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and turned on the automatic your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(turned -7.59)(on -1.77)(the -0.53)(automatic -4.19)(your -4.27)(. -0.58) line score is : -3.392, look ahead score is : 0.000
+-------------------------score:  -4.327521259034121;  adjusted_score: -4.3041064706389545----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a heavy fire , 
+ and put on the necessary or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(heavy -6.72)(fire -2.29)(, -5.83) line score is : -4.928, look ahead score is : 0.596
+(and -5.83)(put -7.39)(on -0.60)(the -0.53)(necessary -3.26)(or -4.09)(. -2.05) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -4.3360717131031885;  adjusted_score: -4.3130255375636946----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and put on the necessary or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(put -7.59)(on -1.77)(the -0.53)(necessary -3.16)(or -4.06)(. -1.83) line score is : -3.393, look ahead score is : 0.000
+-------------------------score:  -4.336497813463211;  adjusted_score: -4.32189429178834----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ though a little higher , 
+ and put on the necessary or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(though -7.75)(a -2.05)(little -7.37)(higher -4.65)(, -3.11) line score is : -4.984, look ahead score is : 0.156
+(and -3.11)(put -6.88)(on -1.53)(the -0.52)(necessary -3.40)(or -3.99)(. -1.91) line score is : -3.046, look ahead score is : 0.000
+-------------------------score:  -4.3466211060682935;  adjusted_score: -4.323659255454938----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he cleaned out one tire , 
+ in a little fire , 
+ and put on the necessary or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(cleaned -1.82)(out -4.23)(one -3.30)(tire -5.62)(, -8.60) line score is : -4.072, look ahead score is : 0.570
+(in -8.60)(a -2.07)(little -6.17)(fire -2.29)(, -4.52) line score is : -4.731, look ahead score is : 0.578
+(and -4.52)(put -7.46)(on -2.33)(the -0.86)(necessary -3.17)(or -3.90)(. -1.99) line score is : -3.460, look ahead score is : 0.000
+-------------------------score:  -4.359405765930812;  adjusted_score: -4.336359590391318----------------------- 
+there was a loud cleaner named theodore 
+ whose work went far better than before . 
+ he took out one tire , 
+ in a little fire , 
+ and blew on the interior your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.65)(work -3.92)(went -4.83)(far -3.45)(better -6.08)(than -0.27)(before -8.27)(. -0.85) line score is : -4.166, look ahead score is : 0.000
+(he -0.85)(took -1.82)(out -4.24)(one -4.00)(tire -5.02)(, -7.75) line score is : -3.947, look ahead score is : 0.574
+(in -7.75)(a -2.05)(little -6.72)(fire -2.29)(, -4.81) line score is : -4.724, look ahead score is : 0.578
+(and -4.81)(blew -7.59)(on -1.77)(the -0.53)(interior -3.82)(your -3.39)(. -2.68) line score is : -3.511, look ahead score is : 0.000

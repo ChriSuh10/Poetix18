@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.2717741436790675;  adjusted_score: -3.245162509335205----------------------- 
+there was a brave girl named salvatore 
+ who did a great job on her story . 
+ she was back from the way , 
+ she was ready to play , 
+ she was good to go and to ignore . 
+------------------------- score breakdown ------------------------ 
+(who -1.23)(did -4.00)(a -3.14)(great -2.29)(job -0.33)(on -3.48)(her -2.68)(story -5.41)(. -1.56) line score is : -2.679, look ahead score is : 0.000
+(she -1.56)(was -2.42)(back -2.29)(from -8.28)(the -3.49)(way -2.16)(, -8.98) line score is : -4.169, look ahead score is : 0.642
+(she -8.98)(was -4.54)(ready -2.38)(to -1.04)(play -3.62)(, -0.60) line score is : -3.529, look ahead score is : 0.689
+(she -0.60)(was -4.71)(good -2.60)(to -1.14)(go -0.51)(and -5.08)(to -2.56)(ignore -0.08)(. -2.43) line score is : -2.189, look ahead score is : 0.000

@@ -1,0 +1,561 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP$ NN AND PRP$ NN , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ his grief and his rage 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.031328774550382;  adjusted_score: -3.0045747967152034----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ when you see me , you have seen a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(when -2.42)(you -4.88)(see -0.73)(me -4.34)(, -1.22)(you -2.83)(have -1.78)(seen -1.87)(a -1.83)(smile -3.40)(. -4.25) line score is : -2.686, look ahead score is : 0.000
+-------------------------score:  -3.0760423207984253;  adjusted_score: -3.049288342963247----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ when you see me , you have heard a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(when -2.42)(you -4.88)(see -0.73)(me -4.34)(, -1.22)(you -2.83)(have -1.78)(heard -1.87)(a -1.83)(smile -3.40)(. -6.23) line score is : -2.866, look ahead score is : 0.000
+-------------------------score:  -3.244536685592988;  adjusted_score: -3.2177827077578094----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ when you see me , i am scared a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(when -2.42)(you -4.88)(see -0.73)(me -4.34)(, -1.22)(i -2.83)(am -1.78)(scared -1.87)(a -2.77)(smile -2.44)(. -5.81) line score is : -2.827, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.132677158623031;  adjusted_score: -3.1065606384566338----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which he did in the end , 
+ and that is the reason of this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(he -1.55)(did -6.72)(in -2.97)(the -1.83)(end -3.62)(, -1.87) line score is : -3.074, look ahead score is : 0.639
+(and -1.87)(that -3.58)(is -0.32)(the -3.48)(reason -3.16)(of -1.86)(this -3.78)(smile -3.01)(. -5.46) line score is : -2.945, look ahead score is : 0.000
+-------------------------score:  -3.1577170328660444;  adjusted_score: -3.1316005126996473----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which i did in the end , 
+ and that is the reason of this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(i -1.55)(did -6.72)(in -1.56)(the -3.01)(end -3.59)(, -1.81) line score is : -3.028, look ahead score is : 0.639
+(and -1.81)(that -4.17)(is -0.32)(the -3.56)(reason -3.13)(of -1.85)(this -3.88)(smile -3.14)(. -5.64) line score is : -3.057, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.1379580157143727;  adjusted_score: -3.1118414955479756----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which i did in the end , 
+ as i said to mark , you have a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(i -1.55)(did -6.72)(in -1.56)(the -3.01)(end -3.59)(, -1.81) line score is : -3.028, look ahead score is : 0.639
+(as -1.81)(i -4.17)(said -0.32)(to -5.94)(mark -1.77)(, -2.30)(you -2.19)(have -6.74)(a -1.14)(smile -3.00)(. -2.65) line score is : -2.912, look ahead score is : 0.000
+-------------------------score:  -3.275192424229213;  adjusted_score: -3.249075904062816----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which i did in the end , 
+ as i said to mark , you know a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(i -1.55)(did -6.72)(in -1.56)(the -3.01)(end -3.59)(, -1.81) line score is : -3.028, look ahead score is : 0.639
+(as -1.81)(i -4.17)(said -0.32)(to -5.94)(mark -1.77)(, -2.30)(you -2.19)(know -6.74)(a -1.14)(smile -3.00)(. -1.68) line score is : -2.824, look ahead score is : 0.000
+-------------------------score:  -3.2802928515842984;  adjusted_score: -3.2541763314179013----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which i did in the end , 
+ as i said to mark , i think a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(i -1.55)(did -6.72)(in -1.56)(the -3.01)(end -3.59)(, -1.81) line score is : -3.028, look ahead score is : 0.639
+(as -1.81)(i -4.17)(said -0.32)(to -5.94)(mark -1.77)(, -2.30)(i -2.19)(think -6.74)(a -1.14)(smile -2.26)(. -2.95) line score is : -2.873, look ahead score is : 0.000
+-------------------------score:  -3.31618332862854;  adjusted_score: -3.290066808462143----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which i did in the end , 
+ as i said to judge , i think a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(i -1.55)(did -6.72)(in -1.56)(the -3.01)(end -3.59)(, -1.81) line score is : -3.028, look ahead score is : 0.639
+(as -1.81)(i -4.17)(said -0.32)(to -5.94)(judge -1.77)(, -2.30)(i -2.19)(think -5.45)(a -3.72)(smile -2.18)(. -3.05) line score is : -2.991, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ his grief and his rage 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1509790005105915;  adjusted_score: -3.124225022675413----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ and you know that my life is a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(and -2.42)(you -4.88)(know -0.73)(that -4.19)(my -3.48)(life -0.94)(is -3.83)(a -4.35)(smile -3.37)(. -1.15) line score is : -2.934, look ahead score is : 0.000
+-------------------------score:  -3.1774359146753945;  adjusted_score: -3.150681936840216----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ and you know that your life is a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(and -2.42)(you -4.88)(know -0.73)(that -4.19)(your -3.48)(life -0.94)(is -3.83)(a -5.25)(smile -3.08)(. -0.87) line score is : -2.967, look ahead score is : 0.000
+-------------------------score:  -3.204952608455311;  adjusted_score: -3.1781986306201326----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ and you know that my name is a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(and -2.42)(you -4.88)(know -0.73)(that -4.19)(my -3.48)(name -0.94)(is -3.83)(a -4.35)(smile -3.97)(. -0.53) line score is : -2.931, look ahead score is : 0.000
+-------------------------score:  -3.2059372500939802;  adjusted_score: -3.179183272258802----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ my wife and my girlfriend , 
+ and you know that my life has a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(my -2.96)(wife -1.55)(and -5.99)(my -3.21)(girlfriend -2.24)(, -2.42) line score is : -3.061, look ahead score is : 0.671
+(and -2.42)(you -4.88)(know -0.73)(that -4.19)(my -3.48)(life -0.94)(has -3.83)(a -4.35)(smile -3.37)(. -2.15) line score is : -3.034, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.1608126751014165;  adjusted_score: -3.1346961549350194----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which he did in the end , 
+ when he heard it , you have seen a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(he -1.55)(did -6.72)(in -2.97)(the -1.83)(end -3.62)(, -1.87) line score is : -3.074, look ahead score is : 0.639
+(when -1.87)(he -3.58)(heard -0.32)(it -4.56)(, -1.13)(you -3.21)(have -3.21)(seen -1.00)(a -4.17)(smile -3.20)(. -6.29) line score is : -2.957, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and I hope that your day is a blast 
+-------------------------score:  -3.163011437112635;  adjusted_score: -3.136773373538798----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that my life is a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(i -2.96)(would -1.55)(tell -3.27)(a -2.52)(girlfriend -2.75)(, -4.68) line score is : -2.954, look ahead score is : 0.645
+(and -4.68)(i -6.10)(think -1.01)(that -3.87)(my -1.70)(life -2.65)(is -1.85)(a -4.83)(smile -4.07)(. -1.62) line score is : -3.238, look ahead score is : 0.000
+-------------------------score:  -3.2079992095629373;  adjusted_score: -3.1817611459891----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ i would tell a girlfriend , 
+ and i think that my life has a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(i -2.96)(would -1.55)(tell -3.27)(a -2.52)(girlfriend -2.75)(, -4.68) line score is : -2.954, look ahead score is : 0.645
+(and -4.68)(i -6.10)(think -1.01)(that -3.87)(my -1.70)(life -2.65)(has -1.85)(a -4.83)(smile -4.07)(. -1.99) line score is : -3.275, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1851140549954247;  adjusted_score: -3.1589975348290276----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which he did in the end , 
+ and i think that my case has a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(he -1.55)(did -6.72)(in -2.97)(the -1.83)(end -3.62)(, -1.87) line score is : -3.074, look ahead score is : 0.639
+(and -1.87)(i -3.58)(think -0.32)(that -3.48)(my -1.63)(case -2.26)(has -2.48)(a -5.14)(smile -3.55)(. -3.23) line score is : -2.753, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.2332310965832542;  adjusted_score: -3.207114576416857----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which he did in the end , 
+ and the guy on the right of the smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(he -1.55)(did -6.72)(in -2.97)(the -1.83)(end -3.62)(, -1.87) line score is : -3.074, look ahead score is : 0.639
+(and -1.87)(the -3.58)(guy -0.32)(on -3.48)(the -4.21)(right -3.94)(of -4.54)(the -0.67)(smile -3.37)(. -4.10) line score is : -3.007, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2439576299751507;  adjusted_score: -3.2189161625767455----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ and he was to the end , 
+ and i think that his name is a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(and -2.96)(he -1.55)(was -4.91)(to -2.23)(the -2.14)(end -6.49)(, -2.55) line score is : -3.262, look ahead score is : 0.585
+(and -2.55)(i -4.59)(think -1.41)(that -2.89)(his -1.81)(name -3.12)(is -2.97)(a -4.95)(smile -3.12)(. -0.92) line score is : -2.834, look ahead score is : 0.000
+-------------------------score:  -3.282025040949092;  adjusted_score: -3.255908520782695----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ and he did to the end , 
+ and i think that my case has a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(and -2.96)(he -1.55)(did -4.91)(to -2.23)(the -2.52)(end -5.90)(, -4.19) line score is : -3.467, look ahead score is : 0.639
+(and -4.19)(i -4.84)(think -0.63)(that -3.37)(my -1.61)(case -2.21)(has -1.96)(a -5.35)(smile -3.47)(. -3.04) line score is : -3.067, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2601725552231073;  adjusted_score: -3.2349210488051177----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ the jury of my friend , 
+ his wife and his girlfriend , 
+ and i heard that my life has a smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(the -1.67)(jury -3.61)(of -3.53)(my -3.70)(friend -3.55)(, -4.23) line score is : -3.382, look ahead score is : 0.592
+(his -4.23)(wife -2.80)(and -5.05)(his -1.53)(girlfriend -1.02)(, -2.32) line score is : -2.826, look ahead score is : 0.671
+(and -2.32)(i -4.70)(heard -2.60)(that -3.08)(my -1.67)(life -4.74)(has -3.42)(a -3.94)(smile -3.80)(. -3.60) line score is : -3.385, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.300410161095281;  adjusted_score: -3.2751586546772913----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ the jury of my friend , 
+ his wife and his girlfriend , 
+ and the judge actually had a whole smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(the -1.67)(jury -3.61)(of -3.53)(my -3.70)(friend -3.55)(, -4.23) line score is : -3.382, look ahead score is : 0.592
+(his -4.23)(wife -2.80)(and -5.05)(his -1.53)(girlfriend -1.02)(, -2.32) line score is : -2.826, look ahead score is : 0.671
+(and -2.32)(the -4.70)(judge -2.60)(actually -3.08)(had -2.23)(a -1.78)(whole -6.26)(smile -3.16)(. -1.32) line score is : -3.050, look ahead score is : 0.000
+-------------------------score:  -3.3137314761838605;  adjusted_score: -3.288479969765871----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ the jury of my friend , 
+ his wife and his girlfriend , 
+ and the judge actually gave a whole smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(the -1.67)(jury -3.61)(of -3.53)(my -3.70)(friend -3.55)(, -4.23) line score is : -3.382, look ahead score is : 0.592
+(his -4.23)(wife -2.80)(and -5.05)(his -1.53)(girlfriend -1.02)(, -2.32) line score is : -2.826, look ahead score is : 0.671
+(and -2.32)(the -4.70)(judge -2.60)(actually -3.08)(gave -2.23)(a -1.78)(whole -6.26)(smile -3.47)(. -2.76) line score is : -3.243, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ he would go to a party 
+ he would wave a cigar 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.3909408281246822;  adjusted_score: -3.3649801355103652----------------------- 
+there was a dentist named scott 
+ who had a great interest and thought . 
+ he would go to a friend , 
+ he would have a girlfriend , 
+ but he had his interests and got . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(had -2.64)(a -1.84)(great -4.01)(interest -3.30)(and -4.85)(thought -5.61)(. -5.76) line score is : -3.700, look ahead score is : 0.000
+(he -5.76)(would -1.79)(go -4.01)(to -3.10)(a -1.09)(friend -2.79)(, -4.63) line score is : -3.310, look ahead score is : 0.682
+(he -4.63)(would -3.61)(have -3.39)(a -0.47)(girlfriend -3.62)(, -1.03) line score is : -2.793, look ahead score is : 0.616
+(but -1.03)(he -6.90)(had -0.83)(his -3.26)(interests -1.03)(and -3.41)(got -3.76)(. -5.57) line score is : -3.224, look ahead score is : 0.000
+-------------------------score:  -3.450401770075162;  adjusted_score: -3.424441077460845----------------------- 
+there was a dentist named scott 
+ who had a great interest and thought . 
+ he would go to a friend , 
+ he would have a girlfriend , 
+ but he had his interests and brought . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(had -2.64)(a -1.84)(great -4.01)(interest -3.30)(and -4.85)(thought -5.61)(. -5.76) line score is : -3.700, look ahead score is : 0.000
+(he -5.76)(would -1.79)(go -4.01)(to -3.10)(a -1.09)(friend -2.79)(, -4.63) line score is : -3.310, look ahead score is : 0.682
+(he -4.63)(would -3.61)(have -3.39)(a -0.47)(girlfriend -3.62)(, -1.03) line score is : -2.793, look ahead score is : 0.616
+(but -1.03)(he -6.90)(had -0.83)(his -3.26)(interests -1.03)(and -3.41)(brought -3.76)(. -5.57) line score is : -3.224, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.4119477597149936;  adjusted_score: -3.3858312395485965----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which i did in the end , 
+ and the judge actually said a whole smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(i -1.55)(did -6.72)(in -1.56)(the -3.01)(end -3.59)(, -1.81) line score is : -3.028, look ahead score is : 0.639
+(and -1.81)(the -4.17)(judge -0.32)(actually -3.56)(said -4.17)(a -2.39)(whole -5.80)(smile -1.71)(. -5.84) line score is : -3.308, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ RB PRP VBD PRP NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he would go to a party 
+ he would wave a cigar 
+ then he walloped me square in the face 
+-------------------------score:  -3.4381423126906157;  adjusted_score: -3.412054080441594----------------------- 
+there was a dentist named kyle 
+ who did all his work in a trial . 
+ he would go to a friend , 
+ he would get a girlfriend , 
+ then he did it year in the meanwhile . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(did -3.16)(all -3.48)(his -3.18)(work -1.42)(in -2.05)(a -2.56)(trial -9.28)(. -2.76) line score is : -3.277, look ahead score is : 0.000
+(he -2.76)(would -1.87)(go -3.96)(to -3.40)(a -1.43)(friend -3.26)(, -4.59) line score is : -3.039, look ahead score is : 0.682
+(he -4.59)(would -4.24)(get -3.91)(a -0.55)(girlfriend -3.47)(, -1.77) line score is : -3.089, look ahead score is : 0.622
+(then -1.77)(he -7.27)(did -0.71)(it -3.59)(year -0.77)(in -5.59)(the -2.08)(meanwhile -8.15)(. -3.27) line score is : -3.687, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4621825416882834;  adjusted_score: -3.4371410742898783----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ and he was to the end , 
+ and he was still like crying of smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(and -2.96)(he -1.55)(was -4.91)(to -2.23)(the -2.14)(end -6.49)(, -2.55) line score is : -3.262, look ahead score is : 0.585
+(and -2.55)(he -4.59)(was -1.41)(still -2.89)(like -1.13)(crying -1.57)(of -4.84)(smile -5.26)(. -6.87) line score is : -3.456, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ which he loosed in the house 
+ I did n't think life was this way 
+-------------------------score:  -3.4754233513817643;  adjusted_score: -3.449306831215367----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which he did in the end , 
+ he was very pro form was this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(he -1.55)(did -6.72)(in -2.97)(the -1.83)(end -3.62)(, -1.87) line score is : -3.074, look ahead score is : 0.639
+(he -1.87)(was -3.58)(very -0.32)(pro -2.67)(form -2.25)(was -2.64)(this -6.63)(smile -5.48)(. -8.81) line score is : -3.805, look ahead score is : 0.000
+-------------------------score:  -3.49921325210369;  adjusted_score: -3.473096731937293----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ which he did in the end , 
+ he was very pro heart shaped this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(which -2.96)(he -1.55)(did -6.72)(in -2.97)(the -1.83)(end -3.62)(, -1.87) line score is : -3.074, look ahead score is : 0.639
+(he -1.87)(was -3.58)(very -0.32)(pro -2.67)(heart -2.25)(shaped -2.64)(this -6.63)(smile -6.28)(. -7.36) line score is : -3.732, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AT THE NN IN THE NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ at the man in the store 
+ I did n't think life was this way 
+-------------------------score:  -3.503880182902018;  adjusted_score: -3.4778593338529267----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ at the time in the end , 
+ it was pretty darn sweet was this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(at -2.96)(the -1.55)(time -6.73)(in -1.60)(the -1.39)(end -5.57)(, -2.15) line score is : -3.134, look ahead score is : 0.634
+(it -2.15)(was -6.19)(pretty -0.71)(darn -2.48)(sweet -0.53)(was -3.57)(this -5.93)(smile -5.92)(. -9.37) line score is : -4.093, look ahead score is : 0.000
+-------------------------score:  -3.5148719440806997;  adjusted_score: -3.4888510950316083----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ at the time in the end , 
+ it was pretty darn cool was this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(at -2.96)(the -1.55)(time -6.73)(in -1.60)(the -1.39)(end -5.57)(, -2.15) line score is : -3.134, look ahead score is : 0.634
+(it -2.15)(was -6.19)(pretty -0.71)(darn -2.48)(cool -0.53)(was -3.57)(this -5.93)(smile -4.06)(. -9.74) line score is : -3.927, look ahead score is : 0.000
+-------------------------score:  -3.5668871041500205;  adjusted_score: -3.540866255100929----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ at the time in the end , 
+ it was pretty darn neat was this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(at -2.96)(the -1.55)(time -6.73)(in -1.60)(the -1.39)(end -5.57)(, -2.15) line score is : -3.134, look ahead score is : 0.634
+(it -2.15)(was -6.19)(pretty -0.71)(darn -2.48)(neat -0.53)(was -3.57)(this -5.93)(smile -5.89)(. -9.39) line score is : -4.092, look ahead score is : 0.000
+-------------------------score:  -3.6047983892036206;  adjusted_score: -3.578777540154529----------------------- 
+there was a doctor named kyle 
+ who did a great job on my trial . 
+ i would say to a friend , 
+ at the time in the end , 
+ it was pretty darn fun was this smile . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(did -3.39)(a -2.19)(great -3.05)(job -0.56)(on -2.60)(my -2.39)(trial -8.65)(. -1.67) line score is : -2.917, look ahead score is : 0.000
+(i -1.67)(would -1.84)(say -4.27)(to -2.42)(a -4.07)(friend -5.24)(, -2.96) line score is : -3.211, look ahead score is : 0.667
+(at -2.96)(the -1.55)(time -6.73)(in -1.60)(the -1.39)(end -5.57)(, -2.15) line score is : -3.134, look ahead score is : 0.634
+(it -2.15)(was -6.19)(pretty -0.71)(darn -2.48)(fun -0.53)(was -3.57)(this -5.93)(smile -6.16)(. -9.60) line score is : -4.145, look ahead score is : 0.000

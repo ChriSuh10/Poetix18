@@ -1,0 +1,726 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ with his spanner and jack in the box 
+-------------------------score:  -3.0013191048055887;  adjusted_score: -2.9769748219102623----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with his wife and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(his -6.79)(wife -1.10)(and -2.76)(daughter -2.02)(in -2.20)(the -0.85)(stand -2.71)(. -3.16) line score is : -2.621, look ahead score is : 0.000
+-------------------------score:  -3.025614084675908;  adjusted_score: -3.0012698017805817----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with his wife and daughter in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(his -6.79)(wife -1.10)(and -2.76)(daughter -2.02)(in -2.20)(the -0.85)(hand -2.71)(. -3.16) line score is : -2.621, look ahead score is : 0.000
+-------------------------score:  -3.0753250904381275;  adjusted_score: -3.050980807542801----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with his daughter and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(his -6.79)(daughter -1.10)(and -2.76)(son -2.02)(in -3.73)(the -1.56)(stand -1.87)(. -4.24) line score is : -2.897, look ahead score is : 0.000
+-------------------------score:  -3.083297375589609;  adjusted_score: -3.0589530926942827----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with his daughter and son in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(his -6.79)(daughter -1.10)(and -2.76)(son -2.02)(in -3.73)(the -1.56)(hand -1.87)(. -4.24) line score is : -2.897, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ which he loosed in the house 
+ with his spanner and jack in the box 
+-------------------------score:  -3.094992185011506;  adjusted_score: -3.0706479021161797----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with his wife and daughter in the aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(with -1.83)(his -6.60)(wife -1.27)(and -3.30)(daughter -1.82)(in -2.48)(the -0.67)(aid -2.68)(. -2.99) line score is : -2.627, look ahead score is : 0.000
+-------------------------score:  -3.1631996650248766;  adjusted_score: -3.13885538212955----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with his wife and brother in the aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(with -1.83)(his -6.60)(wife -1.27)(and -3.30)(brother -1.82)(in -2.48)(the -0.67)(aid -4.66)(. -3.28) line score is : -2.879, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WITH THE NN OF A NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ with the faith of a marytr 
+ with his spanner and jack in the box 
+-------------------------score:  -3.1271449098712765;  adjusted_score: -3.103135726673063----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ with the help of a light , 
+ with his wife and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(with -7.26)(the -4.69)(help -3.53)(of -1.82)(a -1.39)(light -0.02)(, -1.94) line score is : -2.950, look ahead score is : 0.638
+(with -1.94)(his -8.99)(wife -2.22)(and -4.98)(daughter -2.53)(in -2.54)(the -1.13)(stand -2.82)(. -4.60) line score is : -3.528, look ahead score is : 0.000
+-------------------------score:  -3.1505665177828632;  adjusted_score: -3.12655733458465----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ with the help of a light , 
+ with his wife and daughter in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(with -7.26)(the -4.69)(help -3.53)(of -1.82)(a -1.39)(light -0.02)(, -1.94) line score is : -2.950, look ahead score is : 0.638
+(with -1.94)(his -8.99)(wife -2.22)(and -4.98)(daughter -2.53)(in -2.54)(the -1.13)(hand -2.82)(. -4.60) line score is : -3.528, look ahead score is : 0.000
+-------------------------score:  -3.175753324700054;  adjusted_score: -3.1517441415018403----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ with the help of a light , 
+ with his son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(with -7.26)(the -4.69)(help -3.53)(of -1.82)(a -1.39)(light -0.02)(, -1.94) line score is : -2.950, look ahead score is : 0.638
+(with -1.94)(his -8.99)(son -2.22)(and -4.98)(daughter -2.53)(in -3.37)(the -1.89)(stand -2.21)(. -4.62) line score is : -3.639, look ahead score is : 0.000
+-------------------------score:  -3.2027268404490314;  adjusted_score: -3.178717657250818----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ with the help of a light , 
+ with his son and daughter in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(with -7.26)(the -4.69)(help -3.53)(of -1.82)(a -1.39)(light -0.02)(, -1.94) line score is : -2.950, look ahead score is : 0.638
+(with -1.94)(his -8.99)(son -2.22)(and -4.98)(daughter -2.53)(in -3.37)(the -1.89)(hand -2.21)(. -4.62) line score is : -3.639, look ahead score is : 0.000
+-------------------------score:  -3.226521584612783;  adjusted_score: -3.2025124014145696----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ with the help of a light , 
+ with his daughter and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(with -7.26)(the -4.69)(help -3.53)(of -1.82)(a -1.39)(light -0.02)(, -1.94) line score is : -2.950, look ahead score is : 0.638
+(with -1.94)(his -8.99)(daughter -2.22)(and -4.98)(son -2.53)(in -3.56)(the -1.69)(stand -2.27)(. -5.09) line score is : -3.696, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ he would go to a party 
+ and they rushed to the rail 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.179928319528699;  adjusted_score: -3.155398753210902----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he would go to a fight , 
+ and it was to the right , 
+ and that is the reason of this rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(would -1.17)(go -5.17)(to -3.02)(a -2.14)(fight -3.38)(, -5.15) line score is : -3.226, look ahead score is : 0.612
+(and -5.15)(it -2.21)(was -1.55)(to -3.81)(the -1.09)(right -5.50)(, -2.13) line score is : -3.063, look ahead score is : 0.615
+(and -2.13)(that -4.05)(is -2.06)(the -1.06)(reason -3.45)(of -3.42)(this -2.50)(rise -3.33)(. -5.56) line score is : -3.062, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN VBD SO JJ , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ her hair got so light 
+ she was ready to give and to take 
+-------------------------score:  -3.195366463443685;  adjusted_score: -3.1709700041324385----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fear , 
+ his anger was so clear , 
+ he was able to kill and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fear -2.47)(, -9.27) line score is : -3.582, look ahead score is : 0.563
+(his -9.27)(anger -2.59)(was -1.50)(so -2.57)(clear -6.01)(, -3.14) line score is : -4.180, look ahead score is : 0.657
+(he -3.14)(was -4.93)(able -2.01)(to -2.28)(kill -2.96)(and -2.71)(to -0.01)(stand -2.75)(. -3.42) line score is : -2.689, look ahead score is : 0.000
+-------------------------score:  -3.206450485894757;  adjusted_score: -3.1820540265835104----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fear , 
+ his anger was so clear , 
+ it was easy to see and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fear -2.47)(, -9.27) line score is : -3.582, look ahead score is : 0.563
+(his -9.27)(anger -2.59)(was -1.50)(so -2.57)(clear -6.01)(, -3.14) line score is : -4.180, look ahead score is : 0.657
+(it -3.14)(was -4.93)(easy -2.01)(to -2.47)(see -1.53)(and -4.08)(to -0.15)(stand -1.47)(. -5.53) line score is : -2.812, look ahead score is : 0.000
+-------------------------score:  -3.2495669496636235;  adjusted_score: -3.225170490352377----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fear , 
+ his anger was so clear , 
+ it was enough to make and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fear -2.47)(, -9.27) line score is : -3.582, look ahead score is : 0.563
+(his -9.27)(anger -2.59)(was -1.50)(so -2.57)(clear -6.01)(, -3.14) line score is : -4.180, look ahead score is : 0.657
+(it -3.14)(was -4.93)(enough -2.01)(to -2.47)(make -1.53)(and -3.50)(to -0.21)(stand -1.66)(. -7.81) line score is : -3.030, look ahead score is : 0.000
+-------------------------score:  -3.250254974730553;  adjusted_score: -3.225950694225969----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fear , 
+ his hatred was so clear , 
+ it was enough to make and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fear -2.47)(, -9.27) line score is : -3.582, look ahead score is : 0.563
+(his -9.27)(hatred -2.59)(was -1.50)(so -3.37)(clear -5.83)(, -3.27) line score is : -4.307, look ahead score is : 0.652
+(it -3.27)(was -4.70)(enough -2.07)(to -2.50)(make -1.52)(and -3.21)(to -0.23)(stand -1.67)(. -7.69) line score is : -2.986, look ahead score is : 0.000
+-------------------------score:  -3.3180205961388927;  adjusted_score: -3.293624136827646----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fear , 
+ his anger was so clear , 
+ it was enough to drive and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fear -2.47)(, -9.27) line score is : -3.582, look ahead score is : 0.563
+(his -9.27)(anger -2.59)(was -1.50)(so -2.57)(clear -6.01)(, -3.14) line score is : -4.180, look ahead score is : 0.657
+(it -3.14)(was -4.93)(enough -2.01)(to -2.47)(drive -1.53)(and -3.50)(to -0.21)(stand -2.84)(. -7.26) line score is : -3.100, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.201365129120888;  adjusted_score: -3.176055262081565----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he was back from the fight , 
+ he was ready to write , 
+ he was prepared to go and to rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(was -1.17)(back -1.00)(from -8.16)(the -2.58)(fight -1.69)(, -6.13) line score is : -3.326, look ahead score is : 0.580
+(he -6.13)(was -2.67)(ready -2.80)(to -1.09)(write -4.29)(, -0.61) line score is : -2.933, look ahead score is : 0.686
+(he -0.61)(was -7.64)(prepared -3.19)(to -1.17)(go -0.45)(and -4.20)(to -0.24)(rise -3.14)(. -3.36) line score is : -2.667, look ahead score is : 0.000
+-------------------------score:  -3.2326078842724524;  adjusted_score: -3.2072980172331294----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he was back from the fight , 
+ he was ready to write , 
+ he was prepared to do and to rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(was -1.17)(back -1.00)(from -8.16)(the -2.58)(fight -1.69)(, -6.13) line score is : -3.326, look ahead score is : 0.580
+(he -6.13)(was -2.67)(ready -2.80)(to -1.09)(write -4.29)(, -0.61) line score is : -2.933, look ahead score is : 0.686
+(he -0.61)(was -7.64)(prepared -3.19)(to -1.17)(do -0.45)(and -4.20)(to -0.24)(rise -3.19)(. -6.01) line score is : -2.968, look ahead score is : 0.000
+-------------------------score:  -3.2390265200407273;  adjusted_score: -3.2137166530014043----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he was back from the fight , 
+ he was ready to write , 
+ he was prepared to be and to rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(was -1.17)(back -1.00)(from -8.16)(the -2.58)(fight -1.69)(, -6.13) line score is : -3.326, look ahead score is : 0.580
+(he -6.13)(was -2.67)(ready -2.80)(to -1.09)(write -4.29)(, -0.61) line score is : -2.933, look ahead score is : 0.686
+(he -0.61)(was -7.64)(prepared -3.19)(to -1.17)(be -0.45)(and -4.20)(to -0.24)(rise -3.24)(. -7.31) line score is : -3.118, look ahead score is : 0.000
+-------------------------score:  -3.248227685689926;  adjusted_score: -3.222917818650603----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he was back from the fight , 
+ he was ready to write , 
+ he was happy to be and to rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(was -1.17)(back -1.00)(from -8.16)(the -2.58)(fight -1.69)(, -6.13) line score is : -3.326, look ahead score is : 0.580
+(he -6.13)(was -2.67)(ready -2.80)(to -1.09)(write -4.29)(, -0.61) line score is : -2.933, look ahead score is : 0.686
+(he -0.61)(was -7.64)(happy -3.19)(to -1.17)(be -0.45)(and -4.96)(to -0.77)(rise -1.45)(. -7.95) line score is : -3.134, look ahead score is : 0.000
+-------------------------score:  -3.2826460470114984;  adjusted_score: -3.2573361799721754----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he was back from the fight , 
+ he was ready to write , 
+ he was eager to get and to rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(was -1.17)(back -1.00)(from -8.16)(the -2.58)(fight -1.69)(, -6.13) line score is : -3.326, look ahead score is : 0.580
+(he -6.13)(was -2.67)(ready -2.80)(to -1.09)(write -4.29)(, -0.61) line score is : -2.933, look ahead score is : 0.686
+(he -0.61)(was -7.64)(eager -3.19)(to -1.17)(get -0.45)(and -5.12)(to -0.16)(rise -2.46)(. -7.33) line score is : -3.125, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ WITH A JJ NN OF NN ON PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ with a nice head of hair on his pate 
+-------------------------score:  -3.2040960617137677;  adjusted_score: -3.1797517788184413----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with a small band of horse on his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(a -6.79)(small -1.10)(band -2.76)(of -1.81)(horse -5.24)(on -2.09)(his -0.23)(hand -5.30)(. -7.67) line score is : -3.499, look ahead score is : 0.000
+-------------------------score:  -3.224705501939311;  adjusted_score: -3.2003612190439847----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with a small band of twelve on his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(a -6.79)(small -1.10)(band -2.76)(of -1.81)(twelve -5.24)(on -2.09)(his -0.23)(hand -6.61)(. -7.20) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.2491789198282994;  adjusted_score: -3.224834636932973----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with a small band of horse on his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(a -6.79)(small -1.10)(band -2.76)(of -1.81)(horse -5.24)(on -2.09)(his -0.23)(stand -5.30)(. -7.67) line score is : -3.499, look ahead score is : 0.000
+-------------------------score:  -3.255655094529643;  adjusted_score: -3.2313108116343168----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with a small band of brave on his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(a -6.79)(small -1.10)(band -2.76)(of -1.81)(brave -5.24)(on -2.09)(his -0.23)(hand -5.55)(. -9.56) line score is : -3.712, look ahead score is : 0.000
+-------------------------score:  -3.3028114862514264;  adjusted_score: -3.2784672033561----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ with a small band of twelve on his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(with -2.00)(a -6.79)(small -1.10)(band -2.76)(of -1.81)(twelve -5.24)(on -2.09)(his -0.23)(stand -6.61)(. -7.20) line score is : -3.582, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.267046441926676;  adjusted_score: -3.2427021590313494----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he lay to sleep , i have a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(lay -1.10)(to -5.26)(sleep -0.96)(, -2.08)(i -6.75)(have -0.47)(a -0.35)(hand -7.11)(. -1.82) line score is : -3.153, look ahead score is : 0.000
+-------------------------score:  -3.3079404489082447;  adjusted_score: -3.2835961660129183----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he lay to sleep , he heard a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(lay -1.10)(to -5.26)(sleep -0.96)(, -2.08)(he -6.75)(heard -0.47)(a -0.35)(hand -4.77)(. -5.51) line score is : -3.275, look ahead score is : 0.000
+-------------------------score:  -3.332356944680214;  adjusted_score: -3.3080126617848875----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he lay to sleep , i heard a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(lay -1.10)(to -5.26)(sleep -0.96)(, -2.08)(i -6.75)(heard -0.47)(a -0.35)(hand -7.11)(. -3.41) line score is : -3.297, look ahead score is : 0.000
+-------------------------score:  -3.401589548763107;  adjusted_score: -3.3772452658677805----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he lay to sleep , i am a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(lay -1.10)(to -5.26)(sleep -0.96)(, -2.08)(i -6.75)(am -0.47)(a -0.35)(hand -7.11)(. -3.63) line score is : -3.317, look ahead score is : 0.000
+-------------------------score:  -3.462827080312897;  adjusted_score: -3.4384827974175707----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he lay to sleep , i think a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(lay -1.10)(to -5.26)(sleep -0.96)(, -2.08)(i -6.75)(think -0.47)(a -0.35)(hand -7.11)(. -3.90) line score is : -3.342, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.3086305639960547;  adjusted_score: -3.2842862811007283----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two days in his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(sat -1.10)(out -5.26)(two -0.96)(days -2.97)(in -5.07)(his -8.14)(hand -1.20)(. -1.45) line score is : -3.492, look ahead score is : 0.000
+-------------------------score:  -3.3378842346595996;  adjusted_score: -3.313539951764273----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two days in his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(sat -1.10)(out -5.26)(two -0.96)(days -2.97)(in -5.07)(his -8.14)(stand -1.20)(. -1.45) line score is : -3.492, look ahead score is : 0.000
+-------------------------score:  -3.340059930627996;  adjusted_score: -3.3157156477326697----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two hours in his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(sat -1.10)(out -5.26)(two -0.96)(hours -2.97)(in -5.07)(his -8.14)(hand -2.42)(. -1.59) line score is : -3.629, look ahead score is : 0.000
+-------------------------score:  -3.347847078785752;  adjusted_score: -3.3235027958904255----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two nights in his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(sat -1.10)(out -5.26)(two -0.96)(nights -2.97)(in -5.07)(his -8.14)(hand -2.30)(. -1.45) line score is : -3.603, look ahead score is : 0.000
+-------------------------score:  -3.3618528192693535;  adjusted_score: -3.337508536374027----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two hours in his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(as -2.00)(he -6.79)(sat -1.10)(out -5.26)(two -0.96)(hours -2.97)(in -5.07)(his -8.14)(stand -2.42)(. -1.59) line score is : -3.629, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.3519520348516005;  adjusted_score: -3.327607751956274----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ was also a literary stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(was -2.00)(also -6.79)(a -1.10)(literary -2.37)(stand -4.31)(. -3.09) line score is : -3.276, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ which he loosed in the house 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.3528738509524953;  adjusted_score: -3.328529568057169----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two days in his aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(as -1.83)(he -6.60)(sat -1.27)(out -4.99)(two -0.94)(days -3.43)(in -5.34)(his -7.65)(aid -1.25)(. -1.50) line score is : -3.481, look ahead score is : 0.000
+-------------------------score:  -3.365643488638329;  adjusted_score: -3.3412992057430024----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out three days in his aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(as -1.83)(he -6.60)(sat -1.27)(out -4.99)(three -0.94)(days -3.43)(in -5.34)(his -8.09)(aid -1.08)(. -1.39) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -3.378009501731757;  adjusted_score: -3.3536652188364307----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two weeks in his aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(as -1.83)(he -6.60)(sat -1.27)(out -4.99)(two -0.94)(weeks -3.43)(in -5.34)(his -7.65)(aid -2.01)(. -1.14) line score is : -3.521, look ahead score is : 0.000
+-------------------------score:  -3.3992890318234763;  adjusted_score: -3.37494474892815----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out three months in his aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(as -1.83)(he -6.60)(sat -1.27)(out -4.99)(three -0.94)(months -3.43)(in -5.34)(his -8.09)(aid -1.78)(. -1.10) line score is : -3.538, look ahead score is : 0.000
+-------------------------score:  -3.4225086244669827;  adjusted_score: -3.3981643415716563----------------------- 
+there was a cruel man named wade 
+ who killed all his family in a raid . 
+ the story of his fight , 
+ which he wrote in the night , 
+ as he sat out two years in his aid . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(all -3.13)(his -1.69)(family -2.99)(in -2.70)(a -1.47)(raid -5.52)(. -2.56) line score is : -2.845, look ahead score is : 0.000
+(the -2.56)(story -2.79)(of -3.73)(his -2.29)(fight -2.44)(, -7.27) line score is : -3.514, look ahead score is : 0.563
+(which -7.27)(he -4.56)(wrote -2.78)(in -2.77)(the -3.78)(night -1.82)(, -1.83) line score is : -3.545, look ahead score is : 0.654
+(as -1.83)(he -6.60)(sat -1.27)(out -4.99)(two -0.94)(years -3.43)(in -5.34)(his -7.65)(aid -2.22)(. -1.34) line score is : -3.561, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.3833420083803287;  adjusted_score: -3.3589977254850023----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ when he heard it , i have read a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(when -2.00)(he -6.79)(heard -1.10)(it -5.21)(, -0.87)(i -3.57)(have -4.80)(read -1.58)(a -6.64)(hand -2.18)(. -3.98) line score is : -3.519, look ahead score is : 0.000
+-------------------------score:  -3.383574178990196;  adjusted_score: -3.3592298960948694----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ when he heard it , i have told a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(when -2.00)(he -6.79)(heard -1.10)(it -5.21)(, -0.87)(i -3.57)(have -4.80)(told -1.58)(a -6.64)(hand -2.18)(. -3.33) line score is : -3.460, look ahead score is : 0.000
+-------------------------score:  -3.3840755802743576;  adjusted_score: -3.359731297379031----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ when he heard it , i have seen a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(when -2.00)(he -6.79)(heard -1.10)(it -5.21)(, -0.87)(i -3.57)(have -4.80)(seen -1.58)(a -6.64)(hand -2.18)(. -3.74) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -3.4369375793372883;  adjusted_score: -3.412593296441962----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ when he heard it , i have seen a stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(when -2.00)(he -6.79)(heard -1.10)(it -5.21)(, -0.87)(i -3.57)(have -4.80)(seen -1.58)(a -6.64)(stand -2.18)(. -3.74) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -3.5204912511741413;  adjusted_score: -3.496146968278815----------------------- 
+there was a cruel man named ferdinand 
+ who killed a young woman on his land . 
+ the story of his fight , 
+ which he wrote in the night , 
+ when he heard it , i am told a hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(killed -3.94)(a -2.61)(young -3.28)(woman -1.77)(on -4.32)(his -2.20)(land -5.03)(. -1.71) line score is : -2.939, look ahead score is : 0.000
+(the -1.71)(story -2.61)(of -3.49)(his -1.94)(fight -2.47)(, -7.26) line score is : -3.247, look ahead score is : 0.563
+(which -7.26)(he -4.69)(wrote -2.41)(in -2.71)(the -3.42)(night -1.87)(, -2.00) line score is : -3.481, look ahead score is : 0.654
+(when -2.00)(he -6.79)(heard -1.10)(it -5.21)(, -0.87)(i -3.57)(am -4.80)(told -1.58)(a -6.64)(hand -3.44)(. -2.56) line score is : -3.504, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ IN JJ NN , 
+ PRP VBD VBN BY A NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ due to up-to-date science 
+ he was pained by a tooth 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.41970676779747;  adjusted_score: -3.3950725132972----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ in actual combat , 
+ he was killed by a bat , 
+ so he was up and come on the rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(in -2.54)(actual -4.39)(combat -7.04)(, -3.30) line score is : -4.316, look ahead score is : 0.584
+(he -3.30)(was -1.05)(killed -0.80)(by -1.07)(a -2.41)(bat -1.48)(, -1.03) line score is : -1.590, look ahead score is : 0.647
+(so -1.03)(he -8.93)(was -2.58)(up -3.37)(and -1.65)(come -1.70)(on -7.55)(the -4.08)(rise -7.51)(. -3.80) line score is : -4.220, look ahead score is : 0.000
+-------------------------score:  -3.4211016913255055;  adjusted_score: -3.3964674368252354----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ in actual combat , 
+ he was killed by a bat , 
+ so he was up and go on the rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(in -2.54)(actual -4.39)(combat -7.04)(, -3.30) line score is : -4.316, look ahead score is : 0.584
+(he -3.30)(was -1.05)(killed -0.80)(by -1.07)(a -2.41)(bat -1.48)(, -1.03) line score is : -1.590, look ahead score is : 0.647
+(so -1.03)(he -8.93)(was -2.58)(up -3.37)(and -1.65)(go -1.70)(on -7.55)(the -4.08)(rise -6.93)(. -4.27) line score is : -4.209, look ahead score is : 0.000
+-------------------------score:  -3.4306074599425;  adjusted_score: -3.40597320544223----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ in actual combat , 
+ he was killed by a bat , 
+ so he was up and dry on the rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(in -2.54)(actual -4.39)(combat -7.04)(, -3.30) line score is : -4.316, look ahead score is : 0.584
+(he -3.30)(was -1.05)(killed -0.80)(by -1.07)(a -2.41)(bat -1.48)(, -1.03) line score is : -1.590, look ahead score is : 0.647
+(so -1.03)(he -8.93)(was -2.58)(up -3.37)(and -1.65)(dry -1.70)(on -7.55)(the -4.08)(rise -7.51)(. -4.29) line score is : -4.269, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ he was pained by a tooth 
+ she was ready to give and to take 
+-------------------------score:  -3.4622329242767824;  adjusted_score: -3.436892669746472----------------------- 
+there once was a soldier named lise 
+ who fought on one of our allies . 
+ he died on the combat , 
+ he was killed by a bat , 
+ he was wounded to be and to rise . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(fought -3.65)(on -2.90)(one -5.21)(of -0.39)(our -2.64)(allies -7.98)(. -2.54) line score is : -3.399, look ahead score is : 0.000
+(he -2.54)(died -1.17)(on -3.13)(the -3.03)(combat -0.85)(, -8.71) line score is : -3.238, look ahead score is : 0.620
+(he -8.71)(was -4.16)(killed -2.93)(by -1.01)(a -2.41)(bat -1.68)(, -1.36) line score is : -3.179, look ahead score is : 0.647
+(he -1.36)(was -8.30)(wounded -2.48)(to -1.91)(be -0.60)(and -3.53)(to -5.67)(rise -5.36)(. -7.05) line score is : -4.029, look ahead score is : 0.000

@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.613796293735504;  adjusted_score: -3.589164855480194----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and ended on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(ended -6.51)(on -0.90)(the -1.91)(other -2.48)(story -6.60)(. -2.45) line score is : -3.598, look ahead score is : 0.000
+-------------------------score:  -3.6518898142708673;  adjusted_score: -3.6272583760155572----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and went on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(went -6.51)(on -0.90)(the -1.91)(opposite -4.04)(story -1.38)(. -4.84) line score is : -3.416, look ahead score is : 0.000
+-------------------------score:  -3.670687445887813;  adjusted_score: -3.646056007632503----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(opposite -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.6712327974813954;  adjusted_score: -3.6466013592260853----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and decided on the same story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(decided -6.51)(on -0.90)(the -1.91)(same -5.90)(story -4.18)(. -2.44) line score is : -3.740, look ahead score is : 0.000
+-------------------------score:  -3.6733013568101107;  adjusted_score: -3.6486699185548006----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and decided on the wrong story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(decided -6.51)(on -0.90)(the -1.91)(wrong -5.90)(story -4.18)(. -2.44) line score is : -3.740, look ahead score is : 0.000
+-------------------------score:  -3.6802965027314647;  adjusted_score: -3.6556650644761546----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and settled on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(settled -6.51)(on -0.90)(the -1.91)(other -6.86)(story -2.75)(. -2.17) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.697487407260471;  adjusted_score: -3.6728559690051608----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and went on the usual story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(went -6.51)(on -0.90)(the -1.91)(usual -4.04)(story -1.38)(. -4.84) line score is : -3.416, look ahead score is : 0.000
+-------------------------score:  -3.711175980391326;  adjusted_score: -3.6865445421360157----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and decided on the right story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(decided -6.51)(on -0.90)(the -1.91)(right -5.90)(story -4.18)(. -2.44) line score is : -3.740, look ahead score is : 0.000
+-------------------------score:  -3.735836825988911;  adjusted_score: -3.7112053871375545----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different play , 
+ and ended on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(play -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(ended -9.58)(on -2.47)(the -1.45)(other -2.62)(story -6.39)(. -2.24) line score is : -4.155, look ahead score is : 0.000
+-------------------------score:  -3.738921876306887;  adjusted_score: -3.714290438051577----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the typical story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(typical -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.7396730890980474;  adjusted_score: -3.7150416508427373----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and settled on the second story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(settled -6.51)(on -0.90)(the -1.91)(second -6.86)(story -2.75)(. -2.17) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.7401329852916576;  adjusted_score: -3.7155015470363475----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and was on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(was -6.51)(on -0.90)(the -1.91)(opposite -3.81)(story -5.25)(. -1.32) line score is : -3.434, look ahead score is : 0.000
+-------------------------score:  -3.7462020825456688;  adjusted_score: -3.7215706442903587----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and ended on the other therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(ended -6.51)(on -0.90)(the -1.91)(other -2.48)(therefore -6.60)(. -2.45) line score is : -3.598, look ahead score is : 0.000
+-------------------------score:  -3.7462342624311096;  adjusted_score: -3.7216028241757995----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the usual story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(usual -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.756018223585906;  adjusted_score: -3.7313867853305958----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and died on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(died -6.51)(on -0.90)(the -1.91)(opposite -6.13)(story -3.78)(. -1.32) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.757287193227697;  adjusted_score: -3.732655754972387----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and went on the wonderful story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(went -6.51)(on -0.90)(the -1.91)(wonderful -4.04)(story -1.38)(. -4.84) line score is : -3.416, look ahead score is : 0.000
+-------------------------score:  -3.7643559641308255;  adjusted_score: -3.7397245258755154----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and moved on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(moved -6.51)(on -0.90)(the -1.91)(opposite -5.26)(story -1.39)(. -5.11) line score is : -3.631, look ahead score is : 0.000
+-------------------------score:  -3.770110417295385;  adjusted_score: -3.745478979040075----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and settled on the other therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(settled -6.51)(on -0.90)(the -1.91)(other -6.86)(therefore -2.75)(. -2.17) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.7706784937116833;  adjusted_score: -3.746047055456373----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and stayed on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(stayed -6.51)(on -0.90)(the -1.91)(opposite -6.15)(story -3.88)(. -1.38) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.7766866330747253;  adjusted_score: -3.752055194819415----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and lived on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(lived -6.51)(on -0.90)(the -1.91)(opposite -5.67)(story -4.21)(. -1.96) line score is : -3.642, look ahead score is : 0.000
+-------------------------score:  -3.786214329578258;  adjusted_score: -3.761582891322948----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the beautiful story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(beautiful -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.7902660104963513;  adjusted_score: -3.765634572241041----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and settled on the middle story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(settled -6.51)(on -0.90)(the -1.91)(middle -6.86)(story -2.75)(. -2.17) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.791038994435911;  adjusted_score: -3.7664075561806007----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the difficult story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(difficult -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.7942917435257524;  adjusted_score: -3.7696603052704423----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and settled on the exact story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(settled -6.51)(on -0.90)(the -1.91)(exact -6.86)(story -2.75)(. -2.17) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.7965514880639537;  adjusted_score: -3.7719200498086436----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(terrible -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.805523647202386;  adjusted_score: -3.780892208947076----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the horrible story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(horrible -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.8518093029658;  adjusted_score: -3.8271778647104897----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(dangerous -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.86359171072642;  adjusted_score: -3.83896027247111----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the impossible more . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(impossible -6.01)(more -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -3.96278484220858;  adjusted_score: -3.9381534039532697----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the various story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(various -6.01)(story -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000
+-------------------------score:  -4.007521192232768;  adjusted_score: -3.982889753977458----------------------- 
+there once was a girl named theodore 
+ whose life got much better than before . 
+ she started out one way , 
+ in a different day , 
+ and took on the impossible your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.00)(life -3.37)(got -5.80)(much -4.78)(better -1.37)(than -2.92)(before -6.02)(. -1.84) line score is : -3.887, look ahead score is : 0.000
+(she -1.84)(started -1.62)(out -4.11)(one -3.29)(way -7.58)(, -5.17) line score is : -3.936, look ahead score is : 0.610
+(in -5.17)(a -0.86)(different -5.46)(day -1.32)(, -4.33) line score is : -3.429, look ahead score is : 0.622
+(and -4.33)(took -6.51)(on -0.90)(the -1.91)(impossible -6.01)(your -2.23)(. -1.95) line score is : -3.406, look ahead score is : 0.000

@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.6083034299038075;  adjusted_score: -3.5845962233565474----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the regular tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(regular -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.647703782275871;  adjusted_score: -3.62403989608641----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a different room , 
+ and was on the regular tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(different -3.64)(room -0.70)(, -6.39) line score is : -3.374, look ahead score is : 0.579
+(and -6.39)(was -3.43)(on -1.46)(the -1.67)(regular -2.63)(tv -5.44)(. -1.24) line score is : -3.179, look ahead score is : 0.000
+-------------------------score:  -3.6575848548500627;  adjusted_score: -3.6342334035425274----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the regular tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(regular -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.7257985516830727;  adjusted_score: -3.7020913451358126----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the beautiful tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(beautiful -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.730029441692211;  adjusted_score: -3.7063222351449507----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and ate on the regular tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(ate -1.87)(on -1.57)(the -1.56)(regular -5.76)(tv -4.96)(. -0.75) line score is : -3.300, look ahead score is : 0.000
+-------------------------score:  -3.7360988524225025;  adjusted_score: -3.7123916458752424----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the medical tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(medical -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.7403480807940164;  adjusted_score: -3.7166408742467563----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the library tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(library -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.745337347189585;  adjusted_score: -3.721630140642325----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and worked on the library tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(worked -1.87)(on -1.57)(the -1.56)(library -5.41)(tv -3.16)(. -1.39) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.7495666808552213;  adjusted_score: -3.726215229547686----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the medical tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(medical -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.760206984149085;  adjusted_score: -3.73685553284155----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the beautiful tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(beautiful -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.776987510698813;  adjusted_score: -3.753280304151553----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and had on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(had -1.87)(on -1.57)(the -1.56)(opposite -2.19)(tv -6.86)(. -3.46) line score is : -3.449, look ahead score is : 0.000
+-------------------------score:  -3.780419135535205;  adjusted_score: -3.756711928987945----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and had on the usual tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(had -1.87)(on -1.57)(the -1.56)(usual -2.19)(tv -6.86)(. -3.46) line score is : -3.449, look ahead score is : 0.000
+-------------------------score:  -3.7842929694387646;  adjusted_score: -3.7605857628915045----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the average tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(average -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.7866099874178567;  adjusted_score: -3.7632585361103215----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and had on the usual tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(had -4.59)(on -1.12)(the -1.60)(usual -1.96)(tv -6.90)(. -3.68) line score is : -3.546, look ahead score is : 0.000
+-------------------------score:  -3.787919342517853;  adjusted_score: -3.7642121359705927----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and worked on the neighboring tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(worked -1.87)(on -1.57)(the -1.56)(neighboring -5.41)(tv -3.16)(. -1.39) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.791726458955694;  adjusted_score: -3.768019252408434----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and worked on the previous tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(worked -1.87)(on -1.57)(the -1.56)(previous -5.41)(tv -3.16)(. -1.39) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.8157222690405668;  adjusted_score: -3.7920150624933067----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(opposite -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.820045429247397;  adjusted_score: -3.796693977939862----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the average tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(average -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.827931026617686;  adjusted_score: -3.8042238200704257----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and worked on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(worked -1.87)(on -1.57)(the -1.56)(opposite -5.41)(tv -3.16)(. -1.39) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.83389334987711;  adjusted_score: -3.8102294636876493----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a different room , 
+ and was on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(different -3.64)(room -0.70)(, -6.39) line score is : -3.374, look ahead score is : 0.579
+(and -6.39)(was -3.43)(on -1.46)(the -1.67)(opposite -2.63)(tv -5.44)(. -1.24) line score is : -3.179, look ahead score is : 0.000
+-------------------------score:  -3.8647472549367836;  adjusted_score: -3.8410400483895235----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and ate on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(ate -1.87)(on -1.57)(the -1.56)(opposite -5.76)(tv -4.96)(. -0.75) line score is : -3.300, look ahead score is : 0.000
+-------------------------score:  -3.86630337105857;  adjusted_score: -3.84259616451131----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the elderly tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(elderly -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.8982577522595725;  adjusted_score: -3.8749063009520373----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(opposite -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.9062817516150297;  adjusted_score: -3.8825745450677696----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the liberal tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(liberal -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.920943633273796;  adjusted_score: -3.8975921819662607----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the liberal tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(liberal -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.927381087232519;  adjusted_score: -3.9036738818773515----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate bathroom , 
+ and was on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(bathroom -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -5.30)(on -0.99)(the -1.27)(opposite -2.58)(tv -5.46)(. -1.39) line score is : -3.373, look ahead score is : 0.000
+-------------------------score:  -3.938222410502257;  adjusted_score: -3.914870959194722----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a single bathroom , 
+ and was on the generous tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(single -3.64)(bathroom -0.70)(, -4.97) line score is : -3.091, look ahead score is : 0.563
+(and -4.97)(was -4.59)(on -1.12)(the -1.60)(generous -2.58)(tv -5.43)(. -1.35) line score is : -3.092, look ahead score is : 0.000
+-------------------------score:  -3.944055064960762;  adjusted_score: -3.920208943232342----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a tiny bathroom , 
+ and was on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(tiny -3.64)(bathroom -0.70)(, -3.73) line score is : -2.842, look ahead score is : 0.588
+(and -3.73)(was -6.27)(on -1.39)(the -1.52)(opposite -2.63)(tv -5.55)(. -1.38) line score is : -3.209, look ahead score is : 0.000
+-------------------------score:  -3.9450629441826432;  adjusted_score: -3.921355737635383----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a separate room , 
+ and was on the generous tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(separate -3.64)(room -0.70)(, -6.62) line score is : -3.421, look ahead score is : 0.581
+(and -6.62)(was -1.87)(on -1.57)(the -1.56)(generous -2.56)(tv -5.48)(. -1.33) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -3.95480763691443;  adjusted_score: -3.9314809427686312----------------------- 
+there was a smart grandma named lee 
+ whose house had always better than me . 
+ she lived out one bedroom , 
+ in a double bathroom , 
+ and was on the opposite tv . 
+------------------------- score breakdown ------------------------ 
+(whose -4.84)(house -3.97)(had -2.33)(always -4.04)(better -10.65)(than -1.77)(me -5.52)(. -1.11) line score is : -4.277, look ahead score is : 0.000
+(she -1.11)(lived -1.93)(out -3.53)(one -5.06)(bedroom -6.19)(, -4.04) line score is : -3.644, look ahead score is : 0.604
+(in -4.04)(a -2.10)(double -3.64)(bathroom -0.70)(, -6.39) line score is : -3.374, look ahead score is : 0.562
+(and -6.39)(was -4.89)(on -1.20)(the -1.53)(opposite -2.64)(tv -5.34)(. -1.26) line score is : -3.322, look ahead score is : 0.000

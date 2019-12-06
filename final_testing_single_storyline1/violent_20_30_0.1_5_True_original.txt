@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.48120614334389;  adjusted_score: -4.457506266528809----------------------- 
+there was a fierce soldier named lee 
+ whose sword killed much earlier than he . 
+ he came out two hostile , 
+ in a different style , 
+ and took on the military plea . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(sword -4.29)(killed -5.98)(much -6.14)(earlier -7.20)(than -1.34)(he -2.30)(. -4.05) line score is : -4.571, look ahead score is : 0.000
+(he -4.05)(came -1.89)(out -4.01)(two -3.19)(hostile -6.91)(, -11.87) line score is : -5.321, look ahead score is : 0.592
+(in -11.87)(a -3.12)(different -5.49)(style -2.64)(, -5.78) line score is : -5.780, look ahead score is : 0.593
+(and -5.78)(took -4.10)(on -1.02)(the -1.37)(military -4.39)(plea -4.39)(. -1.28) line score is : -3.189, look ahead score is : 0.000
+-------------------------score:  -4.511934704250759;  adjusted_score: -4.4882348274356785----------------------- 
+there was a fierce soldier named lee 
+ whose sword killed much earlier than he . 
+ he came out two hostile , 
+ in a different style , 
+ and took on the military flee . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(sword -4.29)(killed -5.98)(much -6.14)(earlier -7.20)(than -1.34)(he -2.30)(. -4.05) line score is : -4.571, look ahead score is : 0.000
+(he -4.05)(came -1.89)(out -4.01)(two -3.19)(hostile -6.91)(, -11.87) line score is : -5.321, look ahead score is : 0.592
+(in -11.87)(a -3.12)(different -5.49)(style -2.64)(, -5.78) line score is : -5.780, look ahead score is : 0.593
+(and -5.78)(took -4.10)(on -1.02)(the -1.37)(military -4.39)(flee -4.39)(. -1.28) line score is : -3.189, look ahead score is : 0.000
+-------------------------score:  -4.551888412899441;  adjusted_score: -4.52818853608436----------------------- 
+there was a fierce soldier named lee 
+ whose sword killed much earlier than he . 
+ he came out two hostile , 
+ in a different style , 
+ and took on the military be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(sword -4.29)(killed -5.98)(much -6.14)(earlier -7.20)(than -1.34)(he -2.30)(. -4.05) line score is : -4.571, look ahead score is : 0.000
+(he -4.05)(came -1.89)(out -4.01)(two -3.19)(hostile -6.91)(, -11.87) line score is : -5.321, look ahead score is : 0.592
+(in -11.87)(a -3.12)(different -5.49)(style -2.64)(, -5.78) line score is : -5.780, look ahead score is : 0.593
+(and -5.78)(took -4.10)(on -1.02)(the -1.37)(military -4.39)(be -4.39)(. -1.28) line score is : -3.189, look ahead score is : 0.000

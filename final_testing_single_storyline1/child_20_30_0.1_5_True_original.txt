@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.176172080967161;  adjusted_score: -4.157758546504709----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(opposite -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.186945854513733;  adjusted_score: -4.168532320051281----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(previous -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.196916634285891;  adjusted_score: -4.178503099823439----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and died on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(died -5.77)(on -1.23)(the -1.80)(previous -6.62)(story -4.03)(. -0.88) line score is : -3.607, look ahead score is : 0.000
+-------------------------score:  -4.204266904680817;  adjusted_score: -4.185853370218365----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the runaway story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(runaway -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.214351412322786;  adjusted_score: -4.1959378778603345----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and lived on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(lived -5.77)(on -1.23)(the -1.80)(opposite -7.06)(story -2.75)(. -1.28) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -4.218211042660254;  adjusted_score: -4.199797508197802----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and stood on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(stood -5.77)(on -1.23)(the -1.80)(opposite -7.45)(story -2.41)(. -0.93) line score is : -3.498, look ahead score is : 0.000
+-------------------------score:  -4.240094446473652;  adjusted_score: -4.2216809120112----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and lived on the neighboring story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(lived -5.77)(on -1.23)(the -1.80)(neighboring -7.06)(story -2.75)(. -1.28) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -4.241565361067101;  adjusted_score: -4.223151826604649----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the usual story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(usual -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.264409693302931;  adjusted_score: -4.245996158840479----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the forbidden story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(forbidden -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.267932884119175;  adjusted_score: -4.249519349656723----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(dangerous -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.279415273004108;  adjusted_score: -4.2610017385416565----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the regular story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(regular -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.284234546952778;  adjusted_score: -4.265821012490326----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and were on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(were -5.77)(on -1.23)(the -1.80)(opposite -7.17)(story -4.85)(. -1.34) line score is : -3.866, look ahead score is : 0.000
+-------------------------score:  -4.285103772525434;  adjusted_score: -4.266690238062982----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the underground story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(underground -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.288223400160119;  adjusted_score: -4.269809865697667----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the general story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(general -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.2929900895666195;  adjusted_score: -4.274576555104168----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the funeral story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(funeral -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.2930701054908615;  adjusted_score: -4.27465657102841----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and died on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(died -5.77)(on -1.23)(the -1.80)(opposite -6.62)(story -4.03)(. -0.88) line score is : -3.607, look ahead score is : 0.000
+-------------------------score:  -4.2975757088926105;  adjusted_score: -4.279162174430159----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and lived on the underground story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(lived -5.77)(on -1.23)(the -1.80)(underground -7.06)(story -2.75)(. -1.28) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -4.300273150205612;  adjusted_score: -4.28185961574316----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the average story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(average -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.301117690625014;  adjusted_score: -4.282704156162562----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and ran on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(ran -5.77)(on -1.23)(the -1.80)(opposite -7.18)(story -5.21)(. -2.04) line score is : -4.019, look ahead score is : 0.000
+-------------------------score:  -4.307133220964008;  adjusted_score: -4.288719686501556----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and walked on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(walked -5.77)(on -1.23)(the -1.80)(opposite -7.43)(story -3.70)(. -2.18) line score is : -3.860, look ahead score is : 0.000
+-------------------------score:  -4.313547298864082;  adjusted_score: -4.29513376440163----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the medical story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(medical -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.315449790822135;  adjusted_score: -4.297036256359683----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the military more . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(military -3.25)(more -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.325235367925079;  adjusted_score: -4.306821833462627----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and took on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(took -5.77)(on -1.23)(the -1.80)(terrible -6.85)(story -3.53)(. -1.58) line score is : -3.666, look ahead score is : 0.000
+-------------------------score:  -4.328112139745995;  adjusted_score: -4.309698605283543----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the slippery story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(slippery -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.348315482890165;  adjusted_score: -4.329901948427713----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(terrible -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.351510318341078;  adjusted_score: -4.333096783878626----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the beautiful story . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(beautiful -3.25)(story -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.3560703209152924;  adjusted_score: -4.337656786452841----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the military for . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(military -3.25)(for -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.427482336759567;  adjusted_score: -4.409068802297115----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the military or . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(military -3.25)(or -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.449496389539154;  adjusted_score: -4.431082855076702----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the average therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(average -3.25)(therefore -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -4.464963733046143;  adjusted_score: -4.446550198583691----------------------- 
+there once was a woman named theodore 
+ whose name meant much bigger than before . 
+ she was out ten someone , 
+ in a different one , 
+ and was on the contrary therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.77)(name -1.72)(meant -4.85)(much -7.76)(bigger -7.00)(than -0.32)(before -6.02)(. -1.19) line score is : -4.204, look ahead score is : 0.000
+(she -1.19)(was -1.36)(out -0.83)(ten -7.95)(someone -8.48)(, -11.31) line score is : -5.186, look ahead score is : 0.649
+(in -11.31)(a -2.92)(different -4.03)(one -1.89)(, -4.90) line score is : -5.008, look ahead score is : 0.271
+(and -4.90)(was -5.77)(on -1.23)(the -1.80)(contrary -3.25)(therefore -4.56)(. -1.36) line score is : -3.268, look ahead score is : 0.000

@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.978883581701666;  adjusted_score: -2.9535685495473443----------------------- 
+there was a dentist named chase 
+ who had a perfect smile on his face . 
+ he would talk to a friend , 
+ he would have a girlfriend , 
+ and it was almost like fun of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(had -2.64)(a -1.84)(perfect -6.96)(smile -3.12)(on -1.79)(his -0.12)(face -0.05)(. -1.47) line score is : -2.177, look ahead score is : 0.000
+(he -1.47)(would -1.48)(talk -3.71)(to -4.22)(a -1.15)(friend -4.41)(, -4.50) line score is : -2.990, look ahead score is : 0.650
+(he -4.50)(would -2.44)(have -3.21)(a -0.66)(girlfriend -4.02)(, -1.13) line score is : -2.659, look ahead score is : 0.616
+(and -1.13)(it -5.68)(was -0.65)(almost -1.72)(like -4.32)(fun -1.10)(of -4.71)(case -1.68)(. -7.04) line score is : -3.115, look ahead score is : 0.000
+-------------------------score:  -2.988571258727461;  adjusted_score: -2.9632562265731393----------------------- 
+there was a dentist named chase 
+ who had a perfect smile on his face . 
+ he would talk to a friend , 
+ he would have a girlfriend , 
+ and he was always like sweet of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(had -2.64)(a -1.84)(perfect -6.96)(smile -3.12)(on -1.79)(his -0.12)(face -0.05)(. -1.47) line score is : -2.177, look ahead score is : 0.000
+(he -1.47)(would -1.48)(talk -3.71)(to -4.22)(a -1.15)(friend -4.41)(, -4.50) line score is : -2.990, look ahead score is : 0.650
+(he -4.50)(would -2.44)(have -3.21)(a -0.66)(girlfriend -4.02)(, -1.13) line score is : -2.659, look ahead score is : 0.616
+(and -1.13)(he -5.68)(was -0.65)(always -1.72)(like -0.90)(sweet -2.56)(of -2.08)(case -6.23)(. -7.61) line score is : -3.173, look ahead score is : 0.000
+-------------------------score:  -3.0128941857255995;  adjusted_score: -2.9875791535712777----------------------- 
+there was a dentist named chase 
+ who had a perfect smile on his face . 
+ he would talk to a friend , 
+ he would have a girlfriend , 
+ and it was always like fun of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.59)(had -2.64)(a -1.84)(perfect -6.96)(smile -3.12)(on -1.79)(his -0.12)(face -0.05)(. -1.47) line score is : -2.177, look ahead score is : 0.000
+(he -1.47)(would -1.48)(talk -3.71)(to -4.22)(a -1.15)(friend -4.41)(, -4.50) line score is : -2.990, look ahead score is : 0.650
+(he -4.50)(would -2.44)(have -3.21)(a -0.66)(girlfriend -4.02)(, -1.13) line score is : -2.659, look ahead score is : 0.616
+(and -1.13)(it -5.68)(was -0.65)(always -1.72)(like -4.32)(fun -1.10)(of -2.49)(case -4.82)(. -6.33) line score is : -3.138, look ahead score is : 0.000

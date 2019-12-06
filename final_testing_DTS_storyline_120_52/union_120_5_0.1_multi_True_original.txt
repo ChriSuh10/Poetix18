@@ -1,0 +1,561 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.286072315648198;  adjusted_score: -3.260847270041704----------------------- 
+there was a fierce teacher named jose 
+ who joined a new school on our way . 
+ he was back from the state , 
+ he was happy to wait , 
+ he was ready to go and to pay . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(joined -6.88)(a -3.96)(new -4.15)(school -1.53)(on -4.17)(our -4.93)(way -2.66)(. -3.95) line score is : -3.784, look ahead score is : 0.000
+(he -3.95)(was -1.78)(back -1.65)(from -7.88)(the -2.91)(state -2.33)(, -6.46) line score is : -3.851, look ahead score is : 0.595
+(he -6.46)(was -2.96)(happy -3.30)(to -1.32)(wait -4.70)(, -1.30) line score is : -3.341, look ahead score is : 0.667
+(he -1.30)(was -7.63)(ready -2.19)(to -1.45)(go -0.91)(and -3.48)(to -0.52)(pay -1.82)(. -3.29) line score is : -2.511, look ahead score is : 0.000
+-------------------------score:  -3.295320400968194;  adjusted_score: -3.2700953553617----------------------- 
+there was a fierce teacher named jose 
+ who joined a new school on our way . 
+ he was back from the state , 
+ he was happy to wait , 
+ he was ready to go and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(joined -6.88)(a -3.96)(new -4.15)(school -1.53)(on -4.17)(our -4.93)(way -2.66)(. -3.95) line score is : -3.784, look ahead score is : 0.000
+(he -3.95)(was -1.78)(back -1.65)(from -7.88)(the -2.91)(state -2.33)(, -6.46) line score is : -3.851, look ahead score is : 0.595
+(he -6.46)(was -2.96)(happy -3.30)(to -1.32)(wait -4.70)(, -1.30) line score is : -3.341, look ahead score is : 0.667
+(he -1.30)(was -7.63)(ready -2.19)(to -1.45)(go -0.91)(and -3.48)(to -0.52)(be -1.82)(. -3.29) line score is : -2.511, look ahead score is : 0.000
+-------------------------score:  -3.346557455137372;  adjusted_score: -3.321332409530878----------------------- 
+there was a fierce teacher named jose 
+ who joined a new school on our way . 
+ he was back from the state , 
+ he was happy to wait , 
+ he was ready to start and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(joined -6.88)(a -3.96)(new -4.15)(school -1.53)(on -4.17)(our -4.93)(way -2.66)(. -3.95) line score is : -3.784, look ahead score is : 0.000
+(he -3.95)(was -1.78)(back -1.65)(from -7.88)(the -2.91)(state -2.33)(, -6.46) line score is : -3.851, look ahead score is : 0.595
+(he -6.46)(was -2.96)(happy -3.30)(to -1.32)(wait -4.70)(, -1.30) line score is : -3.341, look ahead score is : 0.667
+(he -1.30)(was -7.63)(ready -2.19)(to -1.45)(start -0.91)(and -3.48)(to -0.52)(be -2.76)(. -4.40) line score is : -2.740, look ahead score is : 0.000
+-------------------------score:  -3.3786882627755404;  adjusted_score: -3.3534632171690464----------------------- 
+there was a fierce teacher named jose 
+ who joined a new school on our way . 
+ he was back from the state , 
+ he was happy to wait , 
+ he was ready to go and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(joined -6.88)(a -3.96)(new -4.15)(school -1.53)(on -4.17)(our -4.93)(way -2.66)(. -3.95) line score is : -3.784, look ahead score is : 0.000
+(he -3.95)(was -1.78)(back -1.65)(from -7.88)(the -2.91)(state -2.33)(, -6.46) line score is : -3.851, look ahead score is : 0.595
+(he -6.46)(was -2.96)(happy -3.30)(to -1.32)(wait -4.70)(, -1.30) line score is : -3.341, look ahead score is : 0.667
+(he -1.30)(was -7.63)(ready -2.19)(to -1.45)(go -0.91)(and -3.48)(to -0.52)(say -1.82)(. -3.29) line score is : -2.511, look ahead score is : 0.000
+-------------------------score:  -3.4126990474760532;  adjusted_score: -3.3868367759138347----------------------- 
+there was a fierce teacher named jose 
+ who joined a new school on our way . 
+ he was back from the state , 
+ he was ready to wait , 
+ he was happy to be and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(joined -6.88)(a -3.96)(new -4.15)(school -1.53)(on -4.17)(our -4.93)(way -2.66)(. -3.95) line score is : -3.784, look ahead score is : 0.000
+(he -3.95)(was -1.78)(back -1.65)(from -7.88)(the -2.91)(state -2.33)(, -6.46) line score is : -3.851, look ahead score is : 0.595
+(he -6.46)(was -2.96)(ready -3.30)(to -1.32)(wait -4.71)(, -0.53) line score is : -3.213, look ahead score is : 0.698
+(he -0.53)(was -7.95)(happy -2.76)(to -1.58)(be -0.69)(and -4.22)(to -1.23)(be -1.18)(. -8.01) line score is : -3.127, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ and I hope that your day is a blast 
+-------------------------score:  -3.395542957129017;  adjusted_score: -3.3710923781414186----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and i think that his faith is a key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(i -8.45)(think -1.43)(that -1.93)(his -2.83)(faith -2.10)(is -2.47)(a -5.38)(key -3.67)(. -3.47) line score is : -3.621, look ahead score is : 0.000
+-------------------------score:  -3.470284528309299;  adjusted_score: -3.4458339493217003----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and i know that his wife has a key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(i -8.45)(know -1.43)(that -1.93)(his -2.83)(wife -4.93)(has -1.84)(a -4.37)(key -1.94)(. -4.69) line score is : -3.690, look ahead score is : 0.000
+-------------------------score:  -3.499051891026958;  adjusted_score: -3.4746013120393595----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and i know that his wife has a plea . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(i -8.45)(know -1.43)(that -1.93)(his -2.83)(wife -4.93)(has -1.84)(a -4.37)(plea -1.94)(. -4.69) line score is : -3.690, look ahead score is : 0.000
+-------------------------score:  -3.514058663960426;  adjusted_score: -3.4896080849728275----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and i know that his wife is a key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(i -8.45)(know -1.43)(that -1.93)(his -2.83)(wife -4.93)(is -1.84)(a -4.37)(key -1.94)(. -2.85) line score is : -3.507, look ahead score is : 0.000
+-------------------------score:  -3.544534526525005;  adjusted_score: -3.5200839475374064----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and i think that his wife is a key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(i -8.45)(think -1.43)(that -1.93)(his -2.83)(wife -2.10)(is -2.47)(a -5.38)(key -3.74)(. -3.92) line score is : -3.674, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ he was pained by a tooth 
+ she was ready to give and to take 
+-------------------------score:  -3.51712358863123;  adjusted_score: -3.4916882968045053----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was scared by a bear , 
+ he was afraid to walk and to say . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(scared -1.53)(by -0.33)(a -7.40)(bear -4.85)(, -3.80) line score is : -4.469, look ahead score is : 0.677
+(he -3.80)(was -5.85)(afraid -0.70)(to -0.56)(walk -0.63)(and -2.29)(to -2.96)(say -2.70)(. -4.75) line score is : -2.694, look ahead score is : 0.000
+-------------------------score:  -3.532650137139905;  adjusted_score: -3.50721484531318----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was scared by a bear , 
+ he was afraid to walk and to be . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(scared -1.53)(by -0.33)(a -7.40)(bear -4.85)(, -3.80) line score is : -4.469, look ahead score is : 0.677
+(he -3.80)(was -5.85)(afraid -0.70)(to -0.56)(walk -0.63)(and -2.29)(to -2.96)(be -2.70)(. -4.75) line score is : -2.694, look ahead score is : 0.000
+-------------------------score:  -3.538707503388005;  adjusted_score: -3.5132722115612802----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was scared by a bear , 
+ he was afraid to go and to be . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(scared -1.53)(by -0.33)(a -7.40)(bear -4.85)(, -3.80) line score is : -4.469, look ahead score is : 0.677
+(he -3.80)(was -5.85)(afraid -0.70)(to -0.56)(go -0.63)(and -2.29)(to -2.96)(be -1.27)(. -5.39) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -3.553337025065576;  adjusted_score: -3.527901733238851----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was scared by a bear , 
+ he was afraid to be and to be . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(scared -1.53)(by -0.33)(a -7.40)(bear -4.85)(, -3.80) line score is : -4.469, look ahead score is : 0.677
+(he -3.80)(was -5.85)(afraid -0.70)(to -0.56)(be -0.63)(and -2.29)(to -2.96)(be -3.44)(. -8.55) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -3.5653498143919053;  adjusted_score: -3.5399145225651805----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was scared by a bear , 
+ he was afraid to leave and to be . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(scared -1.53)(by -0.33)(a -7.40)(bear -4.85)(, -3.80) line score is : -4.469, look ahead score is : 0.677
+(he -3.80)(was -5.85)(afraid -0.70)(to -0.56)(leave -0.63)(and -2.29)(to -2.96)(be -3.19)(. -5.07) line score is : -2.783, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.562607991175416;  adjusted_score: -3.538157412187817----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and he was actually like kind of key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(he -8.45)(was -1.43)(actually -1.93)(like -0.81)(kind -0.61)(of -5.91)(key -5.90)(. -5.83) line score is : -3.930, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ she sat on a stile 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.5974978864192964;  adjusted_score: -3.5730473074316977----------------------- 
+there was a fierce teacher named francoise 
+ who insisted on one of his laws . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and he was not like someone of law . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(one -6.82)(of -1.75)(his -1.05)(laws -9.00)(. -1.76) line score is : -3.677, look ahead score is : 0.000
+(he -1.76)(was -2.46)(on -2.56)(the -5.59)(welfare -1.47)(, -9.90) line score is : -3.958, look ahead score is : 0.595
+(he -9.90)(was -3.02)(on -2.26)(a -2.16)(prayer -1.69)(, -3.55) line score is : -3.765, look ahead score is : 0.628
+(and -3.55)(he -8.42)(was -1.59)(not -1.44)(like -0.81)(someone -0.95)(of -4.14)(law -6.21)(. -5.81) line score is : -3.658, look ahead score is : 0.000
+-------------------------score:  -3.7443409740924833;  adjusted_score: -3.7198903951048847----------------------- 
+there was a fierce teacher named francoise 
+ who insisted on one of his laws . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and he was not like robin of law . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(one -6.82)(of -1.75)(his -1.05)(laws -9.00)(. -1.76) line score is : -3.677, look ahead score is : 0.000
+(he -1.76)(was -2.46)(on -2.56)(the -5.59)(welfare -1.47)(, -9.90) line score is : -3.958, look ahead score is : 0.595
+(he -9.90)(was -3.02)(on -2.26)(a -2.16)(prayer -1.69)(, -3.55) line score is : -3.765, look ahead score is : 0.628
+(and -3.55)(he -8.42)(was -1.59)(not -1.44)(like -0.81)(robin -0.95)(of -4.14)(law -6.21)(. -7.84) line score is : -3.884, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ she was ready to give and to take 
+-------------------------score:  -3.6271099085609118;  adjusted_score: -3.602659329573313----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was married to miss and to be . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(married -1.43)(to -0.55)(miss -0.13)(and -6.60)(to -1.05)(be -6.16)(. -6.79) line score is : -3.962, look ahead score is : 0.000
+-------------------------score:  -3.79952036490043;  adjusted_score: -3.7750697859128315----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was married to miss and to pay . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(married -1.43)(to -0.55)(miss -0.13)(and -6.60)(to -1.05)(pay -6.16)(. -6.79) line score is : -3.962, look ahead score is : 0.000
+-------------------------score:  -3.8029719506700834;  adjusted_score: -3.778521371682485----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was married to miss and to say . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(married -1.43)(to -0.55)(miss -0.13)(and -6.60)(to -1.05)(say -6.16)(. -6.79) line score is : -3.962, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ but I guess that you probably gnu 
+-------------------------score:  -3.640711468869242;  adjusted_score: -3.6162608898816435----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ but i think that he actually be . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(but -4.50)(i -8.45)(think -1.43)(that -3.02)(he -2.95)(actually -1.78)(be -2.75)(. -2.31) line score is : -3.399, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ it said on the door 
+ she sat on a stile 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.6525415043036142;  adjusted_score: -3.6280909253160156----------------------- 
+there was a lawyer named jose 
+ who argued all his case in a way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ but he had his arguments and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(all -4.99)(his -4.61)(case -3.98)(in -2.36)(a -2.75)(way -3.17)(. -5.86) line score is : -3.978, look ahead score is : 0.000
+(he -5.86)(was -1.90)(on -2.08)(the -5.03)(welfare -1.07)(, -9.60) line score is : -4.258, look ahead score is : 0.595
+(he -9.60)(was -3.72)(on -1.62)(a -0.72)(prayer -0.98)(, -4.07) line score is : -3.451, look ahead score is : 0.628
+(but -4.07)(he -8.82)(had -1.47)(his -3.01)(arguments -0.77)(and -2.70)(lay -3.63)(. -5.43) line score is : -3.736, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6680753346412414;  adjusted_score: -3.6427304351954692----------------------- 
+there was a fierce teacher named francoise 
+ who insisted on one of his laws . 
+ he was on the welfare , 
+ he had lost by a hair , 
+ and he was not like someone of law . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(one -6.82)(of -1.75)(his -1.05)(laws -9.00)(. -1.76) line score is : -3.677, look ahead score is : 0.000
+(he -1.76)(was -2.46)(on -2.56)(the -5.59)(welfare -1.47)(, -9.90) line score is : -3.958, look ahead score is : 0.595
+(he -9.90)(had -3.02)(lost -2.26)(by -3.21)(a -4.77)(hair -8.25)(, -1.48) line score is : -4.699, look ahead score is : 0.673
+(and -1.48)(he -3.12)(was -1.47)(not -1.17)(like -1.15)(someone -1.50)(of -3.80)(law -6.55)(. -5.87) line score is : -2.900, look ahead score is : 0.000
+-------------------------score:  -3.712506350009672;  adjusted_score: -3.6871614505639----------------------- 
+there was a fierce teacher named francoise 
+ who insisted on one of his laws . 
+ he was on the welfare , 
+ he had lost by a hair , 
+ and it was not like something of law . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(one -6.82)(of -1.75)(his -1.05)(laws -9.00)(. -1.76) line score is : -3.677, look ahead score is : 0.000
+(he -1.76)(was -2.46)(on -2.56)(the -5.59)(welfare -1.47)(, -9.90) line score is : -3.958, look ahead score is : 0.595
+(he -9.90)(had -3.02)(lost -2.26)(by -3.21)(a -4.77)(hair -8.25)(, -1.48) line score is : -4.699, look ahead score is : 0.673
+(and -1.48)(it -3.12)(was -1.47)(not -1.17)(like -3.39)(something -0.64)(of -3.38)(law -4.48)(. -6.86) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.715976174800627;  adjusted_score: -3.6906312753548547----------------------- 
+there was a fierce teacher named francoise 
+ who insisted on one of his laws . 
+ he was on the welfare , 
+ he had lost by a hair , 
+ and it was not like something of cause . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(one -6.82)(of -1.75)(his -1.05)(laws -9.00)(. -1.76) line score is : -3.677, look ahead score is : 0.000
+(he -1.76)(was -2.46)(on -2.56)(the -5.59)(welfare -1.47)(, -9.90) line score is : -3.958, look ahead score is : 0.595
+(he -9.90)(had -3.02)(lost -2.26)(by -3.21)(a -4.77)(hair -8.25)(, -1.48) line score is : -4.699, look ahead score is : 0.673
+(and -1.48)(it -3.12)(was -1.47)(not -1.17)(like -3.39)(something -0.64)(of -3.38)(cause -4.48)(. -6.86) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.7174694941889856;  adjusted_score: -3.6921245947432135----------------------- 
+there was a fierce teacher named francoise 
+ who insisted on one of his laws . 
+ he was on the welfare , 
+ he had lost by a hair , 
+ and it was not like someone of law . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(one -6.82)(of -1.75)(his -1.05)(laws -9.00)(. -1.76) line score is : -3.677, look ahead score is : 0.000
+(he -1.76)(was -2.46)(on -2.56)(the -5.59)(welfare -1.47)(, -9.90) line score is : -3.958, look ahead score is : 0.595
+(he -9.90)(had -3.02)(lost -2.26)(by -3.21)(a -4.77)(hair -8.25)(, -1.48) line score is : -4.699, look ahead score is : 0.673
+(and -1.48)(it -3.12)(was -1.47)(not -1.17)(like -3.39)(someone -0.64)(of -3.38)(law -4.48)(. -5.73) line score is : -2.762, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD ON JJ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who lived on distilled kerosene 
+ he bought for his daughter 
+ his grief and his rage 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.7104231140443256;  adjusted_score: -3.6864975090750627----------------------- 
+there was a fierce teacher named javier 
+ who insisted on daily prayer . 
+ it was for my welfare , 
+ my safety and my hair , 
+ and it was not like someone of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.84)(insisted -6.14)(on -1.05)(daily -7.68)(prayer -5.28)(. -1.43) line score is : -3.904, look ahead score is : 0.000
+(it -1.43)(was -3.94)(for -0.62)(my -5.49)(welfare -5.28)(, -5.79) line score is : -3.758, look ahead score is : 0.595
+(my -5.79)(safety -1.81)(and -3.40)(my -2.54)(hair -1.56)(, -0.70) line score is : -2.634, look ahead score is : 0.602
+(and -0.70)(it -7.94)(was -2.68)(not -1.95)(like -2.29)(someone -0.70)(of -3.89)(care -5.18)(. -5.72) line score is : -3.451, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.738963261246681;  adjusted_score: -3.7145126822590826----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he had his own issues and one key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(had -8.45)(his -1.43)(own -0.55)(issues -4.05)(and -3.19)(one -1.94)(key -5.51)(. -2.26) line score is : -3.541, look ahead score is : 0.000
+-------------------------score:  -3.7465092728535336;  adjusted_score: -3.722058693865935----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he had his own problems and one key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(had -8.45)(his -1.43)(own -0.55)(problems -4.05)(and -3.19)(one -1.94)(key -5.42)(. -2.22) line score is : -3.526, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ I did n't think life was this way 
+-------------------------score:  -3.757460255920887;  adjusted_score: -3.7330096769332886----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was very pro life was this key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(very -1.43)(pro -0.55)(life -0.13)(was -4.90)(this -5.77)(key -4.36)(. -9.18) line score is : -4.362, look ahead score is : 0.000
+-------------------------score:  -3.8254660005370775;  adjusted_score: -3.801015421549479----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was very pro gun was this key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(very -1.43)(pro -0.55)(gun -0.13)(was -4.90)(this -5.77)(key -6.71)(. -8.82) line score is : -4.583, look ahead score is : 0.000
+-------------------------score:  -3.8603786264856654;  adjusted_score: -3.835928047498067----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was very pro life left this plea . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(very -1.43)(pro -0.55)(life -0.13)(left -4.90)(this -5.77)(plea -4.36)(. -9.79) line score is : -4.430, look ahead score is : 0.000
+-------------------------score:  -3.8946639175216355;  adjusted_score: -3.870213338534037----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was very pro life left this key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(very -1.43)(pro -0.55)(life -0.13)(left -4.90)(this -5.77)(key -4.36)(. -9.79) line score is : -4.430, look ahead score is : 0.000
+-------------------------score:  -3.9705758606394133;  adjusted_score: -3.9461252816518146----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ he was very pro gun left this key . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(he -4.50)(was -8.45)(very -1.43)(pro -0.55)(gun -0.13)(left -4.90)(this -5.77)(key -6.71)(. -8.90) line score is : -4.592, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN EACH NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ AND RB THERE VBD JJ JJ IN PRP . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ it said on the door 
+ she sat on a stile 
+ and right there became awful sick in 'em 
+-------------------------score:  -3.8047216226657232;  adjusted_score: -3.7802710436781246----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and then there were other good in we . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(then -8.45)(there -1.43)(were -1.93)(other -3.05)(good -2.94)(in -1.75)(we -3.12)(. -6.64) line score is : -3.755, look ahead score is : 0.000
+-------------------------score:  -3.8402023762464523;  adjusted_score: -3.8157517972588537----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and then there were other great in we . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(then -8.45)(there -1.43)(were -1.93)(other -3.05)(great -2.94)(in -1.75)(we -3.12)(. -7.10) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.8699789812167484;  adjusted_score: -3.84552840222915----------------------- 
+there was a lawyer named jose 
+ who argued a little bit each way . 
+ he was on the welfare , 
+ he was on a prayer , 
+ and then there were other young in we . 
+------------------------- score breakdown ------------------------ 
+(who -2.49)(argued -5.60)(a -4.18)(little -4.85)(bit -1.70)(each -6.99)(way -4.22)(. -1.57) line score is : -3.950, look ahead score is : 0.000
+(he -1.57)(was -2.26)(on -1.65)(the -4.87)(welfare -0.83)(, -9.32) line score is : -3.417, look ahead score is : 0.595
+(he -9.32)(was -4.06)(on -1.53)(a -0.33)(prayer -0.44)(, -4.50) line score is : -3.363, look ahead score is : 0.628
+(and -4.50)(then -8.45)(there -1.43)(were -1.93)(other -3.05)(young -2.94)(in -1.75)(we -3.12)(. -7.26) line score is : -3.825, look ahead score is : 0.000

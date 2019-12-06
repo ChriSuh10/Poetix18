@@ -1,0 +1,968 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was pained by a tooth 
+ but it does n't come out of my purse 
+-------------------------score:  -3.2109394054259024;  adjusted_score: -3.1860016343141755----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ but he does not die in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(but -1.35)(he -7.02)(does -4.28)(not -1.81)(die -2.44)(in -5.48)(his -0.73)(glory -1.85)(. -2.32) line score is : -3.031, look ahead score is : 0.000
+-------------------------score:  -3.3129165259099778;  adjusted_score: -3.287978754798251----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ but he does not die in its glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(but -1.35)(he -7.02)(does -4.28)(not -1.81)(die -2.44)(in -5.48)(its -0.73)(glory -1.85)(. -2.32) line score is : -3.031, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.2813580077451965;  adjusted_score: -3.2542790136796733----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ and bring home to his son in glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(and -0.00)(bring -2.86)(home -5.64)(to -2.32)(his -4.19)(son -3.20)(in -2.82)(glory -0.86)(. -2.08) line score is : -2.663, look ahead score is : 0.000
+-------------------------score:  -3.3274034024837116;  adjusted_score: -3.3003244084181884----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ and bring home to his wife in glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(and -0.00)(bring -2.86)(home -5.64)(to -2.32)(his -4.19)(wife -3.20)(in -2.82)(glory -0.86)(. -1.99) line score is : -2.653, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP RB VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ he never completed his task 
+-------------------------score:  -3.293288398001875;  adjusted_score: -3.269854974065508----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he never recovered his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(never -3.70)(recovered -0.30)(his -3.04)(glory -4.99)(. -1.62) line score is : -2.514, look ahead score is : 0.000
+-------------------------score:  -3.368061705359391;  adjusted_score: -3.3446282814230237----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he never recovered its glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(never -3.70)(recovered -0.30)(its -3.04)(glory -4.99)(. -1.62) line score is : -2.514, look ahead score is : 0.000
+-------------------------score:  -3.437301404774189;  adjusted_score: -3.413867980837822----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he never recovered their glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(never -3.70)(recovered -0.30)(their -3.04)(glory -4.99)(. -1.62) line score is : -2.514, look ahead score is : 0.000
+-------------------------score:  -3.512007369526795;  adjusted_score: -3.488573945590428----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he never recovered her glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(never -3.70)(recovered -0.30)(her -3.04)(glory -4.99)(. -1.62) line score is : -2.514, look ahead score is : 0.000
+-------------------------score:  -3.5620091312697957;  adjusted_score: -3.5385757073334285----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he never recovered my glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(never -3.70)(recovered -0.30)(my -3.04)(glory -4.99)(. -1.62) line score is : -2.514, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.3231114372611046;  adjusted_score: -3.2996780133247374----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ was also a personal glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(was -1.44)(also -3.70)(a -0.30)(personal -2.41)(glory -4.33)(. -2.64) line score is : -2.469, look ahead score is : 0.000
+-------------------------score:  -3.3345256501010487;  adjusted_score: -3.3110922261646816----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ was also a glorious glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(was -1.44)(also -3.70)(a -0.30)(glorious -2.41)(glory -4.33)(. -2.64) line score is : -2.469, look ahead score is : 0.000
+-------------------------score:  -3.413584369633879;  adjusted_score: -3.3901509456975116----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ was also a terrible glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(was -1.44)(also -3.70)(a -0.30)(terrible -2.41)(glory -4.33)(. -2.64) line score is : -2.469, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ the cause of his sorrow 
+ which he loosed in the house 
+ she was ready to give and to take 
+-------------------------score:  -3.335899051158659;  adjusted_score: -3.312448799340956----------------------- 
+there was a warrior named cruz 
+ who wished on one of our statues . 
+ the statue of our king , 
+ which we made in the spring , 
+ he was pleased to have and to refuse . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(on -7.59)(one -3.68)(of -3.08)(our -3.39)(statues -8.04)(. -2.65) line score is : -4.633, look ahead score is : 0.000
+(the -2.65)(statue -3.12)(of -1.55)(our -2.43)(king -3.03)(, -3.63) line score is : -2.736, look ahead score is : 0.576
+(which -3.63)(we -2.39)(made -4.03)(in -2.23)(the -3.45)(spring -2.13)(, -1.62) line score is : -2.785, look ahead score is : 0.596
+(he -1.62)(was -4.17)(pleased -1.01)(to -3.75)(have -2.81)(and -2.96)(to -0.86)(refuse -2.15)(. -4.96) line score is : -2.699, look ahead score is : 0.000
+-------------------------score:  -3.3501018622229175;  adjusted_score: -3.3266516104052144----------------------- 
+there was a warrior named cruz 
+ who wished on one of our statues . 
+ the statue of our king , 
+ which we made in the spring , 
+ he was glad to have and to refuse . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(on -7.59)(one -3.68)(of -3.08)(our -3.39)(statues -8.04)(. -2.65) line score is : -4.633, look ahead score is : 0.000
+(the -2.65)(statue -3.12)(of -1.55)(our -2.43)(king -3.03)(, -3.63) line score is : -2.736, look ahead score is : 0.576
+(which -3.63)(we -2.39)(made -4.03)(in -2.23)(the -3.45)(spring -2.13)(, -1.62) line score is : -2.785, look ahead score is : 0.596
+(he -1.62)(was -4.17)(glad -1.01)(to -3.75)(have -2.81)(and -3.94)(to -0.26)(refuse -2.26)(. -4.17) line score is : -2.665, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ but it does n't come out of my purse 
+-------------------------score:  -3.420184389160325;  adjusted_score: -3.393105395094802----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ but he does not know in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(but -0.00)(he -2.86)(does -5.64)(not -4.78)(know -3.22)(in -4.29)(his -0.07)(glory -1.05)(. -5.83) line score is : -3.083, look ahead score is : 0.000
+-------------------------score:  -3.4311366671385866;  adjusted_score: -3.4040576730730634----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ but he does not want in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(but -0.00)(he -2.86)(does -5.64)(not -4.78)(want -3.22)(in -4.29)(his -0.07)(glory -3.59)(. -6.39) line score is : -3.428, look ahead score is : 0.000
+-------------------------score:  -3.533155297643195;  adjusted_score: -3.5060763035776716----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ but he does not have in their glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(but -0.00)(he -2.86)(does -5.64)(not -4.78)(have -3.22)(in -4.29)(their -0.07)(glory -3.23)(. -4.63) line score is : -3.193, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was told by his wife 
+ but it does n't come out of my purse 
+-------------------------score:  -3.4248257875442505;  adjusted_score: -3.3998880158364773----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ but he is now set in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(but -2.53)(he -8.22)(is -1.99)(now -1.86)(set -2.37)(in -2.87)(his -3.04)(glory -7.01)(. -3.85) line score is : -3.749, look ahead score is : 0.000
+-------------------------score:  -3.52752584795798;  adjusted_score: -3.502588076250207----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ but he is now set in its glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(but -2.53)(he -8.22)(is -1.99)(now -1.86)(set -2.37)(in -2.87)(its -3.04)(glory -7.01)(. -3.85) line score is : -3.749, look ahead score is : 0.000
+-------------------------score:  -3.548292342693575;  adjusted_score: -3.5233545709858016----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ but he is now set in their glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(but -2.53)(he -8.22)(is -1.99)(now -1.86)(set -2.37)(in -2.87)(their -3.04)(glory -7.01)(. -3.85) line score is : -3.749, look ahead score is : 0.000
+-------------------------score:  -3.5844609545123194;  adjusted_score: -3.559523182804546----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ but he is now set in her glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(but -2.53)(he -8.22)(is -1.99)(now -1.86)(set -2.37)(in -2.87)(her -3.04)(glory -7.01)(. -3.85) line score is : -3.749, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.434268380365064;  adjusted_score: -3.4093306092533373----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ and he fell down and died his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(and -1.35)(he -7.02)(fell -4.28)(down -1.40)(and -3.37)(died -3.69)(his -4.31)(glory -3.47)(. -1.33) line score is : -3.357, look ahead score is : 0.000
+-------------------------score:  -3.480431645147262;  adjusted_score: -3.455493874035535----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ and he fell down and drowned his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(and -1.35)(he -7.02)(fell -4.28)(down -1.40)(and -3.37)(drowned -3.69)(his -4.31)(glory -3.47)(. -3.76) line score is : -3.627, look ahead score is : 0.000
+-------------------------score:  -3.555389117810034;  adjusted_score: -3.530451346698307----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ and he fell down and broke its glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(and -1.35)(he -7.02)(fell -4.28)(down -1.40)(and -3.37)(broke -3.69)(its -4.31)(glory -3.47)(. -3.15) line score is : -3.559, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP VBZ THE NNS IN NN THAT PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ it 's the people in front that I jar 
+-------------------------score:  -3.437368073500693;  adjusted_score: -3.4139346495643257----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he tells the men in charge that he swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(tells -3.70)(the -0.30)(men -3.04)(in -5.74)(charge -2.58)(that -6.23)(he -3.23)(swore -3.14)(. -2.03) line score is : -3.141, look ahead score is : 0.000
+-------------------------score:  -3.486086585558951;  adjusted_score: -3.4626531616225837----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he tells the men in town that he swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(tells -3.70)(the -0.30)(men -3.04)(in -5.74)(town -2.58)(that -6.23)(he -3.23)(swore -5.04)(. -1.84) line score is : -3.312, look ahead score is : 0.000
+-------------------------score:  -3.4983658688142896;  adjusted_score: -3.4749324448779224----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he tells the men in camp that he swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(tells -3.70)(the -0.30)(men -3.04)(in -5.74)(camp -2.58)(that -6.23)(he -3.23)(swore -4.91)(. -1.89) line score is : -3.304, look ahead score is : 0.000
+-------------------------score:  -3.594999116845429;  adjusted_score: -3.571565692909062----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he tells the men in charge that they swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(tells -3.70)(the -0.30)(men -3.04)(in -5.74)(charge -2.58)(that -6.23)(they -3.23)(swore -3.14)(. -2.03) line score is : -3.141, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD A NN DT JJR THAN NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ was a tipple no stronger than toui 
+-------------------------score:  -3.4434361428022386;  adjusted_score: -3.4200027188658715----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ was a lesson no less than glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(was -1.44)(a -3.70)(lesson -0.30)(no -2.41)(less -3.27)(than -3.80)(glory -8.82)(. -1.57) line score is : -3.163, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ with his spanner and jack in the box 
+-------------------------score:  -3.4464355524509185;  adjusted_score: -3.4230021285145513----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ with his life and soul in the glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(with -1.44)(his -3.70)(life -0.30)(and -5.81)(soul -2.28)(in -2.70)(the -3.46)(glory -3.75)(. -3.11) line score is : -2.949, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD OUT TO VB NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ turned out to be plaster of paris 
+-------------------------score:  -3.476587101817131;  adjusted_score: -3.453153677880764----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ brought out to be something of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(brought -1.44)(out -3.70)(to -0.30)(be -3.59)(something -3.72)(of -4.56)(glory -4.77)(. -4.96) line score is : -3.378, look ahead score is : 0.000
+-------------------------score:  -3.562697046001752;  adjusted_score: -3.539263622065385----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ brought out to see something of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(brought -1.44)(out -3.70)(to -0.30)(see -3.59)(something -3.72)(of -4.56)(glory -4.89)(. -6.73) line score is : -3.614, look ahead score is : 0.000
+-------------------------score:  -3.639763113856316;  adjusted_score: -3.6163296899199486----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ brought out to be trouble of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(brought -1.44)(out -3.70)(to -0.30)(be -3.59)(trouble -3.72)(of -4.56)(glory -4.77)(. -7.15) line score is : -3.651, look ahead score is : 0.000
+-------------------------score:  -3.680342810352643;  adjusted_score: -3.656909386416276----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ brought out to be bitter of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(brought -1.44)(out -3.70)(to -0.30)(be -3.59)(bitter -3.72)(of -4.56)(glory -4.77)(. -6.47) line score is : -3.566, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.4863181277628867;  adjusted_score: -3.4628847038265196----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and he went down and died his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(he -3.70)(went -0.30)(down -2.99)(and -4.26)(died -3.57)(his -3.91)(glory -4.36)(. -2.13) line score is : -2.961, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.4888764671210586;  adjusted_score: -3.4654430431846914----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and left with a similar glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(left -3.70)(with -0.30)(a -2.99)(similar -4.57)(glory -3.41)(. -1.77) line score is : -2.596, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP RB VBD A NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ he carelessly stuck a verbena 
+-------------------------score:  -3.4907777830958366;  adjusted_score: -3.4673443591594695----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he never recovered a glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(never -3.70)(recovered -0.30)(a -3.04)(glory -4.99)(. -1.62) line score is : -2.514, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ and now a new teacher they seek 
+-------------------------score:  -3.518359332283338;  adjusted_score: -3.494925908346971----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and then a great victory he swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(then -3.70)(a -0.30)(great -2.99)(victory -2.98)(he -3.11)(swore -3.85)(. -3.55) line score is : -2.739, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.5527527096771423;  adjusted_score: -3.5266443917059127----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was joined by his kind , 
+ and they fought down and took their glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(joined -0.54)(by -3.33)(his -3.90)(kind -0.04)(, -1.69) line score is : -2.898, look ahead score is : 0.672
+(and -1.69)(they -7.77)(fought -3.26)(down -2.20)(and -2.59)(took -2.89)(their -7.26)(glory -4.61)(. -5.04) line score is : -4.145, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ with his spanner and jack in the box 
+-------------------------score:  -3.5545787276389698;  adjusted_score: -3.5274997335734466----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ with his help and aid in the glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(with -0.00)(his -2.86)(help -5.64)(and -4.15)(aid -1.85)(in -3.10)(the -3.22)(glory -3.16)(. -5.34) line score is : -3.259, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ I did n't think life was this way 
+-------------------------score:  -3.554621270594878;  adjusted_score: -3.531187846658511----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ he was then re kind led this glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(he -1.44)(was -3.70)(then -0.30)(re -3.04)(kind -3.09)(led -3.78)(this -6.25)(glory -4.79)(. -0.00) line score is : -2.930, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP WOULD VB TO A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he would go to a party 
+ which he loosed in the house 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6449404396116734;  adjusted_score: -3.620042197853327----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ he would go to a knight , 
+ which he did in the night , 
+ and it was then like death of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(he -1.41)(would -2.13)(go -4.34)(to -3.39)(a -2.55)(knight -3.51)(, -6.16) line score is : -3.355, look ahead score is : 0.563
+(which -6.16)(he -4.63)(did -5.04)(in -1.77)(the -2.28)(night -3.31)(, -1.60) line score is : -3.541, look ahead score is : 0.682
+(and -1.60)(it -4.80)(was -1.00)(then -0.64)(like -5.76)(death -0.84)(of -3.43)(glory -6.99)(. -5.22) line score is : -3.364, look ahead score is : 0.000
+-------------------------score:  -3.65683214366436;  adjusted_score: -3.6319339019060135----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ he would go to a knight , 
+ which he did in the night , 
+ and it was not like death of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(he -1.41)(would -2.13)(go -4.34)(to -3.39)(a -2.55)(knight -3.51)(, -6.16) line score is : -3.355, look ahead score is : 0.563
+(which -6.16)(he -4.63)(did -5.04)(in -1.77)(the -2.28)(night -3.31)(, -1.60) line score is : -3.541, look ahead score is : 0.682
+(and -1.60)(it -4.80)(was -1.00)(not -0.64)(like -5.76)(death -0.84)(of -3.24)(glory -6.04)(. -6.42) line score is : -3.372, look ahead score is : 0.000
+======================= template: 21 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.648263482316848;  adjusted_score: -3.6248300583804807----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and it was then like death of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(it -3.70)(was -0.30)(then -2.99)(like -5.88)(death -0.98)(of -2.74)(glory -8.36)(. -4.45) line score is : -3.426, look ahead score is : 0.000
+-------------------------score:  -3.6585104667371318;  adjusted_score: -3.6350770428007646----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and it was not like death of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(it -3.70)(was -0.30)(not -2.99)(like -5.88)(death -0.98)(of -3.21)(glory -7.08)(. -6.27) line score is : -3.537, look ahead score is : 0.000
+-------------------------score:  -3.6765510622532136;  adjusted_score: -3.6531176383168464----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and it was then like night of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(it -3.70)(was -0.30)(then -2.99)(like -5.88)(night -0.98)(of -2.74)(glory -8.36)(. -5.84) line score is : -3.580, look ahead score is : 0.000
+======================= template: 22 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ and returned on the previous night 
+-------------------------score:  -3.649752133825262;  adjusted_score: -3.6226731397597387----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ and put on the magical glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(and -0.00)(put -2.86)(on -5.64)(the -2.32)(magical -6.38)(glory -3.17)(. -2.32) line score is : -3.243, look ahead score is : 0.000
+======================= template: 23 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.668569650861525;  adjusted_score: -3.6424613328902953----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was joined by his kind , 
+ and they were soon like blood of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(joined -0.54)(by -3.33)(his -3.90)(kind -0.04)(, -1.69) line score is : -2.898, look ahead score is : 0.672
+(and -1.69)(they -7.77)(were -3.26)(soon -2.20)(like -2.59)(blood -2.84)(of -3.57)(glory -8.12)(. -5.66) line score is : -4.188, look ahead score is : 0.000
+======================= template: 24 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was pained by a tooth 
+ and now a new teacher they seek 
+-------------------------score:  -3.6859150528907776;  adjusted_score: -3.6609772817790507----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ and only a small fragment he swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(and -1.35)(only -7.02)(a -4.28)(small -1.40)(fragment -5.03)(he -2.89)(swore -3.94)(. -1.80) line score is : -3.463, look ahead score is : 0.000
+-------------------------score:  -3.7698532541592917;  adjusted_score: -3.744915483047565----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ and only a young boy himself swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(and -1.35)(only -7.02)(a -4.28)(young -1.40)(boy -5.03)(himself -2.89)(swore -3.95)(. -1.35) line score is : -3.408, look ahead score is : 0.000
+======================= template: 25 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ BUT PRP VBD AND PRP VBD , NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was told by his wife 
+ but she sighed and she said , canteloupe 
+-------------------------score:  -3.6894644844916558;  adjusted_score: -3.6645267127838825----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ but he was and he returned , glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(but -2.53)(he -8.22)(was -1.99)(and -1.86)(he -2.37)(returned -1.92)(, -8.18)(glory -5.08)(. -4.40) line score is : -4.062, look ahead score is : 0.000
+======================= template: 26 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was told by his wife 
+ and now a new teacher they seek 
+-------------------------score:  -3.7004536310831706;  adjusted_score: -3.6755158593753974----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ and only a small remnant he swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(and -2.53)(only -8.22)(a -1.99)(small -1.36)(remnant -4.68)(he -2.71)(swore -4.10)(. -2.28) line score is : -3.485, look ahead score is : 0.000
+-------------------------score:  -3.7500872731208803;  adjusted_score: -3.725149501413107----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ and only a young boy himself swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(and -2.53)(only -8.22)(a -1.99)(young -1.36)(boy -4.68)(himself -2.71)(swore -3.93)(. -1.37) line score is : -3.349, look ahead score is : 0.000
+-------------------------score:  -3.7876269976298014;  adjusted_score: -3.762689225922028----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by his kind , 
+ and only a young man himself swore . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(his -4.01)(kind -0.49)(, -2.53) line score is : -3.099, look ahead score is : 0.614
+(and -2.53)(only -8.22)(a -1.99)(young -1.36)(man -4.68)(himself -2.71)(swore -3.93)(. -2.38) line score is : -3.475, look ahead score is : 0.000
+======================= template: 27 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ A NN WITH A NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND VBD THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ a fish with a grin 
+ which he loosed in the house 
+ and finished the solo with honour 
+-------------------------score:  -3.707815191869078;  adjusted_score: -3.684381767932711----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and had the inscription with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(had -3.70)(the -0.30)(inscription -2.99)(with -4.67)(glory -3.61)(. -6.45) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.8182051397603134;  adjusted_score: -3.7947717158239462----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ a battle with a knight , 
+ which he lost in the fight , 
+ and was the occasion with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(a -1.41)(battle -4.41)(with -4.62)(a -2.76)(knight -1.90)(, -5.48) line score is : -3.429, look ahead score is : 0.577
+(which -5.48)(he -3.32)(lost -3.78)(in -2.68)(the -2.17)(fight -3.44)(, -1.44) line score is : -3.188, look ahead score is : 0.595
+(and -1.44)(was -3.70)(the -0.30)(occasion -2.99)(with -2.63)(glory -5.94)(. -4.37) line score is : -3.052, look ahead score is : 0.000
+======================= template: 28 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.71303250328187;  adjusted_score: -3.688094732170143----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was killed by a wind , 
+ and it was then like death of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(killed -0.54)(by -3.33)(a -4.01)(wind -0.49)(, -1.35) line score is : -2.930, look ahead score is : 0.614
+(and -1.35)(it -7.02)(was -4.28)(then -1.40)(like -4.66)(death -1.78)(of -2.74)(glory -9.00)(. -4.59) line score is : -4.091, look ahead score is : 0.000
+======================= template: 29 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ and to write it used acres of time 
+-------------------------score:  -3.8207606019141775;  adjusted_score: -3.7936816078486544----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ and to use it much times of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(and -0.00)(to -2.86)(use -5.64)(it -2.32)(much -4.96)(times -2.83)(of -5.57)(glory -7.78)(. -8.73) line score is : -4.522, look ahead score is : 0.000
+-------------------------score:  -3.888097916201999;  adjusted_score: -3.8610189221364757----------------------- 
+there was a warrior named theodore 
+ whose father possessed a sword in war . 
+ in his quest for mankind , 
+ he was able to find , 
+ and to use it much towards of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(father -3.06)(possessed -7.47)(a -1.21)(sword -2.42)(in -3.82)(war -6.64)(. -1.41) line score is : -3.862, look ahead score is : 0.000
+(in -1.41)(his -3.79)(quest -2.59)(for -2.59)(mankind -1.38)(, -9.72) line score is : -3.580, look ahead score is : 0.633
+(he -9.72)(was -1.07)(able -0.54)(to -3.33)(find -2.99)(, -0.00) line score is : -2.942, look ahead score is : 0.721
+(and -0.00)(to -2.86)(use -5.64)(it -2.32)(much -4.96)(towards -2.83)(of -5.57)(glory -7.78)(. -8.25) line score is : -4.469, look ahead score is : 0.000

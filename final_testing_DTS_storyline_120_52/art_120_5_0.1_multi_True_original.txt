@@ -1,0 +1,1782 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.162435009624019;  adjusted_score: -3.1364074714436674----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and say something to my face in school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(say -9.44)(something -2.98)(to -0.55)(my -1.44)(face -4.70)(in -2.79)(school -2.53)(. -0.81) line score is : -3.106, look ahead score is : 0.000
+-------------------------score:  -3.1639002832499417;  adjusted_score: -3.1378727450695902----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and say something to my wife in school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(say -9.44)(something -2.98)(to -0.55)(my -1.44)(wife -4.70)(in -2.79)(school -2.53)(. -1.54) line score is : -3.187, look ahead score is : 0.000
+-------------------------score:  -3.1873438520865007;  adjusted_score: -3.1613163139061493----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at his top , 
+ and say something to his wife in school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(his -3.07)(top -0.74)(, -3.42) line score is : -2.964, look ahead score is : 0.663
+(and -3.42)(say -9.49)(something -3.65)(to -0.53)(his -1.63)(wife -4.79)(in -2.58)(school -2.33)(. -1.36) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.1971710378473457;  adjusted_score: -3.1711434996669943----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and say something to his face in school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(say -9.44)(something -2.98)(to -0.55)(his -1.44)(face -4.70)(in -2.79)(school -3.71)(. -0.33) line score is : -3.183, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.2149338071996514;  adjusted_score: -3.1902533803338353----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and read aloud to his friend in store . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(read -5.17)(aloud -1.66)(to -1.25)(his -2.46)(friend -4.53)(in -1.24)(store -0.91)(. -5.32) line score is : -3.101, look ahead score is : 0.000
+-------------------------score:  -3.248532194079775;  adjusted_score: -3.223851767213959----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and read aloud to his group in store . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(read -5.17)(aloud -1.66)(to -1.25)(his -2.46)(group -4.53)(in -1.24)(store -0.91)(. -5.68) line score is : -3.140, look ahead score is : 0.000
+-------------------------score:  -3.335968629880385;  adjusted_score: -3.311288203014569----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and take home to his mother in war . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(take -5.17)(home -1.66)(to -1.25)(his -3.59)(mother -4.25)(in -4.29)(war -1.12)(. -1.83) line score is : -3.170, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ AND IN PRP$ NN , 
+ PRP POS A NN OF NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ and as for my hair 
+ she 's a person of note 
+ with his spanner and jack in the box 
+-------------------------score:  -3.21729620810478;  adjusted_score: -3.1953199454757475----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ with his beard and mustache in the fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(with -1.96)(his -9.46)(beard -2.00)(and -2.38)(mustache -1.57)(in -3.86)(the -1.24)(fall -2.71)(. -4.41) line score is : -3.288, look ahead score is : 0.000
+-------------------------score:  -3.2182486864828292;  adjusted_score: -3.196272423853797----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ with his hair and mustache in the fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(with -1.96)(his -9.46)(hair -2.00)(and -2.38)(mustache -1.57)(in -2.87)(the -3.00)(fall -3.10)(. -3.33) line score is : -3.296, look ahead score is : 0.000
+-------------------------score:  -3.2428122912683794;  adjusted_score: -3.220836028639347----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ with his wife and daughter in the school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(with -1.96)(his -9.46)(wife -2.00)(and -2.38)(daughter -1.57)(in -3.82)(the -1.31)(school -2.39)(. -2.42) line score is : -3.034, look ahead score is : 0.000
+-------------------------score:  -3.3799131877960695;  adjusted_score: -3.3579369251670372----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ with his hair and mustache in the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(with -1.96)(his -9.46)(hair -2.00)(and -2.38)(mustache -1.57)(in -2.87)(the -3.00)(cool -3.10)(. -3.33) line score is : -3.296, look ahead score is : 0.000
+-------------------------score:  -3.4098672251547537;  adjusted_score: -3.3878909625257214----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ with his beard and mustache in the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(with -1.96)(his -9.46)(beard -2.00)(and -2.38)(mustache -1.57)(in -3.86)(the -1.24)(cool -2.71)(. -4.41) line score is : -3.288, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.2591368556022644;  adjusted_score: -3.233109317421913----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and that is the picture of this school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(that -9.44)(is -2.98)(the -0.55)(picture -5.87)(of -3.47)(this -2.24)(school -3.58)(. -2.01) line score is : -3.652, look ahead score is : 0.000
+-------------------------score:  -3.3042881326241926;  adjusted_score: -3.278260594443841----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and that is the picture of this fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(that -9.44)(is -2.98)(the -0.55)(picture -5.87)(of -3.47)(this -2.24)(fall -3.58)(. -2.01) line score is : -3.652, look ahead score is : 0.000
+-------------------------score:  -3.3698830153002883;  adjusted_score: -3.343855477119937----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and that is the moment of this fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(that -9.44)(is -2.98)(the -0.55)(moment -5.87)(of -3.47)(this -2.24)(fall -3.57)(. -4.00) line score is : -3.871, look ahead score is : 0.000
+-------------------------score:  -3.461057242118951;  adjusted_score: -3.4350297039385995----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and that is the picture of this cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(that -9.44)(is -2.98)(the -0.55)(picture -5.87)(of -3.47)(this -2.24)(cool -3.58)(. -2.01) line score is : -3.652, look ahead score is : 0.000
+-------------------------score:  -3.496538854006565;  adjusted_score: -3.4705113158262137----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and that is the moment of this cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(that -9.44)(is -2.98)(the -0.55)(moment -5.87)(of -3.47)(this -2.24)(cool -3.57)(. -4.00) line score is : -3.871, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2630569850094617;  adjusted_score: -3.2360493202693763----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ and it was not like writing of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(and -0.04)(it -7.27)(was -2.68)(not -0.96)(like -3.77)(writing -0.64)(of -2.39)(sex -6.68)(. -4.49) line score is : -3.213, look ahead score is : 0.000
+-------------------------score:  -3.4755402599461376;  adjusted_score: -3.448532595206052----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ and it was almost like sketch of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(and -0.04)(it -7.27)(was -2.68)(almost -0.96)(like -3.77)(sketch -0.64)(of -3.92)(sex -4.60)(. -6.67) line score is : -3.395, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ VBD PRP$ NN NN PRP$ NNS AND VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ put his arm round her shoulders and kr 
+-------------------------score:  -3.3012740214665732;  adjusted_score: -3.275246483286222----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ put his arm round my shoulders and fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(put -2.73)(his -9.44)(arm -2.98)(round -4.65)(my -2.36)(shoulders -2.31)(and -4.76)(fall -0.85)(. -2.40) line score is : -3.608, look ahead score is : 0.000
+-------------------------score:  -3.474640150864919;  adjusted_score: -3.4486126126845678----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ put his arm round your shoulders and fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(put -2.73)(his -9.44)(arm -2.98)(round -4.65)(your -2.36)(shoulders -2.31)(and -4.76)(fall -6.42)(. -2.66) line score is : -4.255, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ BECAUSE PRP VBD VBG PRP$ NNS . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ because I was sniffing my toes 
+-------------------------score:  -3.320688381225669;  adjusted_score: -3.2936807164855835----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ because he was using their objects . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(because -0.04)(he -7.27)(was -2.68)(using -5.77)(their -1.75)(objects -1.83)(. -4.45) line score is : -3.400, look ahead score is : 0.000
+-------------------------score:  -3.3583582783051367;  adjusted_score: -3.3313506135650512----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ because he was using his objects . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(because -0.04)(he -7.27)(was -2.68)(using -5.77)(his -1.75)(objects -1.83)(. -4.45) line score is : -3.400, look ahead score is : 0.000
+-------------------------score:  -3.4426079706089303;  adjusted_score: -3.415600305868845----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ because he was writing his objects . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(because -0.04)(he -7.27)(was -2.68)(writing -5.77)(his -1.75)(objects -1.83)(. -3.74) line score is : -3.298, look ahead score is : 0.000
+-------------------------score:  -3.4723017784833377;  adjusted_score: -3.4452941137432522----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ because he was working his objects . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(because -0.04)(he -7.27)(was -2.68)(working -5.77)(his -1.75)(objects -1.83)(. -4.65) line score is : -3.428, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ and to write it used acres of time 
+-------------------------score:  -3.348536210724463;  adjusted_score: -3.3215285459843775----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ and to make them real subjects of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(and -0.04)(to -7.27)(make -2.68)(them -0.96)(real -4.28)(subjects -3.97)(of -1.66)(sex -4.35)(. -4.76) line score is : -3.331, look ahead score is : 0.000
+-------------------------score:  -3.391756055224687;  adjusted_score: -3.3647483904846016----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ and to make them real objects of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(and -0.04)(to -7.27)(make -2.68)(them -0.96)(real -4.28)(objects -3.97)(of -1.66)(sex -4.35)(. -5.81) line score is : -3.447, look ahead score is : 0.000
+-------------------------score:  -3.4027101173686485;  adjusted_score: -3.375702452628563----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ and to make them real people of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(and -0.04)(to -7.27)(make -2.68)(them -0.96)(real -4.28)(people -3.97)(of -1.66)(sex -4.35)(. -4.82) line score is : -3.337, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ BUT PRP$ NNS VBD DOWN TO PRP$ NNS . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ but her glasses slipped down to her toes 
+-------------------------score:  -3.35953704463318;  adjusted_score: -3.3325293798930944----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ but his books were down to their objects . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(but -0.04)(his -7.27)(books -2.68)(were -1.82)(down -3.17)(to -5.09)(their -1.28)(objects -9.75)(. -0.89) line score is : -3.553, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3610697967164658;  adjusted_score: -3.3350422585361144----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i know that my work is a school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(know -2.98)(that -0.55)(my -3.87)(work -5.00)(is -2.48)(a -4.28)(school -2.87)(. -1.75) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.3959711141446056;  adjusted_score: -3.369943575964254----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i know that my work is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(know -2.98)(that -0.55)(my -3.87)(work -5.00)(is -2.48)(a -4.28)(cool -2.87)(. -1.75) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.4027227847015156;  adjusted_score: -3.376695246521164----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i know that his wife is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(know -2.98)(that -0.55)(his -3.87)(wife -5.00)(is -2.48)(a -4.11)(cool -2.81)(. -3.23) line score is : -3.719, look ahead score is : 0.000
+-------------------------score:  -3.4104990030036255;  adjusted_score: -3.384471464823274----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i know that his wife is a school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(know -2.98)(that -0.55)(his -3.87)(wife -5.00)(is -2.48)(a -4.11)(school -2.81)(. -3.23) line score is : -3.719, look ahead score is : 0.000
+-------------------------score:  -3.4248395158964047;  adjusted_score: -3.3988119777160533----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i know that my work has a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(know -2.98)(that -0.55)(my -3.87)(work -5.00)(has -2.48)(a -4.28)(cool -2.87)(. -3.47) line score is : -3.766, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3635323625622373;  adjusted_score: -3.3390977231977566----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and i know that his wife is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(i -9.36)(know -1.90)(that -0.69)(his -1.71)(wife -5.28)(is -1.93)(a -4.26)(cool -1.93)(. -3.10) line score is : -3.305, look ahead score is : 0.000
+-------------------------score:  -3.3683109283447266;  adjusted_score: -3.343876288980246----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and i know that his name is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(i -9.36)(know -1.90)(that -0.69)(his -1.71)(name -5.28)(is -1.93)(a -4.26)(cool -2.82)(. -1.14) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -3.3835808941812227;  adjusted_score: -3.359146254816742----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and i know that his wife is a school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(i -9.36)(know -1.90)(that -0.69)(his -1.71)(wife -5.28)(is -1.93)(a -4.26)(school -1.93)(. -3.10) line score is : -3.305, look ahead score is : 0.000
+-------------------------score:  -3.4256141330256606;  adjusted_score: -3.40117949366118----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and i know that his wife has a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(i -9.36)(know -1.90)(that -0.69)(his -1.71)(wife -5.28)(has -1.93)(a -4.26)(cool -1.93)(. -4.81) line score is : -3.476, look ahead score is : 0.000
+-------------------------score:  -3.4321837389107905;  adjusted_score: -3.40774909954631----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and i think that his wife is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(i -9.36)(think -1.90)(that -0.69)(his -1.71)(wife -3.61)(is -2.90)(a -5.47)(cool -2.96)(. -3.86) line score is : -3.535, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ AND IN PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ and as for my hair 
+ she 's a person of note 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3865986205637455;  adjusted_score: -3.364622357934713----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ and you see that his face is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(and -1.96)(you -9.46)(see -2.00)(that -2.61)(his -3.52)(face -2.39)(is -2.07)(a -4.20)(cool -2.33)(. -0.44) line score is : -3.098, look ahead score is : 0.000
+-------------------------score:  -3.403662621974945;  adjusted_score: -3.3816863593459128----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ and i think that his work is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(and -1.96)(i -9.46)(think -2.00)(that -2.61)(his -2.72)(work -1.49)(is -1.35)(a -5.31)(cool -2.47)(. -1.40) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -3.4097612276673317;  adjusted_score: -3.3877849650382994----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ and i think that his work has a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(and -1.96)(i -9.46)(think -2.00)(that -2.61)(his -2.72)(work -1.49)(has -1.35)(a -5.31)(cool -2.47)(. -2.63) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -3.4188625402748585;  adjusted_score: -3.396886277645826----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ and you see that his face is a school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(and -1.96)(you -9.46)(see -2.00)(that -2.61)(his -3.52)(face -2.39)(is -2.07)(a -4.20)(school -2.33)(. -0.44) line score is : -3.098, look ahead score is : 0.000
+-------------------------score:  -3.421241130679846;  adjusted_score: -3.3992648680508135----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ and in our photo , 
+ he 's a man of show , 
+ and i think that his art is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(and -1.09)(in -4.61)(our -4.34)(photo -4.19)(, -6.10) line score is : -4.066, look ahead score is : 0.500
+(he -6.10)('s -1.75)(a -2.17)(man -1.34)(of -3.85)(show -4.32)(, -1.96) line score is : -3.070, look ahead score is : 0.599
+(and -1.96)(i -9.46)(think -2.00)(that -2.61)(his -2.72)(art -1.49)(is -1.35)(a -5.31)(cool -3.30)(. -1.33) line score is : -3.152, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ he was told by his wife 
+ and I hope that your day is a blast 
+-------------------------score:  -3.4025938655390884;  adjusted_score: -3.376254148031726----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and i know that his wife is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(i -8.00)(know -2.67)(that -1.41)(his -1.78)(wife -5.52)(is -2.03)(a -4.05)(cool -2.12)(. -2.77) line score is : -3.127, look ahead score is : 0.000
+-------------------------score:  -3.411806563536326;  adjusted_score: -3.3854668460289634----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and i know that his name is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(i -8.00)(know -2.67)(that -1.41)(his -1.78)(name -5.52)(is -2.03)(a -4.05)(cool -2.86)(. -0.99) line score is : -3.023, look ahead score is : 0.000
+-------------------------score:  -3.422342134244514;  adjusted_score: -3.3960024167371516----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and i know that his wife is a school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(i -8.00)(know -2.67)(that -1.41)(his -1.78)(wife -5.52)(is -2.03)(a -4.05)(school -2.12)(. -2.77) line score is : -3.127, look ahead score is : 0.000
+-------------------------score:  -3.4646125851255474;  adjusted_score: -3.438272867618185----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and i know that his wife has a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(i -8.00)(know -2.67)(that -1.41)(his -1.78)(wife -5.52)(has -2.03)(a -4.05)(cool -2.12)(. -4.01) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.473748069820982;  adjusted_score: -3.4474083523136194----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and i think that his wife is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(i -8.00)(think -2.67)(that -1.41)(his -1.78)(wife -3.63)(is -3.08)(a -5.17)(cool -3.02)(. -3.76) line score is : -3.345, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ RB , PRP WILL VB PRP NN , PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ well , I will do it tomorrow , I mean 
+-------------------------score:  -3.4225153291926667;  adjusted_score: -3.398449748824625----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he said to the show , 
+ well , we will do it tonight , you fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(said -1.86)(to -1.71)(the -2.11)(show -3.32)(, -4.34) line score is : -3.714, look ahead score is : 0.621
+(well -4.34)(, -7.38)(we -2.38)(will -5.92)(do -0.55)(it -2.45)(tonight -5.08)(, -2.36)(you -1.54)(fall -4.54)(. -1.41) line score is : -3.451, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4403714501496516;  adjusted_score: -3.4143439119693----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was always like hell of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(always -0.55)(like -3.87)(hell -3.24)(of -3.39)(school -3.01)(. -9.06) line score is : -4.251, look ahead score is : 0.000
+-------------------------score:  -3.494990749792619;  adjusted_score: -3.4689632116122677----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was always like man of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(always -0.55)(like -3.87)(man -3.24)(of -3.39)(cool -3.01)(. -7.70) line score is : -4.100, look ahead score is : 0.000
+-------------------------score:  -3.508517187653166;  adjusted_score: -3.4824896494728144----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and he was always like man of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(he -9.44)(was -2.98)(always -0.55)(like -3.62)(man -3.38)(of -3.47)(cool -2.82)(. -8.57) line score is : -4.172, look ahead score is : 0.000
+-------------------------score:  -3.523338384700544;  adjusted_score: -3.4973108465201928----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was always like man of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(always -0.55)(like -3.87)(man -3.24)(of -3.39)(school -3.01)(. -7.70) line score is : -4.100, look ahead score is : 0.000
+-------------------------score:  -3.530623719547734;  adjusted_score: -3.5045961813673827----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and he was always like man of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(he -9.44)(was -2.98)(always -0.55)(like -3.62)(man -3.38)(of -3.47)(school -2.82)(. -8.57) line score is : -4.172, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ WHEN PRP VBD THERE VBD CD JJ NNS . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ when he saw there were six little chips 
+-------------------------score:  -3.446301040519029;  adjusted_score: -3.4192933757789437----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ when he wrote there were two main objects . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(when -0.04)(he -7.27)(wrote -2.68)(there -6.84)(were -2.03)(two -2.16)(main -8.36)(objects -1.68)(. -5.38) line score is : -4.050, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.4558874820085133;  adjusted_score: -3.429859943828162----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and the man on the shelf of the school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(the -9.44)(man -2.98)(on -0.55)(the -5.26)(shelf -4.70)(of -3.83)(the -0.19)(school -3.42)(. -6.58) line score is : -3.967, look ahead score is : 0.000
+-------------------------score:  -3.4580142033450745;  adjusted_score: -3.431986665164723----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and the guy on the shelf of the school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(the -9.44)(guy -2.98)(on -0.55)(the -5.26)(shelf -3.82)(of -4.33)(the -0.20)(school -3.34)(. -6.56) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.4622182385886417;  adjusted_score: -3.4361907004082903----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and the man on the shelf of the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(the -9.44)(man -2.98)(on -0.55)(the -5.26)(shelf -4.70)(of -3.83)(the -0.19)(cool -3.42)(. -6.58) line score is : -3.967, look ahead score is : 0.000
+-------------------------score:  -3.467586372705067;  adjusted_score: -3.4415588345247157----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and the guy on the shelf of the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(the -9.44)(guy -2.98)(on -0.55)(the -5.26)(shelf -3.82)(of -4.33)(the -0.20)(cool -3.34)(. -6.56) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.497514192672337;  adjusted_score: -3.4714866544919856----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at his top , 
+ and the guy on the shelf of the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(his -3.07)(top -0.74)(, -3.42) line score is : -2.964, look ahead score is : 0.663
+(and -3.42)(the -9.49)(guy -3.65)(on -0.53)(the -4.80)(shelf -3.93)(of -4.29)(the -0.19)(cool -3.23)(. -6.58) line score is : -4.010, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.4572314461092315;  adjusted_score: -3.430223781369146----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ and the work on the soul of the sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(and -0.04)(the -7.27)(work -2.68)(on -0.96)(the -2.93)(soul -5.02)(of -4.70)(the -2.11)(sex -5.45)(. -3.87) line score is : -3.505, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4775339495390654;  adjusted_score: -3.4530993101745846----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was not like someone of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(not -0.69)(like -0.98)(someone -1.05)(of -5.47)(cool -6.04)(. -5.32) line score is : -3.746, look ahead score is : 0.000
+-------------------------score:  -3.54683948867023;  adjusted_score: -3.522404849305749----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was here like today of fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(here -0.69)(like -0.98)(today -1.05)(of -5.25)(fall -6.45)(. -5.83) line score is : -3.822, look ahead score is : 0.000
+-------------------------score:  -3.5558810364454985;  adjusted_score: -3.5314463970810177----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was not like someone of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(not -0.69)(like -0.98)(someone -1.05)(of -5.47)(school -6.04)(. -5.32) line score is : -3.746, look ahead score is : 0.000
+-------------------------score:  -3.5591879431158304;  adjusted_score: -3.5347533037513497----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was here like crazy of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(here -0.69)(like -0.98)(crazy -1.05)(of -5.25)(cool -6.45)(. -4.96) line score is : -3.725, look ahead score is : 0.000
+-------------------------score:  -3.562637524679303;  adjusted_score: -3.5382028853148224----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was here like crazy of fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(here -0.69)(like -0.98)(crazy -1.05)(of -5.25)(fall -6.45)(. -4.96) line score is : -3.725, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.4856000896543264;  adjusted_score: -3.4611654502898457----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was down and got his baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(down -0.69)(and -0.98)(got -1.05)(his -7.19)(baseball -4.36)(. -5.33) line score is : -3.750, look ahead score is : 0.000
+-------------------------score:  -3.486135294660926;  adjusted_score: -3.461700655296445----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was down and had his baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(down -0.69)(and -0.98)(had -1.05)(his -7.19)(baseball -4.36)(. -4.95) line score is : -3.707, look ahead score is : 0.000
+-------------------------score:  -3.501333339139819;  adjusted_score: -3.4768986997753384----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was down and got my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(down -0.69)(and -0.98)(got -1.05)(my -7.19)(baseball -4.36)(. -5.33) line score is : -3.750, look ahead score is : 0.000
+-------------------------score:  -3.53244261816144;  adjusted_score: -3.508007978796959----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and i was down and had my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(i -9.36)(was -1.90)(down -0.69)(and -1.71)(had -1.64)(my -6.61)(baseball -4.42)(. -4.57) line score is : -3.755, look ahead score is : 0.000
+-------------------------score:  -3.5489922370761633;  adjusted_score: -3.5245575977116825----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ and he was down and had my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(and -2.89)(he -9.36)(was -1.90)(down -0.69)(and -0.98)(had -1.05)(my -7.19)(baseball -4.36)(. -4.95) line score is : -3.707, look ahead score is : 0.000
+======================= template: 21 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ he was told by his wife 
+ and I hope that your day is a blast 
+-------------------------score:  -3.4919455219060183;  adjusted_score: -3.4676041724532842----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ and he heard that my wife is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(and -2.28)(he -5.03)(heard -2.14)(that -1.47)(my -0.67)(wife -5.65)(is -2.65)(a -4.38)(sex -3.27)(. -4.73) line score is : -3.228, look ahead score is : 0.000
+-------------------------score:  -3.5142858270555735;  adjusted_score: -3.4899444776028394----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ and he heard that my son is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(and -2.28)(he -5.03)(heard -2.14)(that -1.47)(my -0.67)(son -5.65)(is -2.65)(a -4.38)(sex -3.25)(. -4.68) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.5277249608188868;  adjusted_score: -3.5033836113661527----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ and he heard that my work is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(and -2.28)(he -5.03)(heard -2.14)(that -1.47)(my -0.67)(work -5.65)(is -2.65)(a -4.38)(sex -3.71)(. -4.38) line score is : -3.237, look ahead score is : 0.000
+-------------------------score:  -3.540178382769227;  adjusted_score: -3.515837033316493----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ and he heard that our work is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(and -2.28)(he -5.03)(heard -2.14)(that -1.47)(our -0.67)(work -5.65)(is -2.65)(a -3.58)(sex -3.99)(. -4.42) line score is : -3.189, look ahead score is : 0.000
+-------------------------score:  -3.548917116597295;  adjusted_score: -3.524575767144561----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ and he heard that my friend is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(and -2.28)(he -5.03)(heard -2.14)(that -1.47)(my -0.67)(friend -5.65)(is -2.65)(a -4.38)(sex -3.40)(. -5.32) line score is : -3.300, look ahead score is : 0.000
+======================= template: 22 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and returned on the previous night 
+-------------------------score:  -3.5055975510228063;  adjusted_score: -3.479570012842455----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and put on the actual baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(put -9.44)(on -2.98)(the -0.55)(actual -5.34)(baseball -3.72)(. -2.23) line score is : -3.853, look ahead score is : 0.000
+-------------------------score:  -3.5078431079464574;  adjusted_score: -3.481815569766106----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and put on the favorite baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(put -9.44)(on -2.98)(the -0.55)(favorite -5.34)(baseball -3.72)(. -2.23) line score is : -3.853, look ahead score is : 0.000
+-------------------------score:  -3.5459931108259384;  adjusted_score: -3.519965572645587----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and put on the beautiful baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(put -9.44)(on -2.98)(the -0.55)(beautiful -5.34)(baseball -3.72)(. -2.23) line score is : -3.853, look ahead score is : 0.000
+-------------------------score:  -3.5747746479126716;  adjusted_score: -3.54874710973232----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and put on the usual baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(put -9.44)(on -2.98)(the -0.55)(usual -5.34)(baseball -3.72)(. -2.23) line score is : -3.853, look ahead score is : 0.000
+======================= template: 23 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.5096620805561543;  adjusted_score: -3.486734000295401----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ and he was to the shop , 
+ and he heard that my wife is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(and -8.11)(he -3.17)(was -1.32)(to -1.60)(the -1.78)(shop -6.77)(, -5.23) line score is : -3.999, look ahead score is : 0.564
+(and -5.23)(he -7.22)(heard -2.13)(that -0.54)(my -0.88)(wife -6.05)(is -2.62)(a -4.32)(sex -3.13)(. -4.71) line score is : -3.683, look ahead score is : 0.000
+-------------------------score:  -3.526227943599224;  adjusted_score: -3.5032998633384707----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ i was on the workshop , 
+ and he was to the top , 
+ and i heard that his wife is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(i -1.76)(was -2.24)(on -2.30)(the -5.15)(workshop -1.16)(, -7.39) line score is : -3.332, look ahead score is : 0.583
+(and -7.39)(he -3.27)(was -1.26)(to -1.83)(the -1.61)(top -6.70)(, -4.77) line score is : -3.831, look ahead score is : 0.564
+(and -4.77)(i -5.91)(heard -3.83)(that -1.03)(his -1.45)(wife -4.66)(is -3.55)(a -3.90)(sex -2.17)(. -4.72) line score is : -3.601, look ahead score is : 0.000
+-------------------------score:  -3.5376919619739056;  adjusted_score: -3.514763881713152----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ and he was to the shop , 
+ and he heard that my son is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(and -8.11)(he -3.17)(was -1.32)(to -1.60)(the -1.78)(shop -6.77)(, -5.23) line score is : -3.999, look ahead score is : 0.564
+(and -5.23)(he -7.22)(heard -2.13)(that -0.54)(my -0.88)(son -6.05)(is -2.62)(a -4.32)(sex -3.37)(. -4.64) line score is : -3.699, look ahead score is : 0.000
+-------------------------score:  -3.5594702549278736;  adjusted_score: -3.53654217466712----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ and he was to the shop , 
+ and he heard that his wife is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(and -8.11)(he -3.17)(was -1.32)(to -1.60)(the -1.78)(shop -6.77)(, -5.23) line score is : -3.999, look ahead score is : 0.564
+(and -5.23)(he -7.22)(heard -2.13)(that -0.54)(his -0.88)(wife -6.05)(is -2.62)(a -5.14)(sex -2.50)(. -5.25) line score is : -3.754, look ahead score is : 0.000
+-------------------------score:  -3.5712178237736225;  adjusted_score: -3.548289743512869----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ and he was to the shop , 
+ and he heard that my friend is a sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(and -8.11)(he -3.17)(was -1.32)(to -1.60)(the -1.78)(shop -6.77)(, -5.23) line score is : -3.999, look ahead score is : 0.564
+(and -5.23)(he -7.22)(heard -2.13)(that -0.54)(my -0.88)(friend -6.05)(is -2.62)(a -4.32)(sex -3.48)(. -5.15) line score is : -3.761, look ahead score is : 0.000
+======================= template: 24 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.5098287589622266;  adjusted_score: -3.485394119597746----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ so he was up and come on the fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(so -2.89)(he -9.36)(was -1.90)(up -2.19)(and -1.77)(come -1.58)(on -5.54)(the -4.04)(fall -7.76)(. -3.77) line score is : -4.080, look ahead score is : 0.000
+-------------------------score:  -3.5610589692086885;  adjusted_score: -3.5366243298442077----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ so he was up and do on the fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(so -2.89)(he -9.36)(was -1.90)(up -2.19)(and -1.77)(do -1.58)(on -5.54)(the -4.04)(fall -7.28)(. -7.66) line score is : -4.422, look ahead score is : 0.000
+-------------------------score:  -3.590396837754683;  adjusted_score: -3.5659621983902023----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ so he was up and do on the school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(so -2.89)(he -9.36)(was -1.90)(up -2.19)(and -1.77)(do -1.58)(on -5.54)(the -4.04)(school -7.28)(. -7.66) line score is : -4.422, look ahead score is : 0.000
+-------------------------score:  -3.6396278179053105;  adjusted_score: -3.6151931785408298----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ so he was up and do on the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(so -2.89)(he -9.36)(was -1.90)(up -2.19)(and -1.77)(do -1.58)(on -5.54)(the -4.04)(cool -7.28)(. -7.66) line score is : -4.422, look ahead score is : 0.000
+-------------------------score:  -3.6856538599187676;  adjusted_score: -3.661219220554287----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ and he was to the show , 
+ so i said up and let on the cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(and -8.41)(he -4.25)(was -1.86)(to -1.71)(the -1.65)(show -6.66)(, -2.89) line score is : -3.918, look ahead score is : 0.639
+(so -2.89)(i -9.36)(said -1.90)(up -2.19)(and -1.13)(let -3.06)(on -8.73)(the -3.04)(cool -4.74)(. -8.91) line score is : -4.596, look ahead score is : 0.000
+======================= template: 25 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.5134112455628137;  adjusted_score: -3.4873837073824623----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was down and bought his baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(down -0.55)(and -3.87)(bought -3.24)(his -6.32)(baseball -4.72)(. -4.58) line score is : -4.269, look ahead score is : 0.000
+-------------------------score:  -3.53323941339146;  adjusted_score: -3.5072118752111088----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was down and bought my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(down -0.55)(and -3.87)(bought -3.24)(my -6.32)(baseball -4.72)(. -4.58) line score is : -4.269, look ahead score is : 0.000
+-------------------------score:  -3.566413191231814;  adjusted_score: -3.540385653051463----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was down and had my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(down -0.55)(and -3.87)(had -3.24)(my -6.32)(baseball -4.72)(. -4.82) line score is : -4.296, look ahead score is : 0.000
+-------------------------score:  -3.6080075592705696;  adjusted_score: -3.581980021090218----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i was down and had his baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(was -2.98)(down -0.55)(and -3.87)(had -3.24)(his -6.32)(baseball -4.72)(. -4.82) line score is : -4.296, look ahead score is : 0.000
+======================= template: 26 ============================  
+robert 
+ WHO VBD ON A NN OF NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ WHICH VBD THAT NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who slipped on a peel of bananas 
+ her thanks were so cold 
+ he was ready to faint 
+ which refreshed that person of ewell 
+-------------------------score:  -3.5221255181822926;  adjusted_score: -3.495117853442207----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ which meant that philosophy of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(which -0.04)(meant -7.27)(that -2.68)(philosophy -4.33)(of -3.40)(sex -0.60)(. -8.58) line score is : -3.844, look ahead score is : 0.000
+-------------------------score:  -3.696588483738846;  adjusted_score: -3.6695808189987607----------------------- 
+there was a neat artist named rex 
+ who drew on a number of subjects . 
+ his works were so abstract , 
+ they were hard to extract , 
+ which meant that information of sex . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(drew -3.39)(on -4.72)(a -2.35)(number -4.28)(of -0.00)(subjects -4.88)(. -2.06) line score is : -3.078, look ahead score is : 0.000
+(his -2.06)(works -2.95)(were -4.04)(so -2.19)(abstract -4.54)(, -5.03) line score is : -3.468, look ahead score is : 0.693
+(they -5.03)(were -1.81)(hard -3.10)(to -1.51)(extract -4.57)(, -0.04) line score is : -2.678, look ahead score is : 0.658
+(which -0.04)(meant -7.27)(that -2.68)(information -4.33)(of -3.40)(sex -0.60)(. -8.02) line score is : -3.763, look ahead score is : 0.000
+======================= template: 27 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he would go to a party 
+ take a pull at his hair 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.525714301701748;  adjusted_score: -3.5010338748359318----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and it was not like writing of war . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(it -5.17)(was -1.66)(not -1.25)(like -5.85)(writing -2.49)(of -4.52)(war -4.88)(. -6.27) line score is : -4.161, look ahead score is : 0.000
+-------------------------score:  -3.562934606364279;  adjusted_score: -3.538254179498463----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and it was not like something of store . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(it -5.17)(was -1.66)(not -1.25)(like -5.85)(something -2.49)(of -4.52)(store -4.88)(. -5.37) line score is : -4.060, look ahead score is : 0.000
+-------------------------score:  -3.5629838253512527;  adjusted_score: -3.5383033984854366----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and it was not like something of war . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(it -5.17)(was -1.66)(not -1.25)(like -5.85)(something -2.49)(of -4.52)(war -4.88)(. -5.37) line score is : -4.060, look ahead score is : 0.000
+-------------------------score:  -3.5876177603548225;  adjusted_score: -3.5629373334890064----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and it was not like buying of store . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(it -5.17)(was -1.66)(not -1.25)(like -5.85)(buying -2.49)(of -4.52)(store -4.88)(. -5.23) line score is : -4.045, look ahead score is : 0.000
+-------------------------score:  -3.6028903018344534;  adjusted_score: -3.5782098749686373----------------------- 
+there was a teacher named salvatore 
+ who taught all his class in a story . 
+ he would go to a shop , 
+ buy a book at its top , 
+ and he was not like someone of war . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(all -5.09)(his -3.83)(class -2.80)(in -1.90)(a -2.44)(story -7.51)(. -3.26) line score is : -3.402, look ahead score is : 0.000
+(he -3.26)(would -2.09)(go -3.78)(to -3.61)(a -2.04)(shop -3.25)(, -6.36) line score is : -3.485, look ahead score is : 0.630
+(buy -6.36)(a -2.41)(book -1.65)(at -0.88)(its -2.22)(top -5.30)(, -5.37) line score is : -3.455, look ahead score is : 0.604
+(and -5.37)(he -5.17)(was -1.66)(not -1.25)(like -4.29)(someone -4.14)(of -3.91)(war -6.82)(. -5.36) line score is : -4.219, look ahead score is : 0.000
+======================= template: 28 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.52758870460093;  adjusted_score: -3.5012489870935677----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was not like someone of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(not -1.41)(like -0.96)(someone -1.39)(of -5.78)(cool -5.66)(. -4.97) line score is : -3.529, look ahead score is : 0.000
+-------------------------score:  -3.5957972574979067;  adjusted_score: -3.569457539990544----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was here like today of fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(here -1.41)(like -0.96)(today -1.39)(of -4.94)(fall -6.15)(. -5.97) line score is : -3.601, look ahead score is : 0.000
+-------------------------score:  -3.6061229053884745;  adjusted_score: -3.579783187881112----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was here like crazy of fall . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(here -1.41)(like -0.96)(crazy -1.39)(of -4.94)(fall -6.15)(. -5.33) line score is : -3.530, look ahead score is : 0.000
+-------------------------score:  -3.6132041048258543;  adjusted_score: -3.5868643873184918----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was not like someone of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(not -1.41)(like -0.96)(someone -1.39)(of -5.78)(school -5.66)(. -4.97) line score is : -3.529, look ahead score is : 0.000
+-------------------------score:  -3.62610318697989;  adjusted_score: -3.5997634694725273----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was here like crazy of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(here -1.41)(like -0.96)(crazy -1.39)(of -4.94)(cool -6.15)(. -5.33) line score is : -3.530, look ahead score is : 0.000
+======================= template: 29 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.530600097249536;  adjusted_score: -3.5045725590691847----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i have been to the point with school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(have -2.98)(been -0.55)(to -3.87)(the -5.71)(point -4.12)(with -3.24)(school -2.89)(. -4.94) line score is : -4.045, look ahead score is : 0.000
+-------------------------score:  -3.5594323645619785;  adjusted_score: -3.533404826381627----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i have been to the door with cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(have -2.98)(been -0.55)(to -3.87)(the -5.71)(door -4.12)(with -3.24)(cool -2.89)(. -5.31) line score is : -4.083, look ahead score is : 0.000
+-------------------------score:  -3.5884210344623115;  adjusted_score: -3.56239349628196----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i have been to the place with cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(have -2.98)(been -0.55)(to -3.87)(the -5.71)(place -4.12)(with -3.24)(cool -2.89)(. -4.91) line score is : -4.043, look ahead score is : 0.000
+-------------------------score:  -3.63778035605655;  adjusted_score: -3.6117528178761984----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ and i have been to the point with cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(and -2.73)(i -9.44)(have -2.98)(been -0.55)(to -3.87)(the -5.71)(point -4.12)(with -3.24)(cool -2.89)(. -4.94) line score is : -4.045, look ahead score is : 0.000
+======================= template: 30 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.5332468915730715;  adjusted_score: -3.506162554398179----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had come by my show , 
+ and he was down and had his baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(come -3.39)(by -2.56)(my -5.20)(show -3.46)(, -3.52) line score is : -4.399, look ahead score is : 0.771
+(and -3.52)(he -6.67)(was -2.97)(down -1.21)(and -0.88)(had -1.75)(his -6.95)(baseball -4.03)(. -3.73) line score is : -3.523, look ahead score is : 0.000
+-------------------------score:  -3.5515382196754217;  adjusted_score: -3.525198502168059----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was down and had his baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(down -1.41)(and -0.96)(had -1.39)(his -7.02)(baseball -4.46)(. -4.14) line score is : -3.441, look ahead score is : 0.000
+-------------------------score:  -3.5555719304829836;  adjusted_score: -3.5284875933080913----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had come by my show , 
+ and he was down and had my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(come -3.39)(by -2.56)(my -5.20)(show -3.46)(, -3.52) line score is : -4.399, look ahead score is : 0.771
+(and -3.52)(he -6.67)(was -2.97)(down -1.21)(and -0.88)(had -1.75)(my -6.95)(baseball -4.03)(. -3.73) line score is : -3.523, look ahead score is : 0.000
+-------------------------score:  -3.5684300269931555;  adjusted_score: -3.542090309485793----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and he was down and had my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(he -8.00)(was -2.67)(down -1.41)(and -0.96)(had -1.39)(my -7.02)(baseball -4.46)(. -4.14) line score is : -3.441, look ahead score is : 0.000
+-------------------------score:  -3.589037660509348;  adjusted_score: -3.5626979430019854----------------------- 
+there was a neat artist named paul 
+ who made a great painting on my wall . 
+ he was on the photo , 
+ he had been by my show , 
+ and i was down and had my baseball . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(my -3.17)(wall -2.79)(. -1.04) line score is : -2.929, look ahead score is : 0.000
+(he -1.04)(was -2.21)(on -1.95)(the -4.85)(photo -1.40)(, -8.41) line score is : -3.311, look ahead score is : 0.583
+(he -8.41)(had -4.25)(been -3.39)(by -2.56)(my -3.33)(show -5.89)(, -0.93) line score is : -4.108, look ahead score is : 0.734
+(and -0.93)(i -8.00)(was -2.67)(down -1.41)(and -1.78)(had -1.92)(my -6.65)(baseball -4.35)(. -4.09) line score is : -3.533, look ahead score is : 0.000
+======================= template: 31 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.579204042752584;  adjusted_score: -3.5548359565933545----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ and he said to the top , 
+ and he was not like someone of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(and -5.81)(he -2.92)(said -2.19)(to -2.10)(the -4.19)(top -2.06)(, -1.54) line score is : -2.974, look ahead score is : 0.580
+(and -1.54)(he -8.80)(was -3.86)(not -4.83)(like -1.22)(someone -3.05)(of -4.87)(cool -5.22)(. -5.42) line score is : -4.313, look ahead score is : 0.000
+-------------------------score:  -3.605026212605563;  adjusted_score: -3.5806581264463335----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ and he said to the top , 
+ and he was not like someone of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(and -5.81)(he -2.92)(said -2.19)(to -2.10)(the -4.19)(top -2.06)(, -1.54) line score is : -2.974, look ahead score is : 0.580
+(and -1.54)(he -8.80)(was -3.86)(not -4.83)(like -1.22)(someone -3.05)(of -4.87)(school -5.22)(. -5.42) line score is : -4.313, look ahead score is : 0.000
+-------------------------score:  -3.6492816137545034;  adjusted_score: -3.624913527595274----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ and he said to the top , 
+ and i was always like look of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(and -5.81)(he -2.92)(said -2.19)(to -2.10)(the -4.19)(top -2.06)(, -1.54) line score is : -2.974, look ahead score is : 0.580
+(and -1.54)(i -8.80)(was -3.86)(always -4.83)(like -2.43)(look -2.83)(of -4.43)(cool -2.67)(. -7.59) line score is : -4.331, look ahead score is : 0.000
+-------------------------score:  -3.650176181937709;  adjusted_score: -3.6258080957784795----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ and he said to the top , 
+ and i was always like man of cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(and -5.81)(he -2.92)(said -2.19)(to -2.10)(the -4.19)(top -2.06)(, -1.54) line score is : -2.974, look ahead score is : 0.580
+(and -1.54)(i -8.80)(was -3.86)(always -4.83)(like -2.43)(man -2.83)(of -4.43)(cool -2.67)(. -7.63) line score is : -4.335, look ahead score is : 0.000
+-------------------------score:  -3.6519926208438296;  adjusted_score: -3.6276245346846----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ and he said to the top , 
+ and i was always like right of school . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(and -5.81)(he -2.92)(said -2.19)(to -2.10)(the -4.19)(top -2.06)(, -1.54) line score is : -2.974, look ahead score is : 0.580
+(and -1.54)(i -8.80)(was -3.86)(always -4.83)(like -2.43)(right -2.83)(of -4.43)(school -2.67)(. -8.34) line score is : -4.414, look ahead score is : 0.000
+======================= template: 32 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ RB VB UP ALL JJ AND JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ then wake up all snappy and snarly 
+-------------------------score:  -3.6053667832165956;  adjusted_score: -3.5793392450362442----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ then go up all different and cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(then -2.73)(go -9.44)(up -2.98)(all -3.00)(different -2.33)(and -4.39)(cool -7.32)(. -6.57) line score is : -4.843, look ahead score is : 0.000
+-------------------------score:  -3.6553979013115168;  adjusted_score: -3.6293703631311653----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ then go up all different and small . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(then -2.73)(go -9.44)(up -2.98)(all -3.00)(different -2.33)(and -4.39)(small -7.32)(. -6.57) line score is : -4.843, look ahead score is : 0.000
+-------------------------score:  -3.700148670002818;  adjusted_score: -3.6741211318224667----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ then buy up all different and cool . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(then -2.73)(buy -9.44)(up -2.98)(all -3.00)(different -3.04)(and -6.36)(cool -1.94)(. -8.45) line score is : -4.743, look ahead score is : 0.000
+-------------------------score:  -3.731453625485301;  adjusted_score: -3.7054260873049496----------------------- 
+there was a neat artist named paul 
+ who made a great painting on his wall . 
+ he would come to a shop , 
+ take a look at my top , 
+ then buy up all different and small . 
+------------------------- score breakdown ------------------------ 
+(who -2.94)(made -3.15)(a -1.70)(great -3.45)(painting -3.76)(on -4.37)(his -3.07)(wall -3.15)(. -1.09) line score is : -2.964, look ahead score is : 0.000
+(he -1.09)(would -2.08)(come -4.47)(to -2.97)(a -1.90)(shop -5.45)(, -5.81) line score is : -3.396, look ahead score is : 0.638
+(take -5.81)(a -2.92)(look -3.56)(at -1.23)(my -3.07)(top -0.74)(, -2.73) line score is : -2.865, look ahead score is : 0.663
+(then -2.73)(buy -9.44)(up -2.98)(all -3.00)(different -3.04)(and -6.36)(small -1.94)(. -8.45) line score is : -4.743, look ahead score is : 0.000
+======================= template: 33 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ he was told by his wife 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.622219145298004;  adjusted_score: -3.59787779584527----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ so he was up and know on the sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(so -2.28)(he -5.03)(was -2.14)(up -4.13)(and -1.08)(know -1.73)(on -6.03)(the -2.26)(sex -7.87)(. -6.82) line score is : -3.938, look ahead score is : 0.000
+======================= template: 34 ============================  
+robert 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ it said on the door 
+ he was told by his wife 
+ I did n't think life was this way 
+-------------------------score:  -3.7524758212028013;  adjusted_score: -3.7281344717500673----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ he had even come home had this sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(he -2.28)(had -5.03)(even -2.14)(come -0.84)(home -1.19)(had -5.10)(this -3.51)(sex -5.29)(. -9.61) line score is : -3.887, look ahead score is : 0.000
+-------------------------score:  -3.7892379587696445;  adjusted_score: -3.7648966093169105----------------------- 
+there was a teacher named rex 
+ who taught on one of our subjects . 
+ he was on the workshop , 
+ he had been by our shop , 
+ he had even come home used this sex . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(taught -2.19)(on -5.88)(one -5.43)(of -0.29)(our -2.18)(subjects -6.27)(. -1.76) line score is : -3.197, look ahead score is : 0.000
+(he -1.76)(was -1.41)(on -1.61)(the -4.98)(workshop -1.29)(, -8.11) line score is : -3.191, look ahead score is : 0.583
+(he -8.11)(had -3.17)(been -3.19)(by -2.66)(our -2.69)(shop -6.86)(, -2.28) line score is : -4.136, look ahead score is : 0.634
+(he -2.28)(had -5.03)(even -2.14)(come -0.84)(home -1.19)(used -5.10)(this -3.51)(sex -5.29)(. -9.42) line score is : -3.867, look ahead score is : 0.000

@@ -1,0 +1,99 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN PRP$ NNS AND PRP$ NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in my legs and my bum 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.2542122807996026;  adjusted_score: -3.2325978177683106----------------------- 
+there was a fierce soldier named celeste 
+ who led a small army on his quest . 
+ the story of his role , 
+ in his eyes and his soul , 
+ was not a political protest . 
+------------------------- score breakdown ------------------------ 
+(who -1.72)(led -4.52)(a -1.63)(small -3.10)(army -2.71)(on -4.15)(his -2.11)(quest -2.48)(. -3.30) line score is : -2.857, look ahead score is : 0.000
+(the -3.30)(story -2.54)(of -3.26)(his -2.43)(role -2.71)(, -7.22) line score is : -3.577, look ahead score is : 0.581
+(in -7.22)(his -4.07)(eyes -4.01)(and -3.53)(his -3.05)(soul -4.03)(, -2.95) line score is : -4.122, look ahead score is : 0.500
+(was -2.95)(not -4.65)(a -0.15)(political -1.88)(protest -3.40)(. -3.06) line score is : -2.679, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.2599547845976695;  adjusted_score: -3.2365276429908616----------------------- 
+there was a fierce soldier named celeste 
+ who led a small army on his quest . 
+ the story of his role , 
+ his journey and his goal , 
+ was also a powerful protest . 
+------------------------- score breakdown ------------------------ 
+(who -1.72)(led -4.52)(a -1.63)(small -3.10)(army -2.71)(on -4.15)(his -2.11)(quest -2.48)(. -3.30) line score is : -2.857, look ahead score is : 0.000
+(the -3.30)(story -2.54)(of -3.26)(his -2.43)(role -2.71)(, -7.22) line score is : -3.577, look ahead score is : 0.581
+(his -7.22)(journey -4.07)(and -2.69)(his -3.55)(goal -1.32)(, -0.58) line score is : -3.240, look ahead score is : 0.591
+(was -0.58)(also -6.44)(a -2.22)(powerful -2.82)(protest -4.61)(. -2.96) line score is : -3.272, look ahead score is : 0.000
+-------------------------score:  -3.3506656118801663;  adjusted_score: -3.3272384702733584----------------------- 
+there was a fierce soldier named celeste 
+ who led a small army on his quest . 
+ the story of his role , 
+ his journey and his goal , 
+ was also a popular protest . 
+------------------------- score breakdown ------------------------ 
+(who -1.72)(led -4.52)(a -1.63)(small -3.10)(army -2.71)(on -4.15)(his -2.11)(quest -2.48)(. -3.30) line score is : -2.857, look ahead score is : 0.000
+(the -3.30)(story -2.54)(of -3.26)(his -2.43)(role -2.71)(, -7.22) line score is : -3.577, look ahead score is : 0.581
+(his -7.22)(journey -4.07)(and -2.69)(his -3.55)(goal -1.32)(, -0.58) line score is : -3.240, look ahead score is : 0.591
+(was -0.58)(also -6.44)(a -2.22)(popular -2.82)(protest -4.61)(. -2.96) line score is : -3.272, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ and to write it used acres of time 
+-------------------------score:  -3.4068152827601277;  adjusted_score: -3.3833881411533198----------------------- 
+there was a fierce soldier named celeste 
+ who led a small army on his quest . 
+ the story of his role , 
+ his journey and his goal , 
+ and to see him live lives of protest . 
+------------------------- score breakdown ------------------------ 
+(who -1.72)(led -4.52)(a -1.63)(small -3.10)(army -2.71)(on -4.15)(his -2.11)(quest -2.48)(. -3.30) line score is : -2.857, look ahead score is : 0.000
+(the -3.30)(story -2.54)(of -3.26)(his -2.43)(role -2.71)(, -7.22) line score is : -3.577, look ahead score is : 0.581
+(his -7.22)(journey -4.07)(and -2.69)(his -3.55)(goal -1.32)(, -0.58) line score is : -3.240, look ahead score is : 0.591
+(and -0.58)(to -6.44)(see -2.22)(him -2.94)(live -5.53)(lives -3.66)(of -1.98)(protest -3.59)(. -7.28) line score is : -3.802, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ THE JJ NN VBD DT NN TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ the old dame said no word to rebuchre 
+-------------------------score:  -3.5116556921312885;  adjusted_score: -3.4882285505244806----------------------- 
+there was a fierce soldier named celeste 
+ who led a small army on his quest . 
+ the story of his role , 
+ his journey and his goal , 
+ the first part was no doubt to protest . 
+------------------------- score breakdown ------------------------ 
+(who -1.72)(led -4.52)(a -1.63)(small -3.10)(army -2.71)(on -4.15)(his -2.11)(quest -2.48)(. -3.30) line score is : -2.857, look ahead score is : 0.000
+(the -3.30)(story -2.54)(of -3.26)(his -2.43)(role -2.71)(, -7.22) line score is : -3.577, look ahead score is : 0.581
+(his -7.22)(journey -4.07)(and -2.69)(his -3.55)(goal -1.32)(, -0.58) line score is : -3.240, look ahead score is : 0.591
+(the -0.58)(first -6.44)(part -2.22)(was -3.41)(no -5.55)(doubt -2.61)(to -4.01)(protest -7.07)(. -1.75) line score is : -3.737, look ahead score is : 0.000

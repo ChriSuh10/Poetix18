@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.868958298806791;  adjusted_score: -3.8449991516217037----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(other -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -3.925041083936338;  adjusted_score: -3.901081936751251----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the second story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(second -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -3.9565989397190235;  adjusted_score: -3.9326397925339363----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the other glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(other -3.80)(glory -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -3.959094893049311;  adjusted_score: -3.9351357458642235----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and went on the usual story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(went -6.66)(on -0.78)(the -1.33)(usual -4.65)(story -1.00)(. -4.55) line score is : -3.342, look ahead score is : 0.000
+-------------------------score:  -3.9777401155895658;  adjusted_score: -3.9537809684044785----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different flow , 
+ and ended on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(flow -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -8.83)(on -0.89)(the -1.33)(other -3.84)(story -4.59)(. -1.74) line score is : -3.666, look ahead score is : 0.000
+-------------------------score:  -4.002476749596773;  adjusted_score: -3.9790890366114957----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one guy , 
+ in a different eye , 
+ and ended on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(guy -7.43)(, -9.06) line score is : -4.796, look ahead score is : 0.561
+(in -9.06)(a -1.94)(different -6.87)(eye -2.01)(, -4.56) line score is : -4.888, look ahead score is : 0.609
+(and -4.56)(ended -8.35)(on -1.44)(the -1.26)(other -4.08)(story -6.41)(. -1.87) line score is : -3.996, look ahead score is : 0.000
+-------------------------score:  -4.009489752628185;  adjusted_score: -3.9855306054430977----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and stayed on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(stayed -6.66)(on -0.78)(the -1.33)(opposite -6.12)(story -2.29)(. -1.80) line score is : -3.344, look ahead score is : 0.000
+-------------------------score:  -4.012352594622859;  adjusted_score: -3.988393447437772----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the middle story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(middle -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.012620159873256;  adjusted_score: -3.9886610126881687----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and went on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(went -6.66)(on -0.78)(the -1.33)(opposite -4.65)(story -1.00)(. -4.55) line score is : -3.342, look ahead score is : 0.000
+-------------------------score:  -4.013222765039514;  adjusted_score: -3.989263617854427----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the final story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(final -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.016459504763286;  adjusted_score: -3.9925003575781983----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different flow , 
+ and ended on the other glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(flow -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -8.83)(on -0.89)(the -1.33)(other -3.84)(glory -4.59)(. -1.74) line score is : -3.666, look ahead score is : 0.000
+-------------------------score:  -4.018091113479049;  adjusted_score: -3.994131966293962----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and stopped on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(stopped -6.66)(on -0.78)(the -1.33)(opposite -4.67)(story -5.08)(. -0.99) line score is : -3.420, look ahead score is : 0.000
+-------------------------score:  -4.025564613165678;  adjusted_score: -4.0016054659805915----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the second glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(second -3.80)(glory -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.030509743425581;  adjusted_score: -4.006550596240494----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and stopped on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(stopped -6.66)(on -0.78)(the -1.33)(previous -4.67)(story -5.08)(. -0.99) line score is : -3.420, look ahead score is : 0.000
+-------------------------score:  -4.037520993638922;  adjusted_score: -4.013561846453835----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and left on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(left -6.66)(on -0.78)(the -1.33)(opposite -6.09)(story -5.11)(. -1.70) line score is : -3.728, look ahead score is : 0.000
+-------------------------score:  -4.042132995746754;  adjusted_score: -4.018173848561667----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the correct story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(correct -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.044609476018835;  adjusted_score: -4.0206503288337485----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the seventh story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(seventh -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.044731974601746;  adjusted_score: -4.020772827416659----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the upper story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(upper -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.050154246665813;  adjusted_score: -4.026195099480726----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and went on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(went -6.66)(on -0.78)(the -1.33)(previous -4.65)(story -1.00)(. -4.55) line score is : -3.342, look ahead score is : 0.000
+-------------------------score:  -4.050644132826063;  adjusted_score: -4.026684985640976----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and fell on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(fell -6.66)(on -0.78)(the -1.33)(opposite -6.10)(story -2.44)(. -1.41) line score is : -3.308, look ahead score is : 0.000
+-------------------------score:  -4.051592968128346;  adjusted_score: -4.027633820943259----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and stayed on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(stayed -6.66)(on -0.78)(the -1.33)(previous -6.12)(story -2.29)(. -1.80) line score is : -3.344, look ahead score is : 0.000
+-------------------------score:  -4.05169419447581;  adjusted_score: -4.027735047290723----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and was on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(was -6.66)(on -0.78)(the -1.33)(opposite -3.81)(story -4.88)(. -1.25) line score is : -3.306, look ahead score is : 0.000
+-------------------------score:  -4.052567429012722;  adjusted_score: -4.028608281827635----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the final glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(final -3.80)(glory -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.0556397018609225;  adjusted_score: -4.031680554675836----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and went on the contrary story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(went -6.66)(on -0.78)(the -1.33)(contrary -4.65)(story -1.00)(. -4.55) line score is : -3.342, look ahead score is : 0.000
+-------------------------score:  -4.057569622993469;  adjusted_score: -4.033610475808382----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the middle glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(middle -3.80)(glory -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.058419651455349;  adjusted_score: -4.034460504270262----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the perfect glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(perfect -3.80)(glory -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.068248598663895;  adjusted_score: -4.044289451478808----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the upper glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(upper -3.80)(glory -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.0816135185736195;  adjusted_score: -4.057654371388533----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and ended on the exact story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(ended -6.66)(on -0.78)(the -1.33)(exact -3.80)(story -4.55)(. -1.21) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -4.095623047263534;  adjusted_score: -4.072235334278257----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one guy , 
+ in a different eye , 
+ and ended on the other glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(guy -7.43)(, -9.06) line score is : -4.796, look ahead score is : 0.561
+(in -9.06)(a -1.94)(different -6.87)(eye -2.01)(, -4.56) line score is : -4.888, look ahead score is : 0.609
+(and -4.56)(ended -8.35)(on -1.44)(the -1.26)(other -4.08)(glory -6.41)(. -1.87) line score is : -3.996, look ahead score is : 0.000
+-------------------------score:  -4.1126637193891735;  adjusted_score: -4.088704572204087----------------------- 
+there was a fierce girl named theodore 
+ whose hair got much longer than before . 
+ she started out one blow , 
+ in a different row , 
+ and stayed on the opposite glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.08)(hair -3.34)(got -5.83)(much -5.74)(longer -0.75)(than -1.61)(before -5.30)(. -1.44) line score is : -3.636, look ahead score is : 0.000
+(she -1.44)(started -1.67)(out -4.90)(one -4.27)(blow -7.43)(, -8.40) line score is : -4.685, look ahead score is : 0.561
+(in -8.40)(a -2.85)(different -6.72)(row -2.04)(, -4.43) line score is : -4.887, look ahead score is : 0.637
+(and -4.43)(stayed -6.66)(on -0.78)(the -1.33)(opposite -6.12)(glory -2.29)(. -1.80) line score is : -3.344, look ahead score is : 0.000

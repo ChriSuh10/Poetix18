@@ -1,0 +1,55 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN , VB PRP VB , 
+ VB A NN AT PRP$ NN , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the fly , let us flee 
+ take a pull at his hair 
+ but I guess that you probably gnu 
+-------------------------score:  -3.2141785040272004;  adjusted_score: -3.182581043816877----------------------- 
+there was a honest judge named salvatore 
+ who did a great job on her story . 
+ read the book , let me know , 
+ have a look at her show , 
+ but i hope that you also ignore . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(did -3.55)(a -2.94)(great -2.05)(job -0.06)(on -2.81)(her -2.72)(story -6.00)(. -1.51) line score is : -2.654, look ahead score is : 0.000
+(read -1.51)(the -6.71)(book -1.89)(, -2.69)(let -2.44)(me -5.41)(know -1.64)(, -0.12) line score is : -2.800, look ahead score is : 0.836
+(have -0.12)(a -5.00)(look -5.74)(at -1.07)(her -2.94)(show -1.20)(, -1.83) line score is : -2.557, look ahead score is : 0.744
+(but -1.83)(i -6.45)(hope -1.29)(that -5.11)(you -2.17)(also -3.71)(ignore -2.65)(. -1.16) line score is : -3.047, look ahead score is : 0.000
+-------------------------score:  -3.224183308017073;  adjusted_score: -3.19258584780675----------------------- 
+there was a honest judge named salvatore 
+ who did a great job on her story . 
+ read the book , let me know , 
+ have a look at your show , 
+ but i hope that you also ignore . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(did -3.55)(a -2.94)(great -2.05)(job -0.06)(on -2.81)(her -2.72)(story -6.00)(. -1.51) line score is : -2.654, look ahead score is : 0.000
+(read -1.51)(the -6.71)(book -1.89)(, -2.69)(let -2.44)(me -5.41)(know -1.64)(, -0.12) line score is : -2.800, look ahead score is : 0.836
+(have -0.12)(a -5.00)(look -5.74)(at -1.07)(your -2.94)(show -1.20)(, -3.23) line score is : -2.757, look ahead score is : 0.744
+(but -3.23)(i -6.38)(hope -1.43)(that -4.57)(you -2.17)(also -3.20)(ignore -2.76)(. -0.83) line score is : -3.070, look ahead score is : 0.000
+-------------------------score:  -3.2411673910012753;  adjusted_score: -3.209569930790952----------------------- 
+there was a honest judge named salvatore 
+ who did a great job on her story . 
+ read the book , let us know , 
+ have a look at her show , 
+ but i hope that you also ignore . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(did -3.55)(a -2.94)(great -2.05)(job -0.06)(on -2.81)(her -2.72)(story -6.00)(. -1.51) line score is : -2.654, look ahead score is : 0.000
+(read -1.51)(the -6.71)(book -1.89)(, -2.69)(let -2.44)(us -5.41)(know -2.38)(, -0.19) line score is : -2.902, look ahead score is : 0.836
+(have -0.19)(a -4.79)(look -5.95)(at -1.30)(her -3.12)(show -0.80)(, -1.57) line score is : -2.531, look ahead score is : 0.744
+(but -1.57)(i -6.48)(hope -1.27)(that -5.47)(you -3.14)(also -3.37)(ignore -2.38)(. -1.23) line score is : -3.115, look ahead score is : 0.000
+-------------------------score:  -3.272700769996101;  adjusted_score: -3.2411033097857778----------------------- 
+there was a honest judge named salvatore 
+ who did a great job on her story . 
+ read the book , let me know , 
+ have a look at my show , 
+ but i hope that you also ignore . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(did -3.55)(a -2.94)(great -2.05)(job -0.06)(on -2.81)(her -2.72)(story -6.00)(. -1.51) line score is : -2.654, look ahead score is : 0.000
+(read -1.51)(the -6.71)(book -1.89)(, -2.69)(let -2.44)(me -5.41)(know -1.64)(, -0.12) line score is : -2.800, look ahead score is : 0.836
+(have -0.12)(a -5.00)(look -5.74)(at -1.07)(my -2.94)(show -1.20)(, -2.51) line score is : -2.654, look ahead score is : 0.744
+(but -2.51)(i -6.94)(hope -1.60)(that -5.07)(you -2.06)(also -3.37)(ignore -2.95)(. -0.87) line score is : -3.171, look ahead score is : 0.000

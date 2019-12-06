@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.964098686352372;  adjusted_score: -2.9393928880244493----------------------- 
+there was a loud cleaner named pete 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were met by our guide , 
+ and we went down and saw our fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.37)(ran -4.16)(a -2.53)(small -3.32)(shop -2.37)(on -2.53)(our -4.91)(street -0.84)(. -1.21) line score is : -2.582, look ahead score is : 0.000
+(the -1.21)(day -3.54)(of -4.94)(our -2.83)(ride -2.08)(, -5.76) line score is : -3.391, look ahead score is : 0.593
+(we -5.76)(were -1.29)(met -1.70)(by -2.08)(our -4.45)(guide -0.37)(, -3.82) line score is : -2.780, look ahead score is : 0.642
+(and -3.82)(we -3.79)(went -1.00)(down -3.55)(and -1.82)(saw -3.53)(our -3.01)(fleet -4.32)(. -3.10) line score is : -3.105, look ahead score is : 0.000

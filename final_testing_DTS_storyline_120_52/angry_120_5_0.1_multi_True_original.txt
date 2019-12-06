@@ -1,0 +1,605 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ her thanks were so cold 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.179272270491046;  adjusted_score: -3.153546070372385----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were ready to get , 
+ they were prepared to fight and to quit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(ready -1.37)(to -2.37)(get -5.92)(, -0.08) line score is : -2.976, look ahead score is : 0.696
+(they -0.08)(were -4.00)(prepared -7.72)(to -3.43)(fight -0.55)(and -4.52)(to -0.26)(quit -2.23)(. -3.10) line score is : -2.876, look ahead score is : 0.000
+-------------------------score:  -3.2808622501550184;  adjusted_score: -3.2551360500363575----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were ready to get , 
+ they were prepared to go and to quit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(ready -1.37)(to -2.37)(get -5.92)(, -0.08) line score is : -2.976, look ahead score is : 0.696
+(they -0.08)(were -4.00)(prepared -7.72)(to -3.43)(go -0.55)(and -4.52)(to -0.26)(quit -2.75)(. -3.06) line score is : -2.929, look ahead score is : 0.000
+-------------------------score:  -3.318313013642065;  adjusted_score: -3.292586813523404----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were ready to get , 
+ they were prepared to fight and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(ready -1.37)(to -2.37)(get -5.92)(, -0.08) line score is : -2.976, look ahead score is : 0.696
+(they -0.08)(were -4.00)(prepared -7.72)(to -3.43)(fight -0.55)(and -4.52)(to -0.26)(sit -2.23)(. -3.10) line score is : -2.876, look ahead score is : 0.000
+-------------------------score:  -3.3459062033122584;  adjusted_score: -3.3201800031935975----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were ready to get , 
+ they were prepared to go and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(ready -1.37)(to -2.37)(get -5.92)(, -0.08) line score is : -2.976, look ahead score is : 0.696
+(they -0.08)(were -4.00)(prepared -7.72)(to -3.43)(go -0.55)(and -4.52)(to -0.26)(sit -2.75)(. -3.06) line score is : -2.929, look ahead score is : 0.000
+-------------------------score:  -3.370657669019795;  adjusted_score: -3.3449314689011342----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were ready to get , 
+ they were willing to go and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(ready -1.37)(to -2.37)(get -5.92)(, -0.08) line score is : -2.976, look ahead score is : 0.696
+(they -0.08)(were -4.00)(willing -7.72)(to -3.43)(go -0.55)(and -4.89)(to -0.02)(sit -2.81)(. -3.35) line score is : -2.983, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ they came back from the ride 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.213878566568548;  adjusted_score: -3.1879688637161796----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ so i got up and put on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(so -0.50)(i -6.23)(got -3.01)(up -4.04)(and -0.52)(put -3.66)(on -1.40)(the -0.54)(spit -5.08)(. -1.15) line score is : -2.613, look ahead score is : 0.000
+-------------------------score:  -3.3780544635021323;  adjusted_score: -3.352144760649764----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ so i got up and drove on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(so -0.50)(i -6.23)(got -3.01)(up -4.04)(and -0.52)(drove -3.66)(on -1.40)(the -0.54)(spit -6.37)(. -4.95) line score is : -3.123, look ahead score is : 0.000
+-------------------------score:  -3.4370151035713428;  adjusted_score: -3.4111054007189745----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ so i got up and let on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(so -0.50)(i -6.23)(got -3.01)(up -4.04)(and -0.52)(let -3.66)(on -1.40)(the -0.54)(spit -6.36)(. -8.04) line score is : -3.431, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ BUT PRP$ NNS VBD DOWN TO PRP$ NNS . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ her thanks were so cold 
+ he was ready to faint 
+ but her glasses slipped down to her toes 
+-------------------------score:  -3.271129284302394;  adjusted_score: -3.246285888577501----------------------- 
+there was a rude woman named lise 
+ who hated on one of our guys . 
+ our guys were so upset , 
+ they went outside to get , 
+ but our guys were down to their eyes . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(hated -6.24)(on -5.74)(one -6.60)(of -0.26)(our -2.40)(guys -2.83)(. -1.99) line score is : -3.417, look ahead score is : 0.000
+(our -1.99)(guys -5.39)(were -2.21)(so -1.67)(upset -4.51)(, -3.29) line score is : -3.175, look ahead score is : 0.590
+(they -3.29)(went -2.44)(outside -0.75)(to -2.87)(get -3.75)(, -1.48) line score is : -2.430, look ahead score is : 0.652
+(but -1.48)(our -2.42)(guys -7.71)(were -4.98)(down -3.99)(to -0.71)(their -1.25)(eyes -5.90)(. -3.50) line score is : -3.549, look ahead score is : 0.000
+-------------------------score:  -3.283566814661026;  adjusted_score: -3.2587234189361336----------------------- 
+there was a rude woman named lise 
+ who hated on one of our guys . 
+ our guys were so upset , 
+ they went outside to get , 
+ but our guys were down to our eyes . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(hated -6.24)(on -5.74)(one -6.60)(of -0.26)(our -2.40)(guys -2.83)(. -1.99) line score is : -3.417, look ahead score is : 0.000
+(our -1.99)(guys -5.39)(were -2.21)(so -1.67)(upset -4.51)(, -3.29) line score is : -3.175, look ahead score is : 0.590
+(they -3.29)(went -2.44)(outside -0.75)(to -2.87)(get -3.75)(, -1.48) line score is : -2.430, look ahead score is : 0.652
+(but -1.48)(our -2.42)(guys -7.71)(were -4.98)(down -3.99)(to -0.71)(our -1.25)(eyes -5.90)(. -3.50) line score is : -3.549, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP$ NNS VBD SO JJ , 
+ WHICH PRP VBD IN THE NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ her thanks were so cold 
+ which he loosed in the house 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.322691088373011;  adjusted_score: -3.29898359333927----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ our names were so rude , 
+ which i was in the mood , 
+ so i went up and put on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(our -1.71)(names -5.61)(were -3.66)(so -0.71)(rude -4.35)(, -6.49) line score is : -3.755, look ahead score is : 0.590
+(which -6.49)(i -2.11)(was -5.56)(in -2.29)(the -2.70)(mood -5.60)(, -2.73) line score is : -3.927, look ahead score is : 0.595
+(so -2.73)(i -1.45)(went -6.02)(up -2.02)(and -0.46)(put -3.68)(on -3.06)(the -1.82)(spit -4.76)(. -2.87) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.5365434686342874;  adjusted_score: -3.5128359736005463----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ our names were so rude , 
+ which i was in the mood , 
+ so i went up and let on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(our -1.71)(names -5.61)(were -3.66)(so -0.71)(rude -4.35)(, -6.49) line score is : -3.755, look ahead score is : 0.590
+(which -6.49)(i -2.11)(was -5.56)(in -2.29)(the -2.70)(mood -5.60)(, -2.73) line score is : -3.927, look ahead score is : 0.595
+(so -2.73)(i -1.45)(went -6.02)(up -2.02)(and -0.46)(let -3.68)(on -3.06)(the -1.82)(spit -6.24)(. -8.83) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -3.5654713674025102;  adjusted_score: -3.541763872368769----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ our names were so rude , 
+ which i was in the mood , 
+ so i went up and say on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(our -1.71)(names -5.61)(were -3.66)(so -0.71)(rude -4.35)(, -6.49) line score is : -3.755, look ahead score is : 0.590
+(which -6.49)(i -2.11)(was -5.56)(in -2.29)(the -2.70)(mood -5.60)(, -2.73) line score is : -3.927, look ahead score is : 0.595
+(so -2.73)(i -1.45)(went -6.02)(up -2.02)(and -0.46)(say -3.68)(on -3.06)(the -1.82)(spit -7.12)(. -9.42) line score is : -3.779, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.323625129647553;  adjusted_score: -3.2977154267951847----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ i was happy to see and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(i -0.50)(was -6.23)(happy -3.01)(to -2.03)(see -0.46)(and -3.89)(to -1.13)(sit -2.51)(. -5.92) line score is : -2.853, look ahead score is : 0.000
+-------------------------score:  -3.3729735920205712;  adjusted_score: -3.347063889168203----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ i was happy to be and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(i -0.50)(was -6.23)(happy -3.01)(to -2.03)(be -0.46)(and -3.89)(to -1.13)(sit -1.26)(. -8.27) line score is : -2.975, look ahead score is : 0.000
+-------------------------score:  -3.394471366889775;  adjusted_score: -3.3685616640374065----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ i was happy to get and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(i -0.50)(was -6.23)(happy -3.01)(to -2.03)(get -0.46)(and -3.89)(to -1.13)(sit -3.32)(. -7.71) line score is : -3.143, look ahead score is : 0.000
+-------------------------score:  -3.401192051358521;  adjusted_score: -3.3752823485061527----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ i was happy to do and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(i -0.50)(was -6.23)(happy -3.01)(to -2.03)(do -0.46)(and -3.89)(to -1.13)(sit -3.74)(. -6.67) line score is : -3.072, look ahead score is : 0.000
+-------------------------score:  -3.4175118254497647;  adjusted_score: -3.3916021225973965----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ i was happy to have and to sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(i -0.50)(was -6.23)(happy -3.01)(to -2.03)(have -0.46)(and -3.89)(to -1.13)(sit -2.97)(. -8.36) line score is : -3.175, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ they came back from the ride 
+ he was ready to faint 
+ but I guess that you probably gnu 
+-------------------------score:  -3.3643866123691684;  adjusted_score: -3.3384769095168----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ but i think that i actually quit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(but -0.50)(i -6.23)(think -3.01)(that -2.09)(i -1.10)(actually -5.27)(quit -2.99)(. -2.59) line score is : -2.974, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ BECAUSE PRP VBD VBG PRP$ NNS . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ her thanks were so cold 
+ he was ready to faint 
+ because I was sniffing my toes 
+-------------------------score:  -3.3656957681689943;  adjusted_score: -3.3408523724441017----------------------- 
+there was a rude woman named lise 
+ who hated on one of our guys . 
+ our guys were so upset , 
+ they went outside to get , 
+ because it was raining our eyes . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(hated -6.24)(on -5.74)(one -6.60)(of -0.26)(our -2.40)(guys -2.83)(. -1.99) line score is : -3.417, look ahead score is : 0.000
+(our -1.99)(guys -5.39)(were -2.21)(so -1.67)(upset -4.51)(, -3.29) line score is : -3.175, look ahead score is : 0.590
+(they -3.29)(went -2.44)(outside -0.75)(to -2.87)(get -3.75)(, -1.48) line score is : -2.430, look ahead score is : 0.652
+(because -1.48)(it -2.42)(was -7.71)(raining -5.67)(our -2.72)(eyes -0.55)(. -3.23) line score is : -3.397, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP$ NNS VBD SO JJ , 
+ ALL THE NNS IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ her thanks were so cold 
+ all the birds in the air 
+ and I hope that your day is a blast 
+-------------------------score:  -3.4030439149249685;  adjusted_score: -3.381240090023388----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ our names were so rude , 
+ all the girls in the mood , 
+ and i think that my name is a spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(our -1.71)(names -5.61)(were -3.66)(so -0.71)(rude -4.35)(, -6.49) line score is : -3.755, look ahead score is : 0.590
+(all -6.49)(the -2.11)(girls -6.08)(in -2.42)(the -2.25)(mood -2.59)(, -0.51) line score is : -3.207, look ahead score is : 0.500
+(and -0.51)(i -7.98)(think -3.46)(that -1.87)(my -2.03)(name -3.93)(is -2.84)(a -5.38)(spit -2.65)(. -2.60) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.4370529651641846;  adjusted_score: -3.415249140262604----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ our names were so rude , 
+ all the guys in the mood , 
+ and i think that my name is a spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(our -1.71)(names -5.61)(were -3.66)(so -0.71)(rude -4.35)(, -6.49) line score is : -3.755, look ahead score is : 0.590
+(all -6.49)(the -2.11)(guys -6.08)(in -2.42)(the -3.49)(mood -2.53)(, -0.49) line score is : -3.372, look ahead score is : 0.500
+(and -0.49)(i -7.58)(think -3.38)(that -1.95)(my -2.13)(name -3.72)(is -2.81)(a -5.81)(spit -2.53)(. -2.68) line score is : -3.308, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ BUT WHEN PRP VBP VBN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ but when I have dough 
+ she 's a person of note 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.42018454924762;  adjusted_score: -3.394598021214602----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and we are used to the pain with spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(we -8.71)(are -1.92)(used -2.02)(to -1.59)(the -4.03)(pain -5.44)(with -0.00)(spit -3.96)(. -2.93) line score is : -3.213, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND RB THERE VBD JJ JJ IN PRP . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ they came back from the ride 
+ he was ready to faint 
+ and right there became awful sick in 'em 
+-------------------------score:  -3.4422611836344004;  adjusted_score: -3.416351480782032----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ and then there were ten hundred in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(and -0.50)(then -6.23)(there -3.01)(were -2.28)(ten -2.35)(hundred -4.00)(in -2.30)(it -5.45)(. -5.52) line score is : -3.515, look ahead score is : 0.000
+-------------------------score:  -3.4783408008515835;  adjusted_score: -3.452431097999215----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ and then there were ten other in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(and -0.50)(then -6.23)(there -3.01)(were -2.28)(ten -2.35)(other -4.00)(in -2.30)(it -5.45)(. -3.08) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.491613568738103;  adjusted_score: -3.4657038658857346----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ and now there were ten other in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(and -0.50)(now -6.23)(there -3.01)(were -2.28)(ten -4.15)(other -3.85)(in -1.60)(it -5.16)(. -3.83) line score is : -3.401, look ahead score is : 0.000
+-------------------------score:  -3.5636430121958256;  adjusted_score: -3.5377333093434573----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ and then there were other young in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(and -0.50)(then -6.23)(there -3.01)(were -2.28)(other -2.35)(young -4.00)(in -2.30)(it -4.30)(. -6.17) line score is : -3.459, look ahead score is : 0.000
+-------------------------score:  -3.5762400925159454;  adjusted_score: -3.550330389663577----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ and then there were ten different in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(and -0.50)(then -6.23)(there -3.01)(were -2.28)(ten -2.35)(different -4.00)(in -2.30)(it -5.45)(. -5.53) line score is : -3.516, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ her thanks were so cold 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.459621062502265;  adjusted_score: -3.434044545739889----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were afraid to get , 
+ so i went up and cut on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(afraid -1.37)(to -2.37)(get -5.05)(, -0.79) line score is : -2.951, look ahead score is : 0.689
+(so -0.79)(i -4.40)(went -8.69)(up -2.09)(and -1.03)(cut -3.21)(on -3.15)(the -1.97)(spit -7.33)(. -5.85) line score is : -3.850, look ahead score is : 0.000
+-------------------------score:  -3.5549664702266455;  adjusted_score: -3.5293899534642694----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ my friends were so upset , 
+ they were afraid to get , 
+ so i went up and let on the spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(my -1.71)(friends -5.15)(were -3.92)(so -2.34)(upset -3.50)(, -5.60) line score is : -3.706, look ahead score is : 0.590
+(they -5.60)(were -2.51)(afraid -1.37)(to -2.37)(get -5.05)(, -0.79) line score is : -2.951, look ahead score is : 0.689
+(so -0.79)(i -4.40)(went -8.69)(up -2.09)(and -1.03)(let -3.21)(on -3.15)(the -1.97)(spit -6.01)(. -9.09) line score is : -4.042, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ they came back from the ride 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.485108444184968;  adjusted_score: -3.4591987413325995----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ i was back from the hell , 
+ i was ready to yell , 
+ and i know that my name is a spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(i -1.71)(was -2.18)(back -2.27)(from -7.34)(the -4.55)(hell -1.86)(, -8.04) line score is : -3.991, look ahead score is : 0.608
+(i -8.04)(was -4.33)(ready -2.69)(to -1.31)(yell -3.33)(, -0.50) line score is : -3.366, look ahead score is : 0.687
+(and -0.50)(i -6.23)(know -3.01)(that -2.28)(my -1.45)(name -5.64)(is -2.19)(a -3.70)(spit -3.89)(. -2.24) line score is : -3.112, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ BUT WHEN PRP VBP VBN , 
+ PRP POS A NN OF NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ but when I have dough 
+ she 's a person of note 
+ and now a new teacher they seek 
+-------------------------score:  -3.5207562984958773;  adjusted_score: -3.495169770462859----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and sometimes a little blood we sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(sometimes -8.71)(a -1.92)(little -2.02)(blood -3.73)(we -2.85)(sit -1.57)(. -2.34) line score is : -3.083, look ahead score is : 0.000
+-------------------------score:  -3.551132086784609;  adjusted_score: -3.5255455587515905----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and sometimes a little blood you sit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(sometimes -8.71)(a -1.92)(little -2.02)(blood -3.73)(you -2.85)(sit -1.57)(. -2.34) line score is : -3.083, look ahead score is : 0.000
+======================= template: 14 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ BUT WHEN PRP VBP VBN , 
+ PRP POS A NN OF NN , 
+ AND RB THERE VBD JJ JJ IN PRP . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ but when I have dough 
+ she 's a person of note 
+ and right there became awful sick in 'em 
+-------------------------score:  -3.575408099219203;  adjusted_score: -3.5498215711861847----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and then there were few other in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(then -8.71)(there -1.92)(were -2.02)(few -4.14)(other -3.72)(in -5.61)(it -6.02)(. -3.95) line score is : -4.180, look ahead score is : 0.000
+-------------------------score:  -3.661705456674099;  adjusted_score: -3.6361189286410807----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and then there were other young in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(then -8.71)(there -1.92)(were -2.02)(other -4.14)(young -3.72)(in -5.61)(it -4.25)(. -6.19) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -3.688231088221073;  adjusted_score: -3.662644560188055----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and then there were other bad in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(then -8.71)(there -1.92)(were -2.02)(other -4.14)(bad -3.72)(in -5.61)(it -4.25)(. -6.70) line score is : -4.288, look ahead score is : 0.000
+-------------------------score:  -3.689696840941906;  adjusted_score: -3.6641103129088877----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and then there were other big in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(then -8.71)(there -1.92)(were -2.02)(other -4.14)(big -3.72)(in -5.61)(it -4.25)(. -6.16) line score is : -4.228, look ahead score is : 0.000
+-------------------------score:  -3.7170932553708553;  adjusted_score: -3.691506727337837----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when we get upset , 
+ it 's a lot of sweat , 
+ and then there were other small in it . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(we -3.30)(get -1.38)(upset -5.00)(, -8.72) line score is : -4.147, look ahead score is : 0.610
+(it -8.72)('s -1.16)(a -2.52)(lot -0.50)(of -4.02)(sweat -2.44)(, -1.53) line score is : -2.985, look ahead score is : 0.670
+(and -1.53)(then -8.71)(there -1.92)(were -2.02)(other -4.14)(small -3.72)(in -5.61)(it -4.25)(. -6.84) line score is : -4.303, look ahead score is : 0.000
+======================= template: 15 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ BUT WHEN PRP VBP VBN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ but when I have dough 
+ she 's a person of note 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6522863917052746;  adjusted_score: -3.6258786468207838----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when i say upset , 
+ it 's a lot of sweat , 
+ and i was not like sweating of spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(i -3.30)(say -2.12)(upset -4.82)(, -9.25) line score is : -4.328, look ahead score is : 0.651
+(it -9.25)('s -0.66)(a -2.67)(lot -0.58)(of -3.39)(sweat -3.10)(, -2.12) line score is : -3.110, look ahead score is : 0.670
+(and -2.12)(i -7.78)(was -1.93)(not -2.42)(like -1.78)(sweating -3.59)(of -4.82)(spit -5.80)(. -6.01) line score is : -4.028, look ahead score is : 0.000
+-------------------------score:  -3.6874849386513233;  adjusted_score: -3.6610771937668325----------------------- 
+there was a loud lady named dewitt 
+ who shouted out our names for a bit . 
+ but when i say upset , 
+ it 's a lot of sweat , 
+ and i was still like sweating of spit . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(shouted -6.31)(out -1.93)(our -5.98)(names -1.79)(for -4.35)(a -1.52)(bit -2.72)(. -1.71) line score is : -3.090, look ahead score is : 0.000
+(but -1.71)(when -4.77)(i -3.30)(say -2.12)(upset -4.82)(, -9.25) line score is : -4.328, look ahead score is : 0.651
+(it -9.25)('s -0.66)(a -2.67)(lot -0.58)(of -3.39)(sweat -3.10)(, -2.12) line score is : -3.110, look ahead score is : 0.670
+(and -2.12)(i -7.78)(was -1.93)(still -2.42)(like -1.78)(sweating -3.59)(of -4.18)(spit -5.86)(. -6.37) line score is : -4.003, look ahead score is : 0.000

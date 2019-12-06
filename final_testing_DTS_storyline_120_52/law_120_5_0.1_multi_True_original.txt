@@ -1,0 +1,1221 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AT THE NN IN THE NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ at the man in the store 
+ with his spanner and jack in the box 
+-------------------------score:  -3.241729362444444;  adjusted_score: -3.217505099908872----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ at the time in the port , 
+ with my wife and daughter in the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(at -3.87)(the -2.90)(time -5.47)(in -1.36)(the -2.74)(port -3.35)(, -2.17) line score is : -3.122, look ahead score is : 0.623
+(with -2.17)(my -8.25)(wife -3.18)(and -3.11)(daughter -1.44)(in -3.32)(the -0.73)(place -2.67)(. -3.08) line score is : -3.104, look ahead score is : 0.000
+-------------------------score:  -3.264396481441729;  adjusted_score: -3.2401722189061566----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ at the time in the port , 
+ with my wife and family in the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(at -3.87)(the -2.90)(time -5.47)(in -1.36)(the -2.74)(port -3.35)(, -2.17) line score is : -3.122, look ahead score is : 0.623
+(with -2.17)(my -8.25)(wife -3.18)(and -3.11)(family -1.44)(in -3.32)(the -0.73)(place -4.40)(. -3.16) line score is : -3.306, look ahead score is : 0.000
+-------------------------score:  -3.3167175795092727;  adjusted_score: -3.2924933169737005----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ at the time in the port , 
+ with my wife and baby in the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(at -3.87)(the -2.90)(time -5.47)(in -1.36)(the -2.74)(port -3.35)(, -2.17) line score is : -3.122, look ahead score is : 0.623
+(with -2.17)(my -8.25)(wife -3.18)(and -3.11)(baby -1.44)(in -3.32)(the -0.73)(place -3.98)(. -2.57) line score is : -3.194, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ but it does n't come out of my purse 
+-------------------------score:  -3.2433494199067354;  adjusted_score: -3.218962327316403----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ but it is not happen in my place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(but -5.07)(it -7.15)(is -1.21)(not -2.63)(happen -3.20)(in -2.69)(my -1.38)(place -8.03)(. -3.51) line score is : -3.874, look ahead score is : 0.000
+-------------------------score:  -3.3672983683645725;  adjusted_score: -3.3429112757742403----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ but it is not happen in our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(but -5.07)(it -7.15)(is -1.21)(not -2.63)(happen -3.20)(in -2.69)(our -1.38)(place -8.03)(. -3.51) line score is : -3.874, look ahead score is : 0.000
+-------------------------score:  -3.368884469382465;  adjusted_score: -3.343916994445026----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it would be to a crime , 
+ it would be a lifetime , 
+ but it is not torture in my place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(would -3.53)(be -4.36)(to -1.10)(a -6.85)(crime -5.06)(, -3.51) line score is : -3.699, look ahead score is : 0.609
+(it -3.51)(would -3.82)(be -4.26)(a -0.75)(lifetime -0.35)(, -1.84) line score is : -2.421, look ahead score is : 0.639
+(but -1.84)(it -9.84)(is -4.00)(not -2.40)(torture -1.47)(in -2.57)(my -1.34)(place -7.28)(. -5.04) line score is : -3.976, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ IN A JJ NN , 
+ WITH A JJ NN OF NN ON PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ in a relative way 
+ with a nice head of hair on his pate 
+-------------------------score:  -3.2680035643279552;  adjusted_score: -3.243637979030609----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ with a new friend of mine on my place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(with -4.04)(a -8.35)(new -1.39)(friend -3.08)(of -1.59)(mine -2.34)(on -3.85)(my -3.53)(place -0.32)(. -5.75) line score is : -3.424, look ahead score is : 0.000
+-------------------------score:  -3.3372900746762753;  adjusted_score: -3.312924489378929----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ with a new friend of mine on his place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(with -4.04)(a -8.35)(new -1.39)(friend -3.08)(of -1.59)(mine -2.34)(on -3.85)(his -3.53)(place -0.32)(. -5.75) line score is : -3.424, look ahead score is : 0.000
+-------------------------score:  -3.359474368393421;  adjusted_score: -3.335108783096075----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ with a new friend of mine on our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(with -4.04)(a -8.35)(new -1.39)(friend -3.08)(of -1.59)(mine -2.34)(on -3.85)(our -3.53)(place -0.32)(. -5.75) line score is : -3.424, look ahead score is : 0.000
+-------------------------score:  -3.385590471327305;  adjusted_score: -3.3612248860299587----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ with a new friend of mine on her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(with -4.04)(a -8.35)(new -1.39)(friend -3.08)(of -1.59)(mine -2.34)(on -3.85)(her -3.53)(place -0.32)(. -5.75) line score is : -3.424, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD ON A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she sat on a stile 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2961819912448074;  adjusted_score: -3.272707032705798----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ and i heard that my name has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(and -3.01)(i -8.22)(heard -1.07)(that -1.49)(my -0.92)(name -5.19)(has -2.08)(a -2.24)(place -3.81)(. -3.64) line score is : -3.167, look ahead score is : 0.000
+-------------------------score:  -3.329700767993927;  adjusted_score: -3.3062258094549177----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ and i heard that my name is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(and -3.01)(i -8.22)(heard -1.07)(that -1.49)(my -0.92)(name -5.19)(is -2.08)(a -2.24)(place -3.81)(. -3.24) line score is : -3.128, look ahead score is : 0.000
+-------------------------score:  -3.4692100629662024;  adjusted_score: -3.445735104427193----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ and i heard that my life is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(and -3.01)(i -8.22)(heard -1.07)(that -1.49)(my -0.92)(life -5.19)(is -2.08)(a -2.24)(place -4.54)(. -2.87) line score is : -3.163, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and now he 's a college professor 
+-------------------------score:  -3.30424141499304;  adjusted_score: -3.279854322402708----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ and then it becomes a nightmare place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(and -5.07)(then -7.15)(it -1.21)(becomes -1.89)(a -2.64)(nightmare -3.41)(place -5.27)(. -1.56) line score is : -3.525, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3072871186516504;  adjusted_score: -3.2816157936237076----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ and i know that my name has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(and -1.81)(i -6.54)(know -3.43)(that -2.77)(my -3.34)(name -3.78)(has -2.47)(a -3.11)(place -3.56)(. -2.76) line score is : -3.357, look ahead score is : 0.000
+-------------------------score:  -3.33525474504991;  adjusted_score: -3.3095834200219674----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ and i know that my life has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(and -1.81)(i -6.54)(know -3.43)(that -2.77)(my -3.34)(life -3.78)(has -2.47)(a -3.11)(place -3.52)(. -2.87) line score is : -3.363, look ahead score is : 0.000
+-------------------------score:  -3.4129522171887485;  adjusted_score: -3.3872808921608057----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ and i know that my name is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(and -1.81)(i -6.54)(know -3.43)(that -2.77)(my -3.34)(name -3.78)(is -2.47)(a -3.11)(place -3.56)(. -1.18) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -3.475148905407299;  adjusted_score: -3.449477580379356----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ and i know that my life is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(and -1.81)(i -6.54)(know -3.43)(that -2.77)(my -3.34)(life -3.78)(is -2.47)(a -3.11)(place -3.52)(. -1.86) line score is : -3.262, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.3192961253225803;  adjusted_score: -3.294909032732248----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ and that is the reason of this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(and -5.07)(that -7.15)(is -1.21)(the -1.89)(reason -3.73)(of -2.48)(this -3.11)(place -4.05)(. -4.78) line score is : -3.720, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and I hope that your day is a blast 
+-------------------------score:  -3.334382156531016;  adjusted_score: -3.3099950639406837----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ and i know that my name is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(and -5.07)(i -7.15)(know -1.21)(that -1.89)(my -0.91)(name -5.44)(is -1.54)(a -3.11)(place -4.13)(. -1.45) line score is : -3.192, look ahead score is : 0.000
+-------------------------score:  -3.4122396870092913;  adjusted_score: -3.387852594418959----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ and i know that my life is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(and -5.07)(i -7.15)(know -1.21)(that -1.89)(my -0.91)(life -5.44)(is -1.54)(a -3.11)(place -3.50)(. -1.42) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -3.4517109376011472;  adjusted_score: -3.427323845010815----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ and i think that my life is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(and -5.07)(i -7.15)(think -1.21)(that -1.89)(my -0.91)(life -5.21)(is -1.73)(a -4.78)(place -2.31)(. -2.14) line score is : -3.241, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.3530508437577415;  adjusted_score: -3.3273795187297988----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ when i heard it , i have seen a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(when -1.81)(i -6.54)(heard -3.43)(it -4.16)(, -0.75)(i -5.39)(have -2.58)(seen -0.63)(a -2.12)(place -3.46)(. -3.98) line score is : -3.168, look ahead score is : 0.000
+-------------------------score:  -3.372828401186887;  adjusted_score: -3.347157076158944----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ when i heard it , i have made a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(when -1.81)(i -6.54)(heard -3.43)(it -4.16)(, -0.75)(i -5.39)(have -2.58)(made -0.63)(a -2.12)(place -3.46)(. -4.82) line score is : -3.245, look ahead score is : 0.000
+-------------------------score:  -3.4109083431608536;  adjusted_score: -3.385237018132911----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ when i heard it , i have done a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(when -1.81)(i -6.54)(heard -3.43)(it -4.16)(, -0.75)(i -5.39)(have -2.58)(done -0.63)(a -2.12)(place -3.46)(. -4.73) line score is : -3.236, look ahead score is : 0.000
+-------------------------score:  -3.4220211242928222;  adjusted_score: -3.3963497992648795----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ when i heard it , i have been a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(when -1.81)(i -6.54)(heard -3.43)(it -4.16)(, -0.75)(i -5.39)(have -2.58)(been -0.63)(a -2.12)(place -3.46)(. -3.13) line score is : -3.091, look ahead score is : 0.000
+-------------------------score:  -3.4389341666417965;  adjusted_score: -3.4132628416138537----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ when i heard it , i have tried a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(when -1.81)(i -6.54)(heard -3.43)(it -4.16)(, -0.75)(i -5.39)(have -2.58)(tried -0.63)(a -2.12)(place -3.46)(. -4.63) line score is : -3.227, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD ON A NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she sat on a stile 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.3643322261897;  adjusted_score: -3.3408572676506907----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ so i went up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(so -3.01)(i -8.22)(went -1.07)(up -4.10)(and -0.68)(put -3.03)(on -4.76)(the -3.02)(place -6.10)(. -1.62) line score is : -3.562, look ahead score is : 0.000
+-------------------------score:  -3.3775934251871975;  adjusted_score: -3.3541184666481882----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ so i was up and walk on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(so -3.01)(i -8.22)(was -1.07)(up -4.10)(and -0.68)(walk -1.78)(on -7.06)(the -0.95)(place -8.12)(. -4.23) line score is : -3.921, look ahead score is : 0.000
+-------------------------score:  -3.3851698257706384;  adjusted_score: -3.361694867231629----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ so i was up and come on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(so -3.01)(i -8.22)(was -1.07)(up -4.10)(and -0.68)(come -1.78)(on -7.06)(the -0.95)(place -7.87)(. -4.18) line score is : -3.892, look ahead score is : 0.000
+-------------------------score:  -3.386037784995455;  adjusted_score: -3.3625628264564456----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ so i was up and go on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(so -3.01)(i -8.22)(was -1.07)(up -4.10)(and -0.68)(go -1.78)(on -7.06)(the -0.95)(place -7.42)(. -4.62) line score is : -3.890, look ahead score is : 0.000
+-------------------------score:  -3.402330907908353;  adjusted_score: -3.3788559493693437----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ so i went up and read on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(so -3.01)(i -8.22)(went -1.07)(up -4.10)(and -0.68)(read -3.03)(on -4.76)(the -3.02)(place -6.33)(. -5.15) line score is : -3.938, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AT THE NN IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ at the man in the store 
+ and I hope that your day is a blast 
+-------------------------score:  -3.375198336208568;  adjusted_score: -3.3509740736729956----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ at the time in the port , 
+ and i heard that my wife has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(at -3.87)(the -2.90)(time -5.47)(in -1.36)(the -2.74)(port -3.35)(, -2.17) line score is : -3.122, look ahead score is : 0.623
+(and -2.17)(i -8.25)(heard -3.18)(that -1.04)(my -1.74)(wife -4.05)(has -2.44)(a -2.68)(place -2.75)(. -5.13) line score is : -3.342, look ahead score is : 0.000
+-------------------------score:  -3.3784910861183617;  adjusted_score: -3.3542668235827895----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ at the time in the port , 
+ and i heard that my name has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(at -3.87)(the -2.90)(time -5.47)(in -1.36)(the -2.74)(port -3.35)(, -2.17) line score is : -3.122, look ahead score is : 0.623
+(and -2.17)(i -8.25)(heard -3.18)(that -1.04)(my -1.74)(name -4.05)(has -2.44)(a -2.68)(place -4.53)(. -4.07) line score is : -3.415, look ahead score is : 0.000
+-------------------------score:  -3.45509373440462;  adjusted_score: -3.430869471869048----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ at the time in the port , 
+ and i heard that my name is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(at -3.87)(the -2.90)(time -5.47)(in -1.36)(the -2.74)(port -3.35)(, -2.17) line score is : -3.122, look ahead score is : 0.623
+(and -2.17)(i -8.25)(heard -3.18)(that -1.04)(my -1.74)(name -4.05)(is -2.44)(a -2.68)(place -4.53)(. -3.97) line score is : -3.405, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she sat on a stile 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.377541471272707;  adjusted_score: -3.3540665127336977----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i had my own lawyers and two place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(had -8.22)(my -1.07)(own -0.98)(lawyers -1.72)(and -1.90)(two -3.56)(place -3.31)(. -1.63) line score is : -2.823, look ahead score is : 0.000
+-------------------------score:  -3.382326800376177;  adjusted_score: -3.3588518418371676----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i had my own lawyers and one place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(had -8.22)(my -1.07)(own -0.98)(lawyers -1.72)(and -1.90)(one -3.56)(place -3.31)(. -1.63) line score is : -2.823, look ahead score is : 0.000
+-------------------------score:  -3.39578090980649;  adjusted_score: -3.3723059512674807----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i had my own lawyers and three place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(had -8.22)(my -1.07)(own -0.98)(lawyers -1.72)(and -1.90)(three -3.56)(place -3.31)(. -1.63) line score is : -2.823, look ahead score is : 0.000
+-------------------------score:  -3.4338213987648487;  adjusted_score: -3.4103464402258394----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i had my own lawyers and four place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(had -8.22)(my -1.07)(own -0.98)(lawyers -1.72)(and -1.90)(four -3.56)(place -3.31)(. -1.63) line score is : -2.823, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ IN A JJ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ in a relative way 
+ and I hope that your day is a blast 
+-------------------------score:  -3.385797843337059;  adjusted_score: -3.361432258039713----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ and i heard that my wife has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(and -4.04)(i -8.35)(heard -1.39)(that -1.25)(my -2.04)(wife -3.80)(has -2.12)(a -2.73)(place -3.21)(. -5.29) line score is : -3.423, look ahead score is : 0.000
+-------------------------score:  -3.39371108263731;  adjusted_score: -3.369345497339964----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ and i heard that my son has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(and -4.04)(i -8.35)(heard -1.39)(that -1.25)(my -2.04)(son -3.80)(has -2.12)(a -2.73)(place -3.92)(. -4.92) line score is : -3.457, look ahead score is : 0.000
+-------------------------score:  -3.4530027136206627;  adjusted_score: -3.4286371283233166----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ and i heard that my ship has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(and -4.04)(i -8.35)(heard -1.39)(that -1.25)(my -2.04)(ship -3.80)(has -2.12)(a -2.73)(place -3.77)(. -5.09) line score is : -3.458, look ahead score is : 0.000
+-------------------------score:  -3.4816255792975426;  adjusted_score: -3.4572599940001965----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ and i heard that my wife is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(and -4.04)(i -8.35)(heard -1.39)(that -1.25)(my -2.04)(wife -3.80)(is -2.12)(a -2.73)(place -3.21)(. -4.76) line score is : -3.370, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ which he loosed in the house 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3879475681220783;  adjusted_score: -3.364472610179116----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it was back from the court , 
+ which i was in the port , 
+ and i heard that my name has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(was -3.53)(back -1.02)(from -7.41)(the -5.94)(court -1.33)(, -3.64) line score is : -3.479, look ahead score is : 0.588
+(which -3.64)(i -2.97)(was -5.06)(in -2.21)(the -1.90)(port -3.79)(, -2.83) line score is : -3.200, look ahead score is : 0.586
+(and -2.83)(i -8.50)(heard -2.54)(that -0.79)(my -1.18)(name -3.88)(has -2.54)(a -3.07)(place -4.41)(. -4.09) line score is : -3.383, look ahead score is : 0.000
+-------------------------score:  -3.3909970960196327;  adjusted_score: -3.3675221380766702----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it was back from the court , 
+ which i was in the port , 
+ and i heard that my wife has a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(was -3.53)(back -1.02)(from -7.41)(the -5.94)(court -1.33)(, -3.64) line score is : -3.479, look ahead score is : 0.588
+(which -3.64)(i -2.97)(was -5.06)(in -2.21)(the -1.90)(port -3.79)(, -2.83) line score is : -3.200, look ahead score is : 0.586
+(and -2.83)(i -8.50)(heard -2.54)(that -0.79)(my -1.18)(wife -3.88)(has -2.54)(a -3.07)(place -2.56)(. -5.22) line score is : -3.312, look ahead score is : 0.000
+-------------------------score:  -3.4642022515044495;  adjusted_score: -3.440727293561487----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it was back from the court , 
+ which i was in the port , 
+ and i heard that my name is a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(was -3.53)(back -1.02)(from -7.41)(the -5.94)(court -1.33)(, -3.64) line score is : -3.479, look ahead score is : 0.588
+(which -3.64)(i -2.97)(was -5.06)(in -2.21)(the -1.90)(port -3.79)(, -2.83) line score is : -3.200, look ahead score is : 0.586
+(and -2.83)(i -8.50)(heard -2.54)(that -0.79)(my -1.18)(name -3.88)(is -2.54)(a -3.07)(place -4.41)(. -3.65) line score is : -3.339, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT VBD A JJ NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ but got a great fright 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.4192529880639277;  adjusted_score: -3.3947927333053314----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ but had a new passport , 
+ so i went up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(but -3.87)(had -2.90)(a -2.40)(new -4.22)(passport -3.30)(, -3.43) line score is : -3.354, look ahead score is : 0.635
+(so -3.43)(i -7.12)(went -2.48)(up -2.32)(and -0.53)(put -2.79)(on -5.90)(the -3.58)(place -6.35)(. -2.08) line score is : -3.658, look ahead score is : 0.000
+-------------------------score:  -3.4260202610131465;  adjusted_score: -3.40156000625455----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ but had a new passport , 
+ so i went up and read on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(but -3.87)(had -2.90)(a -2.40)(new -4.22)(passport -3.30)(, -3.43) line score is : -3.354, look ahead score is : 0.635
+(so -3.43)(i -7.12)(went -2.48)(up -2.32)(and -0.53)(read -2.79)(on -5.90)(the -3.58)(place -6.40)(. -4.83) line score is : -3.938, look ahead score is : 0.000
+-------------------------score:  -3.467726530450763;  adjusted_score: -3.443266275692167----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ but had a new passport , 
+ so i was up and go on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(but -3.87)(had -2.90)(a -2.40)(new -4.22)(passport -3.30)(, -3.43) line score is : -3.354, look ahead score is : 0.635
+(so -3.43)(i -7.12)(was -2.48)(up -2.32)(and -0.53)(go -2.16)(on -7.82)(the -0.84)(place -7.50)(. -4.73) line score is : -3.893, look ahead score is : 0.000
+-------------------------score:  -3.488561760295521;  adjusted_score: -3.4641015055369246----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ but had a new passport , 
+ so i was up and leave on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(but -3.87)(had -2.90)(a -2.40)(new -4.22)(passport -3.30)(, -3.43) line score is : -3.354, look ahead score is : 0.635
+(so -3.43)(i -7.12)(was -2.48)(up -2.32)(and -0.53)(leave -2.16)(on -7.82)(the -0.84)(place -8.34)(. -3.62) line score is : -3.866, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.4242069282952476;  adjusted_score: -3.398535603267305----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ as it were to die , i have a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(as -1.81)(it -6.54)(were -3.43)(to -5.29)(die -2.64)(, -1.23)(i -5.87)(have -2.75)(a -0.59)(place -3.19)(. -3.14) line score is : -3.317, look ahead score is : 0.000
+-------------------------score:  -3.4884100293411926;  adjusted_score: -3.46273870431325----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ as it were to die , i know a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(as -1.81)(it -6.54)(were -3.43)(to -5.29)(die -2.64)(, -1.23)(i -5.87)(know -2.75)(a -0.59)(place -3.19)(. -5.36) line score is : -3.519, look ahead score is : 0.000
+-------------------------score:  -3.514130829011693;  adjusted_score: -3.48845950398375----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ as it were to die , i am a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(as -1.81)(it -6.54)(were -3.43)(to -5.29)(die -2.64)(, -1.23)(i -5.87)(am -2.75)(a -0.59)(place -3.19)(. -3.66) line score is : -3.364, look ahead score is : 0.000
+-------------------------score:  -3.5302906299338623;  adjusted_score: -3.5046193049059196----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ as it were to die , i think a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(as -1.81)(it -6.54)(were -3.43)(to -5.29)(die -2.64)(, -1.23)(i -5.87)(think -2.75)(a -0.59)(place -3.19)(. -4.76) line score is : -3.464, look ahead score is : 0.000
+-------------------------score:  -3.6195654991795037;  adjusted_score: -3.593894174151561----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ which i was in the time , 
+ as it were to die , i do a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(which -5.74)(i -3.29)(was -2.54)(in -1.90)(the -2.49)(time -4.71)(, -1.81) line score is : -3.212, look ahead score is : 0.617
+(as -1.81)(it -6.54)(were -3.43)(to -5.29)(die -2.64)(, -1.23)(i -5.87)(do -2.75)(a -0.59)(place -3.19)(. -5.13) line score is : -3.497, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP WOULD VB A NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he would wave a cigar 
+ I did n't think life was this way 
+-------------------------score:  -3.441756171564902;  adjusted_score: -3.4162112331198107----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i would say a lifetime , 
+ i did not see justice served this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(would -3.29)(say -2.74)(a -4.39)(lifetime -1.46)(, -4.88) line score is : -3.751, look ahead score is : 0.611
+(i -4.88)(did -6.30)(not -1.87)(see -2.73)(justice -4.20)(served -0.51)(this -3.09)(place -3.51)(. -3.50) line score is : -3.399, look ahead score is : 0.000
+-------------------------score:  -3.535252167332557;  adjusted_score: -3.5097072288874656----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i would say a lifetime , 
+ i did not see justice brought this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(would -3.29)(say -2.74)(a -4.39)(lifetime -1.46)(, -4.88) line score is : -3.751, look ahead score is : 0.611
+(i -4.88)(did -6.30)(not -1.87)(see -2.73)(justice -4.20)(brought -0.51)(this -3.09)(place -3.51)(. -6.02) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -3.550837670603106;  adjusted_score: -3.5252927321580145----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i would say a lifetime , 
+ i did not see justice met this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(would -3.29)(say -2.74)(a -4.39)(lifetime -1.46)(, -4.88) line score is : -3.751, look ahead score is : 0.611
+(i -4.88)(did -6.30)(not -1.87)(see -2.73)(justice -4.20)(met -0.51)(this -3.09)(place -3.51)(. -5.22) line score is : -3.590, look ahead score is : 0.000
+-------------------------score:  -3.620260715484619;  adjusted_score: -3.5947157770395277----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i would say a lifetime , 
+ i did not see justice put this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(would -3.29)(say -2.74)(a -4.39)(lifetime -1.46)(, -4.88) line score is : -3.751, look ahead score is : 0.611
+(i -4.88)(did -6.30)(not -1.87)(see -2.73)(justice -4.20)(put -0.51)(this -3.09)(place -3.51)(. -6.32) line score is : -3.712, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD CD JJ NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was one funny brit 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.4715458750724792;  adjusted_score: -3.447085620313883----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i had two new passport , 
+ i had my own lawyers and two place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(had -2.90)(two -3.27)(new -2.24)(passport -5.09)(, -3.99) line score is : -3.559, look ahead score is : 0.635
+(i -3.99)(had -7.43)(my -2.62)(own -1.12)(lawyers -1.30)(and -1.82)(two -3.90)(place -4.38)(. -1.64) line score is : -3.133, look ahead score is : 0.000
+-------------------------score:  -3.4839790761470795;  adjusted_score: -3.459518821388483----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i had two new passport , 
+ i had my own lawyers and one place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(had -2.90)(two -3.27)(new -2.24)(passport -5.09)(, -3.99) line score is : -3.559, look ahead score is : 0.635
+(i -3.99)(had -7.43)(my -2.62)(own -1.12)(lawyers -1.30)(and -1.82)(one -3.90)(place -4.38)(. -1.64) line score is : -3.133, look ahead score is : 0.000
+-------------------------score:  -3.4943303912878036;  adjusted_score: -3.4698701365292073----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i had two new passport , 
+ i had my own lawyers and three place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(had -2.90)(two -3.27)(new -2.24)(passport -5.09)(, -3.99) line score is : -3.559, look ahead score is : 0.635
+(i -3.99)(had -7.43)(my -2.62)(own -1.12)(lawyers -1.30)(and -1.82)(three -3.90)(place -4.38)(. -1.64) line score is : -3.133, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.471661206447717;  adjusted_score: -3.447131518387433----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it would be to a crime , 
+ and it was to the time , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(would -3.53)(be -4.36)(to -1.10)(a -6.85)(crime -5.06)(, -3.51) line score is : -3.699, look ahead score is : 0.609
+(and -3.51)(it -3.82)(was -3.01)(to -2.92)(the -1.45)(time -2.57)(, -3.24) line score is : -2.931, look ahead score is : 0.617
+(and -3.24)(it -7.29)(was -3.08)(not -1.67)(like -1.32)(something -0.37)(of -3.98)(place -5.87)(. -5.00) line score is : -3.536, look ahead score is : 0.000
+-------------------------score:  -3.5126837022376782;  adjusted_score: -3.4881540141773946----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it would be to a crime , 
+ and it was to the time , 
+ and it was not like justice of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(would -3.53)(be -4.36)(to -1.10)(a -6.85)(crime -5.06)(, -3.51) line score is : -3.699, look ahead score is : 0.609
+(and -3.51)(it -3.82)(was -3.01)(to -2.92)(the -1.45)(time -2.57)(, -3.24) line score is : -2.931, look ahead score is : 0.617
+(and -3.24)(it -7.29)(was -3.08)(not -1.67)(like -1.32)(justice -0.37)(of -3.98)(place -5.87)(. -6.69) line score is : -3.724, look ahead score is : 0.000
+-------------------------score:  -3.527978980179989;  adjusted_score: -3.503449292119705----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ it would be to a crime , 
+ and it was to the time , 
+ and i was not like someone of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(it -1.48)(would -3.53)(be -4.36)(to -1.10)(a -6.85)(crime -5.06)(, -3.51) line score is : -3.699, look ahead score is : 0.609
+(and -3.51)(it -3.82)(was -3.01)(to -2.92)(the -1.45)(time -2.57)(, -3.24) line score is : -2.931, look ahead score is : 0.617
+(and -3.24)(i -7.29)(was -3.08)(not -1.67)(like -2.12)(someone -1.74)(of -3.02)(place -6.42)(. -4.69) line score is : -3.696, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.4784140214323997;  adjusted_score: -3.4540269288420675----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ i had my own lawyers and one place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(i -5.07)(had -7.15)(my -1.21)(own -0.80)(lawyers -3.93)(and -3.94)(one -2.59)(place -3.50)(. -1.79) line score is : -3.332, look ahead score is : 0.000
+-------------------------score:  -3.4965200796723366;  adjusted_score: -3.4721329870820044----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ i had my own lawyers and two place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(i -5.07)(had -7.15)(my -1.21)(own -0.80)(lawyers -3.93)(and -3.94)(two -2.59)(place -3.50)(. -1.79) line score is : -3.332, look ahead score is : 0.000
+-------------------------score:  -3.511093243956566;  adjusted_score: -3.4867061513662336----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ i had my own lawyers and three place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(i -5.07)(had -7.15)(my -1.21)(own -0.80)(lawyers -3.93)(and -3.94)(three -2.59)(place -3.50)(. -1.79) line score is : -3.332, look ahead score is : 0.000
+-------------------------score:  -3.547221504151821;  adjusted_score: -3.522834411561489----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i would have to a court , 
+ i would have a passport , 
+ i had my own lawyers and four place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(would -1.83)(have -4.65)(to -2.16)(a -1.93)(court -9.09)(, -4.45) line score is : -3.657, look ahead score is : 0.598
+(i -4.45)(would -4.60)(have -2.92)(a -1.53)(passport -0.27)(, -5.07) line score is : -3.139, look ahead score is : 0.621
+(i -5.07)(had -7.15)(my -1.21)(own -0.80)(lawyers -3.93)(and -3.94)(four -2.59)(place -3.50)(. -1.79) line score is : -3.332, look ahead score is : 0.000
+======================= template: 21 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ I did n't think life was this way 
+-------------------------score:  -3.509886311367154;  adjusted_score: -3.4848197866231203----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the reason of my crime , 
+ which i did in the time , 
+ i did not commit till was this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(reason -3.10)(of -4.51)(my -5.27)(crime -2.04)(, -5.42) line score is : -3.634, look ahead score is : 0.626
+(which -5.42)(i -3.26)(did -3.24)(in -1.42)(the -2.34)(time -4.63)(, -1.81) line score is : -3.160, look ahead score is : 0.627
+(i -1.81)(did -4.97)(not -4.73)(commit -2.83)(till -2.31)(was -0.66)(this -2.82)(place -4.55)(. -8.58) line score is : -3.694, look ahead score is : 0.000
+-------------------------score:  -3.5770832393318415;  adjusted_score: -3.5520167145878077----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the reason of my crime , 
+ which i did in the time , 
+ i did not know till tonight this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(reason -3.10)(of -4.51)(my -5.27)(crime -2.04)(, -5.42) line score is : -3.634, look ahead score is : 0.626
+(which -5.42)(i -3.26)(did -3.24)(in -1.42)(the -2.34)(time -4.63)(, -1.81) line score is : -3.160, look ahead score is : 0.627
+(i -1.81)(did -4.97)(not -4.73)(know -2.83)(till -2.31)(tonight -0.66)(this -1.98)(place -5.27)(. -8.38) line score is : -3.659, look ahead score is : 0.000
+======================= template: 22 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she sat on a stile 
+ I did n't think life was this way 
+-------------------------score:  -3.5224690102040768;  adjusted_score: -3.4989940516650675----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i was here till midnight was this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(was -8.22)(here -1.07)(till -0.98)(midnight -0.68)(was -4.74)(this -6.79)(place -4.28)(. -9.35) line score is : -4.346, look ahead score is : 0.000
+-------------------------score:  -3.642065603286028;  adjusted_score: -3.6185906447470186----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i was here till august had this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(was -8.22)(here -1.07)(till -0.98)(august -0.68)(had -4.74)(this -6.79)(place -4.40)(. -9.06) line score is : -4.328, look ahead score is : 0.000
+-------------------------score:  -3.766872461885214;  adjusted_score: -3.7433975033462046----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ i was on a passport , 
+ i was not let home tonight this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(i -3.87)(was -2.90)(on -3.27)(a -1.24)(passport -4.34)(, -3.01) line score is : -3.104, look ahead score is : 0.586
+(i -3.01)(was -8.22)(not -1.07)(let -0.98)(home -0.68)(tonight -4.72)(this -7.29)(place -4.90)(. -8.22) line score is : -4.344, look ahead score is : 0.000
+======================= template: 23 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with the faith of a marytr 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.5272015288020624;  adjusted_score: -3.5026243973816884----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ with the help of a sort , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(with -3.87)(the -2.90)(help -4.24)(of -2.17)(a -3.70)(sort -0.02)(, -1.98) line score is : -2.698, look ahead score is : 0.641
+(and -1.98)(it -9.38)(was -4.97)(not -1.87)(like -3.77)(something -0.69)(of -3.74)(place -4.46)(. -5.80) line score is : -4.073, look ahead score is : 0.000
+======================= template: 24 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.5398538574095695;  adjusted_score: -3.513940364670369----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i was ordered to climb , 
+ and i did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(was -3.29)(ordered -2.74)(to -1.84)(climb -4.73)(, -0.25) line score is : -3.099, look ahead score is : 0.629
+(and -0.25)(i -7.41)(did -5.87)(not -2.32)(like -1.68)(feeling -1.34)(of -2.64)(place -4.12)(. -8.30) line score is : -3.770, look ahead score is : 0.000
+-------------------------score:  -3.59610479493295;  adjusted_score: -3.5701913021937495----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i was ordered to climb , 
+ and i did not like jumping of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(was -3.29)(ordered -2.74)(to -1.84)(climb -4.73)(, -0.25) line score is : -3.099, look ahead score is : 0.629
+(and -0.25)(i -7.41)(did -5.87)(not -2.32)(like -1.68)(jumping -1.34)(of -2.64)(place -4.12)(. -7.94) line score is : -3.730, look ahead score is : 0.000
+-------------------------score:  -3.629717076978376;  adjusted_score: -3.6038035842391754----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ i was ordered to climb , 
+ and i did not like suffering of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(i -5.74)(was -3.29)(ordered -2.74)(to -1.84)(climb -4.73)(, -0.25) line score is : -3.099, look ahead score is : 0.629
+(and -0.25)(i -7.41)(did -5.87)(not -2.32)(like -1.68)(suffering -1.34)(of -2.64)(place -4.12)(. -8.41) line score is : -3.783, look ahead score is : 0.000
+======================= template: 25 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT VBD A JJ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ but got a great fright 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.5720439683645964;  adjusted_score: -3.547583713606----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ but had a new passport , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(but -3.87)(had -2.90)(a -2.40)(new -4.22)(passport -3.30)(, -3.43) line score is : -3.354, look ahead score is : 0.635
+(and -3.43)(it -7.12)(was -2.48)(not -1.22)(like -3.86)(something -0.74)(of -3.53)(place -5.32)(. -6.77) line score is : -3.832, look ahead score is : 0.000
+======================= template: 26 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ I did n't think life was this way 
+-------------------------score:  -3.6050364307818876;  adjusted_score: -3.5790442411361205----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ my life and my lifetime , 
+ i did not have freedom left this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(my -5.74)(life -3.29)(and -3.33)(my -3.66)(lifetime -2.40)(, -0.61) line score is : -3.170, look ahead score is : 0.633
+(i -0.61)(did -9.70)(not -1.66)(have -2.91)(freedom -4.01)(left -0.29)(this -3.26)(place -6.13)(. -7.10) line score is : -3.961, look ahead score is : 0.000
+-------------------------score:  -3.642593994255989;  adjusted_score: -3.6166018046102217----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ the trial of my crime , 
+ my life and my lifetime , 
+ i did not know till tonight this place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(the -1.48)(trial -3.10)(of -4.98)(my -4.33)(crime -1.43)(, -5.74) line score is : -3.509, look ahead score is : 0.666
+(my -5.74)(life -3.29)(and -3.33)(my -3.66)(lifetime -2.40)(, -0.61) line score is : -3.170, look ahead score is : 0.633
+(i -0.61)(did -9.70)(not -1.66)(know -2.91)(till -4.01)(tonight -0.29)(this -3.15)(place -6.06)(. -7.41) line score is : -3.976, look ahead score is : 0.000
+======================= template: 27 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ IN A JJ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ in a relative way 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6448003745848134;  adjusted_score: -3.6204347892874673----------------------- 
+there was a cruel judge named chase 
+ who passed a harsh sentence on my case . 
+ i was back from the court , 
+ in a different port , 
+ and i was still like crazy of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.57)(passed -7.05)(a -2.64)(harsh -4.33)(sentence -0.59)(on -1.08)(my -3.49)(case -5.96)(. -1.48) line score is : -3.132, look ahead score is : 0.000
+(i -1.48)(was -1.83)(back -1.74)(from -6.81)(the -5.82)(court -1.92)(, -3.87) line score is : -3.352, look ahead score is : 0.588
+(in -3.87)(a -2.90)(different -4.08)(port -2.16)(, -4.04) line score is : -3.410, look ahead score is : 0.630
+(and -4.04)(i -8.35)(was -1.39)(still -1.25)(like -2.04)(crazy -1.54)(of -3.64)(place -7.86)(. -5.92) line score is : -4.004, look ahead score is : 0.000
+======================= template: 28 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6670055813861615;  adjusted_score: -3.643530623443199----------------------- 
+there was a honest judge named chase 
+ who brought all his money in a case . 
+ it was back from the court , 
+ and it was to the port , 
+ and it was not like someone of place . 
+------------------------- score breakdown ------------------------ 
+(who -2.08)(brought -6.06)(all -4.06)(his -3.74)(money -4.28)(in -2.78)(a -3.21)(case -4.03)(. -2.48) line score is : -3.637, look ahead score is : 0.000
+(it -2.48)(was -3.59)(back -1.05)(from -6.75)(the -5.70)(court -1.28)(, -3.11) line score is : -3.424, look ahead score is : 0.588
+(and -3.11)(it -2.53)(was -1.17)(to -3.55)(the -0.53)(port -5.74)(, -2.72) line score is : -2.764, look ahead score is : 0.586
+(and -2.72)(it -8.74)(was -2.31)(not -0.79)(like -2.29)(someone -0.30)(of -4.88)(place -5.93)(. -6.40) line score is : -3.817, look ahead score is : 0.000

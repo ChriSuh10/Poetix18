@@ -1,0 +1,968 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ she was ready to give and to take 
+-------------------------score:  -3.1262436273973435;  adjusted_score: -3.1032221936713906----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ i was able to write and to see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(i -0.62)(was -1.41)(able -4.12)(to -5.62)(write -3.81)(and -2.70)(to -0.04)(see -3.03)(. -4.01) line score is : -2.816, look ahead score is : 0.000
+-------------------------score:  -3.1354112836997956;  adjusted_score: -3.1123898499738427----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ i was able to tell and to see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(i -0.62)(was -1.41)(able -4.12)(to -5.62)(tell -3.81)(and -2.70)(to -0.04)(see -2.91)(. -4.47) line score is : -2.856, look ahead score is : 0.000
+-------------------------score:  -3.2118126216810197;  adjusted_score: -3.1887911879550668----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ i was able to tell and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(i -0.62)(was -1.41)(able -4.12)(to -5.62)(tell -3.81)(and -2.70)(to -0.04)(be -2.91)(. -4.47) line score is : -2.856, look ahead score is : 0.000
+-------------------------score:  -3.219919255701825;  adjusted_score: -3.196897821975872----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ i was able to write and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(i -0.62)(was -1.41)(able -4.12)(to -5.62)(write -3.81)(and -2.70)(to -0.04)(be -3.03)(. -4.01) line score is : -2.816, look ahead score is : 0.000
+-------------------------score:  -3.2770217943470925;  adjusted_score: -3.2540003606211396----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ i was able to make and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(i -0.62)(was -1.41)(able -4.12)(to -5.62)(make -3.81)(and -2.70)(to -0.04)(be -3.83)(. -5.20) line score is : -3.038, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.1641994810873464;  adjusted_score: -3.141041780265589----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ and that is the heart of this survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(and -0.62)(that -7.91)(is -2.58)(the -3.17)(heart -4.50)(of -3.83)(this -1.87)(survey -3.88)(. -0.27) line score is : -3.182, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ she was ready to give and to take 
+-------------------------score:  -3.214958546623107;  adjusted_score: -3.1918008458013496----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ it was enough to make and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(it -0.62)(was -7.91)(enough -2.58)(to -4.11)(make -1.95)(and -4.74)(to -0.44)(be -1.27)(. -7.42) line score is : -3.448, look ahead score is : 0.000
+-------------------------score:  -3.2365781136097445;  adjusted_score: -3.213394908258511----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his struggle and his gain , 
+ it was enough to make and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(struggle -2.61)(and -1.77)(his -3.16)(gain -1.83)(, -0.62) line score is : -3.000, look ahead score is : 0.606
+(it -0.62)(was -8.33)(enough -2.62)(to -3.91)(make -2.10)(and -4.92)(to -0.43)(be -1.31)(. -7.48) line score is : -3.525, look ahead score is : 0.000
+-------------------------score:  -3.2667656425506837;  adjusted_score: -3.2436079417289263----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ it was enough to make and to see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(it -0.62)(was -7.91)(enough -2.58)(to -4.11)(make -1.95)(and -4.74)(to -0.44)(see -1.27)(. -7.42) line score is : -3.448, look ahead score is : 0.000
+-------------------------score:  -3.288298116576287;  adjusted_score: -3.2651404157545296----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ it was enough to give and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(it -0.62)(was -7.91)(enough -2.58)(to -4.11)(give -1.95)(and -4.74)(to -0.44)(be -3.67)(. -7.55) line score is : -3.731, look ahead score is : 0.000
+-------------------------score:  -3.29944517343275;  adjusted_score: -3.2762874726109925----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ it was enough to drive and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(it -0.62)(was -7.91)(enough -2.58)(to -4.11)(drive -1.95)(and -4.74)(to -0.44)(be -3.23)(. -6.20) line score is : -3.531, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ VBD QUITE THE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ was quite the reverse of 'hosanna' 
+-------------------------score:  -3.2868148242433866;  adjusted_score: -3.2637933905174337----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ became quite the subject of survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(became -0.62)(quite -1.41)(the -4.12)(subject -4.49)(of -4.80)(survey -3.64)(. -3.99) line score is : -3.297, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.311059503870852;  adjusted_score: -3.288038070144899----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ as it came to pass , i am a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(as -0.62)(it -1.41)(came -4.12)(to -5.81)(pass -2.07)(, -3.40)(i -0.86)(am -1.52)(a -0.14)(prey -4.89)(. -3.09) line score is : -2.537, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ RB , PRP WILL VB PRP NN , PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ well , I will do it tomorrow , I mean 
+-------------------------score:  -3.3158005746928128;  adjusted_score: -3.2926428738710554----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ then , i will tell you today , i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(then -0.62)(, -7.91)(i -2.58)(will -6.23)(tell -1.28)(you -5.06)(today -3.27)(, -1.46)(i -1.08)(see -5.64)(. -1.64) line score is : -3.343, look ahead score is : 0.000
+-------------------------score:  -3.33503978360783;  adjusted_score: -3.3118820827860724----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ then , i will tell you briefly , i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(then -0.62)(, -7.91)(i -2.58)(will -6.23)(tell -1.28)(you -5.06)(briefly -3.27)(, -1.46)(i -1.08)(see -5.79)(. -1.62) line score is : -3.355, look ahead score is : 0.000
+-------------------------score:  -3.344738907886274;  adjusted_score: -3.3215812070645168----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ then , i will tell you tonight , i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(then -0.62)(, -7.91)(i -2.58)(will -6.23)(tell -1.28)(you -5.06)(tonight -3.27)(, -1.46)(i -1.08)(see -7.01)(. -1.63) line score is : -3.467, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ RB , PRP WILL VB PRP NN , PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ well , I will do it tomorrow , I mean 
+-------------------------score:  -3.3435808016973385;  adjusted_score: -3.3205593679713856----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ then , i will give you briefly , i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(then -0.62)(, -1.41)(i -4.12)(will -6.89)(give -2.34)(you -4.92)(briefly -3.46)(, -3.24)(i -1.19)(see -4.60)(. -1.58) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -3.3736060209134044;  adjusted_score: -3.3505845871874516----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ then , i will tell you briefly , i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(then -0.62)(, -1.41)(i -4.12)(will -6.89)(tell -2.34)(you -4.92)(briefly -3.46)(, -2.55)(i -1.79)(see -4.91)(. -1.60) line score is : -3.147, look ahead score is : 0.000
+-------------------------score:  -3.38297641452621;  adjusted_score: -3.359954980800257----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ then , i will tell you today , i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(then -0.62)(, -1.41)(i -4.12)(will -6.89)(tell -2.34)(you -4.92)(today -3.46)(, -2.55)(i -1.79)(see -5.72)(. -1.55) line score is : -3.215, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.346417608506539;  adjusted_score: -3.3233961747805862----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ when i heard it , i have been a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(when -0.62)(i -1.41)(heard -4.12)(it -7.40)(, -3.44)(i -2.51)(have -0.21)(been -0.47)(a -3.75)(prey -4.09)(. -3.46) line score is : -2.862, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.348050456622551;  adjusted_score: -3.325029022896598----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ was not a political survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(was -0.62)(not -1.41)(a -4.12)(political -1.55)(survey -3.27)(. -3.36) line score is : -2.388, look ahead score is : 0.000
+-------------------------score:  -3.3549627373958457;  adjusted_score: -3.331941303669893----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ was not a traditional survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(was -0.62)(not -1.41)(a -4.12)(traditional -1.55)(survey -3.27)(. -3.36) line score is : -2.388, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.368128594123956;  adjusted_score: -3.3454646252479514----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ which he told in the rain , 
+ and the death on the spot of the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(which -8.00)(he -2.61)(told -3.86)(in -2.29)(the -2.85)(rain -2.97)(, -2.22) line score is : -3.542, look ahead score is : 0.580
+(and -2.22)(the -7.36)(death -0.67)(on -2.72)(the -2.10)(spot -5.57)(of -6.69)(the -0.89)(prey -2.66)(. -1.28) line score is : -3.216, look ahead score is : 0.000
+-------------------------score:  -3.4298083366769734;  adjusted_score: -3.407144367800969----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ which he told in the rain , 
+ and the death on the road of the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(which -8.00)(he -2.61)(told -3.86)(in -2.29)(the -2.85)(rain -2.97)(, -2.22) line score is : -3.542, look ahead score is : 0.580
+(and -2.22)(the -7.36)(death -0.67)(on -2.72)(the -2.10)(road -5.57)(of -6.69)(the -0.89)(prey -2.22)(. -2.92) line score is : -3.336, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WITH THE NN OF A NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ with the faith of a marytr 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.401500200660064;  adjusted_score: -3.3777634937624477----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ with the help of a plane , 
+ was also a popular survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(with -8.00)(the -2.61)(help -5.81)(of -2.21)(a -1.94)(plane -0.03)(, -2.04) line score is : -3.235, look ahead score is : 0.634
+(was -2.04)(also -8.66)(a -1.53)(popular -2.02)(survey -4.22)(. -3.14) line score is : -3.603, look ahead score is : 0.000
+-------------------------score:  -3.402665545457396;  adjusted_score: -3.3789288379637332----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ with the help of a train , 
+ was also a popular survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(with -8.00)(the -2.61)(help -5.81)(of -2.21)(a -1.94)(train -0.03)(, -2.04) line score is : -3.235, look ahead score is : 0.634
+(was -2.04)(also -8.25)(a -2.09)(popular -2.06)(survey -4.19)(. -3.09) line score is : -3.621, look ahead score is : 0.000
+-------------------------score:  -3.4868986896913627;  adjusted_score: -3.4631619821977----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ with the help of a train , 
+ was also a wonderful survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(with -8.00)(the -2.61)(help -5.81)(of -2.21)(a -1.94)(train -0.03)(, -2.04) line score is : -3.235, look ahead score is : 0.634
+(was -2.04)(also -8.25)(a -2.09)(wonderful -2.06)(survey -4.19)(. -3.09) line score is : -3.621, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBZ THE NNS IN NN THAT PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ it 's the people in front that I jar 
+-------------------------score:  -3.441467707976699;  adjusted_score: -3.4183100071549415----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ he tells the men in charge that they see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(he -0.62)(tells -7.91)(the -2.58)(men -4.15)(in -2.57)(charge -3.61)(that -6.15)(they -2.81)(see -4.04)(. -3.58) line score is : -3.803, look ahead score is : 0.000
+-------------------------score:  -3.442008862271905;  adjusted_score: -3.4188511614501476----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ he tells the men in charge that he see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(he -0.62)(tells -7.91)(the -2.58)(men -4.15)(in -2.57)(charge -3.61)(that -6.15)(he -2.81)(see -4.04)(. -3.58) line score is : -3.803, look ahead score is : 0.000
+-------------------------score:  -3.522329183295369;  adjusted_score: -3.4991714824736118----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ he tells the men in turn that he see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(he -0.62)(tells -7.91)(the -2.58)(men -4.15)(in -2.57)(turn -3.61)(that -6.15)(he -2.81)(see -4.86)(. -5.38) line score is : -4.065, look ahead score is : 0.000
+-------------------------score:  -3.547363569959998;  adjusted_score: -3.5242058691382407----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ he tells the boys in turn that he see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(he -0.62)(tells -7.91)(the -2.58)(boys -4.15)(in -2.57)(turn -3.61)(that -6.12)(he -2.30)(see -5.22)(. -5.97) line score is : -4.106, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.457495187890941;  adjusted_score: -3.4348312190149364----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ which he told in the rain , 
+ was also a wonderful survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(which -8.00)(he -2.61)(told -3.86)(in -2.29)(the -2.85)(rain -2.97)(, -2.22) line score is : -3.542, look ahead score is : 0.580
+(was -2.22)(also -7.36)(a -0.67)(wonderful -1.65)(survey -4.31)(. -2.92) line score is : -3.188, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN PRP$ NNS AND PRP$ NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in my legs and my bum 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.467513136822602;  adjusted_score: -3.446450932655355----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ in his eyes and his brain , 
+ was not a political survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(in -8.00)(his -2.61)(eyes -5.31)(and -2.85)(his -2.80)(brain -2.95)(, -2.57) line score is : -3.872, look ahead score is : 0.500
+(was -2.57)(not -6.37)(a -0.29)(political -1.70)(survey -3.26)(. -2.92) line score is : -2.852, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.4697030503302813;  adjusted_score: -3.4466816166043284----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ and that is the case of this survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(and -0.62)(that -1.41)(is -4.12)(the -3.78)(case -3.73)(of -3.25)(this -4.65)(survey -3.66)(. -3.41) line score is : -3.181, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.4825234553393196;  adjusted_score: -3.459859486463315----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ which he told in the rain , 
+ as he lay to sleep , i am a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(which -8.00)(he -2.61)(told -3.86)(in -2.29)(the -2.85)(rain -2.97)(, -2.22) line score is : -3.542, look ahead score is : 0.580
+(as -2.22)(he -7.36)(lay -0.67)(to -4.94)(sleep -0.92)(, -2.74)(i -6.50)(am -1.15)(a -0.62)(prey -5.14)(. -3.57) line score is : -3.257, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.4955127899135863;  adjusted_score: -3.472355089091829----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ was also a personal survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(was -0.62)(also -7.91)(a -2.58)(personal -2.89)(survey -4.78)(. -3.22) line score is : -3.669, look ahead score is : 0.000
+-------------------------score:  -3.4982233366795947;  adjusted_score: -3.4750656358578373----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ was also a wonderful survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(was -0.62)(also -7.91)(a -2.58)(wonderful -2.89)(survey -4.78)(. -3.22) line score is : -3.669, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ AND WHAT PRP RB VBD , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ and what he then said 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.5012446961232593;  adjusted_score: -3.4801824919560125----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ and what he actually was , 
+ was also a popular survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(and -8.06)(what -2.93)(he -2.01)(actually -3.76)(was -1.33)(, -6.11) line score is : -4.036, look ahead score is : 0.500
+(was -6.11)(also -4.50)(a -1.00)(popular -2.17)(survey -4.97)(. -3.70) line score is : -3.744, look ahead score is : 0.000
+-------------------------score:  -3.521870730178697;  adjusted_score: -3.50080852601145----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ and what he actually was , 
+ was also a wonderful survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(and -8.06)(what -2.93)(he -2.01)(actually -3.76)(was -1.33)(, -6.11) line score is : -4.036, look ahead score is : 0.500
+(was -6.11)(also -4.50)(a -1.00)(wonderful -2.17)(survey -4.97)(. -3.70) line score is : -3.744, look ahead score is : 0.000
+-------------------------score:  -3.5783527387040004;  adjusted_score: -3.5572905345367536----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ and what he actually was , 
+ was also a powerful survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(and -8.06)(what -2.93)(he -2.01)(actually -3.76)(was -1.33)(, -6.11) line score is : -4.036, look ahead score is : 0.500
+(was -6.11)(also -4.50)(a -1.00)(powerful -2.17)(survey -4.97)(. -3.70) line score is : -3.744, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.510340732155424;  adjusted_score: -3.4871830313336667----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ as it was to be , i am a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(as -0.62)(it -7.91)(was -2.58)(to -4.65)(be -2.81)(, -2.14)(i -4.98)(am -1.18)(a -4.84)(prey -4.90)(. -3.13) line score is : -3.614, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ her hair got so light 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.520773246884346;  adjusted_score: -3.4960027638822795----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ he was back from the flu , 
+ his body was so new , 
+ and he was still like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(he -3.97)(was -2.03)(back -1.69)(from -7.25)(the -3.45)(flu -1.34)(, -9.10) line score is : -4.117, look ahead score is : 0.573
+(his -9.10)(body -1.88)(was -3.82)(so -3.31)(new -1.20)(, -4.31) line score is : -3.934, look ahead score is : 0.665
+(and -4.31)(he -7.38)(was -1.10)(still -1.09)(like -1.05)(someone -1.25)(of -2.70)(prey -7.45)(. -6.07) line score is : -3.599, look ahead score is : 0.000
+======================= template: 21 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.5671570161978403;  adjusted_score: -3.5441355824718874----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ and ended with a final survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(and -0.62)(ended -1.41)(with -4.12)(a -3.78)(final -6.35)(survey -3.57)(. -2.95) line score is : -3.258, look ahead score is : 0.000
+======================= template: 22 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ and I hope that your day is a blast 
+-------------------------score:  -3.6022984818978743;  adjusted_score: -3.5792770481719214----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ and i hope that his name is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(and -0.62)(i -1.41)(hope -4.12)(that -3.78)(his -6.48)(name -3.55)(is -1.80)(a -4.70)(prey -3.91)(. -2.05) line score is : -3.242, look ahead score is : 0.000
+======================= template: 23 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ WOULD VB VBD THE NN VBN FROM PRP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ would arise were the kid taken from us 
+-------------------------score:  -3.622960863634944;  adjusted_score: -3.599939429908991----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ would have made the world ashamed from we . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(would -0.62)(have -1.41)(made -4.12)(the -4.63)(world -1.91)(ashamed -3.40)(from -2.56)(we -4.18)(. -5.39) line score is : -3.136, look ahead score is : 0.000
+-------------------------score:  -3.6317713391035795;  adjusted_score: -3.6087499053776266----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ would have made the world ashamed from they . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(would -0.62)(have -1.41)(made -4.12)(the -4.63)(world -1.91)(ashamed -3.40)(from -2.56)(they -4.18)(. -5.39) line score is : -3.136, look ahead score is : 0.000
+======================= template: 24 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ IN A JJ NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ in a sugary takeover bid 
+-------------------------score:  -3.633573517717164;  adjusted_score: -3.610552083991211----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ in a certain newspaper survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(in -0.62)(a -1.41)(certain -4.12)(newspaper -5.55)(survey -3.78)(. -3.63) line score is : -3.184, look ahead score is : 0.000
+======================= template: 25 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ WOULD VB VBD THE NN VBN FROM PRP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ his grief and his rage 
+ would arise were the kid taken from us 
+-------------------------score:  -3.6744981100482326;  adjusted_score: -3.651340409226475----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ would have made the world ashamed from we . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(would -0.62)(have -7.91)(made -2.58)(the -5.40)(world -2.50)(ashamed -3.34)(from -2.39)(we -3.43)(. -5.53) line score is : -3.746, look ahead score is : 0.000
+-------------------------score:  -3.705176028513139;  adjusted_score: -3.682018327691382----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ his suffering and his gain , 
+ would have made the world ashamed from they . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(his -8.00)(suffering -2.61)(and -1.77)(his -3.40)(gain -1.59)(, -0.62) line score is : -3.000, look ahead score is : 0.605
+(would -0.62)(have -7.91)(made -2.58)(the -5.40)(world -2.50)(ashamed -3.34)(from -2.39)(they -3.43)(. -5.53) line score is : -3.746, look ahead score is : 0.000
+======================= template: 26 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.678964728489518;  adjusted_score: -3.6559432947635653----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ and the place therein found a whole prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(and -0.62)(the -1.41)(place -4.12)(therein -3.78)(found -1.69)(a -5.49)(whole -6.46)(prey -5.12)(. -5.85) line score is : -3.838, look ahead score is : 0.000
+-------------------------score:  -3.771843807771802;  adjusted_score: -3.748822374045849----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ and the fact therein set a whole prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(and -0.62)(the -1.41)(fact -4.12)(therein -3.78)(set -1.69)(a -4.70)(whole -8.08)(prey -4.16)(. -7.74) line score is : -4.033, look ahead score is : 0.000
+-------------------------score:  -3.7735641170293093;  adjusted_score: -3.7505426833033564----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ and the course therein set a whole prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(and -0.62)(the -1.41)(course -4.12)(therein -3.78)(set -1.69)(a -4.34)(whole -8.49)(prey -3.98)(. -7.87) line score is : -4.032, look ahead score is : 0.000
+======================= template: 27 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ WOULD VB VBD THE NN VBN FROM PRP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ would arise were the kid taken from us 
+-------------------------score:  -3.716144684702158;  adjusted_score: -3.6934807158261536----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ which he told in the rain , 
+ would have made the world ashamed from we . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(which -8.00)(he -2.61)(told -3.86)(in -2.29)(the -2.85)(rain -2.97)(, -2.22) line score is : -3.542, look ahead score is : 0.580
+(would -2.22)(have -7.36)(made -0.67)(the -4.97)(world -1.87)(ashamed -2.73)(from -2.46)(we -4.40)(. -5.57) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.723072711378336;  adjusted_score: -3.7004087425023315----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his pain , 
+ which he told in the rain , 
+ would have made the world ashamed from they . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(pain -1.96)(, -8.00) line score is : -3.808, look ahead score is : 0.553
+(which -8.00)(he -2.61)(told -3.86)(in -2.29)(the -2.85)(rain -2.97)(, -2.22) line score is : -3.542, look ahead score is : 0.580
+(would -2.22)(have -7.36)(made -0.67)(the -4.97)(world -1.87)(ashamed -2.73)(from -2.46)(they -4.40)(. -5.57) line score is : -3.582, look ahead score is : 0.000
+======================= template: 28 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ AND WHAT PRP RB VBD , 
+ WOULD VB VBD THE NN VBN FROM PRP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ and what he then said 
+ would arise were the kid taken from us 
+-------------------------score:  -3.7464003312972283;  adjusted_score: -3.7253381271299815----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ and what he actually was , 
+ would have had the effect known from we . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(and -8.06)(what -2.93)(he -2.01)(actually -3.76)(was -1.33)(, -6.11) line score is : -4.036, look ahead score is : 0.500
+(would -6.11)(have -4.50)(had -1.00)(the -4.78)(effect -2.58)(known -4.12)(from -3.49)(we -1.57)(. -8.63) line score is : -4.086, look ahead score is : 0.000
+-------------------------score:  -3.829390654640813;  adjusted_score: -3.8083284504735664----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ and what he actually was , 
+ would have made the reader put from they . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(and -8.06)(what -2.93)(he -2.01)(actually -3.76)(was -1.33)(, -6.11) line score is : -4.036, look ahead score is : 0.500
+(would -6.11)(have -4.50)(made -1.00)(the -4.78)(reader -2.58)(put -3.66)(from -2.70)(they -3.92)(. -7.37) line score is : -4.070, look ahead score is : 0.000
+======================= template: 29 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ OF THE NN FROM NN TO NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ of the distance from object to source 
+-------------------------score:  -3.760946491072255;  adjusted_score: -3.737925057346302----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ of the battle from whence to survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(of -0.62)(the -1.41)(battle -4.12)(from -5.77)(whence -2.00)(to -4.55)(survey -6.14)(. -4.10) line score is : -3.589, look ahead score is : 0.000
+======================= template: 30 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ I did n't think life was this way 
+-------------------------score:  -3.8089399468153715;  adjusted_score: -3.7859185130894186----------------------- 
+there was a general named jose 
+ who suffered a great deal on his way . 
+ the story of his cause , 
+ in the form that it was , 
+ it was not read till said this survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(deal -1.68)(on -5.16)(his -1.60)(way -1.55)(. -3.97) line score is : -3.251, look ahead score is : 0.000
+(the -3.97)(story -3.11)(of -3.96)(his -1.85)(cause -1.96)(, -8.06) line score is : -3.819, look ahead score is : 0.553
+(in -8.06)(the -2.93)(form -4.20)(that -2.21)(it -2.62)(was -3.60)(, -0.62) line score is : -3.464, look ahead score is : 0.598
+(it -0.62)(was -1.41)(not -4.12)(read -6.45)(till -1.56)(said -2.74)(this -7.43)(survey -3.98)(. -9.42) line score is : -4.194, look ahead score is : 0.000

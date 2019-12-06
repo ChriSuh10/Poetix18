@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.46975815516931;  adjusted_score: -4.4449808981738705----------------------- 
+there once was a captain named theodore 
+ whose ship made much slower than before . 
+ she was out one elbow , 
+ in a different row , 
+ and was on the horizontal score . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(ship -3.57)(made -5.35)(much -7.80)(slower -5.76)(than -1.34)(before -5.95)(. -1.61) line score is : -4.581, look ahead score is : 0.000
+(she -1.61)(was -1.88)(out -1.73)(one -6.11)(elbow -7.33)(, -13.53) line score is : -5.365, look ahead score is : 0.602
+(in -13.53)(a -2.06)(different -4.56)(row -2.32)(, -5.72) line score is : -5.637, look ahead score is : 0.637
+(and -5.72)(was -5.70)(on -0.70)(the -1.38)(horizontal -3.15)(score -4.67)(. -1.35) line score is : -3.238, look ahead score is : 0.000

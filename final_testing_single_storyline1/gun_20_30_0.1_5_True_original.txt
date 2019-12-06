@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.254256539874607;  adjusted_score: -4.239372383289868----------------------- 
+there was a loud man named theodore 
+ whose head shot straight higher than before . 
+ he looked out one fire , 
+ in a little higher , 
+ and saw on the immediate door . 
+------------------------- score breakdown ------------------------ 
+(whose -6.14)(head -4.78)(shot -5.31)(straight -3.24)(higher -9.33)(than -0.64)(before -4.68)(. -1.35) line score is : -4.435, look ahead score is : 0.000
+(he -1.35)(looked -2.02)(out -2.91)(one -4.40)(fire -6.42)(, -8.49) line score is : -4.265, look ahead score is : 0.588
+(in -8.49)(a -3.17)(little -5.48)(higher -2.58)(, -4.19) line score is : -4.780, look ahead score is : 0.156
+(and -4.19)(saw -7.28)(on -3.17)(the -1.25)(immediate -2.18)(door -6.05)(. -0.49) line score is : -3.514, look ahead score is : 0.000
+-------------------------score:  -4.368341578377618;  adjusted_score: -4.3534574217928785----------------------- 
+there was a loud man named theodore 
+ whose head shot straight higher than before . 
+ he looked out one fire , 
+ in a little higher , 
+ and saw on the immediate war . 
+------------------------- score breakdown ------------------------ 
+(whose -6.14)(head -4.78)(shot -5.31)(straight -3.24)(higher -9.33)(than -0.64)(before -4.68)(. -1.35) line score is : -4.435, look ahead score is : 0.000
+(he -1.35)(looked -2.02)(out -2.91)(one -4.40)(fire -6.42)(, -8.49) line score is : -4.265, look ahead score is : 0.588
+(in -8.49)(a -3.17)(little -5.48)(higher -2.58)(, -4.19) line score is : -4.780, look ahead score is : 0.156
+(and -4.19)(saw -7.28)(on -3.17)(the -1.25)(immediate -2.18)(war -6.05)(. -0.49) line score is : -3.514, look ahead score is : 0.000
+-------------------------score:  -4.489277883812234;  adjusted_score: -4.474393727227494----------------------- 
+there was a loud man named theodore 
+ whose head shot straight higher than before . 
+ he looked out one fire , 
+ in a little higher , 
+ and saw on the immediate nor . 
+------------------------- score breakdown ------------------------ 
+(whose -6.14)(head -4.78)(shot -5.31)(straight -3.24)(higher -9.33)(than -0.64)(before -4.68)(. -1.35) line score is : -4.435, look ahead score is : 0.000
+(he -1.35)(looked -2.02)(out -2.91)(one -4.40)(fire -6.42)(, -8.49) line score is : -4.265, look ahead score is : 0.588
+(in -8.49)(a -3.17)(little -5.48)(higher -2.58)(, -4.19) line score is : -4.780, look ahead score is : 0.156
+(and -4.19)(saw -7.28)(on -3.17)(the -1.25)(immediate -2.18)(nor -6.05)(. -0.49) line score is : -3.514, look ahead score is : 0.000

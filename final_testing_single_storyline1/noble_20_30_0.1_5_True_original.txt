@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.812461811083335;  adjusted_score: -4.788712528872269----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the previous cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(previous -3.57)(cannot -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.813413695052818;  adjusted_score: -4.789664412841752----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and died on the previous cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(died -8.98)(on -1.38)(the -1.84)(previous -4.17)(cannot -3.43)(. -0.57) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -4.831456709791113;  adjusted_score: -4.8077074275800475----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and died on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(died -8.98)(on -1.38)(the -1.84)(opposite -4.17)(cannot -3.43)(. -0.57) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -4.838516732056935;  adjusted_score: -4.81476744984587----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(opposite -3.57)(cannot -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.844137419153143;  adjusted_score: -4.820416521418978----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and died on the previous cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(died -9.21)(on -1.45)(the -1.74)(previous -4.75)(cannot -3.27)(. -0.63) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -4.849915968047248;  adjusted_score: -4.826166685836182----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and died on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(died -8.98)(on -1.38)(the -1.84)(contrary -4.17)(cannot -3.43)(. -0.57) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -4.853249163539322;  adjusted_score: -4.829499881328256----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the intervening sought . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(intervening -3.57)(sought -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.854292308842695;  adjusted_score: -4.830543026631629----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and died on the intervening sought . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(died -8.98)(on -1.38)(the -1.84)(intervening -4.17)(sought -3.43)(. -0.57) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -4.855319680990996;  adjusted_score: -4.83157039877993----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and died on the intervening not . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(died -8.98)(on -1.38)(the -1.84)(intervening -4.17)(not -3.43)(. -0.57) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -4.857858818990213;  adjusted_score: -4.834109536779147----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the intervening not . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(intervening -3.57)(not -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.865885273174003;  adjusted_score: -4.842164375439838----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and died on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(died -9.21)(on -1.45)(the -1.74)(opposite -4.75)(cannot -3.27)(. -0.63) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -4.869499352243212;  adjusted_score: -4.8457784545090465----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and killed on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(killed -9.21)(on -1.45)(the -1.74)(opposite -4.93)(cannot -3.73)(. -0.63) line score is : -3.723, look ahead score is : 0.000
+-------------------------score:  -4.873034444120195;  adjusted_score: -4.84928516190913----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(contrary -3.57)(cannot -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.903895044768298;  adjusted_score: -4.880145762557232----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and fell on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(fell -9.17)(on -0.80)(the -1.67)(opposite -4.81)(cannot -3.14)(. -1.35) line score is : -3.367, look ahead score is : 0.000
+-------------------------score:  -4.903976605998145;  adjusted_score: -4.88025570826398----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and died on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(died -9.21)(on -1.45)(the -1.74)(contrary -4.75)(cannot -3.27)(. -0.63) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -4.9128208888901606;  adjusted_score: -4.889071606679095----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the subsequent cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(subsequent -3.57)(cannot -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.935297202180933;  adjusted_score: -4.9115763044467675----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and was on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(was -9.21)(on -1.45)(the -1.74)(opposite -2.96)(cannot -5.06)(. -1.15) line score is : -3.706, look ahead score is : 0.000
+-------------------------score:  -4.9427563481860695;  adjusted_score: -4.919035450451904----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and killed on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(killed -9.21)(on -1.45)(the -1.74)(contrary -4.93)(cannot -3.73)(. -0.63) line score is : -3.723, look ahead score is : 0.000
+-------------------------score:  -4.943810087663156;  adjusted_score: -4.92006080545209----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and was on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(was -9.17)(on -0.80)(the -1.67)(opposite -2.30)(cannot -6.18)(. -0.81) line score is : -3.364, look ahead score is : 0.000
+-------------------------score:  -4.95110966541149;  adjusted_score: -4.927388767677325----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ i was out one likewise , 
+ in a different size , 
+ and was on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(i -0.41)(was -4.09)(out -3.11)(one -6.68)(likewise -6.76)(, -15.21) line score is : -6.043, look ahead score is : 0.579
+(in -15.21)(a -1.68)(different -3.47)(size -2.07)(, -4.46) line score is : -5.375, look ahead score is : 0.607
+(and -4.46)(was -9.10)(on -1.59)(the -1.46)(opposite -3.23)(cannot -4.77)(. -1.22) line score is : -3.691, look ahead score is : 0.000
+-------------------------score:  -4.956166271810178;  adjusted_score: -4.932416989599113----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and died on the usual cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(died -8.98)(on -1.38)(the -1.84)(usual -4.17)(cannot -3.43)(. -0.57) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -4.959912032992752;  adjusted_score: -4.936162750781686----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and was on the opposite cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(was -8.98)(on -1.38)(the -1.84)(opposite -3.09)(cannot -6.08)(. -0.82) line score is : -3.668, look ahead score is : 0.000
+-------------------------score:  -4.964298272574389;  adjusted_score: -4.940577374840224----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and died on the usual cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(died -9.21)(on -1.45)(the -1.74)(usual -4.75)(cannot -3.27)(. -0.63) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -4.9757161162517685;  adjusted_score: -4.951966834040703----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the usual cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(usual -3.57)(cannot -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -4.979484090098628;  adjusted_score: -4.955734807887563----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and had on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(had -8.98)(on -1.38)(the -1.84)(contrary -4.31)(cannot -6.23)(. -1.91) line score is : -4.019, look ahead score is : 0.000
+-------------------------score:  -4.997972974070796;  adjusted_score: -4.974223691859731----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and lost on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(lost -8.98)(on -1.38)(the -1.84)(contrary -3.97)(cannot -5.29)(. -1.70) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -5.00747874489537;  adjusted_score: -4.983757847161205----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he was out one likewise , 
+ in a different size , 
+ and was on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(was -2.39)(out -1.31)(one -7.21)(likewise -7.73)(, -15.94) line score is : -5.832, look ahead score is : 0.579
+(in -15.94)(a -2.22)(different -3.18)(size -2.11)(, -4.37) line score is : -5.566, look ahead score is : 0.607
+(and -4.37)(was -9.21)(on -1.45)(the -1.74)(contrary -2.96)(cannot -5.06)(. -1.15) line score is : -3.706, look ahead score is : 0.000
+-------------------------score:  -5.011029404622537;  adjusted_score: -4.987280122411471----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and died on the intervening brought . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(died -9.17)(on -0.80)(the -1.67)(intervening -3.57)(brought -3.27)(. -0.58) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -5.014143076207903;  adjusted_score: -4.990393793996837----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ in a different size , 
+ and was on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(in -14.23)(a -2.76)(different -3.69)(size -2.32)(, -3.49) line score is : -5.299, look ahead score is : 0.607
+(and -3.49)(was -8.98)(on -1.38)(the -1.84)(contrary -3.09)(cannot -6.08)(. -0.82) line score is : -3.668, look ahead score is : 0.000
+-------------------------score:  -5.0155682696236505;  adjusted_score: -4.991818987412585----------------------- 
+there was a wise soldier named scott 
+ whose death doomed much earlier than thought . 
+ he fought out one likewise , 
+ though a different size , 
+ and was on the contrary cannot . 
+------------------------- score breakdown ------------------------ 
+(whose -5.77)(death -4.04)(doomed -8.46)(much -5.97)(earlier -8.20)(than -1.33)(thought -6.74)(. -0.41) line score is : -5.113, look ahead score is : 0.000
+(he -0.41)(fought -2.39)(out -4.83)(one -6.26)(likewise -6.48)(, -14.23) line score is : -5.767, look ahead score is : 0.580
+(though -14.23)(a -2.76)(different -3.85)(size -4.09)(, -2.62) line score is : -5.510, look ahead score is : 0.607
+(and -2.62)(was -9.17)(on -0.80)(the -1.67)(contrary -2.30)(cannot -6.18)(. -0.81) line score is : -3.364, look ahead score is : 0.000

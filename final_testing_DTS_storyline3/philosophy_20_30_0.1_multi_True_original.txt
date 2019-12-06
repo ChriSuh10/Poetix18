@@ -1,0 +1,154 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.3091759756207466;  adjusted_score: -3.2857071954011916----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ but he had his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(but -0.21)(he -6.78)(had -2.03)(his -2.89)(enemies -1.30)(and -3.33)(lay -3.08)(. -4.50) line score is : -3.013, look ahead score is : 0.000
+-------------------------score:  -3.327446336050828;  adjusted_score: -3.3037499596675235----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his knowledge and his light , 
+ but he had his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(knowledge -1.54)(and -1.43)(his -2.82)(light -1.77)(, -0.25) line score is : -2.767, look ahead score is : 0.581
+(but -0.25)(he -7.25)(had -2.08)(his -2.94)(enemies -1.23)(and -3.32)(lay -3.13)(. -4.53) line score is : -3.090, look ahead score is : 0.000
+-------------------------score:  -3.3610075627764067;  adjusted_score: -3.3375387825568517----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ but he knew his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(but -0.21)(he -6.78)(knew -2.03)(his -2.89)(enemies -1.30)(and -3.88)(lay -2.87)(. -5.65) line score is : -3.199, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBD RB THE NN PRP VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ he was n't the wizard he woz 
+-------------------------score:  -3.3359480892618496;  adjusted_score: -3.3124793090422946----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was truly the master he lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(truly -2.03)(the -3.28)(master -1.72)(he -4.74)(lay -2.52)(. -4.05) line score is : -3.166, look ahead score is : 0.000
+-------------------------score:  -3.3825811341404917;  adjusted_score: -3.3591123539209367----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was also the father he lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(also -2.03)(the -3.28)(father -1.72)(he -5.09)(lay -2.94)(. -3.98) line score is : -3.253, look ahead score is : 0.000
+-------------------------score:  -3.415423468252023;  adjusted_score: -3.391954688032468----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was always the hero he lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(always -2.03)(the -3.28)(hero -1.72)(he -2.71)(lay -3.97)(. -5.54) line score is : -3.281, look ahead score is : 0.000
+-------------------------score:  -3.4173793668548265;  adjusted_score: -3.3939105866352715----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was always the person i lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(always -2.03)(the -3.28)(person -1.72)(i -2.71)(lay -3.97)(. -5.07) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.4204184010624887;  adjusted_score: -3.3969496208429337----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was also the person he lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(also -2.03)(the -3.28)(person -1.72)(he -5.09)(lay -2.94)(. -3.98) line score is : -3.253, look ahead score is : 0.000
+-------------------------score:  -3.4421965713302294;  adjusted_score: -3.4187277911106744----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was always the person he lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(always -2.03)(the -3.28)(person -1.72)(he -2.71)(lay -3.97)(. -5.07) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.445715319613616;  adjusted_score: -3.422246539394061----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was always the person you lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(always -2.03)(the -3.28)(person -1.72)(you -2.71)(lay -3.97)(. -5.07) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.451450136800607;  adjusted_score: -3.427981356581052----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was also the person i lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(also -2.03)(the -3.28)(person -1.72)(i -5.09)(lay -2.94)(. -3.98) line score is : -3.253, look ahead score is : 0.000
+-------------------------score:  -3.4832267875472707;  adjusted_score: -3.4597580073277157----------------------- 
+there was a wise teacher named jose 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ he was always the person we lay . 
+------------------------- score breakdown ------------------------ 
+(who -2.58)(learned -5.77)(a -2.94)(great -1.99)(deal -0.16)(on -5.84)(his -1.03)(way -2.41)(. -3.55) line score is : -2.920, look ahead score is : 0.000
+(he -3.55)(lived -1.86)(for -5.16)(his -3.41)(insight -3.21)(, -8.78) line score is : -4.331, look ahead score is : 0.604
+(his -8.78)(wisdom -1.54)(and -1.43)(his -2.91)(light -1.64)(, -0.21) line score is : -2.754, look ahead score is : 0.570
+(he -0.21)(was -6.78)(always -2.03)(the -3.28)(person -1.72)(we -2.71)(lay -3.97)(. -5.07) line score is : -3.221, look ahead score is : 0.000

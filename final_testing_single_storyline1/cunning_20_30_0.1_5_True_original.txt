@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.8078660755245775;  adjusted_score: -4.784807927125582----------------------- 
+there was a warrior named ambrose 
+ whose name cursed far deeper than shadows . 
+ he fought out one cruel , 
+ though a natural rule , 
+ and took on the legendary foes . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(name -1.44)(cursed -12.27)(far -7.54)(deeper -5.19)(than -0.42)(shadows -9.78)(. -1.95) line score is : -5.431, look ahead score is : 0.000
+(he -1.95)(fought -1.42)(out -3.99)(one -6.48)(cruel -6.89)(, -6.37) line score is : -4.515, look ahead score is : 0.558
+(though -6.37)(a -3.16)(natural -7.66)(rule -5.85)(, -5.25) line score is : -5.660, look ahead score is : 0.595
+(and -5.25)(took -9.60)(on -1.19)(the -2.30)(legendary -5.02)(foes -3.88)(. -1.22) line score is : -4.066, look ahead score is : 0.000
+-------------------------score:  -5.045795207774198;  adjusted_score: -5.022737059375203----------------------- 
+there was a warrior named ambrose 
+ whose name cursed far deeper than shadows . 
+ he fought out one cruel , 
+ though a natural rule , 
+ and took on the legendary knows . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(name -1.44)(cursed -12.27)(far -7.54)(deeper -5.19)(than -0.42)(shadows -9.78)(. -1.95) line score is : -5.431, look ahead score is : 0.000
+(he -1.95)(fought -1.42)(out -3.99)(one -6.48)(cruel -6.89)(, -6.37) line score is : -4.515, look ahead score is : 0.558
+(though -6.37)(a -3.16)(natural -7.66)(rule -5.85)(, -5.25) line score is : -5.660, look ahead score is : 0.595
+(and -5.25)(took -9.60)(on -1.19)(the -2.30)(legendary -5.02)(knows -3.88)(. -1.22) line score is : -4.066, look ahead score is : 0.000
+-------------------------score:  -5.05739125167882;  adjusted_score: -5.034333103279825----------------------- 
+there was a warrior named ambrose 
+ whose name cursed far deeper than shadows . 
+ he fought out one cruel , 
+ though a natural rule , 
+ and took on the legendary prose . 
+------------------------- score breakdown ------------------------ 
+(whose -4.86)(name -1.44)(cursed -12.27)(far -7.54)(deeper -5.19)(than -0.42)(shadows -9.78)(. -1.95) line score is : -5.431, look ahead score is : 0.000
+(he -1.95)(fought -1.42)(out -3.99)(one -6.48)(cruel -6.89)(, -6.37) line score is : -4.515, look ahead score is : 0.558
+(though -6.37)(a -3.16)(natural -7.66)(rule -5.85)(, -5.25) line score is : -5.660, look ahead score is : 0.595
+(and -5.25)(took -9.60)(on -1.19)(the -2.30)(legendary -5.02)(prose -3.88)(. -1.22) line score is : -4.066, look ahead score is : 0.000

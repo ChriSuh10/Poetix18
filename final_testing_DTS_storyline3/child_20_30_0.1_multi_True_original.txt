@@ -1,0 +1,506 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.924091241576455;  adjusted_score: -2.900070983984254----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she came back from the school , 
+ and she got to the pool , 
+ and she looked down and saw our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(came -2.16)(back -4.51)(from -4.43)(the -3.10)(school -1.60)(, -4.60) line score is : -3.162, look ahead score is : 0.628
+(and -4.60)(she -3.72)(got -2.19)(to -2.52)(the -3.60)(pool -3.71)(, -3.13) line score is : -3.353, look ahead score is : 0.573
+(and -3.13)(she -4.44)(looked -2.42)(down -0.78)(and -0.78)(saw -4.39)(our -2.67)(place -1.42)(. -1.72) line score is : -2.417, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.0199610139384414;  adjusted_score: -2.994266798827007----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(have -5.84)(sex -1.79)(to -1.13)(his -2.86)(music -0.77)(in -5.52)(place -3.28)(. -2.49) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -3.031408912304676;  adjusted_score: -3.0057146971932416----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.177, look ahead score is : 0.615
+(and -4.01)(have -5.84)(sex -1.79)(to -1.13)(his -2.86)(music -0.77)(in -5.52)(place -3.28)(. -2.49) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -3.0335910446716077;  adjusted_score: -3.007896829560173----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(his -2.83)(music -0.75)(in -5.45)(place -3.81)(. -2.61) line score is : -3.135, look ahead score is : 0.000
+-------------------------score:  -3.0450389430378424;  adjusted_score: -3.019344727926408----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.336, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(his -2.83)(music -0.75)(in -5.45)(place -3.81)(. -2.61) line score is : -3.135, look ahead score is : 0.000
+-------------------------score:  -3.0608162067153235;  adjusted_score: -3.035121991603889----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to their music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(their -2.83)(music -0.75)(in -5.45)(place -4.48)(. -2.73) line score is : -3.223, look ahead score is : 0.000
+-------------------------score:  -3.0629149783741343;  adjusted_score: -3.0372207632626997----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at her pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(her -0.92)(pool -3.61)(, -4.40) line score is : -3.169, look ahead score is : 0.615
+(and -4.40)(have -6.59)(sex -1.70)(to -1.11)(his -2.88)(music -0.79)(in -5.48)(place -3.62)(. -2.67) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.0722641050815582;  adjusted_score: -3.0465698899701237----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to their music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.336, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(their -2.83)(music -0.75)(in -5.45)(place -4.48)(. -2.73) line score is : -3.223, look ahead score is : 0.000
+-------------------------score:  -3.074362876740369;  adjusted_score: -3.0486686616289345----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at her pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(her -0.92)(pool -3.61)(, -4.40) line score is : -3.234, look ahead score is : 0.615
+(and -4.40)(have -6.59)(sex -1.70)(to -1.11)(his -2.88)(music -0.79)(in -5.48)(place -3.62)(. -2.67) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.0753643223733613;  adjusted_score: -3.049946170346529----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a man at his pool , 
+ and have sex to his music in place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(man -4.16)(at -1.23)(his -2.90)(pool -3.72)(, -3.69) line score is : -3.366, look ahead score is : 0.601
+(and -3.69)(have -6.10)(sex -1.62)(to -1.09)(his -2.58)(music -0.66)(in -5.46)(place -3.29)(. -2.92) line score is : -3.045, look ahead score is : 0.000
+-------------------------score:  -3.1468218926227456;  adjusted_score: -3.121127677511311----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(have -5.84)(sex -1.79)(to -1.13)(his -2.86)(music -0.77)(in -5.52)(case -3.28)(. -2.49) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -3.15826979098898;  adjusted_score: -3.1325755758775453----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.177, look ahead score is : 0.615
+(and -4.01)(have -5.84)(sex -1.79)(to -1.13)(his -2.86)(music -0.77)(in -5.52)(case -3.28)(. -2.49) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -3.1611387783830818;  adjusted_score: -3.1354445632716472----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(his -2.83)(music -0.75)(in -5.45)(case -3.81)(. -2.61) line score is : -3.135, look ahead score is : 0.000
+-------------------------score:  -3.172586676749316;  adjusted_score: -3.1468924616378815----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.336, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(his -2.83)(music -0.75)(in -5.45)(case -3.81)(. -2.61) line score is : -3.135, look ahead score is : 0.000
+-------------------------score:  -3.1879385077592097;  adjusted_score: -3.162244292647775----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to their music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(their -2.83)(music -0.75)(in -5.45)(case -4.48)(. -2.73) line score is : -3.223, look ahead score is : 0.000
+-------------------------score:  -3.1920332619638154;  adjusted_score: -3.166339046852381----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at her pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(her -0.92)(pool -3.61)(, -4.40) line score is : -3.169, look ahead score is : 0.615
+(and -4.40)(have -6.59)(sex -1.70)(to -1.11)(his -2.88)(music -0.79)(in -5.48)(case -3.62)(. -2.67) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.1993864061254444;  adjusted_score: -3.17369219101401----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and have sex to their music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.336, look ahead score is : 0.615
+(and -5.11)(have -4.79)(sex -1.75)(to -1.13)(their -2.83)(music -0.75)(in -5.45)(case -4.48)(. -2.73) line score is : -3.223, look ahead score is : 0.000
+-------------------------score:  -3.2034811603300497;  adjusted_score: -3.177786945218615----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at her pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(meet -5.39)(a -2.93)(guy -4.16)(at -1.23)(her -0.92)(pool -3.61)(, -4.40) line score is : -3.234, look ahead score is : 0.615
+(and -4.40)(have -6.59)(sex -1.70)(to -1.11)(his -2.88)(music -0.79)(in -5.48)(case -3.62)(. -2.67) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.204283179658832;  adjusted_score: -3.178865027632----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a man at his pool , 
+ and have sex to his music in case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(man -4.16)(at -1.23)(his -2.90)(pool -3.72)(, -3.69) line score is : -3.366, look ahead score is : 0.601
+(and -3.69)(have -6.10)(sex -1.62)(to -1.09)(his -2.58)(music -0.66)(in -5.46)(case -3.29)(. -2.92) line score is : -3.045, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.207351702632326;  adjusted_score: -3.183331445040125----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she came back from the school , 
+ and she got to the pool , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(came -2.16)(back -4.51)(from -4.43)(the -3.10)(school -1.60)(, -4.60) line score is : -3.162, look ahead score is : 0.628
+(and -4.60)(she -3.72)(got -2.19)(to -2.52)(the -3.60)(pool -3.71)(, -3.13) line score is : -3.353, look ahead score is : 0.573
+(and -3.13)(she -4.44)(did -2.42)(not -0.78)(like -0.78)(feeling -4.21)(of -2.90)(place -3.02)(. -6.68) line score is : -3.153, look ahead score is : 0.000
+-------------------------score:  -3.2244668864842616;  adjusted_score: -3.2004466288920606----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she came back from the school , 
+ and she got to the pool , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(came -2.05)(back -4.26)(from -4.42)(the -3.42)(school -1.52)(, -5.22) line score is : -3.222, look ahead score is : 0.628
+(and -5.22)(she -3.78)(got -2.19)(to -2.52)(the -3.60)(pool -3.71)(, -3.13) line score is : -3.450, look ahead score is : 0.573
+(and -3.13)(she -4.44)(did -2.42)(not -0.78)(like -0.78)(feeling -4.21)(of -2.90)(place -3.02)(. -6.68) line score is : -3.153, look ahead score is : 0.000
+-------------------------score:  -3.2594583160949475;  adjusted_score: -3.2354380585027465----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she came back from the school , 
+ and she got to the pool , 
+ and she was alone like hell of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(came -2.16)(back -4.51)(from -4.43)(the -3.10)(school -1.60)(, -4.60) line score is : -3.162, look ahead score is : 0.628
+(and -4.60)(she -3.72)(got -2.19)(to -2.52)(the -3.60)(pool -3.71)(, -3.13) line score is : -3.353, look ahead score is : 0.573
+(and -3.13)(she -4.44)(was -2.42)(alone -0.78)(like -0.78)(hell -2.20)(of -5.87)(place -7.03)(. -3.43) line score is : -3.343, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2106112765543386;  adjusted_score: -3.1857437550299093----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and it was always like hell of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(and -4.84)(she -3.03)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.436, look ahead score is : 0.573
+(and -3.52)(it -4.98)(was -1.75)(always -0.38)(like -4.23)(hell -0.31)(of -5.21)(place -3.76)(. -6.42) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.2220591749205734;  adjusted_score: -3.197191653396144----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and it was always like hell of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(and -5.39)(she -2.93)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.501, look ahead score is : 0.573
+(and -3.52)(it -4.98)(was -1.75)(always -0.38)(like -4.23)(hell -0.31)(of -5.21)(place -3.76)(. -6.42) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.244489259792097;  adjusted_score: -3.2196217382676675----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(and -4.84)(she -3.03)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.436, look ahead score is : 0.573
+(and -3.52)(it -4.98)(was -1.75)(not -0.38)(like -4.23)(something -0.31)(of -5.61)(place -3.61)(. -6.10) line score is : -3.387, look ahead score is : 0.000
+-------------------------score:  -3.247793324065931;  adjusted_score: -3.2229258025415017----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(and -4.84)(she -3.03)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.436, look ahead score is : 0.573
+(and -3.52)(she -4.98)(did -1.75)(not -0.38)(like -0.69)(feeling -4.17)(of -4.55)(place -2.96)(. -6.92) line score is : -3.324, look ahead score is : 0.000
+-------------------------score:  -3.254857290874828;  adjusted_score: -3.2299897693503987----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and she was alone like hell of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(and -4.84)(she -3.03)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.436, look ahead score is : 0.573
+(and -3.52)(she -4.98)(was -1.75)(alone -0.38)(like -0.69)(hell -2.69)(of -5.65)(place -6.90)(. -4.04) line score is : -3.400, look ahead score is : 0.000
+-------------------------score:  -3.2592412224321654;  adjusted_score: -3.234373700907736----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(and -5.39)(she -2.93)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.501, look ahead score is : 0.573
+(and -3.52)(she -4.98)(did -1.75)(not -0.38)(like -0.69)(feeling -4.17)(of -4.55)(place -2.96)(. -6.92) line score is : -3.324, look ahead score is : 0.000
+-------------------------score:  -3.2663051892410624;  adjusted_score: -3.241437667716633----------------------- 
+there was a nervous girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ and she got to the pool , 
+ and she was alone like hell of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(wanted -4.30)(a -3.94)(big -4.76)(cock -1.70)(on -4.60)(her -0.15)(face -1.12)(. -1.66) line score is : -2.613, look ahead score is : 0.000
+(she -1.66)(would -2.05)(go -5.19)(to -4.03)(a -1.28)(school -2.86)(, -5.39) line score is : -3.211, look ahead score is : 0.670
+(and -5.39)(she -2.93)(got -2.71)(to -2.22)(the -4.92)(pool -2.82)(, -3.52) line score is : -3.501, look ahead score is : 0.573
+(and -3.52)(she -4.98)(was -1.75)(alone -0.38)(like -0.69)(hell -2.69)(of -5.65)(place -6.90)(. -4.04) line score is : -3.400, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2231711691076104;  adjusted_score: -3.197476953996176----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and it was almost like love of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(it -5.84)(was -1.79)(almost -1.13)(like -5.34)(love -1.42)(of -4.99)(place -1.35)(. -6.26) line score is : -3.571, look ahead score is : 0.000
+-------------------------score:  -3.2234669797348254;  adjusted_score: -3.197772764623391----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and it was almost like play of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(it -4.79)(was -1.75)(almost -1.13)(like -5.30)(play -1.42)(of -5.00)(place -1.37)(. -7.33) line score is : -3.688, look ahead score is : 0.000
+-------------------------score:  -3.2246710278771142;  adjusted_score: -3.1989768127656797----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and it was almost like play of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(it -5.84)(was -1.79)(almost -1.13)(like -5.34)(play -1.42)(of -4.99)(place -1.35)(. -7.38) line score is : -3.696, look ahead score is : 0.000
+-------------------------score:  -3.2280628771492927;  adjusted_score: -3.202368662037858----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and it was almost like love of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(it -4.79)(was -1.75)(almost -1.13)(like -5.30)(love -1.42)(of -5.00)(place -1.37)(. -6.34) line score is : -3.578, look ahead score is : 0.000
+-------------------------score:  -3.2287859772190903;  adjusted_score: -3.203091762107656----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and it was almost like fun of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(it -4.79)(was -1.75)(almost -1.13)(like -5.30)(fun -1.42)(of -5.00)(place -1.37)(. -7.18) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.2298231070691887;  adjusted_score: -3.204128891957754----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and it was almost like home of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(it -4.79)(was -1.75)(almost -1.13)(like -5.30)(home -1.42)(of -5.00)(place -1.37)(. -7.19) line score is : -3.672, look ahead score is : 0.000
+-------------------------score:  -3.2315247040806394;  adjusted_score: -3.205830488969205----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and it was almost like fun of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(it -5.84)(was -1.79)(almost -1.13)(like -5.34)(fun -1.42)(of -4.99)(place -1.35)(. -7.23) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -3.233488361040751;  adjusted_score: -3.2077941459293164----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and it was almost like home of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(it -5.84)(was -1.79)(almost -1.13)(like -5.34)(home -1.42)(of -4.99)(place -1.35)(. -7.16) line score is : -3.671, look ahead score is : 0.000
+-------------------------score:  -3.246120889981588;  adjusted_score: -3.2204266748701533----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and it was almost like fun of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(it -4.79)(was -1.75)(almost -1.13)(like -5.30)(fun -1.42)(of -5.00)(case -1.37)(. -7.18) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.2463877959684893;  adjusted_score: -3.2206935808570547----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and it was almost like fun of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(it -5.84)(was -1.79)(almost -1.13)(like -5.34)(fun -1.42)(of -4.99)(case -1.35)(. -7.23) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -3.287031903411403;  adjusted_score: -3.2613376882999683----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at his pool , 
+ and it was almost like life of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(his -0.92)(pool -3.61)(, -4.01) line score is : -3.113, look ahead score is : 0.615
+(and -4.01)(it -5.84)(was -1.79)(almost -1.13)(like -5.34)(life -1.42)(of -4.99)(case -1.35)(. -7.27) line score is : -3.684, look ahead score is : 0.000
+-------------------------score:  -3.2881472038500235;  adjusted_score: -3.262452988738589----------------------- 
+there was a cruel girl named chase 
+ who wanted a big cock on her face . 
+ she would go to a school , 
+ meet a guy at their pool , 
+ and it was almost like life of case . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(wanted -4.36)(a -3.75)(big -4.67)(cock -1.49)(on -4.95)(her -0.13)(face -1.16)(. -1.73) line score is : -2.610, look ahead score is : 0.000
+(she -1.73)(would -2.16)(go -4.99)(to -4.28)(a -1.19)(school -2.90)(, -4.84) line score is : -3.156, look ahead score is : 0.670
+(meet -4.84)(a -3.03)(guy -4.16)(at -1.23)(their -0.92)(pool -3.61)(, -5.11) line score is : -3.271, look ahead score is : 0.615
+(and -5.11)(it -4.79)(was -1.75)(almost -1.13)(like -5.30)(life -1.42)(of -5.00)(case -1.37)(. -7.31) line score is : -3.685, look ahead score is : 0.000

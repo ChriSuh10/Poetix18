@@ -1,0 +1,759 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD ON A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ she sat on a stile 
+ she was ready to give and to take 
+-------------------------score:  -3.20083809668018;  adjusted_score: -3.1771534230728307----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ she was afraid to speak and to pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(she -2.75)(was -4.48)(afraid -3.05)(to -3.42)(speak -1.31)(and -5.81)(to -1.28)(pray -2.40)(. -3.84) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -3.315710163885547;  adjusted_score: -3.292025490278198----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ she was condemned to die and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(she -2.75)(was -4.48)(condemned -3.05)(to -3.42)(die -1.31)(and -4.57)(to -0.79)(be -2.51)(. -2.77) line score is : -2.849, look ahead score is : 0.000
+-------------------------score:  -3.3307083268319406;  adjusted_score: -3.3070236532245914----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ she was afraid to speak and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(she -2.75)(was -4.48)(afraid -3.05)(to -3.42)(speak -1.31)(and -5.81)(to -1.28)(be -2.40)(. -3.84) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -3.357413953350436;  adjusted_score: -3.333729279743087----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ she was afraid to speak and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(she -2.75)(was -4.48)(afraid -3.05)(to -3.42)(speak -1.31)(and -5.81)(to -1.28)(say -2.40)(. -3.84) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -3.439198363211847;  adjusted_score: -3.4155136896044977----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ she was afraid to go and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(she -2.75)(was -4.48)(afraid -3.05)(to -3.42)(go -1.31)(and -5.81)(to -1.28)(be -2.41)(. -4.90) line score is : -3.266, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ WHICH VBD TO PRP$ NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ which came to his aid 
+ she was ready to give and to take 
+-------------------------score:  -3.229709799251249;  adjusted_score: -3.206112909725597----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ she was condemned to die and to pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(she -0.95)(was -7.10)(condemned -1.11)(to -1.58)(die -0.69)(and -3.68)(to -0.26)(pray -2.96)(. -3.29) line score is : -2.404, look ahead score is : 0.000
+-------------------------score:  -3.2310801484892444;  adjusted_score: -3.2074832589635927----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ she was condemned to die and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(she -0.95)(was -7.10)(condemned -1.11)(to -1.58)(die -0.69)(and -3.68)(to -0.26)(be -2.96)(. -3.29) line score is : -2.404, look ahead score is : 0.000
+-------------------------score:  -3.2467442798999047;  adjusted_score: -3.223147390374253----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ she was condemned to hang and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(she -0.95)(was -7.10)(condemned -1.11)(to -1.58)(hang -0.69)(and -3.68)(to -0.26)(be -4.72)(. -2.74) line score is : -2.539, look ahead score is : 0.000
+-------------------------score:  -3.287238195057838;  adjusted_score: -3.2636413055321865----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ she was condemned to burn and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(she -0.95)(was -7.10)(condemned -1.11)(to -1.58)(burn -0.69)(and -3.68)(to -0.26)(be -4.76)(. -3.91) line score is : -2.673, look ahead score is : 0.000
+-------------------------score:  -3.319109090874272;  adjusted_score: -3.2955122013486204----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ she was condemned to be and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(she -0.95)(was -7.10)(condemned -1.11)(to -1.58)(be -0.69)(and -3.68)(to -0.26)(be -3.23)(. -8.83) line score is : -3.049, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD AS PRP VBD ON A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ her thanks were so cold 
+ her hair got so light 
+ she was ready to give and to take 
+-------------------------score:  -3.2651302699119813;  adjusted_score: -3.240764412929214----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ she was afraid to breathe and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(she -0.72)(was -9.83)(afraid -0.71)(to -1.83)(breathe -1.83)(and -2.81)(to -1.63)(bear -1.91)(. -2.91) line score is : -2.687, look ahead score is : 0.000
+-------------------------score:  -3.277383737025722;  adjusted_score: -3.2525796214322886----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her dreams were so scary , 
+ her mind was so wary , 
+ she was afraid to sleep and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(dreams -4.66)(were -4.62)(so -1.05)(scary -3.42)(, -4.75) line score is : -3.534, look ahead score is : 0.569
+(her -4.75)(mind -1.82)(was -3.17)(so -2.51)(wary -1.51)(, -1.76) line score is : -2.584, look ahead score is : 0.671
+(she -1.76)(was -8.82)(afraid -1.32)(to -1.60)(sleep -2.31)(and -1.68)(to -1.49)(bear -2.16)(. -3.31) line score is : -2.716, look ahead score is : 0.000
+-------------------------score:  -3.292486133113984;  adjusted_score: -3.2681202761312167----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ she was afraid to speak and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(she -0.72)(was -9.83)(afraid -0.71)(to -1.83)(speak -1.83)(and -2.81)(to -1.63)(bear -2.36)(. -3.55) line score is : -2.807, look ahead score is : 0.000
+-------------------------score:  -3.2942461929013653;  adjusted_score: -3.269880335918598----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ she was afraid to breathe and to scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(she -0.72)(was -9.83)(afraid -0.71)(to -1.83)(breathe -1.83)(and -2.81)(to -1.63)(scare -1.91)(. -2.91) line score is : -2.687, look ahead score is : 0.000
+-------------------------score:  -3.3122818277728174;  adjusted_score: -3.28791597079005----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ she was afraid to speak and to scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(she -0.72)(was -9.83)(afraid -0.71)(to -1.83)(speak -1.83)(and -2.81)(to -1.63)(scare -2.36)(. -3.55) line score is : -2.807, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD ON A NN , 
+ BUT PRP$ NNS VBD DOWN TO PRP$ NNS . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ her thanks were so cold 
+ she sat on a stile 
+ but her glasses slipped down to her toes 
+-------------------------score:  -3.3541441122690836;  adjusted_score: -3.3304594386617343----------------------- 
+there was a selfish witch named lise 
+ who hated on one of her allies . 
+ her actions were so vile , 
+ she was on a trial , 
+ but her actions were down to her eyes . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(hated -4.53)(on -6.32)(one -6.33)(of -0.33)(her -1.43)(allies -6.69)(. -2.12) line score is : -3.636, look ahead score is : 0.000
+(her -2.12)(actions -4.70)(were -3.90)(so -2.63)(vile -2.96)(, -4.25) line score is : -3.426, look ahead score is : 0.569
+(she -4.25)(was -1.87)(on -1.56)(a -1.21)(trial -6.74)(, -2.52) line score is : -3.024, look ahead score is : 0.615
+(but -2.52)(her -5.03)(actions -3.05)(were -2.06)(down -3.00)(to -3.08)(her -0.87)(eyes -8.61)(. -2.05) line score is : -3.363, look ahead score is : 0.000
+-------------------------score:  -3.4656373004118604;  adjusted_score: -3.441952626804511----------------------- 
+there was a selfish witch named lise 
+ who hated on one of her allies . 
+ her actions were so vile , 
+ she was on a trial , 
+ but her allies were down to their eyes . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(hated -4.53)(on -6.32)(one -6.33)(of -0.33)(her -1.43)(allies -6.69)(. -2.12) line score is : -3.636, look ahead score is : 0.000
+(her -2.12)(actions -4.70)(were -3.90)(so -2.63)(vile -2.96)(, -4.25) line score is : -3.426, look ahead score is : 0.569
+(she -4.25)(was -1.87)(on -1.56)(a -1.21)(trial -6.74)(, -2.52) line score is : -3.024, look ahead score is : 0.615
+(but -2.52)(her -5.03)(allies -3.05)(were -2.06)(down -3.00)(to -3.91)(their -1.75)(eyes -8.38)(. -2.19) line score is : -3.543, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD ON A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ she sat on a stile 
+ and I hope that your day is a blast 
+-------------------------score:  -3.402470827102661;  adjusted_score: -3.378786153495312----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ and she swore that her life is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(and -2.75)(she -4.48)(swore -3.05)(that -1.23)(her -1.67)(life -6.00)(is -1.93)(a -3.70)(prey -3.57)(. -4.46) line score is : -3.284, look ahead score is : 0.000
+-------------------------score:  -3.4329906217753887;  adjusted_score: -3.4093059481680394----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ and i know that her fate is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(and -2.75)(i -4.48)(know -3.05)(that -1.23)(her -4.16)(fate -4.64)(is -1.74)(a -3.56)(prey -3.51)(. -2.44) line score is : -3.156, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD AS PRP VBD ON A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ her thanks were so cold 
+ her hair got so light 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.414476997568272;  adjusted_score: -3.3901111405855047----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the front of the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(the -9.83)(hair -0.71)(on -1.62)(the -3.07)(front -3.91)(of -0.90)(the -2.73)(bear -4.18)(. -0.05) line score is : -2.772, look ahead score is : 0.000
+-------------------------score:  -3.4269251009682193;  adjusted_score: -3.402559243985452----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the top of the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(the -9.83)(hair -0.71)(on -1.62)(the -3.07)(top -3.91)(of -0.90)(the -2.73)(bear -3.26)(. -0.06) line score is : -2.680, look ahead score is : 0.000
+-------------------------score:  -3.4863994929473847;  adjusted_score: -3.4620336359646173----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the end of the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(the -9.83)(hair -0.71)(on -1.62)(the -3.07)(end -3.91)(of -0.90)(the -2.73)(bear -5.07)(. -0.05) line score is : -2.860, look ahead score is : 0.000
+-------------------------score:  -3.545533275231719;  adjusted_score: -3.5211674182489516----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the right of the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(the -9.83)(hair -0.71)(on -1.62)(the -3.07)(right -3.91)(of -0.90)(the -2.73)(bear -4.48)(. -4.50) line score is : -3.246, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ with his spanner and jack in the box 
+-------------------------score:  -3.4523836255073546;  adjusted_score: -3.4264906233549115----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ with his help and knowledge in the spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(with -0.00)(his -1.79)(help -5.99)(and -4.07)(knowledge -4.76)(in -0.54)(the -2.72)(spell -3.30)(. -5.45) line score is : -3.181, look ahead score is : 0.000
+-------------------------score:  -3.462670656045278;  adjusted_score: -3.4367776538928347----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ with her husband and son in the spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(with -0.00)(her -1.79)(husband -5.99)(and -4.07)(son -1.81)(in -3.92)(the -2.93)(spell -1.78)(. -3.55) line score is : -2.871, look ahead score is : 0.000
+-------------------------score:  -3.487838502724965;  adjusted_score: -3.461945500572522----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ with his help and guidance in the spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(with -0.00)(his -1.79)(help -5.99)(and -4.07)(guidance -4.76)(in -0.54)(the -2.72)(spell -2.56)(. -5.68) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -3.5132566928863525;  adjusted_score: -3.4873636907339094----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ with her help and guidance in the spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(with -0.00)(her -1.79)(help -5.99)(and -4.07)(guidance -1.81)(in -3.69)(the -3.14)(spell -2.65)(. -5.72) line score is : -3.206, look ahead score is : 0.000
+-------------------------score:  -3.5141210397084555;  adjusted_score: -3.4882280375560124----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ with her husband and child in the spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(with -0.00)(her -1.79)(husband -5.99)(and -4.07)(child -1.81)(in -3.92)(the -2.93)(spell -3.33)(. -3.01) line score is : -2.983, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ WHICH VBD TO PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ which came to his aid 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4579208031777413;  adjusted_score: -3.434323913056043----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her exile , 
+ and she was now like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(exile -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(and -0.95)(she -5.90)(was -1.42)(now -2.82)(like -1.84)(someone -1.43)(of -4.87)(prey -6.90)(. -5.76) line score is : -3.544, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ TO A NN WHO VBD VBN LIKE A NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ to a man who was shaped like a cello 
+-------------------------score:  -3.470299320836221;  adjusted_score: -3.444406318683778----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ to a man who had been like a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(to -0.00)(a -1.79)(man -5.99)(who -4.27)(had -2.24)(been -3.01)(like -2.50)(a -1.89)(spell -2.02)(. -7.93) line score is : -3.165, look ahead score is : 0.000
+-------------------------score:  -3.502473132527103;  adjusted_score: -3.476624783343305----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her quest for mankind , 
+ she was able to find , 
+ to a man who had been like a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(quest -2.72)(for -2.22)(mankind -1.57)(, -9.60) line score is : -3.644, look ahead score is : 0.572
+(she -9.60)(was -1.00)(able -0.60)(to -3.72)(find -3.05)(, -0.00) line score is : -2.998, look ahead score is : 0.721
+(to -0.00)(a -2.65)(man -5.92)(who -4.67)(had -2.39)(been -3.07)(like -2.30)(a -1.87)(spell -1.99)(. -8.21) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.6522077360460834;  adjusted_score: -3.6263147338936403----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ to a man who had lived like a dwell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(to -0.00)(a -1.79)(man -5.99)(who -4.27)(had -2.24)(lived -3.01)(like -2.50)(a -1.89)(dwell -3.62)(. -6.74) line score is : -3.206, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHOSE NN VBD A NN IN NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ in my pocket for cash 
+ he was ready to faint 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.514234010130167;  adjusted_score: -3.488341007977724----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ as she had to do , she heard a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(as -0.00)(she -1.79)(had -5.99)(to -3.95)(do -1.39)(, -3.02)(she -5.58)(heard -2.17)(a -1.69)(spell -7.31)(. -6.73) line score is : -3.602, look ahead score is : 0.000
+-------------------------score:  -3.5386968217790127;  adjusted_score: -3.5128038196265696----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ as she had to do , she stole a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(as -0.00)(she -1.79)(had -5.99)(to -3.95)(do -1.39)(, -3.02)(she -5.58)(stole -2.17)(a -1.69)(spell -7.31)(. -8.12) line score is : -3.728, look ahead score is : 0.000
+-------------------------score:  -3.5527811720967293;  adjusted_score: -3.5268881699442862----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ as she said to be , she heard a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(as -0.00)(she -1.79)(said -5.99)(to -3.95)(be -1.39)(, -2.39)(she -3.37)(heard -5.03)(a -2.70)(spell -7.12)(. -6.58) line score is : -3.666, look ahead score is : 0.000
+-------------------------score:  -3.558172646909952;  adjusted_score: -3.532279644757509----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ as she had to do , she have a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(as -0.00)(she -1.79)(had -5.99)(to -3.95)(do -1.39)(, -3.02)(she -5.58)(have -2.17)(a -1.69)(spell -7.31)(. -7.92) line score is : -3.710, look ahead score is : 0.000
+-------------------------score:  -3.594583887606859;  adjusted_score: -3.568690885454416----------------------- 
+there was a selfish witch named manuel 
+ whose father possessed a soul in hell . 
+ in her search for mankind , 
+ she was able to find , 
+ as she had to do , she know a spell . 
+------------------------- score breakdown ------------------------ 
+(whose -4.97)(father -3.66)(possessed -6.81)(a -1.92)(soul -4.89)(in -4.08)(hell -3.15)(. -1.84) line score is : -3.916, look ahead score is : 0.000
+(in -1.84)(her -3.91)(search -2.72)(for -3.76)(mankind -0.30)(, -9.67) line score is : -3.701, look ahead score is : 0.574
+(she -9.67)(was -0.88)(able -0.55)(to -3.55)(find -3.29)(, -0.00) line score is : -2.993, look ahead score is : 0.721
+(as -0.00)(she -1.79)(had -5.99)(to -3.95)(do -1.39)(, -3.02)(she -5.58)(know -2.17)(a -1.69)(spell -7.31)(. -8.12) line score is : -3.729, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD ON A NN , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ she sat on a stile 
+ but I guess that you probably gnu 
+-------------------------score:  -3.526763411362966;  adjusted_score: -3.5030787377556165----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ but i believe that she actually be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(but -2.75)(i -4.48)(believe -3.05)(that -2.07)(she -4.25)(actually -3.65)(be -1.63)(. -1.39) line score is : -2.909, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD AS PRP VBD ON A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ her thanks were so cold 
+ her hair got so light 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.533387860944194;  adjusted_score: -3.5090220039614266----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she was almost like hell of scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(she -9.83)(was -0.71)(almost -1.62)(like -1.55)(hell -1.40)(of -5.30)(scare -3.66)(. -6.54) line score is : -3.480, look ahead score is : 0.000
+-------------------------score:  -3.542921039365953;  adjusted_score: -3.5185551823831855----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she was always like hell of scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(she -9.83)(was -0.71)(always -1.62)(like -1.55)(hell -1.40)(of -3.85)(scare -5.02)(. -6.94) line score is : -3.515, look ahead score is : 0.000
+-------------------------score:  -3.6351365850817774;  adjusted_score: -3.61077072809901----------------------- 
+there was a cruel witch named javier 
+ who thought as she did on a nightmare . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she was always like cold of bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(thought -5.11)(as -7.23)(she -0.95)(did -1.70)(on -5.43)(a -3.12)(nightmare -6.61)(. -2.71) line score is : -3.815, look ahead score is : 0.000
+(her -2.71)(eyes -4.66)(were -3.34)(so -1.36)(scary -3.89)(, -5.48) line score is : -3.574, look ahead score is : 0.569
+(her -5.48)(mouth -1.76)(was -2.49)(so -2.58)(wary -1.63)(, -0.72) line score is : -2.444, look ahead score is : 0.649
+(and -0.72)(she -9.83)(was -0.71)(always -1.62)(like -1.55)(cold -1.40)(of -3.85)(bear -5.02)(. -7.70) line score is : -3.600, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD ON A NN , 
+ BUT THE NN NN VBD PRP VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ she sat on a stile 
+ but the telephone book caused him pain 
+-------------------------score:  -3.5557431022326154;  adjusted_score: -3.532058428625266----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ but the court judge decided she be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(but -2.75)(the -4.48)(court -3.05)(judge -2.07)(decided -2.65)(she -2.95)(be -4.60)(. -3.21) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.564309362570445;  adjusted_score: -3.5406246889630957----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ but the court judge decided it be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(but -2.75)(the -4.48)(court -3.05)(judge -2.07)(decided -2.65)(it -2.95)(be -4.60)(. -3.21) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.6039667328198752;  adjusted_score: -3.580282059212526----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ but the court judge decided they be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(but -2.75)(the -4.48)(court -3.05)(judge -2.07)(decided -2.65)(they -2.95)(be -4.60)(. -3.21) line score is : -3.221, look ahead score is : 0.000
+-------------------------score:  -3.637298889954885;  adjusted_score: -3.6136142163475355----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was on a trial , 
+ but the court judge decided he be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(on -1.65)(a -0.97)(trial -6.89)(, -2.75) line score is : -2.913, look ahead score is : 0.615
+(but -2.75)(the -4.48)(court -3.05)(judge -2.07)(decided -2.65)(he -2.95)(be -4.60)(. -3.21) line score is : -3.221, look ahead score is : 0.000
+======================= template: 14 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ WHICH VBD TO PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ which came to his aid 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.6046639662800413;  adjusted_score: -3.5810670761583427----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her exile , 
+ as she was to be , i am a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(exile -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(as -0.95)(she -5.90)(was -1.42)(to -5.71)(be -1.58)(, -1.37)(i -5.26)(am -1.17)(a -5.76)(prey -5.63)(. -3.15) line score is : -3.446, look ahead score is : 0.000
+======================= template: 15 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY PRP$ NN , 
+ BUT THE NN NN VBD PRP VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was told by his wife 
+ but the telephone book caused him pain 
+-------------------------score:  -3.6114168282478087;  adjusted_score: -3.5863179889201158----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was charged by her trial , 
+ but the court judge decided she be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(charged -1.65)(by -0.97)(her -4.39)(trial -4.25)(, -3.15) line score is : -2.802, look ahead score is : 0.686
+(but -3.15)(the -7.04)(court -4.23)(judge -1.63)(decided -1.99)(she -2.32)(be -5.31)(. -3.44) line score is : -3.639, look ahead score is : 0.000
+-------------------------score:  -3.653052556899286;  adjusted_score: -3.627953717571593----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was charged by her trial , 
+ but the court judge decided it be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(charged -1.65)(by -0.97)(her -4.39)(trial -4.25)(, -3.15) line score is : -2.802, look ahead score is : 0.686
+(but -3.15)(the -7.04)(court -4.23)(judge -1.63)(decided -1.99)(it -2.32)(be -5.31)(. -3.44) line score is : -3.639, look ahead score is : 0.000
+-------------------------score:  -3.6675842538956673;  adjusted_score: -3.6424854145679744----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ she was charged by her trial , 
+ but the court judge decided they be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(she -3.39)(was -1.83)(charged -1.65)(by -0.97)(her -4.39)(trial -4.25)(, -3.15) line score is : -2.802, look ahead score is : 0.686
+(but -3.15)(the -7.04)(court -4.23)(judge -1.63)(decided -1.99)(they -2.32)(be -5.31)(. -3.44) line score is : -3.639, look ahead score is : 0.000
+======================= template: 16 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ WHICH VBD TO PRP$ NN , 
+ BUT THE NN NN VBD PRP VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ which came to his aid 
+ but the telephone book caused him pain 
+-------------------------score:  -3.6314420958360034;  adjusted_score: -3.6078452063103517----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ but the court judge decided she be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(but -0.95)(the -7.10)(court -1.11)(judge -3.50)(decided -2.43)(she -2.95)(be -5.13)(. -3.09) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -3.641953088839849;  adjusted_score: -3.618356199314197----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ but the court judge decided it be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(but -0.95)(the -7.10)(court -1.11)(judge -3.50)(decided -2.43)(it -2.95)(be -5.13)(. -3.09) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -3.6758225858211517;  adjusted_score: -3.6522256962955----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ but the court judge decided they be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(but -0.95)(the -7.10)(court -1.11)(judge -3.50)(decided -2.43)(they -2.95)(be -5.13)(. -3.09) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -3.6960597137610116;  adjusted_score: -3.67246282423536----------------------- 
+there was a cruel witch named jose 
+ who cursed a young woman on her way . 
+ her actions were so vile , 
+ which led to her trial , 
+ but the court judge decided he be . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(young -3.16)(woman -2.98)(on -5.30)(her -1.33)(way -2.10)(. -7.20) line score is : -3.659, look ahead score is : 0.000
+(her -7.20)(actions -4.40)(were -4.37)(so -2.41)(vile -2.20)(, -3.39) line score is : -3.996, look ahead score is : 0.569
+(which -3.39)(led -1.83)(to -6.62)(her -3.30)(trial -0.62)(, -0.95) line score is : -2.784, look ahead score is : 0.611
+(but -0.95)(the -7.10)(court -1.11)(judge -3.50)(decided -2.43)(he -2.95)(be -5.13)(. -3.09) line score is : -3.282, look ahead score is : 0.000

@@ -1,0 +1,1485 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ but it does n't come out of my purse 
+-------------------------score:  -2.847222917713225;  adjusted_score: -2.8218433448299765----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not die in our way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(die -2.09)(in -5.60)(our -0.85)(way -2.03)(. -2.24) line score is : -3.136, look ahead score is : 0.000
+-------------------------score:  -3.0045279981568456;  adjusted_score: -2.979148425273597----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not live in our way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(live -2.09)(in -5.60)(our -0.85)(way -4.62)(. -2.65) line score is : -3.470, look ahead score is : 0.000
+-------------------------score:  -3.037156774662435;  adjusted_score: -3.0117772017791866----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not die outside his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(die -2.09)(outside -5.60)(his -0.85)(way -2.03)(. -8.15) line score is : -3.793, look ahead score is : 0.000
+-------------------------score:  -3.0563319148495793;  adjusted_score: -3.030952341966331----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not die within his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(die -2.09)(within -5.60)(his -0.85)(way -2.03)(. -7.33) line score is : -3.702, look ahead score is : 0.000
+-------------------------score:  -3.0570315727964044;  adjusted_score: -3.031651999913156----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not mention in his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(mention -2.09)(in -5.60)(his -0.85)(way -4.74)(. -5.61) line score is : -3.813, look ahead score is : 0.000
+-------------------------score:  -3.1513943383470178;  adjusted_score: -3.1260147654637693----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not die unless his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(die -2.09)(unless -5.60)(his -0.85)(way -2.03)(. -6.58) line score is : -3.619, look ahead score is : 0.000
+-------------------------score:  -3.2507452415302396;  adjusted_score: -3.225365668646991----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he does not die although his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(does -3.51)(not -2.82)(die -2.09)(although -5.60)(his -0.85)(way -2.03)(. -8.74) line score is : -3.859, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ with the faith of a marytr 
+ and returned on the previous night 
+-------------------------score:  -2.941163634100268;  adjusted_score: -2.917981421389887----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and carried on the ancient story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(carried -9.08)(on -0.95)(the -1.18)(ancient -4.89)(story -2.16)(. -2.34) line score is : -3.106, look ahead score is : 0.000
+-------------------------score:  -2.9835873823012076;  adjusted_score: -2.960405169590827----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and started on the second story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(started -9.08)(on -0.95)(the -1.18)(second -4.27)(story -4.98)(. -1.88) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -2.9889362762051244;  adjusted_score: -2.9657540634947437----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and carried on the warrior story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(carried -9.08)(on -0.95)(the -1.18)(warrior -4.89)(story -2.16)(. -2.34) line score is : -3.106, look ahead score is : 0.000
+-------------------------score:  -3.013243992482462;  adjusted_score: -2.9900617797720814----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and carried on the noble story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(carried -9.08)(on -0.95)(the -1.18)(noble -4.89)(story -2.16)(. -2.34) line score is : -3.106, look ahead score is : 0.000
+-------------------------score:  -3.0154201003812973;  adjusted_score: -2.9922378876709166----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the warrior story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(warrior -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.0296717116669303;  adjusted_score: -3.0049482639566545----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the warrior story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(help -3.85)(of -2.32)(a -3.29)(wave -0.02)(, -1.86) line score is : -2.465, look ahead score is : 0.639
+(and -1.86)(took -9.60)(on -3.64)(the -1.18)(warrior -3.64)(story -2.98)(. -0.86) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.0489864830047853;  adjusted_score: -3.0258042702944046----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(terrible -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.0518854437095504;  adjusted_score: -3.0271619959992746----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(help -3.85)(of -2.32)(a -3.29)(wave -0.02)(, -1.86) line score is : -2.465, look ahead score is : 0.639
+(and -1.86)(took -9.60)(on -3.64)(the -1.18)(terrible -3.64)(story -2.98)(. -0.86) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.07455320548146;  adjusted_score: -3.0498297577711844----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the criminal story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(help -3.85)(of -2.32)(a -3.29)(wave -0.02)(, -1.86) line score is : -2.465, look ahead score is : 0.639
+(and -1.86)(took -9.60)(on -3.64)(the -1.18)(criminal -3.64)(story -2.98)(. -0.86) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.075414173425205;  adjusted_score: -3.0506907257149294----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the alien story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(help -3.85)(of -2.32)(a -3.29)(wave -0.02)(, -1.86) line score is : -2.465, look ahead score is : 0.639
+(and -1.86)(took -9.60)(on -3.64)(the -1.18)(alien -3.64)(story -2.98)(. -0.86) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.077581972845139;  adjusted_score: -3.0543997601347583----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the ultimate story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(ultimate -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.0829620688192305;  adjusted_score: -3.05977985610885----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the criminal story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(criminal -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.083925941298085;  adjusted_score: -3.0607437285877044----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the beautiful story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(beautiful -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.095032146260623;  adjusted_score: -3.070308698550347----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(help -3.85)(of -2.32)(a -3.29)(wave -0.02)(, -1.86) line score is : -2.465, look ahead score is : 0.639
+(and -1.86)(took -9.60)(on -3.64)(the -1.18)(dangerous -3.64)(story -2.98)(. -0.86) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.0955199599266052;  adjusted_score: -3.0723377472162245----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the powerful story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(powerful -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.1033142555144524;  adjusted_score: -3.0801320428040717----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(dangerous -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -3.1128966811924212;  adjusted_score: -3.0881732334821455----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the powerful story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(help -3.85)(of -2.32)(a -3.29)(wave -0.02)(, -1.86) line score is : -2.465, look ahead score is : 0.639
+(and -1.86)(took -9.60)(on -3.64)(the -1.18)(powerful -3.64)(story -2.98)(. -0.86) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.1194347893038104;  adjusted_score: -3.0962525765934297----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and took on the murderous story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(took -9.08)(on -0.95)(the -1.18)(murderous -3.63)(story -3.14)(. -0.84) line score is : -2.850, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and I hope that your day is a blast 
+-------------------------score:  -2.992846952243285;  adjusted_score: -2.9674673793600364----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his death is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(death -3.75)(is -2.26)(a -2.13)(way -2.83)(. -1.51) line score is : -3.190, look ahead score is : 0.000
+-------------------------score:  -3.026488727692402;  adjusted_score: -3.0011091548091535----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and i think that his death is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(i -7.91)(think -3.51)(that -1.43)(his -5.80)(death -3.15)(is -1.99)(a -3.71)(way -2.01)(. -2.39) line score is : -3.308, look ahead score is : 0.000
+-------------------------score:  -3.0336370982907037;  adjusted_score: -3.0082575254074553----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his death is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(death -3.55)(is -1.52)(a -2.59)(way -3.03)(. -2.33) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.0381520995588014;  adjusted_score: -3.012772526675553----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his death is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(death -4.31)(is -1.96)(a -2.03)(way -3.48)(. -1.69) line score is : -3.290, look ahead score is : 0.000
+-------------------------score:  -3.038365903225812;  adjusted_score: -3.0129863303425637----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we think that his death is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(think -3.51)(that -1.43)(his -5.40)(death -5.14)(is -1.45)(a -2.85)(way -2.01)(. -2.22) line score is : -3.308, look ahead score is : 0.000
+-------------------------score:  -3.0766861447782228;  adjusted_score: -3.0513065718949743----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his soul has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(soul -3.55)(has -1.52)(a -2.59)(way -2.65)(. -2.94) line score is : -3.267, look ahead score is : 0.000
+-------------------------score:  -3.0877735912799835;  adjusted_score: -3.062394018396735----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his soul has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(soul -3.75)(has -2.26)(a -2.13)(way -2.61)(. -2.05) line score is : -3.223, look ahead score is : 0.000
+-------------------------score:  -3.0916247232393785;  adjusted_score: -3.06624515035613----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his death has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(death -3.75)(has -2.26)(a -2.13)(way -2.83)(. -3.07) line score is : -3.347, look ahead score is : 0.000
+-------------------------score:  -3.0960264359459733;  adjusted_score: -3.070646863062725----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his ghost has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(ghost -4.31)(has -1.96)(a -2.03)(way -3.37)(. -2.15) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.0976455581910685;  adjusted_score: -3.07226598530782----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his soul has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(soul -4.31)(has -1.96)(a -2.03)(way -2.91)(. -1.61) line score is : -3.225, look ahead score is : 0.000
+-------------------------score:  -3.098045140504837;  adjusted_score: -3.0726655676215886----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we hear that his soul has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(hear -3.51)(that -1.43)(his -5.40)(soul -4.02)(has -2.30)(a -2.10)(way -2.87)(. -2.47) line score is : -3.318, look ahead score is : 0.000
+-------------------------score:  -3.1046801417162926;  adjusted_score: -3.079300568833044----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his wife has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(wife -4.31)(has -1.96)(a -2.03)(way -3.24)(. -2.25) line score is : -3.321, look ahead score is : 0.000
+-------------------------score:  -3.106269447189389;  adjusted_score: -3.0808898743061404----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his ghost lives a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(ghost -3.55)(lives -1.52)(a -2.59)(way -3.45)(. -2.71) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.1093381543954215;  adjusted_score: -3.083958581512173----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his soul is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(soul -3.55)(is -1.52)(a -2.59)(way -2.65)(. -2.05) line score is : -3.179, look ahead score is : 0.000
+-------------------------score:  -3.116718199216958;  adjusted_score: -3.0913386263337097----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his soul is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(soul -3.75)(is -2.26)(a -2.13)(way -2.61)(. -1.41) line score is : -3.158, look ahead score is : 0.000
+-------------------------score:  -3.126812065189535;  adjusted_score: -3.1014324923062864----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his soul is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(soul -4.31)(is -1.96)(a -2.03)(way -2.91)(. -1.36) line score is : -3.200, look ahead score is : 0.000
+-------------------------score:  -3.132850315534707;  adjusted_score: -3.1074707426514587----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his ghost is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(ghost -3.55)(is -1.52)(a -2.59)(way -3.45)(. -1.89) line score is : -3.243, look ahead score is : 0.000
+-------------------------score:  -3.13323930628372;  adjusted_score: -3.1078597334004714----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we hear that his soul is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(hear -3.51)(that -1.43)(his -5.40)(soul -4.02)(is -2.30)(a -2.10)(way -2.87)(. -1.72) line score is : -3.242, look ahead score is : 0.000
+-------------------------score:  -3.1335531879555094;  adjusted_score: -3.108173615072261----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his corpse has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(corpse -4.31)(has -1.96)(a -2.03)(way -3.82)(. -1.96) line score is : -3.351, look ahead score is : 0.000
+-------------------------score:  -3.1388934895847784;  adjusted_score: -3.11351391670153----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his son is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(son -3.55)(is -1.52)(a -2.59)(way -3.59)(. -2.81) line score is : -3.349, look ahead score is : 0.000
+-------------------------score:  -3.147556775447094;  adjusted_score: -3.1221772025638455----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his corpse is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(corpse -4.31)(is -1.96)(a -2.03)(way -3.82)(. -1.17) line score is : -3.272, look ahead score is : 0.000
+-------------------------score:  -3.153765823804971;  adjusted_score: -3.1283862509217224----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his son is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(son -3.75)(is -2.26)(a -2.13)(way -3.81)(. -2.07) line score is : -3.344, look ahead score is : 0.000
+-------------------------score:  -3.1538943819927447;  adjusted_score: -3.1285148091094963----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his corpse is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(corpse -3.75)(is -2.26)(a -2.13)(way -3.91)(. -1.03) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.160709562626752;  adjusted_score: -3.1353299897435036----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his son is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(son -4.31)(is -1.96)(a -2.03)(way -3.55)(. -2.06) line score is : -3.333, look ahead score is : 0.000
+-------------------------score:  -3.1614248617128893;  adjusted_score: -3.136045288829641----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we see that his ghost is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(see -3.51)(that -1.43)(his -5.40)(ghost -3.75)(is -2.26)(a -2.13)(way -3.51)(. -1.65) line score is : -3.273, look ahead score is : 0.000
+-------------------------score:  -3.168341189622879;  adjusted_score: -3.1429616167396306----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his ghost is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(ghost -4.31)(is -1.96)(a -2.03)(way -3.37)(. -1.49) line score is : -3.259, look ahead score is : 0.000
+-------------------------score:  -3.169418776577169;  adjusted_score: -3.1440392036939206----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we find that his wife is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(find -3.51)(that -1.43)(his -5.40)(wife -4.31)(is -1.96)(a -2.03)(way -3.24)(. -2.00) line score is : -3.296, look ahead score is : 0.000
+-------------------------score:  -3.176268527905146;  adjusted_score: -3.1508889550218977----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we hear that his ghost is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(hear -3.51)(that -1.43)(his -5.40)(ghost -4.02)(is -2.30)(a -2.10)(way -3.38)(. -1.75) line score is : -3.297, look ahead score is : 0.000
+-------------------------score:  -3.1837687501401613;  adjusted_score: -3.158389177256913----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we know that his corpse is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(know -3.51)(that -1.43)(his -5.40)(corpse -3.55)(is -1.52)(a -2.59)(way -4.19)(. -2.14) line score is : -3.341, look ahead score is : 0.000
+-------------------------score:  -3.197411866802158;  adjusted_score: -3.1720322939189094----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we hear that his corpse is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(hear -3.51)(that -1.43)(his -5.40)(corpse -4.02)(is -2.30)(a -2.10)(way -3.85)(. -1.58) line score is : -3.326, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ I did n't think life was this way 
+-------------------------score:  -3.0143691399134696;  adjusted_score: -2.988989567030221----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not know something was this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(know -4.27)(something -4.71)(was -0.15)(this -1.69)(way -8.15)(. -2.00) line score is : -3.729, look ahead score is : 0.000
+-------------------------score:  -3.131738188210875;  adjusted_score: -3.1063586153276264----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not have magic made this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(have -4.27)(magic -4.71)(made -0.15)(this -3.71)(way -5.42)(. -7.64) line score is : -4.277, look ahead score is : 0.000
+-------------------------score:  -3.1452530273236334;  adjusted_score: -3.119873454440385----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not have money left this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(have -4.27)(money -4.71)(left -0.15)(this -3.71)(way -5.44)(. -3.99) line score is : -3.874, look ahead score is : 0.000
+-------------------------score:  -3.1542187412269413;  adjusted_score: -3.128839168343693----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not come home tonight this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(come -4.27)(home -4.71)(tonight -0.15)(this -4.48)(way -2.82)(. -8.10) line score is : -4.125, look ahead score is : 0.000
+-------------------------score:  -3.159635851625353;  adjusted_score: -3.1342562787421047----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not have magic left this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(have -4.27)(magic -4.71)(left -0.15)(this -3.71)(way -5.42)(. -4.16) line score is : -3.891, look ahead score is : 0.000
+-------------------------score:  -3.178577045444399;  adjusted_score: -3.1531974725611507----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not go home tonight this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(go -4.27)(home -4.71)(tonight -0.15)(this -4.14)(way -3.46)(. -8.04) line score is : -4.152, look ahead score is : 0.000
+-------------------------score:  -3.180682031903416;  adjusted_score: -3.1553024590201675----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not have life restored this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(have -4.27)(life -4.71)(restored -0.15)(this -3.71)(way -6.21)(. -6.91) line score is : -4.283, look ahead score is : 0.000
+-------------------------score:  -3.187686698976904;  adjusted_score: -3.1623071260936557----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not have power left this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(have -4.27)(power -4.71)(left -0.15)(this -3.71)(way -5.94)(. -4.94) line score is : -4.035, look ahead score is : 0.000
+-------------------------score:  -3.2091559232212603;  adjusted_score: -3.183776350338012----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not have money saved this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(have -4.27)(money -4.71)(saved -0.15)(this -3.71)(way -5.44)(. -7.26) line score is : -4.237, look ahead score is : 0.000
+-------------------------score:  -3.2260619667358696;  adjusted_score: -3.200682393852621----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not die till tonight this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(die -4.27)(till -4.71)(tonight -0.15)(this -2.39)(way -5.02)(. -8.29) line score is : -4.159, look ahead score is : 0.000
+-------------------------score:  -3.2420783252455294;  adjusted_score: -3.216698752362281----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not know something called this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(know -4.27)(something -4.71)(called -0.15)(this -1.69)(way -8.15)(. -6.64) line score is : -4.244, look ahead score is : 0.000
+-------------------------score:  -3.279082449618727;  adjusted_score: -3.2537028767354785----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ he did not die till aged this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(he -1.18)(did -7.91)(not -3.51)(die -4.27)(till -4.71)(aged -0.15)(this -2.39)(way -5.02)(. -8.67) line score is : -4.200, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.057463161099483;  adjusted_score: -3.0320835882162345----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , he heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(he -0.03)(heard -3.58)(a -3.96)(way -3.89)(. -4.58) line score is : -3.472, look ahead score is : 0.000
+-------------------------score:  -3.086926038541338;  adjusted_score: -3.0615464656580897----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to flee , he heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(flee -1.74)(, -3.95)(he -0.03)(heard -4.50)(a -3.41)(way -3.98)(. -5.08) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.0937403220245066;  adjusted_score: -3.068360749141258----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(i -0.03)(think -3.58)(a -3.96)(way -7.42)(. -2.15) line score is : -3.572, look ahead score is : 0.000
+-------------------------score:  -3.105177191140897;  adjusted_score: -3.0797976182576488----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to flee , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(flee -1.74)(, -3.95)(i -0.03)(think -4.50)(a -3.41)(way -7.24)(. -1.94) line score is : -3.569, look ahead score is : 0.000
+-------------------------score:  -3.113744208808331;  adjusted_score: -3.0883646359250827----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , he swore a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(he -0.03)(swore -3.58)(a -3.96)(way -3.89)(. -6.73) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.124015493428006;  adjusted_score: -3.0986359205447576----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(i -4.35)(think -1.64)(a -4.06)(way -6.61)(. -1.60) line score is : -3.434, look ahead score is : 0.000
+-------------------------score:  -3.130790223970133;  adjusted_score: -3.1054106510868844----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , he heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(he -4.35)(heard -1.64)(a -4.06)(way -4.62)(. -5.64) line score is : -3.620, look ahead score is : 0.000
+-------------------------score:  -3.145566110225285;  adjusted_score: -3.1201865373420365----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , you know a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(you -4.35)(know -1.64)(a -4.06)(way -7.95)(. -1.03) line score is : -3.504, look ahead score is : 0.000
+-------------------------score:  -3.1471453123890303;  adjusted_score: -3.121765739505782----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , he stole a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(he -0.03)(stole -3.58)(a -3.96)(way -3.89)(. -7.00) line score is : -3.691, look ahead score is : 0.000
+-------------------------score:  -3.148390437750255;  adjusted_score: -3.1230108648670067----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to die , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(die -1.74)(, -1.31)(i -4.35)(think -3.56)(a -3.58)(way -6.06)(. -1.54) line score is : -3.508, look ahead score is : 0.000
+-------------------------score:  -3.1615748905083714;  adjusted_score: -3.136195317625123----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , they say a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(they -4.35)(say -1.64)(a -4.06)(way -7.38)(. -1.62) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -3.1663873730336918;  adjusted_score: -3.1410078001504433----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , he swore a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(he -4.35)(swore -1.64)(a -4.06)(way -4.62)(. -6.51) line score is : -3.698, look ahead score is : 0.000
+-------------------------score:  -3.1726079381564083;  adjusted_score: -3.14722836527316----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , i know a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(i -4.35)(know -1.64)(a -4.06)(way -6.61)(. -3.85) line score is : -3.638, look ahead score is : 0.000
+-------------------------score:  -3.1799771619193695;  adjusted_score: -3.154597589036121----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to die , i know a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(die -1.74)(, -1.31)(i -4.35)(know -3.56)(a -3.58)(way -6.06)(. -3.74) line score is : -3.709, look ahead score is : 0.000
+-------------------------score:  -3.1898356175378844;  adjusted_score: -3.164456044654636----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , he burst a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(he -0.03)(burst -3.58)(a -3.96)(way -3.89)(. -7.19) line score is : -3.709, look ahead score is : 0.000
+-------------------------score:  -3.192624832777416;  adjusted_score: -3.1672452598941674----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , i have a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(i -4.35)(have -1.64)(a -4.06)(way -6.61)(. -4.30) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -3.1974213587887146;  adjusted_score: -3.172041785905466----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , we know a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(we -4.35)(know -1.64)(a -4.06)(way -7.87)(. -2.73) line score is : -3.650, look ahead score is : 0.000
+-------------------------score:  -3.2021247472833183;  adjusted_score: -3.17674517440007----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , you see a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(you -4.35)(see -1.64)(a -4.06)(way -7.95)(. -1.47) line score is : -3.543, look ahead score is : 0.000
+-------------------------score:  -3.208561580737724;  adjusted_score: -3.1831820078544757----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , they say a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(they -0.03)(say -3.58)(a -3.96)(way -7.65)(. -3.28) line score is : -3.695, look ahead score is : 0.000
+-------------------------score:  -3.2167495252454983;  adjusted_score: -3.19136995236225----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , i hope a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(i -4.35)(hope -1.64)(a -4.06)(way -6.61)(. -4.70) line score is : -3.715, look ahead score is : 0.000
+-------------------------score:  -3.227440999711261;  adjusted_score: -3.2020614268280125----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , i guess a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(i -4.35)(guess -1.64)(a -4.06)(way -6.61)(. -4.24) line score is : -3.674, look ahead score is : 0.000
+-------------------------score:  -3.2371722029193357;  adjusted_score: -3.2117926300360873----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to flee , they say a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(flee -1.74)(, -3.95)(they -0.03)(say -4.50)(a -3.41)(way -7.37)(. -2.88) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.264841962277013;  adjusted_score: -3.2394623893937644----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to leave , i am a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(leave -1.74)(, -3.95)(i -0.03)(am -3.58)(a -3.96)(way -7.42)(. -3.64) line score is : -3.707, look ahead score is : 0.000
+-------------------------score:  -3.267042353749275;  adjusted_score: -3.2416627808660268----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , i am a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(i -4.35)(am -1.64)(a -4.06)(way -6.61)(. -3.36) line score is : -3.593, look ahead score is : 0.000
+-------------------------score:  -3.2693911098382054;  adjusted_score: -3.244011536954957----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to be , we are a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(be -1.74)(, -1.31)(we -4.35)(are -1.64)(a -4.06)(way -7.87)(. -1.86) line score is : -3.572, look ahead score is : 0.000
+-------------------------score:  -3.270943723180715;  adjusted_score: -3.2455641502974664----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he was to die , i am a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(was -3.51)(to -3.85)(die -1.74)(, -1.31)(i -4.35)(am -3.56)(a -3.58)(way -6.06)(. -3.53) line score is : -3.689, look ahead score is : 0.000
+-------------------------score:  -3.2890688381431734;  adjusted_score: -3.263689265259925----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ as he tried to flee , i am a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(as -1.18)(he -7.91)(tried -3.51)(to -3.85)(flee -1.74)(, -3.95)(i -0.03)(am -4.50)(a -3.41)(way -7.24)(. -3.49) line score is : -3.710, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.1176152238622308;  adjusted_score: -3.0922356509789823----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and he came down and told our way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(he -7.91)(came -3.51)(down -1.43)(and -2.93)(told -4.58)(our -3.35)(way -3.87)(. -2.77) line score is : -3.501, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD AND PRP VBD , NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ but she sighed and she said , canteloupe 
+-------------------------score:  -3.1604524003341794;  adjusted_score: -3.135072827450931----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he survived and he returned , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(survived -3.51)(and -2.82)(he -2.09)(returned -3.78)(, -1.89)(way -4.17)(. -3.62) line score is : -3.441, look ahead score is : 0.000
+-------------------------score:  -3.1836215099319816;  adjusted_score: -3.158857156969607----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was struck by a spell , 
+ but he survived and he returned , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(struck -1.55)(by -2.07)(a -5.11)(spell -0.89)(, -1.26) line score is : -2.858, look ahead score is : 0.630
+(but -1.26)(he -8.42)(survived -2.50)(and -3.15)(he -1.97)(returned -3.35)(, -1.79)(way -4.40)(. -3.32) line score is : -3.350, look ahead score is : 0.000
+-------------------------score:  -3.259790507145226;  adjusted_score: -3.2344109342619776----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he survived and he became , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(survived -3.51)(and -2.82)(he -2.09)(became -3.78)(, -1.89)(way -4.17)(. -3.88) line score is : -3.470, look ahead score is : 0.000
+-------------------------score:  -3.2814353248104453;  adjusted_score: -3.2566709718480706----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was struck by a spell , 
+ but he survived and he became , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(struck -1.55)(by -2.07)(a -5.11)(spell -0.89)(, -1.26) line score is : -2.858, look ahead score is : 0.630
+(but -1.26)(he -8.42)(survived -2.50)(and -3.15)(he -1.97)(became -3.35)(, -1.79)(way -4.40)(. -3.92) line score is : -3.417, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.186312179081142;  adjusted_score: -3.1609326061978935----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and he did not like feeling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(he -7.91)(did -3.51)(not -1.43)(like -2.93)(feeling -4.45)(of -0.14)(way -6.82)(. -6.90) line score is : -3.918, look ahead score is : 0.000
+-------------------------score:  -3.274144540540874;  adjusted_score: -3.2487649676576256----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and he did not like meeting of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(he -7.91)(did -3.51)(not -1.43)(like -2.93)(meeting -4.45)(of -0.14)(way -6.82)(. -7.09) line score is : -3.940, look ahead score is : 0.000
+-------------------------score:  -3.2927108639851213;  adjusted_score: -3.267331291101873----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and it was now like twilight of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(it -7.91)(was -3.51)(now -1.43)(like -3.87)(twilight -0.84)(of -5.31)(way -7.55)(. -4.19) line score is : -3.976, look ahead score is : 0.000
+-------------------------score:  -3.3080082265660167;  adjusted_score: -3.283243873603642----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was struck by a spell , 
+ and it was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(struck -1.55)(by -2.07)(a -5.11)(spell -0.89)(, -1.26) line score is : -2.858, look ahead score is : 0.630
+(and -1.26)(it -8.42)(was -2.50)(then -1.03)(like -4.56)(lightning -1.40)(of -2.90)(way -8.69)(. -2.83) line score is : -3.732, look ahead score is : 0.000
+-------------------------score:  -3.3143381932750344;  adjusted_score: -3.288958620391786----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and it was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(it -7.91)(was -3.51)(then -1.43)(like -3.87)(lightning -0.84)(of -3.25)(way -8.83)(. -4.44) line score is : -3.918, look ahead score is : 0.000
+-------------------------score:  -3.3166096536442637;  adjusted_score: -3.2912300807610153----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and he did not like singing of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(he -7.91)(did -3.51)(not -1.43)(like -2.93)(singing -4.45)(of -0.14)(way -6.82)(. -7.32) line score is : -3.964, look ahead score is : 0.000
+-------------------------score:  -3.324198673479259;  adjusted_score: -3.2984430721774696----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was called by a spell , 
+ and it was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(called -1.55)(by -2.07)(a -4.76)(spell -2.07)(, -2.19) line score is : -3.111, look ahead score is : 0.680
+(and -2.19)(it -8.11)(was -3.09)(then -0.98)(like -4.47)(lightning -0.59)(of -2.93)(way -8.07)(. -3.55) line score is : -3.776, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.2062812937844183;  adjusted_score: -3.18090172090117----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he had his followers and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(had -3.51)(his -2.82)(followers -2.09)(and -2.81)(lay -4.43)(. -5.21) line score is : -3.746, look ahead score is : 0.000
+-------------------------score:  -3.2127310854773365;  adjusted_score: -3.187351512594088----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he had his memories and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(had -3.51)(his -2.82)(memories -2.09)(and -2.81)(lay -4.43)(. -4.68) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -3.2210727747409575;  adjusted_score: -3.195693201857709----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he left his memories and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(left -3.51)(his -2.82)(memories -2.09)(and -4.26)(lay -2.32)(. -5.74) line score is : -3.730, look ahead score is : 0.000
+-------------------------score:  -3.232812274848261;  adjusted_score: -3.2074327019650126----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he survived his parents and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(survived -3.51)(his -2.82)(parents -2.09)(and -3.78)(lay -3.37)(. -5.80) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.235789622991316;  adjusted_score: -3.2104100501080675----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he got his memories and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(got -3.51)(his -2.82)(memories -2.09)(and -5.01)(lay -2.31)(. -4.57) line score is : -3.676, look ahead score is : 0.000
+-------------------------score:  -3.258681098299642;  adjusted_score: -3.2333015254163935----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but he left his followers and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(he -7.91)(left -3.51)(his -2.82)(followers -2.09)(and -4.26)(lay -2.32)(. -6.19) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -3.260392216905471;  adjusted_score: -3.2350126440222224----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ but it was his followers and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(but -1.18)(it -7.91)(was -3.51)(his -2.82)(followers -3.42)(and -0.87)(lay -3.39)(. -6.35) line score is : -3.680, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.2189682442130465;  adjusted_score: -3.193588671329798----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have been to the place with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(been -1.43)(to -5.40)(the -3.07)(place -3.01)(with -4.39)(way -1.93)(. -2.27) line score is : -3.409, look ahead score is : 0.000
+-------------------------score:  -3.227590774947947;  adjusted_score: -3.2022112020646984----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have come to the point with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(come -1.43)(to -5.40)(the -3.07)(point -5.07)(with -0.30)(way -2.89)(. -3.34) line score is : -3.409, look ahead score is : 0.000
+-------------------------score:  -3.235378833431186;  adjusted_score: -3.2099992605479377----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have come to the place with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(come -1.43)(to -5.40)(the -3.07)(place -5.07)(with -0.30)(way -2.89)(. -2.99) line score is : -3.374, look ahead score is : 0.000
+-------------------------score:  -3.254016302751772;  adjusted_score: -3.2286367298685237----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have come to the door with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(come -1.43)(to -5.40)(the -3.07)(door -5.07)(with -0.30)(way -2.89)(. -4.77) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -3.2813276711738473;  adjusted_score: -3.255948098290599----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have come to the hour with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(come -1.43)(to -5.40)(the -3.07)(hour -5.07)(with -0.30)(way -2.89)(. -5.09) line score is : -3.583, look ahead score is : 0.000
+-------------------------score:  -3.289592472892819;  adjusted_score: -3.2642129000095705----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have come to the spot with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(come -1.43)(to -5.40)(the -3.07)(spot -5.07)(with -0.30)(way -2.89)(. -4.98) line score is : -3.573, look ahead score is : 0.000
+-------------------------score:  -3.300077587366104;  adjusted_score: -3.2746980144828557----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we have come to the time with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(have -3.51)(come -1.43)(to -5.40)(the -3.07)(time -5.07)(with -0.30)(way -2.89)(. -4.46) line score is : -3.521, look ahead score is : 0.000
+-------------------------score:  -3.3268751194982817;  adjusted_score: -3.3014955466150333----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we are led to the point with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(are -3.51)(led -1.43)(to -5.40)(the -2.49)(point -4.88)(with -0.46)(way -3.71)(. -4.88) line score is : -3.583, look ahead score is : 0.000
+-------------------------score:  -3.344992807417205;  adjusted_score: -3.3196132345339566----------------------- 
+there once was a grandpa named jose 
+ who died a young man on his birthday . 
+ the day of his farewell , 
+ he was killed by a spell , 
+ and we are led to the scene with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(died -3.01)(a -3.29)(young -4.60)(man -0.21)(on -4.61)(his -2.27)(birthday -2.31)(. -0.83) line score is : -2.491, look ahead score is : 0.000
+(the -0.83)(day -2.90)(of -5.39)(his -2.37)(farewell -0.75)(, -7.59) line score is : -3.305, look ahead score is : 0.608
+(he -7.59)(was -1.55)(killed -1.55)(by -2.07)(a -3.92)(spell -0.80)(, -1.18) line score is : -2.665, look ahead score is : 0.661
+(and -1.18)(we -7.91)(are -3.51)(led -1.43)(to -5.40)(the -2.49)(scene -4.88)(with -0.46)(way -3.71)(. -4.78) line score is : -3.573, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ with the faith of a marytr 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2241973262844663;  adjusted_score: -3.2010151135740856----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and he did not like life of story . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(he -9.08)(did -0.95)(not -1.18)(like -3.13)(life -4.53)(of -0.67)(story -5.24)(. -5.86) line score is : -3.530, look ahead score is : 0.000
+-------------------------score:  -3.330144038706115;  adjusted_score: -3.3069618259957343----------------------- 
+there was a soldier named theodore 
+ who killed all his family in a war . 
+ he came back from the grave , 
+ with the strength of a wave , 
+ and it was not like waking of shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(killed -5.43)(all -3.69)(his -2.55)(family -3.37)(in -2.29)(a -1.66)(war -3.88)(. -1.91) line score is : -2.907, look ahead score is : 0.000
+(he -1.91)(came -2.00)(back -5.22)(from -1.29)(the -2.31)(grave -1.14)(, -3.47) line score is : -2.478, look ahead score is : 0.597
+(with -3.47)(the -2.44)(strength -3.85)(of -2.32)(a -5.89)(wave -0.85)(, -1.13) line score is : -2.850, look ahead score is : 0.562
+(and -1.13)(it -9.08)(was -0.95)(not -1.18)(like -5.67)(waking -1.03)(of -3.59)(shore -4.47)(. -7.13) line score is : -3.805, look ahead score is : 0.000

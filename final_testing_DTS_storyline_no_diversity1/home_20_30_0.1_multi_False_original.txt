@@ -1,0 +1,66 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ and they rushed to the rail 
+ with his spanner and jack in the box 
+-------------------------score:  -2.745986483991146;  adjusted_score: -2.721753966510296----------------------- 
+there was a woman named fred 
+ who had a dead body on her bed . 
+ i asked for her bedroom , 
+ and she came to the room , 
+ with her husband and child in the lead . 
+------------------------- score breakdown ------------------------ 
+(who -1.23)(had -2.26)(a -2.24)(dead -7.14)(body -2.32)(on -2.01)(her -0.75)(bed -1.51)(. -1.47) line score is : -2.325, look ahead score is : 0.000
+(i -1.47)(asked -2.44)(for -3.44)(her -4.36)(bedroom -1.36)(, -8.41) line score is : -3.581, look ahead score is : 0.616
+(and -8.41)(she -2.42)(came -1.16)(to -0.75)(the -4.44)(room -2.47)(, -2.67) line score is : -3.189, look ahead score is : 0.596
+(with -2.67)(her -2.92)(husband -2.06)(and -4.75)(child -1.27)(in -2.95)(the -1.69)(lead -3.95)(. -1.74) line score is : -2.665, look ahead score is : 0.000
+-------------------------score:  -2.7474431758746505;  adjusted_score: -2.7232106583938003----------------------- 
+there was a woman named fred 
+ who had a dead body on her bed . 
+ i asked for her bedroom , 
+ and she came to the room , 
+ with her husband and son in the lead . 
+------------------------- score breakdown ------------------------ 
+(who -1.23)(had -2.26)(a -2.24)(dead -7.14)(body -2.32)(on -2.01)(her -0.75)(bed -1.51)(. -1.47) line score is : -2.325, look ahead score is : 0.000
+(i -1.47)(asked -2.44)(for -3.44)(her -4.36)(bedroom -1.36)(, -8.41) line score is : -3.581, look ahead score is : 0.616
+(and -8.41)(she -2.42)(came -1.16)(to -0.75)(the -4.44)(room -2.47)(, -2.67) line score is : -3.189, look ahead score is : 0.596
+(with -2.67)(her -2.92)(husband -2.06)(and -4.75)(son -1.27)(in -2.95)(the -1.69)(lead -2.75)(. -2.26) line score is : -2.590, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ and they rushed to the rail 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.809809888854171;  adjusted_score: -2.785577371373321----------------------- 
+there was a woman named fred 
+ who had a dead body on her bed . 
+ i asked for her bedroom , 
+ and she came to the room , 
+ so i went up and put on the lead . 
+------------------------- score breakdown ------------------------ 
+(who -1.23)(had -2.26)(a -2.24)(dead -7.14)(body -2.32)(on -2.01)(her -0.75)(bed -1.51)(. -1.47) line score is : -2.325, look ahead score is : 0.000
+(i -1.47)(asked -2.44)(for -3.44)(her -4.36)(bedroom -1.36)(, -8.41) line score is : -3.581, look ahead score is : 0.616
+(and -8.41)(she -2.42)(came -1.16)(to -0.75)(the -4.44)(room -2.47)(, -2.67) line score is : -3.189, look ahead score is : 0.596
+(so -2.67)(i -2.92)(went -2.06)(up -5.02)(and -0.33)(put -2.14)(on -2.76)(the -1.64)(lead -3.54)(. -3.20) line score is : -2.627, look ahead score is : 0.000
+-------------------------score:  -2.8431281808650857;  adjusted_score: -2.8188956633842355----------------------- 
+there was a woman named fred 
+ who had a dead body on her bed . 
+ i asked for her bathroom , 
+ and she came to the room , 
+ so i went up and put on the lead . 
+------------------------- score breakdown ------------------------ 
+(who -1.23)(had -2.26)(a -2.24)(dead -7.14)(body -2.32)(on -2.01)(her -0.75)(bed -1.51)(. -1.47) line score is : -2.325, look ahead score is : 0.000
+(i -1.47)(asked -2.44)(for -3.44)(her -4.36)(bathroom -1.36)(, -8.83) line score is : -3.650, look ahead score is : 0.616
+(and -8.83)(she -2.47)(came -1.15)(to -0.76)(the -4.10)(room -2.69)(, -2.30) line score is : -3.186, look ahead score is : 0.596
+(so -2.30)(i -3.63)(went -2.08)(up -5.05)(and -0.28)(put -2.15)(on -2.91)(the -1.74)(lead -3.66)(. -3.07) line score is : -2.688, look ahead score is : 0.000

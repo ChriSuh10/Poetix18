@@ -1,0 +1,825 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.915943672259649;  adjusted_score: -2.890738545333346----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and that is the point of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(that -7.93)(is -1.88)(the -1.93)(point -4.82)(of -3.23)(this -2.83)(process -3.40)(. -1.31) line score is : -3.086, look ahead score is : 0.000
+-------------------------score:  -3.1148871264674445;  adjusted_score: -3.0896819995411415----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and that is the way of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(that -7.93)(is -1.88)(the -1.93)(way -4.82)(of -3.23)(this -2.83)(process -3.42)(. -4.11) line score is : -3.399, look ahead score is : 0.000
+-------------------------score:  -3.216043081247445;  adjusted_score: -3.1908379543211423----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and that makes the game of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(that -7.93)(makes -1.88)(the -1.93)(game -4.82)(of -4.45)(this -2.67)(process -1.49)(. -7.04) line score is : -3.629, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.0101970257237554;  adjusted_score: -2.983444007076323----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and i got down and did my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(i -3.97)(got -2.38)(down -0.92)(and -1.15)(did -3.06)(my -5.46)(process -2.20)(. -3.30) line score is : -2.547, look ahead score is : 0.000
+-------------------------score:  -3.121092122979462;  adjusted_score: -3.09433910433203----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and i got down and ran my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(i -3.97)(got -2.38)(down -0.92)(and -1.15)(ran -3.06)(my -5.46)(process -2.20)(. -3.54) line score is : -2.574, look ahead score is : 0.000
+-------------------------score:  -3.1295705335214734;  adjusted_score: -3.102817514874041----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and i got down and had my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(i -3.97)(got -2.38)(down -0.92)(and -1.15)(had -3.06)(my -5.46)(process -2.20)(. -3.88) line score is : -2.613, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ and now a new teacher they seek 
+-------------------------score:  -3.031852680258453;  adjusted_score: -3.00664755333215----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and even a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(even -7.93)(a -1.88)(little -1.93)(bit -4.89)(i -3.33)(guess -1.79)(. -1.02) line score is : -2.901, look ahead score is : 0.000
+-------------------------score:  -3.0566213158890605;  adjusted_score: -3.0314161889627576----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and also a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(also -7.93)(a -1.88)(little -1.93)(bit -4.77)(i -1.96)(guess -3.71)(. -1.05) line score is : -2.959, look ahead score is : 0.000
+-------------------------score:  -3.1805071299895644;  adjusted_score: -3.1553020030632615----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and even a little bit you guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(even -7.93)(a -1.88)(little -1.93)(bit -4.89)(you -3.33)(guess -1.79)(. -1.02) line score is : -2.901, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ RB PRP VBD PRP NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ then he walloped me square in the face 
+-------------------------score:  -3.035048588179052;  adjusted_score: -3.0082955695316196----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ then i got it stuck in the process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(then -0.48)(i -3.97)(got -2.38)(it -4.32)(stuck -1.08)(in -1.47)(the -5.62)(process -4.06)(. -1.06) line score is : -2.716, look ahead score is : 0.000
+-------------------------score:  -3.1200759233906865;  adjusted_score: -3.093322904743254----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ then i got it right in the process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(then -0.48)(i -3.97)(got -2.38)(it -4.32)(right -1.08)(in -1.47)(the -5.62)(process -5.35)(. -3.04) line score is : -3.079, look ahead score is : 0.000
+-------------------------score:  -3.250879227183759;  adjusted_score: -3.224126208536327----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ now it was me time in the process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(now -0.48)(it -3.97)(was -2.38)(me -4.89)(time -1.45)(in -0.57)(the -7.28)(process -3.57)(. -6.56) line score is : -3.462, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and now a new teacher they seek 
+-------------------------score:  -3.13438527526394;  adjusted_score: -3.1076322566165078----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and then a bad injury i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(then -3.97)(a -2.38)(bad -0.92)(injury -2.01)(i -4.10)(guess -4.94)(. -1.95) line score is : -2.595, look ahead score is : 0.000
+-------------------------score:  -3.337133935382289;  adjusted_score: -3.310380916734857----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and then a bad injury you guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(then -3.97)(a -2.38)(bad -0.92)(injury -2.01)(you -4.10)(guess -4.94)(. -1.95) line score is : -2.595, look ahead score is : 0.000
+-------------------------score:  -3.376307676876745;  adjusted_score: -3.3495546582293128----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and then a bad injury we guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(then -3.97)(a -2.38)(bad -0.92)(injury -2.01)(we -4.10)(guess -4.94)(. -1.95) line score is : -2.595, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ but it does n't come out of my purse 
+-------------------------score:  -3.1459933257464208;  adjusted_score: -3.120788198820118----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ but it is well put in its process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(but -0.44)(it -7.93)(is -1.88)(well -1.52)(put -1.57)(in -3.33)(its -3.33)(process -3.41)(. -5.85) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.1666090226534642;  adjusted_score: -3.1414038957271613----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ but it is well put in my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(but -0.44)(it -7.93)(is -1.88)(well -1.52)(put -1.57)(in -3.33)(my -3.33)(process -3.41)(. -5.85) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.1793468576489072;  adjusted_score: -3.15390473088306----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ it 's a lot of art , 
+ but it is well put in its process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(it -3.75)('s -2.68)(a -2.97)(lot -0.87)(of -2.01)(art -2.74)(, -0.59) line score is : -2.231, look ahead score is : 0.605
+(but -0.59)(it -8.24)(is -1.79)(well -1.45)(put -1.58)(in -3.32)(its -3.59)(process -3.84)(. -5.45) line score is : -3.317, look ahead score is : 0.000
+-------------------------score:  -3.183904665889162;  adjusted_score: -3.158462539123315----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ it 's a lot of art , 
+ but it is well put in my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(it -3.75)('s -2.68)(a -2.97)(lot -0.87)(of -2.01)(art -2.74)(, -0.59) line score is : -2.231, look ahead score is : 0.605
+(but -0.59)(it -8.24)(is -1.79)(well -1.45)(put -1.58)(in -3.32)(my -3.59)(process -3.84)(. -5.45) line score is : -3.317, look ahead score is : 0.000
+-------------------------score:  -3.2286736703280248;  adjusted_score: -3.203468543401722----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ but it is well put in your process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(but -0.44)(it -7.93)(is -1.88)(well -1.52)(put -1.57)(in -3.33)(your -3.33)(process -3.41)(. -5.85) line score is : -3.251, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.1593555295839906;  adjusted_score: -3.1326025109365583----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and that is the thing of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(that -3.97)(is -2.38)(the -0.92)(thing -3.90)(of -3.53)(this -2.69)(process -3.39)(. -6.23) line score is : -3.054, look ahead score is : 0.000
+-------------------------score:  -3.1633946551010013;  adjusted_score: -3.136641636453569----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and that is the way of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(that -3.97)(is -2.38)(the -0.92)(way -3.90)(of -3.53)(this -2.69)(process -2.65)(. -5.73) line score is : -2.916, look ahead score is : 0.000
+-------------------------score:  -3.2377007886534557;  adjusted_score: -3.2109477700060234----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and that is the kind of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(that -3.97)(is -2.38)(the -0.92)(kind -3.90)(of -3.53)(this -2.69)(process -3.67)(. -0.01) line score is : -2.393, look ahead score is : 0.000
+-------------------------score:  -3.280706592835486;  adjusted_score: -3.2539535741880536----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and that means the world of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(that -3.97)(means -2.38)(the -0.92)(world -3.90)(of -6.13)(this -3.11)(process -0.80)(. -7.46) line score is : -3.239, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.1819127389462665;  adjusted_score: -3.155574618098326----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ the story of my day , 
+ i was able to say , 
+ was really a wonderful process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(the -1.63)(story -4.15)(of -4.16)(my -2.01)(day -2.05)(, -6.77) line score is : -3.462, look ahead score is : 0.602
+(i -6.77)(was -4.14)(able -2.66)(to -2.94)(say -3.60)(, -0.00) line score is : -3.352, look ahead score is : 0.715
+(was -0.00)(really -5.45)(a -3.01)(wonderful -1.51)(process -4.56)(. -2.95) line score is : -2.912, look ahead score is : 0.000
+-------------------------score:  -3.220712416522604;  adjusted_score: -3.1943742956746637----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ the story of my day , 
+ i was able to say , 
+ was actually a happy process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(the -1.63)(story -4.15)(of -4.16)(my -2.01)(day -2.05)(, -6.77) line score is : -3.462, look ahead score is : 0.602
+(i -6.77)(was -4.14)(able -2.66)(to -2.94)(say -3.60)(, -0.00) line score is : -3.352, look ahead score is : 0.715
+(was -0.00)(actually -5.45)(a -3.01)(happy -1.51)(process -4.86)(. -2.32) line score is : -2.858, look ahead score is : 0.000
+-------------------------score:  -3.227216390211002;  adjusted_score: -3.2008782693630615----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ the story of my day , 
+ i was able to say , 
+ was really a positive process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(the -1.63)(story -4.15)(of -4.16)(my -2.01)(day -2.05)(, -6.77) line score is : -3.462, look ahead score is : 0.602
+(i -6.77)(was -4.14)(able -2.66)(to -2.94)(say -3.60)(, -0.00) line score is : -3.352, look ahead score is : 0.715
+(was -0.00)(really -5.45)(a -3.01)(positive -1.51)(process -4.56)(. -2.95) line score is : -2.912, look ahead score is : 0.000
+-------------------------score:  -3.2463624622240395;  adjusted_score: -3.220024341376099----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ the story of my day , 
+ i was able to say , 
+ was actually a little process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(the -1.63)(story -4.15)(of -4.16)(my -2.01)(day -2.05)(, -6.77) line score is : -3.462, look ahead score is : 0.602
+(i -6.77)(was -4.14)(able -2.66)(to -2.94)(say -3.60)(, -0.00) line score is : -3.352, look ahead score is : 0.715
+(was -0.00)(actually -5.45)(a -3.01)(little -1.51)(process -4.86)(. -2.32) line score is : -2.858, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.2417129919384466;  adjusted_score: -3.2165078650121437----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and i got down and did my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(i -7.93)(got -1.88)(down -1.93)(and -2.35)(did -4.27)(my -7.42)(process -3.75)(. -5.01) line score is : -3.886, look ahead score is : 0.000
+-------------------------score:  -3.319759151249221;  adjusted_score: -3.294554024322918----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and i got down and worked my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(i -7.93)(got -1.88)(down -1.93)(and -2.35)(worked -4.27)(my -7.42)(process -3.75)(. -5.66) line score is : -3.959, look ahead score is : 0.000
+-------------------------score:  -3.3783015364950355;  adjusted_score: -3.3530964095687326----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and i was down and got my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(i -7.93)(was -1.88)(down -1.93)(and -2.35)(got -3.85)(my -7.54)(process -3.83)(. -5.90) line score is : -3.962, look ahead score is : 0.000
+-------------------------score:  -3.395645028713978;  adjusted_score: -3.370439901787675----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and i got down and did his process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(i -7.93)(got -1.88)(down -1.93)(and -2.35)(did -4.27)(his -7.42)(process -3.75)(. -5.01) line score is : -3.886, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.267913466019015;  adjusted_score: -3.242708339092712----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and filled with a wonderful process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(filled -7.93)(with -1.88)(a -1.93)(wonderful -8.30)(process -0.13)(. -4.33) line score is : -3.563, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.2766142347827554;  adjusted_score: -3.249861216135323----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and the team still had a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(the -3.97)(team -2.38)(still -0.92)(had -3.36)(a -3.12)(whole -6.46)(process -1.50)(. -1.61) line score is : -2.645, look ahead score is : 0.000
+-------------------------score:  -3.2869021194055676;  adjusted_score: -3.2601491007581354----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and the game still had a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(the -3.97)(game -2.38)(still -0.92)(had -3.36)(a -3.44)(whole -6.28)(process -2.39)(. -1.49) line score is : -2.746, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ PRP VBZ THE NNS IN NN THAT PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ it 's the people in front that I jar 
+-------------------------score:  -3.325254499912262;  adjusted_score: -3.299812373146415----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ it 's a lot of art , 
+ it has the words in greek that you guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(it -3.75)('s -2.68)(a -2.97)(lot -0.87)(of -2.01)(art -2.74)(, -0.59) line score is : -2.231, look ahead score is : 0.605
+(it -0.59)(has -8.24)(the -1.79)(words -2.72)(in -3.62)(greek -4.28)(that -5.42)(you -2.87)(guess -4.93)(. -4.48) line score is : -3.894, look ahead score is : 0.000
+-------------------------score:  -3.379860561560182;  adjusted_score: -3.3546554346338793----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ it has the rules in place that i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(it -0.44)(has -7.93)(the -1.88)(rules -2.97)(in -4.00)(place -4.45)(that -5.23)(i -3.55)(guess -4.22)(. -4.51) line score is : -3.918, look ahead score is : 0.000
+-------------------------score:  -3.3999223980833504;  adjusted_score: -3.3747172711570474----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ it has the tools in place that i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(it -0.44)(has -7.93)(the -1.88)(tools -2.97)(in -4.00)(place -4.45)(that -4.77)(i -5.25)(guess -2.28)(. -4.50) line score is : -3.847, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ AT THE RB JJ NN , 
+ OF THE NN AND NN AND NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ at the very first toot 
+ of the gravy and chicken and ham 
+-------------------------score:  -3.3257291528486435;  adjusted_score: -3.3000378910355987----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ at the very first part , 
+ of the story and watch and process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(at -3.75)(the -2.68)(very -5.65)(first -0.52)(part -2.87)(, -4.40) line score is : -3.311, look ahead score is : 0.618
+(of -4.40)(the -3.87)(story -1.15)(and -4.51)(watch -0.81)(and -1.84)(process -2.74)(. -3.84) line score is : -2.893, look ahead score is : 0.000
+-------------------------score:  -3.366344888364115;  adjusted_score: -3.3404544819194464----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ at the very last part , 
+ of the story and watch and process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(at -3.75)(the -2.68)(very -5.65)(last -0.52)(part -2.87)(, -5.27) line score is : -3.457, look ahead score is : 0.628
+(of -5.27)(the -3.34)(story -1.32)(and -4.79)(watch -0.86)(and -2.32)(process -2.85)(. -3.87) line score is : -3.079, look ahead score is : 0.000
+-------------------------score:  -3.4247604473944633;  adjusted_score: -3.3990691855814186----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ at the very first part , 
+ of the story and look and process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(at -3.75)(the -2.68)(very -5.65)(first -0.52)(part -2.87)(, -4.40) line score is : -3.311, look ahead score is : 0.618
+(of -4.40)(the -3.87)(story -1.15)(and -4.51)(look -0.81)(and -1.84)(process -2.74)(. -5.17) line score is : -3.060, look ahead score is : 0.000
+-------------------------score:  -3.4368058385387545;  adjusted_score: -3.41111457672571----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ at the very first part , 
+ of the story and skip and process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(at -3.75)(the -2.68)(very -5.65)(first -0.52)(part -2.87)(, -4.40) line score is : -3.311, look ahead score is : 0.618
+(of -4.40)(the -3.87)(story -1.15)(and -4.51)(skip -0.81)(and -1.84)(process -2.74)(. -5.67) line score is : -3.123, look ahead score is : 0.000
+======================= template: 14 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.334618332711133;  adjusted_score: -3.3094132057848302----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and the game still took a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(the -7.93)(game -1.88)(still -1.93)(took -3.26)(a -3.85)(whole -5.22)(process -4.67)(. -2.02) line score is : -3.467, look ahead score is : 0.000
+-------------------------score:  -3.3439905670556156;  adjusted_score: -3.3187854401293126----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and the game still had a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(the -7.93)(game -1.88)(still -1.93)(had -3.26)(a -3.85)(whole -5.22)(process -4.94)(. -1.43) line score is : -3.432, look ahead score is : 0.000
+======================= template: 15 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ and to write it used acres of time 
+-------------------------score:  -3.335220140941215;  adjusted_score: -3.3100150140149123----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and to get it right means of process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(to -7.93)(get -1.88)(it -1.93)(right -5.71)(means -2.41)(of -2.37)(process -3.63)(. -4.05) line score is : -3.372, look ahead score is : 0.000
+-------------------------score:  -3.382823607235244;  adjusted_score: -3.357618480308941----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and to get it right feels of process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(to -7.93)(get -1.88)(it -1.93)(right -5.71)(feels -2.41)(of -2.37)(process -3.63)(. -5.93) line score is : -3.581, look ahead score is : 0.000
+-------------------------score:  -3.418818657145356;  adjusted_score: -3.393613530219053----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ and to get it right costs of process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(and -0.44)(to -7.93)(get -1.88)(it -1.93)(right -5.71)(costs -2.41)(of -2.37)(process -3.63)(. -7.78) line score is : -3.786, look ahead score is : 0.000
+======================= template: 16 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.3824788322954467;  adjusted_score: -3.3572737053691437----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ it was my first steps and one process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(it -0.44)(was -7.93)(my -1.88)(first -2.97)(steps -4.45)(and -4.00)(one -0.54)(process -7.02)(. -2.76) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.3834684753056727;  adjusted_score: -3.35826334837937----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ i had my own thoughts and one process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(i -0.44)(had -7.93)(my -1.88)(own -3.22)(thoughts -4.16)(and -4.71)(one -3.08)(process -3.69)(. -1.88) line score is : -3.443, look ahead score is : 0.000
+======================= template: 17 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP$ NNS VBD JJR AND JJR . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and her freckles grew rarer and rarer 
+-------------------------score:  -3.4078537812156062;  adjusted_score: -3.381100762568174----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and my parents were better and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(my -3.97)(parents -2.38)(were -0.92)(better -3.60)(and -3.83)(less -1.04)(. -8.00) line score is : -3.029, look ahead score is : 0.000
+======================= template: 18 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBD AND PRP VBD , NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ but she sighed and she said , canteloupe 
+-------------------------score:  -3.442952328559124;  adjusted_score: -3.417747201632821----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ but it was and i learned , process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(but -0.44)(it -7.93)(was -1.88)(and -1.52)(i -1.57)(learned -4.31)(, -8.49)(process -4.29)(. -3.90) line score is : -3.815, look ahead score is : 0.000
+-------------------------score:  -3.4505246046817666;  adjusted_score: -3.4250824779159195----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the book at the start , 
+ it 's a lot of art , 
+ but it was and i learned , process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(book -2.12)(at -2.78)(the -4.45)(start -2.05)(, -3.75) line score is : -3.507, look ahead score is : 0.667
+(it -3.75)('s -2.68)(a -2.97)(lot -0.87)(of -2.01)(art -2.74)(, -0.59) line score is : -2.231, look ahead score is : 0.605
+(but -0.59)(it -8.24)(was -1.79)(and -1.45)(i -1.58)(learned -3.81)(, -8.31)(process -4.44)(. -4.03) line score is : -3.804, look ahead score is : 0.000
+======================= template: 19 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ VBD THE NN AT THE NN , 
+ PRP POS A NN OF NN , 
+ JJ NN , PRP VBD , COULD VB JJR . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ said the man at the door 
+ she 's a person of note 
+ `no mixture , she said , could be finer 
+-------------------------score:  -3.484187226961641;  adjusted_score: -3.458982100035338----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ read the guide at the start , 
+ it 's a lot of art , 
+ good stuff , i was , could understand less . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(read -1.63)(the -7.76)(guide -2.12)(at -4.41)(the -3.90)(start -0.93)(, -3.87) line score is : -3.518, look ahead score is : 0.655
+(it -3.87)('s -3.10)(a -2.36)(lot -0.86)(of -2.10)(art -1.98)(, -0.44) line score is : -2.102, look ahead score is : 0.605
+(good -0.44)(stuff -7.93)(, -1.88)(i -5.98)(was -2.13)(, -2.00)(could -2.77)(understand -4.27)(less -7.90)(. -6.80) line score is : -4.210, look ahead score is : 0.000
+======================= template: 20 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and to write it used acres of time 
+-------------------------score:  -3.5264704348519444;  adjusted_score: -3.499717416204512----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and to get it right means of process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(to -3.97)(get -2.38)(it -0.92)(right -5.14)(means -3.24)(of -4.18)(process -3.76)(. -6.41) line score is : -3.388, look ahead score is : 0.000
+-------------------------score:  -3.6263044560328126;  adjusted_score: -3.5995514373853803----------------------- 
+there was a doctor named jess 
+ who did a great job on my progress . 
+ i was back from the day , 
+ i was ready to play , 
+ and to get it right looks of process . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(did -3.65)(a -2.44)(great -3.38)(job -0.39)(on -2.63)(my -2.04)(progress -9.16)(. -1.63) line score is : -2.992, look ahead score is : 0.000
+(i -1.63)(was -1.88)(back -2.56)(from -6.33)(the -5.17)(day -1.94)(, -6.83) line score is : -3.763, look ahead score is : 0.649
+(i -6.83)(was -4.35)(ready -2.92)(to -1.25)(play -2.76)(, -0.48) line score is : -3.100, look ahead score is : 0.689
+(and -0.48)(to -3.97)(get -2.38)(it -0.92)(right -5.14)(looks -3.24)(of -4.18)(process -3.76)(. -8.99) line score is : -3.675, look ahead score is : 0.000

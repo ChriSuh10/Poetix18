@@ -1,0 +1,803 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.041613698704168;  adjusted_score: -3.018116687042639----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ and the pain on the face of the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(and -0.33)(the -8.33)(pain -2.88)(on -2.69)(the -1.77)(face -4.46)(of -6.87)(the -1.92)(bear -3.18)(. -0.12) line score is : -3.255, look ahead score is : 0.000
+-------------------------score:  -3.0429972046986222;  adjusted_score: -3.019500193037093----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ and the pain on the face of the bear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(mind -1.25)(, -6.90) line score is : -3.109, look ahead score is : 0.592
+(her -6.90)(body -2.37)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.510, look ahead score is : 0.583
+(and -0.33)(the -8.33)(pain -2.88)(on -2.69)(the -1.77)(face -4.46)(of -6.87)(the -1.92)(bear -3.18)(. -0.12) line score is : -3.255, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ WITH THE NN OF A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ with the faith of a marytr 
+ she was ready to give and to take 
+-------------------------score:  -3.0746436294721207;  adjusted_score: -3.0502624453412137----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her hell , 
+ with the help of a spell , 
+ she was able to save and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(hell -1.25)(, -7.48) line score is : -3.243, look ahead score is : 0.592
+(with -7.48)(the -3.99)(help -4.49)(of -2.47)(a -2.70)(spell -0.04)(, -2.13) line score is : -3.328, look ahead score is : 0.627
+(she -2.13)(was -6.79)(able -1.55)(to -3.32)(save -2.44)(and -1.48)(to -0.01)(bear -3.28)(. -5.19) line score is : -2.910, look ahead score is : 0.000
+-------------------------score:  -3.0834311126818648;  adjusted_score: -3.059049928550958----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her hell , 
+ with the help of a spell , 
+ she was able to save and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(hell -1.25)(, -7.68) line score is : -3.240, look ahead score is : 0.592
+(with -7.68)(the -3.91)(help -4.49)(of -2.47)(a -2.70)(spell -0.04)(, -2.13) line score is : -3.345, look ahead score is : 0.627
+(she -2.13)(was -6.79)(able -1.55)(to -3.32)(save -2.44)(and -1.48)(to -0.01)(bear -3.28)(. -5.19) line score is : -2.910, look ahead score is : 0.000
+-------------------------score:  -3.099976296405657;  adjusted_score: -3.0755951122747502----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her hell , 
+ with the help of a spell , 
+ she was able to get and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(hell -1.25)(, -7.48) line score is : -3.243, look ahead score is : 0.592
+(with -7.48)(the -3.99)(help -4.49)(of -2.47)(a -2.70)(spell -0.04)(, -2.13) line score is : -3.328, look ahead score is : 0.627
+(she -2.13)(was -6.79)(able -1.55)(to -3.32)(get -2.44)(and -1.48)(to -0.01)(bear -3.29)(. -7.38) line score is : -3.154, look ahead score is : 0.000
+-------------------------score:  -3.1087637796154013;  adjusted_score: -3.0843825954844943----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her hell , 
+ with the help of a spell , 
+ she was able to get and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(hell -1.25)(, -7.68) line score is : -3.240, look ahead score is : 0.592
+(with -7.68)(the -3.91)(help -4.49)(of -2.47)(a -2.70)(spell -0.04)(, -2.13) line score is : -3.345, look ahead score is : 0.627
+(she -2.13)(was -6.79)(able -1.55)(to -3.32)(get -2.44)(and -1.48)(to -0.01)(bear -3.29)(. -7.38) line score is : -3.154, look ahead score is : 0.000
+-------------------------score:  -3.1973473828838905;  adjusted_score: -3.1729661987529836----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her hell , 
+ with the help of a spell , 
+ she was able to wake and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(hell -1.25)(, -7.48) line score is : -3.243, look ahead score is : 0.592
+(with -7.48)(the -3.99)(help -4.49)(of -2.47)(a -2.70)(spell -0.04)(, -2.13) line score is : -3.328, look ahead score is : 0.627
+(she -2.13)(was -6.79)(able -1.55)(to -3.32)(wake -2.44)(and -1.48)(to -0.01)(bear -4.19)(. -4.15) line score is : -2.896, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ she was ready to give and to take 
+-------------------------score:  -3.0915176464064467;  adjusted_score: -3.0680206347449173----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she was able to find and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(she -0.33)(was -8.33)(able -2.88)(to -3.47)(find -2.66)(and -4.97)(to -0.02)(bear -3.44)(. -4.66) line score is : -3.418, look ahead score is : 0.000
+-------------------------score:  -3.0929457816265282;  adjusted_score: -3.069448769964999----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she was able to find and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(mind -1.25)(, -6.90) line score is : -3.109, look ahead score is : 0.592
+(her -6.90)(body -2.37)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.510, look ahead score is : 0.583
+(she -0.33)(was -8.33)(able -2.88)(to -3.47)(find -2.66)(and -4.97)(to -0.02)(bear -3.44)(. -4.66) line score is : -3.418, look ahead score is : 0.000
+-------------------------score:  -3.100188917210025;  adjusted_score: -3.0766919055484956----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ it was enough to make and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(it -0.33)(was -8.33)(enough -2.88)(to -4.07)(make -2.16)(and -5.43)(to -0.30)(bear -1.26)(. -7.74) line score is : -3.612, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ WITH A JJ NN OF NN ON PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ with a nice head of hair on his pate 
+-------------------------score:  -3.0949748975690454;  adjusted_score: -3.071477885907516----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ with a great deal of heart on her bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(with -0.33)(a -8.33)(great -2.88)(deal -4.57)(of -2.32)(heart -4.87)(on -1.10)(her -0.11)(bear -3.78)(. -5.92) line score is : -3.420, look ahead score is : 0.000
+-------------------------score:  -3.112792864209041;  adjusted_score: -3.0892958525475116----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ with a great deal of heart on its bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(with -0.33)(a -8.33)(great -2.88)(deal -4.57)(of -2.32)(heart -4.87)(on -1.10)(its -0.11)(bear -3.78)(. -5.92) line score is : -3.420, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1161567172966897;  adjusted_score: -3.0926597056351603----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ and we see that her soul is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(and -0.33)(we -8.33)(see -2.88)(that -2.69)(her -5.69)(soul -3.28)(is -2.55)(a -3.06)(bear -3.89)(. -0.99) line score is : -3.369, look ahead score is : 0.000
+-------------------------score:  -3.1205410487018526;  adjusted_score: -3.097044037040323----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ and we see that her dream is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(and -0.33)(we -8.33)(see -2.88)(that -2.69)(her -5.69)(dream -3.28)(is -2.55)(a -3.06)(bear -4.41)(. -1.40) line score is : -3.462, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ with the faith of a marytr 
+ and I hope that your day is a blast 
+-------------------------score:  -3.177902473629836;  adjusted_score: -3.154155827285174----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ and she heard that her son is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(and -1.96)(she -9.18)(heard -1.19)(that -1.42)(her -1.72)(son -5.34)(is -3.75)(a -2.36)(bear -3.36)(. -4.30) line score is : -3.458, look ahead score is : 0.000
+-------------------------score:  -3.2083047833841514;  adjusted_score: -3.1845581370394895----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ and she heard that her friend is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(and -1.96)(she -9.18)(heard -1.19)(that -1.42)(her -1.72)(friend -5.34)(is -3.75)(a -2.36)(bear -3.66)(. -4.94) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -3.220362850355313;  adjusted_score: -3.196616204010651----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ and she heard that her child is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(and -1.96)(she -9.18)(heard -1.19)(that -1.42)(her -1.72)(child -5.34)(is -3.75)(a -2.36)(bear -5.29)(. -3.97) line score is : -3.617, look ahead score is : 0.000
+-------------------------score:  -3.22255459553836;  adjusted_score: -3.1988079491936983----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ and she heard that her son has a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(and -1.96)(she -9.18)(heard -1.19)(that -1.42)(her -1.72)(son -5.34)(has -3.75)(a -2.36)(bear -3.36)(. -5.25) line score is : -3.554, look ahead score is : 0.000
+-------------------------score:  -3.243333553073599;  adjusted_score: -3.2195869067289373----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ and she heard that her friend has a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(and -1.96)(she -9.18)(heard -1.19)(that -1.42)(her -1.72)(friend -5.34)(has -3.75)(a -2.36)(bear -3.66)(. -6.24) line score is : -3.682, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT WOULD VB ON NN RB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ but would sleep on till late 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.2106380019994343;  adjusted_score: -3.194366724780377----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ so she went up and slept on the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(so -2.09)(she -3.26)(went -1.92)(up -3.80)(and -0.88)(slept -3.35)(on -5.03)(the -2.93)(bear -4.94)(. -2.14) line score is : -3.034, look ahead score is : 0.000
+-------------------------score:  -3.2750233179506134;  adjusted_score: -3.258752040731556----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ so she went up and set on the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(so -2.09)(she -3.26)(went -1.92)(up -3.80)(and -0.88)(set -3.35)(on -5.03)(the -2.93)(bear -6.36)(. -5.12) line score is : -3.475, look ahead score is : 0.000
+-------------------------score:  -3.2796487050021397;  adjusted_score: -3.2633774277830825----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ so she went up and put on the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(so -2.09)(she -3.26)(went -1.92)(up -3.80)(and -0.88)(put -3.35)(on -5.03)(the -2.93)(bear -5.96)(. -1.14) line score is : -3.037, look ahead score is : 0.000
+-------------------------score:  -3.4202366975300453;  adjusted_score: -3.403965420310988----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ so she went up and let on the bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(so -2.09)(she -3.26)(went -1.92)(up -3.80)(and -0.88)(let -3.35)(on -5.03)(the -2.93)(bear -6.91)(. -7.35) line score is : -3.753, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.24835548572468;  adjusted_score: -3.2248584740631507----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ as she tried to live , she heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(as -0.33)(she -8.33)(tried -2.88)(to -4.48)(live -1.70)(, -4.48)(she -0.13)(heard -3.10)(a -3.56)(bear -4.66)(. -6.61) line score is : -3.660, look ahead score is : 0.000
+-------------------------score:  -3.269529454184301;  adjusted_score: -3.246032442522772----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ as she tried to cope , she heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(as -0.33)(she -8.33)(tried -2.88)(to -4.48)(cope -1.70)(, -4.48)(she -0.13)(heard -3.03)(a -3.92)(bear -4.83)(. -6.74) line score is : -3.713, look ahead score is : 0.000
+-------------------------score:  -3.286493772358605;  adjusted_score: -3.262996760697076----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ as she came to know , she heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(as -0.33)(she -8.33)(came -2.88)(to -4.48)(know -1.70)(, -4.51)(she -0.34)(heard -2.07)(a -4.99)(bear -4.67)(. -6.74) line score is : -3.731, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ ALL OF WHICH , THE NN VBD , VBD PRP$ . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ all of which , the lady said , shocked her 
+-------------------------score:  -3.257691217642842;  adjusted_score: -3.2341942059813125----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ all of which , the author said , were their . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(all -0.33)(of -8.33)(which -2.88)(, -4.35)(the -2.30)(author -1.44)(said -5.33)(, -5.02)(were -2.55)(their -3.93)(. -0.12) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.2590327992132218;  adjusted_score: -3.2355357875516924----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ all of which , the author said , were their . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(mind -1.25)(, -6.90) line score is : -3.109, look ahead score is : 0.592
+(her -6.90)(body -2.37)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.510, look ahead score is : 0.583
+(all -0.33)(of -8.33)(which -2.88)(, -4.35)(the -2.30)(author -1.44)(said -5.33)(, -5.02)(were -2.55)(their -3.93)(. -0.12) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.2844843087774334;  adjusted_score: -3.260987297115904----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ all of which , the author wrote , were their . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(all -0.33)(of -8.33)(which -2.88)(, -4.35)(the -2.30)(author -1.44)(wrote -5.33)(, -5.02)(were -2.55)(their -4.37)(. -0.15) line score is : -3.369, look ahead score is : 0.000
+-------------------------score:  -3.2858258903478132;  adjusted_score: -3.262328878686284----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ all of which , the author wrote , were their . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(mind -1.25)(, -6.90) line score is : -3.109, look ahead score is : 0.592
+(her -6.90)(body -2.37)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.510, look ahead score is : 0.583
+(all -0.33)(of -8.33)(which -2.88)(, -4.35)(the -2.30)(author -1.44)(wrote -5.33)(, -5.02)(were -2.55)(their -4.37)(. -0.15) line score is : -3.369, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT WOULD VB ON NN RB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ but would sleep on till late 
+ she was ready to give and to take 
+-------------------------score:  -3.271949503909458;  adjusted_score: -3.2556782266904007----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ she was afraid to be and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(she -2.09)(was -3.26)(afraid -1.92)(to -3.17)(be -2.14)(and -2.44)(to -2.62)(bear -3.38)(. -7.10) line score is : -3.124, look ahead score is : 0.000
+-------------------------score:  -3.2765488800677387;  adjusted_score: -3.2602776028486815----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ she was afraid to look and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(she -2.09)(was -3.26)(afraid -1.92)(to -3.17)(look -2.14)(and -2.44)(to -2.62)(bear -3.34)(. -4.96) line score is : -2.883, look ahead score is : 0.000
+-------------------------score:  -3.2794850120941796;  adjusted_score: -3.2632137348751225----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ she was afraid to leave and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(she -2.09)(was -3.26)(afraid -1.92)(to -3.17)(leave -2.14)(and -2.44)(to -2.62)(bear -2.30)(. -4.71) line score is : -2.739, look ahead score is : 0.000
+-------------------------score:  -3.30556629959381;  adjusted_score: -3.289295022374753----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ she was afraid to go and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(she -2.09)(was -3.26)(afraid -1.92)(to -3.17)(go -2.14)(and -2.44)(to -2.62)(bear -1.72)(. -4.87) line score is : -2.693, look ahead score is : 0.000
+-------------------------score:  -3.361573872692657;  adjusted_score: -3.3453025954736----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ she was afraid to come and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(she -2.09)(was -3.26)(afraid -1.92)(to -3.17)(come -2.14)(and -2.44)(to -2.62)(bear -3.32)(. -3.86) line score is : -2.759, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ and now a new teacher they seek 
+-------------------------score:  -3.2885101492206257;  adjusted_score: -3.2650131375590963----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ and even a little girl i swear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(and -0.33)(even -8.33)(a -2.88)(little -2.69)(girl -5.23)(i -4.67)(swear -2.05)(. -3.03) line score is : -3.653, look ahead score is : 0.000
+-------------------------score:  -3.3465127165118855;  adjusted_score: -3.323015704850356----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ and even a little girl we swear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(and -0.33)(even -8.33)(a -2.88)(little -2.69)(girl -5.23)(we -4.67)(swear -2.05)(. -3.03) line score is : -3.653, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT WOULD VB ON NN RB , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ but would sleep on till late 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.3005943941218514;  adjusted_score: -3.284323116902794----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ as she had to be , she heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(as -2.09)(she -3.26)(had -1.92)(to -3.46)(be -1.61)(, -1.75)(she -3.25)(heard -2.81)(a -2.72)(bear -3.68)(. -5.40) line score is : -2.905, look ahead score is : 0.000
+-------------------------score:  -3.3026923686265945;  adjusted_score: -3.2864210914075374----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ as she was to be , she heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(as -2.09)(she -3.26)(was -1.92)(to -3.46)(be -1.61)(, -1.51)(she -4.15)(heard -1.85)(a -3.80)(bear -4.07)(. -5.06) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.3307093311633382;  adjusted_score: -3.314438053944281----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ as she was to be , she heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(she -1.75)(was -1.75)(back -1.63)(from -8.81)(the -3.26)(moon -1.76)(, -4.69) line score is : -3.378, look ahead score is : 0.575
+(but -4.69)(would -1.61)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.560, look ahead score is : 0.239
+(as -2.09)(she -3.26)(was -1.92)(to -3.46)(be -1.61)(, -1.51)(she -4.15)(heard -1.85)(a -3.80)(bear -4.07)(. -5.06) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.410333186813763;  adjusted_score: -3.394061909594706----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ as she had to be , she swore a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(as -2.09)(she -3.26)(had -1.92)(to -3.46)(be -1.61)(, -1.75)(she -3.25)(swore -2.81)(a -2.72)(bear -3.68)(. -6.07) line score is : -2.965, look ahead score is : 0.000
+-------------------------score:  -3.4250833949872423;  adjusted_score: -3.408812117768185----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ as she was to be , she swore a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(as -2.09)(she -3.26)(was -1.92)(to -3.46)(be -1.61)(, -1.51)(she -4.15)(swore -1.85)(a -3.80)(bear -4.07)(. -6.15) line score is : -3.079, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ with the faith of a marytr 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.3814379414809603;  adjusted_score: -3.3576912951362985----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ when she heard it , she say led a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(when -1.96)(she -9.18)(heard -1.19)(it -2.06)(, -0.74)(she -2.34)(say -4.83)(led -2.56)(a -3.06)(bear -7.58)(. -7.51) line score is : -3.908, look ahead score is : 0.000
+-------------------------score:  -3.4213632578828506;  adjusted_score: -3.3976166115381887----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ when she heard it , she say told a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(when -1.96)(she -9.18)(heard -1.19)(it -2.06)(, -0.74)(she -2.34)(say -4.83)(told -2.56)(a -3.06)(bear -7.58)(. -9.14) line score is : -4.057, look ahead score is : 0.000
+-------------------------score:  -3.4352561571236166;  adjusted_score: -3.411509510778955----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ with the help of a spoon , 
+ when she heard it , she say made a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(with -4.48)(the -1.68)(help -4.29)(of -2.36)(a -5.04)(spoon -0.02)(, -1.96) line score is : -2.834, look ahead score is : 0.613
+(when -1.96)(she -9.18)(heard -1.19)(it -2.06)(, -0.74)(she -2.34)(say -4.83)(made -2.56)(a -3.06)(bear -7.58)(. -9.64) line score is : -4.103, look ahead score is : 0.000
+======================= template: 14 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBZ THE NNS IN NN THAT PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ it 's the people in front that I jar 
+-------------------------score:  -3.4288970553316176;  adjusted_score: -3.405400043670088----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she is the thorn in hell that we swear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(she -0.33)(is -8.33)(the -2.88)(thorn -3.47)(in -2.19)(hell -2.18)(that -8.64)(we -0.25)(swear -5.91)(. -4.14) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.4302805613260716;  adjusted_score: -3.406783549664542----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she is the thorn in hell that we swear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(mind -1.25)(, -6.90) line score is : -3.109, look ahead score is : 0.592
+(her -6.90)(body -2.37)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.510, look ahead score is : 0.583
+(she -0.33)(is -8.33)(the -2.88)(thorn -3.47)(in -2.19)(hell -2.18)(that -8.64)(we -0.25)(swear -5.91)(. -4.14) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.4426490240730345;  adjusted_score: -3.419152012411505----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she is the thorn in hell that you swear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(she -0.33)(is -8.33)(the -2.88)(thorn -3.47)(in -2.19)(hell -2.18)(that -8.64)(you -0.25)(swear -5.91)(. -4.14) line score is : -3.832, look ahead score is : 0.000
+======================= template: 15 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ FROM THE NN NNS PRP COULD VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ from the comedy roles he could play 
+-------------------------score:  -3.5094945803284645;  adjusted_score: -3.485997568666935----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ from the moment children she could bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(from -0.33)(the -8.33)(moment -2.88)(children -5.32)(she -1.65)(could -2.57)(bear -8.79)(. -5.74) line score is : -4.452, look ahead score is : 0.000
+-------------------------score:  -3.6466668819387755;  adjusted_score: -3.623169870277246----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ from the moment people she could bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(from -0.33)(the -8.33)(moment -2.88)(people -5.32)(she -1.65)(could -2.57)(bear -7.47)(. -6.16) line score is : -4.341, look ahead score is : 0.000
+-------------------------score:  -3.648142399142186;  adjusted_score: -3.6246453874806566----------------------- 
+there once was a woman named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ from the moment people she could bear . 
+------------------------- score breakdown ------------------------ 
+(who -3.16)(lived -2.96)(all -6.81)(her -1.02)(life -0.08)(in -0.78)(a -1.80)(nightmare -8.29)(. -1.75) line score is : -2.963, look ahead score is : 0.000
+(the -1.75)(story -3.53)(of -3.27)(her -1.96)(mind -1.25)(, -6.90) line score is : -3.109, look ahead score is : 0.592
+(her -6.90)(body -2.37)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.510, look ahead score is : 0.583
+(from -0.33)(the -8.33)(moment -2.88)(people -5.32)(she -1.65)(could -2.57)(bear -7.47)(. -6.16) line score is : -4.341, look ahead score is : 0.000
+======================= template: 16 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ his grief and his rage 
+ I did n't think life was this way 
+-------------------------score:  -3.575858825156766;  adjusted_score: -3.5523618134952364----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she had never read till was this bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(she -0.33)(had -8.33)(never -2.88)(read -3.47)(till -3.79)(was -2.74)(this -4.46)(bear -6.24)(. -9.31) line score is : -4.616, look ahead score is : 0.000
+-------------------------score:  -3.64446756291774;  adjusted_score: -3.6209705512562107----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ the story of her mind , 
+ her body and her kind , 
+ she had never come home had this bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(the -1.60)(story -3.71)(of -3.39)(her -2.03)(mind -1.25)(, -6.97) line score is : -3.159, look ahead score is : 0.592
+(her -6.97)(body -2.42)(and -1.30)(her -2.98)(kind -1.19)(, -0.33) line score is : -2.529, look ahead score is : 0.583
+(she -0.33)(had -8.33)(never -2.88)(come -3.47)(home -3.79)(had -2.74)(this -5.90)(bear -4.26)(. -9.92) line score is : -4.624, look ahead score is : 0.000
+======================= template: 17 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT WOULD VB ON NN RB , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ but would sleep on till late 
+ I did n't think life was this way 
+-------------------------score:  -3.6076858364271396;  adjusted_score: -3.5914145592080824----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ she had never come home had this bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(she -2.09)(had -3.26)(never -1.92)(come -3.17)(home -2.43)(had -4.45)(this -4.59)(bear -2.05)(. -9.79) line score is : -3.752, look ahead score is : 0.000
+======================= template: 18 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT WOULD VB ON NN RB , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ but would sleep on till late 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.6334918392556053;  adjusted_score: -3.617220562036548----------------------- 
+there was a wise lady named javier 
+ who lived all her life in a nightmare . 
+ she was back from the moon , 
+ but would be on earth soon , 
+ when she heard it , she tore left a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(lived -3.16)(all -6.43)(her -1.07)(life -0.11)(in -0.84)(a -1.93)(nightmare -9.10)(. -1.60) line score is : -2.903, look ahead score is : 0.000
+(she -1.60)(was -1.80)(back -1.64)(from -8.66)(the -3.03)(moon -1.77)(, -4.48) line score is : -3.283, look ahead score is : 0.575
+(but -4.48)(would -1.68)(be -2.33)(on -6.35)(earth -3.06)(soon -4.79)(, -2.09) line score is : -3.541, look ahead score is : 0.239
+(when -2.09)(she -3.26)(heard -1.92)(it -2.97)(, -1.22)(she -2.80)(tore -5.31)(left -3.19)(a -1.91)(bear -8.26)(. -9.21) line score is : -3.832, look ahead score is : 0.000

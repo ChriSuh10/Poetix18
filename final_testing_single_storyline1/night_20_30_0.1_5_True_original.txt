@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.5894059472613864;  adjusted_score: -3.570532658629947----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the previous sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(previous -5.39)(sunday -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.651814228958554;  adjusted_score: -3.6329409403271145----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and decided on the same sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(decided -5.32)(on -1.52)(the -1.67)(same -6.87)(sunday -4.55)(. -2.42) line score is : -4.098, look ahead score is : 0.000
+-------------------------score:  -3.657357301976946;  adjusted_score: -3.6384840133455065----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and decided on the wrong sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(decided -5.32)(on -1.52)(the -1.67)(wrong -6.87)(sunday -4.55)(. -2.42) line score is : -4.098, look ahead score is : 0.000
+-------------------------score:  -3.7142504078370555;  adjusted_score: -3.695377119205616----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and decided on the last sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(decided -5.32)(on -1.52)(the -1.67)(last -6.87)(sunday -4.55)(. -2.42) line score is : -4.098, look ahead score is : 0.000
+-------------------------score:  -3.7258377406332226;  adjusted_score: -3.7069644520017833----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and decided on the first sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(decided -5.32)(on -1.52)(the -1.67)(first -6.87)(sunday -4.55)(. -2.42) line score is : -4.098, look ahead score is : 0.000
+-------------------------score:  -3.777760746302428;  adjusted_score: -3.7588874576709888----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the usual sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(usual -5.39)(sunday -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.814250374281848;  adjusted_score: -3.7953770856504088----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(opposite -5.39)(sunday -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.8585439964577004;  adjusted_score: -3.839670707826261----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and stood on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(stood -5.32)(on -1.52)(the -1.67)(opposite -6.42)(sunday -2.67)(. -0.69) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -3.861047124421155;  adjusted_score: -3.8421738357897155----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and walked on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(walked -5.32)(on -1.52)(the -1.67)(opposite -5.60)(sunday -4.88)(. -1.89) line score is : -3.887, look ahead score is : 0.000
+-------------------------score:  -3.875237007935842;  adjusted_score: -3.8563637193044027----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different day , 
+ and sat on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(day -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -7.47)(on -1.09)(the -1.63)(opposite -5.23)(sunday -2.15)(. -0.73) line score is : -3.520, look ahead score is : 0.000
+-------------------------score:  -3.8820921734527305;  adjusted_score: -3.863218884821291----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and was on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(was -5.32)(on -1.52)(the -1.67)(opposite -3.62)(sunday -5.13)(. -1.58) line score is : -3.597, look ahead score is : 0.000
+-------------------------score:  -3.890883403795737;  adjusted_score: -3.8720101151642976----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the beautiful sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(beautiful -5.39)(sunday -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.9087058239512973;  adjusted_score: -3.889832535319858----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and had on the usual sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(had -5.32)(on -1.52)(the -1.67)(usual -3.99)(sunday -5.87)(. -3.66) line score is : -4.053, look ahead score is : 0.000
+-------------------------score:  -3.940957804520925;  adjusted_score: -3.9220845158894857----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated play . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(play -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.9417335832560503;  adjusted_score: -3.922860294624611----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the comfortable day . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(comfortable -5.39)(day -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.9473109355679266;  adjusted_score: -3.9284376469364872----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated day . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(day -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.947775180693026;  adjusted_score: -3.9289018920615866----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the general sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(general -5.39)(sunday -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.952229881728137;  adjusted_score: -3.933356593096698----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the neighboring sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(neighboring -5.39)(sunday -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.9763759595376476;  adjusted_score: -3.957502670906208----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and stood on the elevated play . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(stood -5.32)(on -1.52)(the -1.67)(elevated -6.42)(play -2.67)(. -0.69) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -4.029646195747234;  adjusted_score: -4.010772907115795----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated three . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(three -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.035721772246891;  adjusted_score: -4.016848483615452----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(she -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.043651042161165;  adjusted_score: -4.024777753529726----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and stood on the elevated she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(stood -5.32)(on -1.52)(the -1.67)(elevated -6.42)(she -2.67)(. -0.69) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -4.045394996802012;  adjusted_score: -4.0265217081705735----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the comfortable three . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(comfortable -5.39)(three -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.050230019622379;  adjusted_score: -4.03135673099094----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(we -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.069405301853463;  adjusted_score: -4.050532013222024----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(he -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.071068262612378;  adjusted_score: -4.0521949739809395----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the elevated be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(elevated -5.39)(be -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.081781557312718;  adjusted_score: -4.062908268681279----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the comfortable she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(comfortable -5.39)(she -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.0910780076627375;  adjusted_score: -4.072204719031299----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and stood on the elevated be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(stood -5.32)(on -1.52)(the -1.67)(elevated -6.42)(be -2.67)(. -0.69) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -4.091237450087512;  adjusted_score: -4.072364161456073----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the comfortable he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(comfortable -5.39)(he -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -4.204126951871095;  adjusted_score: -4.185253663239656----------------------- 
+there was a bright woman named lee 
+ whose face seemed almost older than me . 
+ she was out one sunday , 
+ in a different way , 
+ and sat on the comfortable be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.32)(face -2.71)(seemed -4.19)(almost -4.38)(older -6.43)(than -0.29)(me -2.62)(. -0.97) line score is : -3.363, look ahead score is : 0.000
+(she -0.97)(was -1.19)(out -1.35)(one -8.06)(sunday -7.41)(, -5.12) line score is : -4.018, look ahead score is : 0.308
+(in -5.12)(a -3.23)(different -4.03)(way -1.79)(, -6.34) line score is : -4.103, look ahead score is : 0.636
+(and -6.34)(sat -5.32)(on -1.52)(the -1.67)(comfortable -5.39)(be -2.15)(. -0.77) line score is : -3.309, look ahead score is : 0.000

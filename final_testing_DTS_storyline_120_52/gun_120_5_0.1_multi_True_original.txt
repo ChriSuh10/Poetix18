@@ -1,0 +1,88 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ IN JJ NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ due to up-to-date science 
+ he was pained by a tooth 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.0978311832462038;  adjusted_score: -3.0731969287459338----------------------- 
+there was a neat soldier named scott 
+ who carried a big rifle and fought . 
+ in actual combat , 
+ he was killed by a bat , 
+ but he had his memories and thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(carried -5.11)(a -0.81)(big -4.06)(rifle -3.01)(and -1.66)(fought -4.98)(. -4.20) line score is : -3.157, look ahead score is : 0.000
+(in -4.20)(actual -4.12)(combat -6.53)(, -1.79) line score is : -4.162, look ahead score is : 0.584
+(he -1.79)(was -0.89)(killed -1.03)(by -1.32)(a -4.66)(bat -1.03)(, -1.08) line score is : -1.687, look ahead score is : 0.647
+(but -1.08)(he -7.77)(had -2.35)(his -1.61)(memories -1.67)(and -3.04)(thought -3.29)(. -5.64) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.23521816943373;  adjusted_score: -3.21058391493346----------------------- 
+there was a neat soldier named scott 
+ who carried a big rifle and fought . 
+ in actual combat , 
+ he was killed by a bat , 
+ but he had his memories and got . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(carried -5.11)(a -0.81)(big -4.06)(rifle -3.01)(and -1.66)(fought -4.98)(. -4.20) line score is : -3.157, look ahead score is : 0.000
+(in -4.20)(actual -4.12)(combat -6.53)(, -1.79) line score is : -4.162, look ahead score is : 0.584
+(he -1.79)(was -0.89)(killed -1.03)(by -1.32)(a -4.66)(bat -1.03)(, -1.08) line score is : -1.687, look ahead score is : 0.647
+(but -1.08)(he -7.77)(had -2.35)(his -1.61)(memories -1.67)(and -3.04)(got -3.29)(. -5.64) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.252129403608186;  adjusted_score: -3.227495149107916----------------------- 
+there was a neat soldier named scott 
+ who carried a big rifle and fought . 
+ in actual combat , 
+ he was killed by a bat , 
+ but he had his memories and shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(carried -5.11)(a -0.81)(big -4.06)(rifle -3.01)(and -1.66)(fought -4.98)(. -4.20) line score is : -3.157, look ahead score is : 0.000
+(in -4.20)(actual -4.12)(combat -6.53)(, -1.79) line score is : -4.162, look ahead score is : 0.584
+(he -1.79)(was -0.89)(killed -1.03)(by -1.32)(a -4.66)(bat -1.03)(, -1.08) line score is : -1.687, look ahead score is : 0.647
+(but -1.08)(he -7.77)(had -2.35)(his -1.61)(memories -1.67)(and -3.04)(shot -3.29)(. -5.64) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.2557120344468524;  adjusted_score: -3.2310777799465824----------------------- 
+there was a neat soldier named scott 
+ who carried a big rifle and fought . 
+ in actual combat , 
+ he was killed by a bat , 
+ but he had his memories and brought . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(carried -5.11)(a -0.81)(big -4.06)(rifle -3.01)(and -1.66)(fought -4.98)(. -4.20) line score is : -3.157, look ahead score is : 0.000
+(in -4.20)(actual -4.12)(combat -6.53)(, -1.79) line score is : -4.162, look ahead score is : 0.584
+(he -1.79)(was -0.89)(killed -1.03)(by -1.32)(a -4.66)(bat -1.03)(, -1.08) line score is : -1.687, look ahead score is : 0.647
+(but -1.08)(he -7.77)(had -2.35)(his -1.61)(memories -1.67)(and -3.04)(brought -3.29)(. -5.64) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.284816352384431;  adjusted_score: -3.260182097884161----------------------- 
+there was a neat soldier named scott 
+ who carried a big rifle and fought . 
+ in actual combat , 
+ he was killed by a bat , 
+ but he had his memories and caught . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(carried -5.11)(a -0.81)(big -4.06)(rifle -3.01)(and -1.66)(fought -4.98)(. -4.20) line score is : -3.157, look ahead score is : 0.000
+(in -4.20)(actual -4.12)(combat -6.53)(, -1.79) line score is : -4.162, look ahead score is : 0.584
+(he -1.79)(was -0.89)(killed -1.03)(by -1.32)(a -4.66)(bat -1.03)(, -1.08) line score is : -1.687, look ahead score is : 0.647
+(but -1.08)(he -7.77)(had -2.35)(his -1.61)(memories -1.67)(and -3.04)(caught -3.29)(. -5.64) line score is : -3.307, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ IN JJ NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD AND PRP VBD , NN . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ due to up-to-date science 
+ he was pained by a tooth 
+ but she sighed and she said , canteloupe 
+-------------------------score:  -3.3452562648674538;  adjusted_score: -3.3206220103671837----------------------- 
+there was a neat soldier named scott 
+ who carried a big rifle and fought . 
+ in actual combat , 
+ he was killed by a bat , 
+ but he survived and he became , thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(carried -5.11)(a -0.81)(big -4.06)(rifle -3.01)(and -1.66)(fought -4.98)(. -4.20) line score is : -3.157, look ahead score is : 0.000
+(in -4.20)(actual -4.12)(combat -6.53)(, -1.79) line score is : -4.162, look ahead score is : 0.584
+(he -1.79)(was -0.89)(killed -1.03)(by -1.32)(a -4.66)(bat -1.03)(, -1.08) line score is : -1.687, look ahead score is : 0.647
+(but -1.08)(he -7.77)(survived -2.35)(and -1.61)(he -1.67)(became -3.09)(, -2.05)(thought -4.36)(. -3.38) line score is : -3.041, look ahead score is : 0.000

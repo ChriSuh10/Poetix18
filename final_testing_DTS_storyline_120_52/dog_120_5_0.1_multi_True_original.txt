@@ -1,0 +1,2728 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.716346454439741;  adjusted_score: -2.690272344766241----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and that is the spirit of this day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(that -3.11)(is -1.56)(the -1.92)(spirit -2.99)(of -3.52)(this -2.56)(day -4.25)(. -0.55) line score is : -2.734, look ahead score is : 0.000
+-------------------------score:  -2.9059946500893794;  adjusted_score: -2.8799205404158794----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and that is the spirit of this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(that -3.11)(is -1.56)(the -1.92)(spirit -2.99)(of -3.52)(this -2.56)(way -4.25)(. -0.55) line score is : -2.734, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and now he 's a college professor 
+-------------------------score:  -2.83330212906003;  adjusted_score: -2.80722801938653----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and then it becomes a nightmare day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(then -3.11)(it -1.56)(becomes -1.92)(a -3.92)(nightmare -1.94)(day -2.76)(. -0.54) line score is : -2.486, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ WITH A JJ NN OF NN ON PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ with a nice head of hair on his pate 
+-------------------------score:  -2.868435403660816;  adjusted_score: -2.842361293987316----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ with a great deal of hope on his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(with -4.13)(a -3.11)(great -1.56)(deal -6.28)(of -2.09)(hope -4.45)(on -1.45)(his -0.11)(way -4.47)(. -5.25) line score is : -3.290, look ahead score is : 0.000
+-------------------------score:  -2.870077342452372;  adjusted_score: -2.844003232778872----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ with a great deal of pride on his day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(with -4.13)(a -3.11)(great -1.56)(deal -6.28)(of -2.09)(pride -4.45)(on -1.45)(his -0.11)(day -4.30)(. -3.85) line score is : -3.132, look ahead score is : 0.000
+-------------------------score:  -2.8988031479803955;  adjusted_score: -2.8727290383068955----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ with a great deal of love on his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(with -4.13)(a -3.11)(great -1.56)(deal -6.28)(of -2.09)(love -4.45)(on -1.45)(his -0.11)(way -4.71)(. -4.86) line score is : -3.275, look ahead score is : 0.000
+-------------------------score:  -2.9053965348969486;  adjusted_score: -2.8793224252234486----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ with a great deal of pride on his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(with -4.13)(a -3.11)(great -1.56)(deal -6.28)(of -2.09)(pride -4.45)(on -1.45)(his -0.11)(way -4.30)(. -3.85) line score is : -3.132, look ahead score is : 0.000
+-------------------------score:  -2.910060549264445;  adjusted_score: -2.883986439590945----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ with a great deal of pride on its way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(with -4.13)(a -3.11)(great -1.56)(deal -6.28)(of -2.09)(pride -4.45)(on -1.45)(its -0.11)(way -4.30)(. -3.85) line score is : -3.132, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ when I wear it , I am called a vermine 
+-------------------------score:  -2.8966059241976057;  adjusted_score: -2.8705318145241057----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ when you get it , you have lost a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(when -4.13)(you -3.11)(get -1.56)(it -6.52)(, -3.15)(you -1.07)(have -1.94)(lost -1.18)(a -1.67)(day -2.69)(. -6.75) line score is : -3.069, look ahead score is : 0.000
+-------------------------score:  -2.9460517304284233;  adjusted_score: -2.9199776207549233----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ when you get it , you have lost a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(when -4.13)(you -3.11)(get -1.56)(it -6.52)(, -3.15)(you -1.07)(have -1.94)(lost -1.18)(a -1.67)(way -2.69)(. -6.75) line score is : -3.069, look ahead score is : 0.000
+-------------------------score:  -2.99473489012037;  adjusted_score: -2.96866078044687----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ when you get it , you have been a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(when -4.13)(you -3.11)(get -1.56)(it -6.52)(, -3.15)(you -1.07)(have -1.94)(been -1.18)(a -1.67)(prey -2.69)(. -5.91) line score is : -2.993, look ahead score is : 0.000
+-------------------------score:  -3.039061304501125;  adjusted_score: -3.012987194827625----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ when you get it , you feel blessed a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(when -4.13)(you -3.11)(get -1.56)(it -6.52)(, -3.15)(you -1.07)(feel -1.94)(blessed -1.18)(a -1.67)(day -3.13)(. -5.56) line score is : -3.002, look ahead score is : 0.000
+-------------------------score:  -3.06329517023904;  adjusted_score: -3.03722106056554----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ when you get it , you have been a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(when -4.13)(you -3.11)(get -1.56)(it -6.52)(, -3.15)(you -1.07)(have -1.94)(been -1.18)(a -1.67)(day -2.69)(. -5.91) line score is : -2.993, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -2.960294568911195;  adjusted_score: -2.9353038551658392----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to go and to stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(was -4.73)(prepared -3.15)(to -1.19)(go -0.52)(and -4.99)(to -0.73)(stay -1.98)(. -3.50) line score is : -2.371, look ahead score is : 0.000
+-------------------------score:  -2.9837858509272337;  adjusted_score: -2.958795137181878----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to fight and to stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(was -4.73)(prepared -3.15)(to -1.19)(fight -0.52)(and -4.99)(to -0.73)(stay -1.95)(. -2.59) line score is : -2.267, look ahead score is : 0.000
+-------------------------score:  -3.076622946187854;  adjusted_score: -3.0516322324424983----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to fight and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(was -4.73)(prepared -3.15)(to -1.19)(fight -0.52)(and -4.99)(to -0.73)(say -1.95)(. -2.59) line score is : -2.267, look ahead score is : 0.000
+-------------------------score:  -3.1013071555644274;  adjusted_score: -3.076316441819072----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to go and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(was -4.73)(prepared -3.15)(to -1.19)(go -0.52)(and -4.99)(to -0.73)(say -1.98)(. -3.50) line score is : -2.371, look ahead score is : 0.000
+-------------------------score:  -3.1630436833947897;  adjusted_score: -3.138052969649434----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ he was happy to be and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(was -6.96)(happy -1.28)(to -1.21)(be -0.58)(and -3.75)(to -2.16)(say -0.92)(. -8.26) line score is : -2.853, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ OR THE NN OF A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ or the joy of a pleasant surprise 
+-------------------------score:  -2.9624092439189553;  adjusted_score: -2.9363351342454553----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ or the promise of a present day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(or -4.13)(the -3.11)(promise -1.56)(of -4.72)(a -4.28)(present -3.95)(day -0.12)(. -1.30) line score is : -2.898, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -2.9681142838671803;  adjusted_score: -2.943123570121825----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to fight and to stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(prepared -2.97)(to -1.08)(fight -0.48)(and -5.00)(to -0.68)(stay -1.82)(. -3.07) line score is : -2.229, look ahead score is : 0.000
+-------------------------score:  -3.0116871343925595;  adjusted_score: -2.986696420647204----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to fight and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(prepared -2.97)(to -1.08)(fight -0.48)(and -5.00)(to -0.68)(be -1.82)(. -3.07) line score is : -2.229, look ahead score is : 0.000
+-------------------------score:  -3.0229353569447994;  adjusted_score: -2.997944643199444----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ he was happy to be and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -6.10)(happy -1.35)(to -1.16)(be -0.60)(and -4.06)(to -2.11)(be -0.99)(. -8.34) line score is : -2.795, look ahead score is : 0.000
+-------------------------score:  -3.056160976178944;  adjusted_score: -3.0311702624335886----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to go and to be . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(prepared -2.97)(to -1.08)(go -0.48)(and -5.00)(to -0.68)(be -2.05)(. -3.90) line score is : -2.346, look ahead score is : 0.000
+-------------------------score:  -3.057668221183121;  adjusted_score: -3.0326775074377657----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was prepared to fight and to see . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(prepared -2.97)(to -1.08)(fight -0.48)(and -5.00)(to -0.68)(see -1.82)(. -3.07) line score is : -2.229, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and I hope that your day is a blast 
+-------------------------score:  -2.969162478166468;  adjusted_score: -2.943088368492968----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i think that his life is a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(think -1.56)(that -1.92)(his -3.00)(life -2.19)(is -1.19)(a -6.42)(day -3.69)(. -1.45) line score is : -2.866, look ahead score is : 0.000
+-------------------------score:  -2.973499792463639;  adjusted_score: -2.947425682790139----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i think that our world needs a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(think -1.56)(that -1.92)(our -3.00)(world -2.19)(needs -1.19)(a -6.16)(way -4.70)(. -1.81) line score is : -2.978, look ahead score is : 0.000
+-------------------------score:  -2.9907175933613495;  adjusted_score: -2.9646434836878495----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i think that his life is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(think -1.56)(that -1.92)(his -3.00)(life -2.19)(is -1.19)(a -6.42)(way -3.69)(. -1.45) line score is : -2.866, look ahead score is : 0.000
+-------------------------score:  -2.9942132304696476;  adjusted_score: -2.9681391207961476----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i think that our world is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(think -1.56)(that -1.92)(our -3.00)(world -2.19)(is -1.19)(a -6.16)(way -4.70)(. -1.54) line score is : -2.950, look ahead score is : 0.000
+-------------------------score:  -3.0106448320781483;  adjusted_score: -2.9845707224046483----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i think that our world needs a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(think -1.56)(that -1.92)(our -3.00)(world -2.19)(needs -1.19)(a -6.16)(day -4.70)(. -1.81) line score is : -2.978, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and I hope that your day is a blast 
+-------------------------score:  -3.0202842600205364;  adjusted_score: -2.9942101503470364----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i know that my son has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(i -3.05)(know -1.71)(that -1.83)(my -2.65)(son -3.74)(has -1.44)(a -3.68)(way -1.72)(. -2.51) line score is : -2.715, look ahead score is : 0.000
+-------------------------score:  -3.056673519751605;  adjusted_score: -3.030599410078105----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i think that his life is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(i -3.05)(think -1.71)(that -1.83)(his -2.65)(life -1.99)(is -1.21)(a -6.23)(way -3.20)(. -1.41) line score is : -2.811, look ahead score is : 0.000
+-------------------------score:  -3.079993286553551;  adjusted_score: -3.053919176880051----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i know that his life is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(i -3.05)(know -1.71)(that -1.83)(his -2.65)(life -3.74)(is -1.44)(a -4.40)(way -2.90)(. -1.29) line score is : -2.783, look ahead score is : 0.000
+-------------------------score:  -3.1286425450268913;  adjusted_score: -3.1025684353533913----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i know that my son is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(i -3.05)(know -1.71)(that -1.83)(my -2.65)(son -3.74)(is -1.44)(a -3.68)(way -1.72)(. -2.22) line score is : -2.686, look ahead score is : 0.000
+-------------------------score:  -3.1811590650502373;  adjusted_score: -3.1550849553767373----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i know that my child is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(i -3.05)(know -1.71)(that -1.83)(my -2.65)(child -3.74)(is -1.44)(a -3.68)(way -3.68)(. -1.85) line score is : -2.845, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.0319078474333794;  adjusted_score: -3.0058337377598794----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and that is the spirit of this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(that -3.05)(is -1.71)(the -1.83)(spirit -2.83)(of -3.70)(this -2.46)(way -4.06)(. -0.56) line score is : -2.779, look ahead score is : 0.000
+-------------------------score:  -3.1462312431046455;  adjusted_score: -3.1201571334311455----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and that is the case of this birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(that -3.05)(is -1.71)(the -1.83)(case -2.83)(of -3.70)(this -2.46)(birthday -3.82)(. -4.33) line score is : -3.172, look ahead score is : 0.000
+-------------------------score:  -3.230428394889741;  adjusted_score: -3.204354285216241----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and that is the kind of this birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(that -3.05)(is -1.71)(the -1.83)(kind -2.83)(of -3.70)(this -2.46)(birthday -3.55)(. -0.02) line score is : -2.663, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ JUST AS EVERY JJ NN SHOULD VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ just as every sweet maiden should dioux 
+-------------------------score:  -3.0449370723217726;  adjusted_score: -3.0188629626482726----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ just as every other child should say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(just -4.13)(as -3.11)(every -1.56)(other -5.25)(child -2.38)(should -5.57)(say -1.65)(. -2.60) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -3.105935437604785;  adjusted_score: -3.079740076288581----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a treat of joy , 
+ just as every other child should say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(treat -0.83)(of -2.08)(joy -3.81)(, -5.67) line score is : -3.075, look ahead score is : 0.574
+(just -5.67)(as -2.37)(every -1.87)(other -5.06)(child -2.38)(should -5.59)(say -1.69)(. -2.57) line score is : -3.400, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.0451785578872217;  adjusted_score: -3.020187844141866----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and put on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(so -0.44)(he -4.52)(went -2.97)(up -3.45)(and -1.27)(put -2.93)(on -3.18)(the -1.99)(way -4.44)(. -2.52) line score is : -2.771, look ahead score is : 0.000
+-------------------------score:  -3.0887072339202417;  adjusted_score: -3.063716520174886----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and drove on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(so -0.44)(he -4.52)(went -2.97)(up -3.45)(and -1.27)(drove -2.93)(on -3.18)(the -1.99)(way -6.27)(. -4.40) line score is : -3.143, look ahead score is : 0.000
+-------------------------score:  -3.096802234649658;  adjusted_score: -3.0718115209043027----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and cut on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(so -0.44)(he -4.52)(went -2.97)(up -3.45)(and -1.27)(cut -2.93)(on -3.18)(the -1.99)(way -6.29)(. -5.32) line score is : -3.237, look ahead score is : 0.000
+-------------------------score:  -3.1771759806257305;  adjusted_score: -3.152185266880375----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and let on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(so -0.44)(he -4.52)(went -2.97)(up -3.45)(and -1.27)(let -2.93)(on -3.18)(the -1.99)(way -5.78)(. -7.62) line score is : -3.416, look ahead score is : 0.000
+-------------------------score:  -3.191749410195784;  adjusted_score: -3.1667586964504286----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and beat on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(so -0.44)(he -4.52)(went -2.97)(up -3.45)(and -1.27)(beat -2.93)(on -3.18)(the -1.99)(way -4.70)(. -6.98) line score is : -3.244, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ TO A NN WHO VBD VBN LIKE A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ to a man who was shaped like a cello 
+-------------------------score:  -3.050711873699637;  adjusted_score: -3.024637764026137----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ to a child who was born like a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(to -4.13)(a -3.11)(child -1.56)(who -6.10)(was -3.95)(born -2.06)(like -1.75)(a -3.33)(day -2.44)(. -6.06) line score is : -3.450, look ahead score is : 0.000
+-------------------------score:  -3.189247524037081;  adjusted_score: -3.163173414363581----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ to a child who was raised like a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(to -4.13)(a -3.11)(child -1.56)(who -6.10)(was -3.95)(raised -2.06)(like -1.75)(a -3.33)(day -3.85)(. -5.21) line score is : -3.507, look ahead score is : 0.000
+-------------------------score:  -3.2372498091529396;  adjusted_score: -3.2111756994794396----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ to a child who was raised like a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(to -4.13)(a -3.11)(child -1.56)(who -6.10)(was -3.95)(raised -2.06)(like -1.75)(a -3.33)(way -3.85)(. -5.21) line score is : -3.507, look ahead score is : 0.000
+-------------------------score:  -3.310292973237879;  adjusted_score: -3.284218863564379----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ to a child who had been like a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(to -4.13)(a -3.11)(child -1.56)(who -6.10)(had -3.95)(been -2.06)(like -1.75)(a -4.14)(day -3.05)(. -8.38) line score is : -3.824, look ahead score is : 0.000
+-------------------------score:  -3.316617054097793;  adjusted_score: -3.290542944424293----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ to a child who had been like a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(to -4.13)(a -3.11)(child -1.56)(who -6.10)(had -3.95)(been -2.06)(like -1.75)(a -4.14)(way -3.05)(. -8.38) line score is : -3.824, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ she was ready to give and to take 
+-------------------------score:  -3.0604410338017978;  adjusted_score: -3.034366924128298----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was able to get and to stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(able -1.56)(to -4.24)(get -3.85)(and -4.29)(to -0.00)(stay -2.46)(. -6.72) line score is : -3.374, look ahead score is : 0.000
+-------------------------score:  -3.0809391795121357;  adjusted_score: -3.0548650698386357----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was able to say and to stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(able -1.56)(to -4.24)(say -3.85)(and -4.29)(to -0.00)(stay -3.27)(. -4.97) line score is : -3.270, look ahead score is : 0.000
+-------------------------score:  -3.106145161570925;  adjusted_score: -3.080071051897425----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was happy to give and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(happy -1.56)(to -4.24)(give -3.85)(and -2.94)(to -2.06)(say -2.55)(. -7.04) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -3.1189198024345166;  adjusted_score: -3.0928456927610166----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was happy to have and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(happy -1.56)(to -4.24)(have -3.85)(and -2.94)(to -2.06)(say -2.01)(. -7.66) line score is : -3.506, look ahead score is : 0.000
+-------------------------score:  -3.129055711751183;  adjusted_score: -3.102981602077683----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was able to get and to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(able -1.56)(to -4.24)(get -3.85)(and -4.29)(to -0.00)(say -2.46)(. -6.72) line score is : -3.374, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and now he 's a college professor 
+-------------------------score:  -3.063271241803323;  adjusted_score: -3.0382805280579674----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and now he has a family day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(now -6.96)(he -1.28)(has -0.97)(a -3.64)(family -0.60)(day -3.52)(. -1.95) line score is : -2.435, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.0868879547890495;  adjusted_score: -3.0608138451155495----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the guy on the train of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(guy -1.56)(on -1.92)(the -3.17)(train -4.97)(of -4.75)(the -0.27)(day -3.76)(. -6.47) line score is : -3.411, look ahead score is : 0.000
+-------------------------score:  -3.0893527891706016;  adjusted_score: -3.0632786794971016----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the guy on the bus of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(guy -1.56)(on -1.92)(the -3.17)(bus -4.97)(of -4.75)(the -0.27)(day -3.33)(. -7.15) line score is : -3.436, look ahead score is : 0.000
+-------------------------score:  -3.1103226358399674;  adjusted_score: -3.0842485261664674----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the guy on the street of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(guy -1.56)(on -1.92)(the -3.17)(street -4.97)(of -4.75)(the -0.27)(day -2.97)(. -7.23) line score is : -3.409, look ahead score is : 0.000
+-------------------------score:  -3.151681289076805;  adjusted_score: -3.125607179403305----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the guy on the plane of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(guy -1.56)(on -1.92)(the -3.17)(plane -4.97)(of -4.75)(the -0.27)(day -4.74)(. -6.89) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -3.1916873893317055;  adjusted_score: -3.1656132796582055----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the guy on the right of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(guy -1.56)(on -1.92)(the -3.17)(right -4.97)(of -4.75)(the -0.27)(day -4.15)(. -5.64) line score is : -3.368, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and now he 's a college professor 
+-------------------------score:  -3.0912423711270094;  adjusted_score: -3.0651682614535094----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and now he has a future birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(now -3.05)(he -1.71)(has -1.83)(a -4.75)(future -0.91)(birthday -1.87)(. -1.96) line score is : -2.613, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.0934441089630127;  adjusted_score: -3.0673699992895127----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i was down and wanted my way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(was -1.56)(down -1.92)(and -3.00)(wanted -3.24)(my -8.03)(way -3.82)(. -5.45) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.1177899837493896;  adjusted_score: -3.0917158740758897----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i was down and wanted my day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(was -1.56)(down -1.92)(and -3.00)(wanted -3.24)(my -8.03)(day -3.82)(. -5.45) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.178399035424897;  adjusted_score: -3.152324925751397----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i was down and wanted his day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(was -1.56)(down -1.92)(and -3.00)(wanted -3.24)(his -8.03)(day -3.82)(. -5.45) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.200232269185962;  adjusted_score: -3.174158159512462----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i was down and wanted his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(was -1.56)(down -1.92)(and -3.00)(wanted -3.24)(his -8.03)(way -3.82)(. -5.45) line score is : -3.807, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.1017971792641807;  adjusted_score: -3.0757230695906808----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ so i was up and go on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(so -4.13)(i -3.11)(was -1.56)(up -4.02)(and -2.61)(go -3.04)(on -6.98)(the -3.93)(way -7.64)(. -5.05) line score is : -4.208, look ahead score is : 0.000
+-------------------------score:  -3.1342884407323948;  adjusted_score: -3.1082143310588948----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ so i was up and dance on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(so -4.13)(i -3.11)(was -1.56)(up -4.02)(and -2.61)(dance -3.04)(on -6.98)(the -3.93)(day -7.94)(. -3.71) line score is : -4.104, look ahead score is : 0.000
+-------------------------score:  -3.166703802697799;  adjusted_score: -3.140629693024299----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ so i was up and go on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(so -4.13)(i -3.11)(was -1.56)(up -4.02)(and -2.61)(go -3.04)(on -6.98)(the -3.93)(day -7.64)(. -5.05) line score is : -4.208, look ahead score is : 0.000
+-------------------------score:  -3.167054740821614;  adjusted_score: -3.140980631148114----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ so i was up and dance on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(so -4.13)(i -3.11)(was -1.56)(up -4.02)(and -2.61)(dance -3.04)(on -6.98)(the -3.93)(way -7.94)(. -3.71) line score is : -4.104, look ahead score is : 0.000
+-------------------------score:  -3.211350637323716;  adjusted_score: -3.185276527650216----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ so i was up and play on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(so -4.13)(i -3.11)(was -1.56)(up -4.02)(and -2.61)(play -3.04)(on -6.98)(the -3.93)(day -7.54)(. -6.48) line score is : -4.341, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.1023638103947495;  adjusted_score: -3.0762897007212495----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the child always had a whole day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(child -1.56)(always -1.92)(had -3.17)(a -4.13)(whole -4.98)(day -5.80)(. -1.28) line score is : -3.343, look ahead score is : 0.000
+-------------------------score:  -3.2597747065804223;  adjusted_score: -3.2337005969069224----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the child always had a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(child -1.56)(always -1.92)(had -3.17)(a -4.13)(whole -4.98)(way -5.80)(. -1.28) line score is : -3.343, look ahead score is : 0.000
+-------------------------score:  -3.3188735246658325;  adjusted_score: -3.2927994149923325----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the child always knew a whole day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(child -1.56)(always -1.92)(knew -3.17)(a -4.13)(whole -4.98)(day -7.01)(. -5.89) line score is : -3.989, look ahead score is : 0.000
+-------------------------score:  -3.3287475578712695;  adjusted_score: -3.3026734481977695----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the child always thought a whole day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(child -1.56)(always -1.92)(thought -3.17)(a -4.13)(whole -4.98)(day -6.48)(. -5.97) line score is : -3.940, look ahead score is : 0.000
+-------------------------score:  -3.332398114782391;  adjusted_score: -3.306324005108891----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and the child always knew a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(the -3.11)(child -1.56)(always -1.92)(knew -3.17)(a -4.13)(whole -4.98)(way -7.01)(. -5.89) line score is : -3.989, look ahead score is : 0.000
+======================= template: 21 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.107166470903339;  adjusted_score: -3.0821757571579833----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and drove on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(so -0.55)(he -4.73)(went -3.15)(up -3.52)(and -1.42)(drove -3.00)(on -3.18)(the -1.98)(way -6.10)(. -4.26) line score is : -3.190, look ahead score is : 0.000
+-------------------------score:  -3.1357853304256094;  adjusted_score: -3.110794616680254----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and put on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(so -0.55)(he -4.73)(went -3.15)(up -3.52)(and -1.42)(put -3.00)(on -3.18)(the -1.98)(day -4.46)(. -2.46) line score is : -2.845, look ahead score is : 0.000
+-------------------------score:  -3.1421966661106455;  adjusted_score: -3.11720595236529----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and set on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(so -0.55)(he -4.73)(went -3.15)(up -3.52)(and -1.42)(set -3.00)(on -3.18)(the -1.98)(way -6.79)(. -6.37) line score is : -3.469, look ahead score is : 0.000
+-------------------------score:  -3.163762753660029;  adjusted_score: -3.1387720399146732----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and drove on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(so -0.55)(he -4.73)(went -3.15)(up -3.52)(and -1.42)(drove -3.00)(on -3.18)(the -1.98)(day -6.10)(. -4.26) line score is : -3.190, look ahead score is : 0.000
+-------------------------score:  -3.236029953667612;  adjusted_score: -3.2110392399222563----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ so he went up and beat on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(so -0.55)(he -4.73)(went -3.15)(up -3.52)(and -1.42)(beat -3.00)(on -3.18)(the -1.98)(way -5.41)(. -6.81) line score is : -3.375, look ahead score is : 0.000
+======================= template: 22 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ but it does n't come out of my purse 
+-------------------------score:  -3.1319887096231636;  adjusted_score: -3.1059145999496636----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ but he has not put in his birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(but -4.82)(he -3.05)(has -1.71)(not -1.27)(put -3.12)(in -2.87)(his -5.59)(birthday -4.65)(. -2.72) line score is : -3.310, look ahead score is : 0.000
+-------------------------score:  -3.1415054978746357;  adjusted_score: -3.1147719335872117----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a lot of joy , 
+ but he has not put in his birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(lot -0.64)(of -2.06)(joy -3.96)(, -1.82) line score is : -2.803, look ahead score is : 0.601
+(but -1.82)(he -5.63)(has -2.34)(not -0.95)(put -2.82)(in -3.00)(his -5.58)(birthday -4.52)(. -2.40) line score is : -3.230, look ahead score is : 0.000
+-------------------------score:  -3.166850209236145;  adjusted_score: -3.140776099562645----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ but he has not come in his birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(but -4.82)(he -3.05)(has -1.71)(not -1.27)(come -3.12)(in -2.87)(his -5.59)(birthday -5.30)(. -3.93) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -3.1760627753806836;  adjusted_score: -3.1493292110932596----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a lot of joy , 
+ but he has not come in his birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(lot -0.64)(of -2.06)(joy -3.96)(, -1.82) line score is : -2.803, look ahead score is : 0.601
+(but -1.82)(he -5.63)(has -2.34)(not -0.95)(come -2.82)(in -3.00)(his -5.58)(birthday -4.96)(. -3.86) line score is : -3.442, look ahead score is : 0.000
+-------------------------score:  -3.244826204849012;  adjusted_score: -3.218752095175512----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ but he has not come within his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(but -4.82)(he -3.05)(has -1.71)(not -1.27)(come -3.12)(within -2.87)(his -5.59)(way -5.30)(. -4.89) line score is : -3.625, look ahead score is : 0.000
+======================= template: 23 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ IN A JJ NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ in a sugary takeover bid 
+-------------------------score:  -3.1361611634492874;  adjusted_score: -3.1100870537757874----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ in a different universe way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(in -4.13)(a -3.11)(different -1.56)(universe -6.38)(way -1.96)(. -4.13) line score is : -3.546, look ahead score is : 0.000
+======================= template: 24 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.1413281839905363;  adjusted_score: -3.1163374702451807----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the pole of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -4.52)(guy -2.97)(on -1.31)(the -3.22)(pole -2.81)(of -4.03)(the -0.45)(way -3.49)(. -6.68) line score is : -2.990, look ahead score is : 0.000
+-------------------------score:  -3.1468263909672247;  adjusted_score: -3.121835677221869----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the right of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -4.52)(guy -2.97)(on -1.31)(the -3.22)(right -2.81)(of -4.03)(the -0.45)(way -4.18)(. -4.37) line score is : -2.829, look ahead score is : 0.000
+-------------------------score:  -3.1771088197375787;  adjusted_score: -3.152118105992223----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -4.52)(guy -2.97)(on -1.31)(the -3.22)(track -2.81)(of -4.03)(the -0.45)(way -4.30)(. -7.37) line score is : -3.142, look ahead score is : 0.000
+-------------------------score:  -3.183890939661951;  adjusted_score: -3.1589002259165953----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the mound of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -4.52)(guy -2.97)(on -1.31)(the -3.22)(mound -2.81)(of -4.03)(the -0.45)(way -3.31)(. -7.51) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -3.2141010210369574;  adjusted_score: -3.189110307291602----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the bench of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -4.52)(guy -2.97)(on -1.31)(the -3.22)(bench -2.81)(of -4.03)(the -0.45)(way -4.12)(. -7.61) line score is : -3.147, look ahead score is : 0.000
+======================= template: 25 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.1494387225671248;  adjusted_score: -3.124448008821769----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the track of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(the -4.73)(guy -3.15)(on -1.00)(the -3.18)(track -3.33)(of -4.04)(the -0.42)(day -4.32)(. -7.35) line score is : -3.207, look ahead score is : 0.000
+-------------------------score:  -3.1966587232820913;  adjusted_score: -3.1716680095367358----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the pole of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(the -4.73)(guy -3.15)(on -1.00)(the -3.18)(pole -3.33)(of -4.04)(the -0.42)(way -3.97)(. -6.69) line score is : -3.106, look ahead score is : 0.000
+-------------------------score:  -3.197164549972072;  adjusted_score: -3.1721738362267162----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the right of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(the -4.73)(guy -3.15)(on -1.00)(the -3.18)(right -3.33)(of -4.04)(the -0.42)(way -4.38)(. -4.52) line score is : -2.931, look ahead score is : 0.000
+-------------------------score:  -3.1989634199575945;  adjusted_score: -3.173972706212239----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the mound of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(the -4.73)(guy -3.15)(on -1.00)(the -3.18)(mound -3.33)(of -4.04)(the -0.42)(day -3.65)(. -7.45) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -3.208542560086106;  adjusted_score: -3.1835518463407504----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy on the pole of the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(the -4.73)(guy -3.15)(on -1.00)(the -3.18)(pole -3.33)(of -4.04)(the -0.42)(day -3.97)(. -6.69) line score is : -3.106, look ahead score is : 0.000
+======================= template: 26 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ OF THE NN FROM NN TO NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ of the distance from object to source 
+-------------------------score:  -3.169500332325697;  adjusted_score: -3.143426222652197----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom from worry to day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(from -3.74)(worry -4.74)(to -2.78)(day -4.34)(. -4.41) line score is : -3.602, look ahead score is : 0.000
+-------------------------score:  -3.2069572396576405;  adjusted_score: -3.1808831299841405----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom from boredom to day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(from -3.74)(boredom -4.74)(to -2.78)(day -4.34)(. -4.63) line score is : -3.629, look ahead score is : 0.000
+======================= template: 27 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and now a new teacher they seek 
+-------------------------score:  -3.1739496774971485;  adjusted_score: -3.1478755678236485----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and sometimes a little bit you see . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(sometimes -3.05)(a -1.71)(little -1.83)(bit -4.89)(you -2.69)(see -2.78)(. -1.34) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.2025548554956913;  adjusted_score: -3.1764807458221913----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and sometimes a little bit we see . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(sometimes -3.05)(a -1.71)(little -1.83)(bit -4.89)(we -2.69)(see -2.78)(. -1.34) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.2135305292904377;  adjusted_score: -3.1874564196169377----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and sometimes a little bit we say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(sometimes -3.05)(a -1.71)(little -1.83)(bit -4.89)(we -2.69)(say -2.78)(. -1.34) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.2469410486519337;  adjusted_score: -3.2208669389784337----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and sometimes a little bit you say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(sometimes -3.05)(a -1.71)(little -1.83)(bit -4.89)(you -2.69)(say -2.78)(. -1.34) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.3221514858305454;  adjusted_score: -3.2960773761570454----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and sometimes a little bit you stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(sometimes -3.05)(a -1.71)(little -1.83)(bit -4.89)(you -2.69)(stay -2.78)(. -1.34) line score is : -2.888, look ahead score is : 0.000
+======================= template: 28 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.2094969170434133;  adjusted_score: -3.1834228073699133----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ as it was to be , you have a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(as -4.13)(it -3.11)(was -1.56)(to -5.07)(be -2.96)(, -2.46)(you -2.58)(have -5.25)(a -4.63)(day -6.00)(. -5.36) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.222304633685521;  adjusted_score: -3.196230524012021----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ as it was to be , you get a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(as -4.13)(it -3.11)(was -1.56)(to -5.07)(be -2.96)(, -2.46)(you -2.58)(get -5.25)(a -4.63)(day -6.00)(. -5.21) line score is : -3.907, look ahead score is : 0.000
+-------------------------score:  -3.235772282736642;  adjusted_score: -3.209698173063142----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ as it was to be , you know a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(as -4.13)(it -3.11)(was -1.56)(to -5.07)(be -2.96)(, -2.46)(you -2.58)(know -5.25)(a -4.63)(day -6.00)(. -0.27) line score is : -3.457, look ahead score is : 0.000
+-------------------------score:  -3.246246382168361;  adjusted_score: -3.220172272494861----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ as it was to be , you have a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(as -4.13)(it -3.11)(was -1.56)(to -5.07)(be -2.96)(, -2.46)(you -2.58)(have -5.25)(a -4.63)(way -6.00)(. -5.36) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.2464860541479927;  adjusted_score: -3.2204119444744927----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ as it was to be , you get a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(as -4.13)(it -3.11)(was -1.56)(to -5.07)(be -2.96)(, -2.46)(you -2.58)(get -5.25)(a -4.63)(way -6.00)(. -5.21) line score is : -3.907, look ahead score is : 0.000
+======================= template: 29 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ OF THE NN AND NN AND NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ of the gravy and chicken and ham 
+-------------------------score:  -3.2117610834538937;  adjusted_score: -3.1856869737803937----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom and comfort and day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(and -3.74)(comfort -4.74)(and -2.78)(day -3.09)(. -4.80) line score is : -3.495, look ahead score is : 0.000
+-------------------------score:  -3.2301935218274593;  adjusted_score: -3.2041194121539593----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom and comfort and way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(and -3.74)(comfort -4.74)(and -2.78)(way -3.09)(. -4.80) line score is : -3.495, look ahead score is : 0.000
+-------------------------score:  -3.263533901423216;  adjusted_score: -3.237459791749716----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom and pleasure and day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(and -3.74)(pleasure -4.74)(and -2.78)(day -3.09)(. -4.66) line score is : -3.477, look ahead score is : 0.000
+-------------------------score:  -3.2755047641694546;  adjusted_score: -3.2494306544959546----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom and power and way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(and -3.74)(power -4.74)(and -2.78)(way -3.09)(. -4.44) line score is : -3.450, look ahead score is : 0.000
+-------------------------score:  -3.2800659351050854;  adjusted_score: -3.2539918254315854----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ of the freedom and pleasure and way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(of -4.13)(the -3.11)(freedom -1.56)(and -3.74)(pleasure -4.74)(and -2.78)(way -3.09)(. -4.66) line score is : -3.477, look ahead score is : 0.000
+======================= template: 30 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.2244249799034814;  adjusted_score: -3.1983508702299814----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he told his own parents and one day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(told -3.11)(his -1.56)(own -4.24)(parents -4.01)(and -3.05)(one -5.86)(day -2.88)(. -4.19) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.349425622911164;  adjusted_score: -3.323351513237664----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he told his own parents and two day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(told -3.11)(his -1.56)(own -4.24)(parents -4.01)(and -3.05)(two -5.86)(day -2.88)(. -4.19) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.394485173803387;  adjusted_score: -3.3684110641298872----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he told his own parents and one way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(told -3.11)(his -1.56)(own -4.24)(parents -4.01)(and -3.05)(one -5.86)(way -2.88)(. -4.19) line score is : -3.670, look ahead score is : 0.000
+======================= template: 31 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.2363421581685543;  adjusted_score: -3.2113514444231988----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and the guy still had a whole birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -4.52)(guy -2.97)(still -1.31)(had -3.22)(a -2.81)(whole -6.26)(birthday -1.95)(. -1.96) line score is : -2.827, look ahead score is : 0.000
+-------------------------score:  -3.25777992233634;  adjusted_score: -3.2327892085909844----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and the guy still had a whole birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(the -6.10)(guy -1.35)(still -1.25)(had -3.21)(a -3.27)(whole -6.20)(birthday -2.45)(. -1.97) line score is : -2.915, look ahead score is : 0.000
+======================= template: 32 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.2370687760412693;  adjusted_score: -3.2120780622959137----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and one day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(had -4.73)(his -3.15)(new -1.19)(tires -2.44)(and -2.56)(one -4.53)(day -3.23)(. -1.88) line score is : -2.696, look ahead score is : 0.000
+-------------------------score:  -3.261921603232622;  adjusted_score: -3.2369308894872666----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and four way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(had -4.73)(his -3.15)(new -1.19)(tires -2.44)(and -2.56)(four -4.53)(way -3.23)(. -1.88) line score is : -2.696, look ahead score is : 0.000
+-------------------------score:  -3.287587944418192;  adjusted_score: -3.2625972306728364----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and two day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(had -4.73)(his -3.15)(new -1.19)(tires -2.44)(and -2.56)(two -4.53)(day -3.23)(. -1.88) line score is : -2.696, look ahead score is : 0.000
+-------------------------score:  -3.319052252918482;  adjusted_score: -3.2940615391731263----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and two way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(had -4.73)(his -3.15)(new -1.19)(tires -2.44)(and -2.56)(two -4.53)(way -3.23)(. -1.88) line score is : -2.696, look ahead score is : 0.000
+-------------------------score:  -3.3199082650244236;  adjusted_score: -3.294917551279068----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and one way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(had -4.73)(his -3.15)(new -1.19)(tires -2.44)(and -2.56)(one -4.53)(way -3.23)(. -1.88) line score is : -2.696, look ahead score is : 0.000
+======================= template: 33 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.2389553859829903;  adjusted_score: -3.2139646722376347----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was down and had his birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(down -1.31)(and -1.08)(had -1.68)(his -6.00)(birthday -3.81)(. -6.64) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.245244361460209;  adjusted_score: -3.2202536477148533----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and he was down and tired his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -6.10)(was -1.35)(down -1.25)(and -1.06)(tired -1.59)(his -6.61)(way -4.00)(. -4.98) line score is : -3.044, look ahead score is : 0.000
+-------------------------score:  -3.2822670191526413;  adjusted_score: -3.2572763054072857----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was down and had my birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(down -1.31)(and -1.08)(had -1.68)(my -6.00)(birthday -3.81)(. -6.64) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.2911375649273396;  adjusted_score: -3.266146851181984----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was down and was his birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(down -1.31)(and -1.08)(was -1.68)(his -6.00)(birthday -3.81)(. -6.39) line score is : -3.132, look ahead score is : 0.000
+-------------------------score:  -3.3060535304248333;  adjusted_score: -3.2810628166794777----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was down and was my birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(down -1.31)(and -1.08)(was -1.68)(my -6.00)(birthday -3.81)(. -6.39) line score is : -3.132, look ahead score is : 0.000
+======================= template: 34 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.240177378509984;  adjusted_score: -3.214103268836484----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and it was not like today of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(it -3.11)(was -1.56)(not -1.92)(like -2.47)(today -4.79)(of -4.39)(day -4.43)(. -6.79) line score is : -3.732, look ahead score is : 0.000
+-------------------------score:  -3.3039165446252534;  adjusted_score: -3.2778424349517534----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i was always like man of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(i -3.11)(was -1.56)(always -1.92)(like -3.00)(man -3.24)(of -4.87)(day -3.73)(. -8.38) line score is : -3.771, look ahead score is : 0.000
+-------------------------score:  -3.3744703459017202;  adjusted_score: -3.3483962362282202----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and it was not like today of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(it -3.11)(was -1.56)(not -1.92)(like -2.47)(today -4.79)(of -4.39)(way -4.43)(. -6.79) line score is : -3.732, look ahead score is : 0.000
+======================= template: 35 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.2535715211521494;  adjusted_score: -3.2274974114786494----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and be kind to your baby in way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(be -3.11)(kind -1.56)(to -1.92)(your -8.71)(baby -4.72)(in -0.52)(way -2.16)(. -4.97) line score is : -3.534, look ahead score is : 0.000
+-------------------------score:  -3.3157202222130517;  adjusted_score: -3.2896461125395517----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and be kind to your neighbor in day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(be -3.11)(kind -1.56)(to -1.92)(your -8.71)(neighbor -4.72)(in -0.52)(day -2.16)(. -5.09) line score is : -3.548, look ahead score is : 0.000
+-------------------------score:  -3.3325472997896597;  adjusted_score: -3.3064731901161597----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and be kind to your baby in day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(be -3.11)(kind -1.56)(to -1.92)(your -8.71)(baby -4.72)(in -0.52)(day -2.16)(. -4.97) line score is : -3.534, look ahead score is : 0.000
+======================= template: 36 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2617009336298164;  adjusted_score: -3.236710219884461----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his wife has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(i -6.10)(think -1.35)(that -1.25)(his -2.48)(wife -3.70)(has -2.55)(a -5.71)(way -2.65)(. -5.48) line score is : -3.172, look ahead score is : 0.000
+-------------------------score:  -3.293158430041689;  adjusted_score: -3.2681677162963334----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his mind is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(i -6.10)(think -1.35)(that -1.25)(his -2.48)(mind -3.70)(is -2.55)(a -5.71)(way -4.21)(. -4.01) line score is : -3.181, look ahead score is : 0.000
+-------------------------score:  -3.301985993529811;  adjusted_score: -3.2769952797844555----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his wife says a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(i -6.10)(think -1.35)(that -1.25)(his -2.48)(wife -3.70)(says -2.55)(a -5.71)(way -2.65)(. -5.16) line score is : -3.141, look ahead score is : 0.000
+-------------------------score:  -3.3304651072531035;  adjusted_score: -3.305474393507748----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his wife is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(i -6.10)(think -1.35)(that -1.25)(his -2.48)(wife -3.70)(is -2.55)(a -5.71)(way -2.65)(. -4.08) line score is : -3.032, look ahead score is : 0.000
+-------------------------score:  -3.3526561043479224;  adjusted_score: -3.327665390602567----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that my wife is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(i -6.10)(think -1.35)(that -1.25)(my -2.48)(wife -3.70)(is -2.55)(a -6.71)(way -3.10)(. -3.83) line score is : -3.152, look ahead score is : 0.000
+======================= template: 37 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2790854312479496;  adjusted_score: -3.254094717502594----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was not like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(not -1.31)(like -1.08)(someone -1.68)(of -4.37)(prey -6.56)(. -5.07) line score is : -3.111, look ahead score is : 0.000
+-------------------------score:  -3.3030252754688263;  adjusted_score: -3.2780345617234707----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and he was not like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -6.10)(was -1.35)(not -1.25)(like -1.06)(someone -1.59)(of -4.21)(prey -6.42)(. -5.37) line score is : -3.088, look ahead score is : 0.000
+-------------------------score:  -3.3511030822992325;  adjusted_score: -3.326112368553877----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and he was not like today of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -6.10)(was -1.35)(not -1.25)(like -1.06)(today -1.59)(of -4.21)(way -6.42)(. -5.64) line score is : -3.119, look ahead score is : 0.000
+-------------------------score:  -3.3634721860289574;  adjusted_score: -3.338481472283602----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was not like today of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(not -1.31)(like -1.08)(today -1.68)(of -4.37)(way -6.56)(. -5.60) line score is : -3.169, look ahead score is : 0.000
+-------------------------score:  -3.4686449095606804;  adjusted_score: -3.443654195815325----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was not like someone of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(he -4.52)(was -2.97)(not -1.31)(like -1.08)(someone -1.68)(of -4.37)(way -6.56)(. -5.07) line score is : -3.111, look ahead score is : 0.000
+======================= template: 38 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2863906491547823;  adjusted_score: -3.2613999354094267----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was not like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(he -4.73)(was -3.15)(not -1.00)(like -1.01)(someone -1.57)(of -4.62)(prey -6.68)(. -5.01) line score is : -3.147, look ahead score is : 0.000
+-------------------------score:  -3.3089280743151903;  adjusted_score: -3.2839373605698348----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and he was not like today of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(he -6.96)(was -1.28)(not -0.97)(like -0.97)(today -1.45)(of -4.34)(day -6.58)(. -5.94) line score is : -3.227, look ahead score is : 0.000
+-------------------------score:  -3.3135409522801638;  adjusted_score: -3.288550238534808----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was not like today of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(he -4.73)(was -3.15)(not -1.00)(like -1.01)(today -1.57)(of -4.62)(day -6.68)(. -5.82) line score is : -3.236, look ahead score is : 0.000
+-------------------------score:  -3.313870510086417;  adjusted_score: -3.2888797963410616----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and he was not like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(he -6.96)(was -1.28)(not -0.97)(like -0.97)(someone -1.45)(of -4.34)(prey -6.58)(. -5.26) line score is : -3.152, look ahead score is : 0.000
+-------------------------score:  -3.3828605953603983;  adjusted_score: -3.3578698816150427----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and he was not like today of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(he -4.73)(was -3.15)(not -1.00)(like -1.01)(today -1.57)(of -4.62)(way -6.68)(. -5.82) line score is : -3.236, look ahead score is : 0.000
+======================= template: 39 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and to write it used acres of time 
+-------------------------score:  -3.288774089379744;  adjusted_score: -3.262699979706244----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it ruined means of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(to -3.11)(have -1.56)(it -1.92)(ruined -4.82)(means -3.19)(of -1.36)(day -5.80)(. -4.31) line score is : -3.356, look ahead score is : 0.000
+-------------------------score:  -3.2986943396654995;  adjusted_score: -3.2726202299919995----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it ruined means of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(to -3.11)(have -1.56)(it -1.92)(ruined -4.82)(means -3.19)(of -1.36)(way -5.80)(. -4.31) line score is : -3.356, look ahead score is : 0.000
+-------------------------score:  -3.30034347375234;  adjusted_score: -3.27426936407884----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it broken means of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(to -3.11)(have -1.56)(it -1.92)(broken -4.82)(means -3.19)(of -1.36)(way -5.05)(. -5.80) line score is : -3.438, look ahead score is : 0.000
+-------------------------score:  -3.302229393612255;  adjusted_score: -3.276155283938755----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it broken means of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(to -3.11)(have -1.56)(it -1.92)(broken -4.82)(means -3.19)(of -1.36)(day -5.05)(. -5.80) line score is : -3.438, look ahead score is : 0.000
+======================= template: 40 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.293285856352133;  adjusted_score: -3.267211746678633----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and you have come to the point with day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(you -3.11)(have -1.56)(come -1.92)(to -3.71)(the -3.08)(point -8.48)(with -0.40)(day -2.66)(. -4.95) line score is : -3.401, look ahead score is : 0.000
+-------------------------score:  -3.3669114770258175;  adjusted_score: -3.3408373673523175----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and you have come to the place with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(and -4.13)(you -3.11)(have -1.56)(come -1.92)(to -3.71)(the -3.08)(place -8.48)(with -0.40)(way -2.66)(. -4.70) line score is : -3.377, look ahead score is : 0.000
+======================= template: 41 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2980608000899805;  adjusted_score: -3.273070086344625----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his wife has a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(i -6.96)(think -1.28)(that -0.97)(his -2.86)(wife -3.76)(has -2.62)(a -5.64)(way -2.97)(. -5.14) line score is : -3.275, look ahead score is : 0.000
+-------------------------score:  -3.309996727741126;  adjusted_score: -3.2850060139957704----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his wife has a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(i -6.96)(think -1.28)(that -0.97)(his -2.86)(wife -3.76)(has -2.62)(a -5.64)(day -2.97)(. -5.14) line score is : -3.275, look ahead score is : 0.000
+-------------------------score:  -3.310430960221724;  adjusted_score: -3.2854402464763686----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that his wife is a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(i -6.96)(think -1.28)(that -0.97)(his -2.86)(wife -3.76)(is -2.62)(a -5.64)(day -2.97)(. -3.85) line score is : -3.146, look ahead score is : 0.000
+-------------------------score:  -3.335488877513192;  adjusted_score: -3.3104981637678366----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and i think that his wife is a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(i -4.73)(think -3.15)(that -1.00)(his -2.84)(wife -3.51)(is -2.63)(a -5.77)(day -4.31)(. -3.74) line score is : -3.222, look ahead score is : 0.000
+-------------------------score:  -3.345101139762185;  adjusted_score: -3.3201104260168295----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to quit , 
+ and i think that my wife is a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(quit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(and -0.55)(i -6.96)(think -1.28)(that -0.97)(my -2.86)(wife -3.76)(is -2.62)(a -6.75)(day -2.73)(. -3.86) line score is : -3.233, look ahead score is : 0.000
+======================= template: 42 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.2982894107699394;  adjusted_score: -3.273298697024584----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and one way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(had -4.52)(his -2.97)(new -1.08)(tires -2.47)(and -2.57)(one -4.71)(way -3.38)(. -1.89) line score is : -2.669, look ahead score is : 0.000
+-------------------------score:  -3.303444378077984;  adjusted_score: -3.2784536643326283----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he had his new tires and two way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(had -4.52)(his -2.97)(new -1.08)(tires -2.47)(and -2.57)(two -4.71)(way -3.38)(. -1.89) line score is : -2.669, look ahead score is : 0.000
+======================= template: 43 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ I did n't think life was this way 
+-------------------------score:  -3.306051787101861;  adjusted_score: -3.279977677428361----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was really hurt heart set this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(really -1.56)(hurt -4.24)(heart -3.85)(set -4.83)(this -5.38)(way -7.46)(. -9.27) line score is : -4.870, look ahead score is : 0.000
+-------------------------score:  -3.3394044800238176;  adjusted_score: -3.3133303703503176----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was really hurt heart broke this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(really -1.56)(hurt -4.24)(heart -3.85)(broke -4.83)(this -5.38)(way -7.46)(. -7.60) line score is : -4.685, look ahead score is : 0.000
+-------------------------score:  -3.352921157172232;  adjusted_score: -3.326847047498732----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was really hurt heart broke this day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(really -1.56)(hurt -4.24)(heart -3.85)(broke -4.83)(this -5.38)(day -7.46)(. -7.60) line score is : -4.685, look ahead score is : 0.000
+-------------------------score:  -3.387506633093863;  adjusted_score: -3.361432523420363----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was really hurt heart felt this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(really -1.56)(hurt -4.24)(heart -3.85)(felt -4.83)(this -5.38)(way -7.46)(. -9.46) line score is : -4.891, look ahead score is : 0.000
+-------------------------score:  -3.410086230798201;  adjusted_score: -3.384012121124701----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ he was really hurt heart set this day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(he -4.13)(was -3.11)(really -1.56)(hurt -4.24)(heart -3.85)(set -4.83)(this -5.38)(day -7.46)(. -9.27) line score is : -4.870, look ahead score is : 0.000
+======================= template: 44 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ which he loosed in the house 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.3118759599225274;  adjusted_score: -3.2880828700856917----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ the story of his cat , 
+ which he kept in the hat , 
+ was also a typical birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(the -1.95)(story -3.58)(of -4.43)(his -2.20)(cat -2.56)(, -8.82) line score is : -3.924, look ahead score is : 0.600
+(which -8.82)(he -2.33)(kept -3.69)(in -1.87)(the -3.35)(hat -1.83)(, -1.66) line score is : -3.364, look ahead score is : 0.590
+(was -1.66)(also -6.15)(a -1.16)(typical -1.69)(birthday -2.92)(. -2.77) line score is : -2.726, look ahead score is : 0.000
+-------------------------score:  -3.3139215584458976;  adjusted_score: -3.290128468609062----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ the story of his cat , 
+ which he kept in the hat , 
+ was also a wonderful birthday . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(the -1.95)(story -3.58)(of -4.43)(his -2.20)(cat -2.56)(, -8.82) line score is : -3.924, look ahead score is : 0.600
+(which -8.82)(he -2.33)(kept -3.69)(in -1.87)(the -3.35)(hat -1.83)(, -1.66) line score is : -3.364, look ahead score is : 0.590
+(was -1.66)(also -6.15)(a -1.16)(wonderful -1.69)(birthday -2.92)(. -2.77) line score is : -2.726, look ahead score is : 0.000
+======================= template: 45 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ but I guess that you probably gnu 
+-------------------------score:  -3.33840561297632;  adjusted_score: -3.3134148992309647----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ but i think that he probably be . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(but -0.44)(i -4.52)(think -2.97)(that -2.34)(he -2.75)(probably -3.42)(be -3.10)(. -2.11) line score is : -2.706, look ahead score is : 0.000
+======================= template: 46 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND RB THERE VBD JJ JJ IN PRP . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and right there became awful sick in 'em 
+-------------------------score:  -3.345405152349761;  adjusted_score: -3.3193310426762612----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and then there were other good in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(then -3.05)(there -1.71)(were -1.83)(other -3.43)(good -3.73)(in -5.20)(me -3.55)(. -6.52) line score is : -3.761, look ahead score is : 0.000
+-------------------------score:  -3.3681002205068413;  adjusted_score: -3.3413666562194173----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a lot of joy , 
+ and then there were other good in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(lot -0.64)(of -2.06)(joy -3.96)(, -1.82) line score is : -2.803, look ahead score is : 0.601
+(and -1.82)(then -5.63)(there -2.34)(were -1.81)(other -2.95)(good -3.77)(in -4.93)(me -3.61)(. -6.40) line score is : -3.697, look ahead score is : 0.000
+-------------------------score:  -3.448274355946165;  adjusted_score: -3.421540791658741----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a lot of joy , 
+ and then there were other big in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(lot -0.64)(of -2.06)(joy -3.96)(, -1.82) line score is : -2.803, look ahead score is : 0.601
+(and -1.82)(then -5.63)(there -2.34)(were -1.81)(other -2.95)(big -3.77)(in -4.93)(me -3.61)(. -6.52) line score is : -3.710, look ahead score is : 0.000
+======================= template: 47 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.3493528383619644;  adjusted_score: -3.324362124616609----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ when he heard it , he hit shut a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(when -0.44)(he -6.10)(heard -1.35)(it -5.34)(, -1.00)(he -1.99)(hit -4.73)(shut -2.84)(a -0.93)(way -5.75)(. -9.88) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.3624480454360737;  adjusted_score: -3.337457331690718----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ when he heard it , he hit come a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(when -0.44)(he -6.10)(heard -1.35)(it -5.34)(, -1.00)(he -1.99)(hit -4.73)(come -2.84)(a -0.93)(way -5.75)(. -9.94) line score is : -3.672, look ahead score is : 0.000
+-------------------------score:  -3.375372376512079;  adjusted_score: -3.3503816627667233----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ when he heard it , he swore come a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(when -0.44)(he -6.10)(heard -1.35)(it -5.34)(, -1.00)(he -1.99)(swore -4.73)(come -2.84)(a -0.93)(way -6.87)(. -8.79) line score is : -3.671, look ahead score is : 0.000
+======================= template: 48 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and to write it used acres of time 
+-------------------------score:  -3.3533617655436196;  adjusted_score: -3.3272876558701197----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it broken means of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(to -3.05)(have -1.71)(it -1.83)(broken -4.78)(means -2.57)(of -1.38)(way -3.83)(. -6.12) line score is : -3.344, look ahead score is : 0.000
+-------------------------score:  -3.3607910401893384;  adjusted_score: -3.3347169305158384----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it ruined means of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(to -3.05)(have -1.71)(it -1.83)(ruined -4.78)(means -2.57)(of -1.38)(way -5.42)(. -4.24) line score is : -3.312, look ahead score is : 0.000
+-------------------------score:  -3.4314782113739937;  adjusted_score: -3.4054041017004937----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and to have it broken feels of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(to -3.05)(have -1.71)(it -1.83)(broken -4.78)(feels -2.57)(of -1.38)(way -3.83)(. -7.42) line score is : -3.488, look ahead score is : 0.000
+======================= template: 49 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ WHICH VBZ PRP IN RB JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ which leaves him in very bad shape 
+-------------------------score:  -3.3559127748012543;  adjusted_score: -3.3298386651277543----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ which makes it worthwhile not enough day . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(which -4.13)(makes -3.11)(it -1.56)(worthwhile -4.84)(not -2.72)(enough -1.35)(day -5.25)(. -6.71) line score is : -3.710, look ahead score is : 0.000
+======================= template: 50 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND RB THERE VBD JJ JJ IN PRP . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ and right there became awful sick in 'em 
+-------------------------score:  -3.3993859849870205;  adjusted_score: -3.374395271241665----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ and then there were other big in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(and -0.44)(then -4.52)(there -2.97)(were -1.31)(other -2.87)(big -4.12)(in -2.61)(me -4.30)(. -6.26) line score is : -3.266, look ahead score is : 0.000
+======================= template: 51 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ THE JJ NN VBD DT NN TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ she 's a person of note 
+ the old dame said no word to rebuchre 
+-------------------------score:  -3.4050763339707344;  adjusted_score: -3.3790022242972344----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ the first time was no problem to stay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(the -4.13)(first -3.11)(time -1.56)(was -5.09)(no -4.75)(problem -1.82)(to -7.30)(stay -4.59)(. -4.95) line score is : -4.145, look ahead score is : 0.000
+-------------------------score:  -3.4455370939139165;  adjusted_score: -3.4194629842404165----------------------- 
+there was a lucky boy named jose 
+ who got a free ride on his birthday . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ the first time was no problem to say . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(free -4.66)(ride -1.73)(on -1.79)(his -2.38)(birthday -4.64)(. -2.10) line score is : -2.684, look ahead score is : 0.000
+(when -2.10)(a -4.11)(kid -4.40)(gets -4.37)(his -2.42)(toy -2.94)(, -5.17) line score is : -3.643, look ahead score is : 0.736
+(it -5.17)('s -1.31)(a -2.66)(gift -0.83)(of -2.08)(joy -2.90)(, -4.13) line score is : -2.725, look ahead score is : 0.568
+(the -4.13)(first -3.11)(time -1.56)(was -5.09)(no -4.75)(problem -1.82)(to -7.30)(say -4.59)(. -4.95) line score is : -4.145, look ahead score is : 0.000
+======================= template: 52 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD UP IN NN AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ she sat up in bed and meowed 
+-------------------------score:  -3.411575508694495;  adjusted_score: -3.3865847949491394----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was up in victory and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(up -2.97)(in -1.08)(victory -0.48)(and -5.55)(lay -3.04)(. -6.73) line score is : -3.101, look ahead score is : 0.000
+======================= template: 53 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ I did n't think life was this way 
+-------------------------score:  -3.423371992073953;  adjusted_score: -3.3983812783285976----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was really hurt man was this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(really -2.97)(hurt -1.08)(man -0.48)(was -5.45)(this -5.38)(way -8.24)(. -8.02) line score is : -4.064, look ahead score is : 0.000
+-------------------------score:  -3.578796966932714;  adjusted_score: -3.5538062531873584----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was really hurt man had this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(hit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -4.52)(really -2.97)(hurt -1.08)(man -0.48)(had -5.45)(this -5.38)(way -8.24)(. -9.68) line score is : -4.249, look ahead score is : 0.000
+======================= template: 54 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD UP IN NN AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ she sat up in bed and meowed 
+-------------------------score:  -3.4443261046563425;  adjusted_score: -3.419335390910987----------------------- 
+there was a lucky boy named jose 
+ who got a great deal on his birthday . 
+ he was back from the pit , 
+ he was ready to hit , 
+ he was up in victory and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(a -2.18)(great -4.52)(deal -1.84)(on -1.80)(his -2.12)(birthday -4.97)(. -1.95) line score is : -2.673, look ahead score is : 0.000
+(he -1.95)(was -1.80)(back -2.12)(from -6.89)(the -3.30)(pit -1.82)(, -8.85) line score is : -3.819, look ahead score is : 0.565
+(he -8.85)(was -2.56)(ready -3.41)(to -1.11)(hit -4.02)(, -0.55) line score is : -3.416, look ahead score is : 0.685
+(he -0.55)(was -4.73)(up -3.15)(in -1.19)(victory -0.52)(and -5.49)(lay -3.29)(. -7.13) line score is : -3.257, look ahead score is : 0.000
+======================= template: 55 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD RB THE NN PRP VBD . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was ready to faint 
+ he was n't the wizard he woz 
+-------------------------score:  -3.4483326212052376;  adjusted_score: -3.423341907459882----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ he was back from the pit , 
+ he was ready to quit , 
+ he was still the champion they lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(he -1.95)(was -2.35)(back -2.19)(from -6.34)(the -3.54)(pit -1.65)(, -8.19) line score is : -3.745, look ahead score is : 0.565
+(he -8.19)(was -2.51)(ready -3.21)(to -1.14)(quit -3.96)(, -0.44) line score is : -3.241, look ahead score is : 0.685
+(he -0.44)(was -6.10)(still -1.35)(the -1.16)(champion -0.60)(they -5.32)(lay -4.19)(. -2.48) line score is : -2.705, look ahead score is : 0.000
+======================= template: 56 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4548318711194126;  adjusted_score: -3.4287577614459126----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and it was not like today of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(it -3.05)(was -1.71)(not -1.83)(like -2.36)(today -4.69)(of -4.64)(way -3.58)(. -6.67) line score is : -3.706, look ahead score is : 0.000
+-------------------------score:  -3.5164379314942793;  adjusted_score: -3.4903638218207793----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and it was not like buying of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(it -3.05)(was -1.71)(not -1.83)(like -2.36)(buying -4.69)(of -4.64)(way -3.58)(. -6.97) line score is : -3.739, look ahead score is : 0.000
+======================= template: 57 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when a dame wears my coat 
+ she 's a person of note 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.5054682633456062;  adjusted_score: -3.4793941536721062----------------------- 
+there was a lucky boy named jose 
+ who got all his money in a day . 
+ when a kid gets his toy , 
+ it 's a gift of joy , 
+ and i feel blessed to the point with way . 
+------------------------- score breakdown ------------------------ 
+(who -1.63)(got -3.05)(all -4.94)(his -2.38)(money -2.32)(in -2.53)(a -2.02)(day -4.06)(. -1.95) line score is : -2.764, look ahead score is : 0.000
+(when -1.95)(a -4.76)(kid -4.63)(gets -4.33)(his -2.48)(toy -2.20)(, -6.86) line score is : -3.888, look ahead score is : 0.736
+(it -6.86)('s -1.70)(a -2.58)(gift -0.64)(of -2.06)(joy -3.33)(, -4.82) line score is : -3.141, look ahead score is : 0.568
+(and -4.82)(i -3.05)(feel -1.71)(blessed -1.83)(to -2.65)(the -3.84)(point -3.43)(with -1.04)(way -9.42)(. -1.50) line score is : -3.328, look ahead score is : 0.000

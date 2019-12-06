@@ -1,0 +1,330 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD SO RB JJ . 
+ PRP WOULD VB TO A NN , 
+ IN THE NN THAT PRP VBD , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who was so excessively thin 
+ he would go to a party 
+ in the bath that she took 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.286060305312276;  adjusted_score: -3.261930492296815----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the car that she did , 
+ as she drove to work , you are a fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(car -5.62)(that -2.66)(she -4.25)(did -4.96)(, -2.00) line score is : -3.392, look ahead score is : 0.569
+(as -2.00)(she -5.22)(drove -3.45)(to -5.46)(work -1.01)(, -1.32)(you -3.06)(are -2.30)(a -0.67)(fool -5.52)(. -2.89) line score is : -2.991, look ahead score is : 0.000
+-------------------------score:  -3.414991619065404;  adjusted_score: -3.390861806049943----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the car that she did , 
+ as she drove to work , you have a fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(car -5.62)(that -2.66)(she -4.25)(did -4.96)(, -2.00) line score is : -3.392, look ahead score is : 0.569
+(as -2.00)(she -5.22)(drove -3.45)(to -5.46)(work -1.01)(, -1.32)(you -3.06)(have -2.30)(a -0.67)(fool -5.52)(. -3.08) line score is : -3.008, look ahead score is : 0.000
+-------------------------score:  -3.526357324793935;  adjusted_score: -3.502227511778474----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the car that she did , 
+ as she drove to work , i want a cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(car -5.62)(that -2.66)(she -4.25)(did -4.96)(, -2.00) line score is : -3.392, look ahead score is : 0.569
+(as -2.00)(she -5.22)(drove -3.45)(to -5.46)(work -1.01)(, -1.32)(i -3.06)(want -2.30)(a -0.67)(cool -5.24)(. -2.94) line score is : -2.971, look ahead score is : 0.000
+-------------------------score:  -3.5369327310472727;  adjusted_score: -3.5128029180318117----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the car that she did , 
+ as she drove to work , you have a cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(car -5.62)(that -2.66)(she -4.25)(did -4.96)(, -2.00) line score is : -3.392, look ahead score is : 0.569
+(as -2.00)(she -5.22)(drove -3.45)(to -5.46)(work -1.01)(, -1.32)(you -3.06)(have -2.30)(a -0.67)(cool -5.52)(. -3.08) line score is : -3.008, look ahead score is : 0.000
+-------------------------score:  -3.553028615191579;  adjusted_score: -3.528898802176118----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the car that she did , 
+ as she drove to work , you are a cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(car -5.62)(that -2.66)(she -4.25)(did -4.96)(, -2.00) line score is : -3.392, look ahead score is : 0.569
+(as -2.00)(she -5.22)(drove -3.45)(to -5.46)(work -1.01)(, -1.32)(you -3.06)(are -2.30)(a -0.67)(cool -5.52)(. -2.89) line score is : -2.991, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD SO RB JJ . 
+ PRP WOULD VB TO A NN , 
+ IN THE NN THAT PRP VBD , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who was so excessively thin 
+ he would go to a party 
+ in the bath that she took 
+ and I hope that your day is a blast 
+-------------------------score:  -3.585686279881385;  adjusted_score: -3.5614302336160213----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and i think that my wife is a fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(i -5.09)(think -1.55)(that -4.21)(my -3.07)(wife -2.92)(is -2.14)(a -5.16)(fool -3.68)(. -4.43) line score is : -3.520, look ahead score is : 0.000
+-------------------------score:  -3.6417144536972046;  adjusted_score: -3.6174584074318408----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and i know that my heart is a fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(i -5.09)(know -1.55)(that -4.21)(my -3.07)(heart -4.47)(is -2.01)(a -3.80)(fool -3.25)(. -4.84) line score is : -3.525, look ahead score is : 0.000
+-------------------------score:  -3.6989715906881515;  adjusted_score: -3.6747155444227877----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and i think that her tone is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(i -5.09)(think -1.55)(that -4.21)(her -3.07)(tone -2.92)(is -2.14)(a -5.27)(cool -3.13)(. -3.79) line score is : -3.412, look ahead score is : 0.000
+-------------------------score:  -3.700109447202375;  adjusted_score: -3.675853400937011----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and i think that my wife knows a fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(i -5.09)(think -1.55)(that -4.21)(my -3.07)(wife -2.92)(knows -2.14)(a -5.16)(fool -3.68)(. -4.54) line score is : -3.531, look ahead score is : 0.000
+-------------------------score:  -3.7399124906909083;  adjusted_score: -3.7156564444255444----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and i think that my wife is a cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(i -5.09)(think -1.55)(that -4.21)(my -3.07)(wife -2.92)(is -2.14)(a -5.16)(cool -3.68)(. -4.43) line score is : -3.520, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD SO RB JJ . 
+ PRP WOULD VB TO A NN , 
+ IN THE NN THAT PRP VBD , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who was so excessively thin 
+ he would go to a party 
+ in the bath that she took 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6879485050837197;  adjusted_score: -3.663692458818356----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and it was almost like death of cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(it -5.09)(was -1.55)(almost -4.21)(like -2.74)(death -1.36)(of -3.59)(cool -1.72)(. -7.90) line score is : -3.456, look ahead score is : 0.000
+-------------------------score:  -3.705357770125071;  adjusted_score: -3.6811017238597072----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and it was not like someone of cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(it -5.09)(was -1.55)(not -4.21)(like -2.74)(someone -1.36)(of -3.87)(cool -3.48)(. -4.26) line score is : -3.279, look ahead score is : 0.000
+-------------------------score:  -3.7226889967918395;  adjusted_score: -3.6984329505264757----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and it was not like something of cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(it -5.09)(was -1.55)(not -4.21)(like -2.74)(something -1.36)(of -3.87)(cool -3.48)(. -5.25) line score is : -3.389, look ahead score is : 0.000
+-------------------------score:  -3.754933766523997;  adjusted_score: -3.730677720258633----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and it was almost like love of fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(it -5.09)(was -1.55)(almost -4.21)(like -2.74)(love -1.36)(of -3.59)(fool -1.72)(. -7.64) line score is : -3.428, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.78640815615654;  adjusted_score: -3.762173896282911----------------------- 
+there was a nasty girl named salvatore 
+ who seemed a good fit on our story . 
+ the rest of our thing , 
+ which we did in the spring , 
+ and it was not like shooting of gore . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(a -4.27)(good -4.74)(fit -2.50)(on -6.02)(our -3.00)(story -5.86)(. -1.36) line score is : -3.875, look ahead score is : 0.000
+(the -1.36)(rest -3.80)(of -3.76)(our -0.39)(thing -2.04)(, -8.76) line score is : -3.351, look ahead score is : 0.593
+(which -8.76)(we -3.90)(did -2.94)(in -2.14)(the -3.37)(spring -2.97)(, -2.22) line score is : -3.754, look ahead score is : 0.619
+(and -2.22)(it -3.84)(was -1.03)(not -4.36)(like -4.19)(shooting -0.97)(of -4.75)(gore -4.90)(. -6.75) line score is : -3.669, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD SO RB JJ . 
+ PRP WOULD VB TO A NN , 
+ IN THE NN THAT PRP VBD , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who was so excessively thin 
+ he would go to a party 
+ in the bath that she took 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.794347854455312;  adjusted_score: -3.770091808189948----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and the child always laughed a whole fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(the -5.09)(child -1.55)(always -4.21)(laughed -3.02)(a -2.39)(whole -6.55)(fool -3.60)(. -6.44) line score is : -3.977, look ahead score is : 0.000
+-------------------------score:  -3.8215393582979837;  adjusted_score: -3.79728331203262----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and the child always had a whole fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(the -5.09)(child -1.55)(always -4.21)(had -3.02)(a -2.39)(whole -6.55)(fool -3.42)(. -2.27) line score is : -3.494, look ahead score is : 0.000
+-------------------------score:  -3.8602767030398053;  adjusted_score: -3.8360206567744415----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and the child always had a whole cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(the -5.09)(child -1.55)(always -4.21)(had -3.02)(a -2.39)(whole -6.55)(cool -3.42)(. -2.27) line score is : -3.494, look ahead score is : 0.000
+-------------------------score:  -3.9102983196576435;  adjusted_score: -3.8860422733922797----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and the child always thought a whole cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(the -5.09)(child -1.55)(always -4.21)(thought -3.02)(a -2.39)(whole -6.55)(cool -3.26)(. -6.37) line score is : -3.932, look ahead score is : 0.000
+-------------------------score:  -3.9579874078432717;  adjusted_score: -3.933731361577908----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ and the child always knew a whole cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(and -2.95)(the -5.09)(child -1.55)(always -4.21)(knew -3.02)(a -2.39)(whole -6.55)(cool -2.99)(. -6.71) line score is : -3.940, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD SO RB JJ . 
+ PRP WOULD VB TO A NN , 
+ IN THE NN THAT PRP VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who was so excessively thin 
+ he would go to a party 
+ in the bath that she took 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.8557147441371793;  adjusted_score: -3.8315849311217183----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the car that she did , 
+ as she drove out two blocks in her cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(car -5.62)(that -2.66)(she -4.25)(did -4.96)(, -2.00) line score is : -3.392, look ahead score is : 0.569
+(as -2.00)(she -5.22)(drove -3.45)(out -5.46)(two -1.01)(blocks -1.32)(in -4.36)(her -9.75)(cool -2.14)(. -3.87) line score is : -3.857, look ahead score is : 0.000
+-------------------------score:  -3.8898459096108713;  adjusted_score: -3.8655898633455075----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ as she walked out two blocks in her cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(as -2.95)(she -5.09)(walked -1.55)(out -5.46)(two -1.41)(blocks -2.74)(in -3.62)(her -9.92)(cool -2.75)(. -4.73) line score is : -4.023, look ahead score is : 0.000
+-------------------------score:  -3.9007293024370746;  adjusted_score: -3.876473256171711----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ as she walked out two blocks in her fool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(as -2.95)(she -5.09)(walked -1.55)(out -5.46)(two -1.41)(blocks -2.74)(in -3.62)(her -9.92)(fool -2.75)(. -4.73) line score is : -4.023, look ahead score is : 0.000
+-------------------------score:  -3.9063082741152857;  adjusted_score: -3.882052227849922----------------------- 
+there was a nasty girl named raul 
+ who seemed so incredibly cruel . 
+ she would say to a kid , 
+ in the voice that she did , 
+ as she walked out two years in her cool . 
+------------------------- score breakdown ------------------------ 
+(who -1.61)(seemed -5.51)(so -3.92)(incredibly -6.29)(cruel -6.18)(. -2.35) line score is : -4.310, look ahead score is : 0.000
+(she -2.35)(would -1.90)(say -2.13)(to -3.61)(a -2.86)(kid -4.35)(, -3.21) line score is : -2.914, look ahead score is : 0.637
+(in -3.21)(the -1.05)(voice -5.62)(that -2.66)(she -4.40)(did -3.90)(, -2.95) line score is : -3.397, look ahead score is : 0.576
+(as -2.95)(she -5.09)(walked -1.55)(out -5.46)(two -1.41)(years -2.74)(in -3.62)(her -9.92)(cool -2.28)(. -5.59) line score is : -4.062, look ahead score is : 0.000

@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -4.188642814203545;  adjusted_score: -4.164643565162465----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and decided on the wrong story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(decided -10.10)(on -1.02)(the -1.44)(wrong -6.22)(story -4.40)(. -2.32) line score is : -4.386, look ahead score is : 0.000
+-------------------------score:  -4.244533784963466;  adjusted_score: -4.220534535922386----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and decided on the same story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(decided -10.10)(on -1.02)(the -1.44)(same -6.22)(story -4.40)(. -2.32) line score is : -4.386, look ahead score is : 0.000
+-------------------------score:  -4.286958494672069;  adjusted_score: -4.262959245630989----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and decided on the right story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(decided -10.10)(on -1.02)(the -1.44)(right -6.22)(story -4.40)(. -2.32) line score is : -4.386, look ahead score is : 0.000
+-------------------------score:  -4.2965190863167795;  adjusted_score: -4.272519837275699----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different hat , 
+ and was on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(hat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -11.12)(on -0.72)(the -1.40)(opposite -2.90)(story -4.30)(. -1.19) line score is : -3.831, look ahead score is : 0.000
+-------------------------score:  -4.310086871738787;  adjusted_score: -4.286087622697707----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the general story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(general -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.310443320760021;  adjusted_score: -4.2864440717189405----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(opposite -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.313971112171809;  adjusted_score: -4.289971863130729----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and died on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(died -10.10)(on -1.02)(the -1.44)(previous -6.08)(story -3.57)(. -0.61) line score is : -4.002, look ahead score is : 0.000
+-------------------------score:  -4.321614480680889;  adjusted_score: -4.297615231639809----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and happened on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(happened -10.10)(on -1.02)(the -1.44)(other -6.23)(story -5.29)(. -1.98) line score is : -4.464, look ahead score is : 0.000
+-------------------------score:  -4.323278788063261;  adjusted_score: -4.299279539022181----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the usual story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(usual -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.327641234353736;  adjusted_score: -4.303641985312656----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the previous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(previous -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.32916596531868;  adjusted_score: -4.3051667162776----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and decided on the first story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(decided -10.10)(on -1.02)(the -1.44)(first -6.22)(story -4.40)(. -2.32) line score is : -4.386, look ahead score is : 0.000
+-------------------------score:  -4.333489562626238;  adjusted_score: -4.309490313585158----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and decided on the last story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(decided -10.10)(on -1.02)(the -1.44)(last -6.22)(story -4.40)(. -2.32) line score is : -4.386, look ahead score is : 0.000
+-------------------------score:  -4.35208037937129;  adjusted_score: -4.32808113033021----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the regular story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(regular -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.35404975215594;  adjusted_score: -4.33005050311486----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and died on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(died -10.10)(on -1.02)(the -1.44)(opposite -6.08)(story -3.57)(. -0.61) line score is : -4.002, look ahead score is : 0.000
+-------------------------score:  -4.361944597076486;  adjusted_score: -4.337945348035406----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different hat , 
+ and was on the regular story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(hat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -11.12)(on -0.72)(the -1.40)(regular -2.90)(story -4.30)(. -1.19) line score is : -3.831, look ahead score is : 0.000
+-------------------------score:  -4.362674270515089;  adjusted_score: -4.338675021474009----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and came on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(came -10.10)(on -1.02)(the -1.44)(opposite -4.49)(story -4.99)(. -1.88) line score is : -4.159, look ahead score is : 0.000
+-------------------------score:  -4.365078964719066;  adjusted_score: -4.341079714485892----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different chat , 
+ and was on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(chat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -12.09)(on -2.12)(the -1.18)(opposite -3.08)(story -4.87)(. -1.06) line score is : -4.228, look ahead score is : 0.000
+-------------------------score:  -4.365808559788598;  adjusted_score: -4.341809310747518----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and heard on the opposite story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(heard -10.10)(on -1.02)(the -1.44)(opposite -5.45)(story -5.94)(. -0.47) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -4.375513724706791;  adjusted_score: -4.351514475665711----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the medical story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(medical -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.381637338134977;  adjusted_score: -4.357638089093897----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(dangerous -2.90)(story -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.382730081125542;  adjusted_score: -4.358730832084462----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and decided on the wrong glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(decided -10.10)(on -1.02)(the -1.44)(wrong -6.22)(glory -4.40)(. -2.32) line score is : -4.386, look ahead score is : 0.000
+-------------------------score:  -4.387232101625866;  adjusted_score: -4.363232852584786----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different hat , 
+ and was on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(hat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -11.12)(on -0.72)(the -1.40)(dangerous -2.90)(story -4.30)(. -1.19) line score is : -3.831, look ahead score is : 0.000
+-------------------------score:  -4.411151299873988;  adjusted_score: -4.387152050832908----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different hat , 
+ and had on the uniform story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(hat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(had -11.12)(on -0.72)(the -1.40)(uniform -2.94)(story -7.80)(. -2.23) line score is : -4.487, look ahead score is : 0.000
+-------------------------score:  -4.419771467094068;  adjusted_score: -4.395772218052988----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and had on the uniform story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(had -10.10)(on -1.02)(the -1.44)(uniform -2.95)(story -7.80)(. -2.74) line score is : -4.464, look ahead score is : 0.000
+-------------------------score:  -4.43635939558347;  adjusted_score: -4.41236014654239----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and took on the terrible glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(took -10.10)(on -1.02)(the -1.44)(terrible -6.11)(glory -3.92)(. -2.12) line score is : -4.272, look ahead score is : 0.000
+-------------------------score:  -4.4461581607659655;  adjusted_score: -4.422158911724885----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and took on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(took -10.10)(on -1.02)(the -1.44)(terrible -6.11)(story -3.92)(. -2.12) line score is : -4.272, look ahead score is : 0.000
+-------------------------score:  -4.474891418660128;  adjusted_score: -4.450892169619048----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the usual glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(usual -2.90)(glory -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.501731900153337;  adjusted_score: -4.477732651112257----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different hat , 
+ and was on the military more . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(hat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -11.12)(on -0.72)(the -1.40)(military -2.90)(more -4.30)(. -1.19) line score is : -3.831, look ahead score is : 0.000
+-------------------------score:  -4.511768141278514;  adjusted_score: -4.487768892237434----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different flat , 
+ and was on the military more . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(flat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -10.10)(on -1.02)(the -1.44)(military -2.90)(more -4.58)(. -1.27) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -4.595575271933167;  adjusted_score: -4.571576022892087----------------------- 
+there once was a soldier named theodore 
+ whose name meant much better than before . 
+ he was out one combat , 
+ in a different hat , 
+ and was on the contrary therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -5.40)(name -1.85)(meant -5.57)(much -7.36)(better -4.86)(than -0.33)(before -7.61)(. -1.37) line score is : -4.294, look ahead score is : 0.000
+(he -1.37)(was -1.73)(out -1.06)(one -6.85)(combat -7.16)(, -11.58) line score is : -4.959, look ahead score is : 0.580
+(in -11.58)(a -3.20)(different -3.69)(hat -1.73)(, -5.20) line score is : -5.081, look ahead score is : 0.620
+(and -5.20)(was -11.12)(on -0.72)(the -1.40)(contrary -2.90)(therefore -4.30)(. -1.19) line score is : -3.831, look ahead score is : 0.000

@@ -1,0 +1,264 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.9130363092955314;  adjusted_score: -2.8877395371731485----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ and we sat down and took our pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(and -1.27)(we -8.30)(sat -5.07)(down -0.91)(and -1.08)(took -3.60)(our -0.64)(pace -1.74)(. -4.33) line score is : -2.993, look ahead score is : 0.000
+-------------------------score:  -2.955428873837897;  adjusted_score: -2.930132101715514----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ and we sat down and did our pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(and -1.27)(we -8.30)(sat -5.07)(down -0.91)(and -1.08)(did -3.60)(our -0.64)(pace -1.74)(. -4.41) line score is : -3.002, look ahead score is : 0.000
+-------------------------score:  -2.956799795117342;  adjusted_score: -2.931503022994959----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ and we sat down and began our pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(and -1.27)(we -8.30)(sat -5.07)(down -0.91)(and -1.08)(began -3.60)(our -0.64)(pace -1.74)(. -4.85) line score is : -3.050, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.2321992278756464;  adjusted_score: -3.2069024557532635----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we drove up and hit on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(drove -5.07)(up -4.54)(and -0.86)(hit -4.53)(on -2.48)(the -2.57)(pace -5.69)(. -5.01) line score is : -4.032, look ahead score is : 0.000
+-------------------------score:  -3.2342461232534228;  adjusted_score: -3.20894935113104----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we were up and dry on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(were -5.07)(up -4.54)(and -0.86)(dry -2.15)(on -4.48)(the -2.81)(pace -7.92)(. -4.22) line score is : -4.162, look ahead score is : 0.000
+-------------------------score:  -3.2440408160362173;  adjusted_score: -3.2187440439138344----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we came up and hit on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(came -5.07)(up -4.54)(and -0.86)(hit -4.07)(on -3.13)(the -3.54)(pace -5.67)(. -3.74) line score is : -4.019, look ahead score is : 0.000
+-------------------------score:  -3.274359160376822;  adjusted_score: -3.249062388254439----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we drove up and set on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(drove -5.07)(up -4.54)(and -0.86)(set -4.53)(on -2.48)(the -2.57)(pace -6.37)(. -6.35) line score is : -4.233, look ahead score is : 0.000
+-------------------------score:  -3.2795175531988634;  adjusted_score: -3.2542207810764805----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we were up and set on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(were -5.07)(up -4.54)(and -0.86)(set -2.15)(on -4.48)(the -2.81)(pace -7.77)(. -5.05) line score is : -4.229, look ahead score is : 0.000
+-------------------------score:  -3.301068008712986;  adjusted_score: -3.275771236590603----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we came up and set on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(came -5.07)(up -4.54)(and -0.86)(set -4.07)(on -3.13)(the -3.54)(pace -6.48)(. -6.13) line score is : -4.339, look ahead score is : 0.000
+-------------------------score:  -3.3035892466192736;  adjusted_score: -3.2782924744968907----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we were up and come on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(were -5.07)(up -4.54)(and -0.86)(come -2.15)(on -4.48)(the -2.81)(pace -8.09)(. -4.23) line score is : -4.180, look ahead score is : 0.000
+-------------------------score:  -3.3067931926206633;  adjusted_score: -3.2814964204982804----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we walked up and set on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(walked -5.07)(up -4.54)(and -0.86)(set -4.48)(on -2.80)(the -2.15)(pace -7.78)(. -5.85) line score is : -4.311, look ahead score is : 0.000
+-------------------------score:  -3.318037416018984;  adjusted_score: -3.292740643896601----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we were up and go on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(were -5.07)(up -4.54)(and -0.86)(go -2.15)(on -4.48)(the -2.81)(pace -7.89)(. -5.62) line score is : -4.298, look ahead score is : 0.000
+-------------------------score:  -3.3255706963074556;  adjusted_score: -3.3002739241850727----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we drove up and let on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(drove -5.07)(up -4.54)(and -0.86)(let -4.53)(on -2.48)(the -2.57)(pace -6.90)(. -7.00) line score is : -4.352, look ahead score is : 0.000
+-------------------------score:  -3.3655820075860796;  adjusted_score: -3.3402852354636967----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we came up and let on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(came -5.07)(up -4.54)(and -0.86)(let -4.07)(on -3.13)(the -3.54)(pace -6.72)(. -6.85) line score is : -4.435, look ahead score is : 0.000
+-------------------------score:  -3.3814488621976446;  adjusted_score: -3.3561520900752617----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ so we walked up and let on the pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(so -1.27)(we -8.30)(walked -5.07)(up -4.54)(and -0.86)(let -4.48)(on -2.80)(the -2.15)(pace -7.66)(. -7.11) line score is : -4.425, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3225949501947447;  adjusted_score: -3.297298178072362----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ we got back from the mass , 
+ and we went to the pass , 
+ and we heard that our boat is a pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(we -1.10)(got -2.63)(back -3.87)(from -4.58)(the -1.87)(mass -1.72)(, -9.39) line score is : -3.594, look ahead score is : 0.621
+(and -9.39)(we -3.12)(went -1.08)(to -2.25)(the -2.58)(pass -0.79)(, -1.27) line score is : -2.925, look ahead score is : 0.644
+(and -1.27)(we -8.30)(heard -5.07)(that -0.91)(our -1.08)(boat -5.54)(is -2.76)(a -3.65)(pace -4.93)(. -4.14) line score is : -3.765, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD SO JJ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she ate so much spice 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3537283687619492;  adjusted_score: -3.3270954878954218----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ she came back from the stress , 
+ she had so much progress , 
+ and she was still like crazy of pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(she -1.10)(came -1.93)(back -4.47)(from -3.60)(the -1.62)(stress -2.30)(, -8.82) line score is : -3.406, look ahead score is : 0.588
+(she -8.82)(had -3.59)(so -2.47)(much -3.44)(progress -4.48)(, -0.25) line score is : -3.844, look ahead score is : 0.744
+(and -0.25)(she -8.39)(was -2.49)(still -1.43)(like -1.08)(crazy -1.49)(of -3.98)(pace -5.92)(. -6.04) line score is : -3.453, look ahead score is : 0.000
+-------------------------score:  -3.3766638793749735;  adjusted_score: -3.350030998508446----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ she came back from the stress , 
+ we had so much progress , 
+ and it was almost like fun of pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(she -1.10)(came -1.93)(back -4.47)(from -3.60)(the -1.62)(stress -2.30)(, -8.82) line score is : -3.406, look ahead score is : 0.588
+(we -8.82)(had -3.59)(so -4.06)(much -2.52)(progress -4.35)(, -0.40) line score is : -3.956, look ahead score is : 0.744
+(and -0.40)(it -8.38)(was -2.40)(almost -1.22)(like -3.12)(fun -0.65)(of -4.87)(pace -1.49)(. -7.94) line score is : -3.386, look ahead score is : 0.000
+-------------------------score:  -3.378570308792405;  adjusted_score: -3.3519374279258773----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ she came back from the stress , 
+ she had so much progress , 
+ and it was almost like hell of pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(she -1.10)(came -1.93)(back -4.47)(from -3.60)(the -1.62)(stress -2.30)(, -8.82) line score is : -3.406, look ahead score is : 0.588
+(she -8.82)(had -3.59)(so -2.47)(much -3.44)(progress -4.48)(, -0.25) line score is : -3.844, look ahead score is : 0.744
+(and -0.25)(it -8.39)(was -2.49)(almost -1.43)(like -3.18)(hell -0.70)(of -4.96)(pace -1.29)(. -8.47) line score is : -3.461, look ahead score is : 0.000
+-------------------------score:  -3.3984571153996512;  adjusted_score: -3.3718242345331237----------------------- 
+there was a chunky girl named chase 
+ who put a big smile on our face . 
+ she came back from the stress , 
+ she had so much progress , 
+ and it was almost like fun of pace . 
+------------------------- score breakdown ------------------------ 
+(who -2.17)(put -8.09)(a -2.67)(big -3.66)(smile -0.77)(on -0.03)(our -3.03)(face -1.91)(. -1.10) line score is : -2.603, look ahead score is : 0.000
+(she -1.10)(came -1.93)(back -4.47)(from -3.60)(the -1.62)(stress -2.30)(, -8.82) line score is : -3.406, look ahead score is : 0.588
+(she -8.82)(had -3.59)(so -2.47)(much -3.44)(progress -4.48)(, -0.25) line score is : -3.844, look ahead score is : 0.744
+(and -0.25)(it -8.39)(was -2.49)(almost -1.43)(like -3.18)(fun -0.70)(of -4.96)(pace -1.29)(. -8.50) line score is : -3.464, look ahead score is : 0.000

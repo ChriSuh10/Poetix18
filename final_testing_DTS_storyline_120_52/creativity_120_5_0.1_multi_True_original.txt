@@ -1,0 +1,869 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.212142941451842;  adjusted_score: -3.189286291844422----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and that is the essence of this key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(that -7.32)(is -2.35)(the -1.96)(essence -3.57)(of -2.26)(this -2.80)(key -3.37)(. -0.05) line score is : -2.665, look ahead score is : 0.000
+-------------------------score:  -3.316449400398039;  adjusted_score: -3.2935927507906193----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and that is the reason of this key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(that -7.32)(is -2.35)(the -1.96)(reason -3.57)(of -2.26)(this -2.80)(key -2.25)(. -4.24) line score is : -3.006, look ahead score is : 0.000
+-------------------------score:  -3.32669136841451;  adjusted_score: -3.3036071226433403----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his knowledge and his light , 
+ and that is the reason of this key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(knowledge -2.45)(and -1.89)(his -3.21)(light -1.82)(, -0.36) line score is : -3.045, look ahead score is : 0.581
+(and -0.36)(that -7.89)(is -2.40)(the -2.04)(reason -3.33)(of -2.25)(this -2.82)(key -2.23)(. -4.17) line score is : -3.054, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2221432854421437;  adjusted_score: -3.199286635834724----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and i hope that his death is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(i -7.32)(hope -2.35)(that -1.96)(his -2.77)(death -3.30)(is -1.22)(a -2.77)(key -3.36)(. -3.14) line score is : -2.849, look ahead score is : 0.000
+-------------------------score:  -3.271581065375358;  adjusted_score: -3.248724415767938----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and i hope that his work is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(i -7.32)(hope -2.35)(that -1.96)(his -2.77)(work -3.30)(is -1.22)(a -2.77)(key -3.97)(. -2.82) line score is : -2.878, look ahead score is : 0.000
+-------------------------score:  -3.3157633510418236;  adjusted_score: -3.292906701434404----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and i hope that his death has a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(i -7.32)(hope -2.35)(that -1.96)(his -2.77)(death -3.30)(has -1.22)(a -2.77)(key -3.36)(. -2.74) line score is : -2.809, look ahead score is : 0.000
+-------------------------score:  -3.3307896298356354;  adjusted_score: -3.3079329802282156----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and i hope that his death brings a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(i -7.32)(hope -2.35)(that -1.96)(his -2.77)(death -3.30)(brings -1.22)(a -2.77)(key -3.36)(. -3.28) line score is : -2.863, look ahead score is : 0.000
+-------------------------score:  -3.335788354743272;  adjusted_score: -3.3129317051358522----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ and i think that his death has a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(and -0.31)(i -7.32)(think -2.35)(that -1.96)(his -2.77)(death -2.62)(has -1.52)(a -3.96)(key -3.79)(. -2.25) line score is : -2.885, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.257212547256666;  adjusted_score: -3.2316022344371853----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and the sea on the shore of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(the -7.97)(sea -1.00)(on -0.86)(the -2.65)(shore -3.22)(of -7.20)(the -0.91)(key -2.71)(. -2.45) line score is : -3.151, look ahead score is : 0.000
+-------------------------score:  -3.339896713547847;  adjusted_score: -3.314286400728366----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and the sun on the sea of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(the -7.97)(sun -1.00)(on -0.86)(the -2.65)(sea -2.94)(of -6.39)(the -0.96)(key -2.42)(. -4.70) line score is : -3.243, look ahead score is : 0.000
+-------------------------score:  -3.357875476426938;  adjusted_score: -3.332265163607457----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and the sun on the hill of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(the -7.97)(sun -1.00)(on -0.86)(the -2.65)(hill -2.94)(of -6.39)(the -0.96)(key -3.77)(. -5.43) line score is : -3.451, look ahead score is : 0.000
+-------------------------score:  -3.412213100668262;  adjusted_score: -3.386602787848781----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and the sun on the sky of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(the -7.97)(sun -1.00)(on -0.86)(the -2.65)(sky -2.94)(of -6.39)(the -0.96)(key -3.62)(. -6.70) line score is : -3.563, look ahead score is : 0.000
+-------------------------score:  -3.4168653799330486;  adjusted_score: -3.3912550671135677----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and the sun on the earth of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(the -7.97)(sun -1.00)(on -0.86)(the -2.65)(earth -2.94)(of -6.39)(the -0.96)(key -4.02)(. -6.89) line score is : -3.622, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ she 's a person of note 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2714063827738618;  adjusted_score: -3.2485859808370923----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ it 's a tale of heart , 
+ and i think that his work is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(it -8.69)('s -3.15)(a -4.78)(tale -3.03)(of -2.56)(heart -2.92)(, -0.54) line score is : -3.668, look ahead score is : 0.556
+(and -0.54)(i -6.82)(think -2.35)(that -2.47)(his -3.99)(work -1.41)(is -1.54)(a -5.05)(key -2.69)(. -1.30) line score is : -2.817, look ahead score is : 0.000
+-------------------------score:  -3.314582166798187;  adjusted_score: -3.2917617648614175----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ it 's a tale of heart , 
+ and i think that his life is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(it -8.69)('s -3.15)(a -4.78)(tale -3.03)(of -2.56)(heart -2.92)(, -0.54) line score is : -3.668, look ahead score is : 0.556
+(and -0.54)(i -6.82)(think -2.35)(that -2.47)(his -3.99)(life -1.41)(is -1.54)(a -5.05)(key -3.70)(. -1.87) line score is : -2.975, look ahead score is : 0.000
+-------------------------score:  -3.3515707141522206;  adjusted_score: -3.328750312215451----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ it 's a tale of heart , 
+ and i hope that his work is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(it -8.69)('s -3.15)(a -4.78)(tale -3.03)(of -2.56)(heart -2.92)(, -0.54) line score is : -3.668, look ahead score is : 0.556
+(and -0.54)(i -6.82)(hope -2.35)(that -2.47)(his -3.99)(work -2.67)(is -1.76)(a -4.03)(key -2.96)(. -2.30) line score is : -2.989, look ahead score is : 0.000
+-------------------------score:  -3.3519367083455576;  adjusted_score: -3.329116306408788----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ it 's a tale of heart , 
+ and i think that his work has a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(it -8.69)('s -3.15)(a -4.78)(tale -3.03)(of -2.56)(heart -2.92)(, -0.54) line score is : -3.668, look ahead score is : 0.556
+(and -0.54)(i -6.82)(think -2.35)(that -2.47)(his -3.99)(work -1.41)(has -1.54)(a -5.05)(key -2.69)(. -2.43) line score is : -2.930, look ahead score is : 0.000
+-------------------------score:  -3.4467999497146318;  adjusted_score: -3.4239795477778623----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ it 's a tale of heart , 
+ and i think that his work speaks a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(it -8.69)('s -3.15)(a -4.78)(tale -3.03)(of -2.56)(heart -2.92)(, -0.54) line score is : -3.668, look ahead score is : 0.556
+(and -0.54)(i -6.82)(think -2.35)(that -2.47)(his -3.99)(work -1.41)(speaks -1.54)(a -5.05)(key -2.69)(. -3.37) line score is : -3.024, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND RB THERE VBD JJ JJ IN PRP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and right there became awful sick in 'em 
+-------------------------score:  -3.2802563801859366;  adjusted_score: -3.2546460673664557----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and then there was much light within me . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(then -7.97)(there -1.00)(was -0.86)(much -3.61)(light -4.00)(within -0.48)(me -6.41)(. -5.33) line score is : -3.577, look ahead score is : 0.000
+-------------------------score:  -3.289840839577444;  adjusted_score: -3.264230526757963----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and then there was little light in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(then -7.97)(there -1.00)(was -0.86)(little -3.61)(light -4.00)(in -0.48)(me -6.54)(. -4.73) line score is : -3.524, look ahead score is : 0.000
+-------------------------score:  -3.348463438225515;  adjusted_score: -3.3228531254060343----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and then there was light enough in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(then -7.97)(there -1.00)(was -0.86)(light -3.61)(enough -4.00)(in -0.48)(me -5.65)(. -4.71) line score is : -3.423, look ahead score is : 0.000
+-------------------------score:  -3.379685080864213;  adjusted_score: -3.354074768044732----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and then there was much other in me . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(then -7.97)(there -1.00)(was -0.86)(much -3.61)(other -4.00)(in -0.48)(me -6.41)(. -5.69) line score is : -3.617, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.3003052188591524;  adjusted_score: -3.2774485692517326----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ as he was to say , i have a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(as -0.31)(he -7.32)(was -2.35)(to -3.42)(say -2.05)(, -2.97)(i -4.33)(have -1.79)(a -0.74)(key -5.84)(. -2.94) line score is : -3.095, look ahead score is : 0.000
+-------------------------score:  -3.4322139245994165;  adjusted_score: -3.4093572749919967----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ as he was to say , you know a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(as -0.31)(he -7.32)(was -2.35)(to -3.42)(say -2.05)(, -2.97)(you -4.33)(know -1.79)(a -0.74)(key -6.99)(. -2.25) line score is : -3.137, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ which he loosed in the house 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3083363911419204;  adjusted_score: -3.2844232749848654----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ which he used in the fight , 
+ and i think that his work is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(which -8.53)(he -2.45)(used -3.92)(in -1.78)(the -3.13)(fight -2.22)(, -2.33) line score is : -3.479, look ahead score is : 0.622
+(and -2.33)(i -5.90)(think -2.72)(that -1.75)(his -4.36)(work -1.44)(is -1.81)(a -4.06)(key -4.65)(. -2.41) line score is : -3.144, look ahead score is : 0.000
+-------------------------score:  -3.315836078741334;  adjusted_score: -3.291922962584279----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ which he used in the fight , 
+ and i think that his style is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(which -8.53)(he -2.45)(used -3.92)(in -1.78)(the -3.13)(fight -2.22)(, -2.33) line score is : -3.479, look ahead score is : 0.622
+(and -2.33)(i -5.90)(think -2.72)(that -1.75)(his -4.36)(style -1.44)(is -1.81)(a -4.06)(key -4.84)(. -1.68) line score is : -3.090, look ahead score is : 0.000
+-------------------------score:  -3.3241087880098457;  adjusted_score: -3.3001956718527907----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ which he used in the fight , 
+ and i think that his strength is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(which -8.53)(he -2.45)(used -3.92)(in -1.78)(the -3.13)(fight -2.22)(, -2.33) line score is : -3.479, look ahead score is : 0.622
+(and -2.33)(i -5.90)(think -2.72)(that -1.75)(his -4.36)(strength -1.44)(is -1.81)(a -4.06)(key -4.32)(. -1.79) line score is : -3.049, look ahead score is : 0.000
+-------------------------score:  -3.3619673066970073;  adjusted_score: -3.3380541905399523----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ which he used in the fight , 
+ and i think that his life is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(which -8.53)(he -2.45)(used -3.92)(in -1.78)(the -3.13)(fight -2.22)(, -2.33) line score is : -3.479, look ahead score is : 0.622
+(and -2.33)(i -5.90)(think -2.72)(that -1.75)(his -4.36)(life -1.44)(is -1.81)(a -4.06)(key -5.01)(. -2.48) line score is : -3.186, look ahead score is : 0.000
+-------------------------score:  -3.4657098483858686;  adjusted_score: -3.4417967322288137----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ which he used in the fight , 
+ and i think that his work has a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(which -8.53)(he -2.45)(used -3.92)(in -1.78)(the -3.13)(fight -2.22)(, -2.33) line score is : -3.479, look ahead score is : 0.622
+(and -2.33)(i -5.90)(think -2.72)(that -1.75)(his -4.36)(work -1.44)(has -1.81)(a -4.06)(key -4.65)(. -2.71) line score is : -3.173, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.328935551428885;  adjusted_score: -3.3009444730819175----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ he was able to find , 
+ and i think that his work is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(he -7.28)(was -3.55)(able -3.95)(to -3.30)(find -4.35)(, -0.02) line score is : -3.741, look ahead score is : 0.721
+(and -0.02)(i -4.40)(think -3.69)(that -1.83)(his -4.12)(work -1.93)(is -1.61)(a -5.08)(key -4.51)(. -2.42) line score is : -2.960, look ahead score is : 0.000
+-------------------------score:  -3.351313273619973;  adjusted_score: -3.3233221952730054----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ he was able to find , 
+ and i think that his brain is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(he -7.28)(was -3.55)(able -3.95)(to -3.30)(find -4.35)(, -0.02) line score is : -3.741, look ahead score is : 0.721
+(and -0.02)(i -4.40)(think -3.69)(that -1.83)(his -4.12)(brain -1.93)(is -1.61)(a -5.08)(key -4.78)(. -2.62) line score is : -3.008, look ahead score is : 0.000
+-------------------------score:  -3.369525989404682;  adjusted_score: -3.3415349110577144----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ he was able to find , 
+ and i think that his life is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(he -7.28)(was -3.55)(able -3.95)(to -3.30)(find -4.35)(, -0.02) line score is : -3.741, look ahead score is : 0.721
+(and -0.02)(i -4.40)(think -3.69)(that -1.83)(his -4.12)(life -1.93)(is -1.61)(a -5.08)(key -4.29)(. -2.75) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -3.4448537831618027;  adjusted_score: -3.416862704814835----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ he was able to find , 
+ and i think that his work has a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(he -7.28)(was -3.55)(able -3.95)(to -3.30)(find -4.35)(, -0.02) line score is : -3.741, look ahead score is : 0.721
+(and -0.02)(i -4.40)(think -3.69)(that -1.83)(his -4.12)(work -1.93)(has -1.61)(a -5.08)(key -4.51)(. -3.04) line score is : -3.022, look ahead score is : 0.000
+-------------------------score:  -3.4476868461140175;  adjusted_score: -3.41969576776705----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ he was able to find , 
+ and i think that his life has a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(he -7.28)(was -3.55)(able -3.95)(to -3.30)(find -4.35)(, -0.02) line score is : -3.741, look ahead score is : 0.721
+(and -0.02)(i -4.40)(think -3.69)(that -1.83)(his -4.12)(life -1.93)(has -1.61)(a -5.08)(key -4.29)(. -3.14) line score is : -3.010, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.402322360259645;  adjusted_score: -3.376712047440164----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and i heard that his name is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(i -7.97)(heard -1.00)(that -0.86)(his -3.58)(name -3.30)(is -3.71)(a -3.91)(key -2.50)(. -4.53) line score is : -3.389, look ahead score is : 0.000
+-------------------------score:  -3.431044295868453;  adjusted_score: -3.405433983048972----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and i heard that his voice is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(i -7.97)(heard -1.00)(that -0.86)(his -3.58)(voice -3.30)(is -3.71)(a -3.91)(key -3.00)(. -5.33) line score is : -3.519, look ahead score is : 0.000
+-------------------------score:  -3.4525897971847477;  adjusted_score: -3.426979484365267----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ and it was to the wind , 
+ and he heard that his name is a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(and -7.28)(it -3.55)(was -2.51)(to -3.43)(the -1.19)(wind -4.39)(, -2.55) line score is : -3.556, look ahead score is : 0.602
+(and -2.55)(he -7.97)(heard -1.00)(that -0.86)(his -1.50)(name -4.55)(is -3.52)(a -4.23)(key -3.67)(. -4.81) line score is : -3.464, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD AS PRP VBD ON A NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ AND SINCE RB VBZ RB VBN . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ in my pocket for cash 
+ he was pained by a tooth 
+ and since then has never benzene 
+-------------------------score:  -3.413778334359328;  adjusted_score: -3.388972464526693----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a light , 
+ and since then has constantly impressed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(light -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(and -1.51)(since -6.03)(then -2.88)(has -2.38)(constantly -6.16)(impressed -1.04)(. -1.59) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.4564890677730244;  adjusted_score: -3.4316831979403895----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a light , 
+ and since then has steadily impressed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(light -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(and -1.51)(since -6.03)(then -2.88)(has -2.38)(steadily -6.16)(impressed -1.04)(. -1.59) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.5132338657975195;  adjusted_score: -3.4884279959648845----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a light , 
+ and since then has gradually impressed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(light -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(and -1.51)(since -6.03)(then -2.88)(has -2.38)(gradually -6.16)(impressed -1.04)(. -1.59) line score is : -3.084, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN PRP$ NNS AND PRP$ NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in my legs and my bum 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.4204269778547864;  adjusted_score: -3.3987211388168914----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ and the life on the road of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(and -2.40)(the -2.83)(life -0.26)(on -3.79)(the -2.09)(road -4.69)(of -6.42)(the -1.42)(key -1.14)(. -4.85) line score is : -2.989, look ahead score is : 0.000
+-------------------------score:  -3.4206007055260916;  adjusted_score: -3.3988948664881966----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ and the work on the wall of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(and -2.40)(the -2.83)(work -0.26)(on -3.79)(the -2.09)(wall -4.86)(of -4.99)(the -2.18)(key -3.51)(. -3.11) line score is : -3.003, look ahead score is : 0.000
+-------------------------score:  -3.4600270322778006;  adjusted_score: -3.4383211932399056----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ and the work on the stage of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(and -2.40)(the -2.83)(work -0.26)(on -3.79)(the -2.09)(stage -4.86)(of -4.99)(the -2.18)(key -3.88)(. -4.31) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.4607809985225853;  adjusted_score: -3.4390751594846902----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ and the work on the screen of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(and -2.40)(the -2.83)(work -0.26)(on -3.79)(the -2.09)(screen -4.86)(of -4.99)(the -2.18)(key -3.52)(. -4.65) line score is : -3.158, look ahead score is : 0.000
+-------------------------score:  -3.4623624939810145;  adjusted_score: -3.4406566549431195----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ and the work on the page of the key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(and -2.40)(the -2.83)(work -0.26)(on -3.79)(the -2.09)(page -4.86)(of -4.99)(the -2.18)(key -3.60)(. -5.08) line score is : -3.210, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN PRP$ NNS AND PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in my legs and my bum 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.4539012650356575;  adjusted_score: -3.4321954259977625----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ as it was to be , i think a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(as -2.40)(it -2.83)(was -0.26)(to -5.54)(be -3.02)(, -2.06)(i -3.53)(think -2.67)(a -3.62)(key -6.13)(. -3.06) line score is : -3.193, look ahead score is : 0.000
+-------------------------score:  -3.4828702233293476;  adjusted_score: -3.4611643842914526----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ as it was to be , i am a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(as -2.40)(it -2.83)(was -0.26)(to -5.54)(be -3.02)(, -2.06)(i -3.53)(am -2.67)(a -3.62)(key -6.13)(. -3.20) line score is : -3.205, look ahead score is : 0.000
+-------------------------score:  -3.4900803097030697;  adjusted_score: -3.4683744706651747----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ as it was to be , i have a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(as -2.40)(it -2.83)(was -0.26)(to -5.54)(be -3.02)(, -2.06)(i -3.53)(have -2.67)(a -3.62)(key -6.13)(. -2.80) line score is : -3.169, look ahead score is : 0.000
+-------------------------score:  -3.505396943320246;  adjusted_score: -3.483691104282351----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ as he was to write , i have a key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(as -2.40)(he -2.83)(was -0.26)(to -5.54)(write -2.11)(, -4.01)(i -4.08)(have -3.19)(a -2.86)(key -5.95)(. -2.63) line score is : -3.260, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ but it does n't come out of my purse 
+-------------------------score:  -3.483095842503732;  adjusted_score: -3.4602391928963123----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ but it has always come in his key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(but -0.31)(it -7.32)(has -2.35)(always -3.77)(come -1.97)(in -5.50)(his -2.74)(key -3.93)(. -2.96) line score is : -3.427, look ahead score is : 0.000
+-------------------------score:  -3.4996785391722955;  adjusted_score: -3.4768218895648757----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ but it has always come in my key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(but -0.31)(it -7.32)(has -2.35)(always -3.77)(come -1.97)(in -5.50)(my -2.74)(key -3.93)(. -2.96) line score is : -3.427, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN PRP$ NNS AND PRP$ NN , 
+ WOULD VB VBD THE NN VBN FROM PRP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in my legs and my bum 
+ would arise were the kid taken from us 
+-------------------------score:  -3.4948216401971877;  adjusted_score: -3.4731158011592926----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ would have made the world ashamed from me . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(would -2.40)(have -2.83)(made -0.26)(the -4.77)(world -2.29)(ashamed -3.40)(from -2.92)(me -2.95)(. -7.20) line score is : -3.225, look ahead score is : 0.000
+-------------------------score:  -3.5462143742479384;  adjusted_score: -3.5245085352100434----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ would have made the world become from me . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(would -2.40)(have -2.83)(made -0.26)(the -4.77)(world -2.29)(become -3.40)(from -2.92)(me -2.95)(. -7.15) line score is : -3.219, look ahead score is : 0.000
+-------------------------score:  -3.7337870919145644;  adjusted_score: -3.7120812528766693----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ would have made the world become from we . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(would -2.40)(have -2.83)(made -0.26)(the -4.77)(world -2.29)(become -3.40)(from -2.92)(we -2.95)(. -7.15) line score is : -3.219, look ahead score is : 0.000
+-------------------------score:  -3.7389692389406264;  adjusted_score: -3.7172633999027314----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ the story of his art , 
+ in his eyes and his heart , 
+ would have made the world ashamed from we . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(the -4.08)(story -3.43)(of -3.65)(his -1.90)(art -2.33)(, -8.69) line score is : -4.014, look ahead score is : 0.585
+(in -8.69)(his -3.15)(eyes -4.37)(and -3.46)(his -3.65)(heart -3.52)(, -2.40) line score is : -4.176, look ahead score is : 0.500
+(would -2.40)(have -2.83)(made -0.26)(the -4.77)(world -2.29)(ashamed -3.40)(from -2.92)(we -2.95)(. -7.20) line score is : -3.225, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.5790704685834145;  adjusted_score: -3.5562138189759946----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ it was his good manners and one key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(it -0.31)(was -7.32)(his -2.35)(good -5.06)(manners -0.53)(and -2.99)(one -5.76)(key -3.89)(. -1.06) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.648595398952884;  adjusted_score: -3.625738749345464----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ it was for his insight , 
+ his wisdom and his light , 
+ it was his own efforts and one key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(it -4.08)(was -3.84)(for -1.07)(his -6.07)(insight -2.95)(, -8.53) line score is : -4.422, look ahead score is : 0.573
+(his -8.53)(wisdom -2.45)(and -1.89)(his -3.18)(light -1.48)(, -0.31) line score is : -2.975, look ahead score is : 0.570
+(it -0.31)(was -7.32)(his -2.35)(own -5.06)(efforts -0.53)(and -2.99)(one -4.91)(key -5.67)(. -2.19) line score is : -3.480, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ WITH THE NN OF A NN , 
+ OF THE NN AND NN AND NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ with the faith of a marytr 
+ of the gravy and chicken and ham 
+-------------------------score:  -3.607359634304885;  adjusted_score: -3.582110018993262----------------------- 
+there was a teacher named jose 
+ who learned a great deal on his way . 
+ he would come to a mind , 
+ with the aid of a wind , 
+ of the shape and character and key . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(a -3.24)(great -3.31)(deal -0.09)(on -5.40)(his -1.82)(way -2.06)(. -4.08) line score is : -3.131, look ahead score is : 0.000
+(he -4.08)(would -1.86)(come -4.25)(to -3.76)(a -1.34)(mind -4.84)(, -7.28) line score is : -3.914, look ahead score is : 0.679
+(with -7.28)(the -3.55)(aid -4.56)(of -2.38)(a -3.73)(wind -0.01)(, -2.12) line score is : -3.376, look ahead score is : 0.584
+(of -2.12)(the -8.26)(shape -2.18)(and -2.27)(character -1.82)(and -5.26)(key -2.45)(. -3.82) line score is : -3.523, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD AS PRP VBD ON A NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ FOR THE NN VBZ VBN , SO VBZ PRP$ JJ . 
+----------------------- original sentences ------------------------------------ 
+who smiled as she rode on a tiger 
+ in my pocket for cash 
+ he was pained by a tooth 
+ for the corn is gone , so is her teaux 
+-------------------------score:  -3.622192987186067;  adjusted_score: -3.5973871179494785----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a sight , 
+ for the world is filled , so is his blessed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(sight -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(for -1.51)(the -5.61)(world -3.44)(is -5.03)(filled -2.55)(, -4.43)(so -3.32)(is -3.09)(his -5.78)(blessed -4.89)(. -5.29) line score is : -4.083, look ahead score is : 0.000
+-------------------------score:  -3.6300065320204284;  adjusted_score: -3.6052006627838398----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a sight , 
+ for the sky is filled , so is his blessed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(sight -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(for -1.51)(the -5.61)(sky -3.44)(is -5.03)(filled -2.55)(, -4.71)(so -3.83)(is -3.07)(his -5.92)(blessed -4.85)(. -2.91) line score is : -3.948, look ahead score is : 0.000
+-------------------------score:  -3.657652253175483;  adjusted_score: -3.6328463839388943----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a sight , 
+ for the world is filled , so is its blessed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(sight -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(for -1.51)(the -5.61)(world -3.44)(is -5.03)(filled -2.55)(, -4.43)(so -3.32)(is -3.09)(its -5.78)(blessed -4.89)(. -5.29) line score is : -4.083, look ahead score is : 0.000
+-------------------------score:  -3.6962449283284298;  adjusted_score: -3.671439059091841----------------------- 
+there was a teacher named celeste 
+ who learned as he went on a quest . 
+ in his search for insight , 
+ he was struck by a sight , 
+ for the sky is filled , so is our blessed . 
+------------------------- score breakdown ------------------------ 
+(who -1.58)(learned -6.60)(as -6.00)(he -2.83)(went -0.33)(on -3.64)(a -5.09)(quest -3.70)(. -2.17) line score is : -3.548, look ahead score is : 0.000
+(in -2.17)(his -4.07)(search -2.80)(for -3.90)(insight -1.03)(, -7.91) line score is : -3.643, look ahead score is : 0.590
+(he -7.91)(was -1.00)(struck -0.54)(by -3.34)(a -3.89)(sight -0.15)(, -1.51) line score is : -2.621, look ahead score is : 0.650
+(for -1.51)(the -5.61)(sky -3.44)(is -5.03)(filled -2.55)(, -4.71)(so -3.83)(is -3.07)(our -5.92)(blessed -4.85)(. -2.91) line score is : -3.948, look ahead score is : 0.000

@@ -1,0 +1,2222 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was ready to faint 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.6189529287718956;  adjusted_score: -2.5921429791205353----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ and that is the end of this story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(and -0.01)(that -4.07)(is -5.91)(the -1.74)(end -4.07)(of -2.55)(this -2.15)(story -3.84)(. -0.17) line score is : -2.721, look ahead score is : 0.000
+-------------------------score:  -2.816712869992179;  adjusted_score: -2.7899029203408188----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ and that is the way of this story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(and -0.01)(that -4.07)(is -5.91)(the -1.74)(way -4.07)(of -2.55)(this -2.15)(story -3.10)(. -3.18) line score is : -2.975, look ahead score is : 0.000
+-------------------------score:  -2.9238163723099615;  adjusted_score: -2.897006422658601----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ and that is the kind of this story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(and -0.01)(that -4.07)(is -5.91)(the -1.74)(kind -4.07)(of -2.55)(this -2.15)(story -3.71)(. -0.01) line score is : -2.690, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ with his spanner and jack in the box 
+-------------------------score:  -2.8632736242178716;  adjusted_score: -2.8395103028777875----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ with his wife and daughter in the war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(with -1.27)(his -0.93)(wife -1.64)(and -4.50)(daughter -1.38)(in -3.27)(the -1.18)(war -2.85)(. -3.50) line score is : -2.280, look ahead score is : 0.000
+-------------------------score:  -2.988052344683445;  adjusted_score: -2.964289023343361----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ with his wife and son in the prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(with -1.15)(his -0.71)(wife -1.67)(and -4.51)(son -1.44)(in -3.59)(the -1.10)(prayer -2.79)(. -3.40) line score is : -2.263, look ahead score is : 0.000
+-------------------------score:  -2.9904220989256194;  adjusted_score: -2.9666587775855353----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ with his wife and daughter in the prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(with -1.15)(his -0.71)(wife -1.67)(and -4.51)(daughter -1.44)(in -3.59)(the -1.10)(prayer -2.70)(. -3.53) line score is : -2.267, look ahead score is : 0.000
+-------------------------score:  -2.992297340523113;  adjusted_score: -2.968534019183029----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ with his wife and daughter in the care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(with -1.15)(his -0.71)(wife -1.67)(and -4.51)(daughter -1.44)(in -3.59)(the -1.10)(care -2.70)(. -3.53) line score is : -2.267, look ahead score is : 0.000
+-------------------------score:  -2.99259179649931;  adjusted_score: -2.968828475159226----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ with his wife and son in the glory . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(with -1.27)(his -0.93)(wife -1.64)(and -4.50)(son -1.38)(in -3.27)(the -1.18)(glory -2.85)(. -3.36) line score is : -2.265, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was ready to faint 
+ and now he 's a college professor 
+-------------------------score:  -2.864889209717512;  adjusted_score: -2.8380792600661517----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ and now he has a family story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(and -0.01)(now -4.07)(he -5.91)(has -1.74)(a -2.88)(family -0.50)(story -2.74)(. -1.92) line score is : -2.470, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ WITH A JJ NN OF NN ON PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ with a nice head of hair on his pate 
+-------------------------score:  -2.8920860723318422;  adjusted_score: -2.868322750991758----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ with a great deal of help on his care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(with -1.15)(a -0.71)(great -1.67)(deal -4.51)(of -2.51)(help -4.65)(on -1.32)(his -0.04)(care -2.04)(. -6.37) line score is : -2.498, look ahead score is : 0.000
+-------------------------score:  -2.9589918596560465;  adjusted_score: -2.9352285383159624----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ with a great deal of love on his care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(with -1.15)(a -0.71)(great -1.67)(deal -4.51)(of -2.51)(love -4.65)(on -1.32)(his -0.04)(care -2.53)(. -6.61) line score is : -2.569, look ahead score is : 0.000
+-------------------------score:  -2.9693945506039787;  adjusted_score: -2.9456312292638946----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ with a great deal of help on his war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(with -1.27)(a -0.93)(great -1.64)(deal -4.50)(of -2.45)(help -4.30)(on -1.27)(his -0.05)(war -2.65)(. -6.18) line score is : -2.525, look ahead score is : 0.000
+-------------------------score:  -3.000871494741124;  adjusted_score: -2.97710817340104----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ with a great deal of help on his prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(with -1.15)(a -0.71)(great -1.67)(deal -4.51)(of -2.51)(help -4.65)(on -1.32)(his -0.04)(prayer -2.04)(. -6.37) line score is : -2.498, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was ready to faint 
+ with his spanner and jack in the box 
+-------------------------score:  -2.911548108102814;  adjusted_score: -2.8847381584514538----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ with his wife and son in the story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(with -0.01)(his -4.07)(wife -5.91)(and -5.10)(son -1.34)(in -3.23)(the -1.24)(story -2.22)(. -4.11) line score is : -3.024, look ahead score is : 0.000
+-------------------------score:  -2.982044355763543;  adjusted_score: -2.955234406112183----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ with his wife and child in the story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(with -0.01)(his -4.07)(wife -5.91)(and -5.10)(child -1.34)(in -3.23)(the -1.24)(story -3.51)(. -4.18) line score is : -3.176, look ahead score is : 0.000
+-------------------------score:  -3.042782973137594;  adjusted_score: -3.0159730234862336----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ with his wife and son in the glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(with -0.01)(his -4.07)(wife -5.91)(and -5.10)(son -1.34)(in -3.23)(the -1.24)(glory -2.22)(. -4.11) line score is : -3.024, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ with his spanner and jack in the box 
+-------------------------score:  -2.931593404558953;  adjusted_score: -2.905431584564503----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ with his wife and son in the story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(with -1.83)(his -9.53)(wife -3.46)(and -3.65)(son -2.33)(in -2.84)(the -0.82)(story -2.20)(. -3.41) line score is : -3.341, look ahead score is : 0.000
+-------------------------score:  -2.973116570559796;  adjusted_score: -2.946954750565346----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ with his wife and child in the story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(with -1.83)(his -9.53)(wife -3.46)(and -3.65)(child -2.33)(in -2.84)(the -0.82)(story -3.43)(. -3.10) line score is : -3.444, look ahead score is : 0.000
+-------------------------score:  -3.0211965306079946;  adjusted_score: -2.995034710613545----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ with his wife and son in the glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(with -1.83)(his -9.53)(wife -3.46)(and -3.65)(son -2.33)(in -2.84)(the -0.82)(glory -2.20)(. -3.41) line score is : -3.341, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.934365250847556;  adjusted_score: -2.910601929507472----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and that is the reason of this prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(that -0.71)(is -1.67)(the -2.39)(reason -5.13)(of -3.25)(this -2.42)(prayer -2.56)(. -3.67) line score is : -2.550, look ahead score is : 0.000
+-------------------------score:  -2.974267293106426;  adjusted_score: -2.950503971766342----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and that is the reason of this war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(that -0.93)(is -1.64)(the -2.11)(reason -4.81)(of -3.31)(this -2.43)(war -2.79)(. -3.32) line score is : -2.512, look ahead score is : 0.000
+-------------------------score:  -3.016566220558051;  adjusted_score: -2.992802899217967----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and that is the reason of this care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(that -0.71)(is -1.67)(the -2.39)(reason -5.13)(of -3.25)(this -2.42)(care -2.56)(. -3.67) line score is : -2.550, look ahead score is : 0.000
+-------------------------score:  -3.0413563215371333;  adjusted_score: -3.0175930001970492----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and that is the reason of this scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(that -0.71)(is -1.67)(the -2.39)(reason -5.13)(of -3.25)(this -2.42)(scare -2.56)(. -3.67) line score is : -2.550, look ahead score is : 0.000
+-------------------------score:  -3.0526370189406653;  adjusted_score: -3.0288736976005812----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and that is the reason of this bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(that -0.71)(is -1.67)(the -2.39)(reason -5.13)(of -3.25)(this -2.42)(bear -2.56)(. -3.67) line score is : -2.550, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ VBD THE NNS THAT PRP VBD , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ were the friends that he knew 
+ and returned on the previous night 
+-------------------------score:  -2.9687879274288815;  adjusted_score: -2.942305563489596----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started on the other story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(on -2.64)(the -0.65)(other -3.14)(story -4.76)(. -1.75) line score is : -2.719, look ahead score is : 0.000
+-------------------------score:  -2.9899242440859477;  adjusted_score: -2.963441880146662----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started on the second story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(on -2.64)(the -0.65)(second -3.14)(story -4.76)(. -1.75) line score is : -2.719, look ahead score is : 0.000
+-------------------------score:  -3.0518797397613526;  adjusted_score: -3.025397375822067----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started on the final story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(on -2.64)(the -0.65)(final -3.14)(story -4.76)(. -1.75) line score is : -2.719, look ahead score is : 0.000
+-------------------------score:  -3.189241413275401;  adjusted_score: -3.1627590493361155----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started on the final glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(on -2.64)(the -0.65)(final -3.14)(glory -4.76)(. -1.75) line score is : -2.719, look ahead score is : 0.000
+-------------------------score:  -3.2177402416865033;  adjusted_score: -3.191257877747218----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and went on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(went -4.24)(on -2.64)(the -0.65)(dangerous -3.32)(story -1.50)(. -3.55) line score is : -2.535, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ and now he 's a college professor 
+-------------------------score:  -2.9732675181641692;  adjusted_score: -2.9471056981697195----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and now he has a family story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(now -9.53)(he -3.46)(has -1.32)(a -4.69)(family -1.44)(story -2.63)(. -1.99) line score is : -3.361, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was told by his wife 
+ she was ready to give and to take 
+-------------------------score:  -2.981770193938053;  adjusted_score: -2.954539950851238----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ he was ready to go and to care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(he -1.46)(was -6.98)(ready -1.84)(to -1.22)(go -1.08)(and -4.59)(to -0.38)(care -1.99)(. -3.58) line score is : -2.567, look ahead score is : 0.000
+-------------------------score:  -3.0260127529953467;  adjusted_score: -2.9987825099085317----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ he was ready to die and to care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(he -1.46)(was -6.98)(ready -1.84)(to -1.22)(die -1.08)(and -4.59)(to -0.38)(care -2.58)(. -3.33) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -3.0740271264856514;  adjusted_score: -3.0467968833988364----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ he was ready to die and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(he -1.46)(was -6.98)(ready -1.84)(to -1.22)(die -1.08)(and -4.59)(to -0.38)(bear -2.58)(. -3.33) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -3.08967480876229;  adjusted_score: -3.062444565675475----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ he was ready to go and to bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(he -1.46)(was -6.98)(ready -1.84)(to -1.22)(go -1.08)(and -4.59)(to -0.38)(bear -1.99)(. -3.58) line score is : -2.567, look ahead score is : 0.000
+-------------------------score:  -3.1265642606850825;  adjusted_score: -3.0993340175982675----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ he was ready to go and to scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(he -1.46)(was -6.98)(ready -1.84)(to -1.22)(go -1.08)(and -4.59)(to -0.38)(scare -1.99)(. -3.58) line score is : -2.567, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.991440584883094;  adjusted_score: -2.9650809712707997----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was called by a wave , 
+ and he went down and got his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(called -4.18)(by -2.16)(a -4.94)(wave -2.94)(, -2.56) line score is : -3.281, look ahead score is : 0.649
+(and -2.56)(he -8.92)(went -2.69)(down -1.25)(and -1.19)(got -3.27)(his -3.72)(story -3.18)(. -3.57) line score is : -3.373, look ahead score is : 0.000
+-------------------------score:  -3.0093153100460768;  adjusted_score: -2.9829556964337827----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was called by a wave , 
+ and he went down and did his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(called -4.18)(by -2.16)(a -4.94)(wave -2.94)(, -2.56) line score is : -3.281, look ahead score is : 0.649
+(and -2.56)(he -8.92)(went -2.69)(down -1.25)(and -1.19)(did -3.27)(his -3.72)(story -3.18)(. -3.88) line score is : -3.408, look ahead score is : 0.000
+-------------------------score:  -3.039387719705701;  adjusted_score: -3.0130281060934068----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was called by a wave , 
+ and he went down and got his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(called -4.18)(by -2.16)(a -4.94)(wave -2.94)(, -2.56) line score is : -3.281, look ahead score is : 0.649
+(and -2.56)(he -8.92)(went -2.69)(down -1.25)(and -1.19)(got -3.27)(his -3.72)(glory -3.18)(. -3.57) line score is : -3.373, look ahead score is : 0.000
+-------------------------score:  -3.0442583058029413;  adjusted_score: -3.017898692190647----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was called by a wave , 
+ and he went down and did his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(called -4.18)(by -2.16)(a -4.94)(wave -2.94)(, -2.56) line score is : -3.281, look ahead score is : 0.649
+(and -2.56)(he -8.92)(went -2.69)(down -1.25)(and -1.19)(did -3.27)(his -3.72)(glory -3.18)(. -3.88) line score is : -3.408, look ahead score is : 0.000
+-------------------------score:  -3.044351264834404;  adjusted_score: -3.01799165122211----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was called by a wave , 
+ and he went down and took his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(called -4.18)(by -2.16)(a -4.94)(wave -2.94)(, -2.56) line score is : -3.281, look ahead score is : 0.649
+(and -2.56)(he -8.92)(went -2.69)(down -1.25)(and -1.19)(took -3.27)(his -3.72)(story -3.18)(. -3.84) line score is : -3.403, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ VBD THE NNS THAT PRP VBD , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ were the friends that he knew 
+ and now he 's a college professor 
+-------------------------score:  -2.9933352778034825;  adjusted_score: -2.966852913864197----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and now he has a family story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(now -4.24)(he -2.64)(has -0.65)(a -4.84)(family -1.39)(story -3.00)(. -1.87) line score is : -2.560, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.9948002709425054;  adjusted_score: -2.9686384509480557----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and he went down and got his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(he -9.53)(went -3.46)(down -1.32)(and -3.85)(got -3.75)(his -4.43)(story -3.72)(. -3.37) line score is : -3.919, look ahead score is : 0.000
+-------------------------score:  -3.041063891199883;  adjusted_score: -3.0149020712054333----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and he went down and found his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(he -9.53)(went -3.46)(down -1.32)(and -3.85)(found -3.75)(his -4.43)(story -3.72)(. -3.93) line score is : -3.980, look ahead score is : 0.000
+-------------------------score:  -3.0562915535992943;  adjusted_score: -3.0301297336048445----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and he went down and got his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(he -9.53)(went -3.46)(down -1.32)(and -3.85)(got -3.75)(his -4.43)(glory -3.72)(. -3.37) line score is : -3.919, look ahead score is : 0.000
+-------------------------score:  -3.0643427422619425;  adjusted_score: -3.0381809222674927----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and he went down and took his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(he -9.53)(went -3.46)(down -1.32)(and -3.85)(took -3.75)(his -4.43)(story -3.72)(. -3.87) line score is : -3.974, look ahead score is : 0.000
+-------------------------score:  -3.065966531110462;  adjusted_score: -3.039804711116012----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and he went down and found his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(he -9.53)(went -3.46)(down -1.32)(and -3.85)(found -3.75)(his -4.43)(glory -3.72)(. -3.93) line score is : -3.980, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was told by his wife 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.996333774398355;  adjusted_score: -2.96910353131154----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ so he came up and slept on the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(so -2.22)(he -3.56)(came -2.21)(up -4.37)(and -1.51)(slept -2.74)(on -2.95)(the -1.18)(case -7.28)(. -1.65) line score is : -2.968, look ahead score is : 0.000
+-------------------------score:  -3.0137749892823837;  adjusted_score: -2.9865447461955688----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ so he came up and hit on the case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(so -2.22)(he -3.56)(came -2.21)(up -4.37)(and -1.51)(hit -2.74)(on -2.95)(the -1.18)(case -7.23)(. -1.53) line score is : -2.951, look ahead score is : 0.000
+-------------------------score:  -3.040620334008161;  adjusted_score: -3.013390090921346----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ so he came up and slept on the face . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(so -2.22)(he -3.56)(came -2.21)(up -4.37)(and -1.51)(slept -2.74)(on -2.95)(the -1.18)(face -7.28)(. -1.65) line score is : -2.968, look ahead score is : 0.000
+-------------------------score:  -3.043069115456413;  adjusted_score: -3.015838872369598----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ so he came up and put on the face . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(so -2.22)(he -3.56)(came -2.21)(up -4.37)(and -1.51)(put -2.74)(on -2.95)(the -1.18)(face -5.08)(. -3.57) line score is : -2.939, look ahead score is : 0.000
+-------------------------score:  -3.0807059284518745;  adjusted_score: -3.0534756853650595----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ so he came up and hit on the face . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(so -2.22)(he -3.56)(came -2.21)(up -4.37)(and -1.51)(hit -2.74)(on -2.95)(the -1.18)(face -7.23)(. -1.53) line score is : -2.951, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ but it does n't come out of my purse 
+-------------------------score:  -2.997471753394965;  adjusted_score: -2.973708432054881----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ but he has not come in his glory . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(but -1.27)(he -0.93)(has -1.64)(not -3.33)(come -1.36)(in -6.26)(his -1.92)(glory -4.62)(. -4.91) line score is : -2.915, look ahead score is : 0.000
+-------------------------score:  -3.136010793122378;  adjusted_score: -3.112247471782294----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ but he has not come in his prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(but -1.15)(he -0.71)(has -1.67)(not -3.16)(come -1.29)(in -6.48)(his -2.15)(prayer -4.39)(. -5.54) line score is : -2.948, look ahead score is : 0.000
+-------------------------score:  -3.2007525635488108;  adjusted_score: -3.1769892422087267----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ but he has not slept in my prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(but -1.15)(he -0.71)(has -1.67)(not -3.16)(slept -1.29)(in -6.48)(my -2.15)(prayer -5.91)(. -2.41) line score is : -2.770, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was ready to faint 
+ but it does n't come out of my purse 
+-------------------------score:  -3.006388080937247;  adjusted_score: -2.9795781312858867----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ but he has not come in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(but -0.01)(he -4.07)(has -5.91)(not -3.13)(come -1.13)(in -4.47)(his -3.01)(glory -3.65)(. -6.59) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -3.0693918747767324;  adjusted_score: -3.042581925125372----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ but he is still hurt in his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(but -0.01)(he -4.07)(is -5.91)(still -3.13)(hurt -1.13)(in -4.32)(his -2.25)(story -6.87)(. -4.44) line score is : -3.569, look ahead score is : 0.000
+-------------------------score:  -3.097131297713326;  adjusted_score: -3.0703213480619658----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ but he is still hurt in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(but -0.01)(he -4.07)(is -5.91)(still -3.13)(hurt -1.13)(in -4.32)(his -2.25)(glory -6.87)(. -4.44) line score is : -3.569, look ahead score is : 0.000
+-------------------------score:  -3.113225788118378;  adjusted_score: -3.0864158384670177----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ but he is still blind in my story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(but -0.01)(he -4.07)(is -5.91)(still -3.13)(blind -1.13)(in -4.32)(my -2.25)(story -6.52)(. -2.70) line score is : -3.337, look ahead score is : 0.000
+-------------------------score:  -3.1633063220689372;  adjusted_score: -3.136496372417577----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ but he has not come in his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(but -0.01)(he -4.07)(has -5.91)(not -3.13)(come -1.13)(in -4.47)(his -3.01)(story -3.65)(. -6.59) line score is : -3.552, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was told by his wife 
+ and I hope that your day is a blast 
+-------------------------score:  -3.0161788481123306;  adjusted_score: -2.9889486050255156----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ and we heard that his wife has a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(and -2.22)(we -3.56)(heard -2.21)(that -1.32)(his -2.58)(wife -4.63)(has -2.55)(a -3.06)(case -1.18)(. -6.47) line score is : -2.978, look ahead score is : 0.000
+-------------------------score:  -3.1053655270267937;  adjusted_score: -3.0781352839399787----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ and i heard that his wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(and -2.22)(i -3.56)(heard -2.21)(that -1.32)(his -2.91)(wife -4.16)(is -2.72)(a -3.23)(case -1.12)(. -5.68) line score is : -2.914, look ahead score is : 0.000
+-------------------------score:  -3.1063433938166676;  adjusted_score: -3.0791131507298526----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ and we heard that his wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(and -2.22)(we -3.56)(heard -2.21)(that -1.32)(his -2.58)(wife -4.63)(is -2.55)(a -3.06)(case -1.18)(. -5.76) line score is : -2.906, look ahead score is : 0.000
+-------------------------score:  -3.110151145388098;  adjusted_score: -3.082920902301283----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ and i think that his wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(and -2.22)(i -3.56)(think -2.21)(that -1.32)(his -2.91)(wife -3.25)(is -3.04)(a -4.63)(case -1.83)(. -4.26) line score is : -2.924, look ahead score is : 0.000
+-------------------------score:  -3.167013061397216;  adjusted_score: -3.139782818310401----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ he had been by our door , 
+ and we heard that his wife has a face . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(he -1.12)(had -1.83)(been -2.54)(by -1.79)(our -2.36)(door -7.01)(, -2.22) line score is : -2.698, look ahead score is : 0.710
+(and -2.22)(we -3.56)(heard -2.21)(that -1.32)(his -2.58)(wife -4.63)(has -2.55)(a -3.06)(face -1.18)(. -6.47) line score is : -2.978, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ and returned on the previous night 
+-------------------------score:  -3.0328778559342027;  adjusted_score: -3.006716035939753----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the warrior story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(took -9.53)(on -3.46)(the -1.32)(warrior -3.77)(story -2.88)(. -0.68) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.044196817713479;  adjusted_score: -3.0180349977190293----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the terrible story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(took -9.53)(on -3.46)(the -1.32)(terrible -3.77)(story -2.88)(. -0.68) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.046196712491413;  adjusted_score: -3.0200348924969633----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the warrior glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(took -9.53)(on -3.46)(the -1.32)(warrior -3.77)(glory -2.88)(. -0.68) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.077948345181843;  adjusted_score: -3.051786525187393----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the dangerous story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(took -9.53)(on -3.46)(the -1.32)(dangerous -3.77)(story -2.88)(. -0.68) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.100799184478819;  adjusted_score: -3.0746373644843694----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took on the terrible glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(took -9.53)(on -3.46)(the -1.32)(terrible -3.77)(glory -2.88)(. -0.68) line score is : -3.354, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.0394408890179228;  adjusted_score: -3.0156775676778387----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ as he was to die , he heard a prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(as -1.15)(he -0.71)(was -1.67)(to -3.85)(die -1.81)(, -2.68)(he -4.05)(heard -2.95)(a -1.21)(prayer -4.57)(. -5.85) line score is : -2.773, look ahead score is : 0.000
+-------------------------score:  -3.1066482475825716;  adjusted_score: -3.0828849262424876----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ as he was to die , i think a war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(as -1.27)(he -0.93)(was -1.64)(to -3.57)(die -1.85)(, -2.78)(i -3.97)(think -2.85)(a -1.04)(war -7.27)(. -1.69) line score is : -2.625, look ahead score is : 0.000
+-------------------------score:  -3.113325204168047;  adjusted_score: -3.089561882827963----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ as he was to die , he heard a war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(as -1.27)(he -0.93)(was -1.64)(to -3.57)(die -1.85)(, -2.78)(he -3.97)(heard -2.85)(a -1.04)(war -4.46)(. -5.83) line score is : -2.745, look ahead score is : 0.000
+-------------------------score:  -3.1921646169253757;  adjusted_score: -3.1684012955852916----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ as he was to die , he heard a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(as -1.15)(he -0.71)(was -1.67)(to -3.85)(die -1.81)(, -2.68)(he -4.05)(heard -2.95)(a -1.21)(bear -4.57)(. -5.85) line score is : -2.773, look ahead score is : 0.000
+-------------------------score:  -3.257038312298911;  adjusted_score: -3.2332749909588268----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ as he was to die , he heard a care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(as -1.15)(he -0.71)(was -1.67)(to -3.85)(die -1.81)(, -2.68)(he -4.05)(heard -2.95)(a -1.21)(care -4.57)(. -5.85) line score is : -2.773, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ but it does n't come out of my purse 
+-------------------------score:  -3.048208498803433;  adjusted_score: -3.0220466788089833----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ but he does not look in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(but -1.83)(he -9.53)(does -3.46)(not -3.77)(look -2.17)(in -6.00)(his -0.16)(glory -4.10)(. -5.53) line score is : -4.061, look ahead score is : 0.000
+-------------------------score:  -3.05197291955119;  adjusted_score: -3.02581109955674----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ but he does not seem in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(but -1.83)(he -9.53)(does -3.46)(not -3.77)(seem -2.17)(in -6.00)(his -0.16)(glory -3.43)(. -5.75) line score is : -4.011, look ahead score is : 0.000
+-------------------------score:  -3.1360696008778177;  adjusted_score: -3.109907780883368----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ but he does not know in his glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(but -1.83)(he -9.53)(does -3.46)(not -3.77)(know -2.17)(in -6.00)(his -0.16)(glory -1.50)(. -6.44) line score is : -3.873, look ahead score is : 0.000
+-------------------------score:  -3.139081483182963;  adjusted_score: -3.112919663188513----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ but he does not have in his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(but -1.83)(he -9.53)(does -3.46)(not -3.77)(have -2.17)(in -6.00)(his -0.16)(story -2.64)(. -7.51) line score is : -4.119, look ahead score is : 0.000
+-------------------------score:  -3.160261803714093;  adjusted_score: -3.134099983719643----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ but he does not look in his story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(but -1.83)(he -9.53)(does -3.46)(not -3.77)(look -2.17)(in -6.00)(his -0.16)(story -4.10)(. -5.53) line score is : -4.061, look ahead score is : 0.000
+======================= template: 21 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.056869035258013;  adjusted_score: -3.0311861215970097----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ and he was to the door , 
+ and i heard that his wife has a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(and -1.12)(he -1.83)(was -1.26)(to -1.66)(the -1.71)(door -6.29)(, -5.09) line score is : -2.711, look ahead score is : 0.633
+(and -5.09)(i -4.86)(heard -2.44)(that -1.26)(his -2.01)(wife -3.19)(has -4.11)(a -3.32)(case -1.18)(. -6.75) line score is : -3.422, look ahead score is : 0.000
+-------------------------score:  -3.139872486100477;  adjusted_score: -3.114189572439474----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ and he was to the door , 
+ and i heard that his wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(and -1.12)(he -1.83)(was -1.26)(to -1.66)(the -1.71)(door -6.29)(, -5.09) line score is : -2.711, look ahead score is : 0.633
+(and -5.09)(i -4.86)(heard -2.44)(that -1.26)(his -2.01)(wife -3.19)(is -4.11)(a -3.32)(case -1.18)(. -5.70) line score is : -3.316, look ahead score is : 0.000
+-------------------------score:  -3.1495596994371975;  adjusted_score: -3.1238767857761944----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ and he was to the door , 
+ and he heard that our house is a case . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(and -1.12)(he -1.83)(was -1.26)(to -1.66)(the -1.71)(door -6.29)(, -5.09) line score is : -2.711, look ahead score is : 0.633
+(and -5.09)(he -4.86)(heard -2.44)(that -1.26)(our -0.97)(house -4.64)(is -3.91)(a -3.81)(case -2.32)(. -4.87) line score is : -3.418, look ahead score is : 0.000
+-------------------------score:  -3.180315233328763;  adjusted_score: -3.15463231966776----------------------- 
+there was a brave boy named chase 
+ who lived a long time on our place . 
+ he was back from the war , 
+ and he was to the door , 
+ and i heard that his wife has a face . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(place -6.30)(. -1.52) line score is : -3.263, look ahead score is : 0.000
+(he -1.52)(was -1.38)(back -1.27)(from -8.19)(the -2.74)(war -2.04)(, -1.12) line score is : -2.610, look ahead score is : 0.652
+(and -1.12)(he -1.83)(was -1.26)(to -1.66)(the -1.71)(door -6.29)(, -5.09) line score is : -2.711, look ahead score is : 0.633
+(and -5.09)(i -4.86)(heard -2.44)(that -1.26)(his -2.01)(wife -3.19)(has -4.11)(a -3.32)(face -1.18)(. -6.75) line score is : -3.422, look ahead score is : 0.000
+-------------------------score:  -3.2092695008305943;  adjusted_score: -3.183586587169591----------------------- 
+there was a brave boy named jose 
+ who lived a long time on our way . 
+ he was back from the war , 
+ and he was to the door , 
+ and i heard that his wife is a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(long -2.53)(time -0.29)(on -5.05)(our -4.68)(way -5.19)(. -2.82) line score is : -3.285, look ahead score is : 0.000
+(he -2.82)(was -1.54)(back -1.35)(from -8.39)(the -2.85)(war -1.93)(, -1.40) line score is : -2.896, look ahead score is : 0.652
+(and -1.40)(he -1.71)(was -1.31)(to -1.65)(the -1.74)(door -6.29)(, -4.98) line score is : -2.726, look ahead score is : 0.633
+(and -4.98)(i -4.97)(heard -2.42)(that -1.31)(his -1.99)(wife -3.28)(is -4.17)(a -3.19)(day -1.23)(. -5.74) line score is : -3.328, look ahead score is : 0.000
+======================= template: 22 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ and I hope that your day is a blast 
+-------------------------score:  -3.067339281825458;  adjusted_score: -3.043575960485374----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he heard that his son is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(heard -1.67)(that -2.39)(his -1.57)(son -6.41)(is -3.68)(a -1.94)(bear -2.64)(. -5.42) line score is : -2.759, look ahead score is : 0.000
+-------------------------score:  -3.196938518215628;  adjusted_score: -3.173175196875544----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and he heard that his son is a war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(he -0.93)(heard -1.64)(that -2.11)(his -1.65)(son -6.37)(is -3.56)(a -2.06)(war -2.57)(. -5.60) line score is : -2.777, look ahead score is : 0.000
+-------------------------score:  -3.233279939960031;  adjusted_score: -3.209516618619947----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and he heard that his wife is a war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(he -0.93)(heard -1.64)(that -2.11)(his -1.65)(wife -6.37)(is -3.56)(a -2.06)(war -2.93)(. -6.06) line score is : -2.859, look ahead score is : 0.000
+-------------------------score:  -3.2340405232766094;  adjusted_score: -3.2102772019365253----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and he heard that his friend is a war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(he -0.93)(heard -1.64)(that -2.11)(his -1.65)(friend -6.37)(is -3.56)(a -2.06)(war -2.95)(. -5.92) line score is : -2.847, look ahead score is : 0.000
+-------------------------score:  -3.2902192175388336;  adjusted_score: -3.2664558961987495----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he heard that his wife is a care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(heard -1.67)(that -2.39)(his -1.57)(wife -6.41)(is -3.68)(a -1.94)(care -2.63)(. -5.90) line score is : -2.806, look ahead score is : 0.000
+======================= template: 23 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND VBD THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ and finished the solo with honour 
+-------------------------score:  -3.079997000532846;  adjusted_score: -3.053835180538396----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and took the position with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(took -9.53)(the -3.46)(position -1.32)(with -3.77)(glory -2.01)(. -5.11) line score is : -3.862, look ahead score is : 0.000
+-------------------------score:  -3.097282472687463;  adjusted_score: -3.071120652693013----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and started the journey with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(started -9.53)(the -3.46)(journey -1.32)(with -3.88)(glory -3.07)(. -5.23) line score is : -4.047, look ahead score is : 0.000
+======================= template: 24 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ TO A NN WHO VBD VBN LIKE A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ to a man who was shaped like a cello 
+-------------------------score:  -3.083705756594153;  adjusted_score: -3.0599424352540687----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ to a man who had seen like a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(to -1.15)(a -0.71)(man -1.67)(who -5.50)(had -3.28)(seen -2.88)(like -2.10)(a -1.95)(bear -4.35)(. -7.05) line score is : -3.063, look ahead score is : 0.000
+-------------------------score:  -3.095045780434328;  adjusted_score: -3.071282459094244----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ to a man who had loved like a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(to -1.15)(a -0.71)(man -1.67)(who -5.50)(had -3.28)(loved -2.88)(like -2.10)(a -1.95)(bear -3.67)(. -7.36) line score is : -3.026, look ahead score is : 0.000
+-------------------------score:  -3.112769999924828;  adjusted_score: -3.089006678584744----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ to a man who had loved like a prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(to -1.15)(a -0.71)(man -1.67)(who -5.50)(had -3.28)(loved -2.88)(like -2.10)(a -1.95)(prayer -3.67)(. -7.36) line score is : -3.026, look ahead score is : 0.000
+-------------------------score:  -3.1268806439988754;  adjusted_score: -3.1031173226587914----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ to a man who had seen like a prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(to -1.15)(a -0.71)(man -1.67)(who -5.50)(had -3.28)(seen -2.88)(like -2.10)(a -1.95)(prayer -4.35)(. -7.05) line score is : -3.063, look ahead score is : 0.000
+-------------------------score:  -3.138109911890591;  adjusted_score: -3.114346590550507----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ to a man who had seen like a war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(to -1.27)(a -0.93)(man -1.64)(who -5.26)(had -2.93)(seen -3.12)(like -2.73)(a -1.91)(war -4.08)(. -7.28) line score is : -3.117, look ahead score is : 0.000
+======================= template: 25 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ VBD THE NNS THAT PRP VBD , 
+ AND VBD THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ were the friends that he knew 
+ and finished the solo with honour 
+-------------------------score:  -3.1022865106662114;  adjusted_score: -3.075804146726926----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started the business with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(the -2.64)(business -0.65)(with -3.14)(glory -3.04)(. -3.87) line score is : -2.777, look ahead score is : 0.000
+-------------------------score:  -3.1217151383558908;  adjusted_score: -3.0952327744166053----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started the story with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(the -2.64)(story -0.65)(with -3.14)(glory -3.04)(. -4.03) line score is : -2.799, look ahead score is : 0.000
+-------------------------score:  -3.1363306025664013;  adjusted_score: -3.109848238627116----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ took the names that he gave , 
+ and started the family with glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(took -3.84)(the -2.34)(names -4.80)(that -2.21)(he -6.29)(gave -4.48)(, -1.86) line score is : -3.689, look ahead score is : 0.655
+(and -1.86)(started -4.24)(the -2.64)(family -0.65)(with -3.14)(glory -3.04)(. -3.17) line score is : -2.676, look ahead score is : 0.000
+======================= template: 26 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND VBD PRP$ NN A NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ and gave his proboscis a tweak 
+-------------------------score:  -3.1103837424889207;  adjusted_score: -3.084221922494471----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and started his family a story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(started -9.53)(his -3.46)(family -1.32)(a -3.88)(story -2.75)(. -4.25) line score is : -3.861, look ahead score is : 0.000
+-------------------------score:  -3.1490351730957626;  adjusted_score: -3.122873353101313----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and started his family a glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(started -9.53)(his -3.46)(family -1.32)(a -3.88)(glory -2.75)(. -4.25) line score is : -3.861, look ahead score is : 0.000
+-------------------------score:  -3.15146406237036;  adjusted_score: -3.12530224237591----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and found his grandfather a story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(found -9.53)(his -3.46)(grandfather -1.32)(a -4.10)(story -2.08)(. -5.22) line score is : -3.936, look ahead score is : 0.000
+-------------------------score:  -3.177120794293781;  adjusted_score: -3.150958974299331----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and found his grandfather a glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(found -9.53)(his -3.46)(grandfather -1.32)(a -4.10)(glory -2.08)(. -5.22) line score is : -3.936, look ahead score is : 0.000
+-------------------------score:  -3.182497864402831;  adjusted_score: -3.156336044408381----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ and started his journey a story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(and -1.83)(started -9.53)(his -3.46)(journey -1.32)(a -3.88)(story -2.75)(. -3.82) line score is : -3.799, look ahead score is : 0.000
+======================= template: 27 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was told by his wife 
+ and I hope that your day is a blast 
+-------------------------score:  -3.124800838091794;  adjusted_score: -3.097570595004979----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ and he heard that his wife has a scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(and -1.46)(he -6.98)(heard -1.84)(that -1.84)(his -0.83)(wife -4.29)(has -3.92)(a -2.09)(scare -1.88)(. -6.50) line score is : -3.163, look ahead score is : 0.000
+-------------------------score:  -3.133636835743399;  adjusted_score: -3.106406592656584----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ and he heard that his wife is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(and -1.46)(he -6.98)(heard -1.84)(that -1.84)(his -0.83)(wife -4.29)(is -3.92)(a -2.09)(bear -1.88)(. -5.83) line score is : -3.095, look ahead score is : 0.000
+-------------------------score:  -3.1437521208735073;  adjusted_score: -3.1165218777866923----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ and he heard that his wife has a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(and -1.46)(he -6.98)(heard -1.84)(that -1.84)(his -0.83)(wife -4.29)(has -3.92)(a -2.09)(bear -1.88)(. -6.50) line score is : -3.163, look ahead score is : 0.000
+-------------------------score:  -3.2075942737214707;  adjusted_score: -3.1803640306346557----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ and he heard that his wife has a care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(and -1.46)(he -6.98)(heard -1.84)(that -1.84)(his -0.83)(wife -4.29)(has -3.92)(a -2.09)(care -1.88)(. -6.50) line score is : -3.163, look ahead score is : 0.000
+-------------------------score:  -3.31177859972505;  adjusted_score: -3.284548356638235----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had been by his door , 
+ and he heard that his wife is a care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(been -2.47)(by -1.68)(his -2.43)(door -7.56)(, -1.46) line score is : -2.898, look ahead score is : 0.710
+(and -1.46)(he -6.98)(heard -1.84)(that -1.84)(his -0.83)(wife -4.29)(is -3.92)(a -2.09)(care -1.88)(. -5.83) line score is : -3.095, look ahead score is : 0.000
+======================= template: 28 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ ON THE NN WITH PRP$ NN OR NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ on the phone with your brother or seester 
+-------------------------score:  -3.130100920344844;  adjusted_score: -3.10633759900476----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ on the road with his family or care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(on -1.15)(the -0.71)(road -1.67)(with -5.53)(his -1.65)(family -2.93)(or -2.86)(care -1.19)(. -2.11) line score is : -2.200, look ahead score is : 0.000
+-------------------------score:  -3.1329205433527627;  adjusted_score: -3.1091572220126786----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ on the road with his family or war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(on -1.27)(the -0.93)(road -1.64)(with -5.34)(his -1.70)(family -2.57)(or -2.94)(war -1.09)(. -2.02) line score is : -2.167, look ahead score is : 0.000
+======================= template: 29 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was ready to faint 
+ I did n't think life was this way 
+-------------------------score:  -3.1469523582246994;  adjusted_score: -3.120142408573339----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ he was now re kind led this story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(he -0.01)(was -4.07)(now -5.91)(re -1.68)(kind -1.13)(led -5.66)(this -6.07)(story -3.52)(. -0.27) line score is : -3.145, look ahead score is : 0.000
+-------------------------score:  -3.155649771853801;  adjusted_score: -3.1288398222024405----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ he was now re kind led this glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(he -0.01)(was -4.07)(now -5.91)(re -1.68)(kind -1.13)(led -5.66)(this -6.07)(glory -3.52)(. -0.27) line score is : -3.145, look ahead score is : 0.000
+-------------------------score:  -3.4642281928850758;  adjusted_score: -3.4374182432337155----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ he was not let pass left this story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(he -0.01)(was -4.07)(not -5.91)(let -1.68)(pass -1.13)(left -5.19)(this -6.76)(story -6.08)(. -9.18) line score is : -4.444, look ahead score is : 0.000
+-------------------------score:  -3.534930168861343;  adjusted_score: -3.5081202192099825----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ he was not let pass left this glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(he -0.01)(was -4.07)(not -5.91)(let -1.68)(pass -1.13)(left -5.19)(this -6.76)(glory -6.08)(. -9.18) line score is : -4.444, look ahead score is : 0.000
+-------------------------score:  -3.539051953102312;  adjusted_score: -3.5122420034509516----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ he was not let pass guard this story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(he -0.01)(was -4.07)(not -5.91)(let -1.68)(pass -1.13)(guard -5.19)(this -6.76)(story -6.08)(. -9.07) line score is : -4.431, look ahead score is : 0.000
+======================= template: 30 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.1515749421986667;  adjusted_score: -3.1278116208585827----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ he was his own eyes and one prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(he -1.15)(was -0.71)(his -1.67)(own -3.29)(eyes -2.38)(and -2.13)(one -2.80)(prayer -7.18)(. -1.05) line score is : -2.485, look ahead score is : 0.000
+-------------------------score:  -3.235710561275482;  adjusted_score: -3.211947239935398----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ he was his old friends and one prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(he -1.15)(was -0.71)(his -1.67)(old -3.29)(friends -2.38)(and -2.13)(one -5.95)(prayer -3.59)(. -2.04) line score is : -2.545, look ahead score is : 0.000
+======================= template: 31 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1614528403562656;  adjusted_score: -3.1357699266952626----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ and he was to the door , 
+ and he heard that his wife is a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(and -2.97)(he -1.72)(was -1.92)(to -1.59)(the -1.33)(door -6.45)(, -5.33) line score is : -3.042, look ahead score is : 0.633
+(and -5.33)(he -6.10)(heard -2.79)(that -1.92)(his -0.80)(wife -3.66)(is -4.35)(a -2.60)(bear -1.91)(. -5.35) line score is : -3.480, look ahead score is : 0.000
+-------------------------score:  -3.3128496636362637;  adjusted_score: -3.2871667499752606----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ and he was to the door , 
+ and he heard that his wife is a scare . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(and -2.97)(he -1.72)(was -1.92)(to -1.59)(the -1.33)(door -6.45)(, -5.33) line score is : -3.042, look ahead score is : 0.633
+(and -5.33)(he -6.10)(heard -2.79)(that -1.92)(his -0.80)(wife -3.66)(is -4.35)(a -2.60)(scare -1.91)(. -5.35) line score is : -3.480, look ahead score is : 0.000
+-------------------------score:  -3.342673107105143;  adjusted_score: -3.31699019344414----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ and he was to the door , 
+ and he heard that his wife is a care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(and -2.97)(he -1.72)(was -1.92)(to -1.59)(the -1.33)(door -6.45)(, -5.33) line score is : -3.042, look ahead score is : 0.633
+(and -5.33)(he -6.10)(heard -2.79)(that -1.92)(his -0.80)(wife -3.66)(is -4.35)(a -2.60)(care -1.91)(. -5.35) line score is : -3.480, look ahead score is : 0.000
+======================= template: 32 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2062566153930896;  adjusted_score: -3.1824932940530055----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was still like someone of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(was -1.67)(still -2.39)(like -1.57)(someone -2.19)(of -2.88)(care -6.66)(. -6.16) line score is : -2.819, look ahead score is : 0.000
+-------------------------score:  -3.2104752984913913;  adjusted_score: -3.1867119771513073----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was still like someone of prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(was -1.67)(still -2.39)(like -1.57)(someone -2.19)(of -2.88)(prayer -6.66)(. -6.16) line score is : -2.819, look ahead score is : 0.000
+-------------------------score:  -3.2236333362983935;  adjusted_score: -3.1998700149583095----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was still like family of war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(he -0.93)(was -1.64)(still -2.11)(like -1.65)(family -2.15)(of -3.17)(war -6.54)(. -5.42) line score is : -2.765, look ahead score is : 0.000
+======================= template: 33 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ and to write it used acres of time 
+-------------------------score:  -3.2092795931931697;  adjusted_score: -3.1855162718530856----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and to see him dead means of glory . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(to -0.93)(see -1.64)(him -2.11)(dead -4.60)(means -3.75)(of -0.53)(glory -4.87)(. -6.32) line score is : -2.892, look ahead score is : 0.000
+-------------------------score:  -3.236896747892553;  adjusted_score: -3.213133426552469----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and to see him dead brings of glory . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(to -0.93)(see -1.64)(him -2.11)(dead -4.60)(brings -3.75)(of -0.53)(glory -4.87)(. -6.35) line score is : -2.897, look ahead score is : 0.000
+-------------------------score:  -3.287789084694602;  adjusted_score: -3.264025763354518----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and to see him dead means of prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(to -0.71)(see -1.67)(him -2.39)(dead -4.83)(means -4.00)(of -0.39)(prayer -4.54)(. -6.53) line score is : -2.914, look ahead score is : 0.000
+======================= template: 34 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.229278974460833;  adjusted_score: -3.202804101484291----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was down and had his glory . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(he -2.44)(was -1.95)(back -1.65)(from -8.65)(the -3.36)(war -1.47)(, -2.53) line score is : -3.151, look ahead score is : 0.652
+(he -2.53)(had -1.66)(lost -2.29)(by -1.67)(a -3.82)(score -9.20)(, -1.56) line score is : -3.247, look ahead score is : 0.672
+(and -1.56)(he -4.32)(was -1.40)(down -0.87)(and -0.93)(had -1.13)(his -7.18)(glory -3.44)(. -6.10) line score is : -2.991, look ahead score is : 0.000
+======================= template: 35 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was ready to faint 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.2397597989560487;  adjusted_score: -3.2156565351159694----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he was able to hide , 
+ as he had to do , he stole a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(was -0.62)(able -1.18)(to -1.80)(hide -4.18)(, -0.01) line score is : -2.245, look ahead score is : 0.705
+(as -0.01)(he -5.73)(had -4.62)(to -3.96)(do -1.24)(, -1.75)(he -3.71)(stole -2.58)(a -2.53)(bear -6.52)(. -6.38) line score is : -3.547, look ahead score is : 0.000
+-------------------------score:  -3.2571777557570707;  adjusted_score: -3.2330744919169914----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he was able to hide , 
+ as he had to do , he heard a prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(was -0.62)(able -1.18)(to -1.80)(hide -4.18)(, -0.01) line score is : -2.245, look ahead score is : 0.705
+(as -0.01)(he -5.73)(had -4.62)(to -3.96)(do -1.24)(, -1.75)(he -3.71)(heard -2.58)(a -2.53)(prayer -6.52)(. -7.23) line score is : -3.624, look ahead score is : 0.000
+-------------------------score:  -3.2863838809323225;  adjusted_score: -3.262280617092243----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he was able to hide , 
+ as he had to do , he wore a bear . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(was -0.62)(able -1.18)(to -1.80)(hide -4.18)(, -0.01) line score is : -2.245, look ahead score is : 0.705
+(as -0.01)(he -5.73)(had -4.62)(to -3.96)(do -1.24)(, -1.75)(he -3.71)(wore -2.58)(a -2.53)(bear -6.52)(. -7.12) line score is : -3.614, look ahead score is : 0.000
+-------------------------score:  -3.3710448317613233;  adjusted_score: -3.346941567921244----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he was able to hide , 
+ as he had to do , he wore a care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(was -0.62)(able -1.18)(to -1.80)(hide -4.18)(, -0.01) line score is : -2.245, look ahead score is : 0.705
+(as -0.01)(he -5.73)(had -4.62)(to -3.96)(do -1.24)(, -1.75)(he -3.71)(wore -2.58)(a -2.53)(care -6.52)(. -7.12) line score is : -3.614, look ahead score is : 0.000
+-------------------------score:  -3.376355156822897;  adjusted_score: -3.352251892982818----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he was able to hide , 
+ as he had to do , he wore a prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(was -0.62)(able -1.18)(to -1.80)(hide -4.18)(, -0.01) line score is : -2.245, look ahead score is : 0.705
+(as -0.01)(he -5.73)(had -4.62)(to -3.96)(do -1.24)(, -1.75)(he -3.71)(wore -2.58)(a -2.53)(prayer -6.52)(. -7.12) line score is : -3.614, look ahead score is : 0.000
+======================= template: 36 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND TO VB PRP JJ NNS OF NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ he was ready to faint 
+ and to write it used acres of time 
+-------------------------score:  -3.2660801679857316;  adjusted_score: -3.2400367678918185----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was ready to save , 
+ and to do it right means of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(ready -4.18)(to -2.16)(save -5.11)(, -0.50) line score is : -3.022, look ahead score is : 0.633
+(and -0.50)(to -5.55)(do -5.58)(it -1.60)(right -4.42)(means -2.47)(of -1.39)(glory -3.89)(. -6.91) line score is : -3.590, look ahead score is : 0.000
+-------------------------score:  -3.3139897404659178;  adjusted_score: -3.2871797908145575----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ and to do it right means of glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(and -0.01)(to -4.07)(do -5.91)(it -1.74)(right -4.90)(means -3.39)(of -1.59)(glory -5.35)(. -6.64) line score is : -3.732, look ahead score is : 0.000
+-------------------------score:  -3.3643808249504334;  adjusted_score: -3.3383374248565203----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was ready to save , 
+ and to do it right means of story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(ready -4.18)(to -2.16)(save -5.11)(, -0.50) line score is : -3.022, look ahead score is : 0.633
+(and -0.50)(to -5.55)(do -5.58)(it -1.60)(right -4.42)(means -2.47)(of -1.39)(story -3.89)(. -6.91) line score is : -3.590, look ahead score is : 0.000
+-------------------------score:  -3.391358538260383;  adjusted_score: -3.3645485886090225----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ he was able to save , 
+ and to do it right means of story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(he -3.84)(was -2.34)(able -4.18)(to -2.16)(save -4.71)(, -0.01) line score is : -2.872, look ahead score is : 0.671
+(and -0.01)(to -4.07)(do -5.91)(it -1.74)(right -4.90)(means -3.39)(of -1.59)(story -5.35)(. -6.64) line score is : -3.732, look ahead score is : 0.000
+======================= template: 37 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.27174301219709;  adjusted_score: -3.2479796908570058----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was down and buried his war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(he -0.93)(was -1.64)(down -2.11)(and -1.65)(buried -2.15)(his -8.94)(war -4.13)(. -5.40) line score is : -3.136, look ahead score is : 0.000
+-------------------------score:  -3.348801412365653;  adjusted_score: -3.325038091025569----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was down and buried his prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(was -1.67)(down -2.39)(and -1.57)(buried -2.19)(his -9.07)(prayer -3.98)(. -5.81) line score is : -3.170, look ahead score is : 0.000
+-------------------------score:  -3.371772345268365;  adjusted_score: -3.348009023928281----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was down and buried his care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(was -1.67)(down -2.39)(and -1.57)(buried -2.19)(his -9.07)(care -3.98)(. -5.81) line score is : -3.170, look ahead score is : 0.000
+-------------------------score:  -3.409988038467638;  adjusted_score: -3.386224717127554----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was down and tired his war . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(in -2.44)(the -4.15)(years -1.61)(that -5.82)(he -1.91)(died -4.12)(, -5.55) line score is : -3.656, look ahead score is : 0.500
+(he -5.55)(had -0.67)(been -1.32)(by -2.87)(his -2.54)(side -7.27)(, -1.27) line score is : -3.071, look ahead score is : 0.688
+(and -1.27)(he -0.93)(was -1.64)(down -2.11)(and -1.65)(tired -2.15)(his -8.94)(war -4.13)(. -6.05) line score is : -3.208, look ahead score is : 0.000
+-------------------------score:  -3.448814166314674;  adjusted_score: -3.42505084497459----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he had been by his side , 
+ and he was down and tired his care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(had -0.62)(been -1.18)(by -2.80)(his -2.37)(side -7.53)(, -1.15) line score is : -3.047, look ahead score is : 0.688
+(and -1.15)(he -0.71)(was -1.67)(down -2.39)(and -1.57)(tired -2.19)(his -9.07)(care -3.98)(. -5.81) line score is : -3.170, look ahead score is : 0.000
+======================= template: 38 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.273733307917913;  adjusted_score: -3.2472584349413713----------------------- 
+there was a brave boy named jose 
+ who lived a good life on his birthday . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was still like father of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(good -2.85)(life -0.35)(on -4.52)(his -2.03)(birthday -7.17)(. -1.64) line score is : -3.062, look ahead score is : 0.000
+(he -1.64)(was -1.82)(back -1.57)(from -7.90)(the -3.12)(war -1.76)(, -1.70) line score is : -2.789, look ahead score is : 0.652
+(he -1.70)(had -1.80)(lost -2.86)(by -1.73)(a -4.49)(score -9.27)(, -1.40) line score is : -3.322, look ahead score is : 0.672
+(and -1.40)(he -4.30)(was -1.44)(still -0.72)(like -1.03)(father -1.12)(of -3.39)(day -7.49)(. -6.13) line score is : -3.005, look ahead score is : 0.000
+-------------------------score:  -3.388725453253948;  adjusted_score: -3.3622505802774065----------------------- 
+there was a brave boy named jose 
+ who lived a good life on his birthday . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was still like family of day . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(good -2.85)(life -0.35)(on -4.52)(his -2.03)(birthday -7.17)(. -1.64) line score is : -3.062, look ahead score is : 0.000
+(he -1.64)(was -1.82)(back -1.57)(from -7.90)(the -3.12)(war -1.76)(, -1.70) line score is : -2.789, look ahead score is : 0.652
+(he -1.70)(had -1.80)(lost -2.86)(by -1.73)(a -4.49)(score -9.27)(, -1.40) line score is : -3.322, look ahead score is : 0.672
+(and -1.40)(he -4.30)(was -1.44)(still -0.72)(like -1.03)(family -1.12)(of -3.39)(day -7.49)(. -6.69) line score is : -3.067, look ahead score is : 0.000
+-------------------------score:  -3.44379846887155;  adjusted_score: -3.4173235958950086----------------------- 
+there was a brave boy named jose 
+ who lived a good life on his birthday . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was still like someone of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(good -2.85)(life -0.35)(on -4.52)(his -2.03)(birthday -7.17)(. -1.64) line score is : -3.062, look ahead score is : 0.000
+(he -1.64)(was -1.82)(back -1.57)(from -7.90)(the -3.12)(war -1.76)(, -1.70) line score is : -2.789, look ahead score is : 0.652
+(he -1.70)(had -1.80)(lost -2.86)(by -1.73)(a -4.49)(score -9.27)(, -1.40) line score is : -3.322, look ahead score is : 0.672
+(and -1.40)(he -4.30)(was -1.44)(still -0.72)(like -1.03)(someone -1.12)(of -3.39)(way -7.49)(. -5.75) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.455481708952875;  adjusted_score: -3.4290068359763333----------------------- 
+there was a brave boy named jose 
+ who lived a good life on his birthday . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was now like someone of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(good -2.85)(life -0.35)(on -4.52)(his -2.03)(birthday -7.17)(. -1.64) line score is : -3.062, look ahead score is : 0.000
+(he -1.64)(was -1.82)(back -1.57)(from -7.90)(the -3.12)(war -1.76)(, -1.70) line score is : -2.789, look ahead score is : 0.652
+(he -1.70)(had -1.80)(lost -2.86)(by -1.73)(a -4.49)(score -9.27)(, -1.40) line score is : -3.322, look ahead score is : 0.672
+(and -1.40)(he -4.30)(was -1.44)(now -0.72)(like -1.03)(someone -1.12)(of -3.88)(way -7.47)(. -4.65) line score is : -2.892, look ahead score is : 0.000
+-------------------------score:  -3.4708871976895765;  adjusted_score: -3.444412324713035----------------------- 
+there was a brave boy named jose 
+ who lived a good life on his birthday . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was still like family of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(a -4.33)(good -2.85)(life -0.35)(on -4.52)(his -2.03)(birthday -7.17)(. -1.64) line score is : -3.062, look ahead score is : 0.000
+(he -1.64)(was -1.82)(back -1.57)(from -7.90)(the -3.12)(war -1.76)(, -1.70) line score is : -2.789, look ahead score is : 0.652
+(he -1.70)(had -1.80)(lost -2.86)(by -1.73)(a -4.49)(score -9.27)(, -1.40) line score is : -3.322, look ahead score is : 0.672
+(and -1.40)(he -4.30)(was -1.44)(still -0.72)(like -1.03)(family -1.12)(of -3.39)(way -7.49)(. -6.69) line score is : -3.067, look ahead score is : 0.000
+======================= template: 39 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.284335075002728;  adjusted_score: -3.258652161341725----------------------- 
+there was a brave boy named salvatore 
+ who lived all his life in a story . 
+ he was back from the war , 
+ and he was to the door , 
+ and he was down and was his glory . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(story -8.25)(. -2.44) line score is : -2.850, look ahead score is : 0.000
+(he -2.44)(was -1.95)(back -1.65)(from -8.65)(the -3.36)(war -1.47)(, -2.53) line score is : -3.151, look ahead score is : 0.652
+(and -2.53)(he -1.66)(was -1.74)(to -1.52)(the -1.43)(door -6.26)(, -5.22) line score is : -2.909, look ahead score is : 0.633
+(and -5.22)(he -6.05)(was -2.53)(down -1.46)(and -0.77)(was -1.35)(his -6.70)(glory -3.45)(. -5.46) line score is : -3.665, look ahead score is : 0.000
+======================= template: 40 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ IN THE NNS THAT PRP VBD , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ 'til the salts that she shook 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2893954846949782;  adjusted_score: -3.265292220854899----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ in the years that he died , 
+ he was able to hide , 
+ and he did not like feeling of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(in -1.92)(the -4.00)(years -1.53)(that -5.25)(he -1.60)(died -4.93)(, -5.69) line score is : -3.560, look ahead score is : 0.500
+(he -5.69)(was -0.62)(able -1.18)(to -1.80)(hide -4.18)(, -0.01) line score is : -2.245, look ahead score is : 0.705
+(and -0.01)(he -5.73)(did -4.62)(not -2.47)(like -2.54)(feeling -3.23)(of -1.36)(care -5.91)(. -6.56) line score is : -3.603, look ahead score is : 0.000
+======================= template: 41 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2982019529198157;  adjusted_score: -3.271727079943274----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was still like someone of prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(lost -2.47)(by -1.68)(a -3.50)(score -9.57)(, -1.55) line score is : -3.353, look ahead score is : 0.672
+(and -1.55)(he -4.35)(was -1.41)(still -0.91)(like -1.01)(someone -1.09)(of -3.36)(prayer -7.73)(. -5.42) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.3060281150268787;  adjusted_score: -3.279553242050337----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was now like someone of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(lost -2.47)(by -1.68)(a -3.50)(score -9.57)(, -1.55) line score is : -3.353, look ahead score is : 0.672
+(and -1.55)(he -4.35)(was -1.41)(now -0.91)(like -1.01)(someone -1.09)(of -3.63)(care -7.51)(. -4.50) line score is : -2.884, look ahead score is : 0.000
+-------------------------score:  -3.3337944438963225;  adjusted_score: -3.307319570919781----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the war , 
+ he had lost by a score , 
+ and he was still like someone of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(war -1.24)(, -2.97) line score is : -3.040, look ahead score is : 0.652
+(he -2.97)(had -1.72)(lost -2.47)(by -1.68)(a -3.50)(score -9.57)(, -1.55) line score is : -3.353, look ahead score is : 0.672
+(and -1.55)(he -4.35)(was -1.41)(still -0.91)(like -1.01)(someone -1.09)(of -3.36)(care -7.73)(. -5.42) line score is : -2.980, look ahead score is : 0.000
+======================= template: 42 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ with the faith of a marytr 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3439368515303642;  adjusted_score: -3.318129423468402----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the grave , 
+ with the help of a wave , 
+ and he was now like someone of prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(grave -1.24)(, -2.11) line score is : -2.917, look ahead score is : 0.652
+(with -2.11)(the -1.78)(help -4.18)(of -2.27)(a -4.00)(wave -0.02)(, -1.84) line score is : -2.314, look ahead score is : 0.639
+(and -1.84)(he -9.45)(was -3.94)(now -1.27)(like -1.82)(someone -1.43)(of -4.59)(prayer -7.29)(. -5.15) line score is : -4.087, look ahead score is : 0.000
+-------------------------score:  -3.369605207081997;  adjusted_score: -3.3437977790200346----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the grave , 
+ with the help of a wave , 
+ and he was still like someone of prayer . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(grave -1.24)(, -2.11) line score is : -2.917, look ahead score is : 0.652
+(with -2.11)(the -1.78)(help -4.18)(of -2.27)(a -4.00)(wave -0.02)(, -1.84) line score is : -2.314, look ahead score is : 0.639
+(and -1.84)(he -9.45)(was -3.94)(still -1.27)(like -1.82)(someone -1.43)(of -4.08)(prayer -7.39)(. -6.26) line score is : -4.164, look ahead score is : 0.000
+-------------------------score:  -3.391958368547035;  adjusted_score: -3.3661509404850727----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the grave , 
+ with the help of a wave , 
+ and he was not like someone of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(grave -1.24)(, -2.11) line score is : -2.917, look ahead score is : 0.652
+(with -2.11)(the -1.78)(help -4.18)(of -2.27)(a -4.00)(wave -0.02)(, -1.84) line score is : -2.314, look ahead score is : 0.639
+(and -1.84)(he -9.45)(was -3.94)(not -1.27)(like -1.82)(someone -1.43)(of -4.08)(care -6.83)(. -6.38) line score is : -4.115, look ahead score is : 0.000
+-------------------------score:  -3.532849371433258;  adjusted_score: -3.507041943371296----------------------- 
+there was a brave boy named javier 
+ who lived all his life in a nightmare . 
+ he was back from the grave , 
+ with the help of a wave , 
+ and he was not like today of care . 
+------------------------- score breakdown ------------------------ 
+(who -1.21)(lived -3.46)(all -5.72)(his -1.26)(life -0.12)(in -1.05)(a -2.14)(nightmare -9.24)(. -1.92) line score is : -2.902, look ahead score is : 0.000
+(he -1.92)(was -1.76)(back -1.70)(from -8.64)(the -3.05)(grave -1.24)(, -2.11) line score is : -2.917, look ahead score is : 0.652
+(with -2.11)(the -1.78)(help -4.18)(of -2.27)(a -4.00)(wave -0.02)(, -1.84) line score is : -2.314, look ahead score is : 0.639
+(and -1.84)(he -9.45)(was -3.94)(not -1.27)(like -1.82)(today -1.43)(of -4.08)(care -6.83)(. -6.82) line score is : -4.164, look ahead score is : 0.000
+======================= template: 43 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ they came back from the ride 
+ with the faith of a marytr 
+ to balance green peas on her fork 
+-------------------------score:  -3.350735531158505;  adjusted_score: -3.324573711164055----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ to save new orleans on it glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(to -1.83)(save -9.53)(new -3.46)(orleans -1.15)(on -3.16)(it -6.14)(glory -2.26)(. -5.48) line score is : -4.127, look ahead score is : 0.000
+-------------------------score:  -3.366338377457953;  adjusted_score: -3.3401765574635034----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ to save new orleans on he glory . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(to -1.83)(save -9.53)(new -3.46)(orleans -1.15)(on -3.16)(he -6.14)(glory -2.26)(. -5.48) line score is : -4.127, look ahead score is : 0.000
+-------------------------score:  -3.391053677987187;  adjusted_score: -3.3648918579927374----------------------- 
+there was a brave boy named theodore 
+ whose father died a hero in war . 
+ he came back from the grave , 
+ with the help of a wave , 
+ to save new orleans on he story . 
+------------------------- score breakdown ------------------------ 
+(whose -5.01)(father -1.93)(died -2.78)(a -3.76)(hero -3.22)(in -2.54)(war -3.38)(. -1.19) line score is : -2.976, look ahead score is : 0.000
+(he -1.19)(came -1.77)(back -5.05)(from -1.80)(the -1.79)(grave -1.24)(, -3.84) line score is : -2.384, look ahead score is : 0.669
+(with -3.84)(the -2.34)(help -3.82)(of -2.36)(a -2.87)(wave -0.02)(, -1.83) line score is : -2.442, look ahead score is : 0.639
+(to -1.83)(save -9.53)(new -3.46)(orleans -1.15)(on -3.16)(he -6.14)(story -2.26)(. -5.48) line score is : -4.127, look ahead score is : 0.000

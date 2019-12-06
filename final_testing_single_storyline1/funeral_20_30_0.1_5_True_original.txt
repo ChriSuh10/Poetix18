@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.6931016086428254;  adjusted_score: -3.667835328170547----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and ended on the other sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(ended -5.34)(on -1.40)(the -1.94)(other -5.28)(sunday -5.28)(. -1.96) line score is : -3.899, look ahead score is : 0.000
+-------------------------score:  -3.7102901687224707;  adjusted_score: -3.6850238882501922----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different day , 
+ and was on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(day -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(was -6.26)(on -0.97)(the -1.94)(funeral -3.08)(sunday -5.24)(. -1.35) line score is : -3.562, look ahead score is : 0.000
+-------------------------score:  -3.7218282879502684;  adjusted_score: -3.69656200747799----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and ended on the second sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(ended -5.34)(on -1.40)(the -1.94)(second -5.28)(sunday -5.28)(. -1.96) line score is : -3.899, look ahead score is : 0.000
+-------------------------score:  -3.727961106984704;  adjusted_score: -3.7026948265124253----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and was on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(was -5.34)(on -1.40)(the -1.94)(funeral -3.38)(sunday -5.53)(. -1.34) line score is : -3.575, look ahead score is : 0.000
+-------------------------score:  -3.7286916921536126;  adjusted_score: -3.703425411681334----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different day , 
+ and went on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(day -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(went -6.26)(on -0.97)(the -1.94)(funeral -4.38)(sunday -2.45)(. -4.11) line score is : -3.744, look ahead score is : 0.000
+-------------------------score:  -3.741027915367374;  adjusted_score: -3.7157616348950953----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and went on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(went -5.34)(on -1.40)(the -1.94)(funeral -4.95)(sunday -1.80)(. -4.75) line score is : -3.755, look ahead score is : 0.000
+-------------------------score:  -3.749070378917235;  adjusted_score: -3.7238040984449565----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different day , 
+ and came on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(day -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(came -6.26)(on -0.97)(the -1.94)(funeral -4.75)(sunday -5.37)(. -1.37) line score is : -3.820, look ahead score is : 0.000
+-------------------------score:  -3.7591406631248967;  adjusted_score: -3.733874382652618----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different day , 
+ and passed on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(day -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(passed -6.26)(on -0.97)(the -1.94)(funeral -5.28)(sunday -2.44)(. -2.18) line score is : -3.595, look ahead score is : 0.000
+-------------------------score:  -3.770769458678034;  adjusted_score: -3.7455031782057553----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the same sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(same -5.69)(sunday -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -3.7777374226737908;  adjusted_score: -3.7524711422015122----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and passed on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(passed -5.34)(on -1.40)(the -1.94)(funeral -5.61)(sunday -2.19)(. -2.25) line score is : -3.547, look ahead score is : 0.000
+-------------------------score:  -3.7970676990570844;  adjusted_score: -3.771801418584806----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and took on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(took -5.34)(on -1.40)(the -1.94)(funeral -5.35)(sunday -3.25)(. -1.16) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -3.80296862953239;  adjusted_score: -3.7777023490601116----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the first sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(first -5.69)(sunday -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -3.810005280154723;  adjusted_score: -3.7847389996824443----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different day , 
+ and took on the funeral sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(day -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(took -6.26)(on -0.97)(the -1.94)(funeral -5.00)(sunday -4.06)(. -1.15) line score is : -3.640, look ahead score is : 0.000
+-------------------------score:  -3.8158630480368934;  adjusted_score: -3.790596767564615----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the last sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(last -5.69)(sunday -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -3.8279499693049326;  adjusted_score: -3.802683688832654----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and was on the regular sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(was -5.34)(on -1.40)(the -1.94)(regular -3.38)(sunday -5.53)(. -1.34) line score is : -3.575, look ahead score is : 0.000
+-------------------------score:  -3.8358731220165887;  adjusted_score: -3.81060684154431----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the new sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(new -5.69)(sunday -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -3.842268369264073;  adjusted_score: -3.8170020887917944----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different day , 
+ and was on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(day -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(was -6.26)(on -0.97)(the -1.94)(opposite -3.08)(sunday -5.24)(. -1.35) line score is : -3.562, look ahead score is : 0.000
+-------------------------score:  -3.8584407474155777;  adjusted_score: -3.833174466943299----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and was on the opposite sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(was -5.34)(on -1.40)(the -1.94)(opposite -3.38)(sunday -5.53)(. -1.34) line score is : -3.575, look ahead score is : 0.000
+-------------------------score:  -3.890272762488436;  adjusted_score: -3.8650064820161574----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the perfect me . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(perfect -5.69)(me -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -3.912748932286545;  adjusted_score: -3.8874826518142664----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and took on the actual sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(took -5.34)(on -1.40)(the -1.94)(actual -5.35)(sunday -3.25)(. -1.16) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -3.9136496246964843;  adjusted_score: -3.8883833442242057----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the grand sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(grand -5.69)(sunday -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -3.9404697280239174;  adjusted_score: -3.915203447551639----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and passed on the wonderful sunday . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(passed -5.34)(on -1.40)(the -1.94)(wonderful -5.61)(sunday -2.19)(. -2.25) line score is : -3.547, look ahead score is : 0.000
+-------------------------score:  -3.988775998905853;  adjusted_score: -3.9635097184335746----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the exact me . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(exact -5.69)(me -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -4.038756409728968;  adjusted_score: -4.01349012925669----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and took on the impossible be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(took -5.34)(on -1.40)(the -1.94)(impossible -5.35)(be -3.25)(. -1.16) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -4.059335226813952;  adjusted_score: -4.034068946341674----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and passed on the inherited she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(passed -5.34)(on -1.40)(the -1.94)(inherited -5.61)(she -2.19)(. -2.25) line score is : -3.547, look ahead score is : 0.000
+-------------------------score:  -4.059861575563748;  adjusted_score: -4.03459529509147----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the exact be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(exact -5.69)(be -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -4.092567606656639;  adjusted_score: -4.067301326184361----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and decided on the perfect be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(decided -5.34)(on -1.40)(the -1.94)(perfect -5.69)(be -4.96)(. -2.08) line score is : -3.930, look ahead score is : 0.000
+-------------------------score:  -4.097334388781477;  adjusted_score: -4.072068108309199----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and took on the impossible she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(took -5.34)(on -1.40)(the -1.94)(impossible -5.35)(she -3.25)(. -1.16) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -4.106823298114318;  adjusted_score: -4.081557017642039----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and passed on the inherited we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(passed -5.34)(on -1.40)(the -1.94)(inherited -5.61)(we -2.19)(. -2.25) line score is : -3.547, look ahead score is : 0.000
+-------------------------score:  -4.162523176383089;  adjusted_score: -4.13725689591081----------------------- 
+there once was a grandpa named lee 
+ whose wife died almost younger than he . 
+ he lived out one birthday , 
+ in a different way , 
+ and passed on the inherited be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.03)(wife -3.89)(died -1.98)(almost -6.89)(younger -9.68)(than -0.23)(he -1.12)(. -2.08) line score is : -3.861, look ahead score is : 0.000
+(he -2.08)(lived -1.31)(out -3.62)(one -4.25)(birthday -5.45)(, -6.69) line score is : -3.900, look ahead score is : 0.628
+(in -6.69)(a -2.08)(different -4.13)(way -1.73)(, -6.10) line score is : -4.147, look ahead score is : 0.636
+(and -6.10)(passed -5.34)(on -1.40)(the -1.94)(inherited -5.61)(be -2.19)(. -2.25) line score is : -3.547, look ahead score is : 0.000

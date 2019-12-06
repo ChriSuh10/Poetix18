@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH THE NN OF A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ they came back from the ride 
+ with the faith of a marytr 
+ she was ready to give and to take 
+-------------------------score:  -2.7226140532275718;  adjusted_score: -2.6960603455087226----------------------- 
+there once was a man named theodore 
+ who lost all his family in a war . 
+ he came back from the end , 
+ with the help of a friend , 
+ he was able to fight and to soar . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(lost -6.33)(all -3.48)(his -0.43)(family -4.03)(in -1.91)(a -0.73)(war -4.43)(. -1.37) line score is : -2.764, look ahead score is : 0.000
+(he -1.37)(came -1.13)(back -3.65)(from -1.63)(the -2.15)(end -1.16)(, -5.87) line score is : -2.423, look ahead score is : 0.687
+(with -5.87)(the -3.54)(help -3.38)(of -2.37)(a -2.42)(friend -0.04)(, -2.00) line score is : -2.803, look ahead score is : 0.641
+(he -2.00)(was -3.54)(able -0.99)(to -5.33)(fight -2.44)(and -1.26)(to -0.01)(soar -4.30)(. -2.94) line score is : -2.535, look ahead score is : 0.000

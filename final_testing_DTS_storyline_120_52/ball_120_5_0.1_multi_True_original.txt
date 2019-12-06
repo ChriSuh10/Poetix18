@@ -1,0 +1,462 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ she was ready to give and to take 
+-------------------------score:  -3.1123919244855642;  adjusted_score: -3.0876507713645696----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ we were on the football , 
+ and we were to the ball , 
+ we were ready to go and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(we -1.88)(were -2.88)(on -2.37)(the -4.39)(football -1.14)(, -7.22) line score is : -3.312, look ahead score is : 0.585
+(and -7.22)(we -5.36)(were -2.22)(to -1.53)(the -1.03)(ball -7.23)(, -2.39) line score is : -3.855, look ahead score is : 0.652
+(we -2.39)(were -3.61)(ready -1.53)(to -2.14)(go -0.71)(and -5.02)(to -0.57)(slide -1.26)(. -3.27) line score is : -2.278, look ahead score is : 0.000
+-------------------------score:  -3.1846738585009007;  adjusted_score: -3.160715893424931----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ and she was to the ball , 
+ she was able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(and -6.47)(she -5.96)(was -2.91)(to -0.91)(the -0.78)(ball -7.23)(, -2.32) line score is : -3.797, look ahead score is : 0.596
+(she -2.32)(was -4.91)(able -1.78)(to -2.54)(get -0.36)(and -4.79)(to -0.01)(slide -2.56)(. -6.33) line score is : -2.843, look ahead score is : 0.000
+-------------------------score:  -3.2018245138897328;  adjusted_score: -3.177866548813763----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ and she was to the ball , 
+ she was able to make and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(and -6.47)(she -5.96)(was -2.91)(to -0.91)(the -0.78)(ball -7.23)(, -2.32) line score is : -3.797, look ahead score is : 0.596
+(she -2.32)(was -4.91)(able -1.78)(to -2.54)(make -0.36)(and -4.79)(to -0.01)(slide -2.13)(. -6.56) line score is : -2.821, look ahead score is : 0.000
+-------------------------score:  -3.2377898072081734;  adjusted_score: -3.2130486540871788----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ we were on the football , 
+ and we were to the ball , 
+ we were able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(we -1.88)(were -2.88)(on -2.37)(the -4.39)(football -1.14)(, -7.22) line score is : -3.312, look ahead score is : 0.585
+(and -7.22)(we -5.36)(were -2.22)(to -1.53)(the -1.03)(ball -7.23)(, -2.39) line score is : -3.855, look ahead score is : 0.652
+(we -2.39)(were -3.61)(able -1.53)(to -2.14)(get -0.71)(and -4.84)(to -0.00)(slide -2.43)(. -6.03) line score is : -2.633, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ she sat on a stile 
+ she was ready to give and to take 
+-------------------------score:  -3.146649030427779;  adjusted_score: -3.1226910659478557----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was on a baseball , 
+ she was able to play and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(on -0.85)(a -0.30)(baseball -0.76)(, -5.98) line score is : -3.388, look ahead score is : 0.596
+(she -5.98)(was -4.69)(able -4.34)(to -0.29)(play -0.17)(and -6.91)(to -0.01)(slide -2.49)(. -4.26) line score is : -3.238, look ahead score is : 0.000
+-------------------------score:  -3.223570701095366;  adjusted_score: -3.1996127366154425----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was on a baseball , 
+ she was able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(on -0.85)(a -0.30)(baseball -0.76)(, -5.98) line score is : -3.388, look ahead score is : 0.596
+(she -5.98)(was -4.69)(able -4.34)(to -0.29)(get -0.17)(and -6.91)(to -0.01)(slide -3.31)(. -6.50) line score is : -3.578, look ahead score is : 0.000
+-------------------------score:  -3.2287342706995625;  adjusted_score: -3.2047763062196393----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was on a baseball , 
+ she was able to help and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(on -0.85)(a -0.30)(baseball -0.76)(, -5.98) line score is : -3.388, look ahead score is : 0.596
+(she -5.98)(was -4.69)(able -4.34)(to -0.29)(help -0.17)(and -6.91)(to -0.01)(slide -3.23)(. -4.99) line score is : -3.400, look ahead score is : 0.000
+-------------------------score:  -3.256661607853828;  adjusted_score: -3.2327036433739047----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was on a baseball , 
+ she was able to do and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(on -0.85)(a -0.30)(baseball -0.76)(, -5.98) line score is : -3.388, look ahead score is : 0.596
+(she -5.98)(was -4.69)(able -4.34)(to -0.29)(do -0.17)(and -6.91)(to -0.01)(slide -2.53)(. -7.43) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.3027969642031576;  adjusted_score: -3.2788389997232343----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was on a baseball , 
+ she was able to make and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(on -0.85)(a -0.30)(baseball -0.76)(, -5.98) line score is : -3.388, look ahead score is : 0.596
+(she -5.98)(was -4.69)(able -4.34)(to -0.29)(make -0.17)(and -6.91)(to -0.01)(slide -3.29)(. -7.00) line score is : -3.631, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.1758082341703195;  adjusted_score: -3.150114443034174----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to call , 
+ she was willing to go and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(call -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(she -0.01)(was -5.31)(willing -4.75)(to -0.61)(go -0.24)(and -5.98)(to -0.06)(slide -2.75)(. -2.83) line score is : -2.504, look ahead score is : 0.000
+-------------------------score:  -3.2316457038865454;  adjusted_score: -3.2059519127504----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to call , 
+ she was willing to come and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(call -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(she -0.01)(was -5.31)(willing -4.75)(to -0.61)(come -0.24)(and -5.98)(to -0.06)(slide -3.33)(. -2.61) line score is : -2.544, look ahead score is : 0.000
+-------------------------score:  -3.241992916401115;  adjusted_score: -3.2162991252649697----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to call , 
+ she was willing to take and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(call -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(she -0.01)(was -5.31)(willing -4.75)(to -0.61)(take -0.24)(and -5.98)(to -0.06)(slide -3.10)(. -6.31) line score is : -2.930, look ahead score is : 0.000
+-------------------------score:  -3.2932742762890075;  adjusted_score: -3.267580485152862----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to call , 
+ she was willing to be and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(call -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(she -0.01)(was -5.31)(willing -4.75)(to -0.61)(be -0.24)(and -5.98)(to -0.06)(slide -3.22)(. -7.41) line score is : -3.065, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.2202347787943753;  adjusted_score: -3.1954936256733806----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ we were on the football , 
+ and we were to the ball , 
+ so we were up and go on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(we -1.88)(were -2.88)(on -2.37)(the -4.39)(football -1.14)(, -7.22) line score is : -3.312, look ahead score is : 0.585
+(and -7.22)(we -5.36)(were -2.22)(to -1.53)(the -1.03)(ball -7.23)(, -2.39) line score is : -3.855, look ahead score is : 0.652
+(so -2.39)(we -3.61)(were -1.53)(up -2.73)(and -1.08)(go -1.84)(on -5.54)(the -2.54)(slide -6.58)(. -5.08) line score is : -3.293, look ahead score is : 0.000
+-------------------------score:  -3.2339369383725254;  adjusted_score: -3.2091957852515307----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ we were on the football , 
+ and we were to the ball , 
+ so we were up and play on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(we -1.88)(were -2.88)(on -2.37)(the -4.39)(football -1.14)(, -7.22) line score is : -3.312, look ahead score is : 0.585
+(and -7.22)(we -5.36)(were -2.22)(to -1.53)(the -1.03)(ball -7.23)(, -2.39) line score is : -3.855, look ahead score is : 0.652
+(so -2.39)(we -3.61)(were -1.53)(up -2.73)(and -1.08)(play -1.84)(on -5.54)(the -2.54)(slide -6.26)(. -5.15) line score is : -3.269, look ahead score is : 0.000
+-------------------------score:  -3.2612847992868135;  adjusted_score: -3.237326834210844----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ and she was to the ball , 
+ so she was up and go on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(and -6.47)(she -5.96)(was -2.91)(to -0.91)(the -0.78)(ball -7.23)(, -2.32) line score is : -3.797, look ahead score is : 0.596
+(so -2.32)(she -4.91)(was -1.78)(up -2.76)(and -1.18)(go -1.03)(on -6.40)(the -2.82)(slide -7.37)(. -4.85) line score is : -3.541, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ ALL THE NNS IN THE NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ all the birds in the air 
+ she was ready to give and to take 
+-------------------------score:  -3.2544941558553546;  adjusted_score: -3.232393267662701----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ all the guys in the frame , 
+ we were able to play and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(all -5.41)(the -3.89)(guys -4.96)(in -1.61)(the -3.95)(frame -3.72)(, -0.97) line score is : -3.502, look ahead score is : 0.500
+(we -0.97)(were -8.68)(able -0.65)(to -2.13)(play -2.39)(and -2.32)(to -0.00)(slide -3.53)(. -4.20) line score is : -2.765, look ahead score is : 0.000
+-------------------------score:  -3.272774200053391;  adjusted_score: -3.250673311860737----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ all the guys in the frame , 
+ we were able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(all -5.41)(the -3.89)(guys -4.96)(in -1.61)(the -3.95)(frame -3.72)(, -0.97) line score is : -3.502, look ahead score is : 0.500
+(we -0.97)(were -8.68)(able -0.65)(to -2.13)(get -2.39)(and -2.32)(to -0.00)(slide -2.35)(. -5.74) line score is : -2.804, look ahead score is : 0.000
+-------------------------score:  -3.2925178133482405;  adjusted_score: -3.270416925155587----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ all the guys in the frame , 
+ they were able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(all -5.41)(the -3.89)(guys -4.96)(in -1.61)(the -3.95)(frame -3.72)(, -0.97) line score is : -3.502, look ahead score is : 0.500
+(they -0.97)(were -8.68)(able -0.65)(to -1.58)(get -2.06)(and -4.20)(to -0.00)(slide -2.35)(. -6.28) line score is : -2.975, look ahead score is : 0.000
+-------------------------score:  -3.316591027290997;  adjusted_score: -3.294490139098343----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ all the guys in the frame , 
+ we were able to do and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(all -5.41)(the -3.89)(guys -4.96)(in -1.61)(the -3.95)(frame -3.72)(, -0.97) line score is : -3.502, look ahead score is : 0.500
+(we -0.97)(were -8.68)(able -0.65)(to -2.13)(do -2.39)(and -2.32)(to -0.00)(slide -3.22)(. -5.64) line score is : -2.889, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.2588345244002994;  adjusted_score: -3.233140733264154----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to fall , 
+ so she was up and go on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(fall -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(so -0.01)(she -8.26)(was -3.68)(up -3.53)(and -1.43)(go -1.22)(on -5.50)(the -2.56)(slide -6.39)(. -4.05) line score is : -3.662, look ahead score is : 0.000
+-------------------------score:  -3.2658661011082586;  adjusted_score: -3.240172309972113----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to fall , 
+ so she was up and play on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(fall -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(so -0.01)(she -8.26)(was -3.68)(up -3.53)(and -1.43)(play -1.22)(on -5.50)(the -2.56)(slide -5.81)(. -4.21) line score is : -3.620, look ahead score is : 0.000
+-------------------------score:  -3.2725035402399953;  adjusted_score: -3.24680974910385----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ she was on the football , 
+ she was able to fall , 
+ so she was up and come on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(she -1.88)(was -1.91)(on -1.53)(the -4.76)(football -1.23)(, -6.47) line score is : -2.962, look ahead score is : 0.602
+(she -6.47)(was -5.96)(able -0.85)(to -0.30)(fall -6.57)(, -0.01) line score is : -3.360, look ahead score is : 0.683
+(so -0.01)(she -8.26)(was -3.68)(up -3.53)(and -1.43)(come -1.22)(on -5.50)(the -2.56)(slide -6.97)(. -3.36) line score is : -3.651, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ IN THE NN THAT PRP VBD , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ in the bath that she took 
+ she was ready to give and to take 
+-------------------------score:  -3.2992046709623537;  adjusted_score: -3.275040686455031----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ in the sense that they came , 
+ they were able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(in -5.41)(the -3.89)(sense -4.78)(that -2.39)(they -4.36)(came -0.66)(, -3.33) line score is : -3.545, look ahead score is : 0.603
+(they -3.33)(were -4.13)(able -4.67)(to -1.58)(get -2.31)(and -3.47)(to -0.00)(slide -2.59)(. -6.50) line score is : -3.175, look ahead score is : 0.000
+-------------------------score:  -3.3151670505321817;  adjusted_score: -3.2910030660248593----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ in the sense that we came , 
+ we were able to get and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(in -5.41)(the -3.89)(sense -4.78)(that -2.39)(we -4.36)(came -0.66)(, -0.76) line score is : -3.178, look ahead score is : 0.603
+(we -0.76)(were -4.93)(able -6.54)(to -0.93)(get -2.99)(and -3.03)(to -0.00)(slide -2.66)(. -6.46) line score is : -3.144, look ahead score is : 0.000
+-------------------------score:  -3.3505346735037165;  adjusted_score: -3.326370688996394----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ the rest of our game , 
+ in the sense that we came , 
+ we were able to take and to slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(the -1.88)(rest -4.02)(of -4.09)(our -0.29)(game -2.08)(, -5.41) line score is : -2.962, look ahead score is : 0.605
+(in -5.41)(the -3.89)(sense -4.78)(that -2.39)(we -4.36)(came -0.66)(, -0.76) line score is : -3.178, look ahead score is : 0.603
+(we -0.76)(were -4.93)(able -6.54)(to -0.93)(take -2.99)(and -3.03)(to -0.00)(slide -3.46)(. -6.37) line score is : -3.223, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.3137389682233334;  adjusted_score: -3.289685125052929----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ it was for our game , 
+ our team and our name , 
+ so we were up and go on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(it -1.88)(was -3.73)(for -0.81)(our -7.08)(game -3.66)(, -4.54) line score is : -3.616, look ahead score is : 0.602
+(our -4.54)(team -2.17)(and -3.39)(our -1.82)(name -2.06)(, -1.08) line score is : -2.510, look ahead score is : 0.601
+(so -1.08)(we -6.85)(were -2.34)(up -2.18)(and -1.32)(go -2.83)(on -6.24)(the -3.47)(slide -7.57)(. -4.75) line score is : -3.864, look ahead score is : 0.000
+-------------------------score:  -3.328341644257307;  adjusted_score: -3.3042878010869026----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ it was for our game , 
+ our team and our name , 
+ so we were up and win on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(it -1.88)(was -3.73)(for -0.81)(our -7.08)(game -3.66)(, -4.54) line score is : -3.616, look ahead score is : 0.602
+(our -4.54)(team -2.17)(and -3.39)(our -1.82)(name -2.06)(, -1.08) line score is : -2.510, look ahead score is : 0.601
+(so -1.08)(we -6.85)(were -2.34)(up -2.18)(and -1.32)(win -2.83)(on -6.24)(the -3.47)(slide -8.08)(. -4.20) line score is : -3.859, look ahead score is : 0.000
+-------------------------score:  -3.3427739329636097;  adjusted_score: -3.318720089793205----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ it was for our game , 
+ our team and our name , 
+ so we were up and come on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(it -1.88)(was -3.73)(for -0.81)(our -7.08)(game -3.66)(, -4.54) line score is : -3.616, look ahead score is : 0.602
+(our -4.54)(team -2.17)(and -3.39)(our -1.82)(name -2.06)(, -1.08) line score is : -2.510, look ahead score is : 0.601
+(so -1.08)(we -6.85)(were -2.34)(up -2.18)(and -1.32)(come -2.83)(on -6.24)(the -3.47)(slide -8.23)(. -4.13) line score is : -3.868, look ahead score is : 0.000
+-------------------------score:  -3.3443287312984467;  adjusted_score: -3.320274888128042----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ it was for our game , 
+ our team and our name , 
+ so we were up and play on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(it -1.88)(was -3.73)(for -0.81)(our -7.08)(game -3.66)(, -4.54) line score is : -3.616, look ahead score is : 0.602
+(our -4.54)(team -2.17)(and -3.39)(our -1.82)(name -2.06)(, -1.08) line score is : -2.510, look ahead score is : 0.601
+(so -1.08)(we -6.85)(were -2.34)(up -2.18)(and -1.32)(play -2.83)(on -6.24)(the -3.47)(slide -7.65)(. -4.82) line score is : -3.878, look ahead score is : 0.000
+-------------------------score:  -3.4671150259673595;  adjusted_score: -3.443061182796955----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ it was for our game , 
+ our team and our name , 
+ so we were up and do on the slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(it -1.88)(was -3.73)(for -0.81)(our -7.08)(game -3.66)(, -4.54) line score is : -3.616, look ahead score is : 0.602
+(our -4.54)(team -2.17)(and -3.39)(our -1.82)(name -2.06)(, -1.08) line score is : -2.510, look ahead score is : 0.601
+(so -1.08)(we -6.85)(were -2.34)(up -2.18)(and -1.32)(do -2.83)(on -6.24)(the -3.47)(slide -7.84)(. -7.61) line score is : -4.176, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.3987088911235332;  adjusted_score: -3.3739677380025386----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ we were on the football , 
+ and we were to the ball , 
+ we had our own rhythm and one slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(we -1.88)(were -2.88)(on -2.37)(the -4.39)(football -1.14)(, -7.22) line score is : -3.312, look ahead score is : 0.585
+(and -7.22)(we -5.36)(were -2.22)(to -1.53)(the -1.03)(ball -7.23)(, -2.39) line score is : -3.855, look ahead score is : 0.652
+(we -2.39)(had -3.61)(our -1.53)(own -2.14)(rhythm -1.96)(and -3.78)(one -3.92)(slide -4.27)(. -1.98) line score is : -2.842, look ahead score is : 0.000
+-------------------------score:  -3.4095143377780914;  adjusted_score: -3.3847731846570968----------------------- 
+there was a silly girl named clyde 
+ who played a big role on our side . 
+ we were on the football , 
+ and we were to the ball , 
+ we had our own chances and one slide . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(played -4.15)(a -2.86)(big -3.85)(role -0.77)(on -3.90)(our -3.90)(side -4.57)(. -1.88) line score is : -3.040, look ahead score is : 0.000
+(we -1.88)(were -2.88)(on -2.37)(the -4.39)(football -1.14)(, -7.22) line score is : -3.312, look ahead score is : 0.585
+(and -7.22)(we -5.36)(were -2.22)(to -1.53)(the -1.03)(ball -7.23)(, -2.39) line score is : -3.855, look ahead score is : 0.652
+(we -2.39)(had -3.61)(our -1.53)(own -2.14)(chances -1.96)(and -3.78)(one -3.92)(slide -4.21)(. -2.52) line score is : -2.895, look ahead score is : 0.000
