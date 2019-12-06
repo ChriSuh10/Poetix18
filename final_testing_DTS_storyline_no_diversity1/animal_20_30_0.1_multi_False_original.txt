@@ -1,0 +1,275 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.9230577861890197;  adjusted_score: -2.898723378740251----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and took his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(took -6.56)(his -3.09)(photo -1.54)(. -3.69) line score is : -2.920, look ahead score is : 0.000
+-------------------------score:  -2.974619329907;  adjusted_score: -2.9502849224582315----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and took my photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(took -6.56)(my -3.09)(photo -1.54)(. -3.69) line score is : -2.920, look ahead score is : 0.000
+-------------------------score:  -2.9804089022800326;  adjusted_score: -2.956074494831264----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and took our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(took -6.56)(our -3.09)(photo -1.54)(. -3.69) line score is : -2.920, look ahead score is : 0.000
+-------------------------score:  -3.049134942702949;  adjusted_score: -3.0248005352541805----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and gave his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(gave -6.56)(his -3.09)(photo -1.54)(. -3.39) line score is : -2.886, look ahead score is : 0.000
+-------------------------score:  -3.0667028157040477;  adjusted_score: -3.042368408255279----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and saw our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(saw -6.56)(our -3.09)(photo -1.54)(. -4.64) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -3.070123034529388;  adjusted_score: -3.0457886270806194----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and did his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(did -6.56)(his -3.09)(photo -1.54)(. -3.55) line score is : -2.904, look ahead score is : 0.000
+-------------------------score:  -3.072516473941505;  adjusted_score: -3.0481820664927364----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and got his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(got -6.56)(his -3.09)(photo -1.54)(. -4.30) line score is : -2.988, look ahead score is : 0.000
+-------------------------score:  -3.076223495416343;  adjusted_score: -3.0518890879675746----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and had his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(had -6.56)(his -3.09)(photo -1.54)(. -4.20) line score is : -2.976, look ahead score is : 0.000
+-------------------------score:  -3.087410538457334;  adjusted_score: -3.0630761310085655----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and got our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(got -6.56)(our -3.09)(photo -1.54)(. -4.30) line score is : -2.988, look ahead score is : 0.000
+-------------------------score:  -3.09660850930959;  adjusted_score: -3.0722741018608213----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and ate his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(ate -6.56)(his -3.09)(photo -1.54)(. -4.53) line score is : -3.013, look ahead score is : 0.000
+-------------------------score:  -3.105947549454868;  adjusted_score: -3.0816131420060993----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and saw his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(saw -6.56)(his -3.09)(photo -1.54)(. -4.64) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -3.106657168827951;  adjusted_score: -3.0823227613791824----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and ate our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(ate -6.56)(our -3.09)(photo -1.54)(. -4.53) line score is : -3.013, look ahead score is : 0.000
+-------------------------score:  -3.1101366160437465;  adjusted_score: -3.085802208594978----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and hugged his photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(hugged -6.56)(his -3.09)(photo -1.54)(. -4.14) line score is : -2.970, look ahead score is : 0.000
+-------------------------score:  -3.1579081071540713;  adjusted_score: -3.1335736997053028----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and watched our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(watched -6.56)(our -3.09)(photo -1.54)(. -4.33) line score is : -2.990, look ahead score is : 0.000
+-------------------------score:  -3.1644743932411075;  adjusted_score: -3.140139985792339----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and played our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(played -6.56)(our -3.09)(photo -1.54)(. -3.95) line score is : -2.949, look ahead score is : 0.000
+-------------------------score:  -3.1693303985521197;  adjusted_score: -3.144995991103351----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and gave our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(gave -6.56)(our -3.09)(photo -1.54)(. -3.39) line score is : -2.886, look ahead score is : 0.000
+-------------------------score:  -3.2363576693460345;  adjusted_score: -3.212023261897266----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and he came down and helped our photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(he -3.66)(came -0.82)(down -1.27)(and -0.99)(helped -6.56)(our -3.09)(photo -1.54)(. -3.79) line score is : -2.931, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and now he 's a college professor 
+-------------------------score:  -3.0105388885544193;  adjusted_score: -2.9862044811056507----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and then he makes a funny photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(then -3.66)(he -0.82)(makes -1.27)(a -1.75)(funny -0.61)(photo -9.03)(. -0.81) line score is : -2.826, look ahead score is : 0.000
+-------------------------score:  -3.012308169757166;  adjusted_score: -2.9879737623083975----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and then he makes a giant photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(then -3.66)(he -0.82)(makes -1.27)(a -1.75)(giant -0.61)(photo -9.03)(. -0.81) line score is : -2.826, look ahead score is : 0.000
+-------------------------score:  -3.0833222491125905;  adjusted_score: -3.058987841663822----------------------- 
+there was a silly boy named joe 
+ who made a huge impact on our show . 
+ he would talk to a bear , 
+ he would say a prayer , 
+ and then he takes a camera photo . 
+------------------------- score breakdown ------------------------ 
+(who -1.40)(made -4.60)(a -1.64)(huge -4.74)(impact -5.03)(on -0.67)(our -3.17)(show -3.47)(. -1.44) line score is : -2.907, look ahead score is : 0.000
+(he -1.44)(would -1.62)(talk -4.75)(to -4.66)(a -1.27)(bear -4.62)(, -6.41) line score is : -3.538, look ahead score is : 0.590
+(he -6.41)(would -1.61)(say -2.44)(a -0.33)(prayer -3.67)(, -4.66) line score is : -3.187, look ahead score is : 0.626
+(and -4.66)(then -3.66)(he -0.82)(takes -1.27)(a -1.75)(camera -0.61)(photo -8.35)(. -1.52) line score is : -2.830, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.099266211191813;  adjusted_score: -3.0759134452293315----------------------- 
+there was a hairy boy named fred 
+ who made a great mustache on his head . 
+ he came back from the cow , 
+ and he went to the bow , 
+ and he sat down and began his spread . 
+------------------------- score breakdown ------------------------ 
+(who -1.55)(made -5.13)(a -1.90)(great -4.25)(mustache -5.00)(on -4.37)(his -1.27)(head -1.36)(. -1.65) line score is : -2.943, look ahead score is : 0.000
+(he -1.65)(came -1.83)(back -4.88)(from -2.90)(the -1.94)(cow -1.52)(, -8.80) line score is : -3.359, look ahead score is : 0.562
+(and -8.80)(he -3.21)(went -1.50)(to -1.87)(the -4.24)(bow -1.49)(, -1.47) line score is : -3.226, look ahead score is : 0.606
+(and -1.47)(he -8.58)(sat -2.47)(down -0.32)(and -0.59)(began -4.12)(his -0.60)(spread -2.06)(. -4.24) line score is : -2.716, look ahead score is : 0.000
+-------------------------score:  -3.124971776297598;  adjusted_score: -3.1016190103351167----------------------- 
+there was a hairy boy named fred 
+ who made a great mustache on his head . 
+ he came back from the cow , 
+ and he went to the bow , 
+ and he got down and started his spread . 
+------------------------- score breakdown ------------------------ 
+(who -1.55)(made -5.13)(a -1.90)(great -4.25)(mustache -5.00)(on -4.37)(his -1.27)(head -1.36)(. -1.65) line score is : -2.943, look ahead score is : 0.000
+(he -1.65)(came -1.83)(back -4.88)(from -2.90)(the -1.94)(cow -1.52)(, -8.80) line score is : -3.359, look ahead score is : 0.562
+(and -8.80)(he -3.21)(went -1.50)(to -1.87)(the -4.24)(bow -1.49)(, -1.47) line score is : -3.226, look ahead score is : 0.606
+(and -1.47)(he -8.58)(got -2.47)(down -0.32)(and -0.59)(started -3.54)(his -3.25)(spread -1.76)(. -3.28) line score is : -2.806, look ahead score is : 0.000

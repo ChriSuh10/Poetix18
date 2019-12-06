@@ -1,0 +1,979 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ and the smile on the face of the tiger 
+-------------------------score:  -2.975324343551289;  adjusted_score: -2.9539850629459727----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and the voice on the song of the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(the -5.21)(voice -1.07)(on -1.67)(the -2.61)(song -4.75)(of -3.08)(the -0.53)(man -1.65)(. -7.46) line score is : -2.862, look ahead score is : 0.000
+-------------------------score:  -3.0567411202372927;  adjusted_score: -3.0354018396319766----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and the sound on the song of the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(the -5.21)(sound -1.07)(on -1.67)(the -2.61)(song -4.42)(of -3.97)(the -0.56)(man -4.08)(. -6.97) line score is : -3.115, look ahead score is : 0.000
+-------------------------score:  -3.0604927413391345;  adjusted_score: -3.0391534607338184----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and the lead on the song of the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(the -5.21)(lead -1.07)(on -1.67)(the -2.61)(song -4.22)(of -5.17)(the -0.78)(man -1.81)(. -6.76) line score is : -2.989, look ahead score is : 0.000
+-------------------------score:  -3.066973706086477;  adjusted_score: -3.0456344254811607----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and the voice on the film of the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(the -5.21)(voice -1.07)(on -1.67)(the -2.61)(film -4.75)(of -3.08)(the -0.53)(man -4.46)(. -7.02) line score is : -3.099, look ahead score is : 0.000
+-------------------------score:  -3.082261043967623;  adjusted_score: -3.0609217633623067----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and the voice on the show of the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(the -5.21)(voice -1.07)(on -1.67)(the -2.61)(show -4.75)(of -3.08)(the -0.53)(man -4.52)(. -7.34) line score is : -3.136, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP POS A NN OF NN , 
+ PRP VBZ THE NNS IN NN THAT PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ she 's a person of note 
+ it 's the people in front that I jar 
+-------------------------score:  -3.0118490927147143;  adjusted_score: -2.9891349561738245----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he 's a fan of track , 
+ he plays the drums in band that i know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)('s -2.35)(a -1.21)(fan -2.88)(of -1.93)(track -4.26)(, -0.68) line score is : -2.903, look ahead score is : 0.569
+(he -0.68)(plays -9.86)(the -3.40)(drums -0.64)(in -3.90)(band -2.69)(that -1.47)(i -3.13)(know -5.52)(. -4.68) line score is : -3.597, look ahead score is : 0.000
+-------------------------score:  -3.014420260082592;  adjusted_score: -2.991706123541702----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he 's a fan of track , 
+ he plays the drums in stuff that i know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)('s -2.35)(a -1.21)(fan -2.88)(of -1.93)(track -4.26)(, -0.68) line score is : -2.903, look ahead score is : 0.569
+(he -0.68)(plays -9.86)(the -3.40)(drums -0.64)(in -3.90)(stuff -2.69)(that -1.47)(i -3.13)(know -6.70)(. -2.83) line score is : -3.530, look ahead score is : 0.000
+-------------------------score:  -3.0295800891789524;  adjusted_score: -3.0068659526380626----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he 's a fan of track , 
+ he plays the drums in stuff that we know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)('s -2.35)(a -1.21)(fan -2.88)(of -1.93)(track -4.26)(, -0.68) line score is : -2.903, look ahead score is : 0.569
+(he -0.68)(plays -9.86)(the -3.40)(drums -0.64)(in -3.90)(stuff -2.69)(that -1.47)(we -3.13)(know -6.70)(. -2.83) line score is : -3.530, look ahead score is : 0.000
+-------------------------score:  -3.1451005231250417;  adjusted_score: -3.122386386584152----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he 's a fan of track , 
+ he plays the drums in stuff that we go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)('s -2.35)(a -1.21)(fan -2.88)(of -1.93)(track -4.26)(, -0.68) line score is : -2.903, look ahead score is : 0.569
+(he -0.68)(plays -9.86)(the -3.40)(drums -0.64)(in -3.90)(stuff -2.69)(that -1.47)(we -3.13)(go -6.70)(. -2.83) line score is : -3.530, look ahead score is : 0.000
+-------------------------score:  -3.1780799627304077;  adjusted_score: -3.155365826189518----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he 's a fan of track , 
+ he plays the drums in band that we go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)('s -2.35)(a -1.21)(fan -2.88)(of -1.93)(track -4.26)(, -0.68) line score is : -2.903, look ahead score is : 0.569
+(he -0.68)(plays -9.86)(the -3.40)(drums -0.64)(in -3.90)(band -2.69)(that -1.47)(we -3.13)(go -5.52)(. -4.68) line score is : -3.597, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -3.0287863295525312;  adjusted_score: -3.0037289553880693----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was back from the band , 
+ he was ready to land , 
+ he was eager to get and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(back -1.61)(from -7.16)(the -3.19)(band -1.89)(, -8.38) line score is : -3.673, look ahead score is : 0.567
+(he -8.38)(was -2.74)(ready -1.62)(to -0.68)(land -4.39)(, -0.33) line score is : -3.023, look ahead score is : 0.686
+(he -0.33)(was -8.33)(eager -2.15)(to -1.31)(get -0.65)(and -5.43)(to -0.19)(go -1.78)(. -7.46) line score is : -3.069, look ahead score is : 0.000
+-------------------------score:  -3.0613932125270367;  adjusted_score: -3.0363358383625747----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was back from the band , 
+ he was ready to land , 
+ he was happy to be and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(back -1.61)(from -7.16)(the -3.19)(band -1.89)(, -8.38) line score is : -3.673, look ahead score is : 0.567
+(he -8.38)(was -2.74)(ready -1.62)(to -0.68)(land -4.39)(, -0.33) line score is : -3.023, look ahead score is : 0.686
+(he -0.33)(was -8.33)(happy -2.15)(to -1.31)(be -0.65)(and -4.31)(to -0.84)(go -0.53)(. -8.22) line score is : -2.963, look ahead score is : 0.000
+-------------------------score:  -3.065424460088252;  adjusted_score: -3.04036708592379----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was back from the band , 
+ he was ready to land , 
+ he was able to get and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(back -1.61)(from -7.16)(the -3.19)(band -1.89)(, -8.38) line score is : -3.673, look ahead score is : 0.567
+(he -8.38)(was -2.74)(ready -1.62)(to -0.68)(land -4.39)(, -0.33) line score is : -3.023, look ahead score is : 0.686
+(he -0.33)(was -8.33)(able -2.15)(to -1.31)(get -0.65)(and -4.85)(to -0.01)(go -2.34)(. -6.94) line score is : -2.989, look ahead score is : 0.000
+-------------------------score:  -3.065799270523712;  adjusted_score: -3.04074189635925----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was back from the band , 
+ he was ready to land , 
+ he was willing to do and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(back -1.61)(from -7.16)(the -3.19)(band -1.89)(, -8.38) line score is : -3.673, look ahead score is : 0.567
+(he -8.38)(was -2.74)(ready -1.62)(to -0.68)(land -4.39)(, -0.33) line score is : -3.023, look ahead score is : 0.686
+(he -0.33)(was -8.33)(willing -2.15)(to -1.31)(do -0.65)(and -5.46)(to -0.04)(go -2.02)(. -6.44) line score is : -2.969, look ahead score is : 0.000
+-------------------------score:  -3.221808698028326;  adjusted_score: -3.196751323863864----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was back from the band , 
+ he was ready to land , 
+ he was happy to be and to know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(back -1.61)(from -7.16)(the -3.19)(band -1.89)(, -8.38) line score is : -3.673, look ahead score is : 0.567
+(he -8.38)(was -2.74)(ready -1.62)(to -0.68)(land -4.39)(, -0.33) line score is : -3.023, look ahead score is : 0.686
+(he -0.33)(was -8.33)(happy -2.15)(to -1.31)(be -0.65)(and -4.31)(to -0.84)(know -0.53)(. -8.22) line score is : -2.963, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ and now a new teacher they seek 
+-------------------------score:  -3.085868284586937;  adjusted_score: -3.064529003981621----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ all the songs in the track , 
+ and even a little bit i know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(all -7.00)(the -2.35)(songs -6.04)(in -0.88)(the -2.80)(track -4.17)(, -0.71) line score is : -3.420, look ahead score is : 0.500
+(and -0.71)(even -7.11)(a -1.86)(little -1.36)(bit -3.90)(i -3.66)(know -2.71)(. -0.37) line score is : -2.709, look ahead score is : 0.000
+-------------------------score:  -3.2838708306512525;  adjusted_score: -3.2625315500459364----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ all the songs in the track , 
+ and even a little bit i go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(all -7.00)(the -2.35)(songs -6.04)(in -0.88)(the -2.80)(track -4.17)(, -0.71) line score is : -3.420, look ahead score is : 0.500
+(and -0.71)(even -7.11)(a -1.86)(little -1.36)(bit -3.90)(i -3.66)(go -2.71)(. -0.37) line score is : -2.709, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ and I hope that your day is a blast 
+-------------------------score:  -3.1148773540150034;  adjusted_score: -3.0935380734096873----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we heard that his voice is a man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(heard -1.07)(that -1.67)(his -2.56)(voice -6.38)(is -2.71)(a -4.04)(man -1.47)(. -2.65) line score is : -2.835, look ahead score is : 0.000
+-------------------------score:  -3.145326029170643;  adjusted_score: -3.123986748565327----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we heard that his son is a man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(heard -1.07)(that -1.67)(his -2.56)(son -6.38)(is -2.71)(a -4.04)(man -3.81)(. -3.45) line score is : -3.150, look ahead score is : 0.000
+-------------------------score:  -3.2229960037000254;  adjusted_score: -3.2016567230947093----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we heard that his voice is a brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(heard -1.07)(that -1.67)(his -2.56)(voice -6.38)(is -2.71)(a -4.04)(brand -1.47)(. -2.65) line score is : -2.835, look ahead score is : 0.000
+-------------------------score:  -3.246461120518771;  adjusted_score: -3.225121839913455----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we heard that his voice has a brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(heard -1.07)(that -1.67)(his -2.56)(voice -6.38)(has -2.71)(a -4.04)(brand -1.47)(. -4.94) line score is : -3.064, look ahead score is : 0.000
+-------------------------score:  -3.261408867258014;  adjusted_score: -3.240069586652698----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we heard that his voice has a man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(heard -1.07)(that -1.67)(his -2.56)(voice -6.38)(has -2.71)(a -4.04)(man -1.47)(. -4.94) line score is : -3.064, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ which he loosed in the house 
+ and now a new teacher they seek 
+-------------------------score:  -3.1282474754318113;  adjusted_score: -3.105153378502976----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ which we used in the track , 
+ and also a little bit i know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(which -7.00)(we -2.35)(used -4.09)(in -2.52)(the -3.15)(track -2.25)(, -1.23) line score is : -3.225, look ahead score is : 0.588
+(and -1.23)(also -7.94)(a -2.19)(little -1.23)(bit -3.49)(i -3.88)(know -3.44)(. -0.45) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.208653187559497;  adjusted_score: -3.1855590906306617----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ which we used in the track , 
+ and also a little bit we know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(which -7.00)(we -2.35)(used -4.09)(in -2.52)(the -3.15)(track -2.25)(, -1.23) line score is : -3.225, look ahead score is : 0.588
+(and -1.23)(also -7.94)(a -2.19)(little -1.23)(bit -3.49)(we -3.88)(know -3.44)(. -0.45) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.26441355578361;  adjusted_score: -3.241319458854775----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ which we used in the track , 
+ and also a little bit i go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(which -7.00)(we -2.35)(used -4.09)(in -2.52)(the -3.15)(track -2.25)(, -1.23) line score is : -3.225, look ahead score is : 0.588
+(and -1.23)(also -7.94)(a -2.19)(little -1.23)(bit -3.49)(i -3.88)(go -3.44)(. -0.45) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.3179435258911503;  adjusted_score: -3.294849428962315----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ which we used in the track , 
+ and also a little bit we go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(which -7.00)(we -2.35)(used -4.09)(in -2.52)(the -3.15)(track -2.25)(, -1.23) line score is : -3.225, look ahead score is : 0.588
+(and -1.23)(also -7.94)(a -2.19)(little -1.23)(bit -3.49)(we -3.88)(go -3.44)(. -0.45) line score is : -2.980, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ she was ready to give and to take 
+-------------------------score:  -3.1326310983349686;  adjusted_score: -3.1095353274096853----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he was to the track , 
+ we were able to do and to know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(and -7.00)(he -2.35)(was -2.02)(to -0.95)(the -1.42)(track -7.25)(, -2.89) line score is : -3.411, look ahead score is : 0.588
+(we -2.89)(were -5.96)(able -2.30)(to -3.95)(do -1.93)(and -3.47)(to -0.00)(know -2.60)(. -6.61) line score is : -3.301, look ahead score is : 0.000
+-------------------------score:  -3.136392315333069;  adjusted_score: -3.1132965444077856----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he was to the track , 
+ we were able to do and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(and -7.00)(he -2.35)(was -2.02)(to -0.95)(the -1.42)(track -7.25)(, -2.89) line score is : -3.411, look ahead score is : 0.588
+(we -2.89)(were -5.96)(able -2.30)(to -3.95)(do -1.93)(and -3.47)(to -0.00)(go -2.60)(. -6.61) line score is : -3.301, look ahead score is : 0.000
+-------------------------score:  -3.1585661968638306;  adjusted_score: -3.1354704259385473----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he was to the track , 
+ we were able to get and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(and -7.00)(he -2.35)(was -2.02)(to -0.95)(the -1.42)(track -7.25)(, -2.89) line score is : -3.411, look ahead score is : 0.588
+(we -2.89)(were -5.96)(able -2.30)(to -3.95)(get -1.93)(and -3.47)(to -0.00)(go -2.06)(. -7.04) line score is : -3.288, look ahead score is : 0.000
+-------------------------score:  -3.1587747535158996;  adjusted_score: -3.1356789825906164----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he was to the track , 
+ we were able to get and to know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(and -7.00)(he -2.35)(was -2.02)(to -0.95)(the -1.42)(track -7.25)(, -2.89) line score is : -3.411, look ahead score is : 0.588
+(we -2.89)(were -5.96)(able -2.30)(to -3.95)(get -1.93)(and -3.47)(to -0.00)(know -2.06)(. -7.04) line score is : -3.288, look ahead score is : 0.000
+-------------------------score:  -3.1937999329020386;  adjusted_score: -3.1707041619767553----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he was to the track , 
+ we were able to put and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(and -7.00)(he -2.35)(was -2.02)(to -0.95)(the -1.42)(track -7.25)(, -2.89) line score is : -3.411, look ahead score is : 0.588
+(we -2.89)(were -5.96)(able -2.30)(to -3.95)(put -1.93)(and -3.47)(to -0.00)(go -3.15)(. -7.62) line score is : -3.474, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ she sat on a stile 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.1660081763421335;  adjusted_score: -3.1427144251619614----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the choir , 
+ he was on a fire , 
+ and he was always like life of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(choir -1.31)(, -7.03) line score is : -2.906, look ahead score is : 0.567
+(he -7.03)(was -2.11)(on -1.51)(a -0.46)(fire -0.76)(, -5.03) line score is : -2.818, look ahead score is : 0.598
+(and -5.03)(he -8.70)(was -4.34)(always -1.92)(like -0.59)(life -0.76)(of -3.16)(man -5.07)(. -7.39) line score is : -4.107, look ahead score is : 0.000
+-------------------------score:  -3.3135512682699386;  adjusted_score: -3.2902575170897665----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the choir , 
+ he was on a fire , 
+ and he was always like home of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(choir -1.31)(, -7.03) line score is : -2.906, look ahead score is : 0.567
+(he -7.03)(was -2.11)(on -1.51)(a -0.46)(fire -0.76)(, -5.03) line score is : -2.818, look ahead score is : 0.598
+(and -5.03)(he -8.70)(was -4.34)(always -1.92)(like -0.59)(home -0.76)(of -3.16)(man -5.07)(. -7.26) line score is : -4.092, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.1884506873611826;  adjusted_score: -3.1671114067558666----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and he was always like kind of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(he -5.21)(was -1.07)(always -1.67)(like -1.46)(kind -1.31)(of -3.76)(man -4.35)(. -8.05) line score is : -3.052, look ahead score is : 0.000
+-------------------------score:  -3.2586038559675217;  adjusted_score: -3.2372645753622056----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and he was always like cool of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(he -5.21)(was -1.07)(always -1.67)(like -1.46)(cool -1.31)(of -3.76)(man -4.35)(. -8.09) line score is : -3.056, look ahead score is : 0.000
+-------------------------score:  -3.402976341545582;  adjusted_score: -3.3816370609402657----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and he was always like home of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(he -5.21)(was -1.07)(always -1.67)(like -1.46)(home -1.31)(of -3.76)(man -4.35)(. -8.19) line score is : -3.067, look ahead score is : 0.000
+======================= template: 10 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ he was told by his wife 
+ she was ready to give and to take 
+-------------------------score:  -3.19914248585701;  adjusted_score: -3.175049411281943----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he was called by our track , 
+ he was hired to write and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)(was -2.35)(called -1.21)(by -0.82)(our -7.13)(track -3.18)(, -3.38) line score is : -3.581, look ahead score is : 0.638
+(he -3.38)(was -8.37)(hired -1.99)(to -1.31)(write -0.97)(and -5.95)(to -0.94)(go -2.09)(. -3.44) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.2259505838155746;  adjusted_score: -3.201857509240508----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he was called by our track , 
+ he was hired to write and to know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)(was -2.35)(called -1.21)(by -0.82)(our -7.13)(track -3.18)(, -3.38) line score is : -3.581, look ahead score is : 0.638
+(he -3.38)(was -8.37)(hired -1.99)(to -1.31)(write -0.97)(and -5.95)(to -0.94)(know -2.09)(. -3.44) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.2806930281221867;  adjusted_score: -3.25659995354712----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he was called by our track , 
+ he was hired to do and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)(was -2.35)(called -1.21)(by -0.82)(our -7.13)(track -3.18)(, -3.38) line score is : -3.581, look ahead score is : 0.638
+(he -3.38)(was -8.37)(hired -1.99)(to -1.31)(do -0.97)(and -5.95)(to -0.94)(go -1.54)(. -7.58) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.2896388843655586;  adjusted_score: -3.265545809790492----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he was called by our track , 
+ he was hired to be and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)(was -2.35)(called -1.21)(by -0.82)(our -7.13)(track -3.18)(, -3.38) line score is : -3.581, look ahead score is : 0.638
+(he -3.38)(was -8.37)(hired -1.99)(to -1.31)(be -0.97)(and -5.95)(to -0.94)(go -2.08)(. -7.86) line score is : -3.651, look ahead score is : 0.000
+-------------------------score:  -3.3023338094353676;  adjusted_score: -3.278240734860301----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he was called by our track , 
+ he was hired to play and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)(was -2.35)(called -1.21)(by -0.82)(our -7.13)(track -3.18)(, -3.38) line score is : -3.581, look ahead score is : 0.638
+(he -3.38)(was -8.37)(hired -1.99)(to -1.31)(play -0.97)(and -5.95)(to -0.94)(go -3.12)(. -6.53) line score is : -3.617, look ahead score is : 0.000
+======================= template: 11 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ but I guess that you probably gnu 
+-------------------------score:  -3.199633184940584;  adjusted_score: -3.176537414015301----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he was to the track , 
+ but i think that he probably know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(and -7.00)(he -2.35)(was -2.02)(to -0.95)(the -1.42)(track -7.25)(, -2.89) line score is : -3.411, look ahead score is : 0.588
+(but -2.89)(i -5.96)(think -2.30)(that -2.71)(he -2.12)(probably -1.99)(know -2.71)(. -2.61) line score is : -2.911, look ahead score is : 0.000
+======================= template: 12 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.212488799384146;  adjusted_score: -3.19114951877883----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ so we had up and run on the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(so -0.57)(we -5.21)(had -1.07)(up -3.87)(and -1.85)(run -2.24)(on -9.41)(the -2.63)(man -5.37)(. -3.27) line score is : -3.550, look ahead score is : 0.000
+-------------------------score:  -3.2737760868939487;  adjusted_score: -3.2524368062886326----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ so we had up and run on the brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(so -0.57)(we -5.21)(had -1.07)(up -3.87)(and -1.85)(run -2.24)(on -9.41)(the -2.63)(brand -5.37)(. -3.27) line score is : -3.550, look ahead score is : 0.000
+-------------------------score:  -3.3138452948945942;  adjusted_score: -3.292506014289278----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ so we were up and go on the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(so -0.57)(we -5.21)(were -1.07)(up -3.87)(and -1.85)(go -1.86)(on -6.42)(the -3.54)(man -7.90)(. -5.00) line score is : -3.730, look ahead score is : 0.000
+-------------------------score:  -3.3203406821597707;  adjusted_score: -3.2990014015544546----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ so he was up and go on the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(so -0.57)(he -5.21)(was -1.07)(up -3.87)(and -1.65)(go -0.96)(on -6.73)(the -4.49)(man -7.64)(. -5.11) line score is : -3.731, look ahead score is : 0.000
+-------------------------score:  -3.3524125290639475;  adjusted_score: -3.3310732484586314----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ so we were up and do on the man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(so -0.57)(we -5.21)(were -1.07)(up -3.87)(and -1.85)(do -1.86)(on -6.42)(the -3.54)(man -6.96)(. -7.94) line score is : -3.930, look ahead score is : 0.000
+======================= template: 13 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.222883552312851;  adjusted_score: -3.201544271707535----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and he was down and got our man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(he -5.21)(was -1.07)(down -1.67)(and -1.46)(got -1.31)(our -7.99)(man -4.99)(. -4.93) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.304483376443386;  adjusted_score: -3.28314409583807----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and he was down and got our brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(he -5.21)(was -1.07)(down -1.67)(and -1.46)(got -1.31)(our -7.99)(brand -4.99)(. -4.93) line score is : -3.247, look ahead score is : 0.000
+======================= template: 14 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.2708462327718735;  adjusted_score: -3.2495069521665574----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ he was our live drums and one man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(he -0.57)(was -5.21)(our -1.07)(live -2.42)(drums -1.06)(and -3.75)(one -5.19)(man -5.14)(. -2.96) line score is : -3.042, look ahead score is : 0.000
+-------------------------score:  -3.309608094394207;  adjusted_score: -3.288268813788891----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ he was our main drums and one man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(he -0.57)(was -5.21)(our -1.07)(main -2.42)(drums -1.06)(and -3.75)(one -4.26)(man -7.40)(. -4.05) line score is : -3.312, look ahead score is : 0.000
+-------------------------score:  -3.3281017020344734;  adjusted_score: -3.3067624214291573----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ he was our main rhythm and one man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(he -0.57)(was -5.21)(our -1.07)(main -2.42)(rhythm -1.06)(and -3.75)(one -4.26)(man -5.04)(. -4.51) line score is : -3.100, look ahead score is : 0.000
+-------------------------score:  -3.4199014008045197;  adjusted_score: -3.3985621201992036----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ he was our live drums and two man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(he -0.57)(was -5.21)(our -1.07)(live -2.42)(drums -1.06)(and -3.75)(two -5.19)(man -5.14)(. -2.96) line score is : -3.042, look ahead score is : 0.000
+======================= template: 15 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBP THAT PRP RB VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ she 's a person of note 
+ but I guess that you probably gnu 
+-------------------------score:  -3.2727832525007186;  adjusted_score: -3.2500691159598287----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ he 's a fan of track , 
+ but i think that he probably know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(he -7.00)('s -2.35)(a -1.21)(fan -2.88)(of -1.93)(track -4.26)(, -0.68) line score is : -2.903, look ahead score is : 0.569
+(but -0.68)(i -9.86)(think -3.40)(that -4.03)(he -2.43)(probably -1.35)(know -2.98)(. -2.13) line score is : -3.359, look ahead score is : 0.000
+======================= template: 16 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ she sat on a stile 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.280428963322793;  adjusted_score: -3.257135212142621----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the choir , 
+ he was on a fire , 
+ and he was down and got our man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(choir -1.31)(, -7.03) line score is : -2.906, look ahead score is : 0.567
+(he -7.03)(was -2.11)(on -1.51)(a -0.46)(fire -0.76)(, -5.03) line score is : -2.818, look ahead score is : 0.598
+(and -5.03)(he -8.70)(was -4.34)(down -1.92)(and -0.59)(got -0.76)(our -6.93)(man -4.22)(. -6.03) line score is : -4.281, look ahead score is : 0.000
+-------------------------score:  -3.3902802044345486;  adjusted_score: -3.3669864532543765----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the choir , 
+ he was on a fire , 
+ and he was down and got our brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(choir -1.31)(, -7.03) line score is : -2.906, look ahead score is : 0.567
+(he -7.03)(was -2.11)(on -1.51)(a -0.46)(fire -0.76)(, -5.03) line score is : -2.818, look ahead score is : 0.598
+(and -5.03)(he -8.70)(was -4.34)(down -1.92)(and -0.59)(got -0.76)(our -6.93)(brand -4.22)(. -6.03) line score is : -4.281, look ahead score is : 0.000
+======================= template: 17 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ it said on the door 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.334663037210703;  adjusted_score: -3.3115672662854196----------------------- 
+there was a boring boy named ferdinand 
+ who played all his music in a band . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ and it was not like something of brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(all -5.82)(his -2.96)(music -4.28)(in -2.22)(a -1.83)(band -4.33)(. -2.69) line score is : -3.234, look ahead score is : 0.000
+(it -2.69)(was -3.40)(on -0.90)(the -5.50)(soundtrack -1.55)(, -4.19) line score is : -3.039, look ahead score is : 0.567
+(and -4.19)(it -4.22)(was -2.01)(to -2.21)(the -0.69)(track -6.02)(, -2.46) line score is : -3.116, look ahead score is : 0.588
+(and -2.46)(it -6.05)(was -2.56)(not -1.62)(like -1.18)(something -0.35)(of -5.26)(brand -4.05)(. -4.90) line score is : -3.161, look ahead score is : 0.000
+-------------------------score:  -3.3399256505072117;  adjusted_score: -3.3168298795819284----------------------- 
+there was a boring boy named ferdinand 
+ who played all his music in a band . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ and it was not like something of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(all -5.82)(his -2.96)(music -4.28)(in -2.22)(a -1.83)(band -4.33)(. -2.69) line score is : -3.234, look ahead score is : 0.000
+(it -2.69)(was -3.40)(on -0.90)(the -5.50)(soundtrack -1.55)(, -4.19) line score is : -3.039, look ahead score is : 0.567
+(and -4.19)(it -4.22)(was -2.01)(to -2.21)(the -0.69)(track -6.02)(, -2.46) line score is : -3.116, look ahead score is : 0.588
+(and -2.46)(it -6.05)(was -2.56)(not -1.62)(like -1.18)(something -0.35)(of -5.26)(man -4.05)(. -4.90) line score is : -3.161, look ahead score is : 0.000
+-------------------------score:  -3.401973996311426;  adjusted_score: -3.378878225386143----------------------- 
+there was a boring boy named ferdinand 
+ who played all his music in a band . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ and it was not like singing of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(all -5.82)(his -2.96)(music -4.28)(in -2.22)(a -1.83)(band -4.33)(. -2.69) line score is : -3.234, look ahead score is : 0.000
+(it -2.69)(was -3.40)(on -0.90)(the -5.50)(soundtrack -1.55)(, -4.19) line score is : -3.039, look ahead score is : 0.567
+(and -4.19)(it -4.22)(was -2.01)(to -2.21)(the -0.69)(track -6.02)(, -2.46) line score is : -3.116, look ahead score is : 0.588
+(and -2.46)(it -6.05)(was -2.56)(not -1.62)(like -1.18)(singing -0.35)(of -5.26)(man -4.05)(. -7.78) line score is : -3.481, look ahead score is : 0.000
+-------------------------score:  -3.4371394775807858;  adjusted_score: -3.4140437066555025----------------------- 
+there was a boring boy named ferdinand 
+ who played all his music in a band . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ and it was not like writing of man . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(all -5.82)(his -2.96)(music -4.28)(in -2.22)(a -1.83)(band -4.33)(. -2.69) line score is : -3.234, look ahead score is : 0.000
+(it -2.69)(was -3.40)(on -0.90)(the -5.50)(soundtrack -1.55)(, -4.19) line score is : -3.039, look ahead score is : 0.567
+(and -4.19)(it -4.22)(was -2.01)(to -2.21)(the -0.69)(track -6.02)(, -2.46) line score is : -3.116, look ahead score is : 0.588
+(and -2.46)(it -6.05)(was -2.56)(not -1.62)(like -1.18)(writing -0.35)(of -5.26)(man -4.05)(. -7.76) line score is : -3.479, look ahead score is : 0.000
+-------------------------score:  -3.5334711857140064;  adjusted_score: -3.510375414788723----------------------- 
+there was a boring boy named ferdinand 
+ who played all his music in a band . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ and it was not like someone of brand . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(all -5.82)(his -2.96)(music -4.28)(in -2.22)(a -1.83)(band -4.33)(. -2.69) line score is : -3.234, look ahead score is : 0.000
+(it -2.69)(was -3.40)(on -0.90)(the -5.50)(soundtrack -1.55)(, -4.19) line score is : -3.039, look ahead score is : 0.567
+(and -4.19)(it -4.22)(was -2.01)(to -2.21)(the -0.69)(track -6.02)(, -2.46) line score is : -3.116, look ahead score is : 0.588
+(and -2.46)(it -6.05)(was -2.56)(not -1.62)(like -1.18)(someone -0.35)(of -5.26)(brand -4.05)(. -5.63) line score is : -3.243, look ahead score is : 0.000
+======================= template: 18 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ ALL THE NNS IN THE NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ all the birds in the air 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.389659032677159;  adjusted_score: -3.368319752071843----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we have been to the house with man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(have -1.07)(been -1.67)(to -2.56)(the -4.82)(house -3.01)(with -5.33)(man -3.09)(. -5.01) line score is : -3.236, look ahead score is : 0.000
+-------------------------score:  -3.509845347115488;  adjusted_score: -3.4885060665101717----------------------- 
+there was a loud boy named ferdinand 
+ who played a big role on our band . 
+ he was on the soundtrack , 
+ all the drums in the track , 
+ and we have been to the sound with man . 
+------------------------- score breakdown ------------------------ 
+(who -1.74)(played -3.66)(a -3.74)(big -4.61)(role -1.97)(on -3.80)(our -2.87)(band -3.37)(. -1.43) line score is : -3.021, look ahead score is : 0.000
+(he -1.43)(was -1.49)(on -1.26)(the -4.91)(soundtrack -1.31)(, -6.44) line score is : -2.809, look ahead score is : 0.567
+(all -6.44)(the -2.79)(drums -5.65)(in -0.77)(the -4.04)(track -3.94)(, -0.57) line score is : -3.457, look ahead score is : 0.500
+(and -0.57)(we -5.21)(have -1.07)(been -1.67)(to -2.56)(the -4.82)(sound -3.01)(with -5.33)(man -3.09)(. -5.39) line score is : -3.274, look ahead score is : 0.000
+======================= template: 19 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ which he loosed in the house 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.3957505663235983;  adjusted_score: -3.372656469394763----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ which we used in the track , 
+ and it was fun actually go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(soundtrack -1.33)(, -7.00) line score is : -3.024, look ahead score is : 0.567
+(which -7.00)(we -2.35)(used -4.09)(in -2.52)(the -3.15)(track -2.25)(, -1.23) line score is : -3.225, look ahead score is : 0.588
+(and -1.23)(it -7.94)(was -2.19)(fun -1.23)(actually -3.46)(go -0.88)(. -4.32) line score is : -3.036, look ahead score is : 0.000
+======================= template: 20 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ PRP VBD ON A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ she sat on a stile 
+ she was ready to give and to take 
+-------------------------score:  -3.4213141318290465;  adjusted_score: -3.3980203806488745----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the choir , 
+ he was on a fire , 
+ he was married to sue and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(choir -1.33)(, -8.96) line score is : -3.351, look ahead score is : 0.567
+(he -8.96)(was -2.00)(on -1.22)(a -0.50)(fire -0.85)(, -4.84) line score is : -3.062, look ahead score is : 0.598
+(he -4.84)(was -8.34)(married -4.13)(to -0.49)(sue -0.27)(and -6.89)(to -0.73)(go -6.95)(. -2.45) line score is : -3.898, look ahead score is : 0.000
+-------------------------score:  -3.449708600198069;  adjusted_score: -3.4264148490178967----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the choir , 
+ he was on a fire , 
+ he was married to miss and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(choir -1.33)(, -8.96) line score is : -3.351, look ahead score is : 0.567
+(he -8.96)(was -2.00)(on -1.22)(a -0.50)(fire -0.85)(, -4.84) line score is : -3.062, look ahead score is : 0.598
+(he -4.84)(was -8.34)(married -4.13)(to -0.49)(miss -0.27)(and -6.89)(to -0.73)(go -5.91)(. -7.58) line score is : -4.351, look ahead score is : 0.000
+-------------------------score:  -3.4522698079386065;  adjusted_score: -3.4289760567584344----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the choir , 
+ he was on a fire , 
+ he was married to ruth and to go . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(choir -1.33)(, -8.96) line score is : -3.351, look ahead score is : 0.567
+(he -8.96)(was -2.00)(on -1.22)(a -0.50)(fire -0.85)(, -4.84) line score is : -3.062, look ahead score is : 0.598
+(he -4.84)(was -8.34)(married -4.13)(to -0.49)(ruth -0.27)(and -6.89)(to -0.73)(go -7.08)(. -2.53) line score is : -3.921, look ahead score is : 0.000
+-------------------------score:  -3.493447626790693;  adjusted_score: -3.470153875610521----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the choir , 
+ he was on a fire , 
+ he was married to sue and to know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(choir -1.33)(, -8.96) line score is : -3.351, look ahead score is : 0.567
+(he -8.96)(was -2.00)(on -1.22)(a -0.50)(fire -0.85)(, -4.84) line score is : -3.062, look ahead score is : 0.598
+(he -4.84)(was -8.34)(married -4.13)(to -0.49)(sue -0.27)(and -6.89)(to -0.73)(know -6.95)(. -2.45) line score is : -3.898, look ahead score is : 0.000
+-------------------------score:  -3.568537219878166;  adjusted_score: -3.545243468697994----------------------- 
+there was a boring boy named joe 
+ who played a big role on our show . 
+ he was on the choir , 
+ he was on a fire , 
+ he was married to miss and to know . 
+------------------------- score breakdown ------------------------ 
+(who -1.43)(played -3.54)(a -3.81)(big -4.81)(role -0.98)(on -3.83)(our -3.35)(show -1.86)(. -1.80) line score is : -2.825, look ahead score is : 0.000
+(he -1.80)(was -1.66)(on -1.61)(the -4.73)(choir -1.33)(, -8.96) line score is : -3.351, look ahead score is : 0.567
+(he -8.96)(was -2.00)(on -1.22)(a -0.50)(fire -0.85)(, -4.84) line score is : -3.062, look ahead score is : 0.598
+(he -4.84)(was -8.34)(married -4.13)(to -0.49)(miss -0.27)(and -6.89)(to -0.73)(know -5.91)(. -7.58) line score is : -4.351, look ahead score is : 0.000
