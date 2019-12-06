@@ -1,0 +1,242 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.570762115671779;  adjusted_score: -2.543248965620543----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and that is the end of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(that -2.40)(is -0.69)(the -0.67)(end -5.78)(of -3.20)(this -2.43)(process -2.36)(. -0.13) line score is : -2.223, look ahead score is : 0.000
+-------------------------score:  -2.5736374514121;  adjusted_score: -2.5461243013608637----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and that is the start of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(that -2.40)(is -0.69)(the -0.67)(start -5.78)(of -3.20)(this -2.43)(process -3.39)(. -0.09) line score is : -2.332, look ahead score is : 0.000
+-------------------------score:  -2.5791648168003922;  adjusted_score: -2.551651666749156----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at my face , 
+ and that is the end of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(my -4.68)(face -0.96)(, -1.40) line score is : -2.640, look ahead score is : 0.683
+(and -1.40)(that -4.07)(is -0.65)(the -0.67)(end -5.77)(of -3.09)(this -2.53)(process -2.29)(. -0.16) line score is : -2.292, look ahead score is : 0.000
+-------------------------score:  -2.5870232087644665;  adjusted_score: -2.5595100587132302----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would come to a place , 
+ take a look at my face , 
+ and that is the end of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(come -3.90)(to -3.41)(a -1.77)(place -5.66)(, -3.78) line score is : -3.035, look ahead score is : 0.692
+(take -3.78)(a -2.64)(look -4.14)(at -1.11)(my -2.44)(face -0.78)(, -1.31) line score is : -2.313, look ahead score is : 0.683
+(and -1.31)(that -3.07)(is -0.71)(the -0.65)(end -6.77)(of -3.34)(this -2.63)(process -2.29)(. -0.11) line score is : -2.322, look ahead score is : 0.000
+-------------------------score:  -2.5898559964967496;  adjusted_score: -2.5623428464455134----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at my face , 
+ and that is the start of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(my -4.68)(face -0.96)(, -1.40) line score is : -2.640, look ahead score is : 0.683
+(and -1.40)(that -4.07)(is -0.65)(the -0.67)(start -5.77)(of -3.09)(this -2.53)(process -3.76)(. -0.08) line score is : -2.446, look ahead score is : 0.000
+-------------------------score:  -2.5981103111848687;  adjusted_score: -2.5705971611336325----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would come to a place , 
+ take a look at my face , 
+ and that is the start of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(come -3.90)(to -3.41)(a -1.77)(place -5.66)(, -3.78) line score is : -3.035, look ahead score is : 0.692
+(take -3.78)(a -2.64)(look -4.14)(at -1.11)(my -2.44)(face -0.78)(, -1.31) line score is : -2.313, look ahead score is : 0.683
+(and -1.31)(that -3.07)(is -0.71)(the -0.65)(start -6.77)(of -3.34)(this -2.63)(process -3.81)(. -0.09) line score is : -2.489, look ahead score is : 0.000
+-------------------------score:  -2.6191997634190503;  adjusted_score: -2.591686613367814----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and that is the point of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(that -2.40)(is -0.69)(the -0.67)(point -5.78)(of -3.20)(this -2.43)(process -3.84)(. -2.00) line score is : -2.596, look ahead score is : 0.000
+-------------------------score:  -2.6284571667060708;  adjusted_score: -2.6009440166548345----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at my face , 
+ and that is the point of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(my -4.68)(face -0.96)(, -1.40) line score is : -2.640, look ahead score is : 0.683
+(and -1.40)(that -4.07)(is -0.65)(the -0.67)(point -5.77)(of -3.09)(this -2.53)(process -3.74)(. -2.03) line score is : -2.660, look ahead score is : 0.000
+-------------------------score:  -2.647864216882171;  adjusted_score: -2.620351066830935----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would come to a place , 
+ take a look at my face , 
+ and that is the point of this process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(come -3.90)(to -3.41)(a -1.77)(place -5.66)(, -3.78) line score is : -3.035, look ahead score is : 0.692
+(take -3.78)(a -2.64)(look -4.14)(at -1.11)(my -2.44)(face -0.78)(, -1.31) line score is : -2.313, look ahead score is : 0.683
+(and -1.31)(that -3.07)(is -0.71)(the -0.65)(point -6.77)(of -3.34)(this -2.63)(process -4.18)(. -2.29) line score is : -2.774, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -2.7260093108722656;  adjusted_score: -2.6984961608210294----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at my face , 
+ and say hi to my friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(my -4.68)(face -0.96)(, -1.40) line score is : -2.640, look ahead score is : 0.683
+(and -1.40)(say -4.07)(hi -0.65)(to -0.67)(my -2.59)(friend -5.54)(in -1.78)(process -2.58)(. -2.87) line score is : -2.460, look ahead score is : 0.000
+-------------------------score:  -2.732395562935959;  adjusted_score: -2.704882412884723----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would come to a place , 
+ take a look at my face , 
+ and say hi to her friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(come -3.90)(to -3.41)(a -1.77)(place -5.66)(, -3.78) line score is : -3.035, look ahead score is : 0.692
+(take -3.78)(a -2.64)(look -4.14)(at -1.11)(my -2.44)(face -0.78)(, -1.31) line score is : -2.313, look ahead score is : 0.683
+(and -1.31)(say -3.07)(hi -0.71)(to -0.65)(her -1.75)(friend -6.31)(in -2.42)(process -4.24)(. -2.63) line score is : -2.566, look ahead score is : 0.000
+-------------------------score:  -2.7448872178792953;  adjusted_score: -2.717374067828059----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and say hi to her friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(say -2.40)(hi -0.69)(to -0.67)(her -2.56)(friend -5.35)(in -2.43)(process -0.07)(. -6.18) line score is : -2.521, look ahead score is : 0.000
+-------------------------score:  -2.755412045527588;  adjusted_score: -2.727898895476352----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would come to a place , 
+ take a look at my face , 
+ and say hi to my friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(come -3.90)(to -3.41)(a -1.77)(place -5.66)(, -3.78) line score is : -3.035, look ahead score is : 0.692
+(take -3.78)(a -2.64)(look -4.14)(at -1.11)(my -2.44)(face -0.78)(, -1.31) line score is : -2.313, look ahead score is : 0.683
+(and -1.31)(say -3.07)(hi -0.71)(to -0.65)(my -1.75)(friend -6.31)(in -2.42)(process -3.16)(. -4.15) line score is : -2.616, look ahead score is : 0.000
+-------------------------score:  -2.763730775000471;  adjusted_score: -2.7362507567870797----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would go to a place , 
+ take a look at my face , 
+ and say hi to her friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(go -3.90)(to -4.21)(a -1.48)(place -3.55)(, -4.58) line score is : -2.921, look ahead score is : 0.691
+(take -4.58)(a -3.28)(look -4.01)(at -1.23)(my -2.80)(face -0.87)(, -1.45) line score is : -2.604, look ahead score is : 0.683
+(and -1.45)(say -3.41)(hi -0.75)(to -0.78)(her -2.00)(friend -5.96)(in -2.24)(process -4.49)(. -2.64) line score is : -2.635, look ahead score is : 0.000
+-------------------------score:  -2.77581026314786;  adjusted_score: -2.7482971130966236----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and say hi to my friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(say -2.40)(hi -0.69)(to -0.67)(my -2.56)(friend -5.35)(in -2.43)(process -4.92)(. -2.59) line score is : -2.661, look ahead score is : 0.000
+-------------------------score:  -2.775849836793813;  adjusted_score: -2.7483366867425767----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and say hi to her son in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(say -2.40)(hi -0.69)(to -0.67)(her -2.56)(son -5.35)(in -2.43)(process -0.07)(. -7.86) line score is : -2.708, look ahead score is : 0.000
+-------------------------score:  -2.7765421052322243;  adjusted_score: -2.749062087018833----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ she would go to a place , 
+ take a look at my face , 
+ and say hi to my friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(she -0.73)(would -1.99)(go -3.90)(to -4.21)(a -1.48)(place -3.55)(, -4.58) line score is : -2.921, look ahead score is : 0.691
+(take -4.58)(a -3.28)(look -4.01)(at -1.23)(my -2.80)(face -0.87)(, -1.45) line score is : -2.604, look ahead score is : 0.683
+(and -1.45)(say -3.41)(hi -0.75)(to -0.78)(my -2.00)(friend -5.96)(in -2.24)(process -3.26)(. -4.05) line score is : -2.655, look ahead score is : 0.000
+-------------------------score:  -2.7836114996761987;  adjusted_score: -2.7560983496249625----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at my face , 
+ and say hi to her friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(my -4.68)(face -0.96)(, -1.40) line score is : -2.640, look ahead score is : 0.683
+(and -1.40)(say -4.07)(hi -0.65)(to -0.67)(her -2.59)(friend -5.54)(in -1.78)(process -0.44)(. -6.82) line score is : -2.662, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.879263007053823;  adjusted_score: -2.851749857002587----------------------- 
+there was a wise doctor named jess 
+ who kept a close eye on my progress . 
+ i would come to a place , 
+ take a look at her face , 
+ and she looked down and said her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(kept -5.41)(a -2.52)(close -4.21)(eye -0.43)(on -0.05)(my -2.86)(progress -2.85)(. -0.73) line score is : -2.327, look ahead score is : 0.000
+(i -0.73)(would -1.82)(come -3.93)(to -3.87)(a -1.84)(place -3.84)(, -3.09) line score is : -2.732, look ahead score is : 0.692
+(take -3.09)(a -2.91)(look -4.80)(at -0.64)(her -4.68)(face -0.96)(, -2.34) line score is : -2.774, look ahead score is : 0.683
+(and -2.34)(she -2.40)(looked -0.69)(down -0.67)(and -3.11)(said -6.43)(her -3.84)(process -1.99)(. -1.34) line score is : -2.536, look ahead score is : 0.000

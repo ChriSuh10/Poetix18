@@ -1,0 +1,517 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.9189301728000565;  adjusted_score: -2.8942394942706153----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and saw our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(saw -2.54)(our -6.31)(place -2.80)(. -2.47) line score is : -2.558, look ahead score is : 0.000
+-------------------------score:  -3.00022994306299;  adjusted_score: -2.9755392645335488----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and saw our base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(saw -2.54)(our -6.31)(base -2.80)(. -2.47) line score is : -2.558, look ahead score is : 0.000
+-------------------------score:  -3.0188639047405412;  adjusted_score: -2.9941732262111----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and wondered her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(wondered -2.54)(her -6.31)(place -2.80)(. -4.41) line score is : -2.773, look ahead score is : 0.000
+-------------------------score:  -3.055160099340062;  adjusted_score: -3.0304694208106207----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and felt our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(felt -2.54)(our -6.31)(place -2.80)(. -3.57) line score is : -2.680, look ahead score is : 0.000
+-------------------------score:  -3.068610891098938;  adjusted_score: -3.0439202125694966----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and said our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(said -2.54)(our -6.31)(place -2.80)(. -2.40) line score is : -2.550, look ahead score is : 0.000
+-------------------------score:  -3.1000218697853628;  adjusted_score: -3.0753311912559216----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and laughed our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(laughed -2.54)(our -6.31)(place -2.80)(. -3.72) line score is : -2.697, look ahead score is : 0.000
+-------------------------score:  -3.100330306517501;  adjusted_score: -3.07563962798806----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and smiled our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(smiled -2.54)(our -6.31)(place -2.80)(. -3.94) line score is : -2.722, look ahead score is : 0.000
+-------------------------score:  -3.1043142309832956;  adjusted_score: -3.0796235524538544----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and was our base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(was -2.54)(our -6.31)(base -2.80)(. -3.94) line score is : -2.721, look ahead score is : 0.000
+-------------------------score:  -3.150315453809115;  adjusted_score: -3.125624775279674----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and had our base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(had -2.54)(our -6.31)(base -2.80)(. -3.82) line score is : -2.707, look ahead score is : 0.000
+-------------------------score:  -3.1571954756734835;  adjusted_score: -3.1325047971440423----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and had our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(had -2.54)(our -6.31)(place -2.80)(. -3.82) line score is : -2.707, look ahead score is : 0.000
+-------------------------score:  -3.1663094104057357;  adjusted_score: -3.1416187318762945----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and was our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(was -2.54)(our -6.31)(place -2.80)(. -3.94) line score is : -2.721, look ahead score is : 0.000
+-------------------------score:  -3.175312403589487;  adjusted_score: -3.150621725060046----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she looked down and thought our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(looked -0.76)(down -1.10)(and -1.07)(thought -2.54)(our -6.31)(place -2.80)(. -3.97) line score is : -2.724, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and the smile on the face of the tiger 
+-------------------------score:  -2.9239944430883043;  adjusted_score: -2.899303764558863----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the side of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(side -3.85)(of -1.07)(the -2.35)(place -2.73)(. -0.03) line score is : -2.117, look ahead score is : 0.000
+-------------------------score:  -2.9323969305260107;  adjusted_score: -2.9077062519965695----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the front of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(front -3.84)(of -1.21)(the -2.48)(place -4.04)(. -0.12) line score is : -2.320, look ahead score is : 0.000
+-------------------------score:  -2.9351258770911954;  adjusted_score: -2.9104351985617543----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the front of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(front -3.85)(of -1.07)(the -2.35)(place -4.11)(. -0.10) line score is : -2.262, look ahead score is : 0.000
+-------------------------score:  -2.938986264052801;  adjusted_score: -2.9142955855233597----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the floor of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(floor -3.84)(of -1.21)(the -2.48)(place -5.95)(. -2.12) line score is : -2.712, look ahead score is : 0.000
+-------------------------score:  -2.9391140289371833;  adjusted_score: -2.914423350407742----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the top of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(top -3.84)(of -1.21)(the -2.48)(base -2.50)(. -0.23) line score is : -2.178, look ahead score is : 0.000
+-------------------------score:  -2.9420692625062657;  adjusted_score: -2.9173785839768245----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the rest of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(rest -3.84)(of -1.21)(the -2.48)(place -5.97)(. -0.00) line score is : -2.502, look ahead score is : 0.000
+-------------------------score:  -2.9421211087028496;  adjusted_score: -2.9174304301734084----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the floor of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(floor -3.85)(of -1.07)(the -2.35)(place -5.97)(. -2.23) line score is : -2.661, look ahead score is : 0.000
+-------------------------score:  -2.9428706850740127;  adjusted_score: -2.9181800065445715----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the top of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(top -3.85)(of -1.07)(the -2.35)(base -2.80)(. -0.18) line score is : -2.138, look ahead score is : 0.000
+-------------------------score:  -2.9482983661582693;  adjusted_score: -2.923607687628828----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the skin on the top of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(skin -0.76)(on -1.10)(the -3.70)(top -4.43)(of -1.07)(the -3.34)(place -2.89)(. -0.21) line score is : -2.346, look ahead score is : 0.000
+-------------------------score:  -2.955761076300405;  adjusted_score: -2.931070397770964----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the skin on the top of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(skin -0.76)(on -1.10)(the -3.70)(top -4.43)(of -1.07)(the -3.34)(base -2.89)(. -0.21) line score is : -2.346, look ahead score is : 0.000
+-------------------------score:  -2.9579635762493126;  adjusted_score: -2.9332728977198714----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the neck of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(neck -3.85)(of -1.07)(the -2.35)(place -6.12)(. -1.91) line score is : -2.644, look ahead score is : 0.000
+-------------------------score:  -2.9610240197507665;  adjusted_score: -2.9363333412213253----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the neck of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(neck -3.84)(of -1.21)(the -2.48)(place -6.08)(. -2.03) line score is : -2.716, look ahead score is : 0.000
+-------------------------score:  -2.9716491674771532;  adjusted_score: -2.946958488947712----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the skin on the front of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(skin -0.76)(on -1.10)(the -3.70)(front -4.43)(of -1.07)(the -3.34)(place -3.87)(. -0.15) line score is : -2.438, look ahead score is : 0.000
+-------------------------score:  -2.9965215967968106;  adjusted_score: -2.9718309182673694----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the skin on the side of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(skin -0.76)(on -1.10)(the -3.70)(side -4.43)(of -1.07)(the -3.34)(place -4.36)(. -0.02) line score is : -2.474, look ahead score is : 0.000
+-------------------------score:  -3.001564938458614;  adjusted_score: -2.976874259929173----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the head of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(head -3.84)(of -1.21)(the -2.48)(place -6.13)(. -2.35) line score is : -2.753, look ahead score is : 0.000
+-------------------------score:  -3.0099813487613574;  adjusted_score: -2.985290670231916----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the end of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(end -3.84)(of -1.21)(the -2.48)(base -5.27)(. -0.10) line score is : -2.442, look ahead score is : 0.000
+-------------------------score:  -3.0131433861679398;  adjusted_score: -2.9884527076384986----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the end of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(end -3.85)(of -1.07)(the -2.35)(base -5.40)(. -0.08) line score is : -2.389, look ahead score is : 0.000
+-------------------------score:  -3.0340646700933576;  adjusted_score: -3.0093739915639164----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the skin on the side of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(skin -0.76)(on -1.10)(the -3.70)(side -4.43)(of -1.07)(the -3.34)(base -4.36)(. -0.02) line score is : -2.474, look ahead score is : 0.000
+-------------------------score:  -3.0517999356379732;  adjusted_score: -3.027109257108532----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the skin on the front of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(skin -0.76)(on -1.10)(the -3.70)(front -4.43)(of -1.07)(the -3.34)(base -3.87)(. -0.15) line score is : -2.438, look ahead score is : 0.000
+-------------------------score:  -3.0806245839921758;  adjusted_score: -3.0559339054627346----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the head of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(head -3.84)(of -1.21)(the -2.48)(base -6.13)(. -2.35) line score is : -2.753, look ahead score is : 0.000
+-------------------------score:  -3.093205105396919;  adjusted_score: -3.0685144268674778----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the right of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(right -3.84)(of -1.21)(the -2.48)(place -5.28)(. -4.74) line score is : -2.907, look ahead score is : 0.000
+-------------------------score:  -3.097574999264907;  adjusted_score: -3.072884320735466----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the right of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(right -3.85)(of -1.07)(the -2.35)(place -5.37)(. -4.89) line score is : -2.867, look ahead score is : 0.000
+-------------------------score:  -3.173706006142311;  adjusted_score: -3.1490153276128696----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the right of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(the -4.00)(hair -0.76)(on -1.10)(the -3.70)(right -3.84)(of -1.21)(the -2.48)(base -5.28)(. -4.74) line score is : -2.907, look ahead score is : 0.000
+-------------------------score:  -3.1746696435729973;  adjusted_score: -3.149978965043556----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and the hair on the right of the base . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(the -3.76)(hair -0.69)(on -1.03)(the -3.69)(right -3.85)(of -1.07)(the -2.35)(base -5.37)(. -4.89) line score is : -2.867, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and now he 's a college professor 
+-------------------------score:  -2.956826471971969;  adjusted_score: -2.932135793442528----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and now she has a family place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(now -3.76)(she -0.69)(has -1.03)(a -5.69)(family -0.69)(place -3.27)(. -1.68) line score is : -2.347, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ she was ready to give and to take 
+-------------------------score:  -2.9995125742448914;  adjusted_score: -2.97482189571545----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ it was painful to look and to trace . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(it -1.96)(was -4.00)(painful -0.76)(to -4.03)(look -1.23)(and -3.68)(to -0.63)(trace -0.87)(. -6.91) line score is : -2.674, look ahead score is : 0.000
+-------------------------score:  -3.015326743825309;  adjusted_score: -2.9906360652958677----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ it was painful to look and to trace . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(it -1.96)(was -3.76)(painful -0.69)(to -4.10)(look -1.18)(and -3.59)(to -0.68)(trace -1.09)(. -6.57) line score is : -2.625, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.01079461621421;  adjusted_score: -2.986103937684769----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(she -3.76)(did -0.69)(not -1.03)(like -1.06)(feeling -5.83)(of -0.90)(place -2.78)(. -5.95) line score is : -2.662, look ahead score is : 0.000
+-------------------------score:  -3.0191409971204495;  adjusted_score: -2.9944503185910083----------------------- 
+there was a skinny girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(carried -7.47)(a -1.22)(big -3.45)(smile -4.48)(on -0.87)(her -0.01)(face -0.04)(. -1.45) line score is : -2.280, look ahead score is : 0.000
+(her -1.45)(parents -3.65)(were -3.99)(so -1.13)(fat -4.92)(, -5.78) line score is : -3.487, look ahead score is : 0.584
+(her -5.78)(stomach -2.11)(was -3.27)(so -5.26)(flat -0.65)(, -1.96) line score is : -3.173, look ahead score is : 0.651
+(and -1.96)(she -4.00)(did -0.76)(not -1.10)(like -1.07)(feeling -5.80)(of -0.92)(place -3.02)(. -6.14) line score is : -2.752, look ahead score is : 0.000
+-------------------------score:  -3.0569713689507014;  adjusted_score: -3.0322806904212602----------------------- 
+there was a nervous girl named chase 
+ who carried a big smile on her face . 
+ her parents were so fat , 
+ her stomach was so flat , 
+ and she did not like dressing of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(carried -7.55)(a -1.35)(big -3.98)(smile -4.47)(on -0.84)(her -0.01)(face -0.06)(. -1.52) line score is : -2.339, look ahead score is : 0.000
+(her -1.52)(parents -3.68)(were -3.82)(so -1.16)(fat -4.78)(, -7.06) line score is : -3.670, look ahead score is : 0.584
+(her -7.06)(stomach -2.20)(was -3.01)(so -4.51)(flat -0.66)(, -1.96) line score is : -3.233, look ahead score is : 0.651
+(and -1.96)(she -3.76)(did -0.69)(not -1.03)(like -1.06)(dressing -5.83)(of -0.90)(place -2.78)(. -5.96) line score is : -2.664, look ahead score is : 0.000

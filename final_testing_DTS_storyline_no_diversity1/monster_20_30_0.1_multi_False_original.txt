@@ -1,0 +1,572 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.941446519456804;  adjusted_score: -2.916258199326694----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and quit on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(quit -4.47)(on -1.09)(the -1.48)(race -6.79)(. -4.85) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -2.9519618125632405;  adjusted_score: -2.9267734924331306----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and quit on the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(quit -4.47)(on -1.09)(the -1.48)(chase -6.79)(. -4.85) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -2.979476827196777;  adjusted_score: -2.954288507066667----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and go on the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(go -4.47)(on -1.09)(the -1.48)(chase -6.96)(. -4.11) line score is : -3.494, look ahead score is : 0.000
+-------------------------score:  -2.991173201240599;  adjusted_score: -2.965984881110489----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and put on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(put -4.47)(on -1.09)(the -1.48)(race -4.37)(. -2.01) line score is : -3.026, look ahead score is : 0.000
+-------------------------score:  -3.001778413541615;  adjusted_score: -2.976590093411505----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and set on the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(set -4.47)(on -1.09)(the -1.48)(chase -7.69)(. -4.93) line score is : -3.649, look ahead score is : 0.000
+-------------------------score:  -3.010424950160086;  adjusted_score: -2.985236630029976----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and go on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(go -4.47)(on -1.09)(the -1.48)(race -6.96)(. -4.11) line score is : -3.494, look ahead score is : 0.000
+-------------------------score:  -3.0220787171274424;  adjusted_score: -2.9968903969973324----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and cut on the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(cut -4.47)(on -1.09)(the -1.48)(chase -7.83)(. -6.17) line score is : -3.787, look ahead score is : 0.000
+-------------------------score:  -3.0406428752467036;  adjusted_score: -3.0154545551165937----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and set on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(set -4.47)(on -1.09)(the -1.48)(race -7.69)(. -4.93) line score is : -3.649, look ahead score is : 0.000
+-------------------------score:  -3.0563725167885423;  adjusted_score: -3.0311841966584323----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she sat up and put on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(sat -5.64)(up -2.66)(and -0.79)(put -4.22)(on -3.08)(the -1.19)(race -4.31)(. -2.28) line score is : -3.193, look ahead score is : 0.000
+-------------------------score:  -3.0631069662049413;  adjusted_score: -3.0379186460748313----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and run on the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(run -4.47)(on -1.09)(the -1.48)(chase -7.26)(. -6.45) line score is : -3.759, look ahead score is : 0.000
+-------------------------score:  -3.0802305275574327;  adjusted_score: -3.0550422074273227----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and run on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(run -4.47)(on -1.09)(the -1.48)(race -7.26)(. -6.45) line score is : -3.759, look ahead score is : 0.000
+-------------------------score:  -3.0898305540904403;  adjusted_score: -3.0646422339603303----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and cut on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(cut -4.47)(on -1.09)(the -1.48)(race -7.83)(. -6.17) line score is : -3.787, look ahead score is : 0.000
+-------------------------score:  -3.1037671016529202;  adjusted_score: -3.0785787815228103----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and drank on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(gave -5.64)(up -2.66)(and -0.79)(drank -4.47)(on -1.09)(the -1.48)(race -7.10)(. -5.84) line score is : -3.681, look ahead score is : 0.000
+-------------------------score:  -3.1584124015644193;  adjusted_score: -3.1332240814343093----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she looked up and put on the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(it -4.48)(was -1.87)(hard -2.87)(to -1.50)(carry -2.50)(, -0.33) line score is : -2.259, look ahead score is : 0.705
+(so -0.33)(she -7.42)(looked -5.64)(up -2.66)(and -0.79)(put -4.20)(on -3.03)(the -1.80)(race -5.79)(. -2.81) line score is : -3.447, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.048228839877993;  adjusted_score: -3.024160794522613----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the front of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(front -3.63)(of -0.80)(the -3.19)(race -3.94)(. -0.13) line score is : -2.820, look ahead score is : 0.000
+-------------------------score:  -3.075886683538556;  adjusted_score: -3.0518186381831764----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the head of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(head -3.63)(of -0.80)(the -3.19)(race -4.75)(. -2.55) line score is : -3.144, look ahead score is : 0.000
+-------------------------score:  -3.078932026401162;  adjusted_score: -3.0548639810457825----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the neck of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(neck -3.63)(of -0.80)(the -3.19)(race -5.29)(. -1.98) line score is : -3.141, look ahead score is : 0.000
+-------------------------score:  -3.104935171082616;  adjusted_score: -3.080867125727236----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the waist of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(waist -3.63)(of -0.80)(the -3.19)(race -6.86)(. -1.50) line score is : -3.249, look ahead score is : 0.000
+-------------------------score:  -3.1135328859090805;  adjusted_score: -3.089464840553701----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the skin on the neck of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(skin -0.70)(on -1.36)(the -3.38)(neck -4.90)(of -0.86)(the -3.80)(race -4.52)(. -1.33) line score is : -3.192, look ahead score is : 0.000
+-------------------------score:  -3.1209275741130114;  adjusted_score: -3.0968595287576317----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the way of the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(way -3.63)(of -0.80)(the -3.19)(chase -6.14)(. -3.81) line score is : -3.409, look ahead score is : 0.000
+-------------------------score:  -3.128118722466752;  adjusted_score: -3.1040506771113723----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the skin on the front of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(skin -0.70)(on -1.36)(the -3.38)(front -4.90)(of -0.86)(the -3.80)(race -4.08)(. -0.10) line score is : -3.026, look ahead score is : 0.000
+-------------------------score:  -3.138698237016797;  adjusted_score: -3.1146301916614174----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the cheeks of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(cheeks -3.63)(of -0.80)(the -3.19)(race -7.03)(. -2.20) line score is : -3.337, look ahead score is : 0.000
+-------------------------score:  -3.1393358781933784;  adjusted_score: -3.115267832837999----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the skin on the head of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(skin -0.70)(on -1.36)(the -3.38)(head -4.90)(of -0.86)(the -3.80)(race -4.87)(. -1.73) line score is : -3.267, look ahead score is : 0.000
+-------------------------score:  -3.1697455272078514;  adjusted_score: -3.1456774818524718----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the verge of the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(verge -3.63)(of -0.80)(the -3.19)(chase -7.83)(. -0.02) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -3.1866370663046837;  adjusted_score: -3.162569020949304----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the hood of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(hood -3.63)(of -0.80)(the -3.19)(race -7.67)(. -0.65) line score is : -3.245, look ahead score is : 0.000
+-------------------------score:  -3.213098967447877;  adjusted_score: -3.1890309220924973----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the boy of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(boy -3.63)(of -0.80)(the -3.19)(race -7.36)(. -6.95) line score is : -3.844, look ahead score is : 0.000
+-------------------------score:  -3.2139340210705996;  adjusted_score: -3.18986597571522----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the ground of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(ground -3.63)(of -0.80)(the -3.19)(race -5.99)(. -6.36) line score is : -3.649, look ahead score is : 0.000
+-------------------------score:  -3.215787183493376;  adjusted_score: -3.191719138137996----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the skin on the ground of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(skin -0.70)(on -1.36)(the -3.38)(ground -4.90)(of -0.86)(the -3.80)(race -5.00)(. -5.53) line score is : -3.660, look ahead score is : 0.000
+-------------------------score:  -3.2338168043643236;  adjusted_score: -3.209748759008944----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the blonde of the race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(blonde -3.63)(of -0.80)(the -3.19)(race -7.47)(. -7.02) line score is : -3.863, look ahead score is : 0.000
+-------------------------score:  -3.267828891053796;  adjusted_score: -3.243760845698416----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the boy of the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(boy -3.63)(of -0.80)(the -3.19)(chase -7.36)(. -6.95) line score is : -3.844, look ahead score is : 0.000
+-------------------------score:  -3.2841348070651293;  adjusted_score: -3.2600667617097496----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and the hair on the blonde of the chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(the -9.47)(hair -0.70)(on -1.36)(the -3.38)(blonde -3.63)(of -0.80)(the -3.19)(chase -7.47)(. -7.02) line score is : -3.863, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.1361416443701713;  adjusted_score: -3.1120735990147916----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and began her chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(began -2.29)(her -6.01)(chase -3.03)(. -5.87) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.1378002608976057;  adjusted_score: -3.113732215542226----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and started her chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(started -2.29)(her -6.01)(chase -3.03)(. -4.84) line score is : -3.441, look ahead score is : 0.000
+-------------------------score:  -3.138273687131943;  adjusted_score: -3.1142056417765636----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and watched our race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(watched -2.29)(our -6.01)(race -3.03)(. -5.90) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.142513488569567;  adjusted_score: -3.1184454432141875----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and started her race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(started -2.29)(her -6.01)(race -3.03)(. -4.84) line score is : -3.441, look ahead score is : 0.000
+-------------------------score:  -3.157225860703376;  adjusted_score: -3.1331578153479964----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and saw our race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(saw -2.29)(our -6.01)(race -3.03)(. -3.42) line score is : -3.283, look ahead score is : 0.000
+-------------------------score:  -3.175385119453553;  adjusted_score: -3.1513170740981735----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and began her race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(began -2.29)(her -6.01)(race -3.03)(. -5.87) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.1781097900482917;  adjusted_score: -3.154041744692912----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and watched our chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(watched -2.29)(our -6.01)(chase -3.03)(. -5.90) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.1833519147288416;  adjusted_score: -3.159283869373462----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and noticed their race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(noticed -2.29)(their -6.01)(race -3.03)(. -5.74) line score is : -3.541, look ahead score is : 0.000
+-------------------------score:  -3.242087500710641;  adjusted_score: -3.2180194553552615----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and said our race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(said -2.29)(our -6.01)(race -3.03)(. -2.98) line score is : -3.234, look ahead score is : 0.000
+-------------------------score:  -3.250213928761021;  adjusted_score: -3.2261458834056413----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and noticed your race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(noticed -2.29)(your -6.01)(race -3.03)(. -5.74) line score is : -3.541, look ahead score is : 0.000
+-------------------------score:  -3.2619770092348896;  adjusted_score: -3.23790896387951----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and stared our race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(stared -2.29)(our -6.01)(race -3.03)(. -3.41) line score is : -3.281, look ahead score is : 0.000
+-------------------------score:  -3.275224291509198;  adjusted_score: -3.251156246153818----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked down and took our race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(down -1.36)(and -1.65)(took -2.29)(our -6.01)(race -3.03)(. -4.95) line score is : -3.453, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ her hair got so light 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.143118694905312;  adjusted_score: -3.119050649549932----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she was always like hell of chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(was -0.70)(always -1.36)(like -1.65)(hell -1.25)(of -3.41)(chase -4.62)(. -6.97) line score is : -3.449, look ahead score is : 0.000
+-------------------------score:  -3.1653109596621607;  adjusted_score: -3.141242914306781----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked almost like fox of chase . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(almost -1.36)(like -1.65)(fox -2.29)(of -5.02)(chase -0.99)(. -8.92) line score is : -3.557, look ahead score is : 0.000
+-------------------------score:  -3.175357155261501;  adjusted_score: -3.1512891099061213----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ her mouth was so wary , 
+ and she looked not like someone of race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(her -4.48)(mouth -1.87)(was -2.98)(so -3.07)(wary -0.81)(, -1.61) line score is : -2.469, look ahead score is : 0.649
+(and -1.61)(she -9.47)(looked -0.70)(not -1.36)(like -1.65)(someone -2.29)(of -7.16)(race -1.84)(. -3.26) line score is : -3.261, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.240447489484664;  adjusted_score: -3.215259169354554----------------------- 
+there was a fierce girl named chase 
+ who got a strange feeling on her face . 
+ her eyes were so scary , 
+ she was hard to carry , 
+ and she was not like someone of race . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(got -4.79)(a -3.49)(strange -6.40)(feeling -1.90)(on -4.50)(her -0.24)(face -1.85)(. -1.31) line score is : -2.856, look ahead score is : 0.000
+(her -1.31)(eyes -4.02)(were -2.02)(so -0.94)(scary -3.85)(, -4.48) line score is : -2.770, look ahead score is : 0.554
+(she -4.48)(was -1.87)(hard -1.68)(to -2.16)(carry -6.76)(, -0.36) line score is : -2.886, look ahead score is : 0.705
+(and -0.36)(she -6.67)(was -2.75)(not -1.50)(like -1.24)(someone -1.30)(of -4.40)(race -4.65)(. -4.88) line score is : -3.083, look ahead score is : 0.000
