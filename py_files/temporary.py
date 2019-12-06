@@ -157,10 +157,28 @@ def printing(data, f, f_final, word_embedding_coefficient, template_to_line):
 	data_curr["adjusted_score"]=data_curr_adjusted_score
 	with open(f_final+".pickle","wb") as pickle_in:
 		pickle.dump(data_curr,pickle_in)
-
+def create_w1s_rhyme_dict(self,names_rhymes_list):
+	sum_rhyme=[]
+	w1s_rhyme_dict=defaultdict(list)
+	words_to_names_rhyme_dict=defaultdict(list)
+	for item in names_rhymes_list:
+		item_name, item_rhyme= item[0],item[1]
+		sum_rhyme+=item_rhyme
+	storyline_second_words=sum_rhyme
+	print(storyline_second_words)
+	for item in names_rhymes_list:
+		item_name, item_rhyme= item[0],item[1] 
+		for i in item_rhyme:
+			if i in storyline_second_words:
+				temp=[t for t in item_rhyme if t in storyline_second_words]
+				temp.remove(i)
+				w1s_rhyme_dict[i]+=temp
+				words_to_names_rhyme_dict[i]+=item_name
+	return words_to_names_rhyme_dict, w1s_rhyme_dict
 
 
 if __name__ == '__main__':
+	'''
 	with open("saved_objects//blood_100_3_0.1_multi_True_original.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 	with open("saved_objects/templates_processed_more_tuple.pickle","rb") as pickle_in:
@@ -178,6 +196,7 @@ if __name__ == '__main__':
 	with open(saved_directory+"/"+"testting.txt","w") as f:
 		#data=[((37437, 323, 508, 2727, 257, 649, 995, 1123, 1110, 13, 383, 1621, 286, 607, 1918, 11, 673, 373, 2923, 416, 257, 582, 11, 673, 373, 1498, 284, 766, 290, 284, 307, 13), (0, -1.8686583, -7.9279566, -1.7537689, -3.5815325, -2.9823372, -7.3178396, -0.7854198, -1.3464375, -3.2089908, -4.305893, -1.7522461, -1.7720312, -6.1531906, -3.006908, -3.8320954, -2.208183, -2.292202, -0.61561483, -1.3350128, -3.2697363, -3.549174, -3.6850667, -0.94812435, -5.939119, -0.014559363, -3.7359376, -3.4837246, -4.6017675, -3.682684, -4.94672), ('there', 'was', 'a', 'kind', 'woman', 'named', 'sunday', '\n', 'who', 'created', 'a', 'new', 'world', 'each', 'day', '.', '\n', 'the', 'story', 'of', 'her', 'death', ',', '\n', 'she', 'was', 'killed', 'by', 'a', 'man', ',', '\n', 'she', 'was', 'able', 'to', 'see', 'and', 'to', 'be', '.', '\n'), ('sunday', '\n', 'WHO', 'VBD', 'A', 'JJ', 'NN', 'EACH', 'NN', '.', '\n', 'THE', 'NN', 'OF', 'PRP$', 'NN', ',', '\n', 'PRP', 'VBD', 'VBN', 'BY', 'A', 'NN', ',', '\n', 'PRP', 'VBD', 'JJ', 'TO', 'VB', 'AND', 'TO', 'VB', '.', '\n'), ('sunday', 'death'))]
 		printing(data,f, f_final, 0.1, template_to_line)
+	'''
 	'''
 	mylist=[0, 3, 8, 10, 19, 23, 25, 37, 42, 43, 44, 49, 50, 51, 54, 66, 70, 71, 74, 77, 80, 85, 86, 87, 88, 92, 93, 97, 100, 101, 102, 103, 112, 114, 115, 118, 122, 129, 131, 133, 134, 137,  139, 140, 141, 143, 150, 155, 160, 163, 166, 167, 170, 171, 172]
 	with open("saved_objects/last2_tuple.pickle","rb") as f:
