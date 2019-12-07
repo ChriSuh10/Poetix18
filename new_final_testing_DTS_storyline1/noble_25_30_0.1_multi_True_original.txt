@@ -1,0 +1,99 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AS PRP VBD THE NN NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ as he struck the ground floor 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.1144895600154996;  adjusted_score: -3.0894240203127263----------------------- 
+there was a warrior named brande 
+ who wished a great deal on our land . 
+ he asked for our king , 
+ as it was the right thing , 
+ and that is the subject of this stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(a -5.85)(great -3.58)(deal -0.83)(on -5.54)(our -4.15)(land -4.87)(. -1.57) line score is : -3.892, look ahead score is : 0.000
+(he -1.57)(asked -1.83)(for -3.71)(our -1.68)(king -2.00)(, -5.31) line score is : -2.683, look ahead score is : 0.585
+(as -5.31)(it -1.96)(was -4.89)(the -4.09)(right -1.10)(thing -3.08)(, -2.90) line score is : -3.332, look ahead score is : 0.669
+(and -2.90)(that -0.66)(is -3.04)(the -0.69)(subject -3.77)(of -3.96)(this -2.77)(stand -5.59)(. -0.31) line score is : -2.633, look ahead score is : 0.000
+-------------------------score:  -3.1428764704614878;  adjusted_score: -3.1178109307587145----------------------- 
+there was a warrior named brande 
+ who wished a great deal on our land . 
+ he asked for our king , 
+ as it was the right thing , 
+ and that is the reason of this stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(a -5.85)(great -3.58)(deal -0.83)(on -5.54)(our -4.15)(land -4.87)(. -1.57) line score is : -3.892, look ahead score is : 0.000
+(he -1.57)(asked -1.83)(for -3.71)(our -1.68)(king -2.00)(, -5.31) line score is : -2.683, look ahead score is : 0.585
+(as -5.31)(it -1.96)(was -4.89)(the -4.09)(right -1.10)(thing -3.08)(, -2.90) line score is : -3.332, look ahead score is : 0.669
+(and -2.90)(that -0.66)(is -3.04)(the -0.69)(reason -3.77)(of -3.96)(this -2.77)(stand -2.08)(. -3.23) line score is : -2.567, look ahead score is : 0.000
+-------------------------score:  -3.1726455204188824;  adjusted_score: -3.147579980716109----------------------- 
+there was a warrior named brande 
+ who wished a great deal on our land . 
+ he asked for our king , 
+ as it was the right thing , 
+ and that is the purpose of this stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(a -5.85)(great -3.58)(deal -0.83)(on -5.54)(our -4.15)(land -4.87)(. -1.57) line score is : -3.892, look ahead score is : 0.000
+(he -1.57)(asked -1.83)(for -3.71)(our -1.68)(king -2.00)(, -5.31) line score is : -2.683, look ahead score is : 0.585
+(as -5.31)(it -1.96)(was -4.89)(the -4.09)(right -1.10)(thing -3.08)(, -2.90) line score is : -3.332, look ahead score is : 0.669
+(and -2.90)(that -0.66)(is -3.04)(the -0.69)(purpose -3.77)(of -3.96)(this -2.77)(stand -6.24)(. -0.45) line score is : -2.721, look ahead score is : 0.000
+-------------------------score:  -3.194448471069336;  adjusted_score: -3.1693829313665627----------------------- 
+there was a warrior named brande 
+ who wished a great deal on our land . 
+ he asked for our king , 
+ as it was the right thing , 
+ and that is the matter of this stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(a -5.85)(great -3.58)(deal -0.83)(on -5.54)(our -4.15)(land -4.87)(. -1.57) line score is : -3.892, look ahead score is : 0.000
+(he -1.57)(asked -1.83)(for -3.71)(our -1.68)(king -2.00)(, -5.31) line score is : -2.683, look ahead score is : 0.585
+(as -5.31)(it -1.96)(was -4.89)(the -4.09)(right -1.10)(thing -3.08)(, -2.90) line score is : -3.332, look ahead score is : 0.669
+(and -2.90)(that -0.66)(is -3.04)(the -0.69)(matter -3.77)(of -3.96)(this -2.77)(stand -4.70)(. -2.28) line score is : -2.752, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AS PRP VBD THE NN NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ as he struck the ground floor 
+ and I hope that your day is a blast 
+-------------------------score:  -3.421031830888806;  adjusted_score: -3.3959662911860327----------------------- 
+there was a warrior named brande 
+ who wished a great deal on our land . 
+ he asked for our king , 
+ as it was the right thing , 
+ and we swore that our oath is a stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(a -5.85)(great -3.58)(deal -0.83)(on -5.54)(our -4.15)(land -4.87)(. -1.57) line score is : -3.892, look ahead score is : 0.000
+(he -1.57)(asked -1.83)(for -3.71)(our -1.68)(king -2.00)(, -5.31) line score is : -2.683, look ahead score is : 0.585
+(as -5.31)(it -1.96)(was -4.89)(the -4.09)(right -1.10)(thing -3.08)(, -2.90) line score is : -3.332, look ahead score is : 0.669
+(and -2.90)(we -0.66)(swore -3.04)(that -0.69)(our -2.08)(oath -6.07)(is -2.22)(a -3.07)(stand -4.40)(. -6.28) line score is : -3.142, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AS PRP VBD THE NN NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ as he struck the ground floor 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.5401407936040092;  adjusted_score: -3.515075253901236----------------------- 
+there was a warrior named brande 
+ who wished a great deal on our land . 
+ he asked for our king , 
+ as it was the right thing , 
+ as it seemed to be , i do a stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.22)(wished -7.42)(a -5.85)(great -3.58)(deal -0.83)(on -5.54)(our -4.15)(land -4.87)(. -1.57) line score is : -3.892, look ahead score is : 0.000
+(he -1.57)(asked -1.83)(for -3.71)(our -1.68)(king -2.00)(, -5.31) line score is : -2.683, look ahead score is : 0.585
+(as -5.31)(it -1.96)(was -4.89)(the -4.09)(right -1.10)(thing -3.08)(, -2.90) line score is : -3.332, look ahead score is : 0.669
+(as -2.90)(it -0.66)(seemed -3.04)(to -3.68)(be -1.81)(, -3.01)(i -1.23)(do -1.58)(a -3.49)(stand -6.31)(. -4.24) line score is : -2.905, look ahead score is : 0.000

@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ BUT PRP VBD AND PRP VBD , NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ which he loosed in the house 
+ but she sighed and she said , canteloupe 
+-------------------------score:  -3.3858724599704146;  adjusted_score: -3.3621178316697478----------------------- 
+there once was a man named gaye 
+ who helped a young woman on her way . 
+ he asked for her record , 
+ which he found in the board , 
+ but she refused and he walked , halfway . 
+------------------------- score breakdown ------------------------ 
+(who -2.15)(helped -6.29)(a -3.36)(young -2.92)(woman -1.58)(on -5.01)(her -1.03)(way -0.47)(. -4.36) line score is : -3.021, look ahead score is : 0.000
+(he -4.36)(asked -2.03)(for -4.24)(her -3.32)(record -1.42)(, -9.51) line score is : -4.144, look ahead score is : 0.613
+(which -9.51)(he -1.99)(found -2.01)(in -2.00)(the -2.40)(board -1.46)(, -1.21) line score is : -2.939, look ahead score is : 0.575
+(but -1.21)(she -8.46)(refused -4.43)(and -2.17)(he -1.17)(walked -1.76)(, -4.06)(halfway -2.88)(. -4.35) line score is : -3.388, look ahead score is : 0.000
