@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.2250036251160408;  adjusted_score: -3.200702535322597----------------------- 
+there was a general named tyree 
+ who suffered a great wound on his knee . 
+ he came back from the pain , 
+ and he went to the train , 
+ and he saw somebody again see . 
+------------------------- score breakdown ------------------------ 
+(who -1.60)(suffered -7.89)(a -2.67)(great -3.14)(wound -2.70)(on -2.75)(his -0.42)(knee -3.36)(. -1.72) line score is : -2.918, look ahead score is : 0.000
+(he -1.72)(came -1.77)(back -4.46)(from -2.12)(the -1.92)(pain -0.67)(, -7.23) line score is : -2.843, look ahead score is : 0.562
+(and -7.23)(he -2.55)(went -1.62)(to -3.04)(the -3.66)(train -1.21)(, -1.45) line score is : -2.965, look ahead score is : 0.653
+(and -1.45)(he -7.03)(saw -2.90)(somebody -0.80)(again -1.32)(see -3.09)(. -5.52) line score is : -3.161, look ahead score is : 0.000

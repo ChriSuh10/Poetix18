@@ -1,0 +1,1287 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.6523231663159095;  adjusted_score: -2.627181983923074----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and she looked down and noticed her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(she -6.43)(looked -2.04)(down -1.19)(and -1.65)(noticed -3.38)(her -2.59)(place -2.23)(. -4.25) line score is : -2.979, look ahead score is : 0.000
+-------------------------score:  -2.6601067729643546;  adjusted_score: -2.6347933067730627----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and she looked down and noticed her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(she -6.49)(looked -2.28)(down -1.45)(and -1.81)(noticed -3.30)(her -2.79)(place -2.41)(. -3.95) line score is : -2.904, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.6534833532729833;  adjusted_score: -2.626626842484781----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(put -4.09)(on -1.71)(the -0.79)(place -4.52)(. -0.65) line score is : -2.458, look ahead score is : 0.000
+-------------------------score:  -2.689208202684919;  adjusted_score: -2.6623516918967165----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and burst on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(burst -4.09)(on -1.71)(the -0.79)(place -8.16)(. -4.31) line score is : -3.188, look ahead score is : 0.000
+-------------------------score:  -2.706668606705286;  adjusted_score: -2.6798120959170837----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and beat on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(beat -4.09)(on -1.71)(the -0.79)(place -8.30)(. -3.04) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -2.733170162942825;  adjusted_score: -2.7063136521546225----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she walked up and hit on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(walked -2.96)(up -3.68)(and -1.55)(hit -3.95)(on -2.02)(the -2.73)(place -5.51)(. -2.99) line score is : -3.003, look ahead score is : 0.000
+-------------------------score:  -2.7351967750512287;  adjusted_score: -2.7083402642630263----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she went up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(went -2.96)(up -3.68)(and -1.55)(put -3.14)(on -3.08)(the -2.61)(place -4.68)(. -1.26) line score is : -2.760, look ahead score is : 0.000
+-------------------------score:  -2.736031586868745;  adjusted_score: -2.7091750760805424----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she sat up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(sat -2.96)(up -3.68)(and -1.55)(put -4.11)(on -3.33)(the -1.14)(place -3.90)(. -1.42) line score is : -2.671, look ahead score is : 0.000
+-------------------------score:  -2.737873292725646;  adjusted_score: -2.7110167819374436----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and hit on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(hit -4.09)(on -1.71)(the -0.79)(place -5.99)(. -5.12) line score is : -3.052, look ahead score is : 0.000
+-------------------------score:  -2.746259131609942;  adjusted_score: -2.7194026208217394----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and set on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(set -4.09)(on -1.71)(the -0.79)(place -6.18)(. -5.72) line score is : -3.131, look ahead score is : 0.000
+-------------------------score:  -2.7496746059958683;  adjusted_score: -2.722818095207666----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she went up and hit on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(went -2.96)(up -3.68)(and -1.55)(hit -3.14)(on -3.08)(the -2.61)(place -5.42)(. -3.06) line score is : -3.014, look ahead score is : 0.000
+-------------------------score:  -2.7636709524262133;  adjusted_score: -2.734894406156558----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she came back from the day , 
+ she was ready to play , 
+ so she went up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(came -1.94)(back -5.55)(from -4.01)(the -1.89)(day -1.84)(, -4.76) line score is : -3.055, look ahead score is : 0.750
+(she -4.76)(was -4.33)(ready -3.16)(to -1.81)(play -4.19)(, -0.64) line score is : -3.147, look ahead score is : 0.689
+(so -0.64)(she -4.79)(went -3.02)(up -3.61)(and -1.35)(put -2.61)(on -3.56)(the -2.70)(place -4.75)(. -1.12) line score is : -2.813, look ahead score is : 0.000
+-------------------------score:  -2.7693013263809863;  adjusted_score: -2.742444815592784----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and walk on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(walk -4.09)(on -1.71)(the -0.79)(place -7.51)(. -5.13) line score is : -3.205, look ahead score is : 0.000
+-------------------------score:  -2.7695729953208654;  adjusted_score: -2.742716484532663----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she walked up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(walked -2.96)(up -3.68)(and -1.55)(put -3.95)(on -2.02)(the -2.73)(place -3.81)(. -2.92) line score is : -2.825, look ahead score is : 0.000
+-------------------------score:  -2.772043958249869;  adjusted_score: -2.7451874474616664----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so i went up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(i -4.03)(went -2.96)(up -3.68)(and -2.40)(put -3.16)(on -2.80)(the -2.31)(place -4.66)(. -2.33) line score is : -2.893, look ahead score is : 0.000
+-------------------------score:  -2.772428626759034;  adjusted_score: -2.7455721159708317----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and cheer on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(cheer -4.09)(on -1.71)(the -0.79)(place -7.49)(. -3.38) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -2.776554846797477;  adjusted_score: -2.7496983360092746----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and run on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(run -4.09)(on -1.71)(the -0.79)(place -7.84)(. -5.57) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -2.7767984780736943;  adjusted_score: -2.749941967285492----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and get on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(get -4.09)(on -1.71)(the -0.79)(place -8.40)(. -4.08) line score is : -3.188, look ahead score is : 0.000
+-------------------------score:  -2.7786149585224464;  adjusted_score: -2.751758447734244----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she ran up and hit on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(ran -2.96)(up -3.68)(and -1.55)(hit -4.55)(on -2.37)(the -2.39)(place -5.18)(. -3.69) line score is : -3.099, look ahead score is : 0.000
+-------------------------score:  -2.779239618812095;  adjusted_score: -2.7523831080238925----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she came up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(came -2.96)(up -3.68)(and -1.55)(put -4.08)(on -3.39)(the -2.19)(place -4.30)(. -2.10) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -2.7856348160880082;  adjusted_score: -2.758778305299806----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and cut on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(cut -4.09)(on -1.71)(the -0.79)(place -8.18)(. -5.42) line score is : -3.300, look ahead score is : 0.000
+-------------------------score:  -2.7938088832818195;  adjusted_score: -2.766952372493617----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and start on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(start -4.09)(on -1.71)(the -0.79)(place -8.29)(. -4.89) line score is : -3.258, look ahead score is : 0.000
+-------------------------score:  -2.7979691177042145;  adjusted_score: -2.771112606916012----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and drove on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(drove -4.09)(on -1.71)(the -0.79)(place -6.41)(. -5.74) line score is : -3.155, look ahead score is : 0.000
+-------------------------score:  -2.79969400387596;  adjusted_score: -2.7728374930877577----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she ran up and put on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(ran -2.96)(up -3.68)(and -1.55)(put -4.55)(on -2.37)(the -2.39)(place -4.48)(. -2.60) line score is : -2.919, look ahead score is : 0.000
+-------------------------score:  -2.8103797349401494;  adjusted_score: -2.783523224151947----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and read on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(read -4.09)(on -1.71)(the -0.79)(place -8.26)(. -4.88) line score is : -3.255, look ahead score is : 0.000
+-------------------------score:  -2.814012341822187;  adjusted_score: -2.7871558310339846----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and go on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(go -4.09)(on -1.71)(the -0.79)(place -7.38)(. -4.71) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -2.848432373311935;  adjusted_score: -2.8215758625237326----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and re on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(re -4.09)(on -1.71)(the -0.79)(place -8.31)(. -7.96) line score is : -3.568, look ahead score is : 0.000
+-------------------------score:  -2.904013603417711;  adjusted_score: -2.8771570926295085----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she got up and let on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(got -2.96)(up -3.68)(and -1.55)(let -4.09)(on -1.71)(the -0.79)(place -6.14)(. -7.80) line score is : -3.335, look ahead score is : 0.000
+-------------------------score:  -2.965322978963906;  adjusted_score: -2.9384664681757036----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so she sat up and let on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(she -4.03)(sat -2.96)(up -3.68)(and -1.55)(let -4.11)(on -3.33)(the -1.14)(place -4.64)(. -7.93) line score is : -3.397, look ahead score is : 0.000
+-------------------------score:  -2.9835128029526183;  adjusted_score: -2.956656292164416----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so i went up and let on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(i -4.03)(went -2.96)(up -3.68)(and -2.40)(let -3.16)(on -2.80)(the -2.31)(place -5.80)(. -8.88) line score is : -3.661, look ahead score is : 0.000
+-------------------------score:  -3.0245805151873464;  adjusted_score: -2.997724004399144----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ so i gave up and let on the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(so -0.60)(i -4.03)(gave -2.96)(up -3.68)(and -2.40)(let -3.58)(on -4.84)(the -1.78)(place -2.98)(. -8.68) line score is : -3.553, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was told by his wife 
+ and the smile on the face of the tiger 
+-------------------------score:  -2.6914764479592894;  adjusted_score: -2.6661629817679975----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the side of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(side -3.63)(of -1.04)(the -3.43)(place -5.99)(. -0.02) line score is : -2.920, look ahead score is : 0.000
+-------------------------score:  -2.711838938013622;  adjusted_score: -2.68652547182233----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the head of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(head -3.63)(of -1.04)(the -3.43)(place -6.35)(. -0.04) line score is : -2.958, look ahead score is : 0.000
+-------------------------score:  -2.75144547986036;  adjusted_score: -2.726132013669068----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the sight on the floor of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(sight -2.28)(on -1.45)(the -3.20)(floor -4.22)(of -4.36)(the -2.35)(place -3.31)(. -3.11) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -2.760669683360241;  adjusted_score: -2.7355285009674053----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and the blood on the floor of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(the -6.43)(blood -2.04)(on -1.19)(the -2.81)(floor -5.34)(of -4.68)(the -2.60)(place -1.92)(. -3.32) line score is : -3.339, look ahead score is : 0.000
+-------------------------score:  -2.845237994227897;  adjusted_score: -2.819924528036605----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the boy of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(boy -3.63)(of -1.04)(the -3.43)(place -3.15)(. -9.10) line score is : -3.544, look ahead score is : 0.000
+-------------------------score:  -2.8560912197625097;  adjusted_score: -2.8307777535712177----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the child of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(child -3.63)(of -1.04)(the -3.43)(place -5.37)(. -6.97) line score is : -3.553, look ahead score is : 0.000
+-------------------------score:  -2.8696432822017055;  adjusted_score: -2.84450209980887----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and the word on the screen of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(the -6.43)(word -2.04)(on -1.19)(the -2.81)(screen -5.18)(of -4.99)(the -1.59)(place -2.61)(. -5.73) line score is : -3.563, look ahead score is : 0.000
+-------------------------score:  -2.873017927405961;  adjusted_score: -2.847704461214669----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the blonde of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(blonde -3.63)(of -1.04)(the -3.43)(place -5.55)(. -8.47) line score is : -3.721, look ahead score is : 0.000
+-------------------------score:  -2.8738366279073735;  adjusted_score: -2.8485231617160816----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the sight on the screen of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(sight -2.28)(on -1.45)(the -3.20)(screen -4.22)(of -4.36)(the -2.35)(place -3.25)(. -3.23) line score is : -3.250, look ahead score is : 0.000
+-------------------------score:  -2.8770402330679423;  adjusted_score: -2.8517267668766504----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the queen of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(queen -3.63)(of -1.04)(the -3.43)(place -5.46)(. -4.85) line score is : -3.350, look ahead score is : 0.000
+-------------------------score:  -2.882113924927332;  adjusted_score: -2.857110156796195----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the child of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(child -3.67)(of -1.09)(the -3.41)(place -5.32)(. -6.99) line score is : -3.528, look ahead score is : 0.000
+-------------------------score:  -2.886457676632386;  adjusted_score: -2.8613164942395506----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and the look on the child of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(the -6.43)(look -2.04)(on -1.19)(the -2.81)(child -4.22)(of -1.41)(the -3.54)(place -5.19)(. -6.74) line score is : -3.661, look ahead score is : 0.000
+-------------------------score:  -2.887592404572801;  adjusted_score: -2.8622789383815093----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the sight on the ground of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(sight -2.28)(on -1.45)(the -3.20)(ground -4.22)(of -4.36)(the -2.35)(place -3.51)(. -4.73) line score is : -3.425, look ahead score is : 0.000
+-------------------------score:  -2.8880387747265175;  adjusted_score: -2.8630350065953807----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the boy of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(boy -3.67)(of -1.09)(the -3.41)(place -3.20)(. -9.43) line score is : -3.560, look ahead score is : 0.000
+-------------------------score:  -2.8899290547565077;  adjusted_score: -2.864615588565216----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the prince of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(prince -3.63)(of -1.04)(the -3.43)(place -5.56)(. -6.09) line score is : -3.485, look ahead score is : 0.000
+-------------------------score:  -2.898901320260131;  adjusted_score: -2.8737601378672952----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and the look on the boy of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(the -6.43)(look -2.04)(on -1.19)(the -2.81)(boy -4.22)(of -1.41)(the -3.54)(place -3.40)(. -9.22) line score is : -3.730, look ahead score is : 0.000
+-------------------------score:  -2.9036142884217426;  adjusted_score: -2.8783008222304507----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the kid of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(kid -3.63)(of -1.04)(the -3.43)(place -5.78)(. -8.56) line score is : -3.753, look ahead score is : 0.000
+-------------------------score:  -2.904535844865622;  adjusted_score: -2.8793946624727864----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and the look on the queen of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(the -6.43)(look -2.04)(on -1.19)(the -2.81)(queen -4.22)(of -1.41)(the -3.54)(place -5.29)(. -4.89) line score is : -3.487, look ahead score is : 0.000
+-------------------------score:  -2.904743980672775;  adjusted_score: -2.879740212541638----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the blonde of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(blonde -3.67)(of -1.09)(the -3.41)(place -5.46)(. -8.59) line score is : -3.703, look ahead score is : 0.000
+-------------------------score:  -2.9048341751437294;  adjusted_score: -2.8795207089524375----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the guy of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(guy -3.63)(of -1.04)(the -3.43)(place -5.30)(. -9.10) line score is : -3.759, look ahead score is : 0.000
+-------------------------score:  -2.9058975834173686;  adjusted_score: -2.8805841172260767----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the man of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(man -3.63)(of -1.04)(the -3.43)(place -3.67)(. -8.63) line score is : -3.549, look ahead score is : 0.000
+-------------------------score:  -2.9087265607421147;  adjusted_score: -2.883722792610978----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the queen of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(queen -3.67)(of -1.09)(the -3.41)(place -5.28)(. -4.92) line score is : -3.317, look ahead score is : 0.000
+-------------------------score:  -2.9290377104259804;  adjusted_score: -2.9037242442346884----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the cute of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(cute -3.63)(of -1.04)(the -3.43)(place -6.32)(. -8.38) line score is : -3.789, look ahead score is : 0.000
+-------------------------score:  -2.941146177267938;  adjusted_score: -2.916142409136801----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the prince of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(prince -3.67)(of -1.09)(the -3.41)(place -5.63)(. -6.19) line score is : -3.479, look ahead score is : 0.000
+-------------------------score:  -2.9447157549474277;  adjusted_score: -2.9194022887561357----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the cat of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(cat -3.63)(of -1.04)(the -3.43)(place -6.26)(. -8.97) line score is : -3.842, look ahead score is : 0.000
+-------------------------score:  -2.9525415522018164;  adjusted_score: -2.9275377840706795----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the man of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(man -3.67)(of -1.09)(the -3.41)(place -3.71)(. -8.70) line score is : -3.539, look ahead score is : 0.000
+-------------------------score:  -2.953190751543099;  adjusted_score: -2.9281869834119623----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was stunned by her name , 
+ and the look on the guy of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(stunned -0.93)(by -1.93)(her -5.64)(name -2.02)(, -1.65) line score is : -2.962, look ahead score is : 0.635
+(and -1.65)(the -6.49)(look -2.25)(on -1.32)(the -3.08)(guy -3.67)(of -1.09)(the -3.41)(place -5.55)(. -9.25) line score is : -3.777, look ahead score is : 0.000
+-------------------------score:  -2.95613343285566;  adjusted_score: -2.9309922504628245----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and the look on the man of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(the -6.43)(look -2.04)(on -1.19)(the -2.81)(man -4.22)(of -1.41)(the -3.54)(place -4.02)(. -8.52) line score is : -3.723, look ahead score is : 0.000
+-------------------------score:  -2.9681115858821254;  adjusted_score: -2.9427981196908335----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the pale of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(pale -3.63)(of -1.04)(the -3.43)(place -5.83)(. -7.77) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -2.9788901213782304;  adjusted_score: -2.9535766551869385----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and the look on the king of the place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(the -6.49)(look -2.28)(on -1.45)(the -3.20)(king -3.63)(of -1.04)(the -3.43)(place -6.34)(. -4.99) line score is : -3.451, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.736623332311865;  adjusted_score: -2.7097668215236625----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she looked down and noticed her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(looked -2.96)(down -1.57)(and -1.05)(noticed -4.27)(her -4.87)(place -2.69)(. -3.60) line score is : -2.848, look ahead score is : 0.000
+-------------------------score:  -2.747136407007929;  adjusted_score: -2.7202798962197265----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she looked down and saw our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(looked -2.96)(down -1.57)(and -1.05)(saw -4.27)(our -4.87)(place -2.69)(. -1.19) line score is : -2.581, look ahead score is : 0.000
+-------------------------score:  -2.773037907143589;  adjusted_score: -2.7461813963553867----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she looked down and spotted her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(looked -2.96)(down -1.57)(and -1.05)(spotted -4.27)(her -4.87)(place -2.69)(. -5.62) line score is : -3.073, look ahead score is : 0.000
+-------------------------score:  -2.794426948239561;  adjusted_score: -2.767570437451359----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she looked down and noticed my place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(looked -2.96)(down -1.57)(and -1.05)(noticed -4.27)(my -4.87)(place -2.69)(. -3.60) line score is : -2.848, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.762903834169265;  adjusted_score: -2.7377626517764293----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by a flame , 
+ and she fell down and broke our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(a -5.04)(flame -1.03)(, -1.53) line score is : -2.718, look ahead score is : 0.642
+(and -1.53)(she -7.89)(fell -2.46)(down -0.90)(and -1.68)(broke -2.43)(our -2.18)(place -3.05)(. -3.27) line score is : -2.821, look ahead score is : 0.000
+-------------------------score:  -2.854295431112405;  adjusted_score: -2.8291542487195693----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by a flame , 
+ and she fell down and began her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(a -5.04)(flame -1.03)(, -1.53) line score is : -2.718, look ahead score is : 0.642
+(and -1.53)(she -7.89)(fell -2.46)(down -0.90)(and -1.68)(began -2.43)(her -2.18)(place -3.05)(. -3.88) line score is : -2.889, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP$ NN VBD A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ my mama was a goat 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.7701678453313727;  adjusted_score: -2.7440012162106653----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ her body was a flame , 
+ and she looked down and noticed her place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(her -4.27)(body -4.30)(was -2.11)(a -4.02)(flame -1.84)(, -5.28) line score is : -3.635, look ahead score is : 0.693
+(and -5.28)(she -3.68)(looked -2.02)(down -1.13)(and -0.98)(noticed -4.44)(her -2.80)(place -2.57)(. -4.21) line score is : -3.011, look ahead score is : 0.000
+-------------------------score:  -2.7844736214967503;  adjusted_score: -2.758306992376043----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ her body was a flame , 
+ and she looked down and saw our place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(her -4.27)(body -4.30)(was -2.11)(a -4.02)(flame -1.84)(, -5.28) line score is : -3.635, look ahead score is : 0.693
+(and -5.28)(she -3.68)(looked -2.02)(down -1.13)(and -0.98)(saw -4.44)(our -2.80)(place -2.57)(. -0.56) line score is : -2.606, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and now he 's a college professor 
+-------------------------score:  -2.8146964719579106;  adjusted_score: -2.785919925688255----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she came back from the day , 
+ she was ready to stay , 
+ and now she has a family place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(came -1.94)(back -5.55)(from -4.01)(the -1.89)(day -1.84)(, -4.76) line score is : -3.055, look ahead score is : 0.750
+(she -4.76)(was -4.33)(ready -3.16)(to -1.81)(stay -4.19)(, -0.64) line score is : -3.147, look ahead score is : 0.689
+(and -0.64)(now -5.97)(she -2.74)(has -1.91)(a -3.80)(family -0.77)(place -4.29)(. -2.10) line score is : -2.776, look ahead score is : 0.000
+-------------------------score:  -2.8636396454587096;  adjusted_score: -2.8367831346705072----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and now she has a family place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(now -4.03)(she -2.96)(has -1.57)(a -3.47)(family -0.80)(place -5.52)(. -2.08) line score is : -2.628, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was told by his wife 
+ as it tried to explain , I am a spi 
+-------------------------score:  -2.868213077185347;  adjusted_score: -2.842899610994055----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i have a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(have -3.90)(a -3.10)(place -5.51)(. -3.23) line score is : -3.418, look ahead score is : 0.000
+-------------------------score:  -2.8701577663750335;  adjusted_score: -2.8448443001837416----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i have a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(have -3.95)(a -2.53)(place -6.18)(. -3.01) line score is : -3.412, look ahead score is : 0.000
+-------------------------score:  -2.890278439694906;  adjusted_score: -2.8649649735036142----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i am a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(am -3.90)(a -3.10)(place -5.51)(. -1.73) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -2.8972746821339515;  adjusted_score: -2.8719612159426595----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i want a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(want -3.95)(a -2.53)(place -6.18)(. -3.74) line score is : -3.478, look ahead score is : 0.000
+-------------------------score:  -2.914729860282558;  adjusted_score: -2.889416394091266----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i want a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(want -3.90)(a -3.10)(place -5.51)(. -4.52) line score is : -3.536, look ahead score is : 0.000
+-------------------------score:  -2.9181839704842254;  adjusted_score: -2.8928705042929335----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i know a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(know -3.90)(a -3.10)(place -5.51)(. -4.00) line score is : -3.488, look ahead score is : 0.000
+-------------------------score:  -2.9210879999377273;  adjusted_score: -2.8957745337464353----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i know a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(know -3.95)(a -2.53)(place -6.18)(. -3.83) line score is : -3.487, look ahead score is : 0.000
+-------------------------score:  -2.9266911380759932;  adjusted_score: -2.9013776718847013----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i am a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(am -3.95)(a -2.53)(place -6.18)(. -2.27) line score is : -3.345, look ahead score is : 0.000
+-------------------------score:  -2.96901946947636;  adjusted_score: -2.943545539087671----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ as she was to be , i mean a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(as -2.94)(she -7.02)(was -2.11)(to -4.53)(be -1.99)(, -1.80)(i -4.21)(mean -0.88)(a -3.12)(place -6.69)(. -3.92) line score is : -3.563, look ahead score is : 0.000
+-------------------------score:  -2.9758156331475165;  adjusted_score: -2.9503417027588275----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ as she was to be , i guess a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(as -2.94)(she -7.02)(was -2.11)(to -4.53)(be -1.99)(, -1.80)(i -4.21)(guess -0.88)(a -3.12)(place -6.69)(. -2.33) line score is : -3.419, look ahead score is : 0.000
+-------------------------score:  -2.975999346934259;  adjusted_score: -2.950685880742967----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i see a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(see -3.95)(a -2.53)(place -6.18)(. -3.94) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -2.986968901610988;  adjusted_score: -2.9616554354196962----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i mean a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(mean -3.95)(a -2.53)(place -6.18)(. -4.04) line score is : -3.506, look ahead score is : 0.000
+-------------------------score:  -2.9916989456533507;  adjusted_score: -2.9662250152646616----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ as she was to be , i think a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(as -2.94)(she -7.02)(was -2.11)(to -4.53)(be -1.99)(, -1.80)(i -4.21)(think -0.88)(a -3.12)(place -6.69)(. -2.04) line score is : -3.393, look ahead score is : 0.000
+-------------------------score:  -3.008597323506632;  adjusted_score: -2.98328385731534----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i guess a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(guess -3.95)(a -2.53)(place -6.18)(. -3.74) line score is : -3.478, look ahead score is : 0.000
+-------------------------score:  -3.0115432725561893;  adjusted_score: -2.9862298063648973----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to ask , i think a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(ask -1.38)(, -1.86)(i -4.47)(think -3.95)(a -2.53)(place -6.18)(. -3.45) line score is : -3.452, look ahead score is : 0.000
+-------------------------score:  -3.0128467980881823;  adjusted_score: -2.9875333318968904----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i guess a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(guess -3.90)(a -3.10)(place -5.51)(. -4.42) line score is : -3.527, look ahead score is : 0.000
+-------------------------score:  -3.0185517549843475;  adjusted_score: -2.9932382887930555----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i think a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(think -3.90)(a -3.10)(place -5.51)(. -3.85) line score is : -3.475, look ahead score is : 0.000
+-------------------------score:  -3.0301297486157104;  adjusted_score: -3.0046558182270213----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ as she was to be , i am a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(as -2.94)(she -7.02)(was -2.11)(to -4.53)(be -1.99)(, -1.80)(i -4.21)(am -0.88)(a -3.12)(place -6.69)(. -4.02) line score is : -3.573, look ahead score is : 0.000
+-------------------------score:  -3.09383897083428;  adjusted_score: -3.068525504642988----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ as she had to say , i do a place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(as -1.67)(she -6.49)(had -2.28)(to -3.70)(say -1.38)(, -1.86)(i -4.47)(do -3.90)(a -3.10)(place -5.51)(. -4.51) line score is : -3.535, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.894960211997386;  adjusted_score: -2.8698190296045505----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was struck by her name , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(struck -0.93)(by -1.93)(her -5.04)(name -1.03)(, -3.05) line score is : -2.936, look ahead score is : 0.642
+(and -3.05)(it -6.43)(was -2.04)(not -1.19)(like -3.65)(something -1.36)(of -3.75)(place -3.63)(. -4.72) line score is : -3.315, look ahead score is : 0.000
+-------------------------score:  -2.9159234691760503;  adjusted_score: -2.890449538787361----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(and -2.94)(it -7.02)(was -2.11)(not -1.64)(like -3.59)(something -0.76)(of -3.94)(place -3.58)(. -4.93) line score is : -3.389, look ahead score is : 0.000
+-------------------------score:  -2.922959443589207;  adjusted_score: -2.897645977397915----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was shocked by her name , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(shocked -0.93)(by -1.93)(her -4.61)(name -2.13)(, -1.67) line score is : -2.833, look ahead score is : 0.651
+(and -1.67)(it -6.49)(was -2.28)(not -1.45)(like -4.04)(something -1.23)(of -3.15)(place -3.91)(. -5.23) line score is : -3.272, look ahead score is : 0.000
+-------------------------score:  -3.020861173456069;  adjusted_score: -2.99538724306738----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ and she was not like someone of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(and -2.94)(she -7.02)(was -2.11)(not -1.64)(like -1.55)(someone -2.01)(of -4.05)(place -5.91)(. -5.44) line score is : -3.628, look ahead score is : 0.000
+-------------------------score:  -3.122338809480425;  adjusted_score: -3.096864879091736----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by her name , 
+ and it was then like someone of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(her -4.64)(name -1.45)(, -2.94) line score is : -2.922, look ahead score is : 0.659
+(and -2.94)(it -7.02)(was -2.11)(then -1.64)(like -3.59)(someone -0.76)(of -3.60)(place -5.91)(. -4.80) line score is : -3.595, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.916974304651376;  adjusted_score: -2.891500374262687----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by a flame , 
+ and it was not like something of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(a -4.64)(flame -1.45)(, -1.12) line score is : -2.662, look ahead score is : 0.659
+(and -1.12)(it -7.98)(was -2.83)(not -1.18)(like -3.30)(something -1.60)(of -4.02)(place -3.48)(. -4.62) line score is : -3.348, look ahead score is : 0.000
+-------------------------score:  -2.9253648989251815;  adjusted_score: -2.8998909685364924----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by a flame , 
+ and it was not like fire of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(a -4.64)(flame -1.45)(, -1.12) line score is : -2.662, look ahead score is : 0.659
+(and -1.12)(it -7.98)(was -2.83)(not -1.18)(like -3.30)(fire -1.60)(of -4.02)(place -3.48)(. -5.25) line score is : -3.418, look ahead score is : 0.000
+-------------------------score:  -2.9542189412168227;  adjusted_score: -2.9287450108281337----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ she was met by a flame , 
+ and it was not like burning of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(she -4.27)(was -4.30)(met -0.93)(by -1.93)(a -4.64)(flame -1.45)(, -1.12) line score is : -2.662, look ahead score is : 0.659
+(and -1.12)(it -7.98)(was -2.83)(not -1.18)(like -3.30)(burning -1.60)(of -4.02)(place -3.48)(. -5.37) line score is : -3.432, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.9486603331170045;  adjusted_score: -2.921803822328802----------------------- 
+there was a bright girl named chase 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(did -2.96)(not -1.57)(like -1.05)(feeling -5.02)(of -1.39)(place -4.87)(. -6.16) line score is : -3.071, look ahead score is : 0.000
+-------------------------score:  -2.9643544074497186;  adjusted_score: -2.937497896661516----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and it was almost like home of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(it -4.03)(was -2.96)(almost -1.57)(like -3.49)(home -0.58)(of -4.65)(place -2.54)(. -6.50) line score is : -2.991, look ahead score is : 0.000
+-------------------------score:  -2.971433319558855;  adjusted_score: -2.9445768087706528----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and it was almost like fun of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(it -4.03)(was -2.96)(almost -1.57)(like -3.49)(fun -0.58)(of -4.65)(place -2.54)(. -7.84) line score is : -3.140, look ahead score is : 0.000
+-------------------------score:  -2.9853432759991847;  adjusted_score: -2.9584867652109823----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she was still like crazy of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(was -2.96)(still -1.57)(like -1.05)(crazy -0.95)(of -4.47)(place -6.57)(. -5.96) line score is : -3.127, look ahead score is : 0.000
+-------------------------score:  -3.0071179367951117;  adjusted_score: -2.9802614260069094----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ she was back from the day , 
+ she was ready to play , 
+ and she was almost like home of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(she -1.40)(was -1.94)(back -1.16)(from -8.03)(the -2.43)(day -2.44)(, -5.58) line score is : -3.282, look ahead score is : 0.654
+(she -5.58)(was -4.01)(ready -2.61)(to -1.30)(play -3.34)(, -0.60) line score is : -2.908, look ahead score is : 0.689
+(and -0.60)(she -4.03)(was -2.96)(almost -1.57)(like -1.05)(home -0.95)(of -5.99)(place -5.46)(. -4.81) line score is : -3.046, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP$ NN VBD A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ my mama was a goat 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.0199924057890333;  adjusted_score: -2.993825776668326----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ her body was a flame , 
+ and it was not like burning of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(her -4.27)(body -4.30)(was -2.11)(a -4.02)(flame -1.84)(, -5.28) line score is : -3.635, look ahead score is : 0.693
+(and -5.28)(it -3.68)(was -2.02)(not -1.13)(like -3.71)(burning -1.14)(of -3.71)(place -3.66)(. -6.25) line score is : -3.396, look ahead score is : 0.000
+-------------------------score:  -3.0425765653170886;  adjusted_score: -3.016409936196381----------------------- 
+there was a bright girl named grace 
+ who had a perfect smile on her face . 
+ but the moment she came , 
+ her body was a flame , 
+ and she did not like feeling of place . 
+------------------------- score breakdown ------------------------ 
+(who -1.53)(had -2.56)(a -2.09)(perfect -4.99)(smile -2.27)(on -1.87)(her -0.02)(face -0.05)(. -1.40) line score is : -1.864, look ahead score is : 0.000
+(but -1.40)(the -4.81)(moment -3.40)(she -3.33)(came -0.65)(, -4.27) line score is : -2.977, look ahead score is : 0.615
+(her -4.27)(body -4.30)(was -2.11)(a -4.02)(flame -1.84)(, -5.28) line score is : -3.635, look ahead score is : 0.693
+(and -5.28)(she -3.68)(did -2.02)(not -1.13)(like -0.98)(feeling -4.91)(of -0.15)(place -5.98)(. -7.05) line score is : -3.466, look ahead score is : 0.000

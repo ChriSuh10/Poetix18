@@ -1,0 +1,77 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.964098447933793;  adjusted_score: -2.93939264960587----------------------- 
+there was a loud cleaner named pete 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were met by our guide , 
+ and we went down and saw our fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.37)(ran -4.16)(a -2.53)(small -3.32)(shop -2.37)(on -2.53)(our -4.91)(street -0.84)(. -1.21) line score is : -2.582, look ahead score is : 0.000
+(the -1.21)(day -3.54)(of -4.94)(our -2.83)(ride -2.08)(, -5.76) line score is : -3.391, look ahead score is : 0.593
+(we -5.76)(were -1.29)(met -1.70)(by -2.08)(our -4.45)(guide -0.37)(, -3.82) line score is : -2.780, look ahead score is : 0.642
+(and -3.82)(we -3.79)(went -1.00)(down -3.55)(and -1.82)(saw -3.53)(our -3.01)(fleet -4.32)(. -3.10) line score is : -3.105, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.0758949202649735;  adjusted_score: -3.05067529786159----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were told by our guide , 
+ as we stopped to pay , they have a fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.37)(ran -4.16)(a -2.53)(small -3.32)(shop -2.37)(on -2.53)(our -4.91)(street -0.84)(. -1.21) line score is : -2.582, look ahead score is : 0.000
+(the -1.21)(day -3.54)(of -4.94)(our -2.83)(ride -2.08)(, -5.76) line score is : -3.391, look ahead score is : 0.593
+(we -5.76)(were -1.29)(told -1.70)(by -2.08)(our -3.41)(guide -1.67)(, -2.35) line score is : -2.609, look ahead score is : 0.668
+(as -2.35)(we -2.58)(stopped -2.56)(to -5.95)(pay -0.69)(, -3.97)(they -1.91)(have -3.77)(a -1.32)(fleet -5.89)(. -5.39) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.0764568483128265;  adjusted_score: -3.051237225909443----------------------- 
+there was a loud cleaner named pete 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were told by our guide , 
+ as we stopped to eat , they have a fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.37)(ran -4.16)(a -2.53)(small -3.32)(shop -2.37)(on -2.53)(our -4.91)(street -0.84)(. -1.21) line score is : -2.582, look ahead score is : 0.000
+(the -1.21)(day -3.54)(of -4.94)(our -2.83)(ride -2.08)(, -5.76) line score is : -3.391, look ahead score is : 0.593
+(we -5.76)(were -1.29)(told -1.70)(by -2.08)(our -3.41)(guide -1.67)(, -2.35) line score is : -2.609, look ahead score is : 0.668
+(as -2.35)(we -2.58)(stopped -2.56)(to -5.95)(eat -0.69)(, -3.97)(they -1.91)(have -3.12)(a -1.35)(fleet -6.04)(. -5.18) line score is : -3.246, look ahead score is : 0.000
+-------------------------score:  -3.141131786739125;  adjusted_score: -3.1159121643357417----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were told by our guide , 
+ as we stopped to eat , they are a fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.37)(ran -4.16)(a -2.53)(small -3.32)(shop -2.37)(on -2.53)(our -4.91)(street -0.84)(. -1.21) line score is : -2.582, look ahead score is : 0.000
+(the -1.21)(day -3.54)(of -4.94)(our -2.83)(ride -2.08)(, -5.76) line score is : -3.391, look ahead score is : 0.593
+(we -5.76)(were -1.29)(told -1.70)(by -2.08)(our -3.41)(guide -1.67)(, -2.35) line score is : -2.609, look ahead score is : 0.668
+(as -2.35)(we -2.58)(stopped -2.56)(to -5.95)(eat -0.69)(, -3.97)(they -1.91)(are -3.12)(a -1.35)(fleet -6.04)(. -4.97) line score is : -3.227, look ahead score is : 0.000
+-------------------------score:  -3.166955267681795;  adjusted_score: -3.1417356452784118----------------------- 
+there was a loud cleaner named marguerite 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were told by our guide , 
+ as we stopped to pay , they are a fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.37)(ran -4.16)(a -2.53)(small -3.32)(shop -2.37)(on -2.53)(our -4.91)(street -0.84)(. -1.21) line score is : -2.582, look ahead score is : 0.000
+(the -1.21)(day -3.54)(of -4.94)(our -2.83)(ride -2.08)(, -5.76) line score is : -3.391, look ahead score is : 0.593
+(we -5.76)(were -1.29)(told -1.70)(by -2.08)(our -3.41)(guide -1.67)(, -2.35) line score is : -2.609, look ahead score is : 0.668
+(as -2.35)(we -2.58)(stopped -2.56)(to -5.95)(pay -0.69)(, -3.97)(they -1.91)(are -3.77)(a -1.32)(fleet -5.89)(. -5.16) line score is : -3.287, look ahead score is : 0.000
