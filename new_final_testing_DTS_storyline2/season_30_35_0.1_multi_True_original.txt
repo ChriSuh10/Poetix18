@@ -1,0 +1,176 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and now a new teacher they seek 
+-------------------------score:  -2.7431982775451615;  adjusted_score: -2.7167526010097935----------------------- 
+there was a shy captain named jess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and maybe a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(maybe -6.58)(a -1.61)(little -0.75)(bit -5.62)(i -4.11)(guess -2.97)(. -1.29) line score is : -2.979, look ahead score is : 0.000
+-------------------------score:  -2.7879394089104608;  adjusted_score: -2.7614937323750928----------------------- 
+there was a shy captain named jess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and maybe a little chat i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(maybe -6.58)(a -1.61)(little -0.75)(chat -5.62)(i -4.11)(guess -2.97)(. -3.07) line score is : -3.202, look ahead score is : 0.000
+-------------------------score:  -2.7937465069117025;  adjusted_score: -2.7673008303763345----------------------- 
+there was a shy captain named ines 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and sometimes a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(sometimes -6.58)(a -1.61)(little -0.75)(bit -5.17)(i -4.56)(guess -2.81)(. -1.50) line score is : -2.986, look ahead score is : 0.000
+-------------------------score:  -2.8016303741605952;  adjusted_score: -2.7751846976252272----------------------- 
+there was a shy captain named les 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and sometimes a little chat i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(sometimes -6.58)(a -1.61)(little -0.75)(chat -5.17)(i -4.56)(guess -2.81)(. -3.11) line score is : -3.187, look ahead score is : 0.000
+-------------------------score:  -2.8262819891097024;  adjusted_score: -2.7998363125743344----------------------- 
+there was a shy captain named wes 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and sometimes a second time i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(sometimes -6.58)(a -1.61)(second -0.75)(time -5.17)(i -4.56)(guess -4.83)(. -0.79) line score is : -3.148, look ahead score is : 0.000
+-------------------------score:  -2.847779953968711;  adjusted_score: -2.8213342762412505----------------------- 
+there was a shy captain named tess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my frame , 
+ and sometimes a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(frame -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(sometimes -8.41)(a -0.71)(little -0.73)(bit -5.29)(i -4.63)(guess -2.62)(. -1.65) line score is : -3.118, look ahead score is : 0.000
+-------------------------score:  -2.857000814867206;  adjusted_score: -2.830555138331838----------------------- 
+there was a shy captain named tess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and sometimes a little girl i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(sometimes -6.58)(a -1.61)(little -0.75)(girl -5.17)(i -4.56)(guess -2.81)(. -4.95) line score is : -3.417, look ahead score is : 0.000
+-------------------------score:  -2.9422338848235086;  adjusted_score: -2.9157882082881406----------------------- 
+there was a shy captain named les 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and maybe a little bit me guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(maybe -6.58)(a -1.61)(little -0.75)(bit -5.62)(me -4.11)(guess -2.97)(. -1.29) line score is : -2.979, look ahead score is : 0.000
+-------------------------score:  -2.9698843454243615;  adjusted_score: -2.9434386688889935----------------------- 
+there was a shy captain named ines 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and maybe a little bit she guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(maybe -6.58)(a -1.61)(little -0.75)(bit -5.62)(she -4.11)(guess -2.97)(. -1.29) line score is : -2.979, look ahead score is : 0.000
+-------------------------score:  -2.980027532321401;  adjusted_score: -2.953581855786033----------------------- 
+there was a shy captain named les 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and sometimes a little bit me guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(sometimes -6.58)(a -1.61)(little -0.75)(bit -5.17)(me -4.56)(guess -2.81)(. -1.50) line score is : -2.986, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP$ NNS VBD JJR AND JJR . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and her freckles grew rarer and rarer 
+-------------------------score:  -2.94992545817513;  adjusted_score: -2.9234797804476695----------------------- 
+there was a shy captain named tess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my frame , 
+ and my arms were heavier and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(frame -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(my -8.41)(arms -0.71)(were -0.73)(heavier -5.74)(and -4.16)(less -2.09)(. -6.57) line score is : -3.663, look ahead score is : 0.000
+-------------------------score:  -2.9875976947369054;  adjusted_score: -2.9611520170094447----------------------- 
+there was a shy captain named tess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my frame , 
+ and my muscles were stronger and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(frame -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(my -8.41)(muscles -0.71)(were -0.73)(stronger -5.74)(and -4.80)(less -2.83)(. -5.58) line score is : -3.712, look ahead score is : 0.000
+-------------------------score:  -3.019985115271993;  adjusted_score: -2.993539438736625----------------------- 
+there was a shy captain named bess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and her eyes became bigger and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(her -6.58)(eyes -1.61)(became -0.75)(bigger -5.84)(and -1.60)(less -6.98)(. -5.53) line score is : -3.723, look ahead score is : 0.000
+-------------------------score:  -3.030817182851024;  adjusted_score: -3.004371506315656----------------------- 
+there was a shy captain named bess 
+ who kept a close eye on my progress . 
+ she would go to a game , 
+ take a look at my name , 
+ and her eyes became wider and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(kept -4.45)(a -3.49)(close -3.46)(eye -0.19)(on -0.04)(my -3.59)(progress -2.31)(. -1.46) line score is : -2.258, look ahead score is : 0.000
+(she -1.46)(would -2.27)(go -3.56)(to -4.42)(a -1.80)(game -3.92)(, -3.57) line score is : -2.998, look ahead score is : 0.650
+(take -3.57)(a -2.20)(look -4.16)(at -1.27)(my -2.68)(name -0.51)(, -0.90) line score is : -2.184, look ahead score is : 0.672
+(and -0.90)(her -6.58)(eyes -1.61)(became -0.75)(wider -5.84)(and -1.60)(less -6.98)(. -5.49) line score is : -3.719, look ahead score is : 0.000

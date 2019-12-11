@@ -1,0 +1,770 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP RB VBD , 
+ AND PRP VBD TO THE NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he gladly proclaimed 
+ and they rushed to the rail 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.189996566157788;  adjusted_score: -3.1677511414699255----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ as she tried to think , i have a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(as -1.95)(she -2.43)(tried -1.79)(to -2.99)(think -2.51)(, -3.37)(i -0.10)(have -3.58)(a -3.72)(dread -5.57)(. -3.95) line score is : -2.906, look ahead score is : 0.000
+-------------------------score:  -3.208020481746644;  adjusted_score: -3.1857750570587813----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ as she tried to think , i feel a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(as -1.95)(she -2.43)(tried -1.79)(to -2.99)(think -2.51)(, -3.37)(i -0.10)(feel -3.58)(a -3.72)(dread -5.57)(. -3.95) line score is : -2.906, look ahead score is : 0.000
+-------------------------score:  -3.231879386585206;  adjusted_score: -3.2096339618973433----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ as she tried to think , i see a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(as -1.95)(she -2.43)(tried -1.79)(to -2.99)(think -2.51)(, -3.37)(i -0.10)(see -3.58)(a -3.72)(dread -5.57)(. -4.87) line score is : -2.990, look ahead score is : 0.000
+-------------------------score:  -3.291716221254319;  adjusted_score: -3.2694707965664564----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ as she tried to think , i guess a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(as -1.95)(she -2.43)(tried -1.79)(to -2.99)(think -2.51)(, -3.37)(i -0.10)(guess -3.58)(a -3.72)(dread -5.57)(. -2.89) line score is : -2.810, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WITH PRP$ NNS ON THE NNS , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ with your toes on the keys 
+ he was ready to faint 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.202241492033114;  adjusted_score: -3.18903842768084----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ as she tried to think , i have a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(as -0.00)(she -8.51)(tried -3.91)(to -3.55)(think -1.78)(, -3.84)(i -0.11)(have -3.91)(a -3.59)(dread -5.76)(. -3.58) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -3.2200363325092063;  adjusted_score: -3.2068332681569323----------------------- 
+there was a nervous girl named ned 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ as she tried to think , i feel a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(as -0.00)(she -8.51)(tried -3.91)(to -3.55)(think -1.78)(, -3.84)(i -0.11)(feel -3.91)(a -3.59)(dread -5.76)(. -4.06) line score is : -3.548, look ahead score is : 0.000
+-------------------------score:  -3.28041688951335;  adjusted_score: -3.267213825161076----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ as she tried to think , i see a dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(as -0.00)(she -8.51)(tried -3.91)(to -3.55)(think -1.78)(, -3.84)(i -0.11)(see -3.91)(a -3.59)(dread -5.76)(. -4.73) line score is : -3.609, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP RB VBD , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he gladly proclaimed 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.23436761846145;  adjusted_score: -3.2121221937735873----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like fear of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(fear -0.70)(of -5.05)(dread -1.47)(. -7.76) line score is : -3.066, look ahead score is : 0.000
+-------------------------score:  -3.2669349407156307;  adjusted_score: -3.2446895160277682----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and she was still like crying of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(she -2.43)(was -1.79)(still -2.57)(like -1.67)(crying -2.83)(of -3.97)(dread -5.88)(. -4.53) line score is : -3.071, look ahead score is : 0.000
+-------------------------score:  -3.2711178556084635;  adjusted_score: -3.248872430920601----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like pain of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(pain -0.70)(of -5.05)(dread -1.47)(. -7.67) line score is : -3.057, look ahead score is : 0.000
+-------------------------score:  -3.2814096584916115;  adjusted_score: -3.259164233803749----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was not like crying of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(not -2.57)(like -3.87)(crying -0.70)(of -4.54)(dread -3.65)(. -6.33) line score is : -3.094, look ahead score is : 0.000
+-------------------------score:  -3.285464622080326;  adjusted_score: -3.2632191973924636----------------------- 
+there was a nervous girl named ned 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like death of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(death -0.70)(of -5.05)(dread -1.47)(. -8.33) line score is : -3.130, look ahead score is : 0.000
+-------------------------score:  -3.299139449497064;  adjusted_score: -3.2768940248092013----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like gas of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(gas -0.70)(of -5.05)(dread -1.47)(. -9.04) line score is : -3.208, look ahead score is : 0.000
+-------------------------score:  -3.316279325385888;  adjusted_score: -3.2940339006980257----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was not like something of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(not -2.57)(like -3.87)(something -0.70)(of -4.54)(dread -3.65)(. -4.85) line score is : -2.929, look ahead score is : 0.000
+-------------------------score:  -3.354697312414646;  adjusted_score: -3.3324518877267835----------------------- 
+there was a nervous girl named ned 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like hell of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(hell -0.70)(of -5.05)(dread -1.47)(. -8.97) line score is : -3.201, look ahead score is : 0.000
+-------------------------score:  -3.362516484161218;  adjusted_score: -3.3402710594733556----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was then like something of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(then -2.57)(like -3.87)(something -0.70)(of -4.81)(dread -6.46)(. -3.22) line score is : -3.090, look ahead score is : 0.000
+-------------------------score:  -3.385231627523899;  adjusted_score: -3.3629862028360367----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like time of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(time -0.70)(of -5.05)(dread -1.47)(. -8.25) line score is : -3.121, look ahead score is : 0.000
+-------------------------score:  -3.427595573167006;  adjusted_score: -3.4053501484791435----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was almost like blood of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(almost -2.57)(like -3.87)(blood -0.70)(of -5.05)(dread -1.47)(. -8.09) line score is : -3.103, look ahead score is : 0.000
+-------------------------score:  -3.586059969166915;  adjusted_score: -3.5638145444790523----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ she actually cried , 
+ and she looked to the side , 
+ and it was then like someone of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(she -1.54)(actually -1.55)(cried -7.37)(, -4.76) line score is : -3.806, look ahead score is : 0.500
+(and -4.76)(she -2.49)(looked -2.33)(to -2.21)(the -4.01)(side -5.24)(, -1.95) line score is : -3.283, look ahead score is : 0.612
+(and -1.95)(it -2.43)(was -1.79)(then -2.57)(like -3.87)(someone -0.70)(of -4.81)(dread -6.46)(. -3.81) line score is : -3.156, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WITH PRP$ NNS ON THE NNS , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ with your toes on the keys 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.248796445402232;  adjusted_score: -3.236368821832267----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to please , 
+ so she reached up and cut on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(please -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -7.67)(reached -3.39)(up -3.80)(and -0.79)(cut -3.37)(on -1.86)(the -0.63)(dread -7.47)(. -4.43) line score is : -3.365, look ahead score is : 0.000
+-------------------------score:  -3.2666440917686983;  adjusted_score: -3.254216468198733----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to please , 
+ so she reached up and let on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(please -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -7.67)(reached -3.39)(up -3.80)(and -0.79)(let -3.37)(on -1.86)(the -0.63)(dread -5.53)(. -8.59) line score is : -3.586, look ahead score is : 0.000
+-------------------------score:  -3.269772548115615;  adjusted_score: -3.2573449245456496----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to please , 
+ so she reached up and rub on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(please -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -7.67)(reached -3.39)(up -3.80)(and -0.79)(rub -3.37)(on -1.86)(the -0.63)(dread -7.68)(. -4.82) line score is : -3.424, look ahead score is : 0.000
+-------------------------score:  -3.2712370866175853;  adjusted_score: -3.2588094624515733----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to freeze , 
+ so she reached up and cut on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(freeze -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -8.65)(reached -2.27)(up -4.26)(and -0.73)(cut -3.76)(on -2.15)(the -0.74)(dread -6.91)(. -4.47) line score is : -3.420, look ahead score is : 0.000
+-------------------------score:  -3.2715348352988562;  adjusted_score: -3.2591072111328443----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to freeze , 
+ so she reached up and let on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(freeze -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -8.65)(reached -2.27)(up -4.26)(and -0.73)(let -3.76)(on -2.15)(the -0.74)(dread -5.38)(. -8.54) line score is : -3.673, look ahead score is : 0.000
+-------------------------score:  -3.309761495752768;  adjusted_score: -3.297333872182803----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to please , 
+ so she reached up and pat on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(please -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -7.67)(reached -3.39)(up -3.80)(and -0.79)(pat -3.37)(on -1.86)(the -0.63)(dread -6.91)(. -6.04) line score is : -3.469, look ahead score is : 0.000
+-------------------------score:  -3.3322487116763084;  adjusted_score: -3.3198210875102965----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was ready to freeze , 
+ so she reached up and pat on the dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(ready -0.38)(to -3.47)(freeze -5.94)(, -0.24) line score is : -3.028, look ahead score is : 0.621
+(so -0.24)(she -8.65)(reached -2.27)(up -4.26)(and -0.73)(pat -3.76)(on -2.15)(the -0.74)(dread -6.90)(. -5.73) line score is : -3.545, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WITH PRP$ NNS ON THE NNS , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ with your toes on the keys 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.2492990480227903;  adjusted_score: -3.237574337036772----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and she looked down and saw our dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(she -7.08)(looked -2.50)(down -0.91)(and -1.92)(saw -4.32)(our -1.48)(dread -2.98)(. -0.38) line score is : -2.693, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WITH PRP$ NNS ON THE NNS , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ with your toes on the keys 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.2726944306195946;  adjusted_score: -3.2594913662673206----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like fear of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(fear -1.21)(of -4.20)(dread -2.20)(. -7.91) line score is : -3.822, look ahead score is : 0.000
+-------------------------score:  -3.281358168766019;  adjusted_score: -3.268155104413745----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like death of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(death -1.21)(of -4.20)(dread -2.20)(. -6.75) line score is : -3.693, look ahead score is : 0.000
+-------------------------score:  -3.2855577537120553;  adjusted_score: -3.2723546893597812----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like ice of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(ice -1.21)(of -4.20)(dread -2.20)(. -5.33) line score is : -3.535, look ahead score is : 0.000
+-------------------------score:  -3.3016877149493666;  adjusted_score: -3.2884846505970926----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and she did not like feeling of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(she -8.51)(did -3.91)(not -1.87)(like -2.39)(feeling -3.95)(of -0.54)(dread -6.79)(. -4.77) line score is : -3.636, look ahead score is : 0.000
+-------------------------score:  -3.3166567006410332;  adjusted_score: -3.303453636288759----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like breath of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(breath -1.21)(of -4.20)(dread -2.20)(. -8.35) line score is : -3.871, look ahead score is : 0.000
+-------------------------score:  -3.317367439463851;  adjusted_score: -3.304164375111577----------------------- 
+there was a nervous girl named ned 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like sleep of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(sleep -1.21)(of -4.20)(dread -2.20)(. -7.61) line score is : -3.789, look ahead score is : 0.000
+-------------------------score:  -3.3262004585267277;  adjusted_score: -3.3129973941744537----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like pain of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(pain -1.21)(of -4.20)(dread -2.20)(. -7.62) line score is : -3.789, look ahead score is : 0.000
+-------------------------score:  -3.3326472261251183;  adjusted_score: -3.3194441617728443----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like gas of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(gas -1.21)(of -4.20)(dread -2.20)(. -8.37) line score is : -3.873, look ahead score is : 0.000
+-------------------------score:  -3.3341210180224152;  adjusted_score: -3.320917953670141----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like heat of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(heat -1.21)(of -4.20)(dread -2.20)(. -8.27) line score is : -3.861, look ahead score is : 0.000
+-------------------------score:  -3.350496734798071;  adjusted_score: -3.337293670445797----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like snow of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(snow -1.21)(of -4.20)(dread -2.20)(. -7.78) line score is : -3.808, look ahead score is : 0.000
+-------------------------score:  -3.350571050614235;  adjusted_score: -3.337367986261961----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like air of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(air -1.21)(of -4.20)(dread -2.20)(. -7.20) line score is : -3.743, look ahead score is : 0.000
+-------------------------score:  -3.3825903491378995;  adjusted_score: -3.3693872847856254----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like cold of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(cold -1.21)(of -4.20)(dread -2.20)(. -7.35) line score is : -3.760, look ahead score is : 0.000
+-------------------------score:  -3.42638876226556;  adjusted_score: -3.413185697913286----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like life of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(life -1.21)(of -4.20)(dread -2.20)(. -7.80) line score is : -3.810, look ahead score is : 0.000
+-------------------------score:  -3.4666336619557114;  adjusted_score: -3.4534305976034374----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was able to freeze , 
+ and it was almost like blood of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(able -0.38)(to -3.47)(freeze -3.32)(, -0.00) line score is : -2.552, look ahead score is : 0.660
+(and -0.00)(it -8.51)(was -3.91)(almost -1.87)(like -4.58)(blood -1.21)(of -4.20)(dread -2.20)(. -8.24) line score is : -3.858, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WITH PRP$ NNS ON THE NNS , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ with your toes on the keys 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.347147318901438;  adjusted_score: -3.3353396405595723----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like death of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(death -1.11)(of -4.42)(dread -2.89)(. -6.95) line score is : -3.616, look ahead score is : 0.000
+-------------------------score:  -3.353160977815137;  adjusted_score: -3.3413532994732713----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like pain of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(pain -1.11)(of -4.42)(dread -2.89)(. -6.91) line score is : -3.611, look ahead score is : 0.000
+-------------------------score:  -3.3534326846852447;  adjusted_score: -3.3417079736992266----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was almost like death of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(almost -0.91)(like -4.20)(death -1.52)(of -4.43)(dread -2.85)(. -7.58) line score is : -3.748, look ahead score is : 0.000
+-------------------------score:  -3.3613869805227625;  adjusted_score: -3.349579302180897----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like gas of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(gas -1.11)(of -4.42)(dread -2.89)(. -8.00) line score is : -3.733, look ahead score is : 0.000
+-------------------------score:  -3.361802040175958;  adjusted_score: -3.35007732918994----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was almost like gas of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(almost -0.91)(like -4.20)(gas -1.52)(of -4.43)(dread -2.85)(. -7.83) line score is : -3.776, look ahead score is : 0.000
+-------------------------score:  -3.3636922389268875;  adjusted_score: -3.351884560585022----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like ice of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(ice -1.11)(of -4.42)(dread -2.89)(. -7.29) line score is : -3.654, look ahead score is : 0.000
+-------------------------score:  -3.3642161511110538;  adjusted_score: -3.3524914401250356----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was almost like pain of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(almost -0.91)(like -4.20)(pain -1.52)(of -4.43)(dread -2.85)(. -6.99) line score is : -3.683, look ahead score is : 0.000
+-------------------------score:  -3.3724141306046285;  adjusted_score: -3.3606894196186103----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was almost like ice of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(almost -0.91)(like -4.20)(ice -1.52)(of -4.43)(dread -2.85)(. -7.25) line score is : -3.712, look ahead score is : 0.000
+-------------------------score:  -3.3730528503656387;  adjusted_score: -3.3613281393796206----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was almost like air of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(almost -0.91)(like -4.20)(air -1.52)(of -4.43)(dread -2.85)(. -7.50) line score is : -3.740, look ahead score is : 0.000
+-------------------------score:  -3.3843310118624657;  adjusted_score: -3.3725233335206----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like air of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(air -1.11)(of -4.42)(dread -2.89)(. -7.74) line score is : -3.704, look ahead score is : 0.000
+-------------------------score:  -3.3877507561083995;  adjusted_score: -3.3760260451223814----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was then like something of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(then -0.91)(like -4.20)(something -1.52)(of -3.29)(dread -7.58)(. -3.69) line score is : -3.715, look ahead score is : 0.000
+-------------------------score:  -3.4200609330878113;  adjusted_score: -3.408253254745946----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was not like feeling of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(not -1.18)(like -3.60)(feeling -1.11)(of -3.45)(dread -4.47)(. -7.13) line score is : -3.704, look ahead score is : 0.000
+-------------------------score:  -3.429817364522905;  adjusted_score: -3.4180096861810396----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like hell of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(hell -1.11)(of -4.42)(dread -2.89)(. -8.16) line score is : -3.751, look ahead score is : 0.000
+-------------------------score:  -3.4455009576949207;  adjusted_score: -3.4336932793530552----------------------- 
+there was a nervous girl named freda 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was trapped by a squeeze , 
+ and it was almost like life of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(trapped -0.38)(by -3.47)(a -6.73)(squeeze -2.36)(, -2.41) line score is : -3.356, look ahead score is : 0.590
+(and -2.41)(it -7.54)(was -2.45)(almost -1.18)(like -3.60)(life -1.11)(of -4.42)(dread -2.89)(. -7.86) line score is : -3.717, look ahead score is : 0.000
+-------------------------score:  -3.466024272821166;  adjusted_score: -3.454299561835148----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ with her hands on the knees , 
+ she was caught by a squeeze , 
+ and it was almost like wet of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(with -1.54)(her -6.07)(hands -1.50)(on -3.10)(the -1.75)(knees -2.05)(, -6.84) line score is : -3.263, look ahead score is : 0.000
+(she -6.84)(was -1.30)(caught -0.38)(by -3.47)(a -6.65)(squeeze -1.92)(, -2.67) line score is : -3.319, look ahead score is : 0.586
+(and -2.67)(it -7.08)(was -2.50)(almost -0.91)(like -4.20)(wet -1.52)(of -4.43)(dread -2.85)(. -8.11) line score is : -3.808, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.371113696601242;  adjusted_score: -3.346060236375779----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ but the moment she cried , 
+ it was gone by her side , 
+ and she fell asleep like mad of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(but -1.54)(the -5.08)(moment -3.61)(she -4.73)(cried -0.67)(, -7.50) line score is : -3.855, look ahead score is : 0.593
+(it -7.50)(was -1.90)(gone -2.71)(by -1.12)(her -2.08)(side -7.76)(, -2.28) line score is : -3.622, look ahead score is : 0.660
+(and -2.28)(she -2.96)(fell -2.32)(asleep -1.13)(like -0.82)(mad -3.34)(of -2.29)(dread -5.21)(. -8.24) line score is : -3.177, look ahead score is : 0.000
+-------------------------score:  -3.3777020419947803;  adjusted_score: -3.3526485817693175----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ but the moment she cried , 
+ it was gone by her side , 
+ and she fell asleep like sleep of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(but -1.54)(the -5.08)(moment -3.61)(she -4.73)(cried -0.67)(, -7.50) line score is : -3.855, look ahead score is : 0.593
+(it -7.50)(was -1.90)(gone -2.71)(by -1.12)(her -2.08)(side -7.76)(, -2.28) line score is : -3.622, look ahead score is : 0.660
+(and -2.28)(she -2.96)(fell -2.32)(asleep -1.13)(like -0.82)(sleep -3.34)(of -2.29)(dread -5.21)(. -8.00) line score is : -3.150, look ahead score is : 0.000
+-------------------------score:  -3.4118285211734474;  adjusted_score: -3.3874324793182313----------------------- 
+there was a nervous girl named jed 
+ who felt a strange pressure on her head . 
+ but the moment she cried , 
+ she was saved by her side , 
+ and it was then like something of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(but -1.54)(the -5.08)(moment -3.61)(she -4.73)(cried -0.67)(, -7.50) line score is : -3.855, look ahead score is : 0.593
+(she -7.50)(was -1.90)(saved -1.12)(by -2.44)(her -4.28)(side -1.64)(, -1.85) line score is : -2.960, look ahead score is : 0.627
+(and -1.85)(it -7.21)(was -2.02)(then -0.97)(like -4.41)(something -0.76)(of -2.90)(dread -6.77)(. -4.59) line score is : -3.498, look ahead score is : 0.000
+-------------------------score:  -3.417543434072286;  adjusted_score: -3.392489973846823----------------------- 
+there was a nervous girl named fred 
+ who felt a strange pressure on her head . 
+ but the moment she cried , 
+ it was gone by her side , 
+ and she was alone like hell of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(but -1.54)(the -5.08)(moment -3.61)(she -4.73)(cried -0.67)(, -7.50) line score is : -3.855, look ahead score is : 0.593
+(it -7.50)(was -1.90)(gone -2.71)(by -1.12)(her -2.08)(side -7.76)(, -2.28) line score is : -3.622, look ahead score is : 0.660
+(and -2.28)(she -2.96)(was -2.32)(alone -1.13)(like -0.82)(hell -2.04)(of -3.36)(dread -7.34)(. -5.66) line score is : -3.101, look ahead score is : 0.000
+-------------------------score:  -3.4224841627292335;  adjusted_score: -3.3980881208740175----------------------- 
+there was a nervous girl named ted 
+ who felt a strange pressure on her head . 
+ but the moment she cried , 
+ she was saved by her side , 
+ and it was then like lightning of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(but -1.54)(the -5.08)(moment -3.61)(she -4.73)(cried -0.67)(, -7.50) line score is : -3.855, look ahead score is : 0.593
+(she -7.50)(was -1.90)(saved -1.12)(by -2.44)(her -4.28)(side -1.64)(, -1.85) line score is : -2.960, look ahead score is : 0.627
+(and -1.85)(it -7.21)(was -2.02)(then -0.97)(like -4.41)(lightning -0.76)(of -2.90)(dread -6.77)(. -4.93) line score is : -3.536, look ahead score is : 0.000
+-------------------------score:  -3.46585177956149;  adjusted_score: -3.4414557377062738----------------------- 
+there was a nervous girl named ed 
+ who felt a strange pressure on her head . 
+ but the moment she cried , 
+ she was saved by her side , 
+ and it was then like heaven of dread . 
+------------------------- score breakdown ------------------------ 
+(who -1.28)(felt -5.64)(a -3.30)(strange -3.61)(pressure -3.63)(on -2.27)(her -0.10)(head -4.24)(. -1.54) line score is : -2.845, look ahead score is : 0.000
+(but -1.54)(the -5.08)(moment -3.61)(she -4.73)(cried -0.67)(, -7.50) line score is : -3.855, look ahead score is : 0.593
+(she -7.50)(was -1.90)(saved -1.12)(by -2.44)(her -4.28)(side -1.64)(, -1.85) line score is : -2.960, look ahead score is : 0.627
+(and -1.85)(it -7.21)(was -2.02)(then -0.97)(like -4.41)(heaven -0.76)(of -2.90)(dread -6.77)(. -5.51) line score is : -3.600, look ahead score is : 0.000

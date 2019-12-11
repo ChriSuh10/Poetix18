@@ -1,0 +1,1694 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.7561024698344143;  adjusted_score: -2.73114072305235----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she got down and took our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(got -2.40)(down -0.73)(and -0.95)(took -3.68)(our -4.33)(pride -1.95)(. -4.09) line score is : -2.877, look ahead score is : 0.000
+-------------------------score:  -2.7709729436672097;  adjusted_score: -2.7460111968851453----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she ran down and attacked our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(ran -2.40)(down -0.73)(and -0.95)(attacked -4.52)(our -3.76)(pride -2.78)(. -4.00) line score is : -2.989, look ahead score is : 0.000
+-------------------------score:  -2.790577426101222;  adjusted_score: -2.7656156793191577----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she brought down and killed our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(brought -2.40)(down -0.73)(and -0.95)(killed -4.41)(our -3.04)(pride -6.21)(. -0.96) line score is : -2.940, look ahead score is : 0.000
+-------------------------score:  -2.7912401087356336;  adjusted_score: -2.766278361953569----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she ran down and hit our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(ran -2.40)(down -0.73)(and -0.95)(hit -4.52)(our -3.76)(pride -2.78)(. -3.53) line score is : -2.937, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH A NN ON PRP$ NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with a hat on my head 
+ but it does n't come out of my purse 
+-------------------------score:  -2.7598899072318366;  adjusted_score: -2.735388024589329----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ but she does not suffer in her pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(but -0.09)(she -2.82)(does -6.02)(not -2.37)(suffer -1.20)(in -6.57)(her -0.22)(pride -3.43)(. -5.00) line score is : -3.080, look ahead score is : 0.000
+-------------------------score:  -2.781980221244422;  adjusted_score: -2.7574783386019144----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ but she does not die in our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(but -0.09)(she -2.82)(does -6.02)(not -2.37)(die -1.20)(in -6.57)(our -0.22)(pride -3.68)(. -2.96) line score is : -2.880, look ahead score is : 0.000
+-------------------------score:  -2.8326441422104836;  adjusted_score: -2.808142259567976----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ but she does not suffer in our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(but -0.09)(she -2.82)(does -6.02)(not -2.37)(suffer -1.20)(in -6.57)(our -0.22)(pride -3.43)(. -5.00) line score is : -3.080, look ahead score is : 0.000
+-------------------------score:  -2.83388735105594;  adjusted_score: -2.8093854684134327----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ but she is not hurt in our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(but -0.09)(she -2.82)(is -6.02)(not -2.37)(hurt -1.20)(in -2.38)(our -3.55)(pride -3.75)(. -3.55) line score is : -2.859, look ahead score is : 0.000
+-------------------------score:  -2.8597148776505934;  adjusted_score: -2.835212995008086----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ but she does not live in our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(but -0.09)(she -2.82)(does -6.02)(not -2.37)(live -1.20)(in -6.57)(our -0.22)(pride -5.02)(. -3.81) line score is : -3.124, look ahead score is : 0.000
+-------------------------score:  -2.897944751336719;  adjusted_score: -2.8734428686942115----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ but she does not suffer in my pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(but -0.09)(she -2.82)(does -6.02)(not -2.37)(suffer -1.20)(in -6.57)(my -0.22)(pride -3.43)(. -5.00) line score is : -3.080, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH A NN ON PRP$ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with a hat on my head 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.7645860296871625;  adjusted_score: -2.740552297123905----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and that is the symbol of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(that -3.11)(is -6.50)(the -0.93)(symbol -4.00)(of -2.74)(this -1.92)(pride -4.15)(. -0.22) line score is : -2.623, look ahead score is : 0.000
+-------------------------score:  -2.787727994957205;  adjusted_score: -2.7636942623939476----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and that is the reason of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(that -3.11)(is -6.50)(the -0.93)(reason -4.00)(of -2.74)(this -1.92)(pride -1.57)(. -3.99) line score is : -2.755, look ahead score is : 0.000
+-------------------------score:  -2.843592803586613;  adjusted_score: -2.8190020478855478----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a man on her right , 
+ and that is the reason of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(man -4.25)(on -2.16)(her -6.03)(right -3.85)(, -0.31) line score is : -3.449, look ahead score is : 0.595
+(and -0.31)(that -2.57)(is -1.33)(the -1.02)(reason -4.78)(of -3.22)(this -1.97)(pride -2.76)(. -3.79) line score is : -2.416, look ahead score is : 0.000
+-------------------------score:  -2.8586237541202344;  adjusted_score: -2.8347112457070387----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a sword on her right , 
+ and that is the reason of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(sword -4.25)(on -2.16)(her -3.55)(right -4.56)(, -0.07) line score is : -3.163, look ahead score is : 0.561
+(and -0.07)(that -3.91)(is -3.35)(the -0.72)(reason -5.32)(of -2.63)(this -1.64)(pride -2.85)(. -3.58) line score is : -2.675, look ahead score is : 0.000
+-------------------------score:  -2.8717309618086526;  adjusted_score: -2.8473547521323868----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a child on her right , 
+ and that is the reason of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(child -4.25)(on -2.16)(her -5.43)(right -3.72)(, -0.08) line score is : -3.314, look ahead score is : 0.584
+(and -0.08)(that -4.36)(is -2.29)(the -0.91)(reason -4.89)(of -3.19)(this -1.73)(pride -2.56)(. -3.65) line score is : -2.630, look ahead score is : 0.000
+-------------------------score:  -2.9155592211719714;  adjusted_score: -2.891057338529464----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and that is the moment of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(that -2.82)(is -6.02)(the -0.77)(moment -4.32)(of -2.88)(this -2.24)(pride -5.03)(. -2.63) line score is : -2.977, look ahead score is : 0.000
+-------------------------score:  -2.9871942644769494;  adjusted_score: -2.962603508775884----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a man on her right , 
+ and that is the person of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(man -4.25)(on -2.16)(her -6.03)(right -3.85)(, -0.31) line score is : -3.449, look ahead score is : 0.595
+(and -0.31)(that -2.57)(is -1.33)(the -1.02)(person -4.78)(of -3.22)(this -1.97)(pride -4.09)(. -4.18) line score is : -2.608, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -2.7808684724218704;  adjusted_score: -2.755906725639806----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the front with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(front -4.72)(with -1.66)(pride -1.32)(. -5.44) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -2.7931060317684624;  adjusted_score: -2.768144284986398----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the war with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(war -4.72)(with -1.66)(pride -1.32)(. -6.74) line score is : -3.254, look ahead score is : 0.000
+-------------------------score:  -2.7933289846953224;  adjusted_score: -2.768367237913258----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the goal with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(goal -4.72)(with -1.66)(pride -1.32)(. -6.03) line score is : -3.184, look ahead score is : 0.000
+-------------------------score:  -2.797918454689138;  adjusted_score: -2.7729567079070736----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have gone to the east with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(gone -0.73)(to -2.61)(the -4.59)(east -5.72)(with -1.40)(pride -0.23)(. -5.65) line score is : -3.110, look ahead score is : 0.000
+-------------------------score:  -2.799781587193994;  adjusted_score: -2.7748198404119297----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the east with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(east -4.72)(with -1.66)(pride -1.32)(. -5.25) line score is : -3.106, look ahead score is : 0.000
+-------------------------score:  -2.8048318501781013;  adjusted_score: -2.779870103396037----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the end with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(end -4.72)(with -1.66)(pride -1.32)(. -4.18) line score is : -2.998, look ahead score is : 0.000
+-------------------------score:  -2.8052341955549576;  adjusted_score: -2.780272448772893----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the west with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(west -4.72)(with -1.66)(pride -1.32)(. -5.51) line score is : -3.132, look ahead score is : 0.000
+-------------------------score:  -2.807393440428902;  adjusted_score: -2.7824316936468376----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have gone to the front with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(gone -0.73)(to -2.61)(the -4.59)(front -5.72)(with -1.40)(pride -0.23)(. -6.98) line score is : -3.243, look ahead score is : 0.000
+-------------------------score:  -2.8083989602677963;  adjusted_score: -2.783437213485732----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the north with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(north -4.72)(with -1.66)(pride -1.32)(. -5.15) line score is : -3.096, look ahead score is : 0.000
+-------------------------score:  -2.8091781156904556;  adjusted_score: -2.784216368908391----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the south with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(south -4.72)(with -1.66)(pride -1.32)(. -5.27) line score is : -3.108, look ahead score is : 0.000
+-------------------------score:  -2.812501905595555;  adjusted_score: -2.7875401588134907----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the throne with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(throne -4.72)(with -1.66)(pride -1.32)(. -6.19) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -2.812643901390188;  adjusted_score: -2.7876821546081234----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the place with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(place -4.72)(with -1.66)(pride -1.32)(. -4.73) line score is : -3.053, look ahead score is : 0.000
+-------------------------score:  -2.820624241057564;  adjusted_score: -2.7956624942754997----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the top with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(top -4.72)(with -1.66)(pride -1.32)(. -6.47) line score is : -3.227, look ahead score is : 0.000
+-------------------------score:  -2.827849691405016;  adjusted_score: -2.8028879446229515----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have gone to the south with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(gone -0.73)(to -2.61)(the -4.59)(south -5.72)(with -1.40)(pride -0.23)(. -6.53) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -2.8315216215217816;  adjusted_score: -2.806559874739717----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have been to the east with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(been -0.73)(to -2.61)(the -4.59)(east -3.07)(with -5.39)(pride -0.78)(. -4.53) line score is : -3.187, look ahead score is : 0.000
+-------------------------score:  -2.835641589234857;  adjusted_score: -2.810679842452793----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have gone to the north with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(gone -0.73)(to -2.61)(the -4.59)(north -5.72)(with -1.40)(pride -0.23)(. -6.73) line score is : -3.219, look ahead score is : 0.000
+-------------------------score:  -2.837492788539213;  adjusted_score: -2.8125310417571487----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i have come to the east with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(have -2.40)(come -0.73)(to -2.77)(the -5.30)(east -4.71)(with -1.93)(pride -0.89)(. -5.44) line score is : -3.194, look ahead score is : 0.000
+-------------------------score:  -2.8431694700437435;  adjusted_score: -2.818207723261679----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the rear with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(rear -4.72)(with -1.66)(pride -1.32)(. -6.86) line score is : -3.267, look ahead score is : 0.000
+-------------------------score:  -2.8437302445664123;  adjusted_score: -2.818768497784348----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have been to the south with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(been -0.73)(to -2.61)(the -4.59)(south -3.07)(with -5.39)(pride -0.78)(. -4.71) line score is : -3.205, look ahead score is : 0.000
+-------------------------score:  -2.846725402509465;  adjusted_score: -2.8217636557274006----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the truth with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(truth -4.72)(with -1.66)(pride -1.32)(. -6.65) line score is : -3.246, look ahead score is : 0.000
+-------------------------score:  -2.85113581664422;  adjusted_score: -2.8261740698621556----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the gate with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(gate -4.72)(with -1.66)(pride -1.32)(. -6.30) line score is : -3.210, look ahead score is : 0.000
+-------------------------score:  -2.8512765695067013;  adjusted_score: -2.826314822724637----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i have come to the front with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(have -2.40)(come -0.73)(to -2.77)(the -5.30)(front -4.71)(with -1.93)(pride -0.89)(. -6.10) line score is : -3.259, look ahead score is : 0.000
+-------------------------score:  -2.853210910278208;  adjusted_score: -2.8282491634961437----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have been to the north with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(been -0.73)(to -2.61)(the -4.59)(north -3.07)(with -5.39)(pride -0.78)(. -4.89) line score is : -3.223, look ahead score is : 0.000
+-------------------------score:  -2.8539847538751713;  adjusted_score: -2.829023007093107----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the house with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(house -4.72)(with -1.66)(pride -1.32)(. -6.06) line score is : -3.187, look ahead score is : 0.000
+-------------------------score:  -2.8541969849782833;  adjusted_score: -2.829235238196219----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the sea with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(sea -4.72)(with -1.66)(pride -1.32)(. -6.64) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -2.855609713231816;  adjusted_score: -2.8306479664497517----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the fort with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(fort -4.72)(with -1.66)(pride -1.32)(. -6.51) line score is : -3.232, look ahead score is : 0.000
+-------------------------score:  -2.858641717363806;  adjusted_score: -2.8336799705817417----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the town with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(town -4.72)(with -1.66)(pride -1.32)(. -6.07) line score is : -3.188, look ahead score is : 0.000
+-------------------------score:  -2.8624161534449635;  adjusted_score: -2.837454406662899----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the point with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(point -4.72)(with -1.66)(pride -1.32)(. -5.34) line score is : -3.115, look ahead score is : 0.000
+-------------------------score:  -2.866021196631824;  adjusted_score: -2.8410594498497597----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the land with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(land -4.72)(with -1.66)(pride -1.32)(. -6.02) line score is : -3.182, look ahead score is : 0.000
+-------------------------score:  -2.866631460540435;  adjusted_score: -2.8416697137583706----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the bridge with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(bridge -4.72)(with -1.66)(pride -1.32)(. -6.77) line score is : -3.258, look ahead score is : 0.000
+-------------------------score:  -2.8669386243118957;  adjusted_score: -2.8419768775298313----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i have been to the east with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(have -2.40)(been -0.73)(to -2.77)(the -5.30)(east -3.28)(with -3.90)(pride -1.01)(. -5.39) line score is : -3.255, look ahead score is : 0.000
+-------------------------score:  -2.870758791180218;  adjusted_score: -2.8457970443981537----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the edge with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(edge -4.72)(with -1.66)(pride -1.32)(. -6.19) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -2.8751667106852814;  adjusted_score: -2.850204963903217----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i have gone to the east with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(have -2.40)(gone -0.73)(to -2.77)(the -5.30)(east -5.89)(with -0.74)(pride -0.05)(. -6.84) line score is : -3.248, look ahead score is : 0.000
+-------------------------score:  -2.8778497874736786;  adjusted_score: -2.852888040691614----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the door with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(door -4.72)(with -1.66)(pride -1.32)(. -6.28) line score is : -3.209, look ahead score is : 0.000
+-------------------------score:  -2.976891586009194;  adjusted_score: -2.9519298392271294----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and we have come to the aid with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(we -6.03)(have -2.40)(come -0.73)(to -2.61)(the -4.59)(aid -4.72)(with -1.66)(pride -1.32)(. -6.26) line score is : -3.206, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.7828658512144377;  adjusted_score: -2.7579041044323733----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and that is the reason of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(that -6.03)(is -2.40)(the -0.73)(reason -4.14)(of -2.34)(this -2.51)(pride -3.70)(. -4.43) line score is : -3.111, look ahead score is : 0.000
+-------------------------score:  -2.7937942625898304;  adjusted_score: -2.768832515807766----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the light , 
+ and that is the reason of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(light -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(that -8.18)(is -1.86)(the -0.42)(reason -5.42)(of -1.85)(this -2.16)(pride -2.96)(. -3.64) line score is : -3.137, look ahead score is : 0.000
+-------------------------score:  -2.8396133997223596;  adjusted_score: -2.814651652940295----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and that is the moment of this pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(that -6.03)(is -2.40)(the -0.73)(moment -4.14)(of -2.34)(this -2.51)(pride -5.07)(. -2.54) line score is : -3.054, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.801823110291452;  adjusted_score: -2.776135202431769----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ she was struck by a light , 
+ and she fell down and broke our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(she -4.45)(was -3.10)(struck -2.36)(by -1.52)(a -7.09)(light -1.35)(, -1.19) line score is : -3.007, look ahead score is : 0.650
+(and -1.19)(she -6.07)(fell -2.42)(down -1.29)(and -1.17)(broke -2.34)(our -2.52)(pride -2.90)(. -3.33) line score is : -2.582, look ahead score is : 0.000
+-------------------------score:  -2.8503628011905784;  adjusted_score: -2.8246748933308954----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ she was struck by a light , 
+ and she fell down and hit our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(she -4.45)(was -3.10)(struck -2.36)(by -1.52)(a -7.09)(light -1.35)(, -1.19) line score is : -3.007, look ahead score is : 0.650
+(and -1.19)(she -6.07)(fell -2.42)(down -1.29)(and -1.17)(hit -2.34)(our -2.52)(pride -2.90)(. -5.00) line score is : -2.767, look ahead score is : 0.000
+-------------------------score:  -2.8571568312066975;  adjusted_score: -2.8314689233470145----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ she was struck by a light , 
+ and she fell down and killed our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(she -4.45)(was -3.10)(struck -2.36)(by -1.52)(a -7.09)(light -1.35)(, -1.19) line score is : -3.007, look ahead score is : 0.650
+(and -1.19)(she -6.07)(fell -2.42)(down -1.29)(and -1.17)(killed -2.34)(our -2.52)(pride -2.90)(. -4.86) line score is : -2.751, look ahead score is : 0.000
+-------------------------score:  -2.88472710053126;  adjusted_score: -2.859039192671577----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ she was struck by a light , 
+ and she fell down and became my pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(she -4.45)(was -3.10)(struck -2.36)(by -1.52)(a -7.09)(light -1.35)(, -1.19) line score is : -3.007, look ahead score is : 0.650
+(and -1.19)(she -6.07)(fell -2.42)(down -1.29)(and -1.17)(became -2.34)(my -2.52)(pride -2.90)(. -4.62) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -2.891219447959553;  adjusted_score: -2.86553154009987----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ she was struck by a light , 
+ and she fell down and became our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(she -4.45)(was -3.10)(struck -2.36)(by -1.52)(a -7.09)(light -1.35)(, -1.19) line score is : -3.007, look ahead score is : 0.650
+(and -1.19)(she -6.07)(fell -2.42)(down -1.29)(and -1.17)(became -2.34)(our -2.52)(pride -2.90)(. -4.62) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -2.9532762386582116;  adjusted_score: -2.9275883307985286----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ she was struck by a light , 
+ and she fell down and left our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(she -4.45)(was -3.10)(struck -2.36)(by -1.52)(a -7.09)(light -1.35)(, -1.19) line score is : -3.007, look ahead score is : 0.650
+(and -1.19)(she -6.07)(fell -2.42)(down -1.29)(and -1.17)(left -2.34)(our -2.52)(pride -2.90)(. -5.85) line score is : -2.862, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH A NN ON PRP$ NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with a hat on my head 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -2.8117857134955773;  adjusted_score: -2.78728383085307----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the field with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(field -5.35)(with -1.03)(pride -2.13)(. -4.61) line score is : -2.991, look ahead score is : 0.000
+-------------------------score:  -2.8304974662468716;  adjusted_score: -2.805995583604364----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the grave with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(grave -5.35)(with -1.03)(pride -2.13)(. -6.09) line score is : -3.139, look ahead score is : 0.000
+-------------------------score:  -2.833025765550487;  adjusted_score: -2.8085238829079797----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the front with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(front -5.35)(with -1.03)(pride -2.13)(. -6.20) line score is : -3.150, look ahead score is : 0.000
+-------------------------score:  -2.842945556211121;  adjusted_score: -2.8184436735686136----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the end with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(end -5.35)(with -1.03)(pride -2.13)(. -3.61) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -2.844397679628695;  adjusted_score: -2.8198957969861875----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the place with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(place -5.35)(with -1.03)(pride -2.13)(. -3.81) line score is : -2.911, look ahead score is : 0.000
+-------------------------score:  -2.8680830262601376;  adjusted_score: -2.84358114361763----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the camp with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(camp -5.35)(with -1.03)(pride -2.13)(. -5.98) line score is : -3.128, look ahead score is : 0.000
+-------------------------score:  -2.875040585284724;  adjusted_score: -2.8505387026422166----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the town with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(town -5.35)(with -1.03)(pride -2.13)(. -4.78) line score is : -3.008, look ahead score is : 0.000
+-------------------------score:  -2.880813645746778;  adjusted_score: -2.8563117631042707----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have been to the field with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(been -0.77)(to -2.71)(the -4.38)(field -2.85)(with -5.58)(pride -1.96)(. -3.86) line score is : -3.103, look ahead score is : 0.000
+-------------------------score:  -2.8851875397650635;  adjusted_score: -2.860685657122556----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the fort with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(fort -5.35)(with -1.03)(pride -2.13)(. -5.97) line score is : -3.127, look ahead score is : 0.000
+-------------------------score:  -2.8894033622654045;  adjusted_score: -2.864901479622897----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the court with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(court -5.35)(with -1.03)(pride -2.13)(. -6.54) line score is : -3.184, look ahead score is : 0.000
+-------------------------score:  -2.8906540710698154;  adjusted_score: -2.866152188427308----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the news with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(news -5.35)(with -1.03)(pride -2.13)(. -6.58) line score is : -3.188, look ahead score is : 0.000
+-------------------------score:  -2.894073610577513;  adjusted_score: -2.8695717279350057----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the death with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(death -5.35)(with -1.03)(pride -2.13)(. -6.59) line score is : -3.189, look ahead score is : 0.000
+-------------------------score:  -2.8942658601000026;  adjusted_score: -2.8697639774574952----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the gate with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(gate -5.35)(with -1.03)(pride -2.13)(. -6.12) line score is : -3.141, look ahead score is : 0.000
+-------------------------score:  -2.898392429904026;  adjusted_score: -2.8738905472615186----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the point with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(point -5.35)(with -1.03)(pride -2.13)(. -4.43) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -2.8990776168511196;  adjusted_score: -2.8745757342086122----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the scene with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(scene -5.35)(with -1.03)(pride -2.13)(. -6.02) line score is : -3.132, look ahead score is : 0.000
+-------------------------score:  -2.901263164904188;  adjusted_score: -2.8767612822616804----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have been to the place with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(been -0.77)(to -2.71)(the -4.38)(place -2.85)(with -5.58)(pride -1.96)(. -3.93) line score is : -3.110, look ahead score is : 0.000
+-------------------------score:  -2.9061477199635086;  adjusted_score: -2.881645837321001----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the shore with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(shore -5.35)(with -1.03)(pride -2.13)(. -6.64) line score is : -3.194, look ahead score is : 0.000
+-------------------------score:  -2.906150275950923;  adjusted_score: -2.8816483933084154----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and i have been to the place with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(i -2.82)(have -6.02)(been -0.77)(to -3.18)(the -4.48)(place -3.14)(with -4.74)(pride -1.94)(. -3.91) line score is : -3.108, look ahead score is : 0.000
+-------------------------score:  -2.906334229909322;  adjusted_score: -2.8818323472668146----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the spot with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(spot -5.35)(with -1.03)(pride -2.13)(. -6.04) line score is : -3.134, look ahead score is : 0.000
+-------------------------score:  -2.9087888298227504;  adjusted_score: -2.884286947180243----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the land with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(land -5.35)(with -1.03)(pride -2.13)(. -5.70) line score is : -3.100, look ahead score is : 0.000
+-------------------------score:  -2.9250054970821915;  adjusted_score: -2.900503614439684----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have been to the town with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(been -0.77)(to -2.71)(the -4.38)(town -2.85)(with -5.58)(pride -1.96)(. -4.39) line score is : -3.156, look ahead score is : 0.000
+-------------------------score:  -2.9253782855675503;  adjusted_score: -2.900876402925043----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the edge with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(edge -5.35)(with -1.03)(pride -2.13)(. -6.24) line score is : -3.154, look ahead score is : 0.000
+-------------------------score:  -2.939473655074835;  adjusted_score: -2.9149717724323274----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the home with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(home -5.35)(with -1.03)(pride -2.13)(. -6.58) line score is : -3.188, look ahead score is : 0.000
+-------------------------score:  -2.9603444458368946;  adjusted_score: -2.935842563194387----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the part with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(part -5.35)(with -1.03)(pride -2.13)(. -6.45) line score is : -3.175, look ahead score is : 0.000
+-------------------------score:  -2.982799051219926;  adjusted_score: -2.9582971685774186----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we have come to the aid with pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(have -6.02)(come -0.77)(to -2.71)(the -4.38)(aid -5.35)(with -1.03)(pride -2.13)(. -4.26) line score is : -2.956, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -2.8522385937326096;  adjusted_score: -2.827276846950545----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i think that her strength is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(think -2.40)(that -0.73)(her -2.77)(strength -4.24)(is -2.17)(a -4.73)(pride -4.24)(. -2.20) line score is : -3.124, look ahead score is : 0.000
+-------------------------score:  -2.8635869078776417;  adjusted_score: -2.8386251610955773----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that my son has a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(my -2.77)(son -5.43)(has -1.49)(a -4.63)(pride -3.78)(. -3.94) line score is : -3.293, look ahead score is : 0.000
+-------------------------score:  -2.8640239221208237;  adjusted_score: -2.8390621753387593----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that my wife has a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(my -2.77)(wife -5.43)(has -1.49)(a -4.63)(pride -3.23)(. -4.26) line score is : -3.269, look ahead score is : 0.000
+-------------------------score:  -2.8713103935999027;  adjusted_score: -2.8463486468178383----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that her face is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(her -2.77)(face -5.43)(is -1.49)(a -4.08)(pride -4.05)(. -2.64) line score is : -3.136, look ahead score is : 0.000
+-------------------------score:  -2.8742682004676148;  adjusted_score: -2.8493064536855504----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that her heart is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(her -2.77)(heart -5.43)(is -1.49)(a -4.08)(pride -4.05)(. -2.85) line score is : -3.157, look ahead score is : 0.000
+-------------------------score:  -2.891488466192694;  adjusted_score: -2.8665267194106296----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that my son is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(my -2.77)(son -5.43)(is -1.49)(a -4.63)(pride -3.78)(. -2.52) line score is : -3.151, look ahead score is : 0.000
+-------------------------score:  -2.9162800645127014;  adjusted_score: -2.891318317730637----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that her son is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(her -2.77)(son -5.43)(is -1.49)(a -4.08)(pride -4.13)(. -2.90) line score is : -3.170, look ahead score is : 0.000
+-------------------------score:  -2.9174471760497376;  adjusted_score: -2.892485429267673----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i think that her heart is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(think -2.40)(that -0.73)(her -2.77)(heart -4.24)(is -2.17)(a -4.73)(pride -4.40)(. -3.51) line score is : -3.272, look ahead score is : 0.000
+-------------------------score:  -2.9176191354499146;  adjusted_score: -2.89265738866785----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that my wife is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(my -2.77)(wife -5.43)(is -1.49)(a -4.63)(pride -3.23)(. -2.84) line score is : -3.127, look ahead score is : 0.000
+-------------------------score:  -2.9248414127265705;  adjusted_score: -2.899879665944506----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i think that her strength has a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(think -2.40)(that -0.73)(her -2.77)(strength -4.24)(has -2.17)(a -4.73)(pride -4.24)(. -3.98) line score is : -3.302, look ahead score is : 0.000
+-------------------------score:  -2.9472136585151447;  adjusted_score: -2.9222519117330803----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i heard that her sword is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(heard -2.40)(that -0.73)(her -2.77)(sword -4.52)(is -3.22)(a -3.41)(pride -4.08)(. -4.45) line score is : -3.333, look ahead score is : 0.000
+-------------------------score:  -2.983179322060417;  adjusted_score: -2.9582175752783524----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and i know that my friend is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(i -6.03)(know -2.40)(that -0.73)(my -2.77)(friend -5.43)(is -1.49)(a -4.63)(pride -3.93)(. -3.50) line score is : -3.265, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH A NN ON PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with a hat on my head 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.861631969385075;  adjusted_score: -2.8371300867425675----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and we went down and got our pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(we -2.82)(went -6.02)(down -0.77)(and -2.71)(got -3.91)(our -3.67)(pride -2.73)(. -2.93) line score is : -2.849, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH A NN ON PRP$ NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with a hat on my head 
+ and I hope that your day is a blast 
+-------------------------score:  -2.868059797979453;  adjusted_score: -2.8435579153369455----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and i think that her death is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(i -2.82)(think -6.02)(that -0.77)(her -3.18)(death -3.44)(is -2.19)(a -4.11)(pride -4.55)(. -3.03) line score is : -3.019, look ahead score is : 0.000
+-------------------------score:  -2.9258029756738857;  adjusted_score: -2.9013010930313783----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and i know that her heart is a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(i -2.82)(know -6.02)(that -0.77)(her -3.18)(heart -5.32)(is -1.34)(a -3.47)(pride -4.11)(. -2.17) line score is : -2.929, look ahead score is : 0.000
+-------------------------score:  -2.929988834568683;  adjusted_score: -2.9054869519261755----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and i know that her heart has a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(i -2.82)(know -6.02)(that -0.77)(her -3.18)(heart -5.32)(has -1.34)(a -3.47)(pride -4.11)(. -3.95) line score is : -3.107, look ahead score is : 0.000
+-------------------------score:  -2.9389892972129235;  adjusted_score: -2.914487414570416----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and i know that her name has a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(i -2.82)(know -6.02)(that -0.77)(her -3.18)(name -5.32)(has -1.34)(a -3.47)(pride -3.57)(. -4.51) line score is : -3.109, look ahead score is : 0.000
+-------------------------score:  -2.9512484685024796;  adjusted_score: -2.926746585859972----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and i think that her death has a pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(i -2.82)(think -6.02)(that -0.77)(her -3.18)(death -3.44)(has -2.19)(a -4.11)(pride -4.55)(. -3.99) line score is : -3.115, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ WITH A NN ON PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ with a hat on my head 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.8813211409883066;  adjusted_score: -2.856819258345799----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like death of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(death -0.89)(of -4.82)(pride -3.22)(. -4.71) line score is : -3.064, look ahead score is : 0.000
+-------------------------score:  -2.924609668101325;  adjusted_score: -2.9001077854588178----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like pain of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(pain -0.89)(of -4.82)(pride -3.22)(. -7.12) line score is : -3.332, look ahead score is : 0.000
+-------------------------score:  -2.936676946327542;  adjusted_score: -2.9121750636850345----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like blood of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(blood -0.89)(of -4.82)(pride -3.22)(. -6.31) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -2.954427660922661;  adjusted_score: -2.9303939283594036----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and it was not like something of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(it -3.11)(was -6.50)(not -0.93)(like -4.01)(something -1.01)(of -3.71)(pride -4.65)(. -5.73) line score is : -3.297, look ahead score is : 0.000
+-------------------------score:  -2.975095943576007;  adjusted_score: -2.95106221101275----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and she was not like lady of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(she -3.11)(was -6.50)(not -0.93)(like -2.00)(lady -1.67)(of -4.17)(pride -5.71)(. -6.85) line score is : -3.441, look ahead score is : 0.000
+-------------------------score:  -2.9779680531584853;  adjusted_score: -2.953466170515978----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like fire of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(fire -0.89)(of -4.82)(pride -3.22)(. -7.51) line score is : -3.375, look ahead score is : 0.000
+-------------------------score:  -2.9886324818838728;  adjusted_score: -2.9641305992413653----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like war of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(war -0.89)(of -4.82)(pride -3.22)(. -7.21) line score is : -3.342, look ahead score is : 0.000
+-------------------------score:  -2.9924500781026753;  adjusted_score: -2.967948195460168----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was not like something of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(not -0.77)(like -4.24)(something -0.89)(of -3.59)(pride -6.08)(. -6.15) line score is : -3.404, look ahead score is : 0.000
+-------------------------score:  -2.9949177571882806;  adjusted_score: -2.970884024625023----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and she was now like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(she -3.11)(was -6.50)(now -0.93)(like -2.00)(someone -1.67)(of -4.88)(pride -6.34)(. -5.69) line score is : -3.462, look ahead score is : 0.000
+-------------------------score:  -3.0315081563524227;  adjusted_score: -3.0074744237891653----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and she was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(she -3.11)(was -6.50)(not -0.93)(like -2.00)(someone -1.67)(of -4.17)(pride -5.71)(. -6.52) line score is : -3.404, look ahead score is : 0.000
+-------------------------score:  -3.0342297587882388;  adjusted_score: -3.0097278761457313----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like smoke of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(smoke -0.89)(of -4.82)(pride -3.22)(. -9.06) line score is : -3.546, look ahead score is : 0.000
+-------------------------score:  -3.0342865096348706;  adjusted_score: -3.009784626992363----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like light of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(light -0.89)(of -4.82)(pride -3.22)(. -8.33) line score is : -3.465, look ahead score is : 0.000
+-------------------------score:  -3.038721537725492;  adjusted_score: -3.0142196550829845----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and she was almost like death of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(she -2.82)(was -6.02)(almost -0.77)(like -2.23)(death -1.51)(of -5.87)(pride -6.42)(. -5.50) line score is : -3.470, look ahead score is : 0.000
+-------------------------score:  -3.0421207039193674;  adjusted_score: -3.01761882127686----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and she was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(she -2.82)(was -6.02)(not -0.77)(like -2.23)(someone -1.51)(of -4.18)(pride -7.67)(. -6.68) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -3.0449723653269536;  adjusted_score: -3.020470482684446----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like blind of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(blind -0.89)(of -4.82)(pride -3.22)(. -8.74) line score is : -3.512, look ahead score is : 0.000
+-------------------------score:  -3.0515461254752045;  adjusted_score: -3.027044242832697----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like spring of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(spring -0.89)(of -4.82)(pride -3.22)(. -9.02) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -3.0541797223867793;  adjusted_score: -3.029677839744272----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like love of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(love -0.89)(of -4.82)(pride -3.22)(. -9.08) line score is : -3.549, look ahead score is : 0.000
+-------------------------score:  -3.055339809394244;  adjusted_score: -3.0308379267517367----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like ice of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(ice -0.89)(of -4.82)(pride -3.22)(. -8.47) line score is : -3.482, look ahead score is : 0.000
+-------------------------score:  -3.0566757481658096;  adjusted_score: -3.032173865523302----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like life of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(life -0.89)(of -4.82)(pride -3.22)(. -7.16) line score is : -3.336, look ahead score is : 0.000
+-------------------------score:  -3.0639934862653413;  adjusted_score: -3.039491603622834----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like night of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(night -0.89)(of -4.82)(pride -3.22)(. -7.89) line score is : -3.417, look ahead score is : 0.000
+-------------------------score:  -3.066890925676985;  adjusted_score: -3.042857193113728----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a scar on her right , 
+ and it was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(scar -4.25)(on -2.16)(her -4.25)(right -0.68)(, -0.03) line score is : -2.703, look ahead score is : 0.567
+(and -0.03)(it -3.11)(was -6.50)(not -0.93)(like -4.01)(someone -1.01)(of -3.71)(pride -4.65)(. -5.34) line score is : -3.254, look ahead score is : 0.000
+-------------------------score:  -3.0735292432434633;  adjusted_score: -3.049027360600956----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was almost like steel of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(almost -0.77)(like -4.24)(steel -0.89)(of -4.82)(pride -3.22)(. -9.10) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -3.0980412235314194;  adjusted_score: -3.073539340888912----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ with a wound on her right , 
+ and it was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(with -4.45)(a -3.10)(wound -4.25)(on -2.16)(her -2.49)(right -1.62)(, -0.09) line score is : -2.592, look ahead score is : 0.591
+(and -0.09)(it -2.82)(was -6.02)(not -0.77)(like -4.24)(someone -0.89)(of -3.59)(pride -6.08)(. -6.36) line score is : -3.427, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.8977976874871687;  adjusted_score: -2.872710172371431----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she looked to the right , 
+ and it was not like something of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(looked -1.38)(to -1.57)(the -4.80)(right -3.83)(, -2.43) line score is : -3.078, look ahead score is : 0.620
+(and -2.43)(it -4.17)(was -1.46)(not -0.52)(like -3.67)(something -0.49)(of -4.41)(pride -4.05)(. -6.18) line score is : -3.042, look ahead score is : 0.000
+-------------------------score:  -2.9063216682636375;  adjusted_score: -2.881359921481573----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and it was not like something of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(it -6.03)(was -2.40)(not -0.73)(like -4.42)(something -0.65)(of -4.21)(pride -3.87)(. -6.65) line score is : -3.410, look ahead score is : 0.000
+-------------------------score:  -2.919641745812965;  adjusted_score: -2.8945542306972274----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she looked to the right , 
+ and she was not like lady of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(looked -1.38)(to -1.57)(the -4.80)(right -3.83)(, -2.43) line score is : -3.078, look ahead score is : 0.620
+(and -2.43)(she -4.17)(was -1.46)(not -0.52)(like -0.73)(lady -2.64)(of -4.83)(pride -5.30)(. -6.73) line score is : -3.202, look ahead score is : 0.000
+-------------------------score:  -2.91997473709511;  adjusted_score: -2.8950129903130457----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she was almost like king of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(was -2.40)(almost -0.73)(like -0.95)(king -2.47)(of -6.18)(pride -4.64)(. -7.25) line score is : -3.598, look ahead score is : 0.000
+-------------------------score:  -2.930402982415575;  adjusted_score: -2.9054412356335106----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the light , 
+ and she was not like lady of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(light -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -8.18)(was -1.86)(not -0.42)(like -0.75)(lady -2.51)(of -4.25)(pride -5.13)(. -7.30) line score is : -3.570, look ahead score is : 0.000
+-------------------------score:  -2.9370576233574837;  adjusted_score: -2.9120958765754192----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she was not like lady of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(was -2.40)(not -0.73)(like -0.95)(lady -2.47)(of -4.72)(pride -5.88)(. -7.08) line score is : -3.554, look ahead score is : 0.000
+-------------------------score:  -2.9464101231459416;  adjusted_score: -2.921448376363877----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(was -2.40)(not -0.73)(like -0.95)(someone -2.47)(of -4.72)(pride -5.88)(. -6.43) line score is : -3.482, look ahead score is : 0.000
+-------------------------score:  -2.9513498996243333;  adjusted_score: -2.9262623845085955----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she looked to the right , 
+ and it was not like lady of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(looked -1.38)(to -1.57)(the -4.80)(right -3.83)(, -2.43) line score is : -3.078, look ahead score is : 0.620
+(and -2.43)(it -4.17)(was -1.46)(not -0.52)(like -3.67)(lady -0.49)(of -4.41)(pride -4.05)(. -7.74) line score is : -3.216, look ahead score is : 0.000
+-------------------------score:  -2.9535951785969012;  adjusted_score: -2.928633431814837----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the light , 
+ and she was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(light -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -8.18)(was -1.86)(not -0.42)(like -0.75)(someone -2.51)(of -4.25)(pride -5.13)(. -6.97) line score is : -3.534, look ahead score is : 0.000
+-------------------------score:  -2.9668066736423606;  adjusted_score: -2.941719158526623----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she looked to the right , 
+ and she was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(looked -1.38)(to -1.57)(the -4.80)(right -3.83)(, -2.43) line score is : -3.078, look ahead score is : 0.620
+(and -2.43)(she -4.17)(was -1.46)(not -0.52)(like -0.73)(someone -2.64)(of -4.83)(pride -5.30)(. -6.73) line score is : -3.201, look ahead score is : 0.000
+-------------------------score:  -2.966976815100872;  adjusted_score: -2.9420150683188075----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the light , 
+ and she was not like woman of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(light -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -8.18)(was -1.86)(not -0.42)(like -0.75)(woman -2.51)(of -4.25)(pride -5.13)(. -7.44) line score is : -3.586, look ahead score is : 0.000
+-------------------------score:  -2.9702290820352957;  adjusted_score: -2.945141566919558----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she looked to the right , 
+ and it was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(looked -1.38)(to -1.57)(the -4.80)(right -3.83)(, -2.43) line score is : -3.078, look ahead score is : 0.620
+(and -2.43)(it -4.17)(was -1.46)(not -0.52)(like -3.67)(someone -0.49)(of -4.41)(pride -4.05)(. -5.79) line score is : -2.999, look ahead score is : 0.000
+-------------------------score:  -2.9816851164355422;  adjusted_score: -2.956723369653478----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and it was not like lady of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(it -6.03)(was -2.40)(not -0.73)(like -4.42)(lady -0.65)(of -4.21)(pride -3.87)(. -8.37) line score is : -3.602, look ahead score is : 0.000
+-------------------------score:  -2.9906905112844524;  adjusted_score: -2.965728764502388----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and it was not like someone of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(it -6.03)(was -2.40)(not -0.73)(like -4.42)(someone -0.65)(of -4.21)(pride -3.87)(. -6.37) line score is : -3.379, look ahead score is : 0.000
+-------------------------score:  -3.0656735120397625;  adjusted_score: -3.040711765257698----------------------- 
+there was a brave captain named clyde 
+ who fought a great battle on our side . 
+ she came back from the fight , 
+ and she went to the right , 
+ and she ran straight like lightning of pride . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(fought -3.46)(a -4.40)(great -2.85)(battle -0.53)(on -3.30)(our -4.07)(side -0.95)(. -1.81) line score is : -2.540, look ahead score is : 0.000
+(she -1.81)(came -2.20)(back -4.63)(from -1.42)(the -2.32)(fight -1.06)(, -4.45) line score is : -2.557, look ahead score is : 0.634
+(and -4.45)(she -3.10)(went -1.38)(to -1.57)(the -4.10)(right -1.37)(, -1.73) line score is : -2.527, look ahead score is : 0.614
+(and -1.73)(she -6.03)(ran -2.40)(straight -0.73)(like -0.95)(lightning -4.52)(of -4.50)(pride -6.94)(. -4.12) line score is : -3.546, look ahead score is : 0.000

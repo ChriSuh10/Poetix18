@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NNS RB WOULD VB . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD UP IN NN AND VBD . 
+----------------------- original sentences ------------------------------------ 
+whose limericks never would scan 
+ the cause of his sorrow 
+ he was told by his wife 
+ she sat up in bed and meowed 
+-------------------------score:  -4.349384804389307;  adjusted_score: -4.3246417460803475----------------------- 
+there was a writer named dwight 
+ whose parents actually would write . 
+ the author of his prose , 
+ he was raised by his nose , 
+ he grew up in filthy and downright . 
+------------------------- score breakdown ------------------------ 
+(whose -6.58)(parents -5.32)(actually -6.75)(would -6.64)(write -4.37)(. -5.31) line score is : -5.830, look ahead score is : 0.000
+(the -5.31)(author -3.62)(of -4.26)(his -1.97)(prose -3.82)(, -6.72) line score is : -4.283, look ahead score is : 0.603
+(he -6.72)(was -2.48)(raised -3.11)(by -2.21)(his -5.69)(nose -2.17)(, -1.14) line score is : -3.359, look ahead score is : 0.634
+(he -1.14)(grew -9.80)(up -1.91)(in -3.26)(filthy -4.12)(and -0.07)(downright -1.19)(. -8.61) line score is : -3.763, look ahead score is : 0.000
+-------------------------score:  -4.430160201553788;  adjusted_score: -4.405417143244828----------------------- 
+there was a writer named dwight 
+ whose parents actually would write . 
+ the author of his prose , 
+ he was raised by his nose , 
+ he grew up in broken and downright . 
+------------------------- score breakdown ------------------------ 
+(whose -6.58)(parents -5.32)(actually -6.75)(would -6.64)(write -4.37)(. -5.31) line score is : -5.830, look ahead score is : 0.000
+(the -5.31)(author -3.62)(of -4.26)(his -1.97)(prose -3.82)(, -6.72) line score is : -4.283, look ahead score is : 0.603
+(he -6.72)(was -2.48)(raised -3.11)(by -2.21)(his -5.69)(nose -2.17)(, -1.14) line score is : -3.359, look ahead score is : 0.634
+(he -1.14)(grew -9.80)(up -1.91)(in -3.26)(broken -4.12)(and -0.07)(downright -1.19)(. -8.07) line score is : -3.695, look ahead score is : 0.000
+-------------------------score:  -4.445582034864596;  adjusted_score: -4.420838976555636----------------------- 
+there was a writer named dwight 
+ whose parents actually would write . 
+ the author of his prose , 
+ he was raised by his nose , 
+ he grew up in semi and downright . 
+------------------------- score breakdown ------------------------ 
+(whose -6.58)(parents -5.32)(actually -6.75)(would -6.64)(write -4.37)(. -5.31) line score is : -5.830, look ahead score is : 0.000
+(the -5.31)(author -3.62)(of -4.26)(his -1.97)(prose -3.82)(, -6.72) line score is : -4.283, look ahead score is : 0.603
+(he -6.72)(was -2.48)(raised -3.11)(by -2.21)(his -5.69)(nose -2.17)(, -1.14) line score is : -3.359, look ahead score is : 0.634
+(he -1.14)(grew -9.80)(up -1.91)(in -3.26)(semi -4.12)(and -0.07)(downright -1.19)(. -9.08) line score is : -3.822, look ahead score is : 0.000

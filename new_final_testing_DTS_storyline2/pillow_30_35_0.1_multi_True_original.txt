@@ -1,0 +1,264 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP$ NN VBD AND VBD , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ her ma came and tarried 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.155891753733158;  adjusted_score: -3.1318268994241953----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her mouth opened and spread , 
+ and she reached down and removed her lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(mouth -1.63)(opened -2.71)(and -4.39)(spread -3.24)(, -2.14) line score is : -3.137, look ahead score is : 0.623
+(and -2.14)(she -7.89)(reached -1.61)(down -1.75)(and -1.80)(removed -4.65)(her -2.53)(lace -1.35)(. -4.45) line score is : -3.131, look ahead score is : 0.000
+-------------------------score:  -3.2425051517784595;  adjusted_score: -3.218440297469497----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her mouth opened and spread , 
+ and she reached down and lifted her lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(mouth -1.63)(opened -2.71)(and -4.39)(spread -3.24)(, -2.14) line score is : -3.137, look ahead score is : 0.623
+(and -2.14)(she -7.89)(reached -1.61)(down -1.75)(and -1.80)(lifted -4.65)(her -2.53)(lace -1.35)(. -4.72) line score is : -3.160, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AT THE NN IN THE NN , 
+ AND VBD THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ at the man in the store 
+ and finished the solo with honour 
+-------------------------score:  -3.3269203516744796;  adjusted_score: -3.303407786180896----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the chair , 
+ at the man in the hair , 
+ and realized the woman with lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(chair -0.86)(, -6.02) line score is : -3.143, look ahead score is : 0.580
+(at -6.02)(the -1.78)(man -4.90)(in -0.81)(the -3.98)(hair -2.22)(, -0.93) line score is : -2.950, look ahead score is : 0.596
+(and -0.93)(realized -6.92)(the -2.67)(woman -1.15)(with -3.68)(lace -3.51)(. -3.47) line score is : -3.189, look ahead score is : 0.000
+-------------------------score:  -3.3474078678315684;  adjusted_score: -3.3233991237705753----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ at the man in the lead , 
+ and realized the woman with lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(at -4.70)(the -1.63)(man -4.67)(in -0.91)(the -4.81)(lead -2.49)(, -1.08) line score is : -2.899, look ahead score is : 0.620
+(and -1.08)(realized -8.56)(the -1.38)(woman -1.35)(with -3.61)(lace -3.52)(. -3.45) line score is : -3.278, look ahead score is : 0.000
+-------------------------score:  -3.3568219138729956;  adjusted_score: -3.333309348379412----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the chair , 
+ at the man in the air , 
+ and realized the woman with lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(chair -0.86)(, -6.02) line score is : -3.143, look ahead score is : 0.580
+(at -6.02)(the -1.78)(man -4.90)(in -0.81)(the -3.98)(air -2.22)(, -0.93) line score is : -2.950, look ahead score is : 0.596
+(and -0.93)(realized -8.59)(the -1.70)(woman -1.06)(with -3.63)(lace -3.54)(. -3.42) line score is : -3.266, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ her hair got so light 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3444961179047823;  adjusted_score: -3.3194854518026116----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ and it was almost like rain of lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(and -4.13)(it -4.23)(was -1.77)(almost -2.46)(like -3.54)(rain -0.98)(of -3.84)(lace -2.17)(. -7.74) line score is : -3.427, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP$ NN VBD SO JJ , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ her hair got so light 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.4106560088694096;  adjusted_score: -3.385645342767239----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she saw her own fingers and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(saw -4.23)(her -1.77)(own -1.71)(fingers -5.42)(and -1.88)(one -2.83)(lace -5.31)(. -3.75) line score is : -3.446, look ahead score is : 0.000
+-------------------------score:  -3.4546798914670944;  adjusted_score: -3.4296692253649237----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own hands and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(hands -5.52)(and -1.51)(one -3.59)(lace -4.03)(. -3.81) line score is : -3.366, look ahead score is : 0.000
+-------------------------score:  -3.4621022306382656;  adjusted_score: -3.437091564536095----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she saw her own bruises and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(saw -4.23)(her -1.77)(own -1.71)(bruises -5.42)(and -1.88)(one -2.83)(lace -5.72)(. -1.89) line score is : -3.286, look ahead score is : 0.000
+-------------------------score:  -3.46254288777709;  adjusted_score: -3.4375322216749193----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she saw her own nipples and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(saw -4.23)(her -1.77)(own -1.71)(nipples -5.42)(and -1.88)(one -2.83)(lace -5.74)(. -3.25) line score is : -3.439, look ahead score is : 0.000
+-------------------------score:  -3.469111032783985;  adjusted_score: -3.4441003666818144----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own clothes and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(clothes -5.52)(and -1.51)(one -3.59)(lace -3.97)(. -3.88) line score is : -3.367, look ahead score is : 0.000
+-------------------------score:  -3.486251749098301;  adjusted_score: -3.46124108299613----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own breasts and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(breasts -5.52)(and -1.51)(one -3.59)(lace -4.29)(. -3.43) line score is : -3.353, look ahead score is : 0.000
+-------------------------score:  -3.4933843538165092;  adjusted_score: -3.4683736877143385----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own legs and one lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(legs -5.52)(and -1.51)(one -3.59)(lace -5.18)(. -3.42) line score is : -3.450, look ahead score is : 0.000
+-------------------------score:  -3.555250085890293;  adjusted_score: -3.5302394197881224----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own clothes and two lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(clothes -5.52)(and -1.51)(two -3.59)(lace -3.97)(. -3.88) line score is : -3.367, look ahead score is : 0.000
+-------------------------score:  -3.556585371494293;  adjusted_score: -3.5315747053921225----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own hands and two lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(hands -5.52)(and -1.51)(two -3.59)(lace -4.03)(. -3.81) line score is : -3.366, look ahead score is : 0.000
+-------------------------score:  -3.5582312792539597;  adjusted_score: -3.533220613151789----------------------- 
+there once was a girl named chase 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she noticed her own eyes and two lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(noticed -4.23)(her -1.77)(own -1.71)(eyes -5.52)(and -1.51)(two -3.59)(lace -3.01)(. -4.28) line score is : -3.305, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4526091199932676;  adjusted_score: -3.428897369783936----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ and she saw to the head , 
+ and it was almost like gold of lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(and -4.70)(she -1.63)(saw -2.04)(to -3.34)(the -0.80)(head -7.25)(, -2.87) line score is : -3.234, look ahead score is : 0.606
+(and -2.87)(it -6.60)(was -3.36)(almost -1.50)(like -4.01)(gold -0.55)(of -5.94)(lace -2.34)(. -7.79) line score is : -3.884, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP$ NN VBD SO JJ , 
+ PRP RB VBD A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ her hair got so light 
+ he carelessly stuck a verbena 
+-------------------------score:  -3.522059136423571;  adjusted_score: -3.4970484703214004----------------------- 
+there once was a girl named grace 
+ who felt a strange presence on her face . 
+ she looked back from the bed , 
+ her body was so red , 
+ she suddenly realized a lace . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(felt -6.02)(a -3.56)(strange -3.29)(presence -3.35)(on -3.63)(her -0.36)(face -3.46)(. -1.25) line score is : -2.968, look ahead score is : 0.000
+(she -1.25)(looked -1.43)(back -2.65)(from -4.29)(the -5.49)(bed -0.86)(, -4.70) line score is : -2.955, look ahead score is : 0.580
+(her -4.70)(body -1.63)(was -2.71)(so -4.35)(red -3.69)(, -4.13) line score is : -3.537, look ahead score is : 0.671
+(she -4.13)(suddenly -4.23)(realized -1.77)(a -1.71)(lace -7.04)(. -2.87) line score is : -3.623, look ahead score is : 0.000

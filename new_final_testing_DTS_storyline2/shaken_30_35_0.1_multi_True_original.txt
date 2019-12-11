@@ -1,0 +1,891 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ which he loosed in the house 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.1720493249595165;  adjusted_score: -3.1472504407167436----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and we sat down and enjoyed his soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(we -7.60)(sat -2.47)(down -0.74)(and -2.77)(enjoyed -3.73)(his -0.83)(soul -2.17)(. -2.91) line score is : -2.743, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ and they rushed to the rail 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.215874466113746;  adjusted_score: -3.191812199614942----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he came to the break , 
+ and we sat down and enjoyed his soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(came -1.13)(to -0.75)(the -5.04)(break -3.06)(, -1.61) line score is : -3.137, look ahead score is : 0.626
+(and -1.61)(we -6.86)(sat -4.00)(down -1.36)(and -2.82)(enjoyed -3.39)(his -0.40)(soul -1.79)(. -4.27) line score is : -2.944, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBP A NN NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ you are a simpleton loon 
+ she 's a person of note 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2381569941838584;  adjusted_score: -3.2145748602350555----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ and i know that my son has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(and -0.74)(i -7.13)(know -1.97)(that -2.22)(my -1.53)(son -4.00)(has -1.95)(a -4.08)(soul -4.16)(. -2.69) line score is : -3.047, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ which he loosed in the house 
+ and I hope that your day is a blast 
+-------------------------score:  -3.2948293974905303;  adjusted_score: -3.2700305132477574----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(wife -6.12)(is -2.15)(a -4.41)(soul -1.60)(. -4.01) line score is : -3.327, look ahead score is : 0.000
+-------------------------score:  -3.314792199568315;  adjusted_score: -3.289993315325542----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i say that my friend is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(say -2.47)(that -0.74)(my -2.70)(friend -6.43)(is -2.88)(a -4.44)(soul -3.40)(. -3.03) line score is : -3.514, look ahead score is : 0.000
+-------------------------score:  -3.3222104636105625;  adjusted_score: -3.2974115793677896----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i heard that his wife has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(heard -2.47)(that -0.74)(his -2.70)(wife -6.13)(has -3.73)(a -4.14)(soul -1.15)(. -5.41) line score is : -3.553, look ahead score is : 0.000
+-------------------------score:  -3.3295403718948364;  adjusted_score: -3.3047414876520635----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his wife has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(wife -6.12)(has -2.15)(a -4.41)(soul -1.60)(. -4.64) line score is : -3.390, look ahead score is : 0.000
+-------------------------score:  -3.3332917112292666;  adjusted_score: -3.3084928269864937----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i say that my wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(say -2.47)(that -0.74)(my -2.70)(wife -6.43)(is -2.88)(a -4.44)(soul -2.97)(. -3.22) line score is : -3.491, look ahead score is : 0.000
+-------------------------score:  -3.336921142809319;  adjusted_score: -3.312122258566546----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i heard that his wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(heard -2.47)(that -0.74)(his -2.70)(wife -6.13)(is -3.73)(a -4.14)(soul -1.15)(. -4.68) line score is : -3.480, look ahead score is : 0.000
+-------------------------score:  -3.3632159016349097;  adjusted_score: -3.338417017392137----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that my friend is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(my -2.70)(friend -6.12)(is -2.15)(a -4.10)(soul -3.32)(. -4.51) line score is : -3.516, look ahead score is : 0.000
+-------------------------score:  -3.368325139537002;  adjusted_score: -3.343526255294229----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i think that his wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(think -2.47)(that -0.74)(his -2.70)(wife -4.47)(is -2.92)(a -5.87)(soul -2.00)(. -4.78) line score is : -3.502, look ahead score is : 0.000
+-------------------------score:  -3.3723343935879795;  adjusted_score: -3.3475355093452066----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that my wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(my -2.70)(wife -6.12)(is -2.15)(a -4.10)(soul -3.19)(. -4.05) line score is : -3.457, look ahead score is : 0.000
+-------------------------score:  -3.374838706218835;  adjusted_score: -3.350039821976062----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i think that his wife has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(think -2.47)(that -0.74)(his -2.70)(wife -4.47)(has -2.92)(a -5.87)(soul -2.00)(. -5.45) line score is : -3.569, look ahead score is : 0.000
+-------------------------score:  -3.381369699131359;  adjusted_score: -3.356570814888586----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his son is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(son -6.12)(is -2.15)(a -4.41)(soul -4.37)(. -3.53) line score is : -3.556, look ahead score is : 0.000
+-------------------------score:  -3.381529136137529;  adjusted_score: -3.356730251894756----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that my wife has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(my -2.70)(wife -6.12)(has -2.15)(a -4.10)(soul -3.19)(. -4.49) line score is : -3.502, look ahead score is : 0.000
+-------------------------score:  -3.3817866932262075;  adjusted_score: -3.3569878089834346----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that my friend has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(my -2.70)(friend -6.12)(has -2.15)(a -4.10)(soul -3.32)(. -4.98) line score is : -3.563, look ahead score is : 0.000
+-------------------------score:  -3.385296839656252;  adjusted_score: -3.360497955413479----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i think that my wife has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(think -2.47)(that -0.74)(my -2.70)(wife -4.47)(has -2.92)(a -5.31)(soul -2.88)(. -5.23) line score is : -3.578, look ahead score is : 0.000
+-------------------------score:  -3.391753666328661;  adjusted_score: -3.3669547820858883----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i think that my friend is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(think -2.47)(that -0.74)(my -2.70)(friend -4.47)(is -2.92)(a -5.31)(soul -3.02)(. -4.85) line score is : -3.554, look ahead score is : 0.000
+-------------------------score:  -3.394661473505425;  adjusted_score: -3.369862589262652----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his name is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(name -6.12)(is -2.15)(a -4.41)(soul -4.21)(. -1.10) line score is : -3.297, look ahead score is : 0.000
+-------------------------score:  -3.399880127473311;  adjusted_score: -3.375081243230538----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i say that my heart is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(say -2.47)(that -0.74)(my -2.70)(heart -6.43)(is -2.88)(a -4.44)(soul -3.70)(. -2.53) line score is : -3.495, look ahead score is : 0.000
+-------------------------score:  -3.4090307553609214;  adjusted_score: -3.3842318711181485----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that my son is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(my -2.70)(son -6.12)(is -2.15)(a -4.10)(soul -4.61)(. -3.61) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.4141574556177314;  adjusted_score: -3.3893585713749586----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i think that my wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(think -2.47)(that -0.74)(my -2.70)(wife -4.47)(is -2.92)(a -5.31)(soul -2.88)(. -4.74) line score is : -3.529, look ahead score is : 0.000
+-------------------------score:  -3.4359356490048496;  adjusted_score: -3.4111367647620767----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his wife knows a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(wife -6.12)(knows -2.15)(a -4.41)(soul -1.60)(. -6.11) line score is : -3.537, look ahead score is : 0.000
+-------------------------score:  -3.461142995140769;  adjusted_score: -3.436344110897996----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his face is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(face -6.12)(is -2.15)(a -4.41)(soul -3.91)(. -4.04) line score is : -3.561, look ahead score is : 0.000
+-------------------------score:  -3.492285714004979;  adjusted_score: -3.467486829762206----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i think that our meal is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(think -2.47)(that -0.74)(our -2.70)(meal -4.47)(is -2.92)(a -6.01)(soul -3.31)(. -4.03) line score is : -3.571, look ahead score is : 0.000
+-------------------------score:  -3.5500645782008315;  adjusted_score: -3.5252656939580587----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his wife says a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(wife -6.12)(says -2.15)(a -4.41)(soul -1.60)(. -5.41) line score is : -3.466, look ahead score is : 0.000
+-------------------------score:  -3.580927928288778;  adjusted_score: -3.556129044046005----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that my wife says a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(my -2.70)(wife -6.12)(says -2.15)(a -4.10)(soul -3.19)(. -5.29) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.5830676049897163;  adjusted_score: -3.5582687207469434----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and i know that his wife thinks a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(i -7.60)(know -2.47)(that -0.74)(his -2.70)(wife -6.12)(thinks -2.15)(a -4.41)(soul -1.60)(. -6.30) line score is : -3.556, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBP A NN NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ you are a simpleton loon 
+ she 's a person of note 
+ but it does n't come out of my purse 
+-------------------------score:  -3.309653475880623;  adjusted_score: -3.28607134193182----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ but it does not get in our soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(but -0.74)(it -7.13)(does -1.97)(not -1.42)(get -1.96)(in -4.60)(our -3.37)(soul -4.98)(. -3.80) line score is : -3.331, look ahead score is : 0.000
+-------------------------score:  -3.3172680400311947;  adjusted_score: -3.2936859060823918----------------------- 
+there was a fierce waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ but it does not get in our soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(but -0.74)(it -7.13)(does -1.97)(not -1.42)(get -1.96)(in -4.60)(our -3.37)(soul -4.98)(. -3.80) line score is : -3.331, look ahead score is : 0.000
+-------------------------score:  -3.320876967161894;  adjusted_score: -3.297294833213091----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ but it does not count towards my soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(but -0.74)(it -7.13)(does -1.97)(not -1.42)(count -1.96)(towards -4.60)(my -3.37)(soul -5.50)(. -3.61) line score is : -3.366, look ahead score is : 0.000
+-------------------------score:  -3.3320199362933636;  adjusted_score: -3.3084378023445606----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ but it does not count towards your soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(but -0.74)(it -7.13)(does -1.97)(not -1.42)(count -1.96)(towards -4.60)(your -3.37)(soul -5.50)(. -3.61) line score is : -3.366, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ which he loosed in the house 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.316999973729253;  adjusted_score: -3.29220108948648----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like soup of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(soup -0.43)(of -5.55)(soul -2.75)(. -5.65) line score is : -3.327, look ahead score is : 0.000
+-------------------------score:  -3.37535135820508;  adjusted_score: -3.350552473962307----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like bread of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(bread -0.43)(of -5.55)(soul -2.75)(. -5.79) line score is : -3.343, look ahead score is : 0.000
+-------------------------score:  -3.384546095505357;  adjusted_score: -3.359747211262584----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like pure of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(pure -0.43)(of -5.55)(soul -2.75)(. -7.22) line score is : -3.502, look ahead score is : 0.000
+-------------------------score:  -3.38780808262527;  adjusted_score: -3.363009198382497----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like love of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(love -0.43)(of -5.55)(soul -2.75)(. -7.50) line score is : -3.533, look ahead score is : 0.000
+-------------------------score:  -3.4082443676888943;  adjusted_score: -3.3834454834461214----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like sweet of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(sweet -0.43)(of -5.55)(soul -2.75)(. -6.48) line score is : -3.420, look ahead score is : 0.000
+-------------------------score:  -3.4086104687303305;  adjusted_score: -3.3838115844875576----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like wine of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(wine -0.43)(of -5.55)(soul -2.75)(. -6.14) line score is : -3.382, look ahead score is : 0.000
+-------------------------score:  -3.4217103105038404;  adjusted_score: -3.3969114262610676----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like meat of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(meat -0.43)(of -5.55)(soul -2.75)(. -6.99) line score is : -3.477, look ahead score is : 0.000
+-------------------------score:  -3.4504822585731745;  adjusted_score: -3.4256833743304016----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like pie of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(pie -0.43)(of -5.55)(soul -2.75)(. -6.83) line score is : -3.459, look ahead score is : 0.000
+-------------------------score:  -3.4697394110262394;  adjusted_score: -3.4449405267834665----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like lunch of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(lunch -0.43)(of -5.55)(soul -2.75)(. -7.06) line score is : -3.484, look ahead score is : 0.000
+-------------------------score:  -3.4763095751404762;  adjusted_score: -3.4515106908977033----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ which he put in the cake , 
+ and it was almost like crack of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(which -8.75)(he -1.61)(put -2.42)(in -2.17)(the -4.52)(cake -0.68)(, -1.47) line score is : -3.089, look ahead score is : 0.663
+(and -1.47)(it -7.60)(was -2.47)(almost -0.74)(like -3.29)(crack -0.43)(of -5.55)(soul -2.75)(. -7.44) line score is : -3.526, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBP A NN NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ you are a simpleton loon 
+ she 's a person of note 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3547976464033127;  adjusted_score: -3.3312155124545098----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ and it was almost like soup of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(and -0.74)(it -7.13)(was -1.97)(almost -2.22)(like -1.85)(soup -2.40)(of -5.26)(soul -2.06)(. -5.18) line score is : -3.202, look ahead score is : 0.000
+-------------------------score:  -3.3624122105538845;  adjusted_score: -3.3388300766050816----------------------- 
+there was a fierce waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ and it was almost like soup of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(and -0.74)(it -7.13)(was -1.97)(almost -2.22)(like -1.85)(soup -2.40)(of -5.26)(soul -2.06)(. -5.18) line score is : -3.202, look ahead score is : 0.000
+-------------------------score:  -3.39746137522161;  adjusted_score: -3.373879241272807----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ and it was almost like bread of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(and -0.74)(it -7.13)(was -1.97)(almost -2.22)(like -1.85)(bread -2.40)(of -5.26)(soul -2.06)(. -5.76) line score is : -3.266, look ahead score is : 0.000
+-------------------------score:  -3.405075939372182;  adjusted_score: -3.381493805423379----------------------- 
+there was a fierce waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ and it was almost like bread of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(and -0.74)(it -7.13)(was -1.97)(almost -2.22)(like -1.85)(bread -2.40)(of -5.26)(soul -2.06)(. -5.76) line score is : -3.266, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4329518023878336;  adjusted_score: -3.408910489603877----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like soup of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(soup -0.36)(of -5.27)(soul -2.35)(. -7.67) line score is : -3.585, look ahead score is : 0.000
+-------------------------score:  -3.448005151003599;  adjusted_score: -3.4239638382196427----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like meat of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(meat -0.36)(of -5.27)(soul -2.35)(. -6.75) line score is : -3.483, look ahead score is : 0.000
+-------------------------score:  -3.478798359632492;  adjusted_score: -3.4547570468485356----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like love of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(love -0.36)(of -5.27)(soul -2.35)(. -8.37) line score is : -3.663, look ahead score is : 0.000
+-------------------------score:  -3.4918212480843067;  adjusted_score: -3.4677799353003502----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like bread of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(bread -0.36)(of -5.27)(soul -2.35)(. -7.77) line score is : -3.597, look ahead score is : 0.000
+-------------------------score:  -3.506388047710061;  adjusted_score: -3.4823467349261046----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like wine of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(wine -0.36)(of -5.27)(soul -2.35)(. -7.90) line score is : -3.610, look ahead score is : 0.000
+-------------------------score:  -3.52282568346709;  adjusted_score: -3.4987843694910405----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the cake , 
+ and it was almost like bread of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(cake -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -7.23)(was -2.28)(almost -1.40)(like -3.75)(bread -0.42)(of -5.38)(soul -2.66)(. -7.06) line score is : -3.669, look ahead score is : 0.000
+-------------------------score:  -3.542339615523815;  adjusted_score: -3.5182983027398587----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like cheese of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(cheese -0.36)(of -5.27)(soul -2.35)(. -8.21) line score is : -3.645, look ahead score is : 0.000
+-------------------------score:  -3.542620535939932;  adjusted_score: -3.5185792231559754----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like cake of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(cake -0.36)(of -5.27)(soul -2.35)(. -8.01) line score is : -3.622, look ahead score is : 0.000
+-------------------------score:  -3.548243511468172;  adjusted_score: -3.5242021986842156----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like pie of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(pie -0.36)(of -5.27)(soul -2.35)(. -8.41) line score is : -3.668, look ahead score is : 0.000
+-------------------------score:  -3.548867868259549;  adjusted_score: -3.5248265554755926----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like lunch of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(lunch -0.36)(of -5.27)(soul -2.35)(. -7.64) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.5633381735533476;  adjusted_score: -3.539296860769391----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was not like something of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(not -1.40)(like -3.47)(something -0.36)(of -4.51)(soul -4.85)(. -6.03) line score is : -3.596, look ahead score is : 0.000
+-------------------------score:  -3.5669650342315435;  adjusted_score: -3.542923721447587----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i asked for our shake , 
+ and he got to the steak , 
+ and it was almost like fish of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(asked -2.16)(for -3.26)(our -2.83)(shake -5.31)(, -8.75) line score is : -4.085, look ahead score is : 0.577
+(and -8.75)(he -1.61)(got -1.13)(to -0.75)(the -4.64)(steak -5.10)(, -2.84) line score is : -3.548, look ahead score is : 0.625
+(and -2.84)(it -6.83)(was -2.08)(almost -1.40)(like -3.47)(fish -0.36)(of -5.27)(soul -2.35)(. -8.06) line score is : -3.628, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBP A NN NN , 
+ PRP POS A NN OF NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ you are a simpleton loon 
+ she 's a person of note 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.4490890268123513;  adjusted_score: -3.4255068928635484----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and say on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(say -5.69)(on -2.18)(the -2.16)(soul -7.10)(. -6.80) line score is : -3.804, look ahead score is : 0.000
+-------------------------score:  -3.4541493130452707;  adjusted_score: -3.430567179096468----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and take on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(take -5.69)(on -2.18)(the -2.16)(soul -7.12)(. -6.47) line score is : -3.773, look ahead score is : 0.000
+-------------------------score:  -3.456472846594724;  adjusted_score: -3.432890712645921----------------------- 
+there was a fierce waiter named nicolle 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and say on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(say -5.69)(on -2.18)(the -2.16)(soul -7.10)(. -6.80) line score is : -3.804, look ahead score is : 0.000
+-------------------------score:  -3.460994845086878;  adjusted_score: -3.4374127111380752----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and think on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(think -5.69)(on -2.18)(the -2.16)(soul -7.22)(. -7.32) line score is : -3.868, look ahead score is : 0.000
+-------------------------score:  -3.4615331328276433;  adjusted_score: -3.4379509988788404----------------------- 
+there was a fierce waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and take on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(take -5.69)(on -2.18)(the -2.16)(soul -7.12)(. -6.47) line score is : -3.773, look ahead score is : 0.000
+-------------------------score:  -3.4683786648692507;  adjusted_score: -3.444796530920448----------------------- 
+there was a fierce waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and think on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(think -5.69)(on -2.18)(the -2.16)(soul -7.22)(. -7.32) line score is : -3.868, look ahead score is : 0.000
+-------------------------score:  -3.4855972076907302;  adjusted_score: -3.4620150737419273----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and let on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(let -5.69)(on -2.18)(the -2.16)(soul -4.19)(. -9.22) line score is : -3.755, look ahead score is : 0.000
+-------------------------score:  -3.492981027473103;  adjusted_score: -3.4693988935243----------------------- 
+there was a fierce waiter named nicolle 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and let on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(let -5.69)(on -2.18)(the -2.16)(soul -4.19)(. -9.22) line score is : -3.755, look ahead score is : 0.000
+-------------------------score:  -3.4949220978852473;  adjusted_score: -3.4713399639364444----------------------- 
+there was a loud waiter named nicolle 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and give on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(give -5.69)(on -2.18)(the -2.16)(soul -6.85)(. -8.20) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.50230591766762;  adjusted_score: -3.478723783718817----------------------- 
+there was a fierce waiter named nicolle 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and give on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(give -5.69)(on -2.18)(the -2.16)(soul -6.85)(. -8.20) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.5167131080771936;  adjusted_score: -3.4931309741283907----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and have on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(have -5.69)(on -2.18)(the -2.16)(soul -5.01)(. -8.06) line score is : -3.722, look ahead score is : 0.000
+-------------------------score:  -3.5240969278595666;  adjusted_score: -3.5005147939107637----------------------- 
+there was a fierce waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and have on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.10)(poured -7.39)(all -4.21)(our -3.34)(food -2.48)(in -2.36)(a -1.42)(bowl -3.56)(. -2.24) line score is : -3.123, look ahead score is : 0.000
+(i -2.24)(am -2.36)(a -4.42)(bit -2.92)(torn -3.30)(, -5.89) line score is : -3.522, look ahead score is : 0.620
+(it -5.89)('s -3.75)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.225, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(have -5.69)(on -2.18)(the -2.16)(soul -5.01)(. -8.06) line score is : -3.722, look ahead score is : 0.000
+-------------------------score:  -3.5302632378809378;  adjusted_score: -3.506681103932135----------------------- 
+there was a loud waiter named cole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and keep on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(keep -5.69)(on -2.18)(the -2.16)(soul -7.48)(. -3.29) line score is : -3.491, look ahead score is : 0.000
+-------------------------score:  -3.540856486017054;  adjusted_score: -3.517274352068251----------------------- 
+there was a loud waiter named nicole 
+ who poured all our food in a bowl . 
+ i am a bit torn , 
+ it 's a lot of corn , 
+ so i gave up and use on the soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.49)(poured -7.38)(all -4.79)(our -3.04)(food -2.33)(in -2.33)(a -1.35)(bowl -3.16)(. -2.19) line score is : -3.118, look ahead score is : 0.000
+(i -2.19)(am -2.16)(a -4.43)(bit -2.92)(torn -3.34)(, -5.87) line score is : -3.486, look ahead score is : 0.620
+(it -5.87)('s -3.72)(a -4.07)(lot -1.74)(of -2.36)(corn -4.03)(, -0.74) line score is : -3.219, look ahead score is : 0.559
+(so -0.74)(i -7.13)(gave -1.97)(up -3.41)(and -0.85)(use -5.69)(on -2.18)(the -2.16)(soul -7.48)(. -8.42) line score is : -4.004, look ahead score is : 0.000

@@ -1,0 +1,33 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD ON CD OF PRP$ NNS . 
+ PRP VBD FOR PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who married on one of his trips 
+ he bought for his daughter 
+ he was ready to faint 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.0883953098593087;  adjusted_score: -3.062144207620415----------------------- 
+there was a shy girl named ambrose 
+ who insisted on one of my clothes . 
+ it was for her birthday , 
+ i was happy to say , 
+ but she refused my offers and chose . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(insisted -6.94)(on -0.77)(one -7.45)(of -1.25)(my -1.20)(clothes -4.97)(. -1.94) line score is : -3.211, look ahead score is : 0.000
+(it -1.94)(was -3.53)(for -0.63)(her -6.17)(birthday -1.36)(, -0.93) line score is : -2.427, look ahead score is : 0.629
+(i -0.93)(was -1.45)(happy -2.62)(to -2.49)(say -5.21)(, -0.98) line score is : -2.279, look ahead score is : 0.684
+(but -0.98)(she -4.13)(refused -1.01)(my -1.31)(offers -1.55)(and -3.66)(chose -3.28)(. -5.50) line score is : -2.678, look ahead score is : 0.000
+-------------------------score:  -3.2470431173669883;  adjusted_score: -3.2207920151280947----------------------- 
+there was a shy girl named rose 
+ who insisted on one of my clothes . 
+ it was for her birthday , 
+ i was happy to say , 
+ but i told her afterwards and chose . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(insisted -6.94)(on -0.77)(one -7.45)(of -1.25)(my -1.20)(clothes -4.97)(. -1.94) line score is : -3.211, look ahead score is : 0.000
+(it -1.94)(was -3.53)(for -0.63)(her -6.17)(birthday -1.36)(, -0.93) line score is : -2.427, look ahead score is : 0.629
+(i -0.93)(was -1.45)(happy -2.62)(to -2.49)(say -5.21)(, -0.98) line score is : -2.279, look ahead score is : 0.684
+(but -0.98)(i -4.13)(told -1.01)(her -1.31)(afterwards -1.65)(and -4.69)(chose -0.08)(. -6.95) line score is : -2.601, look ahead score is : 0.000
