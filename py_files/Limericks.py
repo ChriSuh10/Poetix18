@@ -83,6 +83,8 @@ class Limerick_Generate:
 
         with open(self.filtered_names_rhymes, "rb") as hf:
             self.names_rhymes_list = pickle.load(hf)
+            
+        self.female_name_list, self.male_name_list = pickle.load(open("py_files/saved_objects/name_list.p", "rb"))
 
 
     def get_spacy_similarity(self, word1, word2):
@@ -858,27 +860,6 @@ class Limerick_Generate:
                 if valid_syll(perm, template):
                     return perm
 
-    def load_name_list(self, name_count=None):
-        female_names_file = 'py_files/saved_objects/dist.female.first.txt'
-        male_names_file = 'py_files/saved_objects/dist.male.first.txt'
-        female_name_list, male_name_list = [], []
-
-        with open(female_names_file, 'rb') as female_names:
-            for line in female_names:
-                name, _, _, count = line.split()
-                female_name_list.append(name.lower().decode('utf-8'))
-                if name_count is not None and int(count) == name_count:
-                    break
-
-        with open(male_names_file, 'rb') as male_names:
-            for line in male_names:
-                name, _, _, count = line.split()
-                male_name_list.append(name.lower().decode('utf-8'))
-                if name_count is not None and int(count) == name_count:
-                    break
-
-        return female_name_list, male_name_list
-
     def load_city_list(self):
         city_list_file = 'py_files/saved_objects/city_names.txt'
         l = []
@@ -936,7 +917,7 @@ class Limerick_Generate:
                 n += len(self.dict_meters[x][0])
             return n
 
-        female_name_list, male_name_list = self.load_name_list()
+        female_name_list, male_name_list = self.female_name_list, self.male_name_list
         city_name_list = self.load_city_list()
         templates, placeholders, dict = get_first_line_templates()
 
