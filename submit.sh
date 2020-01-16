@@ -4,7 +4,8 @@
 #SBATCH -t 4:00:00  # time requested in hour:minute:second
 # Request 1GB or RAM
 #SBATCH --gres=gpu:1
-#SBATCH --mem=30G -C v100
+#SBATCH --mem=30G -C v100 
+##SBATCH --mem=30G -C v100 --cpu-per-task=10
 #SBTACH -p compsci-gpu
 python3 run_Limericks.py --type no_story --sasved_directory new_final_testing_DTS_no_story --mode multi --diversity True --cuda 1 --word_embedding_coefficient 0.1 --search_space 25 --retain_space 30 --prompt child
 # python3 run_Limericks.py --type no_story --saved_directory new_final_testing_DTS_no_story --mode multi --diversity True --cuda 1 --word_embedding_coefficient 0.1 --search_space 25 --retain_space 30 --prompt applaud
