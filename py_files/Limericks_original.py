@@ -29,7 +29,6 @@ from .Limericks import Limerick_Generate
 from .Finer_POS import get_finer_pos_words
 import multiprocessing as mp
 import time
-random.seed(20)
 
 class Limerick_Generate_new(Limerick_Generate):
 	def __init__(self, wv_file='py_files/saved_objects/poetic_embeddings.300d.txt',
@@ -100,6 +99,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		if self.mode=="multi":
 			with open("py_files/saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 				data=pickle.load(pickle_in)
+				data['fifth']=self.random_split(data['fifth'],percent=0.5)
 		else:
 			with open("py_files/saved_objects/unified_poems.pickle","rb") as pickle_in:
 				data=pickle.load(pickle_in)

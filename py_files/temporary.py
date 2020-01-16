@@ -9,6 +9,7 @@ from Finer_POS import get_finer_pos_words
 import string
 import os
 import random
+from templates import get_new_last_line_templates
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -177,8 +178,25 @@ def create_w1s_rhyme_dict(self,names_rhymes_list):
 				words_to_names_rhyme_dict[i]+=item_name
 	return words_to_names_rhyme_dict, w1s_rhyme_dict
 
+def random_split(data,percent=0.5):
+    ret=defaultdict(list)
+    for i in data.keys():
+        ret[i]=[]
+        for j in data[i]:
+            if random.uniform(0,1)>=0.5:
+                ret[i].append(j)
+        if len(ret[i])==0:
+            del ret[i]
+    return ret
+def count(data):
+	count=0
+	for i in data.keys():
+		count+=len(data[i])
+	return count
+
 
 if __name__ == '__main__':
+	'''
 	with open("saved_objects/unified_poems.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 		data1=random.choice(data)
@@ -186,8 +204,9 @@ if __name__ == '__main__':
 	'''
 	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	data["fifth"]["VB"].remove((('CC', 'DT', 'NN', 'NN', 'VBD', 'PRP', 'VB'), ('but', 'the', 'telephone', 'book', 'caused', 'him', 'pain'), (7, 9)))
-	'''
+	print(count(data['fifth']))
+	print(count(random_split(data['fifth'])))
+
 	'''
 	with open("saved_objects//blood_100_3_0.1_multi_True_original.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)

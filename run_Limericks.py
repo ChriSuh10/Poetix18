@@ -8,6 +8,7 @@ import numpy as np
 from collections import defaultdict
 import heapq
 import random
+
 def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict,f_all,prompt):
 	try:
 		with open(f_final+".pickle","rb") as pickle_in:
@@ -100,13 +101,13 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 		pickle.dump(data_curr_best,pickle_in)
 def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type="original", saved_directory="final_testing", 
 	prompt="blood",search_space=100, retain_space=3, word_embedding_coefficient=0.1, 
-	mode="multi", diversity=True,cuda=3):
+	mode="multi", diversity=True):
 	if type=="original":
 		from py_files.Limericks_original import Limerick_Generate_new
 	if type=="no_story":
 		from py_files.Limericks_no_story import Limerick_Generate_new
 	lg = Limerick_Generate_new()
-	saved_directory=saved_directory+str(cuda)
+	saved_directory=saved_directory
 	f_final=saved_directory +"/"+"results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	f_final_best=saved_directory +"/"+"best_results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	f1_path=saved_directory+"/"+"success.txt"
@@ -132,4 +133,9 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 			f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 	'''
 if __name__ == '__main__':
-    fire.Fire(limericks_generation_gpt)
+	data1="born, shaken, restore, laugh, tears, surprise, kindness, humiliation, victory, wedding, alien, holiday, christmas, thanksgiving, birthday, injury, pillow, fiance, dawn, traffic, heartbreak, wine, beer, musuem, mountain, river, memory, mud, spider, rain, season, winter, throne, politics, promise, beach, bank, money, limerick"
+	data2="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
+	prompt_list=list(data1.split(", ")+data2.split(", "))
+	slurm_task_id = os.getenv('SLURM_ARRAY_TASK_ID')
+	prompt=prompt_list[slurm_task_id]
+	fire.Fire(limericks_generation_gpt(prompt=prompt))

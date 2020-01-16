@@ -90,6 +90,18 @@ class Limerick_Generate:
     def get_spacy_similarity(self, word1, word2):
         return self.spacy_nlp(word1).similarity(self.spacy_nlp(word2))
 
+    def random_split(self,data,percent=0.5):
+        ret=defaultdict(list)
+        for i in data.keys():
+            ret[i]=[]
+            for j in data[i]:
+                if random.uniform(0,1)>=0.5:
+                    ret[i].append(j)
+            if len(ret[i])==0:
+                del ret[i]
+        return ret
+
+
     def create_syll_dict(self, fname):
         """
         Using the cmudict file, returns a dictionary mapping words to their

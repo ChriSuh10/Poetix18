@@ -1,8 +1,8 @@
 def bash_generator():
 	type="original"
-	saved_directory="new_final_testing_DTS_storyline"
-	search_space=30
-	retain_space=35
+	saved_directory="2020_Jan_final_testing_DTS_storyline"
+	search_space=25
+	retain_space=30
 	word_embedding_coefficient=0.1
 	mode="multi"
 	diversity=True
