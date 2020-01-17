@@ -133,11 +133,12 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 			f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
 	'''
 if __name__ == '__main__':
-	
 	data1="born, shaken, restore, laugh, tears, surprise, kindness, humiliation, victory, wedding, alien, holiday, christmas, thanksgiving, birthday, injury, pillow, fiance, dawn, traffic, heartbreak, wine, beer, musuem, mountain, river, memory, mud, spider, rain, season, winter, throne, politics, promise, beach, bank, money, limerick"
 	data2="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
 	prompt_list=list(data1.split(", ")+data2.split(", "))
 	slurm_task_id = os.getenv('SLURM_ARRAY_TASK_ID')
+	print("+++++++++++++++")
+	print(slurm_task_id)
 	prompt=prompt_list[slurm_task_id]
 	fire.Fire(limericks_generation_gpt(prompt=prompt))
 	
