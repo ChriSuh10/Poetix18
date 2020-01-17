@@ -7,4 +7,4 @@
 #SBATCH --mem=100G --cpus-per-task=20
 #SBTACH -p compsci-gpu
 #SBATCH -a 0-100 --ntasks-per-node=1
-srun python3 run_Limericks.py --type no_story --saved_directory 2020_Jan_DTS_no_story --mode multi --diversity True --word_embedding_coefficient 0.1 --search_space 25 --retain_space 30
+srun python3 run_Limericks.py --type no_story --saved_directory Jan_DTS_no_story --mode multi --diversity True --word_embedding_coefficient 0.1 --search_space 25 --retain_space 30

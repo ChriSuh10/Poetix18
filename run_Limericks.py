@@ -113,20 +113,26 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	f1_path=saved_directory+"/"+"success.txt"
 	f2_path=saved_directory+"/"+"failure.txt"
 	if saved_directory not in os.listdir(os.getcwd()):
-			os.mkdir(saved_directory)
+		os.mkdir(saved_directory)
+		print("==================== here ===================================")
+		print(saved_directory)
 	result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	all_result_file_path=saved_directory +"/" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	previous_data, template_to_line,words_to_names_rhyme_dict=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
 		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
+	print("==================== here here===================================")
 	with open(result_file_path+".pickle","wb") as f3:
 		pickle.dump(previous_data,f3)
+	print("==================== here here here===================================")
 	#with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
 		#pickle.dump(template_to_line,f4)
 	with open(result_file_path+".txt","a+") as f:
 		with open(all_result_file_path+".txt","a+") as f_all:
 			printing(previous_data,f, f_final,f_final_best,word_embedding_coefficient, template_to_line, words_to_names_rhyme_dict,f_all,prompt)
+	print("==================== here here here here===================================")
 	with open(f1_path,"a+") as f1:
 		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
+	print("==================== here here here here here===================================")
 	'''
 	except:
 		with open(f2_path,"a+") as f2:
@@ -138,5 +144,6 @@ if __name__ == '__main__':
 	prompt_list=list(data1.split(", ")+data2.split(", "))
 	slurm_task_id = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 	prompt=prompt_list[slurm_task_id]
+	print(prompt)
 	fire.Fire(limericks_generation_gpt(prompt=prompt))
 	
