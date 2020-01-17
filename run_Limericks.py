@@ -1,6 +1,5 @@
 import tensorflow as tf
 import nltk
-import fire
 import pdb
 import os
 import pickle
@@ -8,6 +7,18 @@ import numpy as np
 from collections import defaultdict
 import heapq
 import random
+import argparse
+
+def init_parser():
+    parser = argparse.ArgumentParser(description='Evaluate which epoch')
+    parser.add_argument('--type', '-t', default='original', type=str, dest='type')
+    parser.add_argument("--saved_directory",'-dir', default='testing',type=str,dest='saved_directory')
+    parser.add_argument("--search_space",'-ser', default=100,type=int,dest='search_space')
+    parser.add_argument("--retain_space",'-re', default=3,type=int,dest='retain_space')
+    parser.add_argument("--word_embedding_coefficient",'-w', default=0.1,type=float,dest='word_embedding_coefficient')
+    parser.add_argument("--mode",'-m', default='multi',type=str,dest='mode')
+    parser.add_argument("--diversity",'-div', default=True,type=bool,dest='diversity')
+    return parser.parse_args()
 
 def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict,f_all,prompt):
 	try:
@@ -99,9 +110,14 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 		pickle.dump(data_curr,pickle_in)
 	with open(f_final_best+".pickle","wb") as pickle_in:
 		pickle.dump(data_curr_best,pickle_in)
-def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type="original", saved_directory="final_testing", 
-	prompt="blood",search_space=100, retain_space=3, word_embedding_coefficient=0.1, 
-	mode="multi", diversity=True):
+def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prompt="blood",args=None):
+	type=args.type
+	saved_directory=args.saved_directory
+	search_space=args.search_space
+	retain_space=args.retain_space
+	word_embedding_coefficient=args.word_embedding_coefficient
+	mode=args.mode
+	diversity=args.diversity
 	if type=="original":
 		from py_files.Limericks_original import Limerick_Generate_new
 	if type=="no_story":
@@ -114,6 +130,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',type
 	f2_path=saved_directory+"/"+"failure.txt"
 	print("=========================================")
 	print(saved_directory)
+	print("=========================================")
 	if saved_directory not in os.listdir(os.getcwd()):
 		os.mkdir(saved_directory)
 		print("==================== here ===================================")
@@ -147,5 +164,6 @@ if __name__ == '__main__':
 	slurm_task_id = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 	prompt=prompt_list[slurm_task_id]
 	print(prompt)
-	fire.Fire(limericks_generation_gpt(prompt=prompt))
+	limericks_generation_gpt(prompt=prompt,args=init_parser())
+	
 	
