@@ -91,7 +91,7 @@ class Limerick_Generate:
         return self.spacy_nlp(word1).similarity(self.spacy_nlp(word2))
 
     def random_split(self,data,percent=0.5):
-        ret=defaultdict(list)
+        ret=collections.defaultdict(list)
         for i in data.keys():
             ret[i]=[]
             for j in data[i]:
