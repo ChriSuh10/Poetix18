@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ in my pocket for cash 
+ he was pained by a tooth 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.486260826840545;  adjusted_score: -3.4611197964395535----------------------- 
+there was a boring girl named marquerite 
+ who noticed a strange man on her street . 
+ in her search for someone , 
+ she was struck by a gun , 
+ as she looked out two doors in her neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.51)(noticed -7.54)(a -3.92)(strange -3.00)(man -3.63)(on -3.32)(her -2.41)(street -2.25)(. -1.71) line score is : -3.254, look ahead score is : 0.000
+(in -1.71)(her -5.03)(search -2.42)(for -4.36)(someone -0.52)(, -4.56) line score is : -3.101, look ahead score is : 0.584
+(she -4.56)(was -2.02)(struck -0.18)(by -3.14)(a -4.32)(gun -0.23)(, -1.02) line score is : -2.210, look ahead score is : 0.673
+(as -1.02)(she -7.01)(looked -2.64)(out -4.96)(two -1.26)(doors -4.87)(in -2.70)(her -8.00)(neat -1.42)(. -4.28) line score is : -3.816, look ahead score is : 0.000

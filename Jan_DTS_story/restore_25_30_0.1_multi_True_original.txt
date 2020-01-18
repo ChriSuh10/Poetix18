@@ -1,0 +1,407 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.789241587674176;  adjusted_score: -3.7682990399058216----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and ended with a desperate rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(and -5.75)(ended -8.64)(with -4.04)(a -3.95)(desperate -3.96)(rest -2.31)(. -1.68) line score is : -4.333, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.7935881114775136;  adjusted_score: -3.772645563709159----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she tried to find , you know a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(tried -4.04)(to -5.12)(find -2.47)(, -3.86)(you -0.15)(know -1.85)(a -6.86)(rest -6.35)(. -0.36) line score is : -4.133, look ahead score is : 0.000
+-------------------------score:  -3.81610454282453;  adjusted_score: -3.7951619950561755----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she came to know , you have a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(came -4.04)(to -5.12)(know -2.47)(, -5.14)(you -0.55)(have -1.91)(a -4.29)(rest -6.95)(. -4.14) line score is : -4.457, look ahead score is : 0.000
+-------------------------score:  -3.828495348653486;  adjusted_score: -3.8075528008851314----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as it was to be , you have a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(it -8.64)(was -4.04)(to -5.12)(be -3.59)(, -2.10)(you -4.00)(have -1.62)(a -2.34)(rest -8.07)(. -3.71) line score is : -4.453, look ahead score is : 0.000
+-------------------------score:  -3.848588143625567;  adjusted_score: -3.8276455958572124----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she came to know , we have a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(came -4.04)(to -5.12)(know -2.47)(, -5.14)(we -0.55)(have -1.91)(a -4.29)(rest -7.35)(. -3.83) line score is : -4.464, look ahead score is : 0.000
+-------------------------score:  -3.860689140135242;  adjusted_score: -3.8397465923668874----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she came to know , we find a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(came -4.04)(to -5.12)(know -2.47)(, -5.14)(we -0.55)(find -1.91)(a -4.29)(rest -7.35)(. -3.33) line score is : -4.419, look ahead score is : 0.000
+-------------------------score:  -3.8614999325044694;  adjusted_score: -3.840557384736115----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as it was to be , we have a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(it -8.64)(was -4.04)(to -5.12)(be -3.59)(, -2.10)(we -4.00)(have -1.62)(a -2.34)(rest -8.13)(. -3.52) line score is : -4.441, look ahead score is : 0.000
+-------------------------score:  -3.891121333645236;  adjusted_score: -3.8701787858768815----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as it was to be , you know a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(it -8.64)(was -4.04)(to -5.12)(be -3.59)(, -2.10)(you -4.00)(know -1.62)(a -2.34)(rest -8.07)(. -2.48) line score is : -4.341, look ahead score is : 0.000
+-------------------------score:  -3.8919584597310712;  adjusted_score: -3.8710159119627168----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she came to know , i mean a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(came -4.04)(to -5.12)(know -2.47)(, -5.14)(i -0.55)(mean -1.91)(a -4.29)(rest -6.54)(. -4.46) line score is : -4.448, look ahead score is : 0.000
+-------------------------score:  -3.927901460278419;  adjusted_score: -3.9069589125100643----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she came to know , we see a rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(came -4.04)(to -5.12)(know -2.47)(, -5.14)(we -0.55)(see -1.91)(a -4.29)(rest -7.35)(. -3.29) line score is : -4.416, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.8236030669047913;  adjusted_score: -3.802660519136437----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and she fell down and became her rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(and -5.75)(she -8.64)(fell -4.04)(down -3.95)(and -2.67)(became -4.35)(her -4.31)(rest -3.05)(. -3.68) line score is : -4.494, look ahead score is : 0.000
+-------------------------score:  -3.8301626443862915;  adjusted_score: -3.809220096617937----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and she went down and became her rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(and -5.75)(she -8.64)(went -4.04)(down -3.95)(and -2.67)(became -4.22)(her -3.36)(rest -4.83)(. -3.51) line score is : -4.553, look ahead score is : 0.000
+-------------------------score:  -3.859826503128841;  adjusted_score: -3.8388839553604863----------------------- 
+there was a wise surgeon named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and she went down and became her rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -4.91)(a -3.67)(young -2.57)(woman -1.97)(on -5.37)(her -0.82)(quest -4.21)(. -2.42) line score is : -3.022, look ahead score is : 0.000
+(but -2.42)(the -4.27)(journey -2.77)(she -3.67)(failed -3.94)(, -9.39) line score is : -4.411, look ahead score is : 0.547
+(and -9.39)(ultimately -2.84)(sailed -1.30)(, -5.75) line score is : -4.819, look ahead score is : 0.500
+(and -5.75)(she -8.64)(went -4.04)(down -3.95)(and -2.67)(became -4.22)(her -3.36)(rest -4.83)(. -3.51) line score is : -4.553, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.841022876898448;  adjusted_score: -3.8200803291300933----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she found out three times in her rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(found -4.04)(out -5.12)(three -2.47)(times -4.59)(in -2.44)(her -7.81)(rest -2.54)(. -2.35) line score is : -4.576, look ahead score is : 0.000
+-------------------------score:  -3.9157106916109723;  adjusted_score: -3.894768143842618----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she sought out two men in his rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(sought -4.04)(out -5.12)(two -2.47)(men -4.21)(in -2.71)(his -6.95)(rest -2.64)(. -3.00) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -3.929334056377411;  adjusted_score: -3.9083915086090566----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she found out two things in her rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(found -4.04)(out -5.12)(two -2.47)(things -4.59)(in -2.44)(her -7.25)(rest -4.06)(. -4.47) line score is : -4.885, look ahead score is : 0.000
+-------------------------score:  -3.944385755062103;  adjusted_score: -3.9234432072937486----------------------- 
+there was a wise surgeon named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she sought out two men in his rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -4.91)(a -3.67)(young -2.57)(woman -1.97)(on -5.37)(her -0.82)(quest -4.21)(. -2.42) line score is : -3.022, look ahead score is : 0.000
+(but -2.42)(the -4.27)(journey -2.77)(she -3.67)(failed -3.94)(, -9.39) line score is : -4.411, look ahead score is : 0.547
+(and -9.39)(ultimately -2.84)(sailed -1.30)(, -5.75) line score is : -4.819, look ahead score is : 0.500
+(as -5.75)(she -8.64)(sought -4.04)(out -5.12)(two -2.47)(men -4.21)(in -2.71)(his -6.95)(rest -2.64)(. -3.00) line score is : -4.554, look ahead score is : 0.000
+-------------------------score:  -3.968101418018341;  adjusted_score: -3.9471588702499867----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she sought out three men in his rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(sought -4.04)(out -5.12)(three -2.47)(men -4.21)(in -2.71)(his -7.54)(rest -3.09)(. -3.01) line score is : -4.660, look ahead score is : 0.000
+-------------------------score:  -3.99771009683609;  adjusted_score: -3.9767675490677354----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ as she found out three times in its rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(as -5.75)(she -8.64)(found -4.04)(out -5.12)(three -2.47)(times -4.59)(in -2.44)(its -7.81)(rest -2.54)(. -2.35) line score is : -4.576, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ PRP RB VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ he never completed his task 
+-------------------------score:  -3.8525867737256565;  adjusted_score: -3.831644225957302----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ she never experienced her rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(she -5.75)(never -8.64)(experienced -4.04)(her -4.30)(rest -2.98)(. -5.53) line score is : -5.205, look ahead score is : 0.000
+-------------------------score:  -3.9781215511835537;  adjusted_score: -3.9571790034151992----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ she never experienced its rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(she -5.75)(never -8.64)(experienced -4.04)(its -4.30)(rest -2.98)(. -5.53) line score is : -5.205, look ahead score is : 0.000
+-------------------------score:  -4.006597101688385;  adjusted_score: -3.9856545539200305----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ she never experienced his rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(she -5.75)(never -8.64)(experienced -4.04)(his -4.30)(rest -2.98)(. -5.53) line score is : -5.205, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ MAY VB A NN AT NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ may evolve a professor at yale 
+-------------------------score:  -3.8748075829611883;  adjusted_score: -3.853865035192834----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ may be a reality at rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(may -5.75)(be -8.64)(a -4.04)(reality -5.05)(at -1.55)(rest -2.87)(. -6.06) line score is : -4.852, look ahead score is : 0.000
+-------------------------score:  -3.8985346953074136;  adjusted_score: -3.877592147539059----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ may be a memorial at rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(may -5.75)(be -8.64)(a -4.04)(memorial -5.05)(at -1.55)(rest -2.87)(. -7.75) line score is : -5.094, look ahead score is : 0.000
+-------------------------score:  -3.9066687645735563;  adjusted_score: -3.885726216805202----------------------- 
+there was a wise surgeon named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ may be a reality at rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -4.91)(a -3.67)(young -2.57)(woman -1.97)(on -5.37)(her -0.82)(quest -4.21)(. -2.42) line score is : -3.022, look ahead score is : 0.000
+(but -2.42)(the -4.27)(journey -2.77)(she -3.67)(failed -3.94)(, -9.39) line score is : -4.411, look ahead score is : 0.547
+(and -9.39)(ultimately -2.84)(sailed -1.30)(, -5.75) line score is : -4.819, look ahead score is : 0.500
+(may -5.75)(be -8.64)(a -4.04)(reality -5.05)(at -1.55)(rest -2.87)(. -6.06) line score is : -4.852, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ to balance green peas on her fork 
+-------------------------score:  -3.9235242818083083;  adjusted_score: -3.902581734039954----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ to save other women on she rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(to -5.75)(save -8.64)(other -4.04)(women -2.59)(on -2.78)(she -4.85)(rest -2.15)(. -4.30) line score is : -4.388, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ BUT THE NN PRP VBD , 
+ AND RB VBD , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ but the copy he wrote 
+ and jappily sat 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.9576550763228844;  adjusted_score: -3.93671252855453----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and the girl soon learned a whole rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(and -5.75)(the -8.64)(girl -4.04)(soon -3.95)(learned -1.90)(a -3.96)(whole -5.79)(rest -3.63)(. -4.18) line score is : -4.649, look ahead score is : 0.000
+-------------------------score:  -3.978448144320784;  adjusted_score: -3.9575055965524295----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and the ship alone was a whole rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(and -5.75)(the -8.64)(ship -4.04)(alone -3.95)(was -1.90)(a -3.48)(whole -7.56)(rest -2.80)(. -4.69) line score is : -4.756, look ahead score is : 0.000
+-------------------------score:  -4.004653449716239;  adjusted_score: -3.9837109019478842----------------------- 
+there was a wise doctor named celeste 
+ who helped a young woman on her quest . 
+ but the journey she failed , 
+ and ultimately sailed , 
+ and the girl almost died a whole rest . 
+------------------------- score breakdown ------------------------ 
+(who -1.26)(helped -5.01)(a -3.74)(young -2.56)(woman -1.97)(on -5.55)(her -0.80)(quest -3.66)(. -2.32) line score is : -2.986, look ahead score is : 0.000
+(but -2.32)(the -4.16)(journey -2.84)(she -3.56)(failed -3.69)(, -9.28) line score is : -4.309, look ahead score is : 0.547
+(and -9.28)(ultimately -2.81)(sailed -1.30)(, -5.75) line score is : -4.782, look ahead score is : 0.500
+(and -5.75)(the -8.64)(girl -4.04)(almost -3.95)(died -1.90)(a -3.96)(whole -7.46)(rest -0.86)(. -6.21) line score is : -4.752, look ahead score is : 0.000

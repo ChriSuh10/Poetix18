@@ -1,0 +1,330 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ she was destined to go a long way 
+-------------------------score:  -2.836590631774837;  adjusted_score: -2.810975584707433----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ she was able to have a nice wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(she -0.78)(was -5.00)(able -2.36)(to -1.75)(have -1.98)(a -4.21)(nice -0.00)(wait -3.19)(. -1.04) line score is : -2.257, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ so he had to sit down on the floor 
+-------------------------score:  -2.9939796216785908;  adjusted_score: -2.9682668268680574----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ so she asked to go down on the wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(so -0.64)(she -4.93)(asked -2.71)(to -2.56)(go -0.72)(down -3.49)(on -3.17)(the -2.25)(wait -4.25)(. -1.65) line score is : -2.637, look ahead score is : 0.000
+-------------------------score:  -3.0767604541033506;  adjusted_score: -3.0510476592928173----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ so she went to work down on the wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(so -0.64)(she -4.93)(went -2.71)(to -2.56)(work -0.72)(down -2.63)(on -0.78)(the -4.82)(wait -8.08)(. -3.74) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.089220816269517;  adjusted_score: -3.0635080214589836----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ so she went to check down on the wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(so -0.64)(she -4.93)(went -2.71)(to -2.56)(check -0.72)(down -2.63)(on -0.78)(the -5.81)(wait -8.97)(. -0.75) line score is : -3.049, look ahead score is : 0.000
+-------------------------score:  -3.098828097805381;  adjusted_score: -3.0731153029948475----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ so she went to go down on the wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(so -0.64)(she -4.93)(went -2.71)(to -2.56)(go -0.72)(down -2.63)(on -0.78)(the -5.29)(wait -6.21)(. -1.87) line score is : -2.834, look ahead score is : 0.000
+-------------------------score:  -3.154056131839752;  adjusted_score: -3.128343337029219----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ so she left to go down on the wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(so -0.64)(she -4.93)(left -2.71)(to -2.56)(go -0.72)(down -4.45)(on -3.36)(the -1.63)(wait -5.49)(. -2.54) line score is : -2.904, look ahead score is : 0.000
+-------------------------score:  -3.1849055383354425;  adjusted_score: -3.159192743524909----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ so she went to watch down on the wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(so -0.64)(she -4.93)(went -2.71)(to -2.56)(watch -0.72)(down -2.63)(on -0.78)(the -5.74)(wait -9.90)(. -2.53) line score is : -3.313, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.1019871374592185;  adjusted_score: -3.0763720903918146----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she took out two cards towards her fate . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(took -2.36)(out -3.91)(two -0.45)(cards -3.94)(towards -3.15)(her -5.00)(fate -3.46)(. -8.56) line score is : -3.660, look ahead score is : 0.000
+-------------------------score:  -3.128818112425506;  adjusted_score: -3.103203065358102----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she took out two cards in their fate . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(took -2.36)(out -3.91)(two -0.45)(cards -3.94)(in -3.15)(their -5.00)(fate -3.46)(. -3.48) line score is : -3.152, look ahead score is : 0.000
+-------------------------score:  -3.1385025372728705;  adjusted_score: -3.1128874902054666----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she pulled out two friends in her wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(pulled -2.36)(out -3.91)(two -0.45)(friends -4.22)(in -1.75)(her -5.61)(wait -5.57)(. -4.34) line score is : -3.398, look ahead score is : 0.000
+-------------------------score:  -3.157190795056522;  adjusted_score: -3.131575747989118----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she pulled out two plates in her wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(pulled -2.36)(out -3.91)(two -0.45)(plates -4.22)(in -1.75)(her -5.61)(wait -5.86)(. -5.09) line score is : -3.502, look ahead score is : 0.000
+-------------------------score:  -3.158361661247909;  adjusted_score: -3.132746614180505----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she took out two cards in their wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(took -2.36)(out -3.91)(two -0.45)(cards -3.94)(in -3.15)(their -5.00)(wait -3.46)(. -3.48) line score is : -3.152, look ahead score is : 0.000
+-------------------------score:  -3.2099832771345973;  adjusted_score: -3.1843682300671934----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she took out two drinks in my wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(took -2.36)(out -3.91)(two -0.45)(drinks -3.94)(in -3.15)(my -5.00)(wait -4.30)(. -3.10) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -3.21279305126518;  adjusted_score: -3.187178004197776----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she pulled out two friends in their wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(pulled -2.36)(out -3.91)(two -0.45)(friends -4.22)(in -1.75)(their -5.61)(wait -5.57)(. -4.34) line score is : -3.398, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.2014790908856825;  adjusted_score: -3.1758640438182786----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ as she went to sleep , she beat a wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(as -0.78)(she -5.00)(went -2.36)(to -3.91)(sleep -0.45)(, -4.53)(she -1.09)(beat -3.00)(a -1.79)(wait -1.97)(. -9.60) line score is : -3.133, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ BUT THE NNS ALL VBD NNP RB JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ but the others all thought 'twas too breezy 
+-------------------------score:  -3.239059063696092;  adjusted_score: -3.2133462688855587----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ but the dates all went south again late . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(but -0.64)(the -4.93)(dates -2.71)(all -0.84)(went -2.92)(south -6.72)(again -5.70)(late -1.06)(. -3.28) line score is : -3.201, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ WHEN PRP VBP PRP , PRP VBP VBN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ when I wear it , I am called a vermine 
+-------------------------score:  -3.264904923511274;  adjusted_score: -3.239192128700741----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ when she heard it , i guess called a wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(when -0.64)(she -4.93)(heard -2.71)(it -3.75)(, -1.21)(i -2.45)(guess -5.22)(called -2.97)(a -6.28)(wait -2.99)(. -8.30) line score is : -3.768, look ahead score is : 0.000
+-------------------------score:  -3.3319344863747107;  adjusted_score: -3.3062216915641773----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ when she heard it , i mean come a wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(when -0.64)(she -4.93)(heard -2.71)(it -3.75)(, -1.21)(i -2.45)(mean -5.22)(come -2.97)(a -6.28)(wait -3.82)(. -7.31) line score is : -3.753, look ahead score is : 0.000
+-------------------------score:  -3.3359640060049114;  adjusted_score: -3.310251211194378----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ when she heard it , you know come a wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(when -0.64)(she -4.93)(heard -2.71)(it -3.75)(, -1.21)(you -2.45)(know -5.22)(come -2.97)(a -7.03)(wait -0.85)(. -9.92) line score is : -3.788, look ahead score is : 0.000
+-------------------------score:  -3.4766018878329885;  adjusted_score: -3.450889093022455----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ when she heard it , i think told a wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(when -0.64)(she -4.93)(heard -2.71)(it -3.75)(, -1.21)(i -2.45)(think -5.22)(told -2.97)(a -6.28)(wait -2.30)(. -9.48) line score is : -3.813, look ahead score is : 0.000
+-------------------------score:  -3.4866020155675486;  adjusted_score: -3.460889220757015----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was ready to play , 
+ when she heard it , i guess told a wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(ready -1.28)(to -2.29)(play -5.30)(, -0.64) line score is : -2.236, look ahead score is : 0.689
+(when -0.64)(she -4.93)(heard -2.71)(it -3.75)(, -1.21)(i -2.45)(guess -5.22)(told -2.97)(a -6.28)(wait -2.99)(. -8.92) line score is : -3.825, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.3690373743734052;  adjusted_score: -3.3434223273060013----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ she had her own parents and two wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(she -0.78)(had -5.00)(her -2.36)(own -1.75)(parents -1.68)(and -4.21)(two -2.63)(wait -7.53)(. -2.50) line score is : -3.160, look ahead score is : 0.000
+-------------------------score:  -3.41055239400556;  adjusted_score: -3.3849373469381563----------------------- 
+there was a nervous girl named kate 
+ who wanted a good time on her date . 
+ the night of her birthday , 
+ she was happy to say , 
+ she had her own parents and three wait . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(wanted -3.95)(a -3.81)(good -4.35)(time -2.04)(on -4.59)(her -1.52)(date -3.64)(. -1.22) line score is : -2.956, look ahead score is : 0.000
+(the -1.22)(night -3.55)(of -3.58)(her -3.10)(birthday -1.69)(, -3.15) line score is : -2.714, look ahead score is : 0.597
+(she -3.15)(was -0.76)(happy -1.28)(to -2.29)(say -5.66)(, -0.78) line score is : -2.320, look ahead score is : 0.684
+(she -0.78)(had -5.00)(her -2.36)(own -1.75)(parents -1.68)(and -4.21)(three -2.63)(wait -7.53)(. -2.50) line score is : -3.160, look ahead score is : 0.000

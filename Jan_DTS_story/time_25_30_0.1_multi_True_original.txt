@@ -1,0 +1,814 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and now a new teacher they seek 
+-------------------------score:  -2.7666757330298424;  adjusted_score: -2.739195714816451----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and maybe a little smile i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(maybe -2.98)(a -0.77)(little -0.74)(smile -5.87)(i -3.83)(guess -2.52)(. -2.74) line score is : -2.981, look ahead score is : 0.000
+-------------------------score:  -2.788781452924013;  adjusted_score: -2.7613014347106217----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and maybe a little smile i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(maybe -5.18)(a -0.76)(little -0.73)(smile -5.60)(i -3.64)(guess -2.57)(. -3.17) line score is : -3.080, look ahead score is : 0.000
+-------------------------score:  -2.802481161430478;  adjusted_score: -2.7750011432170867----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and maybe a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(maybe -2.98)(a -0.77)(little -0.74)(bit -5.87)(i -3.83)(guess -2.52)(. -1.47) line score is : -2.822, look ahead score is : 0.000
+-------------------------score:  -2.818185992538929;  adjusted_score: -2.7907059743255376----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and maybe a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(maybe -5.18)(a -0.76)(little -0.73)(bit -5.60)(i -3.64)(guess -2.57)(. -1.32) line score is : -2.850, look ahead score is : 0.000
+-------------------------score:  -2.8329334910959005;  adjusted_score: -2.805453472882509----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and even a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(even -2.98)(a -0.77)(little -0.74)(bit -6.42)(i -5.13)(guess -1.83)(. -1.36) line score is : -2.954, look ahead score is : 0.000
+-------------------------score:  -2.8400495145469904;  adjusted_score: -2.812569496333599----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and sometimes a little bit i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(sometimes -2.98)(a -0.77)(little -0.74)(bit -5.59)(i -4.28)(guess -2.65)(. -1.48) line score is : -2.861, look ahead score is : 0.000
+-------------------------score:  -2.8583953958004713;  adjusted_score: -2.83091537758708----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and sometimes a second time i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(sometimes -2.98)(a -0.77)(second -0.74)(time -5.59)(i -4.28)(guess -3.85)(. -1.45) line score is : -3.007, look ahead score is : 0.000
+-------------------------score:  -2.866918643936515;  adjusted_score: -2.8394386257231234----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and sometimes a second glance i guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(sometimes -2.98)(a -0.77)(second -0.74)(glance -5.59)(i -4.28)(guess -3.85)(. -1.85) line score is : -3.057, look ahead score is : 0.000
+-------------------------score:  -2.976069064810872;  adjusted_score: -2.9485890465974807----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and maybe a little smile she guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(maybe -2.98)(a -0.77)(little -0.74)(smile -5.87)(she -3.83)(guess -2.52)(. -2.74) line score is : -2.981, look ahead score is : 0.000
+-------------------------score:  -2.9825038630515337;  adjusted_score: -2.9550238448381423----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and maybe a little bit she guess . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(maybe -2.98)(a -0.77)(little -0.74)(bit -5.87)(she -3.83)(guess -2.52)(. -1.47) line score is : -2.822, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -2.8239005718267327;  adjusted_score: -2.7964205536133413----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and say hi to her friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(say -2.98)(hi -0.77)(to -0.74)(her -2.83)(friend -5.40)(in -1.99)(process -0.06)(. -6.24) line score is : -2.824, look ahead score is : 0.000
+-------------------------score:  -2.8241661768971067;  adjusted_score: -2.7966861586837153----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and say hi to my friend in process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(say -5.18)(hi -0.76)(to -0.73)(my -2.98)(friend -5.81)(in -1.38)(process -2.55)(. -3.15) line score is : -2.838, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and the captain then swore a whole lacht 
+-------------------------score:  -2.9506098618730903;  adjusted_score: -2.924894275031984----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well was a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(was -4.15)(a -4.50)(whole -0.95)(process -1.84)(. -3.73) line score is : -2.872, look ahead score is : 0.000
+-------------------------score:  -2.95994037296623;  adjusted_score: -2.934061864875257----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and the stair well was a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(the -7.97)(stair -1.18)(well -1.31)(was -3.78)(a -4.53)(whole -0.98)(process -1.73)(. -3.64) line score is : -2.960, look ahead score is : 0.000
+-------------------------score:  -2.9916746709495783;  adjusted_score: -2.965675396695733----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ it would be a staircase , 
+ and the stair well was a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(it -4.05)(would -2.72)(be -6.08)(a -0.90)(staircase -0.51)(, -1.50) line score is : -2.626, look ahead score is : 0.609
+(and -1.50)(the -8.66)(stair -0.80)(well -1.22)(was -3.45)(a -5.11)(whole -1.02)(process -2.13)(. -3.54) line score is : -3.047, look ahead score is : 0.000
+-------------------------score:  -3.0390105424448848;  adjusted_score: -3.0132949556037785----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well had a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(had -4.15)(a -4.50)(whole -0.95)(process -4.60)(. -1.44) line score is : -2.924, look ahead score is : 0.000
+-------------------------score:  -3.0418021036311984;  adjusted_score: -3.0159235955402255----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and the stair well had a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(the -7.97)(stair -1.18)(well -1.31)(had -3.78)(a -4.53)(whole -0.98)(process -4.37)(. -1.40) line score is : -3.005, look ahead score is : 0.000
+-------------------------score:  -3.0621831733733416;  adjusted_score: -3.0361838991194965----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ it would be a staircase , 
+ and the stair well had a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(it -4.05)(would -2.72)(be -6.08)(a -0.90)(staircase -0.51)(, -1.50) line score is : -2.626, look ahead score is : 0.609
+(and -1.50)(the -8.66)(stair -0.80)(well -1.22)(had -3.45)(a -5.11)(whole -1.02)(process -4.61)(. -1.19) line score is : -3.063, look ahead score is : 0.000
+-------------------------score:  -3.1092967642471194;  adjusted_score: -3.083581177406013----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well took a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(took -4.15)(a -4.50)(whole -0.95)(process -6.99)(. -4.02) line score is : -3.476, look ahead score is : 0.000
+-------------------------score:  -3.1138439578935504;  adjusted_score: -3.088128371052444----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well did a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(did -4.15)(a -4.50)(whole -0.95)(process -6.98)(. -4.23) line score is : -3.499, look ahead score is : 0.000
+-------------------------score:  -3.134277584962547;  adjusted_score: -3.1085619981214405----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well went a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(went -4.15)(a -4.50)(whole -0.95)(process -6.64)(. -5.88) line score is : -3.644, look ahead score is : 0.000
+-------------------------score:  -3.1684750793501735;  adjusted_score: -3.142759492509067----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well led a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(led -4.15)(a -4.50)(whole -0.95)(process -6.10)(. -6.61) line score is : -3.665, look ahead score is : 0.000
+-------------------------score:  -3.1857781587168574;  adjusted_score: -3.1598996506258845----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and the stair well led a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(the -7.97)(stair -1.18)(well -1.31)(led -3.78)(a -4.53)(whole -0.98)(process -6.28)(. -6.49) line score is : -3.782, look ahead score is : 0.000
+-------------------------score:  -3.223279426805675;  adjusted_score: -3.1975638399645687----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and the stair well came a whole process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(the -7.24)(stair -1.02)(well -1.18)(came -4.15)(a -4.50)(whole -0.95)(process -6.80)(. -6.42) line score is : -3.722, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND RB COULD VB A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and soon could afford a rolls-royce 
+-------------------------score:  -2.991367988048061;  adjusted_score: -2.9638879698346696----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and suddenly could see a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(suddenly -2.98)(could -0.77)(see -0.74)(a -5.37)(process -8.36)(. -1.85) line score is : -3.496, look ahead score is : 0.000
+-------------------------score:  -2.9979188076911436;  adjusted_score: -2.970438789477752----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and then could imagine a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(then -2.98)(could -0.77)(imagine -0.74)(a -1.93)(process -8.33)(. -5.81) line score is : -3.567, look ahead score is : 0.000
+-------------------------score:  -3.006331355341019;  adjusted_score: -2.9788513371276277----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and then could imagine a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(then -5.18)(could -0.76)(imagine -0.73)(a -1.83)(process -8.31)(. -6.18) line score is : -3.713, look ahead score is : 0.000
+-------------------------score:  -3.008297551062799;  adjusted_score: -2.9808175328494078----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and suddenly could see a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(suddenly -5.18)(could -0.76)(see -0.73)(a -5.55)(process -8.24)(. -1.62) line score is : -3.584, look ahead score is : 0.000
+-------------------------score:  -3.016244374936627;  adjusted_score: -2.9887643567232356----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and then could remember a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(then -2.98)(could -0.77)(remember -0.74)(a -1.93)(process -8.33)(. -6.10) line score is : -3.609, look ahead score is : 0.000
+-------------------------score:  -3.0290244894642986;  adjusted_score: -3.001544471250907----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and then could remember a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(then -5.18)(could -0.76)(remember -0.73)(a -1.83)(process -8.31)(. -6.16) line score is : -3.711, look ahead score is : 0.000
+-------------------------score:  -3.0348160074603174;  adjusted_score: -3.007335989246926----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and suddenly could feel a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(suddenly -5.18)(could -0.76)(feel -0.73)(a -5.55)(process -8.24)(. -1.78) line score is : -3.606, look ahead score is : 0.000
+-------------------------score:  -3.0354074681958845;  adjusted_score: -3.007927449982493----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and then could continue a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(then -2.98)(could -0.77)(continue -0.74)(a -1.93)(process -8.33)(. -6.94) line score is : -3.728, look ahead score is : 0.000
+-------------------------score:  -3.0472996984758685;  adjusted_score: -3.019819680262477----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and instantly could see a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(instantly -2.98)(could -0.77)(see -0.74)(a -5.61)(process -8.16)(. -2.80) line score is : -3.637, look ahead score is : 0.000
+-------------------------score:  -3.048028113380555;  adjusted_score: -3.0205480951671637----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and instantly could feel a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(instantly -2.98)(could -0.77)(feel -0.74)(a -5.61)(process -8.16)(. -2.15) line score is : -3.544, look ahead score is : 0.000
+-------------------------score:  -3.049382851969811;  adjusted_score: -3.0219028337564198----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and then could continue a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(then -5.18)(could -0.76)(continue -0.73)(a -1.83)(process -8.31)(. -6.89) line score is : -3.814, look ahead score is : 0.000
+-------------------------score:  -3.061163959964629;  adjusted_score: -3.033683941751238----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at his face , 
+ and then could imagine a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(his -4.10)(face -1.21)(, -6.54) line score is : -3.378, look ahead score is : 0.683
+(and -6.54)(then -3.03)(could -0.74)(imagine -0.71)(a -1.88)(process -8.28)(. -5.91) line score is : -3.870, look ahead score is : 0.000
+-------------------------score:  -3.061287716511757;  adjusted_score: -3.0338076977023194----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my pace , 
+ and then could imagine a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(pace -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(then -6.42)(could -0.69)(imagine -0.79)(a -1.82)(process -8.31)(. -6.45) line score is : -3.929, look ahead score is : 0.000
+-------------------------score:  -3.062747436185037;  adjusted_score: -3.0352674179716455----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and instantly could see a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(instantly -5.18)(could -0.76)(see -0.73)(a -5.80)(process -8.24)(. -2.48) line score is : -3.742, look ahead score is : 0.000
+-------------------------score:  -3.0725926910677264;  adjusted_score: -3.045112672854335----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and then could consider a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(then -2.98)(could -0.77)(consider -0.74)(a -1.93)(process -8.33)(. -8.22) line score is : -3.912, look ahead score is : 0.000
+-------------------------score:  -3.0741476358905917;  adjusted_score: -3.0466676176772003----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and instantly could feel a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(instantly -5.18)(could -0.76)(feel -0.73)(a -5.80)(process -8.24)(. -2.42) line score is : -3.733, look ahead score is : 0.000
+-------------------------score:  -3.084073555084967;  adjusted_score: -3.0565935368715755----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at his face , 
+ and then could remember a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(his -4.10)(face -1.21)(, -6.54) line score is : -3.378, look ahead score is : 0.683
+(and -6.54)(then -3.03)(could -0.74)(remember -0.71)(a -1.88)(process -8.28)(. -6.17) line score is : -3.907, look ahead score is : 0.000
+-------------------------score:  -3.112085040538542;  adjusted_score: -3.084605021729104----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my pace , 
+ and then could continue a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(pace -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(then -6.42)(could -0.69)(continue -0.79)(a -1.82)(process -8.31)(. -6.33) line score is : -3.911, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VBD PRP$ NN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and gave his proboscis a tweak 
+-------------------------score:  -3.014528126485886;  adjusted_score: -2.9870481082724947----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and put her idea a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(put -2.98)(her -0.77)(idea -0.74)(a -6.48)(process -2.13)(. -6.70) line score is : -3.456, look ahead score is : 0.000
+-------------------------score:  -3.082625771722486;  adjusted_score: -3.0551457535090947----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and put my attention a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(put -2.98)(my -0.77)(attention -0.74)(a -6.48)(process -1.24)(. -6.39) line score is : -3.286, look ahead score is : 0.000
+-------------------------score:  -3.0923384158842024;  adjusted_score: -3.064858397670811----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at my face , 
+ and put my attention a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(my -4.10)(face -1.21)(, -3.01) line score is : -2.874, look ahead score is : 0.683
+(and -3.01)(put -5.18)(my -0.76)(attention -0.73)(a -6.20)(process -1.36)(. -6.07) line score is : -3.328, look ahead score is : 0.000
+-------------------------score:  -3.0962380574595545;  adjusted_score: -3.068758039246163----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and put her attention a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(put -2.98)(her -0.77)(attention -0.74)(a -6.48)(process -2.13)(. -6.93) line score is : -3.489, look ahead score is : 0.000
+-------------------------score:  -3.113969070296134;  adjusted_score: -3.0864890520827424----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and knew her reaction a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(knew -2.98)(her -0.77)(reaction -0.74)(a -6.54)(process -4.53)(. -4.77) line score is : -3.532, look ahead score is : 0.000
+-------------------------score:  -3.1643304344146483;  adjusted_score: -3.136850416201257----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and realized her heart a process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(realized -2.98)(her -0.77)(heart -0.74)(a -7.99)(process -4.24)(. -3.66) line score is : -3.541, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.07742170492808;  adjusted_score: -3.0499416867146887----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and she smiled down and said her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(she -2.98)(smiled -0.77)(down -0.74)(and -2.76)(said -6.15)(her -6.74)(process -4.51)(. -0.98) line score is : -3.336, look ahead score is : 0.000
+-------------------------score:  -3.080062857179931;  adjusted_score: -3.0525828389665395----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and she was down and had her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(she -2.98)(was -0.77)(down -0.74)(and -2.76)(had -3.74)(her -7.23)(process -3.76)(. -6.72) line score is : -3.679, look ahead score is : 0.000
+-------------------------score:  -3.1084134054906443;  adjusted_score: -3.080933387277253----------------------- 
+there was a wise woman named tess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ take a look at her face , 
+ and i felt down and scared her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(take -4.05)(a -2.72)(look -4.26)(at -0.78)(her -4.10)(face -1.21)(, -4.40) line score is : -3.072, look ahead score is : 0.683
+(and -4.40)(i -2.98)(felt -0.77)(down -0.74)(and -3.32)(scared -4.43)(her -8.22)(process -2.59)(. -3.07) line score is : -3.391, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ PRP WOULD VB A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ he would wave a cigar 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.07956490945071;  adjusted_score: -3.0538493226096035----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i was down and had my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(was -1.02)(down -1.18)(and -1.33)(had -3.61)(my -6.13)(process -4.56)(. -6.18) line score is : -3.608, look ahead score is : 0.000
+-------------------------score:  -3.0970116052776575;  adjusted_score: -3.0710123310238124----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ it would be a staircase , 
+ and i was down and had my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(it -4.05)(would -2.72)(be -6.08)(a -0.90)(staircase -0.51)(, -1.50) line score is : -2.626, look ahead score is : 0.609
+(and -1.50)(i -8.66)(was -0.80)(down -1.22)(and -1.61)(had -3.69)(my -6.25)(process -3.76)(. -5.61) line score is : -3.680, look ahead score is : 0.000
+-------------------------score:  -3.1073711840435863;  adjusted_score: -3.08165559720248----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i felt down and had my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(felt -1.02)(down -1.18)(and -1.33)(had -6.40)(my -6.58)(process -2.17)(. -5.28) line score is : -3.604, look ahead score is : 0.000
+-------------------------score:  -3.120803720317781;  adjusted_score: -3.094925212226808----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and i felt down and had my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(i -7.97)(felt -1.18)(down -1.31)(and -1.21)(had -5.45)(my -7.01)(process -2.12)(. -5.36) line score is : -3.680, look ahead score is : 0.000
+-------------------------score:  -3.1366390576586127;  adjusted_score: -3.1109234708175064----------------------- 
+there was a wise woman named jess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i felt down and lost my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(felt -1.02)(down -1.18)(and -1.33)(lost -6.40)(my -6.58)(process -2.17)(. -4.18) line score is : -3.481, look ahead score is : 0.000
+-------------------------score:  -3.141101191751659;  adjusted_score: -3.1153856049105526----------------------- 
+there was a wise woman named les 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i was down and straight my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(was -1.02)(down -1.18)(and -1.33)(straight -3.61)(my -6.13)(process -4.56)(. -4.38) line score is : -3.409, look ahead score is : 0.000
+-------------------------score:  -3.1421852512285113;  adjusted_score: -3.116469664387405----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i was down and was my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(was -1.02)(down -1.18)(and -1.33)(was -3.61)(my -6.13)(process -4.56)(. -5.52) line score is : -3.535, look ahead score is : 0.000
+-------------------------score:  -3.1464473688974977;  adjusted_score: -3.1205688608065247----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and i felt down and lost my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(i -7.97)(felt -1.18)(down -1.31)(and -1.21)(lost -5.45)(my -7.01)(process -2.12)(. -4.27) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.1551108602434397;  adjusted_score: -3.1291115859895946----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ it would be a staircase , 
+ and i was down and was my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(it -4.05)(would -2.72)(be -6.08)(a -0.90)(staircase -0.51)(, -1.50) line score is : -2.626, look ahead score is : 0.609
+(and -1.50)(i -8.66)(was -0.80)(down -1.22)(and -1.61)(was -3.69)(my -6.25)(process -3.76)(. -5.03) line score is : -3.615, look ahead score is : 0.000
+-------------------------score:  -3.176584942266345;  adjusted_score: -3.1505856680125----------------------- 
+there was a wise woman named tess 
+ who kept a close watch on my progress . 
+ i would go to a place , 
+ it would be a staircase , 
+ and i was down and was my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(watch -0.67)(on -0.74)(my -3.16)(progress -3.66)(. -1.23) line score is : -2.558, look ahead score is : 0.000
+(i -1.23)(would -1.76)(go -3.68)(to -3.31)(a -1.21)(place -3.72)(, -3.87) line score is : -2.683, look ahead score is : 0.691
+(it -3.87)(would -2.74)(be -6.14)(a -0.86)(staircase -0.51)(, -1.43) line score is : -2.592, look ahead score is : 0.609
+(and -1.43)(i -8.28)(was -0.77)(down -1.25)(and -1.64)(was -3.76)(my -6.42)(process -3.78)(. -4.98) line score is : -3.589, look ahead score is : 0.000
+-------------------------score:  -3.181293069384992;  adjusted_score: -3.155414561294019----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and i felt down and scared my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(i -7.97)(felt -1.18)(down -1.31)(and -1.21)(scared -5.45)(my -7.01)(process -2.12)(. -2.84) line score is : -3.400, look ahead score is : 0.000
+-------------------------score:  -3.18240578006953;  adjusted_score: -3.1566901932284237----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i felt down and scared my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(felt -1.02)(down -1.18)(and -1.33)(scared -6.40)(my -6.58)(process -2.17)(. -3.40) line score is : -3.394, look ahead score is : 0.000
+-------------------------score:  -3.1964541766792536;  adjusted_score: -3.1704549024254085----------------------- 
+there was a wise woman named wes 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ it would be a staircase , 
+ and i was down and was her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(it -4.05)(would -2.72)(be -6.08)(a -0.90)(staircase -0.51)(, -1.50) line score is : -2.626, look ahead score is : 0.609
+(and -1.50)(i -8.66)(was -0.80)(down -1.22)(and -1.61)(was -3.69)(her -6.25)(process -3.76)(. -5.03) line score is : -3.615, look ahead score is : 0.000
+-------------------------score:  -3.199732060544193;  adjusted_score: -3.1740164737030865----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and i was down and was her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(i -7.24)(was -1.02)(down -1.18)(and -1.33)(was -3.61)(her -6.13)(process -4.56)(. -5.52) line score is : -3.535, look ahead score is : 0.000
+-------------------------score:  -3.2009662752971053;  adjusted_score: -3.1750877672061324----------------------- 
+there was a wise woman named bess 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would see a staircase , 
+ and i felt down and scared her process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(see -3.76)(a -0.44)(staircase -3.67)(, -1.53) line score is : -2.693, look ahead score is : 0.603
+(and -1.53)(i -7.97)(felt -1.18)(down -1.31)(and -1.21)(scared -5.45)(her -7.01)(process -2.12)(. -2.84) line score is : -3.400, look ahead score is : 0.000
+-------------------------score:  -3.205738223157823;  adjusted_score: -3.1800226363167168----------------------- 
+there was a wise woman named ines 
+ who kept a close eye on my progress . 
+ i would go to a place , 
+ i would find a staircase , 
+ and it was down and straight my process . 
+------------------------- score breakdown ------------------------ 
+(who -1.14)(kept -5.44)(a -1.95)(close -5.05)(eye -0.96)(on -0.08)(my -3.19)(progress -3.32)(. -1.17) line score is : -2.478, look ahead score is : 0.000
+(i -1.17)(would -1.75)(go -3.76)(to -3.27)(a -1.19)(place -3.68)(, -4.05) line score is : -2.695, look ahead score is : 0.691
+(i -4.05)(would -2.72)(find -3.76)(a -0.44)(staircase -3.99)(, -1.23) line score is : -2.697, look ahead score is : 0.595
+(and -1.23)(it -7.24)(was -1.02)(down -1.18)(and -3.84)(straight -1.56)(my -6.59)(process -5.22)(. -4.28) line score is : -3.572, look ahead score is : 0.000

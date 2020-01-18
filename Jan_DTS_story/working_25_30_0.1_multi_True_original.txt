@@ -1,0 +1,275 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP POS A NN OF NN , 
+ PRP VBZ THE NNS IN NN THAT PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she 's a person of note 
+ it 's the people in front that I jar 
+-------------------------score:  -2.937053442439612;  adjusted_score: -2.9123690533550346----------------------- 
+there was a technician named nam 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a man of heart , 
+ he does the things in life that i am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(he -1.57)(came -1.31)(back -4.19)(from -2.53)(the -2.18)(start -2.28)(, -8.23) line score is : -3.184, look ahead score is : 0.647
+(he -8.23)('s -3.12)(a -1.95)(man -2.81)(of -2.19)(heart -5.84)(, -0.63) line score is : -3.538, look ahead score is : 0.587
+(he -0.63)(does -6.33)(the -1.17)(things -0.63)(in -5.06)(life -3.23)(that -2.81)(i -4.49)(am -2.71)(. -0.71) line score is : -2.778, look ahead score is : 0.000
+-------------------------score:  -3.0465469128068756;  adjusted_score: -3.021089047211058----------------------- 
+there was a technician named graham 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a work of art , 
+ he has the tools in hand that i am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(he -1.57)(came -1.31)(back -4.19)(from -2.53)(the -2.18)(start -2.28)(, -8.23) line score is : -3.184, look ahead score is : 0.647
+(he -8.23)('s -3.12)(a -1.95)(work -2.81)(of -2.19)(art -6.84)(, -5.44) line score is : -4.368, look ahead score is : 0.626
+(he -5.44)(has -0.03)(the -1.54)(tools -1.08)(in -3.41)(hand -2.92)(that -4.59)(i -3.60)(am -4.47)(. -3.73) line score is : -3.081, look ahead score is : 0.000
+-------------------------score:  -3.049781320287901;  adjusted_score: -3.0243234546920834----------------------- 
+there was a technician named pam 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a work of art , 
+ he has the tools in place that i am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(he -1.57)(came -1.31)(back -4.19)(from -2.53)(the -2.18)(start -2.28)(, -8.23) line score is : -3.184, look ahead score is : 0.647
+(he -8.23)('s -3.12)(a -1.95)(work -2.81)(of -2.19)(art -6.84)(, -5.44) line score is : -4.368, look ahead score is : 0.626
+(he -5.44)(has -0.03)(the -1.54)(tools -1.08)(in -3.41)(place -2.92)(that -4.59)(i -3.60)(am -3.37)(. -3.87) line score is : -2.985, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ RB , PRP WILL VB PRP NN , PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was ready to faint 
+ well , I will do it tomorrow , I mean 
+-------------------------score:  -3.028392074164003;  adjusted_score: -3.001265497263521----------------------- 
+there was a technician named nam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you money , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(money -5.08)(, -3.13)(we -0.71)(am -4.16)(. -2.01) line score is : -2.615, look ahead score is : 0.000
+-------------------------score:  -3.0288527245971966;  adjusted_score: -3.0017261476967145----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you money , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(money -5.08)(, -3.13)(we -0.71)(am -4.16)(. -2.01) line score is : -2.615, look ahead score is : 0.000
+-------------------------score:  -3.0313514357460947;  adjusted_score: -3.0042248588456126----------------------- 
+there was a technician named pam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will make it work , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(make -0.22)(it -1.36)(work -5.08)(, -4.08)(we -1.87)(am -1.84)(. -2.07) line score is : -2.600, look ahead score is : 0.000
+-------------------------score:  -3.031812086179288;  adjusted_score: -3.004685509278806----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will make it work , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(make -0.22)(it -1.36)(work -5.08)(, -4.08)(we -1.87)(am -1.84)(. -2.07) line score is : -2.600, look ahead score is : 0.000
+-------------------------score:  -3.0406906039623376;  adjusted_score: -3.0135640270618556----------------------- 
+there was a technician named abraham 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you credit , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(credit -5.08)(, -3.13)(we -0.71)(am -4.10)(. -2.54) line score is : -2.658, look ahead score is : 0.000
+-------------------------score:  -3.041151254395531;  adjusted_score: -3.014024677495049----------------------- 
+there was a smart teacher named pam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you credit , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(credit -5.08)(, -3.13)(we -0.71)(am -4.10)(. -2.54) line score is : -2.658, look ahead score is : 0.000
+-------------------------score:  -3.071333732949852;  adjusted_score: -3.04420715604937----------------------- 
+there was a technician named tam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give him credit , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(him -1.36)(credit -5.08)(, -3.13)(we -2.40)(am -2.71)(. -2.45) line score is : -2.677, look ahead score is : 0.000
+-------------------------score:  -3.0717943833830454;  adjusted_score: -3.0446678064825634----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give him credit , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(him -1.36)(credit -5.08)(, -3.13)(we -2.40)(am -2.71)(. -2.45) line score is : -2.677, look ahead score is : 0.000
+-------------------------score:  -3.0726948014008952;  adjusted_score: -3.045568224500413----------------------- 
+there was a technician named kam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you something , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(something -5.08)(, -3.13)(we -0.71)(am -4.36)(. -3.00) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -3.073155451834089;  adjusted_score: -3.046028874933607----------------------- 
+there was a smart teacher named nam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you something , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(something -5.08)(, -3.13)(we -0.71)(am -4.36)(. -3.00) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -3.0883647089852304;  adjusted_score: -3.0612381320847484----------------------- 
+there was a technician named nam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give them credit , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(them -1.36)(credit -5.08)(, -3.13)(we -2.76)(am -3.58)(. -2.38) line score is : -2.783, look ahead score is : 0.000
+-------------------------score:  -3.088825359418424;  adjusted_score: -3.061698782517942----------------------- 
+there was a smart teacher named sam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give them credit , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(them -1.36)(credit -5.08)(, -3.13)(we -2.76)(am -3.58)(. -2.38) line score is : -2.783, look ahead score is : 0.000
+-------------------------score:  -3.089445660892648;  adjusted_score: -3.062319083992166----------------------- 
+there was a technician named kam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you space , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(space -5.08)(, -3.13)(we -0.71)(am -6.43)(. -1.97) line score is : -2.819, look ahead score is : 0.000
+-------------------------score:  -3.0898366998739992;  adjusted_score: -3.062710122973517----------------------- 
+there was a technician named graham 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you advice , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(advice -5.08)(, -3.13)(we -0.71)(am -5.90)(. -2.01) line score is : -2.773, look ahead score is : 0.000
+-------------------------score:  -3.0899063113258416;  adjusted_score: -3.0627797344253596----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you space , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(space -5.08)(, -3.13)(we -0.71)(am -6.43)(. -1.97) line score is : -2.819, look ahead score is : 0.000
+-------------------------score:  -3.0902973503071927;  adjusted_score: -3.0631707734067106----------------------- 
+there was a smart teacher named pam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give you advice , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(you -1.36)(advice -5.08)(, -3.13)(we -0.71)(am -5.90)(. -2.01) line score is : -2.773, look ahead score is : 0.000
+-------------------------score:  -3.091675624180811;  adjusted_score: -3.064549047280329----------------------- 
+there was a technician named kam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give them money , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(them -1.36)(money -5.08)(, -3.13)(we -2.76)(am -3.99)(. -1.81) line score is : -2.768, look ahead score is : 0.000
+-------------------------score:  -3.0921362746140044;  adjusted_score: -3.0650096977135224----------------------- 
+there was a smart teacher named nam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give them money , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(them -1.36)(money -5.08)(, -3.13)(we -2.76)(am -3.99)(. -1.81) line score is : -2.768, look ahead score is : 0.000
+-------------------------score:  -3.1149254706970444;  adjusted_score: -3.0877988937965624----------------------- 
+there was a technician named kam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give him money , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.44)(did -2.87)(a -2.38)(great -2.66)(job -0.08)(on -2.13)(our -3.51)(program -5.93)(. -1.57) line score is : -2.508, look ahead score is : 0.000
+(the -1.57)(rest -3.96)(of -4.44)(our -0.41)(way -2.25)(, -9.37) line score is : -3.667, look ahead score is : 0.620
+(we -9.37)(were -2.87)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.175, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(him -1.36)(money -5.08)(, -3.13)(we -2.40)(am -4.76)(. -1.85) line score is : -2.809, look ahead score is : 0.000
+-------------------------score:  -3.115386121130238;  adjusted_score: -3.088259544229756----------------------- 
+there was a smart teacher named tam 
+ who did a great job on our program . 
+ the rest of our way , 
+ we were able to say , 
+ well , we will give him money , we am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(the -0.92)(rest -3.96)(of -4.22)(our -0.33)(way -2.05)(, -9.15) line score is : -3.439, look ahead score is : 0.620
+(we -9.15)(were -2.80)(able -1.31)(to -2.78)(say -2.72)(, -0.00) line score is : -3.127, look ahead score is : 0.736
+(well -0.00)(, -6.47)(we -1.07)(will -4.55)(give -0.22)(him -1.36)(money -5.08)(, -3.13)(we -2.40)(am -4.76)(. -1.85) line score is : -2.809, look ahead score is : 0.000

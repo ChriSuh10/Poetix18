@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD THROUGH THE NN AND VBD IN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ he was ready to faint 
+ he slipped through the straw and fell in 
+-------------------------score:  -3.1505222750711255;  adjusted_score: -3.1233162402617745----------------------- 
+there was a brave girl named bo 
+ who did a great job on our show . 
+ she came back from the way , 
+ she was able to stay , 
+ she got through the season and went though . 
+------------------------- score breakdown ------------------------ 
+(who -1.23)(did -4.00)(a -3.14)(great -2.29)(job -0.33)(on -3.48)(our -4.39)(show -2.82)(. -2.00) line score is : -2.630, look ahead score is : 0.000
+(she -2.00)(came -1.50)(back -4.32)(from -2.63)(the -2.44)(way -1.90)(, -8.99) line score is : -3.397, look ahead score is : 0.645
+(she -8.99)(was -5.28)(able -2.44)(to -1.96)(stay -4.68)(, -0.02) line score is : -3.894, look ahead score is : 0.715
+(she -0.02)(got -4.38)(through -4.13)(the -1.49)(season -3.44)(and -3.77)(went -1.53)(though -2.91)(. -1.63) line score is : -2.590, look ahead score is : 0.000

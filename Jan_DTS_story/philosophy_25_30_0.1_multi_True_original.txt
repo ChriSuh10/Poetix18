@@ -1,0 +1,99 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP$ NN AND PRP$ NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ his grief and his rage 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.2967315817872684;  adjusted_score: -3.2732628015677134----------------------- 
+there was a wise teacher named pei 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his wisdom and his light , 
+ but he had his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(learned -5.90)(a -3.35)(great -1.99)(deal -0.41)(on -5.70)(his -1.74)(way -2.12)(. -3.60) line score is : -2.967, look ahead score is : 0.000
+(he -3.60)(lived -1.74)(for -5.18)(his -2.85)(insight -3.56)(, -8.29) line score is : -4.202, look ahead score is : 0.604
+(his -8.29)(wisdom -1.61)(and -1.47)(his -2.91)(light -1.50)(, -0.20) line score is : -2.664, look ahead score is : 0.570
+(but -0.20)(he -6.80)(had -2.07)(his -2.89)(enemies -1.30)(and -3.33)(lay -3.08)(. -4.50) line score is : -3.019, look ahead score is : 0.000
+-------------------------score:  -3.3133933266003925;  adjusted_score: -3.289696950217088----------------------- 
+there was a wise teacher named fay 
+ who learned a great deal on his way . 
+ he lived for his insight , 
+ his knowledge and his light , 
+ but he had his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(learned -5.90)(a -3.35)(great -1.99)(deal -0.41)(on -5.70)(his -1.74)(way -2.12)(. -3.60) line score is : -2.967, look ahead score is : 0.000
+(he -3.60)(lived -1.74)(for -5.18)(his -2.85)(insight -3.56)(, -8.29) line score is : -4.202, look ahead score is : 0.604
+(his -8.29)(knowledge -1.61)(and -1.47)(his -2.77)(light -1.58)(, -0.23) line score is : -2.660, look ahead score is : 0.581
+(but -0.23)(he -7.27)(had -2.17)(his -2.94)(enemies -1.23)(and -3.32)(lay -3.13)(. -4.53) line score is : -3.103, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ in my pocket for cash 
+ he was pained by a tooth 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.340270491377;  adjusted_score: -3.315089804143194----------------------- 
+there was a wise teacher named ok 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was led by a light , 
+ but he knew his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(learned -5.90)(a -3.35)(great -1.99)(deal -0.41)(on -5.70)(his -1.74)(way -2.12)(. -3.60) line score is : -2.967, look ahead score is : 0.000
+(in -3.60)(his -4.36)(quest -2.67)(for -5.23)(insight -1.43)(, -5.69) line score is : -3.829, look ahead score is : 0.580
+(he -5.69)(was -0.88)(led -0.48)(by -3.22)(a -4.31)(light -1.38)(, -1.99) line score is : -2.566, look ahead score is : 0.679
+(but -1.99)(he -6.30)(knew -2.82)(his -3.39)(enemies -2.09)(and -3.44)(lay -3.27)(. -5.52) line score is : -3.603, look ahead score is : 0.000
+-------------------------score:  -3.3636514169554554;  adjusted_score: -3.33847072972165----------------------- 
+there was a wise teacher named shay 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was led by a light , 
+ but he had his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(learned -5.90)(a -3.35)(great -1.99)(deal -0.41)(on -5.70)(his -1.74)(way -2.12)(. -3.60) line score is : -2.967, look ahead score is : 0.000
+(in -3.60)(his -4.36)(quest -2.67)(for -5.23)(insight -1.43)(, -5.69) line score is : -3.829, look ahead score is : 0.580
+(he -5.69)(was -0.88)(led -0.48)(by -3.22)(a -4.31)(light -1.38)(, -1.99) line score is : -2.566, look ahead score is : 0.679
+(but -1.99)(he -6.30)(had -2.82)(his -3.39)(enemies -2.09)(and -3.17)(lay -4.08)(. -5.15) line score is : -3.624, look ahead score is : 0.000
+-------------------------score:  -3.3669482921400378;  adjusted_score: -3.341767604906232----------------------- 
+there was a wise teacher named gay 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was led by a light , 
+ but it was his enemies and lay . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(learned -5.90)(a -3.35)(great -1.99)(deal -0.41)(on -5.70)(his -1.74)(way -2.12)(. -3.60) line score is : -2.967, look ahead score is : 0.000
+(in -3.60)(his -4.36)(quest -2.67)(for -5.23)(insight -1.43)(, -5.69) line score is : -3.829, look ahead score is : 0.580
+(he -5.69)(was -0.88)(led -0.48)(by -3.22)(a -4.31)(light -1.38)(, -1.99) line score is : -2.566, look ahead score is : 0.679
+(but -1.99)(it -6.30)(was -2.82)(his -3.39)(enemies -2.75)(and -0.83)(lay -3.98)(. -6.34) line score is : -3.550, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ IN PRP$ NN FOR NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ in my pocket for cash 
+ he was pained by a tooth 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.467691056927045;  adjusted_score: -3.4429382404436666----------------------- 
+there was a wise teacher named jaye 
+ who learned a great deal on his way . 
+ in his quest for insight , 
+ he was met by a light , 
+ and he was reborn alongside say . 
+------------------------- score breakdown ------------------------ 
+(who -1.89)(learned -5.90)(a -3.35)(great -1.99)(deal -0.41)(on -5.70)(his -1.74)(way -2.12)(. -3.60) line score is : -2.967, look ahead score is : 0.000
+(in -3.60)(his -4.36)(quest -2.67)(for -5.23)(insight -1.43)(, -5.69) line score is : -3.829, look ahead score is : 0.580
+(he -5.69)(was -0.88)(met -0.48)(by -3.22)(a -4.43)(light -0.86)(, -1.56) line score is : -2.446, look ahead score is : 0.657
+(and -1.56)(he -7.44)(was -2.68)(reborn -2.26)(alongside -2.12)(say -1.96)(. -5.23) line score is : -3.321, look ahead score is : 0.000

@@ -1,0 +1,539 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ her thanks were so cold 
+ he was told by his wife 
+ she was destined to go a long way 
+-------------------------score:  -3.2563384976238012;  adjusted_score: -3.233639978915453----------------------- 
+there once was a liar named guy 
+ who fooled all his family in a lie . 
+ his parents were so cruel , 
+ he was told by his school , 
+ he was lucky to have a good eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(his -1.51)(parents -4.23)(were -2.86)(so -1.94)(cruel -3.93)(, -9.30) line score is : -3.962, look ahead score is : 0.536
+(he -9.30)(was -2.57)(told -1.74)(by -2.13)(his -3.52)(school -2.94)(, -0.88) line score is : -3.299, look ahead score is : 0.599
+(he -0.88)(was -6.13)(lucky -3.93)(to -2.37)(have -1.81)(a -5.37)(good -1.28)(eye -1.41)(. -2.20) line score is : -2.820, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN VBD , RB JJ , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the teacher said , not right 
+ and they rushed to the rail 
+ and they had to revert to a man cashier 
+-------------------------score:  -3.4231045246124268;  adjusted_score: -3.3995638660341503----------------------- 
+there once was a liar named ty 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a black eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(black -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.4361273926847122;  adjusted_score: -3.4125867341064358----------------------- 
+there once was a liar named ty 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a close eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(close -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.449353751014261;  adjusted_score: -3.4258130924359844----------------------- 
+there once was a liar named mai 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a real eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(real -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.454546069397646;  adjusted_score: -3.4310054108193695----------------------- 
+there once was a liar named chi 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a dark eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(dark -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.4617104951073143;  adjusted_score: -3.438169836529038----------------------- 
+there once was a liar named ty 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a good eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(good -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.4730659758343414;  adjusted_score: -3.449525317256065----------------------- 
+there once was a liar named tai 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a dead eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(dead -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.4773270663093117;  adjusted_score: -3.453786407731035----------------------- 
+there once was a liar named vi 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a third eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(third -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+-------------------------score:  -3.504417195039637;  adjusted_score: -3.4808765364613605----------------------- 
+there once was a liar named wai 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he had to go to a strict eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(had -2.74)(to -1.65)(go -2.82)(to -3.62)(a -1.42)(strict -2.68)(eye -1.26)(. -3.04) line score is : -2.747, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ her thanks were so cold 
+ he was pained by a tooth 
+ so he had to sit down on the floor 
+-------------------------score:  -3.4293122454123064;  adjusted_score: -3.4063774169371888----------------------- 
+there was a magician named faye 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he had to go down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(had -2.36)(to -2.80)(go -1.05)(down -3.21)(on -0.77)(the -4.10)(prey -4.98)(. -3.09) line score is : -3.341, look ahead score is : 0.000
+-------------------------score:  -3.4826451576117314;  adjusted_score: -3.459710329136614----------------------- 
+there was a magician named rene 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he learned to be down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(learned -2.36)(to -2.80)(be -1.05)(down -5.32)(on -1.02)(the -1.61)(prey -9.42)(. -1.66) line score is : -3.630, look ahead score is : 0.000
+-------------------------score:  -3.5188570763125564;  adjusted_score: -3.4959222478374388----------------------- 
+there was a magician named mae 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he tried to be down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(tried -2.36)(to -2.80)(be -1.05)(down -5.31)(on -0.34)(the -2.16)(prey -9.22)(. -2.42) line score is : -3.671, look ahead score is : 0.000
+-------------------------score:  -3.5252589366652747;  adjusted_score: -3.502324108190157----------------------- 
+there was a magician named rea 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he came to be down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(came -2.36)(to -2.80)(be -1.05)(down -5.57)(on -0.93)(the -2.24)(prey -9.87)(. -0.89) line score is : -3.676, look ahead score is : 0.000
+-------------------------score:  -3.5358515454061106;  adjusted_score: -3.512916716930993----------------------- 
+there was a magician named jaye 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he used to be down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(used -2.36)(to -2.80)(be -1.05)(down -4.98)(on -0.45)(the -2.99)(prey -8.79)(. -0.97) line score is : -3.546, look ahead score is : 0.000
+-------------------------score:  -3.547688870718985;  adjusted_score: -3.5247540422438672----------------------- 
+there was a magician named rene 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a tool , 
+ so he had to be down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(tool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -9.81)(had -2.29)(to -3.43)(be -0.97)(down -3.08)(on -0.80)(the -1.74)(prey -9.86)(. -1.80) line score is : -3.613, look ahead score is : 0.000
+-------------------------score:  -3.5577735485452595;  adjusted_score: -3.534838720070142----------------------- 
+there was a magician named fay 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he had to keep down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(had -2.36)(to -2.80)(keep -1.05)(down -3.21)(on -0.77)(the -4.43)(prey -8.07)(. -4.31) line score is : -3.806, look ahead score is : 0.000
+-------------------------score:  -3.604272100058469;  adjusted_score: -3.5813372715833514----------------------- 
+there was a magician named rae 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ so he tried to kill down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(so -2.35)(he -8.71)(tried -2.36)(to -2.80)(kill -1.05)(down -5.31)(on -0.34)(the -3.09)(prey -9.79)(. -3.15) line score is : -3.895, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ her thanks were so cold 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6185548063367605;  adjusted_score: -3.595619977861643----------------------- 
+there was a magician named rey 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by his school , 
+ and he was always like child of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(his -4.21)(school -1.50)(, -1.67) line score is : -3.197, look ahead score is : 0.610
+(and -1.67)(he -8.14)(was -4.60)(always -1.72)(like -1.84)(child -1.56)(of -3.23)(prey -6.27)(. -7.84) line score is : -4.095, look ahead score is : 0.000
+-------------------------score:  -3.6211630906909704;  adjusted_score: -3.598228262215853----------------------- 
+there was a magician named rea 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by their rule , 
+ and he was always like child of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(their -4.21)(rule -1.50)(, -4.96) line score is : -3.667, look ahead score is : 0.610
+(and -4.96)(he -8.38)(was -1.97)(always -1.31)(like -1.76)(child -1.76)(of -3.26)(prey -5.59)(. -7.20) line score is : -4.021, look ahead score is : 0.000
+-------------------------score:  -3.645769005641341;  adjusted_score: -3.6228341771662236----------------------- 
+there was a magician named jae 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by their rule , 
+ and he was always like hell of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(their -4.21)(rule -1.50)(, -4.96) line score is : -3.667, look ahead score is : 0.610
+(and -4.96)(he -8.38)(was -1.97)(always -1.31)(like -1.76)(hell -1.76)(of -3.26)(prey -5.59)(. -7.73) line score is : -4.080, look ahead score is : 0.000
+-------------------------score:  -3.666204271838069;  adjusted_score: -3.6432694433629513----------------------- 
+there was a magician named trey 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by his school , 
+ and he was always like hell of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(his -4.21)(school -1.50)(, -1.67) line score is : -3.197, look ahead score is : 0.610
+(and -1.67)(he -8.14)(was -4.60)(always -1.72)(like -1.84)(hell -1.56)(of -3.23)(prey -6.27)(. -7.58) line score is : -4.066, look ahead score is : 0.000
+-------------------------score:  -3.685871437191963;  adjusted_score: -3.6629366087168456----------------------- 
+there was a magician named trey 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by their rule , 
+ and he was always like sheep of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(their -4.21)(rule -1.50)(, -4.96) line score is : -3.667, look ahead score is : 0.610
+(and -4.96)(he -8.38)(was -1.97)(always -1.31)(like -1.76)(sheep -1.76)(of -3.26)(prey -5.59)(. -7.56) line score is : -4.061, look ahead score is : 0.000
+-------------------------score:  -3.69193397089839;  adjusted_score: -3.668999142423272----------------------- 
+there was a magician named rey 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by their rule , 
+ and they were always like hell of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(their -4.21)(rule -1.50)(, -4.96) line score is : -3.667, look ahead score is : 0.610
+(and -4.96)(they -8.38)(were -1.97)(always -1.31)(like -2.31)(hell -2.33)(of -3.11)(prey -5.38)(. -5.63) line score is : -3.931, look ahead score is : 0.000
+-------------------------score:  -3.6996943932026625;  adjusted_score: -3.676759564727545----------------------- 
+there was a magician named jaye 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by their rule , 
+ and he was not like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(their -4.21)(rule -1.50)(, -4.96) line score is : -3.667, look ahead score is : 0.610
+(and -4.96)(he -8.38)(was -1.97)(not -1.31)(like -1.76)(someone -1.76)(of -3.69)(prey -5.34)(. -6.82) line score is : -3.999, look ahead score is : 0.000
+-------------------------score:  -3.7148402724415064;  adjusted_score: -3.6919054439663888----------------------- 
+there was a magician named jay 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by his school , 
+ and he was not like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(his -4.21)(school -1.50)(, -1.67) line score is : -3.197, look ahead score is : 0.610
+(and -1.67)(he -8.14)(was -4.60)(not -1.72)(like -1.84)(someone -1.56)(of -3.90)(prey -5.59)(. -6.97) line score is : -4.000, look ahead score is : 0.000
+-------------------------score:  -3.7305818162858486;  adjusted_score: -3.707646987810731----------------------- 
+there was a magician named rene 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by his school , 
+ and they were always like hell of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(his -4.21)(school -1.50)(, -1.67) line score is : -3.197, look ahead score is : 0.610
+(and -1.67)(they -8.14)(were -4.60)(always -1.72)(like -3.13)(hell -2.35)(of -3.03)(prey -5.25)(. -5.90) line score is : -3.976, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ her thanks were so cold 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6442050710320473;  adjusted_score: -3.6212702425569296----------------------- 
+there was a magician named rene 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ and it was almost like life of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(and -2.35)(it -8.71)(was -2.36)(almost -1.17)(like -3.75)(life -1.09)(of -5.28)(prey -2.24)(. -6.80) line score is : -3.750, look ahead score is : 0.000
+-------------------------score:  -3.704980093985796;  adjusted_score: -3.6820452655106783----------------------- 
+there was a magician named rey 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ and it was always like hell of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(and -2.35)(it -8.71)(was -2.36)(always -1.17)(like -3.75)(hell -1.09)(of -4.82)(prey -3.88)(. -5.14) line score is : -3.697, look ahead score is : 0.000
+-------------------------score:  -3.7698398791253567;  adjusted_score: -3.746905050650239----------------------- 
+there was a magician named ok 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was raised by a fool , 
+ and he did not like waking of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(raised -1.66)(by -1.99)(a -4.21)(fool -1.50)(, -2.35) line score is : -3.294, look ahead score is : 0.610
+(and -2.35)(he -8.71)(did -2.36)(not -1.17)(like -1.65)(waking -4.30)(of -1.00)(prey -3.65)(. -8.34) line score is : -3.725, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY PRP$ NN , 
+ THAT THE NN PRP VBD VBD A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ her thanks were so cold 
+ he was told by his wife 
+ that the dahlia she wore was a failure 
+-------------------------score:  -3.6590563617646694;  adjusted_score: -3.636357843056321----------------------- 
+there was a magician named gay 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was told by his school , 
+ that the reason he was picked a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(told -1.66)(by -1.99)(his -3.55)(school -2.77)(, -0.82) line score is : -3.163, look ahead score is : 0.599
+(that -0.82)(the -6.16)(reason -4.06)(he -0.76)(was -3.60)(picked -4.73)(a -0.88)(prey -1.24)(. -5.49) line score is : -3.082, look ahead score is : 0.000
+-------------------------score:  -3.6686137430369854;  adjusted_score: -3.645915224328637----------------------- 
+there was a magician named fe 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was told by his school , 
+ that the reason he was killed a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(told -1.66)(by -1.99)(his -3.55)(school -2.77)(, -0.82) line score is : -3.163, look ahead score is : 0.599
+(that -0.82)(the -6.16)(reason -4.06)(he -0.76)(was -3.60)(killed -4.73)(a -0.88)(prey -1.24)(. -5.21) line score is : -3.050, look ahead score is : 0.000
+-------------------------score:  -3.669765528291464;  adjusted_score: -3.6470670095831155----------------------- 
+there was a magician named jae 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was told by his school , 
+ that the reason he was placed a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(told -1.66)(by -1.99)(his -3.55)(school -2.77)(, -0.82) line score is : -3.163, look ahead score is : 0.599
+(that -0.82)(the -6.16)(reason -4.06)(he -0.76)(was -3.60)(placed -4.73)(a -0.88)(prey -1.24)(. -5.42) line score is : -3.074, look ahead score is : 0.000
+-------------------------score:  -3.6893778685480356;  adjusted_score: -3.6666793498396872----------------------- 
+there was a magician named clay 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was told by his school , 
+ that the man he was supposed a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(told -1.66)(by -1.99)(his -3.55)(school -2.77)(, -0.82) line score is : -3.163, look ahead score is : 0.599
+(that -0.82)(the -6.16)(man -4.06)(he -0.76)(was -3.60)(supposed -5.33)(a -2.30)(prey -1.81)(. -1.71) line score is : -2.949, look ahead score is : 0.000
+-------------------------score:  -3.695128660649061;  adjusted_score: -3.672430141940713----------------------- 
+there was a magician named maye 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was told by his school , 
+ that the reason he was put a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(told -1.66)(by -1.99)(his -3.55)(school -2.77)(, -0.82) line score is : -3.163, look ahead score is : 0.599
+(that -0.82)(the -6.16)(reason -4.06)(he -0.76)(was -3.60)(put -4.73)(a -0.88)(prey -1.24)(. -5.70) line score is : -3.105, look ahead score is : 0.000
+-------------------------score:  -3.71941826865077;  adjusted_score: -3.696719749942422----------------------- 
+there was a magician named raye 
+ who fooled all his family in a way . 
+ his parents were so cruel , 
+ he was told by his school , 
+ that the reason he was brought a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.99)(fooled -7.00)(all -3.39)(his -2.76)(family -5.29)(in -3.75)(a -2.66)(way -3.67)(. -2.78) line score is : -3.698, look ahead score is : 0.000
+(his -2.78)(parents -4.15)(were -2.94)(so -1.82)(cruel -3.96)(, -8.82) line score is : -4.078, look ahead score is : 0.536
+(he -8.82)(was -2.53)(told -1.66)(by -1.99)(his -3.55)(school -2.77)(, -0.82) line score is : -3.163, look ahead score is : 0.599
+(that -0.82)(the -6.16)(reason -4.06)(he -0.76)(was -3.60)(brought -4.73)(a -0.88)(prey -1.24)(. -5.64) line score is : -3.098, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ her thanks were so cold 
+ he was told by his wife 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.6607745941728354;  adjusted_score: -3.638076075464487----------------------- 
+there once was a liar named chae 
+ who fooled all his family in a lie . 
+ his parents were so cruel , 
+ he was told by his school , 
+ it was his own parents and one eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(his -1.51)(parents -4.23)(were -2.86)(so -1.94)(cruel -3.93)(, -9.30) line score is : -3.962, look ahead score is : 0.536
+(he -9.30)(was -2.57)(told -1.74)(by -2.13)(his -3.52)(school -2.94)(, -0.88) line score is : -3.299, look ahead score is : 0.599
+(it -0.88)(was -6.13)(his -3.93)(own -4.97)(parents -0.66)(and -2.25)(one -4.21)(eye -5.57)(. -4.05) line score is : -3.628, look ahead score is : 0.000
+-------------------------score:  -3.6966014187783003;  adjusted_score: -3.673902900069952----------------------- 
+there once was a liar named ty 
+ who fooled all his family in a lie . 
+ his parents were so cruel , 
+ he was told by his school , 
+ he was his own parents and one eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(his -1.51)(parents -4.23)(were -2.86)(so -1.94)(cruel -3.93)(, -9.30) line score is : -3.962, look ahead score is : 0.536
+(he -9.30)(was -2.57)(told -1.74)(by -2.13)(his -3.52)(school -2.94)(, -0.88) line score is : -3.299, look ahead score is : 0.599
+(he -0.88)(was -6.13)(his -3.93)(own -2.37)(parents -1.81)(and -6.18)(one -1.26)(eye -6.49)(. -2.05) line score is : -3.456, look ahead score is : 0.000
+-------------------------score:  -3.700921231880784;  adjusted_score: -3.6782227131724357----------------------- 
+there once was a liar named mei 
+ who fooled all his family in a lie . 
+ his parents were so cruel , 
+ he was told by his school , 
+ he was his own children and one eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(his -1.51)(parents -4.23)(were -2.86)(so -1.94)(cruel -3.93)(, -9.30) line score is : -3.962, look ahead score is : 0.536
+(he -9.30)(was -2.57)(told -1.74)(by -2.13)(his -3.52)(school -2.94)(, -0.88) line score is : -3.299, look ahead score is : 0.599
+(he -0.88)(was -6.13)(his -3.93)(own -2.37)(children -1.81)(and -6.18)(one -1.26)(eye -6.79)(. -2.93) line score is : -3.586, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN VBD , RB JJ , 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the teacher said , not right 
+ and they rushed to the rail 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.6854433128328035;  adjusted_score: -3.661902654254527----------------------- 
+there once was a liar named vi 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he did not like feeling of eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(did -2.74)(not -1.65)(like -2.82)(feeling -3.69)(of -0.95)(eye -3.28)(. -8.45) line score is : -3.536, look ahead score is : 0.000
+-------------------------score:  -3.7168373465538025;  adjusted_score: -3.693296687975526----------------------- 
+there once was a liar named lai 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he did not like teacher of eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(did -2.74)(not -1.65)(like -2.82)(teacher -3.69)(of -0.95)(eye -3.28)(. -8.95) line score is : -3.591, look ahead score is : 0.000
+-------------------------score:  -3.716969827810923;  adjusted_score: -3.6934291692326466----------------------- 
+there once was a liar named guy 
+ who fooled all his family in a lie . 
+ the truth was , too cruel , 
+ and he went to the school , 
+ and he did not like meeting of eye . 
+------------------------- score breakdown ------------------------ 
+(who -3.60)(fooled -7.12)(all -4.07)(his -1.99)(family -3.78)(in -3.66)(a -2.86)(lie -4.86)(. -1.51) line score is : -3.718, look ahead score is : 0.000
+(the -1.51)(truth -3.23)(was -4.17)(, -2.22)(too -3.36)(cruel -7.56)(, -6.55) line score is : -4.086, look ahead score is : 0.581
+(and -6.55)(he -2.10)(went -1.54)(to -1.92)(the -4.78)(school -1.36)(, -2.29) line score is : -2.934, look ahead score is : 0.596
+(and -2.29)(he -5.94)(did -2.74)(not -1.65)(like -2.82)(meeting -3.69)(of -0.95)(eye -3.28)(. -8.58) line score is : -3.550, look ahead score is : 0.000

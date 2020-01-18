@@ -1,0 +1,825 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.8216955072147716;  adjusted_score: -2.795971750215994----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to get to a safe stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(he -4.94)(had -2.75)(to -2.31)(get -2.70)(to -3.79)(a -1.27)(safe -3.91)(stand -2.57)(. -2.03) line score is : -2.628, look ahead score is : 0.000
+-------------------------score:  -2.8250351102288924;  adjusted_score: -2.799311353230115----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to get to a safe stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(he -4.86)(had -2.80)(to -2.26)(get -2.61)(to -3.81)(a -1.21)(safe -3.86)(stand -2.53)(. -2.15) line score is : -2.610, look ahead score is : 0.000
+-------------------------score:  -2.8759123328155978;  adjusted_score: -2.85018857581682----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to get to a new stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(he -4.94)(had -2.75)(to -2.31)(get -2.70)(to -3.79)(a -1.27)(new -3.91)(stand -2.57)(. -2.03) line score is : -2.628, look ahead score is : 0.000
+-------------------------score:  -2.8788795312019912;  adjusted_score: -2.8531557742032136----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a new stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(he -5.17)(had -2.74)(to -2.41)(go -2.60)(to -3.81)(a -1.21)(new -3.42)(stand -1.35)(. -1.98) line score is : -2.468, look ahead score is : 0.000
+-------------------------score:  -2.8844993464070177;  adjusted_score: -2.85877558940824----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a new stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(he -4.94)(had -2.75)(to -2.31)(go -2.70)(to -3.79)(a -1.27)(new -3.44)(stand -1.40)(. -1.97) line score is : -2.458, look ahead score is : 0.000
+-------------------------score:  -2.8888380280272528;  adjusted_score: -2.863114271028475----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to get to a new stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(he -4.86)(had -2.80)(to -2.26)(get -2.61)(to -3.81)(a -1.21)(new -3.86)(stand -2.53)(. -2.15) line score is : -2.610, look ahead score is : 0.000
+-------------------------score:  -2.891209030432175;  adjusted_score: -2.8654852734333973----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to get to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(he -4.94)(had -2.75)(to -2.31)(get -2.70)(to -3.79)(a -1.27)(dry -3.91)(stand -2.57)(. -2.03) line score is : -2.628, look ahead score is : 0.000
+-------------------------score:  -2.8950933314732867;  adjusted_score: -2.869369574474509----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(he -4.94)(had -2.75)(to -2.31)(go -2.70)(to -3.79)(a -1.27)(dry -3.44)(stand -1.40)(. -1.97) line score is : -2.458, look ahead score is : 0.000
+-------------------------score:  -2.9014328631261983;  adjusted_score: -2.8757091061274207----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(he -5.17)(had -2.74)(to -2.41)(go -2.60)(to -3.81)(a -1.21)(dry -3.42)(stand -1.35)(. -1.98) line score is : -2.468, look ahead score is : 0.000
+-------------------------score:  -2.9063363731133216;  adjusted_score: -2.880612616114544----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(he -4.86)(had -2.80)(to -2.26)(go -2.61)(to -3.81)(a -1.21)(dry -3.33)(stand -1.42)(. -2.01) line score is : -2.432, look ahead score is : 0.000
+-------------------------score:  -2.9643678758857828;  adjusted_score: -2.938644118887005----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a big stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(he -5.17)(had -2.74)(to -2.41)(go -2.60)(to -3.81)(a -1.21)(big -3.42)(stand -1.35)(. -1.98) line score is : -2.468, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ and now he 's a college professor 
+-------------------------score:  -2.8921712470736596;  adjusted_score: -2.866447490074882----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and now he has a permanent stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(now -4.94)(he -2.75)(has -2.31)(a -4.56)(permanent -1.44)(stand -1.99)(. -1.53) line score is : -2.440, look ahead score is : 0.000
+-------------------------score:  -2.8987582735717297;  adjusted_score: -2.873034516572952----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and now he has a permanent stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(now -4.86)(he -2.80)(has -2.26)(a -4.36)(permanent -1.35)(stand -2.10)(. -1.41) line score is : -2.392, look ahead score is : 0.000
+-------------------------score:  -2.9023181645860596;  adjusted_score: -2.876594407587282----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and now he has a permanent stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(now -5.17)(he -2.74)(has -2.41)(a -4.40)(permanent -1.24)(stand -1.95)(. -1.61) line score is : -2.441, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ with his spanner and jack in the box 
+-------------------------score:  -2.898454230860807;  adjusted_score: -2.8727304738620294----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ with his son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(with -0.00)(his -4.86)(son -2.80)(and -4.84)(daughter -1.85)(in -3.10)(the -2.24)(stand -1.34)(. -2.52) line score is : -2.618, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ but it does n't come out of my purse 
+-------------------------score:  -2.898549885219836;  adjusted_score: -2.8728261282210585----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but he does not stay within his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(but -0.00)(he -4.94)(does -2.75)(not -1.04)(stay -2.81)(within -4.89)(his -0.45)(stand -4.93)(. -6.70) line score is : -3.169, look ahead score is : 0.000
+-------------------------score:  -2.927344769901538;  adjusted_score: -2.90162101290276----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but he does not go outside his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(but -0.00)(he -4.94)(does -2.75)(not -1.04)(go -2.81)(outside -4.89)(his -0.45)(stand -4.40)(. -5.47) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -2.9533671519820928;  adjusted_score: -2.927643394983315----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but he does not stay outside his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(but -0.00)(he -4.94)(does -2.75)(not -1.04)(stay -2.81)(outside -4.89)(his -0.45)(stand -4.93)(. -6.07) line score is : -3.098, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ BUT THE NN VBD JJ NN , PRP COULD VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ but the wood-duck had good luck , they could duck 
+-------------------------score:  -2.930886487750446;  adjusted_score: -2.905161448059713----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(he -4.55)(could -2.07)(stand -3.60)(. -5.36) line score is : -2.581, look ahead score is : 0.000
+-------------------------score:  -2.9562689416548786;  adjusted_score: -2.9305439019641457----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(right -2.19)(past -2.99)(, -2.29)(he -4.61)(could -2.15)(stand -3.75)(. -5.44) line score is : -2.603, look ahead score is : 0.000
+-------------------------score:  -2.981566072825123;  adjusted_score: -2.9558410331343903----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(ready -0.90)(to -5.24)(flee -5.41)(, -0.57) line score is : -3.258, look ahead score is : 0.721
+(but -0.57)(the -3.27)(wind -1.38)(blew -0.24)(right -2.16)(past -3.16)(, -2.21)(he -4.77)(could -2.06)(stand -3.83)(. -5.54) line score is : -2.655, look ahead score is : 0.000
+-------------------------score:  -3.0289782373344196;  adjusted_score: -3.0032531976436867----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right way , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(way -2.90)(, -2.31)(he -4.55)(could -8.75)(stand -1.82)(. -4.53) line score is : -2.951, look ahead score is : 0.000
+-------------------------score:  -3.0487610539969277;  adjusted_score: -3.0230360143061947----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew straight past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(straight -2.12)(past -2.90)(, -2.31)(he -5.68)(could -4.53)(stand -3.48)(. -5.40) line score is : -2.900, look ahead score is : 0.000
+-------------------------score:  -3.058009703369702;  adjusted_score: -3.032284663678969----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , they could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(they -4.55)(could -2.07)(stand -3.60)(. -8.72) line score is : -2.887, look ahead score is : 0.000
+-------------------------score:  -3.065738988273284;  adjusted_score: -3.0400139485825513----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew straight right , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(straight -2.12)(right -2.90)(, -2.31)(he -5.68)(could -6.03)(stand -3.96)(. -4.72) line score is : -3.018, look ahead score is : 0.000
+-------------------------score:  -3.0692896439748654;  adjusted_score: -3.0435646042841324----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , it could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(it -4.55)(could -2.07)(stand -3.60)(. -7.48) line score is : -2.774, look ahead score is : 0.000
+-------------------------score:  -3.074005451272516;  adjusted_score: -3.048280411581783----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew straight north , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(straight -2.12)(north -2.90)(, -2.31)(he -5.68)(could -7.40)(stand -1.43)(. -5.01) line score is : -2.939, look ahead score is : 0.000
+-------------------------score:  -3.076780873186448;  adjusted_score: -3.051055833495715----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew straight past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(straight -2.19)(past -2.99)(, -2.29)(he -5.76)(could -4.70)(stand -3.57)(. -5.58) line score is : -2.937, look ahead score is : 0.000
+-------------------------score:  -3.076859060455771;  adjusted_score: -3.051134020765038----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , they could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(right -2.19)(past -2.99)(, -2.29)(they -4.61)(could -2.15)(stand -3.75)(. -8.64) line score is : -2.894, look ahead score is : 0.000
+-------------------------score:  -3.0917347121764633;  adjusted_score: -3.0660096724857304----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew straight past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(ready -0.90)(to -5.24)(flee -5.41)(, -0.57) line score is : -3.258, look ahead score is : 0.721
+(but -0.57)(the -3.27)(wind -1.38)(blew -0.24)(straight -2.16)(past -3.16)(, -2.21)(he -5.84)(could -4.47)(stand -3.64)(. -5.62) line score is : -2.961, look ahead score is : 0.000
+-------------------------score:  -3.0938491610919727;  adjusted_score: -3.06812412140124----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , it could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(right -2.19)(past -2.99)(, -2.29)(it -4.61)(could -2.15)(stand -3.75)(. -7.49) line score is : -2.789, look ahead score is : 0.000
+-------------------------score:  -3.093916787820704;  adjusted_score: -3.068191748129971----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew straight north , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(straight -2.19)(north -2.99)(, -2.29)(he -5.76)(could -7.41)(stand -1.42)(. -5.18) line score is : -2.951, look ahead score is : 0.000
+-------------------------score:  -3.0986600145697594;  adjusted_score: -3.0729349748790264----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , they could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(ready -0.90)(to -5.24)(flee -5.41)(, -0.57) line score is : -3.258, look ahead score is : 0.721
+(but -0.57)(the -3.27)(wind -1.38)(blew -0.24)(right -2.16)(past -3.16)(, -2.21)(they -4.77)(could -2.06)(stand -3.83)(. -8.79) line score is : -2.951, look ahead score is : 0.000
+-------------------------score:  -3.1077510412125027;  adjusted_score: -3.0820260015217698----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , it could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(ready -0.90)(to -5.24)(flee -5.41)(, -0.57) line score is : -3.258, look ahead score is : 0.721
+(but -0.57)(the -3.27)(wind -1.38)(blew -0.24)(right -2.16)(past -3.16)(, -2.21)(it -4.77)(could -2.06)(stand -3.83)(. -7.60) line score is : -2.842, look ahead score is : 0.000
+-------------------------score:  -3.1323082043844113;  adjusted_score: -3.1065831646936783----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , i could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(i -4.55)(could -2.07)(stand -3.60)(. -9.89) line score is : -2.993, look ahead score is : 0.000
+-------------------------score:  -3.136193098719506;  adjusted_score: -3.1104693417207283----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but the wind blew right past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(but -0.00)(the -5.17)(wind -2.74)(blew -1.00)(right -2.17)(past -2.89)(, -2.59)(he -5.22)(could -2.75)(stand -4.04)(. -5.70) line score is : -3.116, look ahead score is : 0.000
+-------------------------score:  -3.136897376355003;  adjusted_score: -3.11117233666427----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , she could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(she -4.55)(could -2.07)(stand -3.60)(. -8.43) line score is : -2.860, look ahead score is : 0.000
+-------------------------score:  -3.144389440031613;  adjusted_score: -3.11866440034088----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , she could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(right -2.19)(past -2.99)(, -2.29)(she -4.61)(could -2.15)(stand -3.75)(. -8.48) line score is : -2.879, look ahead score is : 0.000
+-------------------------score:  -3.1450338597779215;  adjusted_score: -3.119310102779144----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but the wind blew right past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(but -0.00)(the -4.94)(wind -2.75)(blew -1.04)(right -2.27)(past -3.09)(, -2.51)(he -5.42)(could -2.62)(stand -4.33)(. -5.86) line score is : -3.166, look ahead score is : 0.000
+-------------------------score:  -3.1479445923777187;  adjusted_score: -3.122219552686986----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , we could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(we -4.55)(could -2.07)(stand -3.60)(. -9.87) line score is : -2.992, look ahead score is : 0.000
+-------------------------score:  -3.148405910086106;  adjusted_score: -3.1226821530873283----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but the wind blew right past , he could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(but -0.00)(the -4.86)(wind -2.80)(blew -1.06)(right -2.25)(past -2.98)(, -2.60)(he -5.33)(could -2.75)(stand -4.28)(. -5.81) line score is : -3.157, look ahead score is : 0.000
+-------------------------score:  -3.159717161427526;  adjusted_score: -3.133992121736793----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , she could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(ready -0.90)(to -5.24)(flee -5.41)(, -0.57) line score is : -3.258, look ahead score is : 0.721
+(but -0.57)(the -3.27)(wind -1.38)(blew -0.24)(right -2.16)(past -3.16)(, -2.21)(she -4.77)(could -2.06)(stand -3.83)(. -8.48) line score is : -2.922, look ahead score is : 0.000
+-------------------------score:  -3.1661995176006767;  adjusted_score: -3.140474477909944----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , you could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(you -4.55)(could -2.07)(stand -3.60)(. -9.53) line score is : -2.960, look ahead score is : 0.000
+-------------------------score:  -3.177895602057962;  adjusted_score: -3.152170562367229----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , you could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(right -2.19)(past -2.99)(, -2.29)(you -4.61)(could -2.15)(stand -3.75)(. -9.49) line score is : -2.971, look ahead score is : 0.000
+-------------------------score:  -3.1896913247730803;  adjusted_score: -3.1639675677743027----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ but the wind blew right past , it could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(but -0.00)(the -5.17)(wind -2.74)(blew -1.00)(right -2.17)(past -2.89)(, -2.59)(it -5.22)(could -2.75)(stand -4.04)(. -7.60) line score is : -3.288, look ahead score is : 0.000
+-------------------------score:  -3.201523186529384;  adjusted_score: -3.175798146838651----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , him could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(ready -0.96)(to -5.51)(flee -5.04)(, -0.64) line score is : -3.334, look ahead score is : 0.721
+(but -0.64)(the -3.14)(wind -1.43)(blew -0.27)(right -2.12)(past -2.90)(, -2.31)(him -4.55)(could -2.07)(stand -3.60)(. -8.74) line score is : -2.888, look ahead score is : 0.000
+-------------------------score:  -3.2231881969115315;  adjusted_score: -3.1974631572207985----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , him could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(ready -0.89)(to -5.56)(flee -5.37)(, -0.61) line score is : -3.450, look ahead score is : 0.721
+(but -0.61)(the -2.94)(wind -1.43)(blew -0.24)(right -2.19)(past -2.99)(, -2.29)(him -4.61)(could -2.15)(stand -3.75)(. -8.71) line score is : -2.900, look ahead score is : 0.000
+-------------------------score:  -3.23987287063809;  adjusted_score: -3.2141478309473572----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was ready to flee , 
+ but the wind blew right past , him could stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(ready -0.90)(to -5.24)(flee -5.41)(, -0.57) line score is : -3.258, look ahead score is : 0.721
+(but -0.57)(the -3.27)(wind -1.38)(blew -0.24)(right -2.16)(past -3.16)(, -2.21)(him -4.77)(could -2.06)(stand -3.83)(. -8.70) line score is : -2.942, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.061827783070674;  adjusted_score: -3.0361040260718966----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the man on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(the -4.94)(man -2.75)(on -2.31)(the -2.73)(ground -4.93)(of -5.91)(the -0.56)(stand -2.15)(. -7.45) line score is : -3.373, look ahead score is : 0.000
+-------------------------score:  -3.066704239244714;  adjusted_score: -3.0409804822459363----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the man on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(the -5.17)(man -2.74)(on -2.41)(the -2.62)(ground -4.62)(of -5.91)(the -0.51)(stand -2.12)(. -7.61) line score is : -3.371, look ahead score is : 0.000
+-------------------------score:  -3.0730813205467933;  adjusted_score: -3.0473575635480157----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the man on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(the -4.86)(man -2.80)(on -2.26)(the -2.73)(ground -4.87)(of -5.76)(the -0.45)(stand -2.55)(. -7.44) line score is : -3.373, look ahead score is : 0.000
+-------------------------score:  -3.0972518873132877;  adjusted_score: -3.07152813031451----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the fire on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(the -4.94)(fire -2.75)(on -2.31)(the -2.73)(ground -4.69)(of -5.36)(the -1.10)(stand -2.71)(. -7.02) line score is : -3.360, look ahead score is : 0.000
+-------------------------score:  -3.1110250269147484;  adjusted_score: -3.0853012699159708----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the fire on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(the -4.86)(fire -2.80)(on -2.26)(the -2.73)(ground -5.11)(of -5.30)(the -0.94)(stand -3.18)(. -6.85) line score is : -3.404, look ahead score is : 0.000
+-------------------------score:  -3.1520948250862686;  adjusted_score: -3.126371068087491----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the rain on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(the -5.17)(rain -2.74)(on -2.41)(the -2.62)(ground -4.67)(of -6.42)(the -1.22)(stand -1.49)(. -7.55) line score is : -3.429, look ahead score is : 0.000
+-------------------------score:  -3.155444313821411;  adjusted_score: -3.1297205568226336----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the rain on the ground of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(the -4.94)(rain -2.75)(on -2.31)(the -2.73)(ground -5.28)(of -6.40)(the -1.17)(stand -1.56)(. -7.31) line score is : -3.444, look ahead score is : 0.000
+-------------------------score:  -3.166052636514051;  adjusted_score: -3.1403288795152733----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and the fire on the hill of the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(the -4.94)(fire -2.75)(on -2.31)(the -2.73)(hill -4.69)(of -5.36)(the -1.10)(stand -4.46)(. -7.06) line score is : -3.540, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND SINCE RB VBZ RB VBN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ and since then has never benzene 
+-------------------------score:  -3.1157912042845664;  adjusted_score: -3.0900674472857887----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has regularly planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.94)(then -2.75)(has -2.31)(regularly -5.24)(planned -1.24)(. -2.59) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -3.127393798654278;  adjusted_score: -3.1016700416555003----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has regularly planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(since -4.86)(then -2.80)(has -2.26)(regularly -5.13)(planned -0.95)(. -2.60) line score is : -2.659, look ahead score is : 0.000
+-------------------------score:  -3.1487357563882443;  adjusted_score: -3.1230119993894667----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has actually planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.94)(then -2.75)(has -2.31)(actually -5.24)(planned -1.24)(. -2.59) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -3.159279708688458;  adjusted_score: -3.1335559516896803----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has actually planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(since -4.86)(then -2.80)(has -2.26)(actually -5.13)(planned -0.95)(. -2.60) line score is : -2.659, look ahead score is : 0.000
+-------------------------score:  -3.163200198323466;  adjusted_score: -3.1374764413246883----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has gradually planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.94)(then -2.75)(has -2.31)(gradually -5.24)(planned -1.24)(. -2.59) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -3.176414534077048;  adjusted_score: -3.1506907770782706----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has gradually planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(since -4.86)(then -2.80)(has -2.26)(gradually -5.13)(planned -0.95)(. -2.60) line score is : -2.659, look ahead score is : 0.000
+-------------------------score:  -3.234913566421407;  adjusted_score: -3.209189809422629----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has literally planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.94)(then -2.75)(has -2.31)(literally -5.24)(planned -1.24)(. -2.59) line score is : -2.724, look ahead score is : 0.000
+-------------------------score:  -3.2444516943146784;  adjusted_score: -3.218727937315901----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has literally planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(since -4.86)(then -2.80)(has -2.26)(literally -5.13)(planned -0.95)(. -2.60) line score is : -2.659, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND VBD THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ and finished the solo with honour 
+-------------------------score:  -3.291079772139589;  adjusted_score: -3.2653560151408114----------------------- 
+there was a brave farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and had the ability with stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(farm -3.31)(on -2.28)(his -2.01)(land -1.08)(. -1.75) line score is : -2.475, look ahead score is : 0.000
+(when -1.75)(a -3.34)(storm -3.30)(hits -3.12)(his -2.27)(tree -2.06)(, -6.62) line score is : -3.207, look ahead score is : 0.565
+(he -6.62)(was -1.65)(able -0.89)(to -5.56)(flee -2.01)(, -0.00) line score is : -2.788, look ahead score is : 0.721
+(and -0.00)(had -4.86)(the -2.80)(ability -2.26)(with -5.47)(stand -3.13)(. -3.88) line score is : -3.201, look ahead score is : 0.000
+-------------------------score:  -3.2937470463026934;  adjusted_score: -3.268023289303916----------------------- 
+there was a brave farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and had the ability with stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(plot -2.23)(on -3.38)(his -1.71)(land -1.25)(. -2.09) line score is : -2.502, look ahead score is : 0.000
+(when -2.09)(a -3.34)(storm -3.40)(hits -3.06)(his -2.83)(tree -2.22)(, -6.10) line score is : -3.291, look ahead score is : 0.565
+(he -6.10)(was -1.33)(able -0.90)(to -5.24)(flee -1.92)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(had -4.94)(the -2.75)(ability -2.31)(with -5.33)(stand -3.13)(. -4.69) line score is : -3.307, look ahead score is : 0.000
+-------------------------score:  -3.3196315431346495;  adjusted_score: -3.293907786135872----------------------- 
+there was a brave farmer named brande 
+ who planted a small crop on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and had the ability with stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.19)(planted -5.26)(a -1.63)(small -3.77)(crop -2.62)(on -3.20)(his -1.43)(land -1.36)(. -1.79) line score is : -2.473, look ahead score is : 0.000
+(when -1.79)(a -3.20)(storm -3.47)(hits -2.83)(his -2.82)(tree -2.22)(, -6.63) line score is : -3.280, look ahead score is : 0.565
+(he -6.63)(was -1.23)(able -0.96)(to -5.51)(flee -2.08)(, -0.00) line score is : -2.735, look ahead score is : 0.721
+(and -0.00)(had -5.17)(the -2.74)(ability -2.41)(with -5.43)(stand -3.20)(. -4.41) line score is : -3.338, look ahead score is : 0.000

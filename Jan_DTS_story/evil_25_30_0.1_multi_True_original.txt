@@ -1,0 +1,979 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ and they had to revert to a man cashier 
+-------------------------score:  -3.120710248296911;  adjusted_score: -3.0958162442052903----------------------- 
+there was a cruel witch named raye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ and she left to go to a new prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(and -1.44)(she -6.72)(left -3.20)(to -1.26)(go -1.93)(to -3.62)(a -3.22)(new -2.86)(prey -1.93)(. -2.50) line score is : -2.868, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ so he had to sit down on the floor 
+-------------------------score:  -3.2442441885359585;  adjusted_score: -3.218758056778461----------------------- 
+there was a cruel witch named renee 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to go down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(go -0.71)(down -3.03)(on -0.68)(the -3.87)(prey -4.54)(. -3.14) line score is : -3.152, look ahead score is : 0.000
+-------------------------score:  -3.2456191298551857;  adjusted_score: -3.220132998097688----------------------- 
+there was a cruel witch named raye 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to sneak down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(sneak -0.71)(down -3.03)(on -0.68)(the -4.45)(prey -4.71)(. -4.11) line score is : -3.324, look ahead score is : 0.000
+-------------------------score:  -3.2456279662437737;  adjusted_score: -3.220141834486276----------------------- 
+there was a cruel witch named rae 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to hold down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(hold -0.71)(down -3.03)(on -0.68)(the -4.73)(prey -5.41)(. -3.34) line score is : -3.346, look ahead score is : 0.000
+-------------------------score:  -3.3206748594529927;  adjusted_score: -3.295188727695495----------------------- 
+there was a cruel witch named pei 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to keep down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(keep -0.71)(down -3.03)(on -0.68)(the -3.56)(prey -7.70)(. -5.12) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.3336332594044507;  adjusted_score: -3.308147127646953----------------------- 
+there was a cruel witch named ok 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to run down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(run -0.71)(down -3.03)(on -0.68)(the -3.73)(prey -5.42)(. -5.99) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.370422997046262;  adjusted_score: -3.3449368652887643----------------------- 
+there was a cruel witch named mae 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to wear down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(wear -0.71)(down -3.03)(on -0.68)(the -3.25)(prey -8.94)(. -5.55) line score is : -3.772, look ahead score is : 0.000
+-------------------------score:  -3.3767736083827913;  adjusted_score: -3.3512874766252936----------------------- 
+there was a cruel witch named jae 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she tried to kill down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(tried -6.05)(to -2.26)(kill -0.71)(down -4.87)(on -0.39)(the -3.11)(prey -9.92)(. -3.58) line score is : -3.813, look ahead score is : 0.000
+-------------------------score:  -3.3803553483448923;  adjusted_score: -3.3548692165873946----------------------- 
+there was a cruel witch named may 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she tried to scare down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(tried -6.05)(to -2.26)(scare -0.71)(down -4.87)(on -0.39)(the -3.22)(prey -6.73)(. -7.80) line score is : -3.928, look ahead score is : 0.000
+-------------------------score:  -3.4024279010482132;  adjusted_score: -3.3769417692907155----------------------- 
+there was a cruel witch named shay 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so i had to keep down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(i -7.02)(had -6.05)(to -2.26)(keep -2.06)(down -2.92)(on -0.32)(the -3.47)(prey -8.31)(. -5.49) line score is : -3.813, look ahead score is : 0.000
+-------------------------score:  -3.406622961629182;  adjusted_score: -3.3811368298716844----------------------- 
+there was a cruel witch named kaye 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she had to make down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(had -6.05)(to -2.26)(make -0.71)(down -3.03)(on -0.68)(the -4.33)(prey -9.92)(. -4.53) line score is : -3.875, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ so he had to sit down on the floor 
+-------------------------score:  -3.2513934391917605;  adjusted_score: -3.22714207956511----------------------- 
+there was a cruel witch named raye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ so she had to go down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(so -1.67)(she -9.21)(had -3.06)(to -4.52)(go -1.89)(down -3.62)(on -0.79)(the -3.48)(prey -4.35)(. -3.29) line score is : -3.587, look ahead score is : 0.000
+-------------------------score:  -3.255655375393954;  adjusted_score: -3.2307613713023335----------------------- 
+there was a cruel witch named rea 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she had to go down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(had -3.20)(to -5.25)(go -1.96)(down -4.24)(on -0.98)(the -3.62)(prey -4.73)(. -2.08) line score is : -3.421, look ahead score is : 0.000
+-------------------------score:  -3.3090507929975335;  adjusted_score: -3.2847994333708828----------------------- 
+there was a cruel witch named faye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ so she had to come down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(so -1.67)(she -9.21)(had -3.06)(to -4.52)(come -1.89)(down -3.62)(on -0.79)(the -5.00)(prey -3.99)(. -3.24) line score is : -3.697, look ahead score is : 0.000
+-------------------------score:  -3.386233122059793;  adjusted_score: -3.3619817624331425----------------------- 
+there was a cruel witch named shea 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ so she had to kill down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(so -1.67)(she -9.21)(had -3.06)(to -4.52)(kill -1.89)(down -3.62)(on -0.79)(the -4.17)(prey -8.50)(. -3.79) line score is : -4.121, look ahead score is : 0.000
+-------------------------score:  -3.42955179828586;  adjusted_score: -3.4053004386592094----------------------- 
+there was a cruel witch named rea 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ so she had to wait down on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(so -1.67)(she -9.21)(had -3.06)(to -4.52)(wait -1.89)(down -3.62)(on -0.79)(the -5.03)(prey -8.61)(. -3.59) line score is : -4.199, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ and they had to revert to a man cashier 
+-------------------------score:  -3.2743374542333186;  adjusted_score: -3.248851322475821----------------------- 
+there was a cruel witch named wei 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ and she had to run to a new prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(and -0.23)(she -7.02)(had -6.05)(to -1.39)(run -0.82)(to -2.46)(a -2.76)(new -3.37)(prey -2.62)(. -2.91) line score is : -2.963, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.317797882422324;  adjusted_score: -3.2923117506648265----------------------- 
+there was a cruel witch named faye 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ and she looked down and noticed her prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(and -0.23)(she -7.02)(looked -6.05)(down -1.39)(and -0.82)(noticed -3.69)(her -5.12)(prey -3.46)(. -5.44) line score is : -3.691, look ahead score is : 0.000
+-------------------------score:  -3.359935262991536;  adjusted_score: -3.3344491312340385----------------------- 
+there was a cruel witch named shea 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ and she looked down and saw our prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(and -0.23)(she -7.02)(looked -6.05)(down -1.39)(and -0.82)(saw -3.69)(our -5.12)(prey -3.46)(. -2.22) line score is : -3.333, look ahead score is : 0.000
+-------------------------score:  -3.434368708922017;  adjusted_score: -3.4088825771645195----------------------- 
+there was a cruel witch named jaye 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ and she looked down and whispered her prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(and -0.23)(she -7.02)(looked -6.05)(down -1.39)(and -0.82)(whispered -3.69)(her -5.12)(prey -3.46)(. -4.07) line score is : -3.539, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ and I hope that your day is a blast 
+-------------------------score:  -3.341066353248827;  adjusted_score: -3.3168149936221765----------------------- 
+there was a cruel witch named may 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ and we know that her son is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(and -1.67)(we -9.21)(know -3.06)(that -1.80)(her -5.98)(son -3.32)(is -1.51)(a -2.81)(prey -4.35)(. -2.40) line score is : -3.610, look ahead score is : 0.000
+-------------------------score:  -3.353900660168041;  adjusted_score: -3.3296493005413903----------------------- 
+there was a cruel witch named shea 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ and we know that her soul is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(and -1.67)(we -9.21)(know -3.06)(that -1.80)(her -5.98)(soul -3.32)(is -1.51)(a -2.81)(prey -3.33)(. -1.88) line score is : -3.456, look ahead score is : 0.000
+-------------------------score:  -3.3867930751858335;  adjusted_score: -3.361899071094213----------------------- 
+there was a cruel witch named renee 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ and she swore that her life is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(and -1.44)(she -6.72)(swore -3.20)(that -1.26)(her -1.93)(life -5.65)(is -2.42)(a -3.40)(prey -4.16)(. -4.45) line score is : -3.461, look ahead score is : 0.000
+-------------------------score:  -3.4027547258319277;  adjusted_score: -3.3781252090068477----------------------- 
+there was a cruel witch named mae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was stopped by a smile , 
+ and she swore that her life is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(stopped -1.79)(by -1.11)(a -5.95)(smile -1.06)(, -1.60) line score is : -2.464, look ahead score is : 0.662
+(and -1.60)(she -8.57)(swore -3.27)(that -1.09)(her -1.72)(life -5.58)(is -2.41)(a -3.45)(prey -4.31)(. -4.27) line score is : -3.628, look ahead score is : 0.000
+-------------------------score:  -3.4155390334851816;  adjusted_score: -3.391287673858531----------------------- 
+there was a cruel witch named monet 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ and we know that her fate is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(and -1.67)(we -9.21)(know -3.06)(that -1.80)(her -5.98)(fate -3.32)(is -1.51)(a -2.81)(prey -4.61)(. -1.67) line score is : -3.564, look ahead score is : 0.000
+-------------------------score:  -3.428480549292131;  adjusted_score: -3.4035865452005103----------------------- 
+there was a cruel witch named kay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ and she swore that her fate is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(and -1.44)(she -6.72)(swore -3.20)(that -1.26)(her -1.93)(fate -5.65)(is -2.42)(a -3.40)(prey -4.97)(. -4.23) line score is : -3.521, look ahead score is : 0.000
+-------------------------score:  -3.434040073192481;  adjusted_score: -3.4097887135658302----------------------- 
+there was a cruel witch named gay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ and we know that her corpse is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(and -1.67)(we -9.21)(know -3.06)(that -1.80)(her -5.98)(corpse -3.32)(is -1.51)(a -2.81)(prey -4.52)(. -1.87) line score is : -3.574, look ahead score is : 0.000
+-------------------------score:  -3.52956003853769;  adjusted_score: -3.5053086789110393----------------------- 
+there was a cruel witch named rae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ and we know that her ghost lives a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(and -1.67)(we -9.21)(know -3.06)(that -1.80)(her -5.98)(ghost -3.32)(lives -1.51)(a -2.81)(prey -4.63)(. -3.00) line score is : -3.698, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ BUT THE NN VBD JJ NN , PRP COULD VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ but the wood-duck had good luck , they could duck 
+-------------------------score:  -3.341736499000998;  adjusted_score: -3.317485139374347----------------------- 
+there was a cruel witch named jaye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good news , she could pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(news -3.29)(, -1.79)(she -6.22)(could -4.71)(pray -2.38)(. -3.07) line score is : -3.643, look ahead score is : 0.000
+-------------------------score:  -3.356304719167597;  adjusted_score: -3.3314107150759766----------------------- 
+there was a cruel witch named maye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the shock was short term , he could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(shock -3.20)(was -2.10)(short -2.59)(term -5.66)(, -2.04)(he -2.87)(could -5.27)(say -2.04)(. -6.11) line score is : -3.640, look ahead score is : 0.000
+-------------------------score:  -3.3570990492315853;  adjusted_score: -3.3322050451399647----------------------- 
+there was a cruel witch named faye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the grin was short term , he could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(grin -3.20)(was -2.10)(short -2.59)(term -5.49)(, -1.47)(he -2.72)(could -6.47)(say -1.85)(. -5.91) line score is : -3.633, look ahead score is : 0.000
+-------------------------score:  -3.364481203696307;  adjusted_score: -3.3402298440696563----------------------- 
+there was a cruel witch named renee 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good news , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(news -3.29)(, -1.79)(she -6.22)(could -4.71)(say -2.38)(. -3.07) line score is : -3.643, look ahead score is : 0.000
+-------------------------score:  -3.368763646658729;  adjusted_score: -3.3438696425671086----------------------- 
+there was a cruel witch named gaye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl was dead cold , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(was -2.10)(dead -2.59)(cold -4.20)(, -1.99)(she -4.97)(could -5.19)(say -2.27)(. -3.15) line score is : -3.438, look ahead score is : 0.000
+-------------------------score:  -3.3694003049065087;  adjusted_score: -3.345148945279858----------------------- 
+there was a cruel witch named faye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good luck , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(luck -3.29)(, -1.79)(she -6.22)(could -6.09)(say -2.18)(. -3.22) line score is : -3.765, look ahead score is : 0.000
+-------------------------score:  -3.382148500751047;  adjusted_score: -3.357254496659426----------------------- 
+there was a cruel witch named andre 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the shock was short term , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(shock -3.20)(was -2.10)(short -2.59)(term -5.66)(, -2.04)(she -2.87)(could -5.27)(say -2.04)(. -2.66) line score is : -3.326, look ahead score is : 0.000
+-------------------------score:  -3.382466154939988;  adjusted_score: -3.3575721508483674----------------------- 
+there was a cruel witch named raye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the look was short term , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(look -3.20)(was -2.10)(short -2.59)(term -4.77)(, -2.24)(she -4.15)(could -5.97)(say -1.85)(. -2.98) line score is : -3.455, look ahead score is : 0.000
+-------------------------score:  -3.385451548239764;  adjusted_score: -3.3605575441481434----------------------- 
+there was a cruel witch named andre 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the grin was short term , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(grin -3.20)(was -2.10)(short -2.59)(term -5.49)(, -1.47)(she -2.72)(could -6.47)(say -1.85)(. -2.84) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.3891980122117435;  adjusted_score: -3.364304008120123----------------------- 
+there was a cruel witch named ray 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the shock was short term , i could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(shock -3.20)(was -2.10)(short -2.59)(term -5.66)(, -2.04)(i -2.87)(could -5.27)(say -2.04)(. -6.42) line score is : -3.668, look ahead score is : 0.000
+-------------------------score:  -3.3954203654738033;  adjusted_score: -3.3705263613821828----------------------- 
+there was a cruel witch named rene 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl was dead drunk , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(was -2.10)(dead -2.59)(drunk -4.20)(, -1.99)(she -4.97)(could -6.73)(say -2.02)(. -3.37) line score is : -3.575, look ahead score is : 0.000
+-------------------------score:  -3.3967540194006527;  adjusted_score: -3.372502659774002----------------------- 
+there was a cruel witch named shay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good news , they could pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(news -3.29)(, -1.79)(they -6.22)(could -4.71)(pray -2.38)(. -5.88) line score is : -3.899, look ahead score is : 0.000
+-------------------------score:  -3.403905858011807;  adjusted_score: -3.3790118539201863----------------------- 
+there was a cruel witch named kay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl had grown fat , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(had -2.10)(grown -2.59)(fat -4.20)(, -3.34)(she -4.59)(could -6.38)(say -2.08)(. -3.42) line score is : -3.642, look ahead score is : 0.000
+-------------------------score:  -3.4076195885153377;  adjusted_score: -3.383368228888687----------------------- 
+there was a cruel witch named mae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good luck , she could pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(luck -3.29)(, -1.79)(she -6.22)(could -6.09)(pray -2.18)(. -3.22) line score is : -3.765, look ahead score is : 0.000
+-------------------------score:  -3.41187023415285;  adjusted_score: -3.3876188745261993----------------------- 
+there was a cruel witch named monet 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good news , they could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(news -3.29)(, -1.79)(they -6.22)(could -4.71)(say -2.38)(. -5.88) line score is : -3.899, look ahead score is : 0.000
+-------------------------score:  -3.420732929426081;  adjusted_score: -3.3958389253344605----------------------- 
+there was a cruel witch named ok 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the shock was short term , she could pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(shock -3.20)(was -2.10)(short -2.59)(term -5.66)(, -2.04)(she -2.87)(could -5.27)(pray -2.04)(. -2.66) line score is : -3.326, look ahead score is : 0.000
+-------------------------score:  -3.4221453701748565;  adjusted_score: -3.397894010548206----------------------- 
+there was a cruel witch named jae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the death was short term , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(death -3.06)(was -2.16)(short -2.52)(term -5.12)(, -1.59)(she -5.02)(could -5.84)(say -1.67)(. -2.70) line score is : -3.688, look ahead score is : 0.000
+-------------------------score:  -3.431452859850491;  adjusted_score: -3.4065588557588704----------------------- 
+there was a cruel witch named rea 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl had grown cold , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(had -2.10)(grown -2.59)(cold -4.20)(, -3.34)(she -4.59)(could -4.87)(say -2.21)(. -3.53) line score is : -3.525, look ahead score is : 0.000
+-------------------------score:  -3.4397937795695137;  adjusted_score: -3.414899775477893----------------------- 
+there was a cruel witch named shea 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl had grown dark , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(had -2.10)(grown -2.59)(dark -4.20)(, -3.34)(she -4.59)(could -6.51)(say -2.21)(. -3.52) line score is : -3.675, look ahead score is : 0.000
+-------------------------score:  -3.452755132142235;  adjusted_score: -3.4278611280506146----------------------- 
+there was a cruel witch named jae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl had grown pale , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(had -2.10)(grown -2.59)(pale -4.20)(, -3.34)(she -4.59)(could -6.04)(say -2.07)(. -3.66) line score is : -3.632, look ahead score is : 0.000
+-------------------------score:  -3.453834964948542;  adjusted_score: -3.4289409608569215----------------------- 
+there was a cruel witch named maye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the face was cold steel , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(face -3.20)(was -2.10)(cold -2.59)(steel -5.07)(, -2.41)(she -4.29)(could -6.49)(say -2.12)(. -4.05) line score is : -3.680, look ahead score is : 0.000
+-------------------------score:  -3.454131866202635;  adjusted_score: -3.4292378621110142----------------------- 
+there was a cruel witch named gaye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the grin was short life , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(grin -3.20)(was -2.10)(short -2.59)(life -5.49)(, -1.47)(she -2.72)(could -8.26)(say -2.08)(. -2.85) line score is : -3.538, look ahead score is : 0.000
+-------------------------score:  -3.4653112362412846;  adjusted_score: -3.440417232149664----------------------- 
+there was a cruel witch named ok 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl had grown mad , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(had -2.10)(grown -2.59)(mad -4.20)(, -3.34)(she -4.59)(could -6.25)(say -2.02)(. -3.23) line score is : -3.607, look ahead score is : 0.000
+-------------------------score:  -3.465531661229975;  adjusted_score: -3.4406376571383546----------------------- 
+there was a cruel witch named faye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the shock was short term , they could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(shock -3.20)(was -2.10)(short -2.59)(term -5.66)(, -2.04)(they -2.87)(could -5.27)(say -2.04)(. -5.65) line score is : -3.598, look ahead score is : 0.000
+-------------------------score:  -3.4728850056143368;  adjusted_score: -3.447991001522716----------------------- 
+there was a cruel witch named andre 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the grin was short term , they could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(grin -3.20)(was -2.10)(short -2.59)(term -5.49)(, -1.47)(they -2.72)(could -6.47)(say -1.85)(. -6.28) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.4744883670526394;  adjusted_score: -3.449594362961019----------------------- 
+there was a cruel witch named kaye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl was dead right , she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(was -2.10)(dead -2.59)(right -4.20)(, -1.99)(she -4.97)(could -6.12)(say -5.19)(. -1.56) line score is : -3.643, look ahead score is : 0.000
+-------------------------score:  -3.505547085229088;  adjusted_score: -3.4806530811374676----------------------- 
+there was a cruel witch named jaye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the girl was dead cold , it could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(girl -3.20)(was -2.10)(dead -2.59)(cold -4.20)(, -1.99)(it -4.97)(could -5.19)(say -2.27)(. -5.27) line score is : -3.630, look ahead score is : 0.000
+-------------------------score:  -3.505598355742062;  adjusted_score: -3.4807043516504415----------------------- 
+there was a cruel witch named rae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the grin was short term , it could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(grin -3.20)(was -2.10)(short -2.59)(term -5.49)(, -1.47)(it -2.72)(could -6.47)(say -1.85)(. -3.78) line score is : -3.439, look ahead score is : 0.000
+-------------------------score:  -3.52234404928544;  adjusted_score: -3.4980926896587894----------------------- 
+there was a cruel witch named andre 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ but the curse was good news , it could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(but -1.67)(the -9.21)(curse -3.06)(was -2.16)(good -2.52)(news -3.29)(, -1.79)(it -6.22)(could -4.71)(say -2.38)(. -4.12) line score is : -3.739, look ahead score is : 0.000
+-------------------------score:  -3.526514635366552;  adjusted_score: -3.5016206312749314----------------------- 
+there was a cruel witch named jay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ but the look was short term , it could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(but -1.44)(the -6.72)(look -3.20)(was -2.10)(short -2.59)(term -4.77)(, -2.24)(it -4.15)(could -5.97)(say -1.85)(. -4.09) line score is : -3.557, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.3477583290077746;  adjusted_score: -3.322272197250277----------------------- 
+there was a cruel witch named rene 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and hit on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(gave -6.05)(up -2.26)(and -0.71)(hit -4.56)(on -1.82)(the -1.86)(prey -7.64)(. -3.07) line score is : -3.522, look ahead score is : 0.000
+-------------------------score:  -3.359384568873793;  adjusted_score: -3.333898437116295----------------------- 
+there was a cruel witch named raye 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and crept on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(gave -6.05)(up -2.26)(and -0.71)(crept -4.56)(on -1.82)(the -1.86)(prey -7.42)(. -4.31) line score is : -3.624, look ahead score is : 0.000
+-------------------------score:  -3.3881798670627177;  adjusted_score: -3.36269373530522----------------------- 
+there was a cruel witch named fe 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she got up and set on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(got -6.05)(up -2.26)(and -0.71)(set -5.03)(on -3.60)(the -0.82)(prey -6.60)(. -5.44) line score is : -3.775, look ahead score is : 0.000
+-------------------------score:  -3.412762450519949;  adjusted_score: -3.3872763187624515----------------------- 
+there was a cruel witch named pei 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she ran up and hit on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(ran -6.05)(up -2.26)(and -0.71)(hit -4.33)(on -4.74)(the -1.81)(prey -4.85)(. -5.62) line score is : -3.762, look ahead score is : 0.000
+-------------------------score:  -3.4217242118902504;  adjusted_score: -3.3962380801327527----------------------- 
+there was a cruel witch named kay 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she got up and hit on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(got -6.05)(up -2.26)(and -0.71)(hit -5.03)(on -3.60)(the -0.82)(prey -6.95)(. -5.40) line score is : -3.806, look ahead score is : 0.000
+-------------------------score:  -3.4547325395978987;  adjusted_score: -3.429246407840401----------------------- 
+there was a cruel witch named rene 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she gave up and cut on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(gave -6.05)(up -2.26)(and -0.71)(cut -4.56)(on -1.82)(the -1.86)(prey -7.71)(. -7.62) line score is : -3.984, look ahead score is : 0.000
+-------------------------score:  -3.550637335050851;  adjusted_score: -3.5251512032933534----------------------- 
+there was a cruel witch named ok 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ so she got up and let on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(so -0.23)(she -7.02)(got -6.05)(up -2.26)(and -0.71)(let -5.03)(on -3.60)(the -0.82)(prey -6.83)(. -8.02) line score is : -4.056, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.380550641566515;  adjusted_score: -3.3556566374748944----------------------- 
+there was a cruel witch named jae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ and she went down and began her prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(and -1.44)(she -6.72)(went -3.20)(down -1.26)(and -1.93)(began -4.12)(her -5.19)(prey -4.74)(. -4.02) line score is : -3.625, look ahead score is : 0.000
+-------------------------score:  -3.4078754745423794;  adjusted_score: -3.382981470450759----------------------- 
+there was a cruel witch named trey 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ and she went down and offered her prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(and -1.44)(she -6.72)(went -3.20)(down -1.26)(and -1.93)(offered -4.12)(her -5.19)(prey -4.74)(. -4.84) line score is : -3.715, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.393622495911338;  adjusted_score: -3.3687284918197173----------------------- 
+there was a cruel witch named gay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she gave up and set on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(gave -3.20)(up -5.25)(and -1.96)(set -4.28)(on -1.72)(the -1.87)(prey -6.11)(. -5.57) line score is : -3.812, look ahead score is : 0.000
+-------------------------score:  -3.3937311858841865;  adjusted_score: -3.368837181792566----------------------- 
+there was a cruel witch named jae 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she gave up and hit on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(gave -3.20)(up -5.25)(and -1.96)(hit -4.28)(on -1.72)(the -1.87)(prey -8.09)(. -3.48) line score is : -3.802, look ahead score is : 0.000
+-------------------------score:  -3.452809608343876;  adjusted_score: -3.4279156042522554----------------------- 
+there was a cruel witch named gay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she went up and hit on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(went -3.20)(up -5.25)(and -1.96)(hit -3.47)(on -4.87)(the -2.26)(prey -5.66)(. -5.19) line score is : -4.000, look ahead score is : 0.000
+-------------------------score:  -3.4539335984172244;  adjusted_score: -3.429039594325604----------------------- 
+there was a cruel witch named raye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she gave up and crept on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(gave -3.20)(up -5.25)(and -1.96)(crept -4.28)(on -1.72)(the -1.87)(prey -8.98)(. -4.45) line score is : -3.986, look ahead score is : 0.000
+-------------------------score:  -3.458731618794528;  adjusted_score: -3.4338376147029073----------------------- 
+there was a cruel witch named trey 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she ran up and hit on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(ran -3.20)(up -5.25)(and -1.96)(hit -4.29)(on -4.69)(the -2.15)(prey -4.52)(. -5.95) line score is : -4.016, look ahead score is : 0.000
+-------------------------score:  -3.486578740856864;  adjusted_score: -3.4616847367652435----------------------- 
+there was a cruel witch named may 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ so she gave up and cut on the prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(so -1.44)(she -6.72)(gave -3.20)(up -5.25)(and -1.96)(cut -4.28)(on -1.72)(the -1.87)(prey -7.91)(. -7.31) line score is : -4.166, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ and returned on the previous night 
+-------------------------score:  -3.477431939045588;  adjusted_score: -3.4531805794189374----------------------- 
+there was a cruel witch named clay 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was killed by a smile , 
+ and left on the invisible prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(killed -1.79)(by -1.11)(a -4.70)(smile -0.99)(, -1.67) line score is : -2.284, look ahead score is : 0.643
+(and -1.67)(left -9.21)(on -3.06)(the -1.80)(invisible -4.43)(prey -4.07)(. -0.58) line score is : -3.545, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD VBN BY A NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was pained by a tooth 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.481551236966077;  adjusted_score: -3.4566572328744565----------------------- 
+there was a cruel witch named faye 
+ who cursed a small village on her way . 
+ her actions were so vile , 
+ she was met by a smile , 
+ as she turned to leave , we are a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(actions -4.20)(were -4.37)(so -2.66)(vile -2.51)(, -3.85) line score is : -3.756, look ahead score is : 0.569
+(she -3.85)(was -1.88)(met -1.79)(by -1.11)(a -5.89)(smile -2.14)(, -1.44) line score is : -2.586, look ahead score is : 0.675
+(as -1.44)(she -6.72)(turned -3.20)(to -3.67)(leave -1.24)(, -4.36)(we -1.22)(are -3.61)(a -1.82)(prey -7.15)(. -3.73) line score is : -3.469, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP$ NNS VBD SO JJ , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ her thanks were so cold 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.5309431166388094;  adjusted_score: -3.5054569848813117----------------------- 
+there was a cruel witch named shea 
+ who cursed a small village on her way . 
+ her eyes were so scary , 
+ it was hard to carry , 
+ and she swore that her life is a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.48)(cursed -5.37)(a -4.01)(small -4.50)(village -2.74)(on -4.12)(her -2.39)(way -1.35)(. -4.93) line score is : -3.433, look ahead score is : 0.000
+(her -4.93)(eyes -4.20)(were -5.63)(so -1.47)(scary -3.07)(, -4.83) line score is : -4.021, look ahead score is : 0.569
+(it -4.83)(was -1.75)(hard -3.19)(to -1.55)(carry -2.02)(, -0.23) line score is : -2.261, look ahead score is : 0.705
+(and -0.23)(she -7.02)(swore -6.05)(that -1.39)(her -0.82)(life -7.36)(is -2.03)(a -3.23)(prey -4.48)(. -4.63) line score is : -3.725, look ahead score is : 0.000

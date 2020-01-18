@@ -1,0 +1,319 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ A NN WITH A NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBD PRP VBD VBG PRP JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ a fish with a grin 
+ he was ready to faint 
+ but they felt it was doing them good 
+-------------------------score:  -2.8585475587075755;  adjusted_score: -2.8327712175971076----------------------- 
+there was a loud soldier named ed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was getting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(getting -3.02)(him -1.62)(dead -2.16)(. -4.47) line score is : -2.561, look ahead score is : 0.000
+-------------------------score:  -2.865046384834474;  adjusted_score: -2.8397547564439236----------------------- 
+there was a loud soldier named fred 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was doing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(doing -3.57)(it -1.45)(dead -1.70)(. -4.98) line score is : -2.635, look ahead score is : 0.000
+-------------------------score:  -2.868778810385735;  adjusted_score: -2.8434871819951844----------------------- 
+there was a loud soldier named ed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was getting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(getting -3.57)(him -1.45)(dead -1.70)(. -3.98) line score is : -2.524, look ahead score is : 0.000
+-------------------------score:  -2.8973644202755344;  adjusted_score: -2.8715880791650665----------------------- 
+there was a loud soldier named ed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was doing him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(doing -3.02)(him -1.62)(dead -2.16)(. -5.10) line score is : -2.631, look ahead score is : 0.000
+-------------------------score:  -2.9042623783311536;  adjusted_score: -2.878970749940603----------------------- 
+there was a loud soldier named fred 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was getting them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(getting -3.57)(them -1.45)(dead -1.70)(. -3.98) line score is : -2.524, look ahead score is : 0.000
+-------------------------score:  -2.905207481115095;  adjusted_score: -2.8791802391698287----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a man with a shotgun , 
+ he was ready to run , 
+ but he knew he was getting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(man -4.92)(with -3.76)(a -1.91)(shotgun -0.93)(, -5.94) line score is : -3.174, look ahead score is : 0.607
+(he -5.94)(was -2.54)(ready -2.59)(to -1.86)(run -5.84)(, -0.21) line score is : -3.162, look ahead score is : 0.695
+(but -0.21)(he -5.36)(knew -3.43)(he -1.86)(was -1.65)(getting -3.48)(him -1.66)(dead -1.86)(. -4.31) line score is : -2.647, look ahead score is : 0.000
+-------------------------score:  -2.908947936950191;  adjusted_score: -2.8831715958397233----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was doing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(doing -3.02)(it -1.62)(dead -2.16)(. -5.10) line score is : -2.631, look ahead score is : 0.000
+-------------------------score:  -2.918032456790247;  adjusted_score: -2.8927408283996967----------------------- 
+there was a loud soldier named ted 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was doing him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(doing -3.57)(him -1.45)(dead -1.70)(. -4.98) line score is : -2.635, look ahead score is : 0.000
+-------------------------score:  -2.9302894396166645;  adjusted_score: -2.9045130985061967----------------------- 
+there was a loud soldier named ned 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was doing them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(doing -3.02)(them -1.62)(dead -2.16)(. -5.10) line score is : -2.631, look ahead score is : 0.000
+-------------------------score:  -2.9323664442185433;  adjusted_score: -2.9065901031080754----------------------- 
+there was a loud soldier named freda 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was getting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(getting -3.02)(it -1.62)(dead -2.16)(. -4.47) line score is : -2.561, look ahead score is : 0.000
+-------------------------score:  -2.934157774333031;  adjusted_score: -2.9088661459424805----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was running it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(running -3.57)(it -1.45)(dead -1.70)(. -3.58) line score is : -2.480, look ahead score is : 0.000
+-------------------------score:  -2.9388640186479016;  adjusted_score: -2.913572390257351----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was running him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(running -3.57)(him -1.45)(dead -1.70)(. -3.58) line score is : -2.480, look ahead score is : 0.000
+-------------------------score:  -2.9494033696190005;  adjusted_score: -2.92411174122845----------------------- 
+there was a loud soldier named ted 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was getting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(getting -3.57)(it -1.45)(dead -1.70)(. -3.98) line score is : -2.524, look ahead score is : 0.000
+-------------------------score:  -2.9542627478799512;  adjusted_score: -2.928971119489401----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was doing them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(doing -3.57)(them -1.45)(dead -1.70)(. -4.98) line score is : -2.635, look ahead score is : 0.000
+-------------------------score:  -2.9590544844827344;  adjusted_score: -2.933762856092184----------------------- 
+there was a loud soldier named ted 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was running them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(running -3.57)(them -1.45)(dead -1.70)(. -3.58) line score is : -2.480, look ahead score is : 0.000
+-------------------------score:  -2.9615418901366573;  adjusted_score: -2.936250261746107----------------------- 
+there was a loud soldier named ted 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was losing him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(losing -3.57)(him -1.45)(dead -1.70)(. -5.21) line score is : -2.661, look ahead score is : 0.000
+-------------------------score:  -2.9720513224601746;  adjusted_score: -2.9462749813497067----------------------- 
+there was a loud soldier named fred 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was running him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(running -3.02)(him -1.62)(dead -2.16)(. -4.44) line score is : -2.557, look ahead score is : 0.000
+-------------------------score:  -2.9727066774522104;  adjusted_score: -2.9469303363417425----------------------- 
+there was a loud soldier named ted 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was doing us dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(doing -3.02)(us -1.62)(dead -2.16)(. -5.10) line score is : -2.631, look ahead score is : 0.000
+-------------------------score:  -2.9742450214201406;  adjusted_score: -2.9484686803096727----------------------- 
+there was a loud soldier named ted 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was running it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(running -3.02)(it -1.62)(dead -2.16)(. -4.44) line score is : -2.557, look ahead score is : 0.000
+-------------------------score:  -2.9795479841770662;  adjusted_score: -2.9535207422317997----------------------- 
+there was a loud soldier named ed 
+ who carried a big stick on his head . 
+ a man with a shotgun , 
+ he was ready to run , 
+ but he knew he was running it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(man -4.92)(with -3.76)(a -1.91)(shotgun -0.93)(, -5.94) line score is : -3.174, look ahead score is : 0.607
+(he -5.94)(was -2.54)(ready -2.59)(to -1.86)(run -5.84)(, -0.21) line score is : -3.162, look ahead score is : 0.695
+(but -0.21)(he -5.36)(knew -3.43)(he -1.86)(was -1.65)(running -3.48)(it -1.66)(dead -1.86)(. -3.53) line score is : -2.560, look ahead score is : 0.000
+-------------------------score:  -2.979551241282494;  adjusted_score: -2.9542596128919434----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was doing us dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(doing -3.57)(us -1.45)(dead -1.70)(. -4.98) line score is : -2.635, look ahead score is : 0.000
+-------------------------score:  -2.9807124887743304;  adjusted_score: -2.954685246829064----------------------- 
+there was a loud soldier named fred 
+ who carried a big stick on his head . 
+ a man with a shotgun , 
+ he was ready to run , 
+ but he knew he was running him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(man -4.92)(with -3.76)(a -1.91)(shotgun -0.93)(, -5.94) line score is : -3.174, look ahead score is : 0.607
+(he -5.94)(was -2.54)(ready -2.59)(to -1.86)(run -5.84)(, -0.21) line score is : -3.162, look ahead score is : 0.695
+(but -0.21)(he -5.36)(knew -3.43)(he -1.86)(was -1.65)(running -3.48)(him -1.66)(dead -1.86)(. -3.53) line score is : -2.560, look ahead score is : 0.000
+-------------------------score:  -2.9900847663802486;  adjusted_score: -2.964793137989698----------------------- 
+there was a loud soldier named jed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was losing them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(losing -3.57)(them -1.45)(dead -1.70)(. -5.21) line score is : -2.661, look ahead score is : 0.000
+-------------------------score:  -2.9926682104987483;  adjusted_score: -2.966640968553482----------------------- 
+there was a loud soldier named ed 
+ who carried a big stick on his head . 
+ a man with a shotgun , 
+ he was ready to run , 
+ but he knew he was getting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(man -4.92)(with -3.76)(a -1.91)(shotgun -0.93)(, -5.94) line score is : -3.174, look ahead score is : 0.607
+(he -5.94)(was -2.54)(ready -2.59)(to -1.86)(run -5.84)(, -0.21) line score is : -3.162, look ahead score is : 0.695
+(but -0.21)(he -5.36)(knew -3.43)(he -1.86)(was -1.65)(getting -3.48)(it -1.66)(dead -1.86)(. -4.31) line score is : -2.647, look ahead score is : 0.000
+-------------------------score:  -2.9931016573982854;  adjusted_score: -2.967810029007735----------------------- 
+there was a loud soldier named freda 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was doing me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(doing -3.57)(me -1.45)(dead -1.70)(. -4.98) line score is : -2.635, look ahead score is : 0.000
+-------------------------score:  -3.0054946099558184;  adjusted_score: -2.9797182688453505----------------------- 
+there was a loud soldier named ed 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was afraid to run , 
+ but he knew he was doing me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(afraid -2.68)(to -1.52)(run -6.53)(, -1.78) line score is : -3.413, look ahead score is : 0.719
+(but -1.78)(he -4.54)(knew -2.24)(he -2.42)(was -0.79)(doing -3.02)(me -1.62)(dead -2.16)(. -5.10) line score is : -2.631, look ahead score is : 0.000
+-------------------------score:  -3.0393162879251663;  adjusted_score: -3.014024659534616----------------------- 
+there was a loud soldier named freda 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was losing he dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(losing -3.57)(he -1.45)(dead -1.70)(. -5.21) line score is : -2.661, look ahead score is : 0.000
+-------------------------score:  -3.0473805848629243;  adjusted_score: -3.022088956472374----------------------- 
+there was a loud soldier named ned 
+ who carried a big stick on his head . 
+ a guy with a shotgun , 
+ he was ready to run , 
+ but he knew he was getting he dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.94)(carried -5.00)(a -0.67)(big -3.92)(stick -2.72)(on -3.37)(his -0.29)(head -3.59)(. -1.58) line score is : -2.564, look ahead score is : 0.000
+(a -1.58)(guy -4.92)(with -4.43)(a -1.96)(shotgun -0.85)(, -5.44) line score is : -3.196, look ahead score is : 0.570
+(he -5.44)(was -2.53)(ready -2.68)(to -1.52)(run -6.15)(, -0.25) line score is : -3.094, look ahead score is : 0.695
+(but -0.25)(he -5.13)(knew -3.41)(he -2.04)(was -1.19)(getting -3.57)(he -1.45)(dead -1.70)(. -3.98) line score is : -2.524, look ahead score is : 0.000

@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ AND PRP VBD TO THE NN , 
+ AND VBD PRP$ NN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ and they rushed to the rail 
+ and gave his proboscis a tweak 
+-------------------------score:  -3.539020291964213;  adjusted_score: -3.514800758163134----------------------- 
+there was a bright man named may 
+ who helped a young lady on her way . 
+ he asked for her record , 
+ and she went to the board , 
+ and handed her copy a halfway . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(helped -5.18)(a -4.50)(young -3.19)(lady -1.92)(on -4.71)(her -1.24)(way -0.52)(. -3.39) line score is : -2.971, look ahead score is : 0.000
+(he -3.39)(asked -2.30)(for -4.49)(her -3.41)(record -1.32)(, -9.36) line score is : -4.047, look ahead score is : 0.613
+(and -9.36)(she -2.31)(went -1.27)(to -0.64)(the -4.84)(board -1.80)(, -1.76) line score is : -3.142, look ahead score is : 0.598
+(and -1.76)(handed -7.11)(her -3.38)(copy -1.18)(a -5.36)(halfway -3.31)(. -4.99) line score is : -3.871, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND VBD PRP$ NN A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ which he loosed in the house 
+ and gave his proboscis a tweak 
+-------------------------score:  -3.544486343860626;  adjusted_score: -3.5207317155599593----------------------- 
+there was a bright man named trey 
+ who helped a young lady on her way . 
+ he asked for her record , 
+ which he found in the board , 
+ and handed her paper a halfway . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(helped -5.18)(a -4.50)(young -3.19)(lady -1.92)(on -4.71)(her -1.24)(way -0.52)(. -3.39) line score is : -2.971, look ahead score is : 0.000
+(he -3.39)(asked -2.30)(for -4.49)(her -3.41)(record -1.32)(, -9.36) line score is : -4.047, look ahead score is : 0.613
+(which -9.36)(he -2.31)(found -2.18)(in -2.23)(the -2.37)(board -1.59)(, -1.16) line score is : -3.029, look ahead score is : 0.575
+(and -1.16)(handed -8.23)(her -4.36)(paper -0.55)(a -4.08)(halfway -1.88)(. -6.67) line score is : -3.848, look ahead score is : 0.000

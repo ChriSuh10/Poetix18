@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.7503699461619058;  adjusted_score: -3.7267103658864893----------------------- 
+there was a wise judge named fay 
+ who welcomed a young man on his way . 
+ the woman of his praise , 
+ he was struck by her gaze , 
+ and she whispered something almost say . 
+------------------------- score breakdown ------------------------ 
+(who -1.91)(welcomed -9.47)(a -4.69)(young -3.57)(man -0.82)(on -5.25)(his -1.24)(way -0.79)(. -4.26) line score is : -3.555, look ahead score is : 0.000
+(the -4.26)(woman -3.01)(of -4.27)(his -4.67)(praise -2.96)(, -8.91) line score is : -4.680, look ahead score is : 0.561
+(he -8.91)(was -2.16)(struck -3.11)(by -3.03)(her -5.18)(gaze -1.25)(, -1.21) line score is : -3.550, look ahead score is : 0.622
+(and -1.21)(she -6.87)(whispered -1.45)(something -1.04)(almost -2.57)(say -4.42)(. -2.60) line score is : -2.879, look ahead score is : 0.000
