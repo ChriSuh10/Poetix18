@@ -127,7 +127,7 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prom
 	f_final=saved_directory +"/"+"results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	f_final_best=saved_directory +"/"+"best_results_"+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	f1_path=saved_directory+"/"+"success.txt"
-	f2_path=saved_directory+"/"+"failure.txt"
+	f2_path=saved_directory+"/"+"success.pickle"
 	print("=========================================")
 	print(saved_directory)
 	print("=========================================")
@@ -151,16 +151,24 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prom
 	print("==================== here here here here===================================")
 	with open(f1_path,"a+") as f1:
 		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
-	print("==================== here here here here here===================================")
-	'''
+	try:
+		with open(f2_path,"rb") as f2:
+			data=pickle.load(f2)
+			data.append(prompt)
+		with open(f2_path,"wb") as f2:
+			pickle.dump(data,f2)
 	except:
-		with open(f2_path,"a+") as f2:
-			f2.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
-	'''
+		with open(f2_path,"wb") as f2:
+			pickle.dump([],f2)
+	print("==================== here here here here here===================================")
+	
 if __name__ == '__main__':
+	'''
 	data1="born, shaken, restore, laugh, tears, surprise, kindness, humiliation, victory, wedding, alien, holiday, christmas, thanksgiving, birthday, injury, pillow, fiance, dawn, traffic, heartbreak, wine, beer, musuem, mountain, river, memory, mud, spider, rain, season, winter, throne, politics, promise, beach, bank, money, limerick"
 	data2="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
 	prompt_list=list(data1.split(", ")+data2.split(", "))
+	'''
+	prompt_list=['surprise', 'humiliation', 'birthday', 'pillow', 'dawn', 'traffic', 'musuem', 'mountain', 'river', 'mud', 'spider', 'rain', 'winter', 'throne', 'beach', 'bank', 'cunning', 'dog', 'blood', 'war', 'world', 'planet', 'fire', 'water', 'violent', 'noble', 'funeral', 'exercise', 'gun', 'music', 'scary', 'creativity', 'evil', 'pride', 'rich', 'leader', 'loss', 'home']
 	slurm_task_id = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 	prompt=prompt_list[slurm_task_id]
 	print(prompt)
