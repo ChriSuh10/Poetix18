@@ -202,7 +202,7 @@ if __name__ == '__main__':
 	f = open("success.txt", "r")
 	temp=[x.rstrip("\n") for x in f]
 	temp_2=[p for p in prompt_list if p not in temp]
-	print(temp_2)
+	print(len(temp_2))
 	'''
 	with open("saved_objects/unified_poems.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
