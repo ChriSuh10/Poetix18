@@ -168,7 +168,7 @@ if __name__ == '__main__':
 	data2="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
 	prompt_list=list(data1.split(", ")+data2.split(", "))
 	'''
-	prompt_list=['surprise', 'humiliation', 'birthday', 'pillow', 'dawn', 'traffic', 'musuem', 'mountain', 'river', 'mud', 'spider', 'rain', 'winter', 'throne', 'beach', 'bank', 'cunning', 'dog', 'blood', 'war', 'world', 'planet', 'fire', 'water', 'violent', 'noble', 'funeral', 'exercise', 'gun', 'music', 'scary', 'creativity', 'evil', 'pride', 'rich', 'leader', 'loss', 'home']
+	prompt_list=['surprise', 'birthday', 'pillow', 'traffic', 'musuem', 'mountain', 'river', 'mud', 'spider', 'winter', 'throne', 'beach', 'dog', 'world', 'planet', 'violent', 'music', 'pride', 'loss', 'home']
 	slurm_task_id = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 	prompt=prompt_list[slurm_task_id]
 	print(prompt)

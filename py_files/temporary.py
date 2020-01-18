@@ -196,12 +196,11 @@ def count(data):
 
 
 if __name__ == '__main__':
-	data1="born, shaken, restore, laugh, tears, surprise, kindness, humiliation, victory, wedding, alien, holiday, christmas, thanksgiving, birthday, injury, pillow, fiance, dawn, traffic, heartbreak, wine, beer, musuem, mountain, river, memory, mud, spider, rain, season, winter, throne, politics, promise, beach, bank, money, limerick"
-	data2="love, cunning, dog, blood, death, war, disease, world, planet, fire, water, sports, love, car, animal, violent, opera, monster, library, market, noble, doctor, funeral, ball, body, smart, exercise, gun, art, music, boxing, forest, philosophy, night, scary, creativity, evil, angry, pride, law, school, light, rich, color, leader, park, airplane, loss, weight, useful, applaud, home, union, child, working, cheat, fall, time, hope, flower, random, impressive"
-	prompt_list=list(data1.split(", ")+data2.split(", "))
-	f = open("success.txt", "r")
-	temp=[x.rstrip("\n") for x in f]
-	temp_2=[p for p in prompt_list if p not in temp]
+	prompt_list=['surprise', 'humiliation', 'birthday', 'pillow', 'dawn', 'traffic', 'musuem', 'mountain', 'river', 'mud', 'spider', 'rain', 'winter', 'throne', 'beach', 'bank', 'cunning', 'dog', 'blood', 'war', 'world', 'planet', 'fire', 'water', 'violent', 'noble', 'funeral', 'exercise', 'gun', 'music', 'scary', 'creativity', 'evil', 'pride', 'rich', 'leader', 'loss', 'home']
+	f = open("success.pickle", "rb")
+	data=pickle.load(f)
+	temp_2=[p for p in prompt_list if p not in data]
+	print(temp_2)
 	print(len(temp_2))
 	'''
 	with open("saved_objects/unified_poems.pickle","rb") as pickle_in:
