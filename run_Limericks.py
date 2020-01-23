@@ -151,18 +151,19 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prom
 		with open(all_result_file_path+".txt","a+") as f_all:
 			printing(previous_data,f, f_final,f_final_best,word_embedding_coefficient, template_to_line, words_to_names_rhyme_dict,f_all,prompt)
 	print("==================== here here here here===================================")
-	with open(f1_path,"a+") as f1:
-		f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
-	try:
-		with open(f2_path,"rb") as f2:
-			data=pickle.load(f2)
-			data.append(prompt)
-		with open(f2_path,"wb") as f2:
-			pickle.dump(data,f2)
-	except:
-		with open(f2_path,"wb") as f2:
-			pickle.dump([],f2)
-	print("==================== here here here here here===================================")
+	if len(previous_data)>0:
+		with open(f1_path,"a+") as f1:
+			f1.write(prompt+str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)+"\n")
+		try:
+			with open(f2_path,"rb") as f2:
+				data=pickle.load(f2)
+				data.append(prompt)
+			with open(f2_path,"wb") as f2:
+				pickle.dump(data,f2)
+		except:
+			with open(f2_path,"wb") as f2:
+				pickle.dump([],f2)
+		print("==================== here here here here here===================================")
 	
 if __name__ == '__main__':
 	data1="born, shaken, restore, laugh, tears, surprise, kindness, humiliation, victory, wedding, alien, holiday, christmas, thanksgiving, birthday, injury, pillow, fiance, dawn, traffic, heartbreak, wine, beer, musuem, mountain, river, memory, mud, spider, rain, season, winter, throne, politics, promise, beach, bank, money, limerick"
