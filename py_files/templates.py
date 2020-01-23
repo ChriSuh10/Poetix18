@@ -851,28 +851,31 @@ def get_new_last_line_templates():
  (['CC', 'DT', 'IN', 'DT', 'NNS', 'VBP', 'NNS'],
   ['and', 'some', 'of', 'the', 'members', 'are', 'swines'])]
 
-def get_new_second_line_templates:
+def get_new_second_line_templates():
     return [
-(['WP', 'VBD', 'IN', 'DT', 'NN', 'IN', 'NNS'], ['who', 'lived', 'on', 'a', 'diet', 'of', 'prunes']),
-(['WP', 'VBD', 'IN', 'DT', 'JJ', 'NN', 'TO', 'VB'], ['who', 'went', 'for', 'a', 'day', 'trip', 'to', 'nowra']),
-(['WP', 'VBD', 'RB', 'IN', 'DT', 'NN'], ['who', 'went', 'everywhere', 'in', 'a', 'go-cart'])]
+    (['WP', 'VBD', 'IN', 'DT', 'NN', 'IN', 'NNS'],
+    ['who', 'lived', 'on', 'a', 'diet', 'of', 'prunes']),
+    (['WP', 'VBD', 'IN', 'DT', 'JJ', 'NN', 'TO', 'NNP'],
+    ['who', 'went', 'for', 'a', 'day', 'trip', 'to', 'nowra']),
+    (['WP', 'VBD', 'RB', 'IN', 'DT', 'NN'],
+    ['who', 'went', 'everywhere', 'in', 'a', 'go-cart'])]
 
-def get_new_third_line_templates:
+def get_new_third_line_templates():
     return [
 (['WHEN', 'PRP', 'VBD', 'TO', 'VB', 'PRP$'], ['when', 'he', 'tried', 'to', 'sell', 'her']),
 (['WHEN', 'PRP', 'VBD'], ['when', 'she', 'embarked']),
 (['DT', 'NN', 'VBZ', 'RB', 'JJ'], ['the', 'bridge', 'is', 'really', 'long']),
 (['TO', 'VB', 'RB', 'CC', 'VB'], ['to', 'swim', 'there', 'and', 'stay']),
-(['CC', 'PRP$', 'NN', 'VBD', 'NN'], ['but', 'his', 'technique', 'was', 'crude']),
+(['CC', 'PRP$', 'NN', 'VBD', 'JJ'], ['but', 'his', 'technique', 'was', 'crude']),
 (['IN', 'PRP', 'VBZ', 'RB', 'JJ'], ['for', 'it', 's', 'clearly', 'absurd']),
 (['RB', 'PRP', 'RB', 'VBP'], ['then', 'they', 'all', 'take']),
-(['AS', 'JJ', 'NNS', 'VBD'], ['as', 'frank', 'daniels', 'said']),
+(['AS', 'NNS', 'VBD'], ['as', 'frank daniels', 'said']),
 (['CC', 'NNS', 'CC', 'NNS'], ['and', 'corns', 'and', 'bunions']),
 (['PRP', 'VBD', 'CC', 'VBD'], ['he', 'guzzled', 'and', 'gobbled']),
-(['WHEN', 'PRP', 'VBD', 'TO', 'VB'], ['when', 'he', 'went', 'to', 'bed']),
+(['WHEN', 'PRP', 'VBD', 'TO', 'NN'], ['when', 'he', 'went', 'to', 'bed']),
 (['PRP', 'VBD', 'IN', 'DT', 'NN'], ['he', 'ran', 'like', 'a', 'flash']),
 (['RB', 'VBG', 'TO', 'VB'], ['only', 'pausing', 'to', 'take']),
-(['JJ', 'NN', 'VBD', 'RB', 'JJ'], ['size', 'six', 'was', 'too', 'small']),
+(['JJ', 'CD', 'VBD', 'RB', 'JJ'], ['size', 'six', 'was', 'too', 'small']),
 (['VB', 'JJ', 'NN'], ['take', 'enough', 'time']),
 (['IN', 'JJ', 'NN', 'RB'], ['at', 'lightning', 'ridge', 'too']),
 (['WRB', 'PRP', 'VBP', 'EX', 'VBZ', 'DT', 'NN'], ['where', 'they', 'say', 'there', 'is', 'no', 'pal']),
@@ -883,17 +886,17 @@ def get_new_third_line_templates:
 (['JJ', 'NN'], ['political', 'correctness']),
 (['JJ', 'NNS', 'VBP', 'DT', 'NN'], ['such', 'words', 'are', 'a', 'waste']),
 (['IN', 'PRP', 'VBP', 'IN', 'CD'], ['for', 'they', 'breakfast', 'at', 'six']),
-(['IN', 'PRP', 'VBP', 'IN', 'DT', 'NN'], ['for', 'they', 'do', 'like', 'a', 'drink']),
+(['IN', 'PRP', 'MD', 'VBP', 'DT', 'NN'], ['for', 'they', 'do', 'like', 'a', 'drink']),
 (['PRP', 'VBD', 'TO', 'VB'], ['he', 'wanted', 'to', 'see']),
 (['CC', 'PRP', 'MD', 'VB', 'TO', 'VB'], ['but', 'he', 'cannot', 'seem', 'to', 'finish']),
 (['WHILE', 'NNS', 'MD', 'NN'], ['while', 'others', 'will', 'state']),
 (['IN', 'NN', 'VBZ', 'DT', 'JJ', 'NN'], ['for', 'garah', 's', 'a', 'long', 'way']),
-(['CC', 'DT', 'NN', 'NN'], ['but', 'the', 'bankruptcy', 'court']),
+(['CC', 'DT', 'JJ', 'NN'], ['but', 'the', 'bankruptcy', 'court']),
 (['RB', 'PRP$', 'NN'], ['notwithstanding', 'his', 'age']),
 (['CC', 'DT', 'NNS', 'VBD', 'NN'], ['and', 'the', 'ladies', 'gave', 'chase']),
 (['PRP', 'VBP', 'VBD', 'DT', 'JJ', 'NN'], ['they', 've', 'got', 'an', 'old', 'bridge'])]
 
-def get_new_fourth_line_templates:
+def get_new_fourth_line_templates():
     return [
 (['DT', 'JJ', 'NN'], ['a', 'yellow', 'rosella']),
 (['DT', 'NN', 'VBD'], ['the', 'conductor', 'remarked']),
@@ -906,9 +909,9 @@ def get_new_fourth_line_templates:
 (['DT', 'NN', 'IN', 'NNS'], ['the', 'size', 'of', 'onions']),
 (['PRP$', 'NN', 'MD', 'VB', 'JJ'], ['my', 'wife', 'may', 'be', 'dead']),
 (['PRP', 'VBP', 'IN', 'DT', 'NN'], ['I', 'm', 'from', 'the', 'city']),
-(['DT', 'NNS', 'MD', 'VBD'], ['the', 'neighbours', 'all', 'said']),
+(['DT', 'NNS', 'RB', 'VBD'], ['the', 'neighbours', 'all', 'said']),
 (['VBD', 'RB', 'JJ', 'IN', 'NN'], ['was', 'not', 'fit', 'for', 'swine']),
-(['IN', 'DT', 'JJ', 'NN', 'NN'], ['for', 'the', 'eos', 'yard', 'dash']),
+# not sure if we should use template with eos (['IN', 'DT', 'JJ', 'NN', 'NN'], ['for', 'the', 'eos', 'yard', 'dash']),
 (['JJ', 'NNS', 'CC', 'NN'], ['pickled', 'onions', 'and', 'cake']),
 (['SO', 'PRP', 'VBD', 'IN', 'DT', 'NN'], ['so', 'he', 'went', 'down', 'the', 'mall']),
 (['TO', 'VB', 'DT', 'JJ', 'NN'], ['to', 'recite', 'this', 'ere', 'rhyme']),
@@ -920,7 +923,7 @@ def get_new_fourth_line_templates:
 (['IN', 'PDT', 'PRP$', 'NN'], ['with', 'all', 'its', 'perfectness']),
 (['PRP', 'VBP', 'DT', 'JJ', 'NN'], ['we', 'need', 'a', 'few', 'more']),
 (['CC', 'WHEN', 'VBG', 'DT', 'NN'], ['but', 'when', 'riding', 'a', 'horse']),
-(['DT', 'JJ', 'NN', 'NN'], ['a', 'fast', 'plaster', 'caster']),
+(['DT', 'JJ', 'JJ', 'NN'], ['a', 'fast', 'plaster', 'caster']),
 (['CC', 'IN', 'RB', 'JJ', 'NN'], ['and', 'in', 'really', 'bad', 'taste']),
 (['CC', 'IN', 'PRP$', 'NN'], ['and', 'with', 'their', 'weetbix']),
 (['IN', 'PRP$', 'NN', 'VBZ', 'RB', 'JJ'], ['cos', 'his', 'paint', 'is', 'too', 'thinnish']),
@@ -928,5 +931,5 @@ def get_new_fourth_line_templates:
 (['PRP', 'VBD', 'DT', 'JJ', 'NN'], ['he', 'told', 'the', 'same', 'joke']),
 (['PRP', 'VBD', 'DT', 'NN'], ['he', 'perused', 'every', 'page']),
 (['IN', 'DT', 'JJ', 'NN', 'NN'], ['with', 'a', 'new', 'indoor', 'toilet']),
-(['IN', 'DT', 'JJ', 'NN', 'VBD', 'NN'], ['cause', 'this', 'young', 'fellow', 's', 'face']),
+(['IN', 'DT', 'JJ', 'NNS', 'NN'], ['cause', 'this', 'young', 'fellow\'s', 'face']),
 (['CC', 'PRP', 'VBP', 'MD', 'VBP', 'DT', 'NN'], ['and', 'you', 'do', 'not', 'need', 'a', 'fridge'])]
