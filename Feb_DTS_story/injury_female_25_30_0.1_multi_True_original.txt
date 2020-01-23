@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ BUT THE NN VBD JJ NN , PRP COULD VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was pained by a tooth 
+ but the wood-duck had good luck , they could duck 
+-------------------------score:  -3.0397299615775837;  adjusted_score: -3.0150966153775944----------------------- 
+there once was a surgeon named aimee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown light , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(light -4.56)(, -3.05)(she -4.06)(could -6.84)(see -2.17)(. -3.69) line score is : -3.448, look ahead score is : 0.000
+-------------------------score:  -3.050249711555593;  adjusted_score: -3.025616365355604----------------------- 
+there once was a surgeon named lea 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown dark , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(dark -4.56)(, -3.05)(she -4.06)(could -5.88)(see -1.98)(. -4.19) line score is : -3.390, look ahead score is : 0.000
+-------------------------score:  -3.0791639773284687;  adjusted_score: -3.0545306311284794----------------------- 
+there once was a surgeon named bea 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the shock was short term , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(shock -1.97)(was -2.62)(short -2.96)(term -6.39)(, -2.32)(she -3.02)(could -5.95)(see -1.97)(. -2.20) line score is : -3.218, look ahead score is : 0.000
+-------------------------score:  -3.0833536404020645;  adjusted_score: -3.0587202942020753----------------------- 
+there once was a surgeon named bibi 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown cold , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(cold -4.56)(, -3.05)(she -4.06)(could -6.19)(see -2.17)(. -3.80) line score is : -3.399, look ahead score is : 0.000
+-------------------------score:  -3.095258542720009;  adjusted_score: -3.07062519652002----------------------- 
+there once was a surgeon named deedee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound was fresh blood , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(was -2.62)(fresh -2.96)(blood -4.56)(, -1.12)(she -6.96)(could -7.46)(see -1.41)(. -3.13) line score is : -3.472, look ahead score is : 0.000
+-------------------------score:  -3.109555537209791;  adjusted_score: -3.084922191009802----------------------- 
+there once was a surgeon named li 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound was clean blood , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(was -2.62)(clean -2.96)(blood -4.56)(, -1.12)(she -5.00)(could -9.17)(see -2.57)(. -2.68) line score is : -3.515, look ahead score is : 0.000
+-------------------------score:  -3.123129278421402;  adjusted_score: -3.0984959322214127----------------------- 
+there once was a surgeon named loree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound was much light , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(was -2.62)(much -2.96)(light -4.56)(, -1.12)(she -6.11)(could -7.07)(see -2.93)(. -3.57) line score is : -3.538, look ahead score is : 0.000
+-------------------------score:  -3.1336354806142697;  adjusted_score: -3.1090021344142804----------------------- 
+there once was a surgeon named andree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown sore , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(sore -4.56)(, -3.05)(she -4.06)(could -6.56)(see -2.18)(. -4.04) line score is : -3.456, look ahead score is : 0.000
+-------------------------score:  -3.1420392236288857;  adjusted_score: -3.1174058774288964----------------------- 
+there once was a surgeon named deedee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown stiff , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(stiff -4.56)(, -3.05)(she -4.06)(could -7.48)(see -2.14)(. -3.91) line score is : -3.523, look ahead score is : 0.000
+-------------------------score:  -3.1485115166972664;  adjusted_score: -3.123878170497277----------------------- 
+there once was a surgeon named marie 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown thick , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(thick -4.56)(, -3.05)(she -4.06)(could -7.51)(see -2.34)(. -4.08) line score is : -3.561, look ahead score is : 0.000
+-------------------------score:  -3.151409212280722;  adjusted_score: -3.1267758660807328----------------------- 
+there once was a surgeon named marie 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown dark , he could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(dark -4.56)(, -3.05)(he -4.06)(could -5.88)(see -1.98)(. -6.71) line score is : -3.619, look ahead score is : 0.000
+-------------------------score:  -3.1616918006364036;  adjusted_score: -3.1370584544364144----------------------- 
+there once was a surgeon named mi 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown fat , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(fat -4.56)(, -3.05)(she -4.06)(could -7.84)(see -2.02)(. -4.09) line score is : -3.562, look ahead score is : 0.000
+-------------------------score:  -3.164093965993208;  adjusted_score: -3.1394606197932187----------------------- 
+there once was a surgeon named mee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown mild , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(mild -4.56)(, -3.05)(she -4.06)(could -8.37)(see -2.58)(. -3.42) line score is : -3.600, look ahead score is : 0.000
+-------------------------score:  -3.1800911409013413;  adjusted_score: -3.155457794701352----------------------- 
+there once was a surgeon named yi 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown cold , he could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(cold -4.56)(, -3.05)(he -4.06)(could -6.19)(see -2.17)(. -6.79) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.1826796303777134;  adjusted_score: -3.158046284177724----------------------- 
+there once was a surgeon named loree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown light , he could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(light -4.56)(, -3.05)(he -4.06)(could -6.84)(see -2.17)(. -6.73) line score is : -3.724, look ahead score is : 0.000
+-------------------------score:  -3.1837123264284695;  adjusted_score: -3.15907898022848----------------------- 
+there once was a surgeon named bea 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the girl was dead right , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(girl -1.97)(was -2.62)(dead -2.96)(right -4.56)(, -1.51)(she -6.22)(could -6.47)(see -6.68)(. -1.65) line score is : -3.696, look ahead score is : 0.000
+-------------------------score:  -3.1882758789202748;  adjusted_score: -3.1636425327202855----------------------- 
+there once was a surgeon named marie 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown scar , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(scar -4.56)(, -3.05)(she -4.06)(could -6.17)(see -5.86)(. -4.10) line score is : -3.760, look ahead score is : 0.000
+-------------------------score:  -3.1927010259207558;  adjusted_score: -3.1680676797207665----------------------- 
+there once was a surgeon named yi 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown dark , they could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(dark -4.56)(, -3.05)(they -4.06)(could -5.88)(see -1.98)(. -8.44) line score is : -3.777, look ahead score is : 0.000
+-------------------------score:  -3.2009088379495285;  adjusted_score: -3.1762754917495393----------------------- 
+there once was a surgeon named aimee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown sore , he could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(sore -4.56)(, -3.05)(he -4.06)(could -6.56)(see -2.18)(. -7.00) line score is : -3.725, look ahead score is : 0.000
+-------------------------score:  -3.215627528288785;  adjusted_score: -3.190994182088796----------------------- 
+there once was a surgeon named bree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the shock was short term , they could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(shock -1.97)(was -2.62)(short -2.96)(term -6.39)(, -2.32)(they -3.02)(could -5.95)(see -1.97)(. -6.81) line score is : -3.637, look ahead score is : 0.000
+-------------------------score:  -3.220895106301588;  adjusted_score: -3.196261760101599----------------------- 
+there once was a surgeon named mi 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the shock was short term , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(shock -1.97)(was -2.62)(short -2.96)(term -6.39)(, -2.32)(i -3.02)(could -5.95)(see -1.97)(. -8.26) line score is : -3.770, look ahead score is : 0.000
+-------------------------score:  -3.3347048461437225;  adjusted_score: -3.3100714999437333----------------------- 
+there once was a surgeon named andree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the shock was short term , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(shock -1.97)(was -2.62)(short -2.96)(term -6.39)(, -2.32)(it -3.02)(could -5.95)(be -1.97)(. -6.33) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.34897175080636;  adjusted_score: -3.3243384046063706----------------------- 
+there once was a surgeon named thi 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the shock was short term , she could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(shock -1.97)(was -2.62)(short -2.96)(term -6.39)(, -2.32)(she -3.02)(could -5.95)(be -1.97)(. -2.20) line score is : -3.218, look ahead score is : 0.000
+-------------------------score:  -3.3641329004484066;  adjusted_score: -3.3394995542484174----------------------- 
+there once was a surgeon named see 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound was fresh blood , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(was -2.62)(fresh -2.96)(blood -4.56)(, -1.12)(it -6.96)(could -7.46)(be -1.41)(. -6.07) line score is : -3.740, look ahead score is : 0.000
+-------------------------score:  -3.378737872137743;  adjusted_score: -3.3541045259377538----------------------- 
+there once was a surgeon named bee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown dark , she could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(dark -4.56)(, -3.05)(she -4.06)(could -5.88)(be -1.98)(. -4.19) line score is : -3.390, look ahead score is : 0.000
+-------------------------score:  -3.3806796231690575;  adjusted_score: -3.356046276969068----------------------- 
+there once was a surgeon named li 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown dark , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(dark -4.56)(, -3.05)(it -4.06)(could -5.88)(be -1.98)(. -6.27) line score is : -3.579, look ahead score is : 0.000
+-------------------------score:  -3.3854704131098354;  adjusted_score: -3.360837066909846----------------------- 
+there once was a surgeon named bree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown cold , she could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(cold -4.56)(, -3.05)(she -4.06)(could -6.19)(be -2.17)(. -3.80) line score is : -3.399, look ahead score is : 0.000
+-------------------------score:  -3.3904377660330605;  adjusted_score: -3.365804419833071----------------------- 
+there once was a surgeon named rosalee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown cold , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(cold -4.56)(, -3.05)(it -4.06)(could -6.19)(be -2.17)(. -6.45) line score is : -3.640, look ahead score is : 0.000
+-------------------------score:  -3.3963750968961155;  adjusted_score: -3.3717417506961262----------------------- 
+there once was a surgeon named andree 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown light , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(light -4.56)(, -3.05)(it -4.06)(could -6.84)(be -2.17)(. -6.66) line score is : -3.718, look ahead score is : 0.000
+-------------------------score:  -3.400190102703431;  adjusted_score: -3.3755567565034417----------------------- 
+there once was a surgeon named bee 
+ who healed a young woman on her knee . 
+ when she returned to pain , 
+ she was struck by a train , 
+ but the wound had grown light , she could be . 
+------------------------- score breakdown ------------------------ 
+(who -2.00)(healed -5.77)(a -3.10)(young -3.93)(woman -2.27)(on -5.23)(her -1.30)(knee -4.95)(. -1.40) line score is : -3.329, look ahead score is : 0.000
+(when -1.40)(she -3.87)(returned -1.33)(to -2.40)(pain -0.89)(, -9.95) line score is : -3.306, look ahead score is : 0.579
+(she -9.95)(was -0.82)(struck -0.63)(by -2.21)(a -5.52)(train -0.88)(, -1.34) line score is : -3.051, look ahead score is : 0.653
+(but -1.34)(the -4.68)(wound -1.97)(had -2.62)(grown -2.96)(light -4.56)(, -3.05)(she -4.06)(could -6.84)(be -2.17)(. -3.69) line score is : -3.448, look ahead score is : 0.000

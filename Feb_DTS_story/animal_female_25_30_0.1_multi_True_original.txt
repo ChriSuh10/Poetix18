@@ -1,0 +1,1672 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD TO VB , 
+ BUT PRP VBD THE JJ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he wanted to see 
+ but they went the wrong way 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.9364855222163664;  adjusted_score: -2.911470399698423----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she fell down and shattered her hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(fell -2.33)(down -1.21)(and -1.25)(shattered -4.70)(her -3.62)(hand -2.92)(. -6.03) line score is : -3.649, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD TO VB , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he wanted to see 
+ but they went the wrong way 
+ so he had to sit down on the floor 
+-------------------------score:  -2.991249450482428;  adjusted_score: -2.9662343279644845----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to go down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(go -0.40)(down -3.56)(on -0.51)(the -3.44)(hand -5.06)(. -3.92) line score is : -3.131, look ahead score is : 0.000
+-------------------------score:  -3.0474096247926354;  adjusted_score: -3.022394502274692----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to go down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(go -0.40)(down -3.56)(on -0.51)(the -3.44)(stand -5.06)(. -3.92) line score is : -3.131, look ahead score is : 0.000
+-------------------------score:  -3.062735394574702;  adjusted_score: -3.037720272056758----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to put down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(put -0.40)(down -3.56)(on -0.51)(the -4.51)(hand -3.43)(. -5.81) line score is : -3.264, look ahead score is : 0.000
+-------------------------score:  -3.090137124992907;  adjusted_score: -3.0651220024749635----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to put down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(put -0.40)(down -3.56)(on -0.51)(the -4.51)(stand -3.43)(. -5.81) line score is : -3.264, look ahead score is : 0.000
+-------------------------score:  -3.112114463932812;  adjusted_score: -3.0870993414148686----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to get down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(get -0.40)(down -3.56)(on -0.51)(the -4.11)(hand -6.30)(. -2.23) line score is : -3.154, look ahead score is : 0.000
+-------------------------score:  -3.1143634663894773;  adjusted_score: -3.0893483438715337----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to bring down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(bring -0.40)(down -3.56)(on -0.51)(the -4.51)(hand -4.53)(. -6.05) line score is : -3.398, look ahead score is : 0.000
+-------------------------score:  -3.11611292604357;  adjusted_score: -3.0910978035256265----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to move down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(move -0.40)(down -3.56)(on -0.51)(the -4.22)(stand -5.41)(. -5.19) line score is : -3.371, look ahead score is : 0.000
+-------------------------score:  -3.121252560056746;  adjusted_score: -3.0962374375388024----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to move down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(move -0.40)(down -3.56)(on -0.51)(the -4.22)(hand -5.41)(. -5.19) line score is : -3.371, look ahead score is : 0.000
+-------------------------score:  -3.131120174191892;  adjusted_score: -3.1061050516739486----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she tried to get down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(tried -2.33)(to -1.31)(get -0.40)(down -3.73)(on -1.10)(the -3.20)(hand -7.23)(. -2.92) line score is : -3.301, look ahead score is : 0.000
+-------------------------score:  -3.137476679868996;  adjusted_score: -3.1124615573510526----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to keep down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(keep -0.40)(down -3.56)(on -0.51)(the -4.37)(hand -7.12)(. -3.34) line score is : -3.373, look ahead score is : 0.000
+-------------------------score:  -3.139381335116923;  adjusted_score: -3.1143662125989793----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to start down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(start -0.40)(down -3.56)(on -0.51)(the -3.85)(hand -7.11)(. -5.09) line score is : -3.495, look ahead score is : 0.000
+-------------------------score:  -3.1448307307437062;  adjusted_score: -3.1198156082257626----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to be down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(be -0.40)(down -3.56)(on -0.51)(the -4.34)(hand -8.93)(. -2.52) line score is : -3.469, look ahead score is : 0.000
+-------------------------score:  -3.1451620580628514;  adjusted_score: -3.120146935544908----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to take down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(take -0.40)(down -3.56)(on -0.51)(the -3.81)(hand -5.12)(. -8.20) line score is : -3.604, look ahead score is : 0.000
+-------------------------score:  -3.1558222668245435;  adjusted_score: -3.1308071443066----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to wait down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(wait -0.40)(down -3.56)(on -0.51)(the -2.89)(hand -8.93)(. -4.15) line score is : -3.487, look ahead score is : 0.000
+-------------------------score:  -3.1559002296999097;  adjusted_score: -3.130885107181966----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to give down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(give -0.40)(down -3.56)(on -0.51)(the -3.47)(hand -8.65)(. -5.34) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.1639891965314746;  adjusted_score: -3.138974074013531----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she went to work down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(went -2.33)(to -1.31)(work -0.40)(down -3.28)(on -1.32)(the -4.14)(hand -8.53)(. -3.22) line score is : -3.532, look ahead score is : 0.000
+-------------------------score:  -3.1644577076658607;  adjusted_score: -3.139442585147917----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she tried to raise down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(tried -2.33)(to -1.31)(raise -0.40)(down -3.73)(on -1.10)(the -2.93)(hand -9.59)(. -3.71) line score is : -3.588, look ahead score is : 0.000
+-------------------------score:  -3.1675912411883473;  adjusted_score: -3.1425761186704038----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to kill down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(kill -0.40)(down -3.56)(on -0.51)(the -3.17)(hand -9.35)(. -4.81) line score is : -3.623, look ahead score is : 0.000
+-------------------------score:  -3.1694638216868043;  adjusted_score: -3.1444486991688607----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to raise down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(raise -0.40)(down -3.56)(on -0.51)(the -3.99)(hand -9.64)(. -3.38) line score is : -3.591, look ahead score is : 0.000
+-------------------------score:  -3.1719137700274587;  adjusted_score: -3.146898647509515----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to stop down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(stop -0.40)(down -3.56)(on -0.51)(the -3.42)(hand -8.39)(. -4.49) line score is : -3.520, look ahead score is : 0.000
+-------------------------score:  -3.1720138574019074;  adjusted_score: -3.146998734883964----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to give down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(give -0.40)(down -3.56)(on -0.51)(the -3.47)(stand -8.65)(. -5.34) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.173166357912123;  adjusted_score: -3.1481512353941796----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to be down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(be -0.40)(down -3.56)(on -0.51)(the -4.34)(stand -8.93)(. -2.52) line score is : -3.469, look ahead score is : 0.000
+-------------------------score:  -3.177670140750706;  adjusted_score: -3.1526550182327626----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to use down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(use -0.40)(down -3.56)(on -0.51)(the -4.57)(hand -9.58)(. -5.36) line score is : -3.841, look ahead score is : 0.000
+-------------------------score:  -3.1854000659659505;  adjusted_score: -3.160384943448007----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to bring down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(bring -0.40)(down -3.56)(on -0.51)(the -4.51)(stand -4.53)(. -6.05) line score is : -3.398, look ahead score is : 0.000
+-------------------------score:  -3.1920159878209233;  adjusted_score: -3.1670008653029798----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to leave down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(leave -0.40)(down -3.56)(on -0.51)(the -3.55)(hand -8.93)(. -4.93) line score is : -3.630, look ahead score is : 0.000
+-------------------------score:  -3.1927343169227242;  adjusted_score: -3.1677191944047807----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to take down on the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(take -0.40)(down -3.56)(on -0.51)(the -3.81)(stand -5.12)(. -8.20) line score is : -3.604, look ahead score is : 0.000
+-------------------------score:  -3.195028414018452;  adjusted_score: -3.1700132915005086----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to do down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(do -0.40)(down -3.56)(on -0.51)(the -4.41)(hand -9.61)(. -5.16) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.195764052681625;  adjusted_score: -3.1707489301636813----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she chose to raise down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(chose -2.33)(to -1.31)(raise -0.40)(down -4.71)(on -1.03)(the -2.84)(hand -9.60)(. -3.16) line score is : -3.617, look ahead score is : 0.000
+-------------------------score:  -3.2063039438799024;  adjusted_score: -3.181288821361959----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to find down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(find -0.40)(down -3.56)(on -0.51)(the -3.82)(hand -9.97)(. -4.58) line score is : -3.727, look ahead score is : 0.000
+-------------------------score:  -3.233101644553244;  adjusted_score: -3.2080865220353005----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she had to send down on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(had -2.33)(to -1.31)(send -0.40)(down -3.56)(on -0.51)(the -4.54)(hand -6.34)(. -7.20) line score is : -3.698, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND A NN VBD PRP UP IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ and a dog ate him up in the hall 
+-------------------------score:  -3.132371322675185;  adjusted_score: -3.1090759869055313----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend brought it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(brought -4.63)(it -2.85)(up -4.32)(in -4.41)(the -1.88)(stand -4.83)(. -3.47) line score is : -3.703, look ahead score is : 0.000
+-------------------------score:  -3.141485367760514;  adjusted_score: -3.1181900319908604----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend took it up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(took -4.63)(it -2.85)(up -4.32)(in -3.93)(the -2.48)(hand -5.55)(. -3.08) line score is : -3.748, look ahead score is : 0.000
+-------------------------score:  -3.171679043408596;  adjusted_score: -3.1483837076389425----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend took it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(took -4.63)(it -2.85)(up -4.32)(in -3.93)(the -2.48)(stand -5.55)(. -3.08) line score is : -3.748, look ahead score is : 0.000
+-------------------------score:  -3.177388193029346;  adjusted_score: -3.1540928572596925----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog left it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(left -4.63)(it -2.85)(up -2.72)(in -5.86)(the -3.74)(stand -6.72)(. -1.75) line score is : -3.891, look ahead score is : 0.000
+-------------------------score:  -3.2130827578631314;  adjusted_score: -3.189787422093478----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog left him up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(left -4.63)(him -2.85)(up -2.72)(in -5.86)(the -4.17)(stand -7.70)(. -1.60) line score is : -4.017, look ahead score is : 0.000
+-------------------------score:  -3.227622850374742;  adjusted_score: -3.2043275146050885----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog killed it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(killed -4.63)(it -2.85)(up -2.72)(in -5.72)(the -4.13)(stand -8.32)(. -2.00) line score is : -4.101, look ahead score is : 0.000
+-------------------------score:  -3.2362338584480863;  adjusted_score: -3.212938522678433----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog killed him up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(killed -4.63)(him -2.85)(up -2.72)(in -5.72)(the -4.19)(stand -8.57)(. -2.12) line score is : -4.143, look ahead score is : 0.000
+-------------------------score:  -3.2378468278682595;  adjusted_score: -3.214551492098606----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend took him up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(took -4.63)(him -2.85)(up -4.32)(in -3.93)(the -4.84)(hand -6.06)(. -2.93) line score is : -4.020, look ahead score is : 0.000
+-------------------------score:  -3.2410477670756253;  adjusted_score: -3.2177524313059718----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a cow killed it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(cow -0.96)(killed -4.63)(it -2.85)(up -4.19)(in -4.60)(the -4.63)(stand -8.01)(. -2.06) line score is : -4.160, look ahead score is : 0.000
+-------------------------score:  -3.241624678626205;  adjusted_score: -3.2183293428565514----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend brought him up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(brought -4.63)(him -2.85)(up -4.32)(in -4.41)(the -4.37)(hand -4.45)(. -3.33) line score is : -3.900, look ahead score is : 0.000
+-------------------------score:  -3.242001376368783;  adjusted_score: -3.2187060405991295----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog left it up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(left -4.63)(it -2.85)(up -2.72)(in -5.86)(the -3.74)(hand -6.72)(. -1.75) line score is : -3.891, look ahead score is : 0.000
+-------------------------score:  -3.2448686090382663;  adjusted_score: -3.221573273268613----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend brought them up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(brought -4.63)(them -2.85)(up -4.32)(in -4.41)(the -4.04)(hand -4.19)(. -2.88) line score is : -3.796, look ahead score is : 0.000
+-------------------------score:  -3.2556197968396274;  adjusted_score: -3.232324461069974----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog left them up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(left -4.63)(them -2.85)(up -2.72)(in -5.86)(the -4.80)(stand -7.87)(. -1.86) line score is : -4.123, look ahead score is : 0.000
+-------------------------score:  -3.2569783781514023;  adjusted_score: -3.233683042381749----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog killed them up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(killed -4.63)(them -2.85)(up -2.72)(in -5.72)(the -5.56)(stand -7.47)(. -2.30) line score is : -4.189, look ahead score is : 0.000
+-------------------------score:  -3.257520753325838;  adjusted_score: -3.2342254175561846----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend took him up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(took -4.63)(him -2.85)(up -4.32)(in -3.93)(the -4.84)(stand -6.06)(. -2.93) line score is : -4.020, look ahead score is : 0.000
+-------------------------score:  -3.2587322123122937;  adjusted_score: -3.2354368765426402----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a cow killed him up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(cow -0.96)(killed -4.63)(him -2.85)(up -4.19)(in -4.60)(the -4.67)(stand -8.30)(. -2.20) line score is : -4.208, look ahead score is : 0.000
+-------------------------score:  -3.2656841576099396;  adjusted_score: -3.242388821840286----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog killed him up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(killed -4.63)(him -2.85)(up -2.72)(in -5.72)(the -4.19)(hand -8.57)(. -2.12) line score is : -4.143, look ahead score is : 0.000
+-------------------------score:  -3.266178972793348;  adjusted_score: -3.2428836370236946----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a cow killed them up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(cow -0.96)(killed -4.63)(them -2.85)(up -4.19)(in -4.60)(the -5.81)(stand -7.18)(. -2.25) line score is : -4.214, look ahead score is : 0.000
+-------------------------score:  -3.267673989137014;  adjusted_score: -3.2443786533673604----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend took them up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(took -4.63)(them -2.85)(up -4.32)(in -3.93)(the -4.53)(stand -5.15)(. -3.88) line score is : -3.992, look ahead score is : 0.000
+-------------------------score:  -3.27139960455172;  adjusted_score: -3.2481042687820665----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend took them up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(took -4.63)(them -2.85)(up -4.32)(in -3.93)(the -4.53)(hand -5.15)(. -3.88) line score is : -3.992, look ahead score is : 0.000
+-------------------------score:  -3.274651937412493;  adjusted_score: -3.2513566016428395----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog killed it up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(killed -4.63)(it -2.85)(up -2.72)(in -5.72)(the -4.13)(hand -8.32)(. -2.00) line score is : -4.101, look ahead score is : 0.000
+-------------------------score:  -3.277827739715576;  adjusted_score: -3.2545324039459227----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a cow killed him up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(cow -0.96)(killed -4.63)(him -2.85)(up -4.19)(in -4.60)(the -4.67)(hand -8.30)(. -2.20) line score is : -4.208, look ahead score is : 0.000
+-------------------------score:  -3.2789051496621333;  adjusted_score: -3.25560981389248----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a cow killed it up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(cow -0.96)(killed -4.63)(it -2.85)(up -4.19)(in -4.60)(the -4.63)(hand -8.01)(. -2.06) line score is : -4.160, look ahead score is : 0.000
+-------------------------score:  -3.2902043732729824;  adjusted_score: -3.266909037503329----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog killed them up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(killed -4.63)(them -2.85)(up -2.72)(in -5.72)(the -5.56)(hand -7.47)(. -2.30) line score is : -4.189, look ahead score is : 0.000
+-------------------------score:  -3.291484783996235;  adjusted_score: -3.2681894482265816----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a cow killed them up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(cow -0.96)(killed -4.63)(them -2.85)(up -4.19)(in -4.60)(the -5.81)(hand -7.18)(. -2.25) line score is : -4.214, look ahead score is : 0.000
+-------------------------score:  -3.293437072725007;  adjusted_score: -3.2701417369553534----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog died it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(died -4.63)(it -2.85)(up -2.72)(in -4.29)(the -8.41)(stand -7.26)(. -1.88) line score is : -4.267, look ahead score is : 0.000
+-------------------------score:  -3.32769203005415;  adjusted_score: -3.3043966942844967----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog had it up in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(had -4.63)(it -2.85)(up -2.72)(in -3.90)(the -8.35)(stand -8.13)(. -2.65) line score is : -4.387, look ahead score is : 0.000
+-------------------------score:  -3.335655723557328;  adjusted_score: -3.3123603877876744----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog had it up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(had -4.63)(it -2.85)(up -2.72)(in -3.90)(the -8.35)(hand -8.13)(. -2.65) line score is : -4.387, look ahead score is : 0.000
+-------------------------score:  -3.339572884819724;  adjusted_score: -3.3162775490500707----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a dog died it up in the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(dog -0.96)(died -4.63)(it -2.85)(up -2.72)(in -4.29)(the -8.41)(hand -7.26)(. -1.88) line score is : -4.267, look ahead score is : 0.000
+-------------------------score:  -3.3519237782015945;  adjusted_score: -3.328628442431941----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and a friend brought it up towards the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(a -7.95)(friend -0.96)(brought -4.63)(it -2.85)(up -4.32)(towards -4.41)(the -1.88)(hand -4.83)(. -8.83) line score is : -4.240, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.153314521536231;  adjusted_score: -3.129420218765736----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she went down and buried her hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(went -4.70)(down -1.62)(and -3.11)(buried -4.44)(her -4.26)(hand -3.38)(. -2.76) line score is : -3.829, look ahead score is : 0.000
+-------------------------score:  -3.196024665609002;  adjusted_score: -3.172130362838507----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she took down and buried his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(took -4.70)(down -1.62)(and -3.11)(buried -3.82)(his -6.07)(hand -4.91)(. -1.29) line score is : -3.968, look ahead score is : 0.000
+-------------------------score:  -3.19903658144176;  adjusted_score: -3.175142278671265----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she went down and buried his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(went -4.70)(down -1.62)(and -3.11)(buried -4.44)(his -4.26)(hand -3.38)(. -2.76) line score is : -3.829, look ahead score is : 0.000
+-------------------------score:  -3.2017384450882673;  adjusted_score: -3.177844142317772----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she took down and buried her hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(took -4.70)(down -1.62)(and -3.11)(buried -3.82)(her -6.07)(hand -4.91)(. -1.29) line score is : -3.968, look ahead score is : 0.000
+-------------------------score:  -3.2231221329420805;  adjusted_score: -3.1992278301715853----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she went down and carried his hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(went -4.70)(down -1.62)(and -3.11)(carried -4.44)(his -4.26)(hand -3.38)(. -4.95) line score is : -4.072, look ahead score is : 0.000
+-------------------------score:  -3.3039979618042707;  adjusted_score: -3.2801036590337755----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she went down and carried her hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(went -4.70)(down -1.62)(and -3.11)(carried -4.44)(her -4.26)(hand -3.38)(. -4.95) line score is : -4.072, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.1680037081241608;  adjusted_score: -3.1441094053536656----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and left with a miserable hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(left -8.44)(with -4.70)(a -1.62)(miserable -4.67)(hand -2.64)(. -2.19) line score is : -3.717, look ahead score is : 0.000
+-------------------------score:  -3.305507435401281;  adjusted_score: -3.2816131326307856----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and left with a miserable stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(left -8.44)(with -4.70)(a -1.62)(miserable -4.67)(stand -2.64)(. -2.19) line score is : -3.717, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ she was ready to give and to take 
+-------------------------score:  -3.2306140798609704;  adjusted_score: -3.206719777090475----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to flee and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(flee -1.14)(and -6.67)(to -0.01)(stand -4.40)(. -2.14) line score is : -3.574, look ahead score is : 0.000
+-------------------------score:  -3.234869125793921;  adjusted_score: -3.2109748230234256----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to flee and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(flee -1.98)(and -5.93)(to -0.01)(stand -4.48)(. -2.10) line score is : -3.519, look ahead score is : 0.000
+-------------------------score:  -3.249957192252623;  adjusted_score: -3.2260628894821277----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to see and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(see -1.98)(and -5.93)(to -0.01)(stand -4.85)(. -4.31) line score is : -3.806, look ahead score is : 0.000
+-------------------------score:  -3.263706913916394;  adjusted_score: -3.239812611145899----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to hide and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(hide -1.14)(and -6.67)(to -0.01)(stand -4.47)(. -3.91) line score is : -3.778, look ahead score is : 0.000
+-------------------------score:  -3.2637111532967538;  adjusted_score: -3.2398168505262586----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to save and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(save -1.14)(and -6.67)(to -0.01)(stand -3.32)(. -6.08) line score is : -3.892, look ahead score is : 0.000
+-------------------------score:  -3.276788111339556;  adjusted_score: -3.252893808569061----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to save and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(save -1.98)(and -5.93)(to -0.01)(stand -3.36)(. -5.97) line score is : -3.823, look ahead score is : 0.000
+-------------------------score:  -3.311169436899945;  adjusted_score: -3.28727513412945----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to sell and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(sell -1.14)(and -6.67)(to -0.01)(stand -3.22)(. -5.04) line score is : -3.765, look ahead score is : 0.000
+-------------------------score:  -3.3204825732391328;  adjusted_score: -3.2965882704686376----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to kill and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(kill -1.14)(and -6.67)(to -0.01)(stand -4.16)(. -4.18) line score is : -3.774, look ahead score is : 0.000
+-------------------------score:  -3.3240451175079215;  adjusted_score: -3.3001508147374263----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to tell and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(tell -1.98)(and -5.93)(to -0.01)(stand -4.81)(. -5.88) line score is : -3.975, look ahead score is : 0.000
+-------------------------score:  -3.329903869656846;  adjusted_score: -3.3060095668863507----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to tell and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(tell -1.14)(and -6.67)(to -0.01)(stand -4.87)(. -6.01) line score is : -4.056, look ahead score is : 0.000
+-------------------------score:  -3.331014438299462;  adjusted_score: -3.307120135528967----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to get and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(get -1.14)(and -6.67)(to -0.01)(stand -3.02)(. -7.43) line score is : -4.008, look ahead score is : 0.000
+-------------------------score:  -3.3315295758948196;  adjusted_score: -3.3076352731243244----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to sell and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(sell -1.98)(and -5.93)(to -0.01)(stand -3.52)(. -5.05) line score is : -3.740, look ahead score is : 0.000
+-------------------------score:  -3.3330216768663377;  adjusted_score: -3.3091273740958425----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to raise and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(raise -1.14)(and -6.67)(to -0.01)(stand -3.85)(. -4.90) line score is : -3.820, look ahead score is : 0.000
+-------------------------score:  -3.3349349010095466;  adjusted_score: -3.3110405982390514----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to kill and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(kill -1.98)(and -5.93)(to -0.01)(stand -4.58)(. -3.80) line score is : -3.718, look ahead score is : 0.000
+-------------------------score:  -3.339664651080966;  adjusted_score: -3.315770348310471----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ she was afraid to leave and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(she -1.75)(was -8.44)(afraid -4.70)(to -3.17)(leave -3.90)(and -3.71)(to -2.05)(stand -2.82)(. -4.47) line score is : -3.888, look ahead score is : 0.000
+-------------------------score:  -3.341106298874365;  adjusted_score: -3.31721199610387----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to get and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(get -1.98)(and -5.93)(to -0.01)(stand -3.03)(. -7.54) line score is : -3.962, look ahead score is : 0.000
+-------------------------score:  -3.3524890947446693;  adjusted_score: -3.328594791974174----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to raise and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(raise -1.98)(and -5.93)(to -0.01)(stand -3.76)(. -4.64) line score is : -3.721, look ahead score is : 0.000
+-------------------------score:  -3.360482810763642;  adjusted_score: -3.336588507993147----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to take and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(take -1.14)(and -6.67)(to -0.01)(stand -4.12)(. -5.89) line score is : -3.960, look ahead score is : 0.000
+-------------------------score:  -3.36314488761127;  adjusted_score: -3.3392505848407747----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ she was afraid to go and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(she -1.75)(was -8.44)(afraid -4.70)(to -3.17)(go -3.90)(and -3.71)(to -2.05)(stand -2.12)(. -4.51) line score is : -3.816, look ahead score is : 0.000
+-------------------------score:  -3.372105177055346;  adjusted_score: -3.3482108742848506----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to take and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(take -1.98)(and -5.93)(to -0.01)(stand -4.24)(. -5.96) line score is : -3.920, look ahead score is : 0.000
+-------------------------score:  -3.383595823077485;  adjusted_score: -3.3597015203069898----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to buy and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(buy -1.14)(and -6.67)(to -0.01)(stand -4.16)(. -4.82) line score is : -3.846, look ahead score is : 0.000
+-------------------------score:  -3.3838410961907357;  adjusted_score: -3.3599467934202405----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to find and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(find -1.14)(and -6.67)(to -0.01)(stand -3.42)(. -4.67) line score is : -3.747, look ahead score is : 0.000
+-------------------------score:  -3.386707282392308;  adjusted_score: -3.362812979621813----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to make and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(make -1.14)(and -6.67)(to -0.01)(stand -4.58)(. -6.84) line score is : -4.116, look ahead score is : 0.000
+-------------------------score:  -3.403392087231623;  adjusted_score: -3.379497784461128----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to find and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(find -1.98)(and -5.93)(to -0.01)(stand -3.45)(. -4.82) line score is : -3.706, look ahead score is : 0.000
+-------------------------score:  -3.4132941174611915;  adjusted_score: -3.3893998146906963----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to buy and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(buy -1.98)(and -5.93)(to -0.01)(stand -4.55)(. -4.73) line score is : -3.819, look ahead score is : 0.000
+-------------------------score:  -3.4232368725643028;  adjusted_score: -3.3993425697938076----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to make and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(make -1.98)(and -5.93)(to -0.01)(stand -4.72)(. -6.58) line score is : -4.043, look ahead score is : 0.000
+-------------------------score:  -3.4328921425621957;  adjusted_score: -3.4089978397917005----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to bring and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(bring -1.14)(and -6.67)(to -0.01)(stand -4.63)(. -6.93) line score is : -4.132, look ahead score is : 0.000
+-------------------------score:  -3.4378735709469765;  adjusted_score: -3.4139792681764813----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ he was able to trace and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(he -1.75)(was -8.44)(able -4.70)(to -2.92)(trace -1.14)(and -6.67)(to -0.01)(stand -4.86)(. -5.26) line score is : -3.971, look ahead score is : 0.000
+-------------------------score:  -3.4396642106876243;  adjusted_score: -3.415769907917129----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to bring and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(bring -1.98)(and -5.93)(to -0.01)(stand -4.54)(. -6.76) line score is : -4.043, look ahead score is : 0.000
+-------------------------score:  -3.4530845093831886;  adjusted_score: -3.4291902066126934----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ she was killed by a bow , 
+ she was able to trace and to stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(she -5.78)(was -1.61)(killed -3.28)(by -2.85)(a -5.13)(bow -1.36)(, -1.84) line score is : -3.122, look ahead score is : 0.616
+(she -1.84)(was -8.53)(able -4.64)(to -2.16)(trace -1.98)(and -5.93)(to -0.01)(stand -4.59)(. -5.23) line score is : -3.879, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD TO VB , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP RB VBD ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he wanted to see 
+ but they went the wrong way 
+ so he carefully spat on the ceiling 
+-------------------------score:  -3.2648543069760003;  adjusted_score: -3.2398391844580567----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ so she instead started on the hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(so -1.10)(she -9.69)(instead -2.33)(started -1.31)(on -0.40)(the -5.94)(hand -3.46)(. -5.03) line score is : -3.657, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD TO VB , 
+ BUT PRP VBD THE JJ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he wanted to see 
+ but they went the wrong way 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3230390207421396;  adjusted_score: -3.298023898224196----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like feeling of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(feeling -4.39)(of -0.24)(hand -3.83)(. -7.96) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.3422261942778864;  adjusted_score: -3.317211071759943----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like waking of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(waking -4.39)(of -0.24)(hand -3.83)(. -7.98) line score is : -3.558, look ahead score is : 0.000
+-------------------------score:  -3.35055744696048;  adjusted_score: -3.3255423244425364----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like picking of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(picking -4.39)(of -0.24)(hand -3.83)(. -8.09) line score is : -3.569, look ahead score is : 0.000
+-------------------------score:  -3.350709954096425;  adjusted_score: -3.3256948315784816----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like sleeping of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(sleeping -4.39)(of -0.24)(hand -3.83)(. -8.09) line score is : -3.569, look ahead score is : 0.000
+-------------------------score:  -3.3583158682430945;  adjusted_score: -3.333300745725151----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like passing of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(passing -4.39)(of -0.24)(hand -3.83)(. -8.54) line score is : -3.620, look ahead score is : 0.000
+-------------------------score:  -3.358615641151705;  adjusted_score: -3.3336005186337614----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like mother of stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(mother -4.39)(of -0.24)(stand -3.83)(. -8.00) line score is : -3.560, look ahead score is : 0.000
+-------------------------score:  -3.363355679377433;  adjusted_score: -3.3383405568594893----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like sucking of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(sucking -4.39)(of -0.24)(hand -3.83)(. -8.55) line score is : -3.620, look ahead score is : 0.000
+-------------------------score:  -3.3869710319465205;  adjusted_score: -3.361955909428577----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like jumping of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(jumping -4.39)(of -0.24)(hand -3.83)(. -8.76) line score is : -3.644, look ahead score is : 0.000
+-------------------------score:  -3.394535876570209;  adjusted_score: -3.3695207540522656----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like suffering of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(suffering -4.39)(of -0.24)(hand -3.83)(. -8.94) line score is : -3.664, look ahead score is : 0.000
+-------------------------score:  -3.401510366028355;  adjusted_score: -3.3764952435104116----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like choosing of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(choosing -4.39)(of -0.24)(hand -3.83)(. -8.94) line score is : -3.664, look ahead score is : 0.000
+-------------------------score:  -3.4044107434249695;  adjusted_score: -3.379395620907026----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like meeting of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(meeting -4.39)(of -0.24)(hand -3.83)(. -8.93) line score is : -3.663, look ahead score is : 0.000
+-------------------------score:  -3.413188131105515;  adjusted_score: -3.3881730085875716----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like mixing of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(mixing -4.39)(of -0.24)(hand -3.83)(. -7.09) line score is : -3.459, look ahead score is : 0.000
+-------------------------score:  -3.4176993567136025;  adjusted_score: -3.392684234195659----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like honey of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(honey -4.39)(of -0.24)(hand -3.83)(. -8.88) line score is : -3.658, look ahead score is : 0.000
+-------------------------score:  -3.4337615779330655;  adjusted_score: -3.408746455415122----------------------- 
+there was a farmer named brande 
+ who found a dead baby on her land . 
+ she decided to breed , 
+ but it was the wrong speed , 
+ and she did not like newborn of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(baby -3.25)(on -2.62)(her -1.79)(land -2.20)(. -1.57) line score is : -2.713, look ahead score is : 0.000
+(she -1.57)(decided -2.04)(to -3.44)(breed -0.15)(, -7.33) line score is : -2.906, look ahead score is : 0.554
+(but -7.33)(it -5.13)(was -2.36)(the -3.02)(wrong -1.22)(speed -4.44)(, -1.10) line score is : -3.515, look ahead score is : 0.696
+(and -1.10)(she -9.69)(did -2.33)(not -1.21)(like -1.25)(newborn -4.39)(of -0.24)(hand -3.83)(. -8.07) line score is : -3.568, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3710962128825486;  adjusted_score: -3.3472019101120534----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like money of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(money -4.16)(of -0.05)(hand -5.88)(. -8.63) line score is : -4.260, look ahead score is : 0.000
+-------------------------score:  -3.3822143715806305;  adjusted_score: -3.3583200688101353----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like water of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(water -4.16)(of -0.05)(hand -5.88)(. -8.24) line score is : -4.217, look ahead score is : 0.000
+-------------------------score:  -3.3945750636048615;  adjusted_score: -3.3706807608343663----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like feeling of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(feeling -4.16)(of -0.05)(hand -5.88)(. -8.22) line score is : -4.214, look ahead score is : 0.000
+-------------------------score:  -3.3952281740494072;  adjusted_score: -3.371333871278912----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like begging of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(begging -4.16)(of -0.05)(hand -5.88)(. -8.64) line score is : -4.262, look ahead score is : 0.000
+-------------------------score:  -3.4067108896560967;  adjusted_score: -3.3828165868856015----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like suffering of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(suffering -4.16)(of -0.05)(hand -5.88)(. -8.46) line score is : -4.242, look ahead score is : 0.000
+-------------------------score:  -3.4158906978555024;  adjusted_score: -3.391996395085007----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like revenge of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(revenge -4.16)(of -0.05)(hand -5.88)(. -9.11) line score is : -4.313, look ahead score is : 0.000
+-------------------------score:  -3.4321673195809126;  adjusted_score: -3.4082730168104174----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and it was not like water of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(it -8.44)(was -4.70)(not -1.62)(like -4.19)(water -0.64)(of -3.61)(hand -6.86)(. -7.24) line score is : -4.339, look ahead score is : 0.000
+-------------------------score:  -3.4587762621231377;  adjusted_score: -3.4348819593526425----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like shooting of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(shooting -4.16)(of -0.05)(hand -5.88)(. -8.67) line score is : -4.264, look ahead score is : 0.000
+-------------------------score:  -3.4902652841992676;  adjusted_score: -3.4663709814287724----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like police of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(police -4.16)(of -0.05)(hand -5.88)(. -8.98) line score is : -4.299, look ahead score is : 0.000
+-------------------------score:  -3.511559956241399;  adjusted_score: -3.487665653470904----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like sleeping of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(sleeping -4.16)(of -0.05)(hand -5.88)(. -9.20) line score is : -4.324, look ahead score is : 0.000
+-------------------------score:  -3.532581624109298;  adjusted_score: -3.508687321338803----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the owner of her cow , 
+ he was killed by a bow , 
+ and she did not like buying of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(owner -2.43)(of -4.57)(her -0.77)(cow -3.60)(, -5.78) line score is : -3.108, look ahead score is : 0.579
+(he -5.78)(was -1.61)(killed -5.03)(by -2.53)(a -3.43)(bow -0.97)(, -1.75) line score is : -3.014, look ahead score is : 0.616
+(and -1.75)(she -8.44)(did -4.70)(not -1.62)(like -3.11)(buying -4.16)(of -0.05)(hand -5.88)(. -9.02) line score is : -4.303, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ VBD RB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ found only a sleeveless tuxedo 
+-------------------------score:  -3.4209839331692664;  adjusted_score: -3.397688597399613----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ was also a particular stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(was -1.73)(also -7.95)(a -0.96)(particular -1.17)(stand -1.62)(. -6.58) line score is : -3.335, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ WHICH PRP VBD IN THE NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ which he loosed in the house 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.425171775277704;  adjusted_score: -3.4018764395080505----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like begging of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(begging -4.94)(of -0.14)(hand -4.57)(. -8.41) line score is : -4.177, look ahead score is : 0.000
+-------------------------score:  -3.4394291690550745;  adjusted_score: -3.416133833285421----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like water of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(water -4.94)(of -0.14)(hand -4.57)(. -8.25) line score is : -4.159, look ahead score is : 0.000
+-------------------------score:  -3.4424597932957113;  adjusted_score: -3.419164457526058----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like parting of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(parting -4.94)(of -0.14)(hand -4.57)(. -9.17) line score is : -4.261, look ahead score is : 0.000
+-------------------------score:  -3.4454258210025728;  adjusted_score: -3.4221304852329193----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like sleeping of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(sleeping -4.94)(of -0.14)(hand -4.57)(. -7.22) line score is : -4.044, look ahead score is : 0.000
+-------------------------score:  -3.449413304682821;  adjusted_score: -3.4261179689131676----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like feeling of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(feeling -4.94)(of -0.14)(hand -4.57)(. -7.68) line score is : -4.096, look ahead score is : 0.000
+-------------------------score:  -3.4650487354956567;  adjusted_score: -3.4417533997260032----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like burning of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(burning -4.94)(of -0.14)(hand -4.57)(. -8.42) line score is : -4.179, look ahead score is : 0.000
+-------------------------score:  -3.495811542030424;  adjusted_score: -3.4725162062607704----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like suffering of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(suffering -4.94)(of -0.14)(hand -4.57)(. -8.65) line score is : -4.204, look ahead score is : 0.000
+-------------------------score:  -3.501141758169979;  adjusted_score: -3.4778464224003254----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like waking of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(waking -4.94)(of -0.14)(hand -4.57)(. -8.55) line score is : -4.192, look ahead score is : 0.000
+-------------------------score:  -3.5095348334871233;  adjusted_score: -3.4862394977174698----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like cleaning of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(cleaning -4.94)(of -0.14)(hand -4.57)(. -7.84) line score is : -4.113, look ahead score is : 0.000
+-------------------------score:  -3.5316969505511224;  adjusted_score: -3.508401614781469----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like picking of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(picking -4.94)(of -0.14)(hand -4.57)(. -8.50) line score is : -4.187, look ahead score is : 0.000
+-------------------------score:  -3.5321277803741395;  adjusted_score: -3.508832444604486----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like litter of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(litter -4.94)(of -0.14)(hand -4.57)(. -8.71) line score is : -4.210, look ahead score is : 0.000
+-------------------------score:  -3.5431656441651285;  adjusted_score: -3.519870308395475----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like jumping of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(jumping -4.94)(of -0.14)(hand -4.57)(. -9.14) line score is : -4.259, look ahead score is : 0.000
+-------------------------score:  -3.547057007905096;  adjusted_score: -3.5237616721354423----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like hiding of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(hiding -4.94)(of -0.14)(hand -4.57)(. -9.30) line score is : -4.276, look ahead score is : 0.000
+-------------------------score:  -3.588846383150667;  adjusted_score: -3.5655510473810135----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like buying of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(buying -4.94)(of -0.14)(hand -4.57)(. -8.15) line score is : -4.148, look ahead score is : 0.000
+-------------------------score:  -3.6108416742645204;  adjusted_score: -3.587546338494867----------------------- 
+there was a farmer named brande 
+ who found a dead body on her land . 
+ the family of her cat , 
+ which she kept in the hat , 
+ and she did not like mixing of hand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(found -5.94)(a -1.68)(dead -4.19)(body -2.81)(on -2.30)(her -2.07)(land -2.00)(. -1.50) line score is : -2.630, look ahead score is : 0.000
+(the -1.50)(family -2.43)(of -3.11)(her -3.85)(cat -3.85)(, -6.12) line score is : -3.475, look ahead score is : 0.575
+(which -6.12)(she -1.52)(kept -3.52)(in -1.84)(the -3.26)(hat -1.81)(, -1.73) line score is : -2.828, look ahead score is : 0.590
+(and -1.73)(she -7.95)(did -0.96)(not -4.63)(like -4.26)(mixing -4.94)(of -0.14)(hand -4.57)(. -9.24) line score is : -4.269, look ahead score is : 0.000

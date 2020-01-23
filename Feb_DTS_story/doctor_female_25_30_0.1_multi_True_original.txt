@@ -1,0 +1,429 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBP VBD AN JJ NN , 
+ PRP$ NN AND PRP$ NN , 
+ BUT THE NN VBD JJ NN , PRP COULD VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they ve got an old bridge 
+ his grief and his rage 
+ but the wood-duck had good luck , they could duck 
+-------------------------score:  -2.991860822719686;  adjusted_score: -2.964825246391051----------------------- 
+there was a surgeon named jolie 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(i -6.44)(could -3.24)(see -2.24)(. -2.36) line score is : -3.205, look ahead score is : 0.000
+-------------------------score:  -3.0122333887745354;  adjusted_score: -2.9851978124459----------------------- 
+there was a surgeon named lea 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long past , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(past -3.56)(, -2.29)(i -6.51)(could -4.24)(see -2.80)(. -2.26) line score is : -3.343, look ahead score is : 0.000
+-------------------------score:  -3.0310122423312245;  adjusted_score: -3.0039766660025893----------------------- 
+there was a surgeon named bree 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , you could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(you -6.44)(could -3.24)(see -2.24)(. -6.07) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -3.0366897635600147;  adjusted_score: -3.0096541872313796----------------------- 
+there was a surgeon named rosemarie 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(i -6.51)(could -4.20)(see -2.32)(. -2.83) line score is : -3.347, look ahead score is : 0.000
+-------------------------score:  -3.0464144156259647;  adjusted_score: -3.0193788392973295----------------------- 
+there was a surgeon named loree 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , you could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(you -6.51)(could -4.20)(see -2.32)(. -6.14) line score is : -3.649, look ahead score is : 0.000
+-------------------------score:  -3.056298296241199;  adjusted_score: -3.029262719912564----------------------- 
+there was a surgeon named bee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , they could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(they -6.44)(could -3.24)(see -2.24)(. -5.13) line score is : -3.456, look ahead score is : 0.000
+-------------------------score:  -3.0679985898382522;  adjusted_score: -3.040963013509617----------------------- 
+there was a surgeon named li 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , he could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(he -6.44)(could -3.24)(see -2.24)(. -5.89) line score is : -3.526, look ahead score is : 0.000
+-------------------------score:  -3.0728554778239308;  adjusted_score: -3.0458199014952956----------------------- 
+there was a surgeon named lea 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(it -6.44)(could -3.24)(be -2.24)(. -2.88) line score is : -3.252, look ahead score is : 0.000
+-------------------------score:  -3.089212640243418;  adjusted_score: -3.062177063914783----------------------- 
+there was a surgeon named andree 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was good news , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(good -3.53)(news -3.56)(, -2.29)(i -6.47)(could -6.42)(see -2.84)(. -2.46) line score is : -3.560, look ahead score is : 0.000
+-------------------------score:  -3.0899088645682617;  adjusted_score: -3.0628732882396266----------------------- 
+there was a surgeon named li 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was real life , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(real -3.53)(life -3.56)(, -2.29)(i -5.52)(could -7.60)(see -3.22)(. -2.87) line score is : -3.653, look ahead score is : 0.000
+-------------------------score:  -3.0959570109844208;  adjusted_score: -3.0689214346557856----------------------- 
+there was a surgeon named yi 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , we could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(we -6.44)(could -3.24)(see -2.24)(. -5.58) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -3.097260641701081;  adjusted_score: -3.070225065372446----------------------- 
+there was a surgeon named geri 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(she -6.44)(could -3.24)(see -2.24)(. -6.18) line score is : -3.552, look ahead score is : 0.000
+-------------------------score:  -3.1013158542268418;  adjusted_score: -3.0742802778982066----------------------- 
+there was a surgeon named mee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long past , she could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(past -3.56)(, -2.29)(she -6.51)(could -4.24)(see -2.80)(. -5.39) line score is : -3.628, look ahead score is : 0.000
+-------------------------score:  -3.1035245288820827;  adjusted_score: -3.0764889525534476----------------------- 
+there was a surgeon named yee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , he could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(he -6.51)(could -4.20)(see -2.32)(. -6.00) line score is : -3.636, look ahead score is : 0.000
+-------------------------score:  -3.1057000423178955;  adjusted_score: -3.0786644659892604----------------------- 
+there was a surgeon named lea 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , they could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(they -6.51)(could -4.20)(see -2.32)(. -5.55) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.107995150720372;  adjusted_score: -3.080959574391737----------------------- 
+there was a surgeon named li 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long past , they could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(past -3.56)(, -2.29)(they -6.51)(could -4.24)(see -2.80)(. -5.46) line score is : -3.634, look ahead score is : 0.000
+-------------------------score:  -3.117041067165487;  adjusted_score: -3.0900054908368517----------------------- 
+there was a surgeon named lea 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the guy was good man , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(guy -1.94)(was -2.07)(good -3.53)(man -4.99)(, -2.91)(i -4.68)(could -6.02)(see -2.13)(. -3.54) line score is : -3.581, look ahead score is : 0.000
+-------------------------score:  -3.1309208852403305;  adjusted_score: -3.1038853089116953----------------------- 
+there was a surgeon named jolie 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(it -6.51)(could -4.20)(be -2.32)(. -3.16) line score is : -3.378, look ahead score is : 0.000
+-------------------------score:  -3.1354627241106594;  adjusted_score: -3.1084271477820242----------------------- 
+there was a surgeon named bibi 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long past , we could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(past -3.56)(, -2.29)(we -6.51)(could -4.24)(see -2.80)(. -5.42) line score is : -3.630, look ahead score is : 0.000
+-------------------------score:  -3.143183510093128;  adjusted_score: -3.1161479337644926----------------------- 
+there was a surgeon named hee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , we could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(we -6.51)(could -4.20)(see -2.32)(. -5.93) line score is : -3.629, look ahead score is : 0.000
+-------------------------score:  -3.1580838087727043;  adjusted_score: -3.131048232444069----------------------- 
+there was a surgeon named bee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was good fun , i could see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(good -3.53)(fun -3.56)(, -2.29)(i -6.47)(could -7.14)(see -2.71)(. -2.59) line score is : -3.626, look ahead score is : 0.000
+-------------------------score:  -3.165717179284376;  adjusted_score: -3.138681602955741----------------------- 
+there was a surgeon named thi 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , i could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(i -6.44)(could -3.24)(be -2.24)(. -2.36) line score is : -3.205, look ahead score is : 0.000
+-------------------------score:  -3.167431030203314;  adjusted_score: -3.140395453874679----------------------- 
+there was a surgeon named yee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was good news , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(good -3.53)(news -3.56)(, -2.29)(it -6.47)(could -6.42)(be -2.84)(. -3.27) line score is : -3.633, look ahead score is : 0.000
+-------------------------score:  -3.169646640034283;  adjusted_score: -3.142611063705648----------------------- 
+there was a surgeon named loree 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the guy was good man , he could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(guy -1.94)(was -2.07)(good -3.53)(man -4.99)(, -2.91)(he -4.68)(could -6.02)(be -2.13)(. -2.67) line score is : -3.502, look ahead score is : 0.000
+-------------------------score:  -3.1728493729058433;  adjusted_score: -3.145813796577208----------------------- 
+there was a surgeon named see 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long past , it could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(past -3.56)(, -2.29)(it -6.51)(could -4.24)(be -2.80)(. -3.99) line score is : -3.500, look ahead score is : 0.000
+-------------------------score:  -3.173453714917688;  adjusted_score: -3.146418138589053----------------------- 
+there was a surgeon named geri 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long past , i could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(past -3.56)(, -2.29)(i -6.51)(could -4.24)(be -2.80)(. -2.26) line score is : -3.343, look ahead score is : 0.000
+-------------------------score:  -3.2207191744271446;  adjusted_score: -3.1936835980985094----------------------- 
+there was a surgeon named deedee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was long term , i could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(long -3.53)(term -3.56)(, -2.29)(i -6.51)(could -4.20)(be -2.32)(. -2.83) line score is : -3.347, look ahead score is : 0.000
+-------------------------score:  -3.2263591131743263;  adjusted_score: -3.199323536845691----------------------- 
+there was a surgeon named jolie 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was good news , i could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(good -3.53)(news -3.56)(, -2.29)(i -6.47)(could -6.42)(be -2.84)(. -2.46) line score is : -3.560, look ahead score is : 0.000
+-------------------------score:  -3.2579483056769654;  adjusted_score: -3.23091272934833----------------------- 
+there was a surgeon named sheree 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , we could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(we -6.44)(could -3.24)(be -2.24)(. -5.58) line score is : -3.497, look ahead score is : 0.000
+-------------------------score:  -3.2636295118752647;  adjusted_score: -3.2365939355466296----------------------- 
+there was a surgeon named rosemarie 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ but the pain was short term , they could be . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(but -1.58)(the -5.99)(pain -1.94)(was -2.07)(short -3.53)(term -3.56)(, -2.29)(they -6.44)(could -3.24)(be -2.24)(. -5.13) line score is : -3.456, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBP VBD AN JJ NN , 
+ PRP$ NN AND PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they ve got an old bridge 
+ his grief and his rage 
+ and now a new teacher they seek 
+-------------------------score:  -3.1130925666901375;  adjusted_score: -3.0860569903615023----------------------- 
+there was a surgeon named jolie 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and even a little boy i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(even -5.99)(a -1.94)(little -1.45)(boy -5.34)(i -3.02)(see -3.90)(. -2.79) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.114461673844245;  adjusted_score: -3.08742609751561----------------------- 
+there was a surgeon named ranee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and even a little girl i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(even -5.99)(a -1.94)(little -1.45)(girl -5.34)(i -3.02)(see -3.90)(. -2.89) line score is : -3.264, look ahead score is : 0.000
+-------------------------score:  -3.1186812212390285;  adjusted_score: -3.0916456449103933----------------------- 
+there was a surgeon named see 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and even a few family i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(even -5.99)(a -1.94)(few -1.45)(family -5.34)(i -3.02)(see -2.66)(. -3.38) line score is : -3.170, look ahead score is : 0.000
+-------------------------score:  -3.133114251398271;  adjusted_score: -3.106078675069636----------------------- 
+there was a surgeon named see 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and also a good person i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(also -5.99)(a -1.94)(good -1.45)(person -5.85)(i -2.01)(see -2.94)(. -4.31) line score is : -3.258, look ahead score is : 0.000
+-------------------------score:  -3.146865527476034;  adjusted_score: -3.119829951147399----------------------- 
+there was a surgeon named mi 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and also a few family i see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(also -5.99)(a -1.94)(few -1.45)(family -5.85)(i -2.01)(see -3.59)(. -3.60) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.22944740902993;  adjusted_score: -3.2024118327012947----------------------- 
+there was a surgeon named mee 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and even a little boy we see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(even -5.99)(a -1.94)(little -1.45)(boy -5.34)(we -3.02)(see -3.90)(. -2.79) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.231672315828262;  adjusted_score: -3.2046367394996267----------------------- 
+there was a surgeon named bree 
+ who did a great service on my knee . 
+ i have lost an old friend , 
+ my wife and my girlfriend , 
+ and even a little girl we see . 
+------------------------- score breakdown ------------------------ 
+(who -1.71)(did -3.20)(a -2.37)(great -3.00)(service -3.94)(on -3.47)(my -1.89)(knee -3.28)(. -1.57) line score is : -2.714, look ahead score is : 0.000
+(i -1.57)(have -1.94)(lost -3.22)(an -5.08)(old -5.02)(friend -3.98)(, -0.62) line score is : -3.060, look ahead score is : 0.681
+(my -0.62)(wife -2.15)(and -2.99)(my -3.09)(girlfriend -1.66)(, -1.58) line score is : -2.014, look ahead score is : 0.671
+(and -1.58)(even -5.99)(a -1.94)(little -1.45)(girl -5.34)(we -3.02)(see -3.90)(. -2.89) line score is : -3.264, look ahead score is : 0.000

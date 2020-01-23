@@ -1,0 +1,946 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ so he had to sit down on the floor 
+-------------------------score:  -2.8904775453336313;  adjusted_score: -2.862458260131605----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to move down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(move -0.89)(down -2.43)(on -0.55)(the -1.84)(band -6.31)(. -5.03) line score is : -3.136, look ahead score is : 0.000
+-------------------------score:  -2.907906807733305;  adjusted_score: -2.8798875225312783----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so they had to move down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(they -5.28)(had -3.65)(to -3.84)(move -3.37)(down -2.41)(on -0.47)(the -0.92)(band -5.97)(. -4.88) line score is : -3.234, look ahead score is : 0.000
+-------------------------score:  -2.907996593099652;  adjusted_score: -2.8799773078976254----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so he had to go down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(he -5.28)(had -3.65)(to -3.84)(go -2.52)(down -2.38)(on -0.82)(the -2.98)(band -4.70)(. -3.76) line score is : -3.148, look ahead score is : 0.000
+-------------------------score:  -2.910575574094599;  adjusted_score: -2.8825562888925726----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to go down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(go -0.89)(down -2.43)(on -0.55)(the -3.60)(band -4.94)(. -3.68) line score is : -3.040, look ahead score is : 0.000
+-------------------------score:  -2.9365063508351645;  adjusted_score: -2.908487065633138----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to look down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(look -0.89)(down -2.43)(on -0.55)(the -4.85)(band -7.61)(. -1.05) line score is : -3.170, look ahead score is : 0.000
+-------------------------score:  -2.9457564281694815;  adjusted_score: -2.917737142967455----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so he had to move down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(he -5.28)(had -3.65)(to -3.84)(move -2.52)(down -2.38)(on -0.82)(the -2.36)(band -6.24)(. -4.91) line score is : -3.355, look ahead score is : 0.000
+-------------------------score:  -2.9467272252747505;  adjusted_score: -2.918707940072724----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so he had to live down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(he -5.28)(had -3.65)(to -3.84)(live -2.52)(down -2.38)(on -0.82)(the -3.03)(band -6.64)(. -3.94) line score is : -3.366, look ahead score is : 0.000
+-------------------------score:  -2.9476312010577232;  adjusted_score: -2.919611915855697----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she went to live down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(went -3.65)(to -3.84)(live -0.89)(down -3.76)(on -0.94)(the -1.31)(band -7.70)(. -4.21) line score is : -3.312, look ahead score is : 0.000
+-------------------------score:  -2.9549617261597603;  adjusted_score: -2.926942440957734----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to live down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(live -0.89)(down -2.43)(on -0.55)(the -3.69)(band -7.52)(. -3.97) line score is : -3.335, look ahead score is : 0.000
+-------------------------score:  -2.9665107158097355;  adjusted_score: -2.938491430607709----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she came to live down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(came -3.65)(to -3.84)(live -0.89)(down -5.34)(on -1.00)(the -1.35)(band -7.24)(. -4.16) line score is : -3.429, look ahead score is : 0.000
+-------------------------score:  -2.9744493861993155;  adjusted_score: -2.946430100997289----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so he went to live down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(he -5.28)(went -3.65)(to -3.84)(live -2.52)(down -3.74)(on -0.90)(the -1.51)(band -7.36)(. -4.01) line score is : -3.436, look ahead score is : 0.000
+-------------------------score:  -2.9845209555192427;  adjusted_score: -2.9565016703172162----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to grow down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(grow -0.89)(down -2.43)(on -0.55)(the -4.01)(band -9.23)(. -2.47) line score is : -3.389, look ahead score is : 0.000
+-------------------------score:  -2.9920449311083015;  adjusted_score: -2.964025645906275----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she went to work down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(went -3.65)(to -3.84)(work -0.89)(down -3.76)(on -0.94)(the -2.43)(band -9.47)(. -3.46) line score is : -3.526, look ahead score is : 0.000
+-------------------------score:  -2.994370648355195;  adjusted_score: -2.9663513631531684----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to get down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(get -0.89)(down -2.43)(on -0.55)(the -4.06)(band -7.31)(. -1.47) line score is : -3.102, look ahead score is : 0.000
+-------------------------score:  -3.0023748260555845;  adjusted_score: -2.974355540853558----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to start down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(start -0.89)(down -2.43)(on -0.55)(the -3.85)(band -7.81)(. -4.06) line score is : -3.389, look ahead score is : 0.000
+-------------------------score:  -3.022829431476015;  adjusted_score: -2.9948101462739887----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so he had to be down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(he -5.28)(had -3.65)(to -3.84)(be -2.52)(down -2.38)(on -0.82)(the -2.93)(band -9.77)(. -2.37) line score is : -3.510, look ahead score is : 0.000
+-------------------------score:  -3.040051310802951;  adjusted_score: -3.0120320256009245----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she tried to get down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(tried -3.65)(to -3.84)(get -0.89)(down -5.05)(on -0.21)(the -2.61)(band -7.97)(. -2.40) line score is : -3.345, look ahead score is : 0.000
+-------------------------score:  -3.0917559500896568;  adjusted_score: -3.0637366648876303----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to flee down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(flee -0.89)(down -2.43)(on -0.55)(the -4.65)(band -8.17)(. -5.64) line score is : -3.664, look ahead score is : 0.000
+-------------------------score:  -3.0987034530350654;  adjusted_score: -3.070684167833039----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she had to take down on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(had -3.65)(to -3.84)(take -0.89)(down -2.43)(on -0.55)(the -3.50)(band -6.53)(. -8.24) line score is : -3.645, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ she was destined to go a long way 
+-------------------------score:  -2.8983660470112227;  adjusted_score: -2.8703467618091962----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ he was able to raise a large band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(he -1.55)(was -5.28)(able -3.65)(to -3.74)(raise -0.96)(a -6.51)(large -0.02)(band -3.06)(. -2.42) line score is : -3.021, look ahead score is : 0.000
+-------------------------score:  -2.9125303396431264;  adjusted_score: -2.8845110544411----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ she was able to raise a large band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(she -1.55)(was -5.28)(able -3.65)(to -2.76)(raise -3.94)(a -4.75)(large -0.01)(band -2.56)(. -2.69) line score is : -3.022, look ahead score is : 0.000
+-------------------------score:  -2.9189826119109057;  adjusted_score: -2.8909633267088792----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ he was able to make a new band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(he -1.55)(was -5.28)(able -3.65)(to -3.74)(make -0.96)(a -6.51)(new -0.02)(band -4.40)(. -1.44) line score is : -3.061, look ahead score is : 0.000
+-------------------------score:  -2.9286948348744772;  adjusted_score: -2.900675549672451----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ he was able to raise a young band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(he -1.55)(was -5.28)(able -3.65)(to -3.74)(raise -0.96)(a -6.51)(young -0.02)(band -3.06)(. -2.42) line score is : -3.021, look ahead score is : 0.000
+-------------------------score:  -2.9439496764389332;  adjusted_score: -2.915930391236907----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ she was able to raise a young band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(she -1.55)(was -5.28)(able -3.65)(to -2.76)(raise -3.94)(a -4.75)(young -0.01)(band -2.56)(. -2.69) line score is : -3.022, look ahead score is : 0.000
+-------------------------score:  -2.9518647783843335;  adjusted_score: -2.923845493182307----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ she was able to raise a new band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(she -1.55)(was -5.28)(able -3.65)(to -2.76)(raise -3.94)(a -4.75)(new -0.01)(band -2.56)(. -2.69) line score is : -3.022, look ahead score is : 0.000
+-------------------------score:  -2.952577440009918;  adjusted_score: -2.9245581548078916----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ he was able to find a new band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(he -1.55)(was -5.28)(able -3.65)(to -3.74)(find -0.96)(a -6.51)(new -0.02)(band -4.05)(. -1.74) line score is : -3.055, look ahead score is : 0.000
+-------------------------score:  -2.96097919283784;  adjusted_score: -2.9329599076358135----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ she was able to find a new band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(she -1.55)(was -5.28)(able -3.65)(to -2.76)(find -3.94)(a -4.75)(new -0.01)(band -3.68)(. -1.63) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -2.989090705232229;  adjusted_score: -2.9610714200302026----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ he was able to build a large band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(he -1.55)(was -5.28)(able -3.65)(to -3.74)(build -0.96)(a -6.51)(large -0.02)(band -4.39)(. -0.76) line score is : -2.984, look ahead score is : 0.000
+-------------------------score:  -3.0894086453481577;  adjusted_score: -3.0613893601461313----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ he was able to make a few band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(he -1.55)(was -5.28)(able -3.65)(to -3.74)(make -0.96)(a -6.51)(few -0.02)(band -4.40)(. -1.44) line score is : -3.061, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and now he 's a college professor 
+-------------------------score:  -3.0139773853363527;  adjusted_score: -2.9859581001343263----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ and now she has a permanent band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(and -1.55)(now -5.28)(she -3.65)(has -1.18)(a -4.57)(permanent -1.03)(band -1.75)(. -2.60) line score is : -2.700, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ WHEN PRP VBD OUT , UH , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ when he started out , hi , I m a spi 
+-------------------------score:  -3.021351569039481;  adjusted_score: -2.9933322838374545----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , they are a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(they -4.26)(are -9.48)(a -0.65)(band -4.31)(. -3.38) line score is : -3.677, look ahead score is : 0.000
+-------------------------score:  -3.03596773147583;  adjusted_score: -3.0079484462738035----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , we are a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(we -4.26)(are -9.48)(a -0.65)(band -5.30)(. -2.54) line score is : -3.690, look ahead score is : 0.000
+-------------------------score:  -3.108907212529864;  adjusted_score: -3.0808879273278373----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , i have a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(i -4.26)(have -9.48)(a -0.65)(band -4.01)(. -3.96) line score is : -3.700, look ahead score is : 0.000
+-------------------------score:  -3.1137778043746946;  adjusted_score: -3.085758519172668----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , we have a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(we -4.26)(have -9.48)(a -0.65)(band -5.30)(. -2.83) line score is : -3.714, look ahead score is : 0.000
+-------------------------score:  -3.182339460509164;  adjusted_score: -3.1543201753071375----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , she heard a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(she -4.26)(heard -9.48)(a -0.65)(band -1.57)(. -6.51) line score is : -3.709, look ahead score is : 0.000
+-------------------------score:  -3.1848860945020405;  adjusted_score: -3.156866809300014----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i heard a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(heard -9.88)(a -0.83)(band -3.11)(. -3.82) line score is : -3.653, look ahead score is : 0.000
+-------------------------score:  -3.1857646737779888;  adjusted_score: -3.1577453885759623----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i have a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(have -9.88)(a -0.83)(band -3.11)(. -3.85) line score is : -3.656, look ahead score is : 0.000
+-------------------------score:  -3.187027168273926;  adjusted_score: -3.1590078830718995----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , i am a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(i -4.26)(am -9.48)(a -0.65)(band -4.01)(. -2.94) line score is : -3.615, look ahead score is : 0.000
+-------------------------score:  -3.19545008795602;  adjusted_score: -3.1674308027539935----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , you see a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(you -4.48)(see -9.88)(a -0.83)(band -4.74)(. -2.64) line score is : -3.690, look ahead score is : 0.000
+-------------------------score:  -3.2021986484527587;  adjusted_score: -3.1741793632507322----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i mean a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(mean -9.88)(a -0.83)(band -3.11)(. -3.09) line score is : -3.592, look ahead score is : 0.000
+-------------------------score:  -3.205163560594831;  adjusted_score: -3.1771442753928048----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i think a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(think -9.88)(a -0.83)(band -3.11)(. -2.19) line score is : -3.517, look ahead score is : 0.000
+-------------------------score:  -3.2247965608324325;  adjusted_score: -3.196777275630406----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , you heard a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(you -4.48)(heard -9.88)(a -0.83)(band -4.74)(. -2.64) line score is : -3.690, look ahead score is : 0.000
+-------------------------score:  -3.2262363229479107;  adjusted_score: -3.1982170377458843----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(know -9.88)(a -0.83)(band -3.11)(. -2.37) line score is : -3.532, look ahead score is : 0.000
+-------------------------score:  -3.2293616005352566;  adjusted_score: -3.20134231533323----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she came out , yes , i mean a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(came -3.65)(out -4.05)(, -1.28)(yes -4.44)(, -2.78)(i -4.33)(mean -9.92)(a -0.85)(band -3.03)(. -3.05) line score is : -3.683, look ahead score is : 0.000
+-------------------------score:  -3.2392524770327977;  adjusted_score: -3.2112331918307713----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she came out , yes , i think a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(came -3.65)(out -4.05)(, -1.28)(yes -4.44)(, -2.78)(i -4.33)(think -9.92)(a -0.85)(band -3.03)(. -2.30) line score is : -3.620, look ahead score is : 0.000
+-------------------------score:  -3.2410042217799595;  adjusted_score: -3.212984936577933----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , i mean a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(i -4.26)(mean -9.48)(a -0.65)(band -4.01)(. -2.79) line score is : -3.603, look ahead score is : 0.000
+-------------------------score:  -3.2419984681265697;  adjusted_score: -3.213979182924543----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , i know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(i -4.26)(know -9.48)(a -0.65)(band -4.01)(. -2.27) line score is : -3.558, look ahead score is : 0.000
+-------------------------score:  -3.250518037591662;  adjusted_score: -3.2224987523896353----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he got out , yes , i mean a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(got -3.65)(out -4.05)(, -1.11)(yes -4.74)(, -2.34)(i -4.95)(mean -9.79)(a -0.98)(band -3.03)(. -2.83) line score is : -3.691, look ahead score is : 0.000
+-------------------------score:  -3.2565998792648316;  adjusted_score: -3.228580594062805----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , you know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(you -4.48)(know -9.88)(a -0.83)(band -4.74)(. -1.28) line score is : -3.577, look ahead score is : 0.000
+-------------------------score:  -3.2566339952605112;  adjusted_score: -3.2286147100584848----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she came out , yes , i know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(came -3.65)(out -4.05)(, -1.28)(yes -4.44)(, -2.78)(i -4.33)(know -9.92)(a -0.85)(band -3.03)(. -2.46) line score is : -3.634, look ahead score is : 0.000
+-------------------------score:  -3.267828498567854;  adjusted_score: -3.2398092133658274----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , we know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(we -4.48)(know -9.88)(a -0.83)(band -4.82)(. -2.31) line score is : -3.669, look ahead score is : 0.000
+-------------------------score:  -3.270133904048375;  adjusted_score: -3.2421146188463483----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , you heard a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(you -4.26)(heard -9.48)(a -0.65)(band -4.89)(. -3.21) line score is : -3.711, look ahead score is : 0.000
+-------------------------score:  -3.274722911630358;  adjusted_score: -3.2467036264283315----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he got out , yes , i think a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(got -3.65)(out -4.05)(, -1.11)(yes -4.74)(, -2.34)(i -4.95)(think -9.79)(a -0.98)(band -3.03)(. -2.13) line score is : -3.633, look ahead score is : 0.000
+-------------------------score:  -3.2761287416730607;  adjusted_score: -3.248109456471034----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , i think a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(i -4.26)(think -9.48)(a -0.65)(band -4.01)(. -2.63) line score is : -3.589, look ahead score is : 0.000
+-------------------------score:  -3.276144356387002;  adjusted_score: -3.2481250711849756----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he got out , yes , i know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(got -3.65)(out -4.05)(, -1.11)(yes -4.74)(, -2.34)(i -4.95)(know -9.79)(a -0.98)(band -3.03)(. -2.26) line score is : -3.644, look ahead score is : 0.000
+-------------------------score:  -3.2773084299904958;  adjusted_score: -3.2492891447884693----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i guess a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(guess -9.88)(a -0.83)(band -3.11)(. -4.51) line score is : -3.710, look ahead score is : 0.000
+-------------------------score:  -3.2799929005759103;  adjusted_score: -3.251973615373884----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when he came out , yes , i am a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(he -5.28)(came -3.65)(out -4.05)(, -1.11)(yes -3.57)(, -2.51)(i -4.48)(am -9.88)(a -0.83)(band -3.11)(. -3.48) line score is : -3.625, look ahead score is : 0.000
+-------------------------score:  -3.2879646846226285;  adjusted_score: -3.259945399420602----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , you know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(you -4.26)(know -9.48)(a -0.65)(band -4.89)(. -1.59) line score is : -3.576, look ahead score is : 0.000
+-------------------------score:  -3.292649589266096;  adjusted_score: -3.2646303040640694----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , we know a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(we -4.26)(know -9.48)(a -0.65)(band -5.30)(. -2.65) line score is : -3.699, look ahead score is : 0.000
+-------------------------score:  -3.3173222950526644;  adjusted_score: -3.289303009850638----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when she found out , yes , i guess a band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(she -5.28)(found -3.65)(out -4.05)(, -1.28)(yes -5.29)(, -0.95)(i -4.26)(guess -9.48)(a -0.65)(band -4.01)(. -3.80) line score is : -3.686, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ WHEN THE JJ NN VBD VBN BY NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ when the wrong tooth was pulled by mistake 
+-------------------------score:  -3.034394696354866;  adjusted_score: -3.0063754111528396----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when the young girl was taken by band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(the -5.28)(young -3.65)(girl -4.05)(was -2.48)(taken -3.41)(by -1.16)(band -0.69)(. -7.10) line score is : -3.263, look ahead score is : 0.000
+-------------------------score:  -3.122072260826826;  adjusted_score: -3.0940529756247996----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when the little boy was born by band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(the -5.28)(little -3.65)(boy -4.05)(was -2.48)(born -5.31)(by -0.83)(band -0.58)(. -4.98) line score is : -3.190, look ahead score is : 0.000
+-------------------------score:  -3.1564555671066046;  adjusted_score: -3.128436281904578----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ when the little girl was born by band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(when -1.55)(the -5.28)(little -3.65)(girl -4.05)(was -2.48)(born -5.31)(by -1.39)(band -0.53)(. -4.81) line score is : -3.228, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.072246954838435;  adjusted_score: -3.0442276696364083----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ and replaced with a different band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(and -1.55)(replaced -5.28)(with -3.65)(a -1.18)(different -8.23)(band -2.00)(. -0.79) line score is : -3.239, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ SO PRP RB VBD ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ so he carefully spat on the ceiling 
+-------------------------score:  -3.1105907482485615;  adjusted_score: -3.082571463046535----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ so she then decided on the band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(so -1.55)(she -5.28)(then -3.65)(decided -3.84)(on -0.89)(the -6.26)(band -3.45)(. -5.02) line score is : -3.741, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY A NN , 
+ BUT THE NN NN VBD PRP NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was pained by a tooth 
+ but the telephone book caused him pain 
+-------------------------score:  -3.260186260746371;  adjusted_score: -3.2321669755443447----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ but the elder daughter had him band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(but -1.55)(the -5.28)(elder -3.65)(daughter -2.43)(had -2.18)(him -5.39)(band -2.36)(. -3.10) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.2790719193796956;  adjusted_score: -3.251052634177669----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ but the elder brother had him band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(but -1.55)(the -5.28)(elder -3.65)(brother -2.43)(had -2.18)(him -5.39)(band -2.93)(. -3.31) line score is : -3.340, look ahead score is : 0.000
+-------------------------score:  -3.303368733775231;  adjusted_score: -3.2753494485732046----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ but the elder woman had him band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(but -1.55)(the -5.28)(elder -3.65)(woman -2.43)(had -2.18)(him -5.39)(band -3.50)(. -2.87) line score is : -3.357, look ahead score is : 0.000
+-------------------------score:  -3.306481457525684;  adjusted_score: -3.2784621723236573----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ but the elder daughter had it band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(but -1.55)(the -5.28)(elder -3.65)(daughter -2.43)(had -2.18)(it -5.39)(band -2.36)(. -3.10) line score is : -3.244, look ahead score is : 0.000
+-------------------------score:  -3.3340586885329215;  adjusted_score: -3.306039403330895----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ but the elder woman had it band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(but -1.55)(the -5.28)(elder -3.65)(woman -2.43)(had -2.18)(it -5.39)(band -3.50)(. -2.87) line score is : -3.357, look ahead score is : 0.000
+-------------------------score:  -3.357054329687549;  adjusted_score: -3.3290350444855226----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by a gun , 
+ but the elder brother had it band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(a -4.54)(gun -1.17)(, -1.55) line score is : -2.405, look ahead score is : 0.690
+(but -1.55)(the -5.28)(elder -3.65)(brother -2.43)(had -2.18)(it -5.39)(band -2.93)(. -3.31) line score is : -3.340, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ BUT THE NN NN VBD PRP NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ but the telephone book caused him pain 
+-------------------------score:  -3.3019885747663436;  adjusted_score: -3.273969289564317----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by his gun , 
+ but the elder daughter had him band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(his -4.54)(gun -1.17)(, -3.32) line score is : -2.658, look ahead score is : 0.690
+(but -3.32)(the -6.51)(elder -2.38)(daughter -2.48)(had -2.12)(him -5.40)(band -2.32)(. -3.10) line score is : -3.453, look ahead score is : 0.000
+-------------------------score:  -3.3174413288793256;  adjusted_score: -3.289422043677299----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by his gun , 
+ but the elder brother had him band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(his -4.54)(gun -1.17)(, -3.32) line score is : -2.658, look ahead score is : 0.690
+(but -3.32)(the -6.51)(elder -2.38)(brother -2.48)(had -2.12)(him -5.40)(band -2.80)(. -3.33) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -3.358052726714842;  adjusted_score: -3.3300334415128154----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by his gun , 
+ but the elder daughter had it band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(his -4.54)(gun -1.17)(, -3.32) line score is : -2.658, look ahead score is : 0.690
+(but -3.32)(the -6.51)(elder -2.38)(daughter -2.48)(had -2.12)(it -5.40)(band -2.32)(. -3.10) line score is : -3.453, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ I did n't think life was this way 
+-------------------------score:  -3.315682099200785;  adjusted_score: -3.2876628139987587----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by his gun , 
+ he did not return home left this band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(his -4.54)(gun -1.17)(, -3.32) line score is : -2.658, look ahead score is : 0.690
+(he -3.32)(did -6.51)(not -2.38)(return -3.63)(home -4.49)(left -0.17)(this -5.35)(band -1.78)(. -9.54) line score is : -4.132, look ahead score is : 0.000
+-------------------------score:  -3.4315878683701158;  adjusted_score: -3.4035685831680893----------------------- 
+there was a brave farmer named brande 
+ who grew a small garden on her land . 
+ the father of her son , 
+ he was killed by his gun , 
+ he did not get justice put this band . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(grew -4.63)(a -3.54)(small -3.90)(garden -2.21)(on -2.61)(her -0.85)(land -2.00)(. -1.14) line score is : -2.503, look ahead score is : 0.000
+(the -1.14)(father -3.13)(of -5.97)(her -1.74)(son -1.37)(, -2.08) line score is : -2.572, look ahead score is : 0.711
+(he -2.08)(was -1.49)(killed -4.17)(by -1.84)(his -4.54)(gun -1.17)(, -3.32) line score is : -2.658, look ahead score is : 0.690
+(he -3.32)(did -6.51)(not -2.38)(get -3.63)(justice -4.49)(put -0.17)(this -3.50)(band -3.35)(. -9.95) line score is : -4.146, look ahead score is : 0.000

@@ -1,0 +1,550 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ she was destined to go a long way 
+-------------------------score:  -2.9081848563073436;  adjusted_score: -2.8829384700773515----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to get a full fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(get -2.14)(a -2.24)(full -0.00)(fleet -1.54)(. -2.76) line score is : -2.309, look ahead score is : 0.000
+-------------------------score:  -2.9214346782682696;  adjusted_score: -2.8961882920382775----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to get a big fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(get -2.14)(a -2.24)(big -0.00)(fleet -1.54)(. -2.76) line score is : -2.309, look ahead score is : 0.000
+-------------------------score:  -2.9353732172749005;  adjusted_score: -2.9101268310449084----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to get a full fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(get -2.76)(a -2.29)(full -0.00)(fleet -1.77)(. -2.52) line score is : -2.325, look ahead score is : 0.000
+-------------------------score:  -3.051980458330945;  adjusted_score: -3.026734072100953----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to get a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(get -2.14)(a -2.24)(few -0.00)(neat -1.54)(. -2.76) line score is : -2.309, look ahead score is : 0.000
+-------------------------score:  -3.0576488044462167;  adjusted_score: -3.0324024182162246----------------------- 
+there was a loud cleaner named marguerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to sell a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(sell -2.76)(a -2.29)(few -0.00)(neat -2.64)(. -3.53) line score is : -2.535, look ahead score is : 0.000
+-------------------------score:  -3.0619759936234914;  adjusted_score: -3.0367296073934993----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to get a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(get -2.76)(a -2.29)(few -0.00)(neat -1.77)(. -2.52) line score is : -2.325, look ahead score is : 0.000
+-------------------------score:  -3.0651923459372483;  adjusted_score: -3.0399459597072562----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to find a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(find -2.76)(a -2.29)(few -0.00)(neat -3.24)(. -1.85) line score is : -2.414, look ahead score is : 0.000
+-------------------------score:  -3.065822657328681;  adjusted_score: -3.040576271098689----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to find a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(find -2.14)(a -2.24)(few -0.00)(neat -3.32)(. -1.78) line score is : -2.397, look ahead score is : 0.000
+-------------------------score:  -3.0702058748720447;  adjusted_score: -3.0449594886420526----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to get a nice neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(get -2.14)(a -2.24)(nice -0.00)(neat -1.54)(. -2.76) line score is : -2.309, look ahead score is : 0.000
+-------------------------score:  -3.0707446785090724;  adjusted_score: -3.0454982922790803----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to sell a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(sell -2.14)(a -2.24)(few -0.00)(neat -2.88)(. -3.57) line score is : -2.548, look ahead score is : 0.000
+-------------------------score:  -3.0821833763620816;  adjusted_score: -3.0569369901320895----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to get a nice neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(get -2.76)(a -2.29)(nice -0.00)(neat -1.77)(. -2.52) line score is : -2.325, look ahead score is : 0.000
+-------------------------score:  -3.083992045780178;  adjusted_score: -3.058745659550186----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to do a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(do -2.76)(a -2.29)(few -0.00)(neat -3.67)(. -3.03) line score is : -2.593, look ahead score is : 0.000
+-------------------------score:  -3.0860796423075953;  adjusted_score: -3.0608332560776033----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to do a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(do -2.14)(a -2.24)(few -0.00)(neat -3.69)(. -2.93) line score is : -2.566, look ahead score is : 0.000
+-------------------------score:  -3.0896323361812392;  adjusted_score: -3.064385949951247----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to find a nice neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(we -3.74)(were -2.10)(able -2.25)(to -4.00)(find -2.14)(a -2.24)(nice -0.00)(neat -3.32)(. -1.78) line score is : -2.397, look ahead score is : 0.000
+-------------------------score:  -3.0905107301077805;  adjusted_score: -3.0652643438777885----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to see a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(see -2.76)(a -2.29)(few -0.00)(neat -3.20)(. -3.76) line score is : -2.623, look ahead score is : 0.000
+-------------------------score:  -3.0910555910668336;  adjusted_score: -3.0658092048368415----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ i was able to find a nice neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(i -3.74)(was -2.10)(able -2.25)(to -3.50)(find -2.76)(a -2.29)(nice -0.00)(neat -3.24)(. -1.85) line score is : -2.414, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.936565693580743;  adjusted_score: -2.9107599505420887----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ she worked on the highway , 
+ but it was the first day , 
+ and we had to go to a big fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(worked -1.27)(on -4.06)(the -3.80)(highway -1.50)(, -7.53) line score is : -3.149, look ahead score is : 0.586
+(but -7.53)(it -2.38)(was -2.53)(the -3.35)(first -0.49)(day -3.38)(, -3.57) line score is : -3.320, look ahead score is : 0.705
+(and -3.57)(we -3.35)(had -3.91)(to -1.10)(go -2.10)(to -1.99)(a -1.48)(big -2.64)(fleet -1.47)(. -3.60) line score is : -2.522, look ahead score is : 0.000
+-------------------------score:  -2.9516277674472695;  adjusted_score: -2.9263813812172774----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and we had to get to a big fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(and -3.74)(we -2.10)(had -2.25)(to -1.45)(get -1.82)(to -2.65)(a -1.95)(big -2.71)(fleet -2.25)(. -3.77) line score is : -2.470, look ahead score is : 0.000
+-------------------------score:  -2.972308151649706;  adjusted_score: -2.947061765419714----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and we had to go to a large fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(and -3.74)(we -2.10)(had -2.25)(to -1.45)(go -1.82)(to -2.65)(a -1.95)(large -2.40)(fleet -2.13)(. -3.13) line score is : -2.363, look ahead score is : 0.000
+-------------------------score:  -2.9834192286838186;  adjusted_score: -2.9576134856451644----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ she worked on the highway , 
+ but it was the first day , 
+ and we had to go to a large fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(worked -1.27)(on -4.06)(the -3.80)(highway -1.50)(, -7.53) line score is : -3.149, look ahead score is : 0.586
+(but -7.53)(it -2.38)(was -2.53)(the -3.35)(first -0.49)(day -3.38)(, -3.57) line score is : -3.320, look ahead score is : 0.705
+(and -3.57)(we -3.35)(had -3.91)(to -1.10)(go -2.10)(to -1.99)(a -1.48)(large -2.64)(fleet -1.47)(. -3.60) line score is : -2.522, look ahead score is : 0.000
+-------------------------score:  -2.9922911127408347;  adjusted_score: -2.9664853697021805----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ she worked on the highway , 
+ but it was the first day , 
+ and she had to get to a big fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(worked -1.27)(on -4.06)(the -3.80)(highway -1.50)(, -7.53) line score is : -3.149, look ahead score is : 0.586
+(but -7.53)(it -2.38)(was -2.53)(the -3.35)(first -0.49)(day -3.38)(, -3.57) line score is : -3.320, look ahead score is : 0.705
+(and -3.57)(she -3.35)(had -3.91)(to -1.10)(get -1.30)(to -2.07)(a -1.40)(big -2.27)(fleet -2.79)(. -4.52) line score is : -2.630, look ahead score is : 0.000
+-------------------------score:  -3.000645910248612;  adjusted_score: -2.974840167209958----------------------- 
+there was a loud cleaner named marguerite 
+ who ran a small shop on our street . 
+ she worked on the highway , 
+ but it was the first day , 
+ and she had to go to a large fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(worked -1.27)(on -4.06)(the -3.80)(highway -1.50)(, -7.53) line score is : -3.149, look ahead score is : 0.586
+(but -7.53)(it -2.38)(was -2.53)(the -3.35)(first -0.49)(day -3.38)(, -3.57) line score is : -3.320, look ahead score is : 0.705
+(and -3.57)(she -3.35)(had -3.91)(to -1.10)(go -1.30)(to -2.07)(a -1.40)(large -2.17)(fleet -1.60)(. -3.81) line score is : -2.428, look ahead score is : 0.000
+-------------------------score:  -3.004487277883472;  adjusted_score: -2.9786815348448177----------------------- 
+there was a loud cleaner named marguerite 
+ who ran a small shop on our street . 
+ she worked on the highway , 
+ but it was the first day , 
+ and she had to drive to a big fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(worked -1.27)(on -4.06)(the -3.80)(highway -1.50)(, -7.53) line score is : -3.149, look ahead score is : 0.586
+(but -7.53)(it -2.38)(was -2.53)(the -3.35)(first -0.49)(day -3.38)(, -3.57) line score is : -3.320, look ahead score is : 0.705
+(and -3.57)(she -3.35)(had -3.91)(to -1.10)(drive -1.30)(to -2.07)(a -1.40)(big -3.76)(fleet -2.41)(. -3.56) line score is : -2.643, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and he did n't like mother of pearl 
+-------------------------score:  -2.9404376705995565;  adjusted_score: -2.9142404116204745----------------------- 
+there was a loud cleaner named marguerite 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and it was almost like kind of neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(it -3.95)(was -0.88)(almost -0.65)(like -6.38)(kind -1.21)(of -4.43)(neat -1.34)(. -9.12) line score is : -3.527, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB NN TO PRP$ NN IN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and give vent to their terror in scremyss 
+-------------------------score:  -3.064065331762487;  adjusted_score: -3.037868072783405----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and say hi to our staff in neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(say -3.95)(hi -0.88)(to -0.65)(our -1.67)(staff -5.70)(in -1.65)(neat -2.38)(. -2.62) line score is : -2.587, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ so he called her his dear dental floss 
+-------------------------score:  -3.077257540076971;  adjusted_score: -3.052011153846979----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ so we bought it our first big fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(so -3.74)(we -2.10)(bought -2.25)(it -1.86)(our -1.25)(first -3.90)(big -0.63)(fleet -9.14)(. -1.82) line score is : -2.967, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ he was told by his wife 
+ and they had to revert to a man cashier 
+-------------------------score:  -3.1308186054229736;  adjusted_score: -3.1055072759091855----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were stopped by our guide , 
+ and we had to go to a white neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(the -0.74)(day -3.90)(of -4.52)(our -3.01)(ride -2.09)(, -6.04) line score is : -3.384, look ahead score is : 0.593
+(we -6.04)(were -1.32)(stopped -1.60)(by -2.13)(our -3.44)(guide -0.66)(, -4.71) line score is : -2.842, look ahead score is : 0.672
+(and -4.71)(we -4.72)(had -1.46)(to -2.72)(go -2.76)(to -2.59)(a -0.68)(white -3.29)(neat -2.09)(. -2.01) line score is : -2.703, look ahead score is : 0.000
+-------------------------score:  -3.1396960561925713;  adjusted_score: -3.114384726678783----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were stopped by our guide , 
+ and we had to go to a few neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(the -0.74)(day -3.90)(of -4.52)(our -3.01)(ride -2.09)(, -6.04) line score is : -3.384, look ahead score is : 0.593
+(we -6.04)(were -1.32)(stopped -1.60)(by -2.13)(our -3.44)(guide -0.66)(, -4.71) line score is : -2.842, look ahead score is : 0.672
+(and -4.71)(we -4.72)(had -1.46)(to -2.72)(go -2.76)(to -2.59)(a -0.68)(few -3.29)(neat -2.09)(. -2.01) line score is : -2.703, look ahead score is : 0.000
+-------------------------score:  -3.1430337862534956;  adjusted_score: -3.1177224567397075----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ the day of our ride , 
+ we were stopped by our guide , 
+ and we had to go to a long neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(the -0.74)(day -3.90)(of -4.52)(our -3.01)(ride -2.09)(, -6.04) line score is : -3.384, look ahead score is : 0.593
+(we -6.04)(were -1.32)(stopped -1.60)(by -2.13)(our -3.44)(guide -0.66)(, -4.71) line score is : -2.842, look ahead score is : 0.672
+(and -4.71)(we -4.72)(had -1.46)(to -2.72)(go -2.76)(to -2.59)(a -0.68)(long -3.29)(neat -2.09)(. -2.01) line score is : -2.703, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and they had to revert to a man cashier 
+-------------------------score:  -3.1400776943739723;  adjusted_score: -3.1138804353948903----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and we had to go to a real neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(we -3.95)(had -0.88)(to -0.65)(go -4.14)(to -4.49)(a -1.46)(real -3.72)(neat -2.37)(. -2.40) line score is : -2.784, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.24800518543149;  adjusted_score: -3.222758799201498----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and we are used to the road with neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(and -3.74)(we -2.10)(are -2.25)(used -1.45)(to -1.82)(the -6.32)(road -4.43)(with -0.00)(neat -2.97)(. -2.95) line score is : -2.804, look ahead score is : 0.000
+-------------------------score:  -3.267268746456301;  adjusted_score: -3.2420223602263087----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and i am used to the road with neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(it -0.74)(was -3.68)(on -0.72)(the -5.05)(highway -1.55)(, -8.31) line score is : -3.339, look ahead score is : 0.571
+(but -8.31)(it -2.33)(was -2.82)(the -2.30)(right -0.64)(way -3.85)(, -3.74) line score is : -3.425, look ahead score is : 0.691
+(and -3.74)(i -2.10)(am -2.25)(used -1.45)(to -1.82)(the -6.07)(road -5.10)(with -0.00)(neat -3.03)(. -2.87) line score is : -2.844, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.2764654485097924;  adjusted_score: -3.2502681895307104----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and we are used to the staff with neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(we -3.95)(are -0.88)(used -0.65)(to -4.14)(the -6.24)(staff -6.09)(with -0.00)(neat -3.82)(. -5.25) line score is : -3.481, look ahead score is : 0.000
+-------------------------score:  -3.28029104366022;  adjusted_score: -3.254093784681138----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and we are sold to the world with neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(we -3.95)(are -0.88)(sold -0.65)(to -4.14)(the -6.24)(world -4.15)(with -3.91)(neat -2.58)(. -4.36) line score is : -3.464, look ahead score is : 0.000
+-------------------------score:  -3.337380568017526;  adjusted_score: -3.311183309038444----------------------- 
+there was a loud cleaner named marquerite 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and we are used to the kind with neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(we -3.95)(are -0.88)(used -0.65)(to -4.14)(the -6.24)(kind -6.09)(with -0.00)(neat -3.82)(. -4.84) line score is : -3.440, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP WOULD VB TO A NN , 
+ VB A NN AT PRP$ NN , 
+ AND VB IN BEFORE ALL THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he would go to a party 
+ take a pull at his hair 
+ and hop in before all the crowd 
+-------------------------score:  -3.288939932361245;  adjusted_score: -3.262742673382163----------------------- 
+there was a loud cleaner named bridgette 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and go outside before all the neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(go -3.95)(outside -0.88)(before -0.65)(all -3.80)(the -5.08)(neat -6.36)(. -7.61) line score is : -4.015, look ahead score is : 0.000
+-------------------------score:  -3.3263758309185505;  adjusted_score: -3.3001785719394685----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at her store , 
+ and go outside before all the neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(her -2.63)(store -1.12)(, -4.23) line score is : -2.906, look ahead score is : 0.714
+(and -4.23)(go -4.99)(outside -0.84)(before -0.63)(all -3.74)(the -4.96)(neat -6.47)(. -7.70) line score is : -4.197, look ahead score is : 0.000
+-------------------------score:  -3.327897297218442;  adjusted_score: -3.30170003823936----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at my store , 
+ and go outside before all the neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(my -2.63)(store -1.12)(, -3.34) line score is : -2.778, look ahead score is : 0.714
+(and -3.34)(go -5.66)(outside -0.85)(before -0.61)(all -3.70)(the -5.21)(neat -6.41)(. -7.73) line score is : -4.189, look ahead score is : 0.000
+-------------------------score:  -3.327972101047635;  adjusted_score: -3.301774842068553----------------------- 
+there was a loud cleaner named marguerite 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and walk outside before all the neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(walk -3.95)(outside -0.88)(before -0.65)(all -4.56)(the -5.25)(neat -5.96)(. -8.04) line score is : -4.134, look ahead score is : 0.000
+-------------------------score:  -3.4395905174314976;  adjusted_score: -3.4133932584524156----------------------- 
+there was a loud cleaner named margarete 
+ who ran a small shop on our street . 
+ she would come to a door , 
+ take a look at our store , 
+ and decide in before all the neat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(ran -5.04)(a -2.01)(small -3.26)(shop -2.87)(on -2.56)(our -5.24)(street -0.67)(. -0.74) line score is : -2.671, look ahead score is : 0.000
+(she -0.74)(would -1.27)(come -3.45)(to -3.28)(a -2.01)(door -5.56)(, -4.44) line score is : -2.962, look ahead score is : 0.596
+(take -4.44)(a -2.43)(look -3.95)(at -1.53)(our -2.63)(store -1.12)(, -3.78) line score is : -2.842, look ahead score is : 0.714
+(and -3.78)(decide -3.95)(in -0.88)(before -0.65)(all -4.28)(the -6.21)(neat -9.42)(. -7.26) line score is : -4.554, look ahead score is : 0.000
