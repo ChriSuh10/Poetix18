@@ -64,10 +64,29 @@ class Limerick_Generate_new(Limerick_Generate):
 		    self.male_names = [lines.split()[0].lower() for lines in hf.readlines()]
 		# punctuations
 		self.punctuation={"second":True,"third":True,"fourth":True,"fifth":True}
+		self.female_name_list, self.male_name_list = pickle.load(open("py_files/saved_objects/name_list.p", "rb"))
 		self.sentence_to_punctuation={"second":".","third":",","fourth":",","fifth":"."}
 		with open(self.filtered_names_rhymes, "rb") as hf:
 			self.names_rhymes_list = pickle.load(hf)
 		# word embedding coefficients
+
+	def different_gender(self,gender):
+		temp=[]
+		for i in self.names_rhymes_list:
+			male=[]
+			female=[]
+			for j in i[0]:
+				if j in self.male_name_list:
+					male.append(j)
+				if j in self.female_name_list:
+					female.append(j)
+			if gender=="male":
+				if len(male)>0:
+					temp.append((male,i[1]))
+			if gender=="female":
+				if len(female)>0:
+					temp.append((female,i[1]))
+		self.names_rhymes_list=temp
 
 	def create_w1s_rhyme_dict(self,prompt):
 		self.sum_rhyme=[]
@@ -237,6 +256,13 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.mode=mode
 		self.relax_story_line=relax_story_line
 		self.story_line=False
+		if self.get_spacy_similarity("Robert", prompt)>=self.get_spacy_similarity("Sarah",prompt):
+			temp_name="Robert"
+			gender="male"
+		else:
+			temp_name="Sarah"
+			gender="female"
+		self.different_gender(gender)
 		self.create_w1s_rhyme_dict(prompt)
 		if not self.story_line:
 			try:
@@ -271,10 +297,6 @@ class Limerick_Generate_new(Limerick_Generate):
 		previous_data.append((tuple(first_line_encodes),(0,),tuple(text)+("\n",), (text[-1],"\n"),("",""),(0,)))
 		'''
 		previous_data=[]
-		if self.get_spacy_similarity("Robert", prompt)>=self.get_spacy_similarity("Sarah",prompt):
-			temp_name="Robert"
-		else:
-			temp_name="Sarah"
 		candidates=self.gen_first_line_new(temp_name.lower(),search_space=5,strict=True,seed=prompt)
 		assert len(candidates)>0, "no first line"
 		text=random.choice(candidates)

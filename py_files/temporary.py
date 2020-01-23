@@ -9,7 +9,7 @@ from Finer_POS import get_finer_pos_words
 import string
 import os
 import random
-from templates import get_new_last_line_templates
+from templates import get_new_last_line_templates, get_new_second_line_templates, get_new_third_line_templates, get_new_fourth_line_templates
 def create_syll_dict(syllables_file):
     with open(syllables_file, encoding='UTF-8') as f:
         lines = [line.rstrip("\n").split() for line in f if (";;;" not in line)]
@@ -196,6 +196,7 @@ def count(data):
 
 
 if __name__ == '__main__':
+	'''
 	prompt_list=['surprise', 'humiliation', 'birthday', 'pillow', 'dawn', 'traffic', 'musuem', 'mountain', 'river', 'mud', 'spider', 'rain', 'winter', 'throne', 'beach', 'bank', 'cunning', 'dog', 'blood', 'war', 'world', 'planet', 'fire', 'water', 'violent', 'noble', 'funeral', 'exercise', 'gun', 'music', 'scary', 'creativity', 'evil', 'pride', 'rich', 'leader', 'loss', 'home']
 	f = open("success.pickle", "rb")
 	data=pickle.load(f)
@@ -203,17 +204,49 @@ if __name__ == '__main__':
 	print(temp_2)
 	print(len(temp_2))
 	'''
+	'''
 	with open("saved_objects/unified_poems.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
 		data1=random.choice(data)
 		print(data1)
 	'''
-	'''
+	
 	with open("saved_objects/templates_processed_tuple.pickle","rb") as pickle_in:
 		data=pickle.load(pickle_in)
-	print(count(data['fifth']))
-	print(count(random_split(data['fifth'])))
-	'''
+	second=get_new_second_line_templates()
+	third=get_new_third_line_templates()
+	fourth=get_new_fourth_line_templates()
+	print(count(data["second"]))
+	print(count(data["third"]))
+	print(count(data["fourth"]))
+	### second
+	for i in second:
+		temp=(tuple(i[0]),tuple(i[1]),(len(i[0]),len(i[0])))
+		if i[0][-1] in data["second"].keys():
+			data["second"][i[0][-1]].append(temp)
+		else:
+			data["second"][i[0][-1]]=[]
+			data["second"][i[0][-1]].append(temp)
+	for i in third:
+		temp=(tuple(i[0]),tuple(i[1]),(len(i[0]),len(i[0])))
+		if i[0][-1] in data["third"].keys():
+			data["third"][i[0][-1]].append(temp)
+		else:
+			data["third"][i[0][-1]]=[]
+			data["third"][i[0][-1]].append(temp)
+	for i in fourth:
+		temp=(tuple(i[0]),tuple(i[1]),(len(i[0]),len(i[0])))
+		if i[0][-1] in data["fourth"].keys():
+			data["fourth"][i[0][-1]].append(temp)
+		else:
+			data["fourth"][i[0][-1]]=[]
+			data["fourth"][i[0][-1]].append(temp)
+
+	with open("saved_objects/templates_processed_tuple.pickle","wb") as pickle_in:
+		pickle.dump(data,pickle_in)
+
+
+	
 
 	'''
 	with open("saved_objects//blood_100_3_0.1_multi_True_original.pickle","rb") as pickle_in:
