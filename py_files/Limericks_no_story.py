@@ -233,7 +233,7 @@ class Limerick_Generate_new(Limerick_Generate):
 			pickle.dump(data_curr,pickle_in)
 		'''
 
-	def gen_poem_andre_new(self, prompt, search_space, retain_space, word_embedding_coefficient=0,stress=True, prob_threshold=-10, mode="multi", relax_story_line=True,diversity=True):
+	def gen_poem_andre_new(self, gender,prompt, search_space, retain_space, word_embedding_coefficient=0,stress=True, prob_threshold=-10, mode="multi", relax_story_line=True,diversity=True):
 		"""
 		Generate poems with multiple templat es given a seed word (prompt) and GPT2
 		search space.
@@ -256,12 +256,10 @@ class Limerick_Generate_new(Limerick_Generate):
 		self.mode=mode
 		self.relax_story_line=relax_story_line
 		self.story_line=False
-		if self.get_spacy_similarity("Robert", prompt)>=self.get_spacy_similarity("Sarah",prompt):
+		if gender=="male":
 			temp_name="Robert"
-			gender="male"
-		else:
+		if gender=="female":
 			temp_name="Sarah"
-			gender="female"
 		self.different_gender(gender)
 		self.create_w1s_rhyme_dict(prompt)
 		if not self.story_line:

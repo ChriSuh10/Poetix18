@@ -18,6 +18,7 @@ def init_parser():
     parser.add_argument("--word_embedding_coefficient",'-w', default=0.1,type=float,dest='word_embedding_coefficient')
     parser.add_argument("--mode",'-m', default='multi',type=str,dest='mode')
     parser.add_argument("--diversity",'-div', default=True,type=bool,dest='diversity')
+    parser.add_argument("--gender",'-g',default="female",type=str,dest='gender')
     return parser.parse_args()
 
 def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict,f_all,prompt):
@@ -112,6 +113,7 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 		pickle.dump(data_curr_best,pickle_in)
 def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prompt="blood",args=None):
 	type=args.type
+	gender=args.gender
 	saved_directory=args.saved_directory
 	search_space=args.search_space
 	retain_space=args.retain_space
@@ -135,9 +137,9 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prom
 		os.mkdir(saved_directory)
 		print("==================== here ===================================")
 		print(saved_directory)
-	result_file_path = saved_directory +"/"+ prompt+"_" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
+	result_file_path = saved_directory +"/"+ prompt+"_" + gender + '_' +str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
 	all_result_file_path=saved_directory +"/" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)+"_"+str(mode)+"_"+str(diversity)+"_"+str(type)
-	previous_data, template_to_line,words_to_names_rhyme_dict=lg.gen_poem_andre_new(prompt=prompt,search_space=search_space, retain_space=retain_space, 
+	previous_data, template_to_line,words_to_names_rhyme_dict=lg.gen_poem_andre_new(gender=gender,prompt=prompt,search_space=search_space, retain_space=retain_space, 
 		word_embedding_coefficient=word_embedding_coefficient, mode=mode, diversity=diversity)
 	print("==================== here here===================================")
 	with open(result_file_path+".pickle","wb") as f3:
