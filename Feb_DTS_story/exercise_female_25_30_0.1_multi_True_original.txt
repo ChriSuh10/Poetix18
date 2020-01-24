@@ -2,164 +2,802 @@
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
  WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- BUT PRP VBD PRP VBD VBG PRP JJ . 
+ PRP VBD VBN BY PRP$ NN , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
  when he went to bed 
- he was pained by a tooth 
- but they felt it was doing them good 
--------------------------score:  -3.085146013647318;  adjusted_score: -3.0609601370245216----------------------- 
-there was a doctor named li 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was doing it free . 
+ he was told by his wife 
+ so he called her his dear dental floss 
+-------------------------score:  -3.0192399388179183;  adjusted_score: -2.9947491781041027----------------------- 
+there was a wise doctor named renee 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own free day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(doing -3.88)(it -0.84)(free -1.46)(. -5.02) line score is : -3.110, look ahead score is : 0.000
--------------------------score:  -3.192468047142029;  adjusted_score: -3.1682821705192326----------------------- 
-there was a doctor named bree 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was doing them free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(free -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.106982874684036;  adjusted_score: -3.08249211397022----------------------- 
+there was a wise doctor named kaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own spare day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(doing -3.88)(them -0.84)(free -1.46)(. -5.02) line score is : -3.110, look ahead score is : 0.000
--------------------------score:  -3.199746210128069;  adjusted_score: -3.1755603335052727----------------------- 
-there was a doctor named bree 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was leaving him free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(spare -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.1112500494346023;  adjusted_score: -3.0867592887207866----------------------- 
+there was a wise doctor named maye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own new day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(leaving -3.88)(him -0.84)(free -1.46)(. -5.46) line score is : -3.159, look ahead score is : 0.000
--------------------------score:  -3.2149458415806293;  adjusted_score: -3.190759964957833----------------------- 
-there was a doctor named yee 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was leaving them free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(new -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.1205004630610347;  adjusted_score: -3.096009702347219----------------------- 
+there was a wise doctor named renee 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own light day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(leaving -3.88)(them -0.84)(free -1.46)(. -5.46) line score is : -3.159, look ahead score is : 0.000
--------------------------score:  -3.2328251376748085;  adjusted_score: -3.2086392610520122----------------------- 
-there was a doctor named sheree 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was leaving it free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(light -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.126617726869881;  adjusted_score: -3.1021269661560655----------------------- 
+there was a wise doctor named kay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own nap day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(leaving -3.88)(it -0.84)(free -1.46)(. -5.46) line score is : -3.159, look ahead score is : 0.000
--------------------------score:  -3.2825428918004036;  adjusted_score: -3.2583570151776073----------------------- 
-there was a doctor named bree 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was trying it free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(nap -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.1303542433306575;  adjusted_score: -3.105863482616842----------------------- 
+there was a wise doctor named kay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own small day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(trying -3.88)(it -0.84)(free -1.46)(. -4.65) line score is : -3.069, look ahead score is : 0.000
--------------------------score:  -3.3087422773241997;  adjusted_score: -3.2845564007014034----------------------- 
-there was a doctor named bea 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but she knew he was lying it free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(small -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.1472006207332015;  adjusted_score: -3.122709860019386----------------------- 
+there was a wise doctor named kaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own warm day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(she -3.61)(knew -3.74)(he -5.90)(was -2.21)(lying -3.78)(it -1.53)(free -0.75)(. -4.33) line score is : -3.004, look ahead score is : 0.000
--------------------------score:  -3.309045407921076;  adjusted_score: -3.2848595312982796----------------------- 
-there was a doctor named aimee 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was having him free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(warm -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.147615506313741;  adjusted_score: -3.1231247455999256----------------------- 
+there was a wise doctor named rae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own kind day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(having -3.88)(him -0.84)(free -1.46)(. -5.19) line score is : -3.130, look ahead score is : 0.000
--------------------------score:  -3.3254598416388035;  adjusted_score: -3.3012739650160072----------------------- 
-there was a doctor named rosemarie 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but she knew he was wearing it free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(kind -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.1567678106948733;  adjusted_score: -3.1322770499810577----------------------- 
+there was a wise doctor named monet 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she offered him her own pet day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(she -3.61)(knew -3.74)(he -5.90)(was -2.21)(wearing -3.78)(it -1.53)(free -0.75)(. -5.71) line score is : -3.158, look ahead score is : 0.000
--------------------------score:  -3.3413344509899616;  adjusted_score: -3.3171485743671654----------------------- 
-there was a doctor named sheree 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but she knew he was wearing them free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(offered -1.69)(him -5.14)(her -0.59)(own -3.64)(pet -1.62)(day -1.64)(. -3.60) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.186374335549772;  adjusted_score: -3.161883574835956----------------------- 
+there was a wise doctor named gaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she gave him her favorite pet day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(she -3.61)(knew -3.74)(he -5.90)(was -2.21)(wearing -3.78)(them -1.53)(free -0.75)(. -5.71) line score is : -3.158, look ahead score is : 0.000
--------------------------score:  -3.370856713503599;  adjusted_score: -3.346670836880803----------------------- 
-there was a doctor named rosemarie 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was helping them free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(gave -1.69)(him -5.14)(her -0.59)(favorite -3.70)(pet -1.18)(day -1.69)(. -5.48) line score is : -3.134, look ahead score is : 0.000
+-------------------------score:  -3.2326090773567557;  adjusted_score: -3.20811831664294----------------------- 
+there was a wise doctor named shea 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she gave him her own present day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(helping -3.88)(them -0.84)(free -1.46)(. -5.57) line score is : -3.171, look ahead score is : 0.000
--------------------------score:  -3.396214496344328;  adjusted_score: -3.3720286197215317----------------------- 
-there was a doctor named ranee 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was helping him free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(gave -1.69)(him -5.14)(her -0.59)(own -3.70)(present -1.18)(day -1.69)(. -4.04) line score is : -2.974, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was told by his wife 
+ so he had to sit down on the floor 
+-------------------------score:  -3.073454487504381;  adjusted_score: -3.0489637267905656----------------------- 
+there was a wise doctor named gay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to look down on the day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(helping -3.88)(him -0.84)(free -1.46)(. -5.57) line score is : -3.171, look ahead score is : 0.000
--------------------------score:  -3.40916932746768;  adjusted_score: -3.3849834508448837----------------------- 
-there was a doctor named loree 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was helping me free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(look -0.59)(down -3.75)(on -1.04)(the -4.32)(day -7.87)(. -1.82) line score is : -3.495, look ahead score is : 0.000
+-------------------------score:  -3.075983872016271;  adjusted_score: -3.0514931113024555----------------------- 
+there was a wise doctor named maye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she asked to sit down on the day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(helping -3.88)(me -0.84)(free -1.46)(. -5.57) line score is : -3.171, look ahead score is : 0.000
--------------------------score:  -3.5716105364263058;  adjusted_score: -3.5474246598035095----------------------- 
-there was a doctor named rosalee 
- who needed a new hip on her knee . 
- when she arrived to plan , 
- she was met by a man , 
- but he said he was doing he free . 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(asked -1.69)(to -5.14)(sit -0.59)(down -2.80)(on -3.65)(the -3.26)(day -2.25)(. -3.19) line score is : -3.131, look ahead score is : 0.000
+-------------------------score:  -3.0858722591038905;  adjusted_score: -3.061381498390075----------------------- 
+there was a wise doctor named kaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to sit down on the day . 
 ------------------------- score breakdown ------------------------ 
-(who -1.60)(needed -6.81)(a -2.04)(new -3.78)(hip -3.75)(on -5.29)(her -1.22)(knee -2.82)(. -1.39) line score is : -3.189, look ahead score is : 0.000
-(when -1.39)(she -3.97)(arrived -0.88)(to -3.20)(plan -3.22)(, -9.76) line score is : -3.738, look ahead score is : 0.572
-(she -9.76)(was -3.23)(met -0.76)(by -1.50)(a -2.37)(man -0.83)(, -1.20) line score is : -2.808, look ahead score is : 0.637
-(but -1.20)(he -3.61)(said -3.74)(he -5.90)(was -2.35)(doing -3.88)(he -0.84)(free -1.46)(. -5.02) line score is : -3.110, look ahead score is : 0.000
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(sit -0.59)(down -3.75)(on -1.04)(the -4.43)(day -2.45)(. -3.35) line score is : -3.118, look ahead score is : 0.000
+-------------------------score:  -3.1529282719799965;  adjusted_score: -3.128437511266181----------------------- 
+there was a wise doctor named fe 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to sleep down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(sleep -0.59)(down -3.75)(on -1.04)(the -4.06)(day -7.89)(. -2.36) line score is : -3.526, look ahead score is : 0.000
+-------------------------score:  -3.1566681094241864;  adjusted_score: -3.132177348710371----------------------- 
+there was a wise doctor named gaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she came to stay down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(came -1.69)(to -5.14)(stay -0.59)(down -4.66)(on -1.06)(the -3.92)(day -9.10)(. -3.44) line score is : -3.833, look ahead score is : 0.000
+-------------------------score:  -3.164168602589405;  adjusted_score: -3.1396778418755895----------------------- 
+there was a wise doctor named raye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to call down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(call -0.59)(down -3.75)(on -1.04)(the -5.00)(day -5.70)(. -3.00) line score is : -3.465, look ahead score is : 0.000
+-------------------------score:  -3.1874134278658666;  adjusted_score: -3.162922667152051----------------------- 
+there was a wise doctor named shea 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to talk down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(talk -0.59)(down -3.75)(on -1.04)(the -4.35)(day -9.90)(. -3.90) line score is : -3.911, look ahead score is : 0.000
+-------------------------score:  -3.204552707347003;  adjusted_score: -3.180061946633187----------------------- 
+there was a wise doctor named kay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to ask down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(ask -0.59)(down -3.75)(on -1.04)(the -3.53)(day -9.62)(. -2.60) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.2096443203362552;  adjusted_score: -3.1851535596224396----------------------- 
+there was a wise doctor named may 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to help down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(help -0.59)(down -3.75)(on -1.04)(the -4.49)(day -9.35)(. -3.96) line score is : -3.875, look ahead score is : 0.000
+-------------------------score:  -3.2124635992628154;  adjusted_score: -3.187972838549----------------------- 
+there was a wise doctor named wei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she asked to meet down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(asked -1.69)(to -5.14)(meet -0.59)(down -2.80)(on -3.65)(the -3.36)(day -9.06)(. -3.34) line score is : -3.838, look ahead score is : 0.000
+-------------------------score:  -3.254611137238416;  adjusted_score: -3.2301203765246003----------------------- 
+there was a wise doctor named may 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to fetch down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(fetch -0.59)(down -3.75)(on -1.04)(the -4.04)(day -8.86)(. -6.00) line score is : -3.985, look ahead score is : 0.000
+-------------------------score:  -3.254942275357969;  adjusted_score: -3.2304515146441535----------------------- 
+there was a wise doctor named rae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to find down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(find -0.59)(down -3.75)(on -1.04)(the -4.91)(day -9.97)(. -2.55) line score is : -3.837, look ahead score is : 0.000
+-------------------------score:  -3.2784860414085966;  adjusted_score: -3.253995280694781----------------------- 
+there was a wise doctor named kaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to take down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(take -0.59)(down -3.75)(on -1.04)(the -4.79)(day -7.14)(. -8.18) line score is : -4.105, look ahead score is : 0.000
+-------------------------score:  -3.361777539506103;  adjusted_score: -3.3372867787922873----------------------- 
+there was a wise doctor named jaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ so she went to seek down on the day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(so -2.11)(she -6.63)(went -1.69)(to -5.14)(seek -0.59)(down -3.75)(on -1.04)(the -4.78)(day -9.20)(. -8.07) line score is : -4.300, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ THAT THE NN PRP VBD VBD A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was told by his wife 
+ that the dahlia she wore was a failure 
+-------------------------score:  -3.1304146060720086;  adjusted_score: -3.104861756451428----------------------- 
+there was a wise doctor named pei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she had met a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(had -1.99)(met -4.43)(a -2.59)(day -0.80)(. -2.59) line score is : -3.052, look ahead score is : 0.000
+-------------------------score:  -3.1441196454688907;  adjusted_score: -3.11856679584831----------------------- 
+there was a wise doctor named wei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the child she had carried a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(child -1.92)(she -3.09)(had -1.99)(carried -5.24)(a -2.80)(day -0.59)(. -3.33) line score is : -3.225, look ahead score is : 0.000
+-------------------------score:  -3.1449161367490888;  adjusted_score: -3.119363287128508----------------------- 
+there was a wise doctor named jaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the person she had met a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(person -1.92)(she -3.09)(had -1.99)(met -5.79)(a -1.34)(day -1.03)(. -2.48) line score is : -3.078, look ahead score is : 0.000
+-------------------------score:  -3.1465225303545594;  adjusted_score: -3.1209696807339786----------------------- 
+there was a wise doctor named mae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the person she met was a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(person -1.92)(she -3.09)(met -1.99)(was -5.79)(a -1.34)(day -3.28)(. -1.23) line score is : -3.189, look ahead score is : 0.000
+-------------------------score:  -3.157318294979632;  adjusted_score: -3.131765445359051----------------------- 
+there was a wise doctor named raye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she met was a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(met -1.99)(was -4.43)(a -2.59)(day -3.30)(. -1.51) line score is : -3.210, look ahead score is : 0.000
+-------------------------score:  -3.1579819032922387;  adjusted_score: -3.132429053671658----------------------- 
+there was a wise doctor named mae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the person she saw was a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(person -1.92)(she -3.09)(saw -1.99)(was -5.79)(a -1.34)(day -3.29)(. -1.16) line score is : -3.183, look ahead score is : 0.000
+-------------------------score:  -3.1682161847129464;  adjusted_score: -3.1426633350923656----------------------- 
+there was a wise doctor named kaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she had saved a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(had -1.99)(saved -4.43)(a -2.59)(day -0.80)(. -4.21) line score is : -3.233, look ahead score is : 0.000
+-------------------------score:  -3.1699599074199796;  adjusted_score: -3.1444070577993988----------------------- 
+there was a wise doctor named kaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she loved had a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(loved -1.99)(had -4.43)(a -2.59)(day -2.94)(. -1.72) line score is : -3.193, look ahead score is : 0.000
+-------------------------score:  -3.170731163583696;  adjusted_score: -3.145178313963115----------------------- 
+there was a wise doctor named fe 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the lady she had met a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(lady -1.92)(she -3.09)(had -1.99)(met -5.47)(a -3.25)(day -0.72)(. -2.25) line score is : -3.196, look ahead score is : 0.000
+-------------------------score:  -3.1710723461583257;  adjusted_score: -3.145519496537745----------------------- 
+there was a wise doctor named renee 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she saw was a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(saw -1.99)(was -4.43)(a -2.59)(day -3.05)(. -1.55) line score is : -3.187, look ahead score is : 0.000
+-------------------------score:  -3.175442078150809;  adjusted_score: -3.149889228530228----------------------- 
+there was a wise doctor named rae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she had loved a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(had -1.99)(loved -4.43)(a -2.59)(day -0.80)(. -3.50) line score is : -3.153, look ahead score is : 0.000
+-------------------------score:  -3.180736646987498;  adjusted_score: -3.155183797366917----------------------- 
+there was a wise doctor named fay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she had killed a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(had -1.99)(killed -4.43)(a -2.59)(day -0.80)(. -3.92) line score is : -3.200, look ahead score is : 0.000
+-------------------------score:  -3.18874076474458;  adjusted_score: -3.163187915123999----------------------- 
+there was a wise doctor named shay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she loved was a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(loved -1.99)(was -4.43)(a -2.59)(day -2.94)(. -1.36) line score is : -3.154, look ahead score is : 0.000
+-------------------------score:  -3.2259234422817826;  adjusted_score: -3.200370592661202----------------------- 
+there was a wise doctor named faye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she had heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(had -1.99)(heard -4.43)(a -2.59)(day -0.80)(. -4.21) line score is : -3.232, look ahead score is : 0.000
+-------------------------score:  -3.2398001784458756;  adjusted_score: -3.214247328825295----------------------- 
+there was a wise doctor named jaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the woman she had left a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(woman -1.92)(she -3.09)(had -1.99)(left -4.43)(a -2.59)(day -0.80)(. -3.95) line score is : -3.203, look ahead score is : 0.000
+-------------------------score:  -3.294050266034901;  adjusted_score: -3.2684974164143203----------------------- 
+there was a wise doctor named fe 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was told by her guest , 
+ that the person she had left a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(told -0.56)(by -2.03)(her -3.35)(guest -1.85)(, -1.37) line score is : -2.863, look ahead score is : 0.668
+(that -1.37)(the -8.70)(person -1.92)(she -3.09)(had -1.99)(left -5.79)(a -1.34)(day -1.03)(. -3.48) line score is : -3.190, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was told by his wife 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.141566570190822;  adjusted_score: -3.1170758094770066----------------------- 
+there was a wise doctor named raye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , i think a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(i -3.99)(think -1.43)(a -2.93)(day -7.14)(. -1.43) line score is : -3.170, look ahead score is : 0.000
+-------------------------score:  -3.1448636572150623;  adjusted_score: -3.1203728965012467----------------------- 
+there was a wise doctor named pei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , she slept a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(she -3.99)(slept -1.43)(a -2.93)(day -4.27)(. -7.51) line score is : -3.461, look ahead score is : 0.000
+-------------------------score:  -3.1622325068011;  adjusted_score: -3.1377417460872845----------------------- 
+there was a wise doctor named pei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i have a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(have -4.43)(a -1.09)(day -6.59)(. -2.92) line score is : -3.361, look ahead score is : 0.000
+-------------------------score:  -3.1712640199591133;  adjusted_score: -3.1467732592452977----------------------- 
+there was a wise doctor named shay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i am a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(am -4.43)(a -1.09)(day -6.59)(. -2.04) line score is : -3.281, look ahead score is : 0.000
+-------------------------score:  -3.183465357212459;  adjusted_score: -3.1589745964986435----------------------- 
+there was a wise doctor named may 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , i hope a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(i -3.99)(hope -1.43)(a -2.93)(day -7.14)(. -4.17) line score is : -3.419, look ahead score is : 0.000
+-------------------------score:  -3.1848772439886543;  adjusted_score: -3.1603864832748387----------------------- 
+there was a wise doctor named gaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i think a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(think -4.43)(a -1.09)(day -6.59)(. -4.04) line score is : -3.463, look ahead score is : 0.000
+-------------------------score:  -3.193773040876669;  adjusted_score: -3.1692822801628533----------------------- 
+there was a wise doctor named mae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , she swore a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(she -3.99)(swore -1.43)(a -2.93)(day -4.27)(. -7.67) line score is : -3.476, look ahead score is : 0.000
+-------------------------score:  -3.201647151042433;  adjusted_score: -3.1771563903286175----------------------- 
+there was a wise doctor named fay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , i say a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(i -3.99)(say -1.43)(a -2.93)(day -7.14)(. -4.77) line score is : -3.474, look ahead score is : 0.000
+-------------------------score:  -3.2081999384305058;  adjusted_score: -3.18370917771669----------------------- 
+there was a wise doctor named faye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(she -3.99)(heard -4.43)(a -1.09)(day -4.17)(. -4.60) line score is : -3.294, look ahead score is : 0.000
+-------------------------score:  -3.209804775960305;  adjusted_score: -3.1853140152464894----------------------- 
+there was a wise doctor named kay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(she -3.99)(heard -1.43)(a -2.93)(day -4.27)(. -4.62) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -3.216777832192533;  adjusted_score: -3.1922870714787175----------------------- 
+there was a wise doctor named may 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i see a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(see -4.43)(a -1.09)(day -6.59)(. -4.39) line score is : -3.494, look ahead score is : 0.000
+-------------------------score:  -3.2184829387594673;  adjusted_score: -3.1939921780456517----------------------- 
+there was a wise doctor named fay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , i guess a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(i -3.99)(guess -1.43)(a -2.93)(day -7.14)(. -4.39) line score is : -3.440, look ahead score is : 0.000
+-------------------------score:  -3.22340521654662;  adjusted_score: -3.198914455832804----------------------- 
+there was a wise doctor named renee 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(heard -4.43)(a -1.09)(day -6.59)(. -3.75) line score is : -3.436, look ahead score is : 0.000
+-------------------------score:  -3.2251876618932274;  adjusted_score: -3.2006969011794117----------------------- 
+there was a wise doctor named renee 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , they say a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(they -3.99)(say -1.43)(a -2.93)(day -7.63)(. -4.69) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.2311384073075127;  adjusted_score: -3.206647646593697----------------------- 
+there was a wise doctor named monet 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i know a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(know -4.43)(a -1.09)(day -6.59)(. -3.92) line score is : -3.452, look ahead score is : 0.000
+-------------------------score:  -3.2471279212657143;  adjusted_score: -3.2226371605518986----------------------- 
+there was a wise doctor named wei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , they are a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(they -3.99)(are -1.43)(a -2.93)(day -7.63)(. -4.65) line score is : -3.507, look ahead score is : 0.000
+-------------------------score:  -3.2564315331332825;  adjusted_score: -3.231940772419467----------------------- 
+there was a wise doctor named jaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to learn , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(learn -1.00)(, -2.14)(she -3.99)(heard -2.85)(a -2.92)(day -4.29)(. -4.71) line score is : -3.337, look ahead score is : 0.000
+-------------------------score:  -3.25648898850469;  adjusted_score: -3.2319982277908745----------------------- 
+there was a wise doctor named raye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to learn , they are a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(learn -1.00)(, -2.14)(they -3.99)(are -2.85)(a -2.92)(day -6.89)(. -3.23) line score is : -3.439, look ahead score is : 0.000
+-------------------------score:  -3.263740848969011;  adjusted_score: -3.2356917112276835----------------------- 
+there was a wise doctor named fay 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was blessed by her guest , 
+ as she was to be , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(blessed -0.56)(by -2.03)(her -6.52)(guest -1.76)(, -2.19) line score is : -3.420, look ahead score is : 0.793
+(as -2.19)(she -7.62)(was -1.34)(to -4.40)(be -1.10)(, -1.45)(she -4.52)(heard -1.72)(a -3.47)(day -3.84)(. -4.26) line score is : -3.265, look ahead score is : 0.000
+-------------------------score:  -3.291004299240954;  adjusted_score: -3.266513538527138----------------------- 
+there was a wise doctor named mae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to see , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(see -1.00)(, -2.14)(she -3.99)(heard -2.83)(a -5.89)(day -3.90)(. -4.06) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.2918924610404408;  adjusted_score: -3.267401700326625----------------------- 
+there was a wise doctor named gaye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , she wore a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(she -3.99)(wore -1.43)(a -2.93)(day -4.27)(. -7.97) line score is : -3.504, look ahead score is : 0.000
+-------------------------score:  -3.294992793132277;  adjusted_score: -3.2705020324184613----------------------- 
+there was a wise doctor named monet 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she had to be , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(had -1.69)(to -4.38)(be -1.00)(, -1.64)(she -5.87)(heard -2.95)(a -2.30)(day -4.16)(. -4.89) line score is : -3.420, look ahead score is : 0.000
+-------------------------score:  -3.3004939091556214;  adjusted_score: -3.2760031484418057----------------------- 
+there was a wise doctor named pei 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , i know a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(i -3.99)(know -1.43)(a -2.93)(day -7.14)(. -4.49) line score is : -3.449, look ahead score is : 0.000
+-------------------------score:  -3.3036578744649887;  adjusted_score: -3.279167113751173----------------------- 
+there was a wise doctor named shea 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to find , she heard a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(find -1.00)(, -2.14)(she -3.99)(heard -2.94)(a -4.97)(day -3.47)(. -4.69) line score is : -3.455, look ahead score is : 0.000
+-------------------------score:  -3.3114395869128845;  adjusted_score: -3.286948826199069----------------------- 
+there was a wise doctor named rae 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to be , i am a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(be -1.00)(, -2.14)(i -3.99)(am -1.43)(a -2.93)(day -7.14)(. -3.49) line score is : -3.358, look ahead score is : 0.000
+-------------------------score:  -3.3303129138315426;  adjusted_score: -3.305822153117727----------------------- 
+there was a wise doctor named raye 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ as she was to say , i do a day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(as -2.11)(she -6.63)(was -1.69)(to -4.38)(say -1.00)(, -2.14)(i -3.99)(do -4.43)(a -1.09)(day -6.59)(. -4.20) line score is : -3.478, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was told by his wife 
+ and now he 's a college professor 
+-------------------------score:  -3.1878638257903438;  adjusted_score: -3.163373065076528----------------------- 
+there was a wise doctor named renee 
+ who learned a great deal on her way . 
+ when she returned to rest , 
+ she was touched by her guest , 
+ and now she has a family day . 
+------------------------- score breakdown ------------------------ 
+(who -1.87)(learned -6.14)(a -3.49)(great -2.06)(deal -0.38)(on -5.93)(her -0.95)(way -3.15)(. -3.01) line score is : -2.999, look ahead score is : 0.000
+(when -3.01)(she -4.35)(returned -0.96)(to -3.04)(rest -0.95)(, -9.67) line score is : -3.663, look ahead score is : 0.610
+(she -9.67)(was -1.22)(touched -0.56)(by -2.03)(her -5.94)(guest -0.54)(, -2.11) line score is : -3.153, look ahead score is : 0.615
+(and -2.11)(now -6.63)(she -1.69)(has -0.97)(a -6.16)(family -1.47)(day -3.99)(. -2.63) line score is : -3.208, look ahead score is : 0.000

@@ -1,0 +1,1925 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.7563061751425266;  adjusted_score: -2.731028243601322----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a safe space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(safe -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.8150112107396126;  adjusted_score: -2.789733279198408----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a safe space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(safe -3.44)(space -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.8695316091179848;  adjusted_score: -2.84425367757678----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she ran to get to a safe space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(ran -2.85)(to -2.06)(get -1.73)(to -4.45)(a -1.94)(safe -3.85)(space -3.92)(. -3.81) line score is : -2.762, look ahead score is : 0.000
+-------------------------score:  -2.8751850612461567;  adjusted_score: -2.849907129704952----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a new space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(new -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.879428569227457;  adjusted_score: -2.8541506376862524----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a new space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(new -3.44)(space -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.8798999078571796;  adjusted_score: -2.854621976315975----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to leave to a new space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(leave -1.73)(to -3.50)(a -2.21)(new -3.16)(space -3.28)(. -5.18) line score is : -2.698, look ahead score is : 0.000
+-------------------------score:  -2.884116802364588;  adjusted_score: -2.858838870823383----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a dark space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(dark -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9056062027812004;  adjusted_score: -2.880328271239996----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a new base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(new -3.44)(base -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.9141653068363667;  adjusted_score: -2.888887375295162----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a white space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(white -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9176809936761856;  adjusted_score: -2.892403062134981----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a new base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(new -4.19)(base -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9208698235452175;  adjusted_score: -2.895591892004013----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to keep to a tight space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(keep -1.73)(to -3.50)(a -2.21)(tight -4.10)(space -5.69)(. -2.98) line score is : -2.814, look ahead score is : 0.000
+-------------------------score:  -2.926875479519367;  adjusted_score: -2.9015975479781626----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to leave to a new base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(leave -1.73)(to -3.50)(a -2.21)(new -3.16)(base -3.28)(. -5.18) line score is : -2.698, look ahead score is : 0.000
+-------------------------score:  -2.9420085288584232;  adjusted_score: -2.9167305973172186----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a black space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(black -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9454119838774204;  adjusted_score: -2.920134052336216----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a close space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(close -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9495010562241077;  adjusted_score: -2.924223124682903----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a large space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(large -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9525764156132936;  adjusted_score: -2.927298484072089----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to leave to a new case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(leave -1.73)(to -3.50)(a -2.21)(new -3.16)(case -3.28)(. -5.18) line score is : -2.698, look ahead score is : 0.000
+-------------------------score:  -2.9536593444645405;  adjusted_score: -2.928381412923336----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a small space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(small -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9616367276757956;  adjusted_score: -2.936358796134591----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a new case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(new -3.44)(case -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.9627753868699074;  adjusted_score: -2.9374974553287028----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a locked space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(locked -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.96416537463665;  adjusted_score: -2.9388874430954455----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a safe base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(safe -4.19)(base -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9666519537568092;  adjusted_score: -2.9413740222156046----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to keep to a strict space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(keep -1.73)(to -3.50)(a -2.21)(strict -4.10)(space -5.69)(. -2.98) line score is : -2.814, look ahead score is : 0.000
+-------------------------score:  -2.9675678201019764;  adjusted_score: -2.942289888560772----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a safe base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(safe -3.44)(base -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.9694389812648296;  adjusted_score: -2.944161049723625----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a big space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(big -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9700005054473877;  adjusted_score: -2.944722573906183----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a good base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(good -3.44)(base -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.971627552062273;  adjusted_score: -2.9463496205210684----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a good space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(good -3.44)(space -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.974679233506322;  adjusted_score: -2.9494013019651173----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a new case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(new -4.19)(case -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.9812281914055347;  adjusted_score: -2.95595025986433----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to get to a big space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(get -1.73)(to -3.50)(a -2.21)(big -3.44)(space -3.10)(. -3.85) line score is : -2.576, look ahead score is : 0.000
+-------------------------score:  -2.9932064451277256;  adjusted_score: -2.967928513586521----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a high space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(high -4.19)(space -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -3.1419992856681347;  adjusted_score: -3.11672135412693----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a black lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(black -4.19)(lace -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -3.1653810255229473;  adjusted_score: -3.1401030939817427----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she had to run to a white lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(had -2.85)(to -2.06)(run -1.73)(to -3.50)(a -2.21)(white -4.19)(lace -1.81)(. -3.06) line score is : -2.443, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.763988647609949;  adjusted_score: -2.7387107160687445----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and put on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(put -4.76)(on -0.78)(the -0.74)(case -4.65)(. -1.16) line score is : -2.176, look ahead score is : 0.000
+-------------------------score:  -2.785482045263052;  adjusted_score: -2.7602041137218474----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she got up and put on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(got -2.85)(up -2.73)(and -1.08)(put -4.09)(on -1.93)(the -0.75)(case -4.87)(. -0.71) line score is : -2.202, look ahead score is : 0.000
+-------------------------score:  -2.787582580000162;  adjusted_score: -2.7623046484589575----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(put -4.76)(on -0.78)(the -0.74)(base -4.65)(. -1.16) line score is : -2.176, look ahead score is : 0.000
+-------------------------score:  -2.8021053820848465;  adjusted_score: -2.776827450543642----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she got up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(got -2.85)(up -2.73)(and -1.08)(put -4.09)(on -1.93)(the -0.75)(base -4.87)(. -0.71) line score is : -2.202, look ahead score is : 0.000
+-------------------------score:  -2.8247656635940075;  adjusted_score: -2.799487732052803----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(put -4.76)(on -0.78)(the -0.74)(lace -4.65)(. -1.16) line score is : -2.176, look ahead score is : 0.000
+-------------------------score:  -2.826291970908642;  adjusted_score: -2.801014039367437----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she jumped up and put on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(jumped -2.85)(up -2.73)(and -1.08)(put -4.21)(on -2.00)(the -0.89)(case -5.16)(. -1.57) line score is : -2.349, look ahead score is : 0.000
+-------------------------score:  -2.843738552182913;  adjusted_score: -2.818460620641708----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she got up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(got -2.85)(up -2.73)(and -1.08)(put -4.09)(on -1.93)(the -0.75)(lace -4.87)(. -0.71) line score is : -2.202, look ahead score is : 0.000
+-------------------------score:  -2.847721368074417;  adjusted_score: -2.8224434365332125----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she jumped up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(jumped -2.85)(up -2.73)(and -1.08)(put -4.21)(on -2.00)(the -0.89)(base -5.16)(. -1.57) line score is : -2.349, look ahead score is : 0.000
+-------------------------score:  -2.8481710832566023;  adjusted_score: -2.8228931517153977----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she gave up and put on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(gave -2.85)(up -2.73)(and -1.08)(put -4.46)(on -2.79)(the -1.90)(case -4.22)(. -0.96) line score is : -2.400, look ahead score is : 0.000
+-------------------------score:  -2.8502425253391266;  adjusted_score: -2.824964593797922----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she went up and put on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(went -2.85)(up -2.73)(and -1.08)(put -3.00)(on -3.71)(the -2.54)(case -4.29)(. -1.08) line score is : -2.430, look ahead score is : 0.000
+-------------------------score:  -2.8534786961972713;  adjusted_score: -2.8282007646560667----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she went up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(went -2.85)(up -2.73)(and -1.08)(put -3.00)(on -3.71)(the -2.54)(base -4.29)(. -1.08) line score is : -2.430, look ahead score is : 0.000
+-------------------------score:  -2.854109251871705;  adjusted_score: -2.8288313203305004----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she gave up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(gave -2.85)(up -2.73)(and -1.08)(put -4.46)(on -2.79)(the -1.90)(base -4.22)(. -0.96) line score is : -2.400, look ahead score is : 0.000
+-------------------------score:  -2.856762943789363;  adjusted_score: -2.8314850122481583----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she reached up and put on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(reached -2.85)(up -2.73)(and -1.08)(put -4.86)(on -2.90)(the -0.67)(case -3.92)(. -2.54) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.8607710991054773;  adjusted_score: -2.8354931675642727----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she reached up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(reached -2.85)(up -2.73)(and -1.08)(put -4.86)(on -2.90)(the -0.67)(base -3.92)(. -2.54) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.868622835725546;  adjusted_score: -2.8433449041843413----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and beat on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(beat -4.76)(on -0.78)(the -0.74)(base -7.67)(. -3.19) line score is : -2.680, look ahead score is : 0.000
+-------------------------score:  -2.881379473954439;  adjusted_score: -2.8561015424132346----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and beat on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(beat -4.76)(on -0.78)(the -0.74)(case -7.67)(. -3.19) line score is : -2.680, look ahead score is : 0.000
+-------------------------score:  -2.8820345774292946;  adjusted_score: -2.85675664588809----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she jumped up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(jumped -2.85)(up -2.73)(and -1.08)(put -4.21)(on -2.00)(the -0.89)(lace -5.16)(. -1.57) line score is : -2.349, look ahead score is : 0.000
+-------------------------score:  -2.884194292128086;  adjusted_score: -2.8589163605868815----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she went up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(went -2.85)(up -2.73)(and -1.08)(put -3.00)(on -3.71)(the -2.54)(lace -4.29)(. -1.08) line score is : -2.430, look ahead score is : 0.000
+-------------------------score:  -2.8866039607673883;  adjusted_score: -2.8613260292261837----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she gave up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(gave -2.85)(up -2.73)(and -1.08)(put -4.46)(on -2.79)(the -1.90)(lace -4.22)(. -0.96) line score is : -2.400, look ahead score is : 0.000
+-------------------------score:  -2.8924076557159424;  adjusted_score: -2.8671297241747378----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she walked up and put on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(walked -2.85)(up -2.73)(and -1.08)(put -4.43)(on -2.50)(the -2.88)(base -3.76)(. -2.04) line score is : -2.527, look ahead score is : 0.000
+-------------------------score:  -2.895291429013014;  adjusted_score: -2.8700134974718092----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and beat on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(beat -4.76)(on -0.78)(the -0.74)(space -7.67)(. -3.19) line score is : -2.680, look ahead score is : 0.000
+-------------------------score:  -2.9075359161943197;  adjusted_score: -2.882257984653115----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she reached up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(reached -2.85)(up -2.73)(and -1.08)(put -4.86)(on -2.90)(the -0.67)(lace -3.92)(. -2.54) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.9152095802128315;  adjusted_score: -2.889931648671627----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she stood up and put on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(stood -2.85)(up -2.73)(and -1.08)(put -4.76)(on -0.78)(the -0.74)(space -4.65)(. -1.16) line score is : -2.176, look ahead score is : 0.000
+-------------------------score:  -2.9217977337539196;  adjusted_score: -2.896519802212715----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she walked up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(walked -2.85)(up -2.73)(and -1.08)(put -4.43)(on -2.50)(the -2.88)(lace -3.76)(. -2.04) line score is : -2.527, look ahead score is : 0.000
+-------------------------score:  -2.924702662974596;  adjusted_score: -2.8994247314333914----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she ran up and put on the lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(ran -2.85)(up -2.73)(and -1.08)(put -3.55)(on -3.12)(the -2.77)(lace -4.42)(. -1.85) line score is : -2.538, look ahead score is : 0.000
+-------------------------score:  -2.945001069456339;  adjusted_score: -2.9197231379151343----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she got up and put on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(got -2.85)(up -2.73)(and -1.08)(put -4.09)(on -1.93)(the -0.75)(space -4.87)(. -0.71) line score is : -2.202, look ahead score is : 0.000
+-------------------------score:  -2.9642592761665583;  adjusted_score: -2.9389813446253537----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she gave up and put on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(gave -2.85)(up -2.73)(and -1.08)(put -4.46)(on -2.79)(the -1.90)(space -4.22)(. -0.96) line score is : -2.400, look ahead score is : 0.000
+-------------------------score:  -2.9741826876997948;  adjusted_score: -2.94890475615859----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she jumped up and put on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(jumped -2.85)(up -2.73)(and -1.08)(put -4.21)(on -2.00)(the -0.89)(space -5.16)(. -1.57) line score is : -2.349, look ahead score is : 0.000
+-------------------------score:  -2.992973141372204;  adjusted_score: -2.967695209830999----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she went up and put on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(went -2.85)(up -2.73)(and -1.08)(put -3.00)(on -3.71)(the -2.54)(space -4.29)(. -1.08) line score is : -2.430, look ahead score is : 0.000
+-------------------------score:  -2.9942396488040686;  adjusted_score: -2.968961717262864----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she reached up and put on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(reached -2.85)(up -2.73)(and -1.08)(put -4.86)(on -2.90)(the -0.67)(space -3.92)(. -2.54) line score is : -2.456, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.76845577263063;  adjusted_score: -2.7431778410894254----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the beauty of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(beauty -4.52)(of -2.61)(this -3.61)(case -3.19)(. -0.27) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.8048267008796817;  adjusted_score: -2.779548769338477----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the story of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(story -4.52)(of -2.61)(this -3.61)(case -3.97)(. -0.60) line score is : -2.580, look ahead score is : 0.000
+-------------------------score:  -2.841161698102951;  adjusted_score: -2.8158524619042873----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ it was easy to know , 
+ and that is the beauty of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(it -6.30)(was -1.01)(easy -2.88)(to -1.00)(know -5.10)(, -0.17) line score is : -2.745, look ahead score is : 0.707
+(and -0.17)(that -4.46)(is -4.93)(the -2.61)(beauty -4.14)(of -3.67)(this -2.87)(case -1.93)(. -0.24) line score is : -2.780, look ahead score is : 0.000
+-------------------------score:  -2.858272317917116;  adjusted_score: -2.8329943863759115----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the magic of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(magic -4.52)(of -2.61)(this -3.61)(case -4.80)(. -0.72) line score is : -2.685, look ahead score is : 0.000
+-------------------------score:  -2.8639342804108896;  adjusted_score: -2.838656348869685----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the beauty of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(beauty -4.52)(of -2.61)(this -3.61)(space -3.19)(. -0.27) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.864413209620022;  adjusted_score: -2.8391352780788175----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the essence of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(essence -4.52)(of -2.61)(this -3.61)(case -5.23)(. -0.02) line score is : -2.655, look ahead score is : 0.000
+-------------------------score:  -2.8732756357039175;  adjusted_score: -2.847997704162713----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the beauty of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(beauty -4.52)(of -2.61)(this -3.61)(base -3.19)(. -0.27) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.910970062978806;  adjusted_score: -2.8856921314376014----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the power of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(power -4.52)(of -2.61)(this -3.61)(case -5.44)(. -0.14) line score is : -2.691, look ahead score is : 0.000
+-------------------------score:  -2.926858918320748;  adjusted_score: -2.9015496821220843----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ it was easy to know , 
+ and that is the beauty of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(it -6.30)(was -1.01)(easy -2.88)(to -1.00)(know -5.10)(, -0.17) line score is : -2.745, look ahead score is : 0.707
+(and -0.17)(that -4.46)(is -4.93)(the -2.61)(beauty -4.14)(of -3.67)(this -2.87)(space -1.93)(. -0.24) line score is : -2.780, look ahead score is : 0.000
+-------------------------score:  -2.931320869153546;  adjusted_score: -2.9060429376123413----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the magic of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(magic -4.52)(of -2.61)(this -3.61)(space -4.80)(. -0.72) line score is : -2.685, look ahead score is : 0.000
+-------------------------score:  -2.931337414249297;  adjusted_score: -2.9060594827080926----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the story of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(story -4.52)(of -2.61)(this -3.61)(space -3.97)(. -0.60) line score is : -2.580, look ahead score is : 0.000
+-------------------------score:  -2.935621656717793;  adjusted_score: -2.9103437251765882----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the magic of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(magic -4.52)(of -2.61)(this -3.61)(base -4.80)(. -0.72) line score is : -2.685, look ahead score is : 0.000
+-------------------------score:  -2.942913498609297;  adjusted_score: -2.917604262410633----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ it was easy to know , 
+ and that is the beauty of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(it -6.30)(was -1.01)(easy -2.88)(to -1.00)(know -5.10)(, -0.17) line score is : -2.745, look ahead score is : 0.707
+(and -0.17)(that -4.46)(is -4.93)(the -2.61)(beauty -4.14)(of -3.67)(this -2.87)(base -1.93)(. -0.24) line score is : -2.780, look ahead score is : 0.000
+-------------------------score:  -2.949869424224861;  adjusted_score: -2.9245914926836565----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the essence of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(essence -4.52)(of -2.61)(this -3.61)(base -5.23)(. -0.02) line score is : -2.655, look ahead score is : 0.000
+-------------------------score:  -2.949929973891666;  adjusted_score: -2.9246520423504614----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the essence of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(essence -4.52)(of -2.61)(this -3.61)(space -5.23)(. -0.02) line score is : -2.655, look ahead score is : 0.000
+-------------------------score:  -2.9575276932408734;  adjusted_score: -2.9322497616996688----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the feeling of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(feeling -4.52)(of -2.61)(this -3.61)(case -4.69)(. -2.62) line score is : -2.883, look ahead score is : 0.000
+-------------------------score:  -2.9593432218797746;  adjusted_score: -2.93406529033857----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the image of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(image -4.52)(of -2.61)(this -3.61)(case -5.86)(. -2.28) line score is : -2.977, look ahead score is : 0.000
+-------------------------score:  -2.9607727431481883;  adjusted_score: -2.9354948116069837----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the power of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(power -4.52)(of -2.61)(this -3.61)(space -5.44)(. -0.14) line score is : -2.691, look ahead score is : 0.000
+-------------------------score:  -2.963830751757468;  adjusted_score: -2.9385528202162634----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the reason of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(reason -4.52)(of -2.61)(this -3.61)(case -2.93)(. -5.17) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -2.9702250149942215;  adjusted_score: -2.944947083453017----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the picture of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(picture -4.52)(of -2.61)(this -3.61)(case -5.30)(. -1.77) line score is : -2.858, look ahead score is : 0.000
+-------------------------score:  -2.97445345886292;  adjusted_score: -2.9491755273217155----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the difference of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(difference -4.52)(of -2.61)(this -3.61)(case -5.37)(. -5.52) line score is : -3.281, look ahead score is : 0.000
+-------------------------score:  -2.987663197901941;  adjusted_score: -2.9623852663607364----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the power of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(power -4.52)(of -2.61)(this -3.61)(base -5.44)(. -0.14) line score is : -2.691, look ahead score is : 0.000
+-------------------------score:  -3.001252745428393;  adjusted_score: -2.9755686529365275----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was afraid to go , 
+ and that is the reason of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(afraid -1.09)(to -2.50)(go -4.43)(, -1.46) line score is : -2.800, look ahead score is : 0.726
+(and -1.46)(that -1.56)(is -7.59)(the -2.64)(reason -4.53)(of -3.16)(this -3.60)(case -1.23)(. -4.58) line score is : -3.371, look ahead score is : 0.000
+-------------------------score:  -3.016759793604574;  adjusted_score: -2.9914818620633694----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the feeling of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(feeling -4.52)(of -2.61)(this -3.61)(space -4.69)(. -2.62) line score is : -2.883, look ahead score is : 0.000
+-------------------------score:  -3.021877384954883;  adjusted_score: -2.9965994534136784----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the reason of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(reason -4.52)(of -2.61)(this -3.61)(base -2.93)(. -5.17) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -3.0320231145428074;  adjusted_score: -3.0067451830016028----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the magic of this lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(magic -4.52)(of -2.61)(this -3.61)(lace -4.80)(. -0.72) line score is : -2.685, look ahead score is : 0.000
+-------------------------score:  -3.0381058800605034;  adjusted_score: -3.012827948519299----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the reason of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(reason -4.52)(of -2.61)(this -3.61)(space -2.93)(. -5.17) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -3.043240337602554;  adjusted_score: -3.0179624060613492----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the feeling of this base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(feeling -4.52)(of -2.61)(this -3.61)(base -4.69)(. -2.62) line score is : -2.883, look ahead score is : 0.000
+-------------------------score:  -3.043601522522588;  adjusted_score: -3.0183235909813835----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the moment of this case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(moment -4.52)(of -2.61)(this -3.61)(case -2.14)(. -4.07) line score is : -2.761, look ahead score is : 0.000
+-------------------------score:  -3.052105492161166;  adjusted_score: -3.0268275606199615----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and that is the image of this space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(that -2.50)(is -2.85)(the -2.06)(image -4.52)(of -2.61)(this -3.61)(space -5.86)(. -2.28) line score is : -2.977, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.957726543949496;  adjusted_score: -2.9324486124082916----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she looked down and noticed her base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(looked -2.85)(down -2.06)(and -1.73)(noticed -4.50)(her -4.68)(base -1.90)(. -3.03) line score is : -2.639, look ahead score is : 0.000
+-------------------------score:  -2.973594965473298;  adjusted_score: -2.9483170339320934----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she looked down and noticed her case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(looked -2.85)(down -2.06)(and -1.73)(noticed -4.50)(her -4.68)(case -1.90)(. -3.03) line score is : -2.639, look ahead score is : 0.000
+-------------------------score:  -3.007080243479821;  adjusted_score: -2.9818023119386163----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she looked down and noticed her space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(looked -2.85)(down -2.06)(and -1.73)(noticed -4.50)(her -4.68)(space -1.90)(. -3.03) line score is : -2.639, look ahead score is : 0.000
+-------------------------score:  -3.0885687835754885;  adjusted_score: -3.063290852034284----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she looked down and noticed her lace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(looked -2.85)(down -2.06)(and -1.73)(noticed -4.50)(her -4.68)(lace -1.90)(. -3.03) line score is : -2.639, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP RB VBD ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ so he carefully spat on the ceiling 
+-------------------------score:  -3.0635896722475686;  adjusted_score: -3.038311740706364----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly followed on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(followed -2.73)(on -1.08)(the -4.88)(case -4.63)(. -6.16) line score is : -3.167, look ahead score is : 0.000
+-------------------------score:  -3.0894091089566547;  adjusted_score: -3.06413117741545----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly covered on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(covered -2.73)(on -1.08)(the -4.88)(base -4.89)(. -7.04) line score is : -3.310, look ahead score is : 0.000
+-------------------------score:  -3.1085686643918353;  adjusted_score: -3.0832907328506307----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly followed on the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(followed -2.73)(on -1.08)(the -4.88)(base -4.63)(. -6.16) line score is : -3.167, look ahead score is : 0.000
+-------------------------score:  -3.120877575874329;  adjusted_score: -3.095599644333124----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly covered on the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(covered -2.73)(on -1.08)(the -4.88)(case -4.89)(. -7.04) line score is : -3.310, look ahead score is : 0.000
+-------------------------score:  -3.122405445575714;  adjusted_score: -3.0971275140345096----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly followed on the trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(followed -2.73)(on -1.08)(the -4.88)(trace -4.63)(. -6.16) line score is : -3.167, look ahead score is : 0.000
+-------------------------score:  -3.1605819900830587;  adjusted_score: -3.135304058541854----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly followed on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(followed -2.73)(on -1.08)(the -4.88)(space -4.63)(. -6.16) line score is : -3.167, look ahead score is : 0.000
+-------------------------score:  -3.2004473408063254;  adjusted_score: -3.175169409265121----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she quickly covered on the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(quickly -2.85)(covered -2.73)(on -1.08)(the -4.88)(space -4.89)(. -7.04) line score is : -3.310, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ so he called her his dear dental floss 
+-------------------------score:  -3.0665466977703955;  adjusted_score: -3.041268766229191----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she told me her secret first base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(told -2.85)(me -2.73)(her -1.08)(secret -4.34)(first -2.26)(base -3.96)(. -3.33) line score is : -2.618, look ahead score is : 0.000
+-------------------------score:  -3.1001891128478514;  adjusted_score: -3.0749111813066468----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ so she gave herself her first big case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(so -0.50)(she -2.50)(gave -2.85)(herself -2.73)(her -1.08)(first -4.46)(big -3.23)(case -4.96)(. -2.57) line score is : -2.764, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.079468204639852;  adjusted_score: -3.0541902730986474----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the floor of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(floor -4.57)(of -5.16)(the -0.35)(space -3.53)(. -4.91) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.086542776785791;  adjusted_score: -3.0612648452445863----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the floor of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(floor -5.19)(of -4.64)(the -0.31)(space -3.92)(. -4.45) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.1037647873163223;  adjusted_score: -3.0784868557751177----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the crowd on the floor of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(crowd -2.85)(on -2.06)(the -2.99)(floor -4.70)(of -6.18)(the -0.63)(space -2.99)(. -4.26) line score is : -2.966, look ahead score is : 0.000
+-------------------------score:  -3.109933062456548;  adjusted_score: -3.0846551309153436----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the floor of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(floor -4.57)(of -5.16)(the -0.35)(base -3.53)(. -4.91) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.1162513261660933;  adjusted_score: -3.0909733946248887----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the floor of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(floor -5.19)(of -4.64)(the -0.31)(base -3.92)(. -4.45) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.131374668329954;  adjusted_score: -3.1060967367887495----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the scene on the screen of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(scene -2.85)(on -2.06)(the -2.99)(screen -6.06)(of -4.73)(the -0.66)(space -1.51)(. -4.96) line score is : -2.884, look ahead score is : 0.000
+-------------------------score:  -3.1348654478788376;  adjusted_score: -3.109587516337633----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the right of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(right -4.57)(of -5.16)(the -0.35)(space -3.18)(. -5.10) line score is : -2.927, look ahead score is : 0.000
+-------------------------score:  -3.1354340873658657;  adjusted_score: -3.110156155824661----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the scene on the screen of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(scene -2.85)(on -2.06)(the -2.99)(screen -6.06)(of -4.73)(the -0.66)(base -1.51)(. -4.96) line score is : -2.884, look ahead score is : 0.000
+-------------------------score:  -3.1377165615558624;  adjusted_score: -3.112438630014658----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the light on the screen of the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(light -2.85)(on -2.06)(the -2.99)(screen -5.80)(of -4.20)(the -1.23)(case -3.17)(. -4.99) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -3.139515764079988;  adjusted_score: -3.1142378325387834----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the floor of the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(floor -5.19)(of -4.64)(the -0.31)(case -3.92)(. -4.45) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.139518305659294;  adjusted_score: -3.1142403741180895----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the crowd on the floor of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(crowd -2.85)(on -2.06)(the -2.99)(floor -4.70)(of -6.18)(the -0.63)(base -2.99)(. -4.26) line score is : -2.966, look ahead score is : 0.000
+-------------------------score:  -3.139779180288315;  adjusted_score: -3.11450124874711----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the right of the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(right -4.57)(of -5.16)(the -0.35)(case -3.18)(. -5.10) line score is : -2.927, look ahead score is : 0.000
+-------------------------score:  -3.1398813081905246;  adjusted_score: -3.11460337664932----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the right of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(right -5.19)(of -4.64)(the -0.31)(space -4.41)(. -4.16) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.141211062669754;  adjusted_score: -3.1159331311285494----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the light on the screen of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(light -2.85)(on -2.06)(the -2.99)(screen -5.80)(of -4.20)(the -1.23)(base -3.17)(. -4.99) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -3.141794454306364;  adjusted_score: -3.1165165227651594----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the scene on the screen of the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(scene -2.85)(on -2.06)(the -2.99)(screen -6.06)(of -4.73)(the -0.66)(case -1.51)(. -4.96) line score is : -2.884, look ahead score is : 0.000
+-------------------------score:  -3.146753787063062;  adjusted_score: -3.1214758555218576----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the floor of the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(floor -4.57)(of -5.16)(the -0.35)(case -3.53)(. -4.91) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.1496664583683014;  adjusted_score: -3.124388526827097----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the light on the screen of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(light -2.85)(on -2.06)(the -2.99)(screen -5.80)(of -4.20)(the -1.23)(space -3.17)(. -4.99) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -3.153270736336708;  adjusted_score: -3.1279928047955035----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the right of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(right -4.57)(of -5.16)(the -0.35)(base -3.18)(. -5.10) line score is : -2.927, look ahead score is : 0.000
+-------------------------score:  -3.153635246679187;  adjusted_score: -3.128357315137982----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the team on the ground of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(team -2.85)(on -2.06)(the -2.99)(ground -5.09)(of -6.64)(the -0.73)(base -1.98)(. -7.75) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.1597590250894427;  adjusted_score: -3.134481093548238----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the right of the case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(right -5.19)(of -4.64)(the -0.31)(case -4.41)(. -4.16) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.1688804728910327;  adjusted_score: -3.143602541349828----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the right of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(right -5.19)(of -4.64)(the -0.31)(base -4.41)(. -4.16) line score is : -2.962, look ahead score is : 0.000
+-------------------------score:  -3.184387289918959;  adjusted_score: -3.1591093583777545----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the ground of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(ground -5.19)(of -4.64)(the -0.31)(space -3.66)(. -7.88) line score is : -3.259, look ahead score is : 0.000
+-------------------------score:  -3.1850913781672716;  adjusted_score: -3.159813446626067----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the ground of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(ground -4.57)(of -5.16)(the -0.35)(base -3.73)(. -7.87) line score is : -3.258, look ahead score is : 0.000
+-------------------------score:  -3.185368546284735;  adjusted_score: -3.1600906147435306----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the man on the ground of the base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(man -2.85)(on -2.06)(the -2.99)(ground -5.19)(of -4.64)(the -0.31)(base -3.66)(. -7.88) line score is : -3.259, look ahead score is : 0.000
+-------------------------score:  -3.1909372825175524;  adjusted_score: -3.1656593509763478----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the ground of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(ground -4.57)(of -5.16)(the -0.35)(space -3.73)(. -7.87) line score is : -3.258, look ahead score is : 0.000
+-------------------------score:  -3.2009946890175343;  adjusted_score: -3.1757167574763296----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the stage of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(stage -4.57)(of -5.16)(the -0.35)(space -3.96)(. -6.98) line score is : -3.193, look ahead score is : 0.000
+-------------------------score:  -3.202846707776189;  adjusted_score: -3.1775687762349842----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the crowd on the stage of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(crowd -2.85)(on -2.06)(the -2.99)(stage -4.70)(of -6.18)(the -0.63)(space -2.56)(. -6.52) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -3.2333423905074596;  adjusted_score: -3.208064458966255----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the girl on the screen of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(girl -2.85)(on -2.06)(the -2.99)(screen -4.57)(of -5.16)(the -0.35)(space -3.56)(. -7.47) line score is : -3.202, look ahead score is : 0.000
+-------------------------score:  -3.2360476087778807;  adjusted_score: -3.210769677236676----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the team on the ground of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(team -2.85)(on -2.06)(the -2.99)(ground -5.09)(of -6.64)(the -0.73)(space -1.98)(. -7.75) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.2361341528594494;  adjusted_score: -3.2108562213182448----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and the crew on the ship of the space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(the -2.50)(crew -2.85)(on -2.06)(the -2.99)(ship -5.77)(of -5.13)(the -0.74)(space -2.58)(. -7.07) line score is : -3.220, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.095076344907284;  adjusted_score: -3.069798413366079----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my wife has a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(wife -6.28)(has -1.66)(a -4.28)(case -3.01)(. -3.93) line score is : -3.053, look ahead score is : 0.000
+-------------------------score:  -3.1212476789951324;  adjusted_score: -3.095969747453928----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my wife is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(wife -6.28)(is -1.66)(a -4.28)(case -3.01)(. -2.48) line score is : -2.908, look ahead score is : 0.000
+-------------------------score:  -3.128279209136963;  adjusted_score: -3.1030012775957583----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my son has a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(son -6.28)(has -1.66)(a -4.28)(case -3.76)(. -3.49) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.1301362216472626;  adjusted_score: -3.104858290106058----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her skin is a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(skin -6.28)(is -1.66)(a -3.67)(base -4.44)(. -1.70) line score is : -2.911, look ahead score is : 0.000
+-------------------------score:  -3.1428070217370987;  adjusted_score: -3.117529090195894----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my son is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(son -6.28)(is -1.66)(a -4.28)(case -3.76)(. -2.45) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.1433279663324356;  adjusted_score: -3.118050034791231----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her skin has a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(skin -6.28)(has -1.66)(a -3.67)(base -4.44)(. -3.10) line score is : -3.052, look ahead score is : 0.000
+-------------------------score:  -3.1449715197086334;  adjusted_score: -3.119693588167429----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her skin is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(skin -6.28)(is -1.66)(a -3.67)(case -4.44)(. -1.70) line score is : -2.911, look ahead score is : 0.000
+-------------------------score:  -3.1639726646244526;  adjusted_score: -3.138694733083248----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i think that her hair is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(think -2.85)(that -2.06)(her -3.46)(hair -5.10)(is -2.29)(a -4.76)(case -4.76)(. -3.39) line score is : -3.166, look ahead score is : 0.000
+-------------------------score:  -3.1642513461411;  adjusted_score: -3.1389734145998953----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she heard that her friend is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(heard -2.85)(that -2.06)(her -1.73)(friend -7.05)(is -4.15)(a -2.57)(case -2.96)(. -5.06) line score is : -3.142, look ahead score is : 0.000
+-------------------------score:  -3.1677264273166656;  adjusted_score: -3.142448495775461----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her hair is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(hair -6.28)(is -1.66)(a -3.67)(case -4.67)(. -2.73) line score is : -3.038, look ahead score is : 0.000
+-------------------------score:  -3.169571116566658;  adjusted_score: -3.1442931850254534----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her hair is a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(hair -6.28)(is -1.66)(a -3.67)(base -4.67)(. -2.73) line score is : -3.038, look ahead score is : 0.000
+-------------------------score:  -3.1764868646860123;  adjusted_score: -3.1512089331448077----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her hair has a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(hair -6.28)(has -1.66)(a -3.67)(base -4.67)(. -3.96) line score is : -3.162, look ahead score is : 0.000
+-------------------------score:  -3.1791334003210068;  adjusted_score: -3.153855468779802----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my wife is a space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(wife -6.28)(is -1.66)(a -4.28)(space -3.01)(. -2.48) line score is : -2.908, look ahead score is : 0.000
+-------------------------score:  -3.1824608482420444;  adjusted_score: -3.15718291670084----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i think that her smile is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(think -2.85)(that -2.06)(her -3.46)(smile -5.10)(is -2.29)(a -4.76)(case -4.23)(. -3.22) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -3.1841770969331264;  adjusted_score: -3.158899165391922----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i think that her skin is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(think -2.85)(that -2.06)(her -3.46)(skin -5.10)(is -2.29)(a -4.76)(case -4.50)(. -2.72) line score is : -3.074, look ahead score is : 0.000
+-------------------------score:  -3.1869945898652077;  adjusted_score: -3.161716658324003----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her smile is a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(smile -6.28)(is -1.66)(a -3.67)(trace -4.09)(. -2.58) line score is : -2.965, look ahead score is : 0.000
+-------------------------score:  -3.1932327672839165;  adjusted_score: -3.167954835742712----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her smile is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(smile -6.28)(is -1.66)(a -3.67)(case -4.09)(. -2.58) line score is : -2.965, look ahead score is : 0.000
+-------------------------score:  -3.200571857392788;  adjusted_score: -3.1752939258515833----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my son is a space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(son -6.28)(is -1.66)(a -4.28)(space -3.76)(. -2.45) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.204733308404684;  adjusted_score: -3.1794553768634795----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i think that her skin is a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(think -2.85)(that -2.06)(her -3.46)(skin -5.10)(is -2.29)(a -4.76)(base -4.50)(. -2.72) line score is : -3.074, look ahead score is : 0.000
+-------------------------score:  -3.2088834680616856;  adjusted_score: -3.183605536520481----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i think that her smile is a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(think -2.85)(that -2.06)(her -3.46)(smile -5.10)(is -2.29)(a -4.76)(trace -4.23)(. -3.22) line score is : -3.097, look ahead score is : 0.000
+-------------------------score:  -3.211043953895569;  adjusted_score: -3.1857660223543642----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my wife has a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(wife -6.28)(has -1.66)(a -4.28)(base -3.01)(. -3.93) line score is : -3.053, look ahead score is : 0.000
+-------------------------score:  -3.217481806874275;  adjusted_score: -3.1922038753330706----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her skin has a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(skin -6.28)(has -1.66)(a -3.67)(case -4.44)(. -3.10) line score is : -3.052, look ahead score is : 0.000
+-------------------------score:  -3.2233986854553223;  adjusted_score: -3.1981207539141177----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her hair has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(hair -6.28)(has -1.66)(a -3.67)(trace -4.67)(. -3.96) line score is : -3.162, look ahead score is : 0.000
+-------------------------score:  -3.2235951647162437;  adjusted_score: -3.198317233175039----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my son has a space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(son -6.28)(has -1.66)(a -4.28)(space -3.76)(. -3.49) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.2251914516091347;  adjusted_score: -3.19991352006793----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her smile has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(smile -6.28)(has -1.66)(a -3.67)(trace -4.09)(. -3.92) line score is : -3.099, look ahead score is : 0.000
+-------------------------score:  -3.226799312978983;  adjusted_score: -3.2015213814377783----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and she heard that her friend is a space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(she -2.50)(heard -2.85)(that -2.06)(her -1.73)(friend -7.05)(is -4.15)(a -2.57)(space -2.96)(. -5.06) line score is : -3.142, look ahead score is : 0.000
+-------------------------score:  -3.228009305894375;  adjusted_score: -3.2027313743531702----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her life is a space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(life -6.28)(is -1.66)(a -3.67)(space -4.77)(. -2.03) line score is : -2.978, look ahead score is : 0.000
+-------------------------score:  -3.2315950617194176;  adjusted_score: -3.206317130178213----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her life is a case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(life -6.28)(is -1.66)(a -3.67)(case -4.77)(. -2.03) line score is : -2.978, look ahead score is : 0.000
+-------------------------score:  -3.2320498675107956;  adjusted_score: -3.206771935969591----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that her skin has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(her -3.46)(skin -6.28)(has -1.66)(a -3.67)(trace -4.44)(. -3.10) line score is : -3.052, look ahead score is : 0.000
+-------------------------score:  -3.2321467623114586;  adjusted_score: -3.206868830770254----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and i know that my son has a base . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(i -2.50)(know -2.85)(that -2.06)(my -3.46)(son -6.28)(has -1.66)(a -4.28)(base -3.76)(. -3.49) line score is : -3.084, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.223475860011193;  adjusted_score: -3.1981979284699884----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ she told her own stories and one case . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(she -0.50)(told -2.50)(her -2.85)(own -2.33)(stories -2.29)(and -2.91)(one -6.06)(case -4.35)(. -2.21) line score is : -2.889, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND VBD THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and finished the solo with honour 
+-------------------------score:  -3.314318537712097;  adjusted_score: -3.2890406061708926----------------------- 
+there was a artist named grace 
+ who used a red lipstick on her face . 
+ when she started to glow , 
+ she was ready to go , 
+ and had the ability with space . 
+------------------------- score breakdown ------------------------ 
+(who -2.45)(used -4.30)(a -3.48)(red -6.14)(lipstick -2.79)(on -2.97)(her -0.38)(face -1.24)(. -1.94) line score is : -2.855, look ahead score is : 0.000
+(when -1.94)(she -4.60)(started -1.53)(to -3.78)(glow -2.00)(, -6.30) line score is : -3.358, look ahead score is : 0.559
+(she -6.30)(was -1.01)(ready -1.09)(to -2.50)(go -6.13)(, -0.50) line score is : -2.923, look ahead score is : 0.705
+(and -0.50)(had -2.50)(the -2.85)(ability -2.06)(with -5.23)(space -3.23)(. -4.43) line score is : -2.970, look ahead score is : 0.000

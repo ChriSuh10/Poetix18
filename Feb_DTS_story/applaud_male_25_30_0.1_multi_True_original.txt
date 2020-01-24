@@ -1,0 +1,22 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND RB A JJ NN PRP VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was told by his wife 
+ and now a new teacher they seek 
+-------------------------score:  -3.7440522293890677;  adjusted_score: -3.720097644567009----------------------- 
+there was a polite judge named rey 
+ who welcomed a young girl on her way . 
+ when she arrived to praise , 
+ she was struck by his gaze , 
+ and even a little bit him say . 
+------------------------- score breakdown ------------------------ 
+(who -1.69)(welcomed -8.97)(a -5.21)(young -3.34)(girl -2.73)(on -4.39)(her -1.78)(way -1.02)(. -5.10) line score is : -3.803, look ahead score is : 0.000
+(when -5.10)(she -3.90)(arrived -1.16)(to -1.73)(praise -4.01)(, -9.02) line score is : -4.154, look ahead score is : 0.576
+(she -9.02)(was -5.72)(struck -1.37)(by -1.35)(his -4.99)(gaze -0.65)(, -2.47) line score is : -3.653, look ahead score is : 0.622
+(and -2.47)(even -5.26)(a -1.72)(little -1.04)(bit -6.01)(him -4.82)(say -1.89)(. -2.35) line score is : -3.196, look ahead score is : 0.000

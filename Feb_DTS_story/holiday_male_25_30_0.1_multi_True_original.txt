@@ -1,0 +1,748 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ but they went the wrong way 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.7549392553893;  adjusted_score: -2.728851979198781----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he went up and drank on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(went -2.01)(up -1.44)(and -0.40)(drank -2.31)(on -4.44)(the -2.84)(shore -5.95)(. -5.23) line score is : -2.994, look ahead score is : 0.000
+-------------------------score:  -2.7582981622580327;  adjusted_score: -2.7316941918793956----------------------- 
+there was a silly chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the last day , 
+ so he went up and drank on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(last -0.84)(day -3.83)(, -2.85) line score is : -2.326, look ahead score is : 0.728
+(so -2.85)(he -1.62)(went -3.51)(up -0.88)(and -0.52)(drank -2.83)(on -4.43)(the -2.60)(shore -5.83)(. -5.56) line score is : -3.062, look ahead score is : 0.000
+-------------------------score:  -2.7646911695148004;  adjusted_score: -2.738603893324281----------------------- 
+there once was a chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he went up and drank on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.97)(spent -5.48)(all -2.72)(his -0.50)(money -2.03)(in -3.21)(a -2.04)(store -4.70)(. -2.50) line score is : -2.795, look ahead score is : 0.000
+(it -2.50)(was -3.58)(for -1.03)(his -6.09)(birthday -2.73)(, -2.83) line score is : -3.128, look ahead score is : 0.602
+(but -2.83)(it -1.56)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.411, look ahead score is : 0.702
+(so -3.17)(he -2.16)(went -2.01)(up -1.44)(and -0.40)(drank -2.31)(on -4.44)(the -2.84)(shore -5.95)(. -5.23) line score is : -2.994, look ahead score is : 0.000
+-------------------------score:  -2.7805321460420434;  adjusted_score: -2.754444869851524----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and drank on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(drank -3.62)(on -3.43)(the -1.57)(shore -6.84)(. -5.79) line score is : -3.043, look ahead score is : 0.000
+-------------------------score:  -2.7851315240065255;  adjusted_score: -2.759044247816006----------------------- 
+there was a silly chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and quit on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(quit -3.62)(on -3.43)(the -1.57)(shore -6.41)(. -4.15) line score is : -2.836, look ahead score is : 0.000
+-------------------------score:  -2.788892380215905;  adjusted_score: -2.762805104025386----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(drove -3.62)(on -3.43)(the -1.57)(shore -4.25)(. -5.85) line score is : -2.790, look ahead score is : 0.000
+-------------------------score:  -2.7902840601675436;  adjusted_score: -2.7641967839770243----------------------- 
+there once was a chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and drank on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.97)(spent -5.48)(all -2.72)(his -0.50)(money -2.03)(in -3.21)(a -2.04)(store -4.70)(. -2.50) line score is : -2.795, look ahead score is : 0.000
+(it -2.50)(was -3.58)(for -1.03)(his -6.09)(birthday -2.73)(, -2.83) line score is : -3.128, look ahead score is : 0.602
+(but -2.83)(it -1.56)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.411, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(drank -3.62)(on -3.43)(the -1.57)(shore -6.84)(. -5.79) line score is : -3.043, look ahead score is : 0.000
+-------------------------score:  -2.7948834381320258;  adjusted_score: -2.7687961619415065----------------------- 
+there once was a chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and quit on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.97)(spent -5.48)(all -2.72)(his -0.50)(money -2.03)(in -3.21)(a -2.04)(store -4.70)(. -2.50) line score is : -2.795, look ahead score is : 0.000
+(it -2.50)(was -3.58)(for -1.03)(his -6.09)(birthday -2.73)(, -2.83) line score is : -3.128, look ahead score is : 0.602
+(but -2.83)(it -1.56)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.411, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(quit -3.62)(on -3.43)(the -1.57)(shore -6.41)(. -4.15) line score is : -2.836, look ahead score is : 0.000
+-------------------------score:  -2.7986442943414054;  adjusted_score: -2.772557018150886----------------------- 
+there once was a chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.97)(spent -5.48)(all -2.72)(his -0.50)(money -2.03)(in -3.21)(a -2.04)(store -4.70)(. -2.50) line score is : -2.795, look ahead score is : 0.000
+(it -2.50)(was -3.58)(for -1.03)(his -6.09)(birthday -2.73)(, -2.83) line score is : -3.128, look ahead score is : 0.602
+(but -2.83)(it -1.56)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.411, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(drove -3.62)(on -3.43)(the -1.57)(shore -4.25)(. -5.85) line score is : -2.790, look ahead score is : 0.000
+-------------------------score:  -2.8022468261646503;  adjusted_score: -2.776159549974131----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and read on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(read -3.62)(on -3.43)(the -1.57)(shore -7.21)(. -4.55) line score is : -2.955, look ahead score is : 0.000
+-------------------------score:  -2.8030111807765383;  adjusted_score: -2.776407210397901----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the last day , 
+ so he got up and quit on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(last -0.84)(day -3.83)(, -2.85) line score is : -2.326, look ahead score is : 0.728
+(so -2.85)(he -1.62)(got -3.51)(up -0.88)(and -0.52)(quit -3.83)(on -3.80)(the -1.64)(shore -6.32)(. -4.26) line score is : -2.922, look ahead score is : 0.000
+-------------------------score:  -2.8055731997345434;  adjusted_score: -2.7789692293559063----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the last day , 
+ so he got up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(last -0.84)(day -3.83)(, -2.85) line score is : -2.326, look ahead score is : 0.728
+(so -2.85)(he -1.62)(got -3.51)(up -0.88)(and -0.52)(drove -3.83)(on -3.80)(the -1.64)(shore -4.46)(. -5.86) line score is : -2.896, look ahead score is : 0.000
+-------------------------score:  -2.818085371544867;  adjusted_score: -2.7919980953543475----------------------- 
+there was a silly chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and quit on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(gave -2.01)(up -1.44)(and -0.40)(quit -3.89)(on -3.91)(the -1.63)(shore -5.81)(. -4.75) line score is : -2.916, look ahead score is : 0.000
+-------------------------score:  -2.82600458372723;  adjusted_score: -2.7999173075367105----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(gave -2.01)(up -1.44)(and -0.40)(drove -3.89)(on -3.91)(the -1.63)(shore -5.33)(. -5.22) line score is : -2.916, look ahead score is : 0.000
+-------------------------score:  -2.847360212694515;  adjusted_score: -2.8212729365039957----------------------- 
+there was a silly chef named theodore 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and set on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(set -3.62)(on -3.43)(the -1.57)(shore -6.60)(. -6.62) line score is : -3.101, look ahead score is : 0.000
+-------------------------score:  -2.8571121268200153;  adjusted_score: -2.831024850629496----------------------- 
+there once was a chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and set on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.97)(spent -5.48)(all -2.72)(his -0.50)(money -2.03)(in -3.21)(a -2.04)(store -4.70)(. -2.50) line score is : -2.795, look ahead score is : 0.000
+(it -2.50)(was -3.58)(for -1.03)(his -6.09)(birthday -2.73)(, -2.83) line score is : -3.128, look ahead score is : 0.602
+(but -2.83)(it -1.56)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.411, look ahead score is : 0.702
+(so -3.17)(he -2.16)(got -2.01)(up -1.44)(and -0.40)(set -3.62)(on -3.43)(the -1.57)(shore -6.60)(. -6.62) line score is : -3.101, look ahead score is : 0.000
+-------------------------score:  -2.8829105812491793;  adjusted_score: -2.85682330505866----------------------- 
+there was a silly chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and set on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(gave -2.01)(up -1.44)(and -0.40)(set -3.89)(on -3.91)(the -1.63)(shore -6.38)(. -7.02) line score is : -3.201, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ but they went the wrong way 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.76235241059101;  adjusted_score: -2.7362651344004907----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and quit on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(got -2.01)(up -1.18)(and -0.71)(quit -3.47)(on -3.78)(the -1.69)(break -7.16)(. -3.52) line score is : -2.861, look ahead score is : 0.000
+-------------------------score:  -2.7657273971673213;  adjusted_score: -2.739640120976802----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and beat on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(got -2.01)(up -1.18)(and -0.71)(beat -3.47)(on -3.78)(the -1.69)(break -6.70)(. -2.27) line score is : -2.690, look ahead score is : 0.000
+-------------------------score:  -2.805850939317183;  adjusted_score: -2.779763663126664----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and drank on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(gave -2.01)(up -1.18)(and -0.71)(drank -3.70)(on -3.59)(the -1.67)(break -6.78)(. -6.39) line score is : -3.111, look ahead score is : 0.000
+-------------------------score:  -2.810644906578642;  adjusted_score: -2.7845576303881225----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and quit on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(gave -2.01)(up -1.18)(and -0.71)(quit -3.70)(on -3.59)(the -1.67)(break -7.24)(. -3.92) line score is : -2.912, look ahead score is : 0.000
+-------------------------score:  -2.8122296116568823;  adjusted_score: -2.786142335466363----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and drank on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(got -2.01)(up -1.18)(and -0.71)(drank -3.47)(on -3.78)(the -1.69)(break -7.02)(. -6.66) line score is : -3.161, look ahead score is : 0.000
+-------------------------score:  -2.8155983957377346;  adjusted_score: -2.7895111195472153----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and read on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(got -2.01)(up -1.18)(and -0.71)(read -3.47)(on -3.78)(the -1.69)(break -7.24)(. -4.56) line score is : -2.973, look ahead score is : 0.000
+-------------------------score:  -2.8574610713756448;  adjusted_score: -2.8313737951851254----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and drove on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(got -2.01)(up -1.18)(and -0.71)(drove -3.47)(on -3.78)(the -1.69)(break -4.39)(. -5.95) line score is : -2.827, look ahead score is : 0.000
+-------------------------score:  -2.8717878822124367;  adjusted_score: -2.8457006060219174----------------------- 
+there was a silly chef named ned 
+ who wanted a fried egg on his bread . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he went up and put on the bed . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(bread -4.80)(. -1.92) line score is : -2.960, look ahead score is : 0.000
+(it -1.92)(was -3.52)(for -0.95)(his -6.23)(birthday -3.31)(, -1.29) line score is : -2.869, look ahead score is : 0.602
+(but -1.29)(it -1.39)(was -1.95)(the -2.48)(wrong -1.01)(day -3.93)(, -3.27) line score is : -2.190, look ahead score is : 0.702
+(so -3.27)(he -1.95)(went -2.00)(up -1.23)(and -0.63)(put -2.80)(on -4.25)(the -2.93)(bed -5.40)(. -2.68) line score is : -2.716, look ahead score is : 0.000
+-------------------------score:  -2.8864336718212473;  adjusted_score: -2.860346395630728----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he got up and set on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(got -2.01)(up -1.18)(and -0.71)(set -3.47)(on -3.78)(the -1.69)(break -6.30)(. -6.39) line score is : -3.062, look ahead score is : 0.000
+-------------------------score:  -2.909787458000761;  adjusted_score: -2.8837001818102417----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and drove on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(gave -2.01)(up -1.18)(and -0.71)(drove -3.70)(on -3.59)(the -1.67)(break -6.23)(. -5.26) line score is : -2.944, look ahead score is : 0.000
+-------------------------score:  -2.9276451251723548;  adjusted_score: -2.9015578489818354----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and cut on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(gave -2.01)(up -1.18)(and -0.71)(cut -3.70)(on -3.59)(the -1.67)(break -6.86)(. -6.61) line score is : -3.142, look ahead score is : 0.000
+-------------------------score:  -2.9429567925857776;  adjusted_score: -2.9168695163952583----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and set on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(gave -2.01)(up -1.18)(and -0.71)(set -3.70)(on -3.59)(the -1.67)(break -6.48)(. -6.76) line score is : -3.119, look ahead score is : 0.000
+-------------------------score:  -2.9536949811559734;  adjusted_score: -2.927607704965454----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he called up and set on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(called -2.01)(up -1.18)(and -0.71)(set -3.86)(on -2.87)(the -3.38)(break -6.30)(. -7.46) line score is : -3.286, look ahead score is : 0.000
+-------------------------score:  -2.9965465700987615;  adjusted_score: -2.970459293908242----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he gave up and let on the break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(so -3.07)(he -2.02)(gave -2.01)(up -1.18)(and -0.71)(let -3.70)(on -3.59)(the -1.67)(break -4.87)(. -8.06) line score is : -3.087, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ BUT PRP VBD THE JJ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ but they went the wrong way 
+ as it tried to explain , I am a spi 
+-------------------------score:  -2.84628623548676;  adjusted_score: -2.8201989592962406----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as i had to go , i have a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(i -2.02)(had -2.01)(to -2.99)(go -3.88)(, -1.97)(i -1.58)(have -2.06)(a -4.98)(break -3.69)(. -4.73) line score is : -2.998, look ahead score is : 0.000
+-------------------------score:  -2.8655689972288467;  adjusted_score: -2.8394817210383274----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , he heard a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(he -1.97)(heard -2.69)(a -3.61)(break -3.65)(. -6.33) line score is : -2.867, look ahead score is : 0.000
+-------------------------score:  -2.875340330250123;  adjusted_score: -2.8492530540596035----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , he heard a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(he -1.97)(heard -2.69)(a -3.61)(wake -3.65)(. -6.33) line score is : -2.867, look ahead score is : 0.000
+-------------------------score:  -2.883616996162078;  adjusted_score: -2.857529719971559----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i have a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(have -2.69)(a -3.61)(break -6.37)(. -5.02) line score is : -2.995, look ahead score is : 0.000
+-------------------------score:  -2.8907740940065945;  adjusted_score: -2.864686817816075----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to go , he heard a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(go -1.38)(, -1.82)(he -1.97)(heard -1.79)(a -5.53)(break -3.34)(. -6.17) line score is : -2.918, look ahead score is : 0.000
+-------------------------score:  -2.890831601970336;  adjusted_score: -2.864744325779817----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to go , he heard a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(go -1.38)(, -1.82)(he -1.97)(heard -1.79)(a -5.53)(wake -3.34)(. -6.17) line score is : -2.918, look ahead score is : 0.000
+-------------------------score:  -2.892057140083874;  adjusted_score: -2.865969863893355----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to run , he heard a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(run -1.38)(, -1.82)(he -1.97)(heard -4.33)(a -4.74)(wake -3.19)(. -5.07) line score is : -2.963, look ahead score is : 0.000
+-------------------------score:  -2.893674017751918;  adjusted_score: -2.8675867415613987----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to leave , he heard a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(leave -1.38)(, -1.82)(he -1.97)(heard -2.63)(a -5.20)(wake -3.49)(. -6.15) line score is : -2.974, look ahead score is : 0.000
+-------------------------score:  -2.898659630733378;  adjusted_score: -2.8725723545428585----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to leave , he heard a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(leave -1.38)(, -1.82)(he -1.97)(heard -2.63)(a -5.20)(break -3.49)(. -6.15) line score is : -2.974, look ahead score is : 0.000
+-------------------------score:  -2.8987284565673157;  adjusted_score: -2.8726411803767964----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to run , he heard a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(run -1.38)(, -1.82)(he -1.97)(heard -4.33)(a -4.74)(break -3.19)(. -5.07) line score is : -2.963, look ahead score is : 0.000
+-------------------------score:  -2.9273110435289493;  adjusted_score: -2.90122376733843----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i mean a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(mean -2.69)(a -3.61)(break -6.37)(. -4.43) line score is : -2.941, look ahead score is : 0.000
+-------------------------score:  -2.9280604702584885;  adjusted_score: -2.901973194067969----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as i had to go , i mean a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(i -2.02)(had -2.01)(to -2.99)(go -3.88)(, -1.97)(i -1.58)(mean -2.06)(a -4.98)(break -3.69)(. -4.69) line score is : -2.995, look ahead score is : 0.000
+-------------------------score:  -2.931853983332129;  adjusted_score: -2.9057667071416096----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i heard a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(heard -2.69)(a -3.61)(break -6.37)(. -5.60) line score is : -3.048, look ahead score is : 0.000
+-------------------------score:  -2.947174417621949;  adjusted_score: -2.9210871414314297----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i heard a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(heard -2.69)(a -3.61)(wake -6.37)(. -5.60) line score is : -3.048, look ahead score is : 0.000
+-------------------------score:  -2.965653140755261;  adjusted_score: -2.9395658645647416----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as i had to go , i mean a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(i -2.02)(had -2.01)(to -2.99)(go -3.88)(, -1.97)(i -1.58)(mean -2.06)(a -4.98)(wake -3.69)(. -4.69) line score is : -2.995, look ahead score is : 0.000
+-------------------------score:  -2.9682416652931884;  adjusted_score: -2.942154389102669----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i mean a wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(mean -2.69)(a -3.61)(wake -6.37)(. -4.43) line score is : -2.941, look ahead score is : 0.000
+-------------------------score:  -2.968342544401393;  adjusted_score: -2.942255268210874----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i think a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(think -2.69)(a -3.61)(break -6.37)(. -2.36) line score is : -2.753, look ahead score is : 0.000
+-------------------------score:  -2.9770291289862465;  adjusted_score: -2.950941852795727----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as i had to go , i guess a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(i -2.02)(had -2.01)(to -2.99)(go -3.88)(, -1.97)(i -1.58)(guess -2.06)(a -4.98)(break -3.69)(. -2.82) line score is : -2.825, look ahead score is : 0.000
+-------------------------score:  -2.977323856423883;  adjusted_score: -2.9512365802333638----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i guess a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(guess -2.69)(a -3.61)(break -6.37)(. -2.08) line score is : -2.728, look ahead score is : 0.000
+-------------------------score:  -3.012862592935562;  adjusted_score: -2.986775316745043----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as i had to go , i think a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(i -2.02)(had -2.01)(to -2.99)(go -3.88)(, -1.97)(i -1.58)(think -2.06)(a -4.98)(break -3.69)(. -3.66) line score is : -2.901, look ahead score is : 0.000
+-------------------------score:  -3.0341786847395054;  adjusted_score: -3.008091408548986----------------------- 
+there was a silly chef named ted 
+ who wanted a fried egg on his bread . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , he heard a bed . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(bread -4.80)(. -1.92) line score is : -2.960, look ahead score is : 0.000
+(it -1.92)(was -3.52)(for -0.95)(his -6.23)(birthday -3.31)(, -1.29) line score is : -2.869, look ahead score is : 0.602
+(but -1.29)(it -1.39)(was -1.95)(the -2.48)(wrong -1.01)(day -3.93)(, -3.27) line score is : -2.190, look ahead score is : 0.702
+(as -3.27)(he -1.95)(had -2.00)(to -2.98)(work -1.33)(, -1.81)(he -1.95)(heard -2.74)(a -3.69)(bed -3.55)(. -6.21) line score is : -2.862, look ahead score is : 0.000
+-------------------------score:  -3.039506891194512;  adjusted_score: -3.0134196150039925----------------------- 
+there was a silly chef named ned 
+ who wanted a fried egg on his bread . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to go , he heard a bed . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(bread -4.80)(. -1.92) line score is : -2.960, look ahead score is : 0.000
+(it -1.92)(was -3.52)(for -0.95)(his -6.23)(birthday -3.31)(, -1.29) line score is : -2.869, look ahead score is : 0.602
+(but -1.29)(it -1.39)(was -1.95)(the -2.48)(wrong -1.01)(day -3.93)(, -3.27) line score is : -2.190, look ahead score is : 0.702
+(as -3.27)(he -1.95)(had -2.00)(to -2.98)(go -1.33)(, -1.81)(he -1.95)(heard -1.66)(a -5.54)(bed -3.21)(. -6.06) line score is : -2.889, look ahead score is : 0.000
+-------------------------score:  -3.0395360150757957;  adjusted_score: -3.0134487388852764----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i am a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(am -2.69)(a -3.61)(break -6.37)(. -5.15) line score is : -3.006, look ahead score is : 0.000
+-------------------------score:  -3.0595429364372704;  adjusted_score: -3.033455660246751----------------------- 
+there was a silly chef named ned 
+ who wanted a fried egg on his bread . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to leave , he heard a bed . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(bread -4.80)(. -1.92) line score is : -2.960, look ahead score is : 0.000
+(it -1.92)(was -3.52)(for -0.95)(his -6.23)(birthday -3.31)(, -1.29) line score is : -2.869, look ahead score is : 0.602
+(but -1.29)(it -1.39)(was -1.95)(the -2.48)(wrong -1.01)(day -3.93)(, -3.27) line score is : -2.190, look ahead score is : 0.702
+(as -3.27)(he -1.95)(had -2.00)(to -2.98)(leave -1.33)(, -1.81)(he -1.95)(heard -2.64)(a -5.16)(bed -3.37)(. -6.05) line score is : -2.956, look ahead score is : 0.000
+-------------------------score:  -3.073710758896435;  adjusted_score: -3.047623482705916----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , he swore a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(he -1.97)(swore -2.69)(a -3.61)(break -3.65)(. -7.80) line score is : -3.001, look ahead score is : 0.000
+-------------------------score:  -3.0749535017153797;  adjusted_score: -3.0488662255248604----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , i know a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(i -1.97)(know -2.69)(a -3.61)(break -6.37)(. -5.09) line score is : -3.001, look ahead score is : 0.000
+-------------------------score:  -3.085449476452435;  adjusted_score: -3.0593622002619156----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to go , he swore a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(go -1.38)(, -1.82)(he -1.97)(swore -1.79)(a -5.53)(break -3.34)(. -6.94) line score is : -2.988, look ahead score is : 0.000
+-------------------------score:  -3.0902553814298965;  adjusted_score: -3.064168105239377----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ as he had to work , they say a break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(it -1.37)(was -1.92)(the -2.55)(wrong -1.02)(day -3.96)(, -3.07) line score is : -2.101, look ahead score is : 0.702
+(as -3.07)(he -2.02)(had -2.01)(to -2.99)(work -1.38)(, -1.82)(they -1.97)(say -2.69)(a -3.61)(break -6.82)(. -4.92) line score is : -3.027, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD FOR PRP$ NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he bought for his daughter 
+ but they went the wrong way 
+ and now he 's a college professor 
+-------------------------score:  -2.8598415063273523;  adjusted_score: -2.8335815398346993----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but he got the wrong day , 
+ and now he has a permanent break . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(he -1.37)(got -1.92)(the -1.48)(wrong -3.69)(day -2.96)(, -1.61) line score is : -1.977, look ahead score is : 0.711
+(and -1.61)(now -4.81)(he -2.06)(has -1.55)(a -4.74)(permanent -1.05)(break -2.28)(. -1.94) line score is : -2.505, look ahead score is : 0.000
+-------------------------score:  -2.8864333994926943;  adjusted_score: -2.8601734330000412----------------------- 
+there was a silly chef named jake 
+ who wanted a fried egg on his cake . 
+ it was for his birthday , 
+ but he got the wrong day , 
+ and now he has a permanent wake . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(wanted -4.33)(a -2.98)(fried -5.31)(egg -2.26)(on -2.36)(his -1.34)(cake -5.17)(. -1.62) line score is : -2.968, look ahead score is : 0.000
+(it -1.62)(was -3.48)(for -0.95)(his -6.06)(birthday -2.89)(, -0.82) line score is : -2.636, look ahead score is : 0.602
+(but -0.82)(he -1.37)(got -1.92)(the -1.48)(wrong -3.69)(day -2.96)(, -1.61) line score is : -1.977, look ahead score is : 0.711
+(and -1.61)(now -4.81)(he -2.06)(has -1.55)(a -4.74)(permanent -1.05)(wake -2.28)(. -1.94) line score is : -2.505, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP VBP THROUGH A NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ but they went the wrong way 
+ so they flew through a flaw in the flue 
+-------------------------score:  -2.8795126035357965;  adjusted_score: -2.853425327345277----------------------- 
+there was a silly chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he rode through a field towards the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(rode -2.01)(through -1.44)(a -0.40)(field -7.96)(towards -4.51)(the -3.53)(shore -4.01)(. -5.99) line score is : -3.518, look ahead score is : 0.000
+-------------------------score:  -2.881478536309618;  adjusted_score: -2.8553912601190987----------------------- 
+there was a silly chef named salvador 
+ who spent all his money in a store . 
+ it was for his birthday , 
+ but it was the wrong day , 
+ so he rode through a storm towards the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.33)(spent -5.88)(all -2.25)(his -0.47)(money -1.26)(in -3.23)(a -2.09)(store -4.86)(. -3.11) line score is : -2.720, look ahead score is : 0.000
+(it -3.11)(was -3.76)(for -1.26)(his -6.33)(birthday -2.71)(, -2.59) line score is : -3.293, look ahead score is : 0.602
+(but -2.59)(it -1.53)(was -2.03)(the -2.61)(wrong -0.84)(day -3.83)(, -3.17) line score is : -2.372, look ahead score is : 0.702
+(so -3.17)(he -2.16)(rode -2.01)(through -1.44)(a -0.40)(storm -7.96)(towards -4.51)(the -3.53)(shore -3.31)(. -6.82) line score is : -3.531, look ahead score is : 0.000

@@ -1,0 +1,110 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ BUT PRP VBD PRP VBD VBG PRP JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was told by his wife 
+ but they felt it was doing them good 
+-------------------------score:  -2.7595349606126547;  adjusted_score: -2.734683986902237----------------------- 
+there was a lame actor named otto 
+ who played a big role on our show . 
+ when we started to cast , 
+ we were thrilled by his past , 
+ but we knew we were taking it slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(when -1.80)(we -4.64)(started -1.25)(to -2.64)(cast -3.10)(, -4.44) line score is : -2.978, look ahead score is : 0.570
+(we -4.44)(were -2.45)(thrilled -0.84)(by -2.20)(his -5.83)(past -3.42)(, -1.84) line score is : -3.002, look ahead score is : 0.673
+(but -1.84)(we -6.57)(knew -3.40)(we -1.33)(were -1.04)(taking -2.02)(it -1.61)(slow -2.51)(. -3.84) line score is : -2.685, look ahead score is : 0.000
+-------------------------score:  -2.7855881806463003;  adjusted_score: -2.760732903331518----------------------- 
+there was a lame actor named gilberto 
+ who played a big role on our show . 
+ when we started to cast , 
+ we were shocked by his past , 
+ but we knew we were taking it slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(when -1.80)(we -4.64)(started -1.25)(to -2.64)(cast -3.10)(, -4.44) line score is : -2.978, look ahead score is : 0.570
+(we -4.44)(were -2.45)(shocked -0.84)(by -2.20)(his -5.03)(past -1.77)(, -3.45) line score is : -2.884, look ahead score is : 0.673
+(but -3.45)(we -7.00)(knew -2.58)(we -1.94)(were -1.25)(taking -1.92)(it -2.16)(slow -2.49)(. -3.97) line score is : -2.973, look ahead score is : 0.000
+-------------------------score:  -2.8541479725390673;  adjusted_score: -2.8292969988286494----------------------- 
+there was a lame actor named woodrow 
+ who played a big role on our show . 
+ when we started to cast , 
+ we were thrilled by his past , 
+ but we knew we were taking him slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(when -1.80)(we -4.64)(started -1.25)(to -2.64)(cast -3.10)(, -4.44) line score is : -2.978, look ahead score is : 0.570
+(we -4.44)(were -2.45)(thrilled -0.84)(by -2.20)(his -5.83)(past -3.42)(, -1.84) line score is : -3.002, look ahead score is : 0.673
+(but -1.84)(we -6.57)(knew -3.40)(we -1.33)(were -1.04)(taking -2.02)(him -1.61)(slow -2.51)(. -3.84) line score is : -2.685, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ AND PRP VBD TO THE NN , 
+ BUT PRP VBD PRP VBD VBG PRP JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ and they rushed to the rail 
+ but they felt it was doing them good 
+-------------------------score:  -3.095112709328532;  adjusted_score: -3.0721036233752965----------------------- 
+there was a lame actor named benito 
+ who played a big role on our show . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ but it was it was taking it slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(it -1.80)(was -3.45)(on -0.92)(the -6.00)(soundtrack -1.57)(, -6.13) line score is : -3.313, look ahead score is : 0.563
+(and -6.13)(it -2.85)(was -2.04)(to -1.70)(the -0.62)(track -6.63)(, -2.12) line score is : -3.156, look ahead score is : 0.588
+(but -2.12)(it -5.27)(was -2.89)(it -3.03)(was -1.40)(taking -0.60)(it -6.04)(slow -1.22)(. -8.67) line score is : -3.474, look ahead score is : 0.000
+-------------------------score:  -3.100722363218665;  adjusted_score: -3.076459665670991----------------------- 
+there was a lame actor named otto 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he came to the track , 
+ but it was me was playing it slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(he -1.80)(was -1.72)(on -1.37)(the -4.47)(soundtrack -1.25)(, -6.96) line score is : -2.929, look ahead score is : 0.563
+(and -6.96)(he -2.23)(came -2.02)(to -0.95)(the -4.07)(track -2.01)(, -1.80) line score is : -2.863, look ahead score is : 0.651
+(but -1.80)(it -8.64)(was -2.51)(me -3.46)(was -2.51)(playing -0.73)(it -3.70)(slow -9.33)(. -3.16) line score is : -3.981, look ahead score is : 0.000
+-------------------------score:  -3.1047017108649015;  adjusted_score: -3.081692624911666----------------------- 
+there was a lame actor named woodrow 
+ who played a big role on our show . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ but it was it was doing it slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(it -1.80)(was -3.45)(on -0.92)(the -6.00)(soundtrack -1.57)(, -6.13) line score is : -3.313, look ahead score is : 0.563
+(and -6.13)(it -2.85)(was -2.04)(to -1.70)(the -0.62)(track -6.63)(, -2.12) line score is : -3.156, look ahead score is : 0.588
+(but -2.12)(it -5.27)(was -2.89)(it -3.03)(was -1.40)(doing -0.60)(it -6.04)(slow -1.22)(. -7.72) line score is : -3.369, look ahead score is : 0.000
+-------------------------score:  -3.1854661013931036;  adjusted_score: -3.1612034038454295----------------------- 
+there was a lame actor named adolfo 
+ who played a big role on our show . 
+ he was on the soundtrack , 
+ and he came to the track , 
+ but it was me was playing him slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(he -1.80)(was -1.72)(on -1.37)(the -4.47)(soundtrack -1.25)(, -6.96) line score is : -2.929, look ahead score is : 0.563
+(and -6.96)(he -2.23)(came -2.02)(to -0.95)(the -4.07)(track -2.01)(, -1.80) line score is : -2.863, look ahead score is : 0.651
+(but -1.80)(it -8.64)(was -2.51)(me -3.46)(was -2.51)(playing -0.73)(him -3.70)(slow -9.33)(. -3.16) line score is : -3.981, look ahead score is : 0.000
+-------------------------score:  -3.2023224849253893;  adjusted_score: -3.1793133989721536----------------------- 
+there was a lame actor named monroe 
+ who played a big role on our show . 
+ it was on the soundtrack , 
+ and it was to the track , 
+ but it was it was having it slow . 
+------------------------- score breakdown ------------------------ 
+(who -2.25)(played -1.39)(a -2.09)(big -4.80)(role -1.25)(on -3.76)(our -5.25)(show -0.73)(. -1.80) line score is : -2.591, look ahead score is : 0.000
+(it -1.80)(was -3.45)(on -0.92)(the -6.00)(soundtrack -1.57)(, -6.13) line score is : -3.313, look ahead score is : 0.563
+(and -6.13)(it -2.85)(was -2.04)(to -1.70)(the -0.62)(track -6.63)(, -2.12) line score is : -3.156, look ahead score is : 0.588
+(but -2.12)(it -5.27)(was -2.89)(it -3.03)(was -1.40)(having -0.60)(it -6.04)(slow -1.22)(. -8.64) line score is : -3.470, look ahead score is : 0.000

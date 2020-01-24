@@ -1,506 +1,1892 @@
 ======================= template: 1 ============================  
 sarah 
- WHO VBD A JJ NN ON PRP$ NN . 
+ WHO VBD A JJ NN EACH NN . 
  WHEN PRP VBD TO NN , 
  PRP VBD VBN BY A NN , 
- BUT THE NN VBD JJ NN , PRP COULD VB . 
+ SO PRP VBD TO VB DOWN ON THE NN . 
 ----------------------- original sentences ------------------------------------ 
-who had a large wart on her nose 
+who read a love story each day 
  when he went to bed 
  he was pained by a tooth 
- but the wood-duck had good luck , they could duck 
--------------------------score:  -3.1368641669259354;  adjusted_score: -3.1125526150272176----------------------- 
-there once was a surgeon named deedee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown fat , she could see . 
+ so he had to sit down on the floor 
+-------------------------score:  -2.9709309972822666;  adjusted_score: -2.9471626830101014----------------------- 
+there was a stubborn nurse named gaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to lie down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(fat -3.14)(, -2.58)(she -5.56)(could -5.26)(see -2.08)(. -4.99) line score is : -3.673, look ahead score is : 0.000
--------------------------score:  -3.138034381410655;  adjusted_score: -3.1137228301079833----------------------- 
-there once was a surgeon named bee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown cold , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(lie -1.07)(down -3.62)(on -0.58)(the -3.69)(way -0.92)(. -1.59) line score is : -2.348, look ahead score is : 0.000
+-------------------------score:  -3.070996383205056;  adjusted_score: -3.047228068932891----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to sit down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(cold -3.16)(, -2.61)(she -5.69)(could -6.42)(see -2.36)(. -4.47) line score is : -3.721, look ahead score is : 0.000
--------------------------score:  -3.1428808946819866;  adjusted_score: -3.118569343379315----------------------- 
-there once was a surgeon named li 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown fat , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(sit -1.07)(down -3.62)(on -0.58)(the -4.39)(way -1.83)(. -2.15) line score is : -2.565, look ahead score is : 0.000
+-------------------------score:  -3.0990564743988216;  adjusted_score: -3.0752881601266564----------------------- 
+there was a stubborn nurse named jaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to climb down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(fat -3.16)(, -2.61)(she -5.69)(could -5.61)(see -2.05)(. -4.95) line score is : -3.663, look ahead score is : 0.000
--------------------------score:  -3.1433333149727654;  adjusted_score: -3.1190217630740475----------------------- 
-there once was a surgeon named rosalee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown cold , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(climb -1.07)(down -4.08)(on -0.19)(the -3.86)(way -2.57)(. -4.05) line score is : -2.783, look ahead score is : 0.000
+-------------------------score:  -3.133666682522744;  adjusted_score: -3.1098983682505787----------------------- 
+there was a stubborn nurse named wei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to get down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(cold -3.14)(, -2.58)(she -5.56)(could -6.27)(see -2.35)(. -4.64) line score is : -3.758, look ahead score is : 0.000
--------------------------score:  -3.147045860395712;  adjusted_score: -3.1227343090930404----------------------- 
-there once was a surgeon named deedee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy was dead right , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(get -1.07)(down -4.08)(on -0.19)(the -2.91)(way -4.73)(. -2.69) line score is : -2.768, look ahead score is : 0.000
+-------------------------score:  -3.137422534637153;  adjusted_score: -3.113654220364988----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to stay down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(was -1.74)(dead -2.18)(right -3.16)(, -1.52)(she -3.08)(could -7.00)(see -7.91)(. -2.16) line score is : -3.732, look ahead score is : 0.000
--------------------------score:  -3.1482396292335846;  adjusted_score: -3.1239280773348668----------------------- 
-there once was a surgeon named li 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy was dead cold , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(stay -1.07)(down -3.62)(on -0.58)(the -3.71)(way -5.33)(. -2.29) line score is : -2.861, look ahead score is : 0.000
+-------------------------score:  -3.151947862934321;  adjusted_score: -3.128179548662156----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to jump down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(was -1.98)(dead -2.19)(cold -3.14)(, -1.50)(she -3.37)(could -9.60)(see -2.54)(. -3.91) line score is : -3.714, look ahead score is : 0.000
--------------------------score:  -3.1484838469940075;  adjusted_score: -3.124172295691336----------------------- 
-there once was a surgeon named loree 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown stiff , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(jump -1.07)(down -4.08)(on -0.19)(the -4.27)(way -4.02)(. -4.32) line score is : -2.996, look ahead score is : 0.000
+-------------------------score:  -3.1541063375771046;  adjusted_score: -3.1303380233049394----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to go down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(stiff -3.16)(, -2.61)(she -5.69)(could -6.75)(see -2.28)(. -4.24) line score is : -3.722, look ahead score is : 0.000
--------------------------score:  -3.15578792989254;  adjusted_score: -3.1314763785898685----------------------- 
-there once was a surgeon named yee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the child was dead right , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(go -1.07)(down -3.62)(on -0.58)(the -3.32)(way -4.29)(. -2.90) line score is : -2.778, look ahead score is : 0.000
+-------------------------score:  -3.171710606198758;  adjusted_score: -3.1479422919265927----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to crawl down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(child -2.73)(was -1.74)(dead -2.18)(right -3.25)(, -1.55)(she -2.93)(could -7.18)(see -8.11)(. -2.18) line score is : -3.765, look ahead score is : 0.000
--------------------------score:  -3.1601715254433014;  adjusted_score: -3.1358599735445836----------------------- 
-there once was a surgeon named geri 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown stiff , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(crawl -1.07)(down -4.08)(on -0.19)(the -3.45)(way -4.73)(. -4.63) line score is : -3.016, look ahead score is : 0.000
+-------------------------score:  -3.178310465067625;  adjusted_score: -3.15454215079546----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to crawl down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(stiff -3.14)(, -2.58)(she -5.56)(could -6.95)(see -2.27)(. -4.47) line score is : -3.797, look ahead score is : 0.000
--------------------------score:  -3.160442516207695;  adjusted_score: -3.136130964308977----------------------- 
-there once was a surgeon named yee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy was dead right , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(crawl -1.07)(down -3.62)(on -0.58)(the -3.85)(way -4.37)(. -4.33) line score is : -2.983, look ahead score is : 0.000
+-------------------------score:  -3.1807568818330765;  adjusted_score: -3.1569885675609113----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to get down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(was -1.98)(dead -2.19)(right -3.14)(, -1.50)(she -3.37)(could -6.69)(see -7.61)(. -2.07) line score is : -3.744, look ahead score is : 0.000
--------------------------score:  -3.171985190580873;  adjusted_score: -3.1476736386821553----------------------- 
-there once was a surgeon named deedee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the child was dead right , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(get -1.07)(down -3.62)(on -0.58)(the -4.06)(way -5.80)(. -1.38) line score is : -2.851, look ahead score is : 0.000
+-------------------------score:  -3.1877400311641395;  adjusted_score: -3.1639717168919743----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to run down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(child -2.85)(was -1.98)(dead -2.19)(right -3.57)(, -1.46)(she -2.97)(could -7.02)(see -7.92)(. -2.02) line score is : -3.796, look ahead score is : 0.000
--------------------------score:  -3.1770143324837967;  adjusted_score: -3.1527027811811252----------------------- 
-there once was a surgeon named yee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown hurt , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(run -1.07)(down -4.08)(on -0.19)(the -2.65)(way -5.06)(. -6.63) line score is : -3.169, look ahead score is : 0.000
+-------------------------score:  -3.189869664609432;  adjusted_score: -3.166101350337267----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to walk down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(hurt -3.16)(, -2.61)(she -5.69)(could -7.41)(see -2.38)(. -4.20) line score is : -3.788, look ahead score is : 0.000
--------------------------score:  -3.1801018320462284;  adjusted_score: -3.155790280743557----------------------- 
-there once was a surgeon named mi 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown sore , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(walk -1.07)(down -3.62)(on -0.58)(the -3.08)(way -4.02)(. -6.38) line score is : -3.075, look ahead score is : 0.000
+-------------------------score:  -3.1911972681991756;  adjusted_score: -3.1674289539270104----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to catch down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(sore -3.16)(, -2.61)(she -5.69)(could -7.29)(see -2.45)(. -4.31) line score is : -3.794, look ahead score is : 0.000
--------------------------score:  -3.218073868576218;  adjusted_score: -3.1937623172735465----------------------- 
-there once was a surgeon named mi 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the child died long term , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(catch -1.07)(down -4.08)(on -0.19)(the -4.14)(way -8.62)(. -2.45) line score is : -3.255, look ahead score is : 0.000
+-------------------------score:  -3.202153567224741;  adjusted_score: -3.178385252952576----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to be down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(child -2.73)(died -1.74)(long -2.18)(term -3.25)(, -1.66)(she -6.93)(could -5.53)(see -3.06)(. -3.31) line score is : -3.634, look ahead score is : 0.000
--------------------------score:  -3.2336615911301445;  adjusted_score: -3.209350039827473----------------------- 
-there once was a surgeon named lea 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown deaf , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(be -1.07)(down -3.62)(on -0.58)(the -1.30)(way -9.33)(. -1.44) line score is : -2.935, look ahead score is : 0.000
+-------------------------score:  -3.2071996992453933;  adjusted_score: -3.183431384973228----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she went to sleep down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(deaf -3.16)(, -2.61)(she -5.69)(could -6.53)(see -2.33)(. -4.54) line score is : -3.734, look ahead score is : 0.000
--------------------------score:  -3.234909870168742;  adjusted_score: -3.210598318270024----------------------- 
-there once was a surgeon named marie 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown deaf , she could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(went -1.97)(to -4.79)(sleep -1.07)(down -3.51)(on -0.52)(the -3.77)(way -7.44)(. -2.53) line score is : -3.085, look ahead score is : 0.000
+-------------------------score:  -3.215858533512801;  adjusted_score: -3.1920902192406357----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to walk down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(deaf -3.14)(, -2.58)(she -5.56)(could -6.61)(see -2.27)(. -4.62) line score is : -3.780, look ahead score is : 0.000
--------------------------score:  -3.2441814357743546;  adjusted_score: -3.2198698838756368----------------------- 
-there once was a surgeon named sheree 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown fat , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(walk -1.07)(down -4.08)(on -0.19)(the -3.30)(way -4.70)(. -7.06) line score is : -3.240, look ahead score is : 0.000
+-------------------------score:  -3.2428957405500114;  adjusted_score: -3.219127426277846----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to stop down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(fat -3.14)(, -2.58)(he -5.56)(could -5.26)(see -2.08)(. -4.63) line score is : -3.640, look ahead score is : 0.000
--------------------------score:  -3.2604236278463814;  adjusted_score: -3.23611207654371----------------------- 
-there once was a surgeon named geri 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown fat , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(stop -1.07)(down -4.08)(on -0.19)(the -3.84)(way -9.33)(. -4.02) line score is : -3.454, look ahead score is : 0.000
+-------------------------score:  -3.2807444925419986;  adjusted_score: -3.2569761782698334----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to move down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(fat -3.16)(, -2.61)(he -5.69)(could -5.61)(see -2.05)(. -4.62) line score is : -3.633, look ahead score is : 0.000
--------------------------score:  -3.2626438237288418;  adjusted_score: -3.2383322724261703----------------------- 
-there once was a surgeon named deedee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown cold , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(move -1.07)(down -4.08)(on -0.19)(the -4.04)(way -6.66)(. -5.41) line score is : -3.346, look ahead score is : 0.000
+-------------------------score:  -3.2877295035868883;  adjusted_score: -3.263961189314723----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to wait down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(cold -3.16)(, -2.61)(he -5.69)(could -6.42)(see -2.36)(. -4.39) line score is : -3.713, look ahead score is : 0.000
--------------------------score:  -3.2685705835328385;  adjusted_score: -3.2442590316341207----------------------- 
-there once was a surgeon named li 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown cold , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(wait -1.07)(down -3.62)(on -0.58)(the -3.46)(way -8.30)(. -3.90) line score is : -3.293, look ahead score is : 0.000
+-------------------------score:  -3.3046780694276094;  adjusted_score: -3.2809097551554443----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she went to work down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(cold -3.14)(, -2.58)(he -5.56)(could -6.27)(see -2.35)(. -4.50) line score is : -3.746, look ahead score is : 0.000
--------------------------score:  -3.269062900367905;  adjusted_score: -3.2447513484691872----------------------- 
-there once was a surgeon named ranee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy was dead cold , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(went -1.97)(to -4.79)(work -1.07)(down -3.51)(on -0.52)(the -4.58)(way -8.42)(. -3.70) line score is : -3.381, look ahead score is : 0.000
+-------------------------score:  -3.3100488274358213;  adjusted_score: -3.286280513163656----------------------- 
+there was a stubborn nurse named wei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to hide down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(was -1.98)(dead -2.19)(cold -3.14)(, -1.50)(he -3.37)(could -9.60)(see -2.54)(. -4.68) line score is : -3.784, look ahead score is : 0.000
--------------------------score:  -3.2873662175501095;  adjusted_score: -3.263054666247438----------------------- 
-there once was a surgeon named see 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown sore , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(hide -1.07)(down -4.08)(on -0.19)(the -4.34)(way -8.73)(. -3.38) line score is : -3.380, look ahead score is : 0.000
+-------------------------score:  -3.311303041409701;  adjusted_score: -3.287534727137536----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to flee down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(sore -3.16)(, -2.61)(he -5.69)(could -7.29)(see -2.45)(. -4.47) line score is : -3.809, look ahead score is : 0.000
--------------------------score:  -3.2934478793074105;  adjusted_score: -3.2691363274086926----------------------- 
-there once was a surgeon named bee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown pale , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(flee -1.07)(down -4.08)(on -0.19)(the -4.20)(way -6.05)(. -7.45) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -3.3315394851379097;  adjusted_score: -3.3077711708657445----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she tried to find down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(pale -3.14)(, -2.58)(he -5.56)(could -6.70)(see -2.19)(. -4.71) line score is : -3.789, look ahead score is : 0.000
--------------------------score:  -3.298562929034233;  adjusted_score: -3.2742513777315616----------------------- 
-there once was a surgeon named andree 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown pale , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(tried -1.97)(to -4.79)(find -1.07)(down -4.08)(on -0.19)(the -3.85)(way -9.33)(. -3.88) line score is : -3.442, look ahead score is : 0.000
+-------------------------score:  -3.3409263230860233;  adjusted_score: -3.317158008813858----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to leave down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(pale -3.16)(, -2.61)(he -5.69)(could -6.91)(see -2.19)(. -4.58) line score is : -3.761, look ahead score is : 0.000
--------------------------score:  -3.3118728145080456;  adjusted_score: -3.287561262609328----------------------- 
-there once was a surgeon named bibi 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy was dead right , she could be . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(leave -1.07)(down -3.62)(on -0.58)(the -4.25)(way -9.59)(. -6.20) line score is : -3.732, look ahead score is : 0.000
+-------------------------score:  -3.352120518684387;  adjusted_score: -3.328352204412222----------------------- 
+there was a stubborn nurse named maye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to take down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(was -1.98)(dead -2.19)(right -3.14)(, -1.50)(she -3.37)(could -6.69)(be -7.61)(. -2.07) line score is : -3.744, look ahead score is : 0.000
--------------------------score:  -3.3126757416655037;  adjusted_score: -3.288364189766786----------------------- 
-there once was a surgeon named mi 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown deaf , he could see . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(take -1.07)(down -3.62)(on -0.58)(the -3.81)(way -7.28)(. -7.65) line score is : -3.601, look ahead score is : 0.000
+-------------------------score:  -3.3942292034626007;  adjusted_score: -3.3704608891904355----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she had to spend down on the way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(deaf -3.14)(, -2.58)(he -5.56)(could -6.61)(see -2.27)(. -4.85) line score is : -3.801, look ahead score is : 0.000
--------------------------score:  -3.3168353499735104;  adjusted_score: -3.292523798670839----------------------- 
-there once was a surgeon named lea 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown deaf , he could see . 
-------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(deaf -3.16)(, -2.61)(he -5.69)(could -6.53)(see -2.33)(. -4.79) line score is : -3.757, look ahead score is : 0.000
--------------------------score:  -3.323257357758634;  adjusted_score: -3.2989458064559627----------------------- 
-there once was a surgeon named ji 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown fat , it could be . 
-------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(fat -3.16)(, -2.61)(it -5.69)(could -5.61)(be -2.05)(. -6.59) line score is : -3.812, look ahead score is : 0.000
--------------------------score:  -3.4066319947733597;  adjusted_score: -3.382320442874642----------------------- 
-there once was a surgeon named bee 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a train , 
- but the boy had grown fat , he could be . 
-------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(train -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.23)(boy -2.85)(had -1.98)(grown -2.19)(fat -3.14)(, -2.58)(he -5.56)(could -5.26)(be -2.08)(. -4.63) line score is : -3.640, look ahead score is : 0.000
--------------------------score:  -3.412712176933008;  adjusted_score: -3.3884006256303367----------------------- 
-there once was a surgeon named andree 
- who treated a young girl on her knee . 
- when she returned to pain , 
- she was saved by a plane , 
- but the boy had grown fat , he could be . 
-------------------------- score breakdown ------------------------ 
-(who -2.00)(treated -4.51)(a -3.51)(young -3.14)(girl -1.23)(on -5.29)(her -1.96)(knee -5.83)(. -1.45) line score is : -3.212, look ahead score is : 0.000
-(when -1.45)(she -3.89)(returned -1.10)(to -3.17)(pain -1.09)(, -9.32) line score is : -3.334, look ahead score is : 0.570
-(she -9.32)(was -0.92)(saved -0.62)(by -2.10)(a -5.46)(plane -0.32)(, -1.54) line score is : -2.897, look ahead score is : 0.646
-(but -1.54)(the -8.03)(boy -2.73)(had -1.74)(grown -2.18)(fat -3.16)(, -2.61)(he -5.69)(could -5.61)(be -2.05)(. -4.62) line score is : -3.633, look ahead score is : 0.000
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(had -1.97)(to -4.79)(spend -1.07)(down -3.62)(on -0.58)(the -3.80)(way -9.98)(. -5.48) line score is : -3.653, look ahead score is : 0.000
 ======================= template: 2 ============================  
 sarah 
  WHO VBD A JJ NN EACH NN . 
- PRP WOULD VB TO A NN , 
- VB A NN AT PRP$ NN , 
- AND VBD PRP$ NN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND VBD ON THE JJ NN . 
 ----------------------- original sentences ------------------------------------ 
 who read a love story each day 
- he would go to a party 
- take a pull at his hair 
- and gave his proboscis a tweak 
--------------------------score:  -3.369126429160436;  adjusted_score: -3.3444611393411954----------------------- 
-there once was a nurse named rea 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at their sheet , 
- and read their condition a survey . 
+ when he went to bed 
+ he was pained by a tooth 
+ and returned on the previous night 
+-------------------------score:  -3.1057150199495513;  adjusted_score: -3.081946705677386----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and died on the elevated way . 
 ------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(their -4.27)(sheet -0.73)(, -4.88) line score is : -3.784, look ahead score is : 0.652
-(and -4.88)(read -7.55)(their -0.89)(condition -0.64)(a -4.60)(survey -2.65)(. -3.22) line score is : -3.491, look ahead score is : 0.000
--------------------------score:  -3.4029304583867392;  adjusted_score: -3.3782651685674985----------------------- 
-there once was a nurse named fay 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at your sheet , 
- and read your condition a survey . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(died -4.06)(on -1.97)(the -1.55)(elevated -1.90)(way -2.92)(. -0.43) line score is : -2.004, look ahead score is : 0.000
+-------------------------score:  -3.1219567471537095;  adjusted_score: -3.0981884328815443----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and died on the intervening way . 
 ------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(your -4.27)(sheet -0.73)(, -6.03) line score is : -3.949, look ahead score is : 0.652
-(and -6.03)(read -6.76)(your -0.81)(condition -0.62)(a -5.14)(survey -2.32)(. -4.49) line score is : -3.737, look ahead score is : 0.000
--------------------------score:  -3.4050993899504345;  adjusted_score: -3.3804341001311937----------------------- 
-there once was a nurse named may 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at her sheet , 
- and read her insurance a survey . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(her -4.27)(sheet -0.73)(, -1.53) line score is : -3.306, look ahead score is : 0.652
-(and -1.53)(read -8.39)(her -0.84)(insurance -0.63)(a -4.90)(survey -2.95)(. -5.23) line score is : -3.494, look ahead score is : 0.000
--------------------------score:  -3.4495167195796967;  adjusted_score: -3.424851429760456----------------------- 
-there once was a nurse named rae 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at my sheet , 
- and read my insurance a survey . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(my -4.27)(sheet -0.73)(, -4.64) line score is : -3.751, look ahead score is : 0.652
-(and -4.64)(read -7.36)(my -0.91)(insurance -0.60)(a -5.18)(survey -2.43)(. -4.73) line score is : -3.692, look ahead score is : 0.000
--------------------------score:  -3.4537791550159453;  adjusted_score: -3.4291138651967046----------------------- 
-there once was a nurse named rea 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at their sheet , 
- and read their insurance a survey . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(their -4.27)(sheet -0.73)(, -4.88) line score is : -3.784, look ahead score is : 0.652
-(and -4.88)(read -7.55)(their -0.89)(insurance -0.64)(a -4.60)(survey -2.65)(. -4.38) line score is : -3.656, look ahead score is : 0.000
--------------------------score:  -3.4597351292769116;  adjusted_score: -3.435069839457671----------------------- 
-there once was a nurse named renee 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at her sheet , 
- and read her information a way . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(her -4.27)(sheet -0.73)(, -1.53) line score is : -3.306, look ahead score is : 0.652
-(and -1.53)(read -8.39)(her -0.84)(information -0.63)(a -4.90)(way -2.95)(. -5.87) line score is : -3.585, look ahead score is : 0.000
--------------------------score:  -3.462565412123998;  adjusted_score: -3.4379001223047574----------------------- 
-there once was a nurse named gaye 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at your sheet , 
- and read your insurance a survey . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(your -4.27)(sheet -0.73)(, -6.03) line score is : -3.949, look ahead score is : 0.652
-(and -6.03)(read -6.76)(your -0.81)(insurance -0.62)(a -5.14)(survey -2.32)(. -4.40) line score is : -3.726, look ahead score is : 0.000
--------------------------score:  -3.4713744779427844;  adjusted_score: -3.4467091881235437----------------------- 
-there once was a nurse named monet 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at his sheet , 
- and read his insurance a survey . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(his -4.27)(sheet -0.73)(, -4.20) line score is : -3.688, look ahead score is : 0.652
-(and -4.20)(read -7.77)(his -0.80)(insurance -0.65)(a -4.66)(survey -2.46)(. -5.19) line score is : -3.675, look ahead score is : 0.000
--------------------------score:  -3.502102428674698;  adjusted_score: -3.477437138855457----------------------- 
-there once was a nurse named maye 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at their sheet , 
- and read their information a way . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(their -4.27)(sheet -0.73)(, -4.88) line score is : -3.784, look ahead score is : 0.652
-(and -4.88)(read -7.55)(their -0.89)(information -0.64)(a -4.60)(way -2.65)(. -4.47) line score is : -3.669, look ahead score is : 0.000
--------------------------score:  -3.506876442829768;  adjusted_score: -3.4822111530105273----------------------- 
-there once was a nurse named gaye 
- who treated a sick patient each day . 
- she would go to a treat , 
- take a look at his sheet , 
- and read his information a way . 
-------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(take -9.12)(a -3.23)(look -3.19)(at -1.07)(his -4.27)(sheet -0.73)(, -4.20) line score is : -3.688, look ahead score is : 0.652
-(and -4.20)(read -7.77)(his -0.80)(information -0.65)(a -4.66)(way -2.46)(. -5.37) line score is : -3.699, look ahead score is : 0.000
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(died -4.06)(on -1.97)(the -1.55)(intervening -1.90)(way -2.92)(. -0.43) line score is : -2.004, look ahead score is : 0.000
 ======================= template: 3 ============================  
 sarah 
  WHO VBD A JJ NN EACH NN . 
- PRP WOULD VB TO A NN , 
- VB PRP$ NN AND PRP$ NNS , 
- AND RB THERE VBD JJ JJ IN PRP . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND THE NN ON THE NN OF THE NN . 
 ----------------------- original sentences ------------------------------------ 
 who read a love story each day 
- he would go to a party 
- stung his nose and his knees 
- and right there became awful sick in 'em 
--------------------------score:  -3.635218493640423;  adjusted_score: -3.6176636558771134----------------------- 
-there once was a nurse named mae 
- who treated a sick patient each day . 
- she would go to a treat , 
- wash her face and her feet , 
- and then there was much further in they . 
+ when he went to bed 
+ he was pained by a tooth 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.1936111617833376;  adjusted_score: -3.1698428475111724----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the blood on the floor of the way . 
 ------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(wash -9.12)(her -3.23)(face -4.60)(and -0.93)(her -2.60)(feet -1.30)(, -5.34) line score is : -3.873, look ahead score is : 0.297
-(and -5.34)(then -3.68)(there -0.78)(was -0.88)(much -1.33)(further -7.96)(in -0.96)(they -7.03)(. -6.42) line score is : -3.819, look ahead score is : 0.000
--------------------------score:  -3.661828450858593;  adjusted_score: -3.6442736130952835----------------------- 
-there once was a nurse named monet 
- who treated a sick patient each day . 
- she would go to a treat , 
- wash her face and her feet , 
- and then there was much fuss outside they . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(blood -1.97)(on -1.55)(the -3.61)(floor -5.30)(of -4.37)(the -1.82)(way -1.38)(. -2.15) line score is : -2.740, look ahead score is : 0.000
+-------------------------score:  -3.2533890632912517;  adjusted_score: -3.2296207490190865----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the right of the way . 
 ------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(wash -9.12)(her -3.23)(face -4.60)(and -0.93)(her -2.60)(feet -1.30)(, -5.34) line score is : -3.873, look ahead score is : 0.297
-(and -5.34)(then -3.68)(there -0.78)(was -0.88)(much -1.33)(fuss -7.96)(outside -0.96)(they -7.03)(. -5.12) line score is : -3.674, look ahead score is : 0.000
--------------------------score:  -3.6787846703082323;  adjusted_score: -3.661229832544923----------------------- 
-there once was a nurse named may 
- who treated a sick patient each day . 
- she would go to a treat , 
- wash her face and her feet , 
- and then there were other small though they . 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(right -5.64)(of -4.52)(the -0.45)(way -4.87)(. -2.81) line score is : -3.068, look ahead score is : 0.000
+-------------------------score:  -3.2631912771612406;  adjusted_score: -3.2394229628890754----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the fire on the floor of the way . 
 ------------------------- score breakdown ------------------------ 
-(who -1.58)(treated -5.05)(a -3.47)(sick -3.79)(patient -2.68)(each -6.83)(day -0.78)(. -1.21) line score is : -3.175, look ahead score is : 0.000
-(she -1.21)(would -1.36)(go -3.05)(to -3.18)(a -0.99)(treat -2.79)(, -9.12) line score is : -3.101, look ahead score is : 0.581
-(wash -9.12)(her -3.23)(face -4.60)(and -0.93)(her -2.60)(feet -1.30)(, -5.34) line score is : -3.873, look ahead score is : 0.297
-(and -5.34)(then -3.68)(there -0.78)(were -0.88)(other -1.33)(small -7.96)(though -2.96)(they -3.20)(. -6.26) line score is : -3.597, look ahead score is : 0.000
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(fire -1.97)(on -1.55)(the -3.61)(floor -6.34)(of -5.08)(the -0.88)(way -3.88)(. -1.87) line score is : -3.043, look ahead score is : 0.000
+-------------------------score:  -3.2649770211428404;  adjusted_score: -3.241208706870675----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the head on the wall of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(head -1.97)(on -1.55)(the -3.61)(wall -5.67)(of -4.90)(the -1.49)(way -4.23)(. -1.56) line score is : -3.024, look ahead score is : 0.000
+-------------------------score:  -3.2719007208943367;  adjusted_score: -3.2481324066221715----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the blood on the wall of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(blood -1.97)(on -1.55)(the -3.61)(wall -5.30)(of -4.37)(the -1.82)(way -4.25)(. -2.03) line score is : -3.015, look ahead score is : 0.000
+-------------------------score:  -3.281970528885722;  adjusted_score: -3.258202214613557----------------------- 
+there was a stubborn nurse named maye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the fire on the bridge of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(fire -1.97)(on -1.55)(the -3.61)(bridge -6.34)(of -5.08)(the -0.88)(way -3.88)(. -4.46) line score is : -3.302, look ahead score is : 0.000
+-------------------------score:  -3.28925340808928;  adjusted_score: -3.265485093817115----------------------- 
+there was a stubborn nurse named jaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the blood on the ground of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(blood -1.97)(on -1.55)(the -3.61)(ground -5.30)(of -4.37)(the -1.82)(way -3.42)(. -6.68) line score is : -3.397, look ahead score is : 0.000
+-------------------------score:  -3.298571767285466;  adjusted_score: -3.274803453013301----------------------- 
+there was a stubborn nurse named kay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the sight on the news of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(sight -1.97)(on -1.55)(the -3.61)(news -5.49)(of -7.06)(the -1.15)(way -2.09)(. -1.99) line score is : -3.018, look ahead score is : 0.000
+-------------------------score:  -3.2999153127893806;  adjusted_score: -3.2761469985172154----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the head on the rail of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(head -1.97)(on -1.55)(the -3.61)(rail -5.67)(of -4.90)(the -1.49)(way -3.74)(. -3.61) line score is : -3.180, look ahead score is : 0.000
+-------------------------score:  -3.30083356652176;  adjusted_score: -3.277065252249595----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the wound on the side of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(wound -1.97)(on -1.55)(the -3.61)(side -5.94)(of -4.42)(the -2.63)(way -2.28)(. -0.02) line score is : -2.769, look ahead score is : 0.000
+-------------------------score:  -3.311252437531948;  adjusted_score: -3.287484123259783----------------------- 
+there was a stubborn nurse named pei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the bridge of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(bridge -5.64)(of -4.52)(the -0.45)(way -5.49)(. -4.81) line score is : -3.330, look ahead score is : 0.000
+-------------------------score:  -3.31525697093457;  adjusted_score: -3.2914886566624046----------------------- 
+there was a stubborn nurse named jaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(track -5.64)(of -4.52)(the -0.45)(way -3.41)(. -6.64) line score is : -3.304, look ahead score is : 0.000
+-------------------------score:  -3.32161832973361;  adjusted_score: -3.297850015461445----------------------- 
+there was a stubborn nurse named pei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the head on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(head -1.97)(on -1.55)(the -3.61)(track -5.67)(of -4.90)(the -1.49)(way -3.85)(. -4.43) line score is : -3.273, look ahead score is : 0.000
+-------------------------score:  -3.3393761655315757;  adjusted_score: -3.3156078512594105----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the ground of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(ground -5.64)(of -4.52)(the -0.45)(way -5.80)(. -7.30) line score is : -3.609, look ahead score is : 0.000
+-------------------------score:  -3.3412325214594603;  adjusted_score: -3.317464207187295----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the blood on the bed of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(blood -1.97)(on -1.55)(the -3.61)(bed -5.30)(of -4.37)(the -1.82)(way -3.37)(. -3.97) line score is : -3.121, look ahead score is : 0.000
+-------------------------score:  -3.3497865330427885;  adjusted_score: -3.3260182187706233----------------------- 
+there was a stubborn nurse named rea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the blood on the skin of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(blood -1.97)(on -1.55)(the -3.61)(skin -5.30)(of -4.37)(the -1.82)(way -4.01)(. -1.54) line score is : -2.942, look ahead score is : 0.000
+-------------------------score:  -3.3498564772307873;  adjusted_score: -3.326088162958622----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the blood on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(blood -1.97)(on -1.55)(the -3.61)(track -5.30)(of -4.37)(the -1.82)(way -3.86)(. -5.48) line score is : -3.321, look ahead score is : 0.000
+-------------------------score:  -3.3596727941185236;  adjusted_score: -3.3359044798463584----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the sight on the screen of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(sight -1.97)(on -1.55)(the -3.61)(screen -5.49)(of -7.06)(the -1.15)(way -2.45)(. -2.41) line score is : -3.095, look ahead score is : 0.000
+-------------------------score:  -3.364538765512407;  adjusted_score: -3.3407704512402416----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the fire on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(fire -1.97)(on -1.55)(the -3.61)(track -6.34)(of -5.08)(the -0.88)(way -4.12)(. -5.82) line score is : -3.463, look ahead score is : 0.000
+-------------------------score:  -3.383824909105897;  adjusted_score: -3.3600565948337318----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the car on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(car -1.97)(on -1.55)(the -3.61)(track -5.70)(of -5.82)(the -2.87)(way -2.05)(. -6.21) line score is : -3.503, look ahead score is : 0.000
+-------------------------score:  -3.3849622970446944;  adjusted_score: -3.3611939827725292----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the line of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(line -5.64)(of -4.52)(the -0.45)(way -5.92)(. -4.36) line score is : -3.327, look ahead score is : 0.000
+-------------------------score:  -3.3901905063539743;  adjusted_score: -3.366422192081809----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the crowd on the track of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(crowd -1.97)(on -1.55)(the -3.61)(track -6.35)(of -5.15)(the -0.43)(way -4.36)(. -5.99) line score is : -3.467, look ahead score is : 0.000
+-------------------------score:  -3.416042832657695;  adjusted_score: -3.3922745183855296----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the heart on the right of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(heart -1.97)(on -1.55)(the -3.61)(right -5.79)(of -6.46)(the -1.96)(way -2.33)(. -4.67) line score is : -3.360, look ahead score is : 0.000
+-------------------------score:  -3.4354987228289247;  adjusted_score: -3.4117304085567595----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the car of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(car -5.64)(of -4.52)(the -0.45)(way -5.98)(. -6.71) line score is : -3.568, look ahead score is : 0.000
+-------------------------score:  -3.4459580639377236;  adjusted_score: -3.4221897496655584----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the crowd on the street of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(crowd -1.97)(on -1.55)(the -3.61)(street -6.35)(of -5.15)(the -0.43)(way -3.76)(. -6.70) line score is : -3.479, look ahead score is : 0.000
+-------------------------score:  -3.458273340947926;  adjusted_score: -3.434505026675761----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the man on the seat of the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(man -1.97)(on -1.55)(the -3.61)(seat -5.64)(of -4.52)(the -0.45)(way -5.62)(. -5.94) line score is : -3.455, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.2681718301028013;  adjusted_score: -3.244403515830636----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three times in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(times -5.84)(in -1.48)(her -6.69)(way -2.66)(. -1.81) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -3.3148002149537206;  adjusted_score: -3.2910319006815554----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three times in its way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(times -5.84)(in -1.48)(its -6.69)(way -2.66)(. -1.81) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -3.343601322732866;  adjusted_score: -3.3198330084607006----------------------- 
+there was a stubborn nurse named rea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three times in their way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(times -5.84)(in -1.48)(their -6.69)(way -2.66)(. -1.81) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -3.3529680967330933;  adjusted_score: -3.329199782460928----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three times in his way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(times -5.84)(in -1.48)(his -6.69)(way -2.66)(. -1.81) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -3.359386758878827;  adjusted_score: -3.335618444606662----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three days in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(days -5.84)(in -1.48)(her -6.69)(way -1.02)(. -4.76) line score is : -3.371, look ahead score is : 0.000
+-------------------------score:  -3.3605932909995317;  adjusted_score: -3.3368249767273666----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out two days in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(two -2.02)(days -5.84)(in -1.48)(her -6.16)(way -1.13)(. -5.24) line score is : -3.377, look ahead score is : 0.000
+-------------------------score:  -3.36372266151011;  adjusted_score: -3.3399543472379447----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out two hours in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(two -2.02)(hours -5.84)(in -1.48)(her -6.16)(way -3.30)(. -5.32) line score is : -3.601, look ahead score is : 0.000
+-------------------------score:  -3.3670288398861885;  adjusted_score: -3.3432605256140233----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out two weeks in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(two -2.02)(weeks -5.84)(in -1.48)(her -6.16)(way -1.71)(. -5.41) line score is : -3.452, look ahead score is : 0.000
+-------------------------score:  -3.3721652822569013;  adjusted_score: -3.348396967984736----------------------- 
+there was a stubborn nurse named gaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out four days in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(four -2.02)(days -5.84)(in -1.48)(her -7.24)(way -1.05)(. -4.74) line score is : -3.426, look ahead score is : 0.000
+-------------------------score:  -3.378492153249681;  adjusted_score: -3.354723838977516----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out two years in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(two -2.02)(years -5.84)(in -1.48)(her -6.16)(way -1.49)(. -5.92) line score is : -3.481, look ahead score is : 0.000
+-------------------------score:  -3.3900424521416426;  adjusted_score: -3.3662741378694774----------------------- 
+there was a stubborn nurse named wei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three times in our way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(times -5.84)(in -1.48)(our -6.69)(way -2.66)(. -1.81) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -3.391092909500003;  adjusted_score: -3.3673245952278377----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three times in my way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(times -5.84)(in -1.48)(my -6.69)(way -2.66)(. -1.81) line score is : -3.241, look ahead score is : 0.000
+-------------------------score:  -3.3938998570665717;  adjusted_score: -3.3701315427944065----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three weeks in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(weeks -5.84)(in -1.48)(her -6.69)(way -2.16)(. -5.17) line score is : -3.526, look ahead score is : 0.000
+-------------------------score:  -3.3958674827590585;  adjusted_score: -3.3720991684868933----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three hours in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(hours -5.84)(in -1.48)(her -6.69)(way -3.58)(. -5.22) line score is : -3.673, look ahead score is : 0.000
+-------------------------score:  -3.396701702848077;  adjusted_score: -3.3729333885759116----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out five days in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(five -2.02)(days -5.84)(in -1.48)(her -7.55)(way -1.22)(. -5.11) line score is : -3.512, look ahead score is : 0.000
+-------------------------score:  -3.3987502362579107;  adjusted_score: -3.3749819219857455----------------------- 
+there was a stubborn nurse named rea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out two months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(two -2.02)(months -5.84)(in -1.48)(her -6.16)(way -2.23)(. -5.65) line score is : -3.529, look ahead score is : 0.000
+-------------------------score:  -3.4035468949005008;  adjusted_score: -3.3797785806283356----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three years in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(years -5.84)(in -1.48)(her -6.69)(way -1.76)(. -5.86) line score is : -3.555, look ahead score is : 0.000
+-------------------------score:  -3.405950208194554;  adjusted_score: -3.3821818939223887----------------------- 
+there was a stubborn nurse named kay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out ten days in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(ten -2.02)(days -5.84)(in -1.48)(her -8.40)(way -1.10)(. -5.00) line score is : -3.574, look ahead score is : 0.000
+-------------------------score:  -3.4089816994965076;  adjusted_score: -3.3852133852243425----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out three months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(three -2.02)(months -5.84)(in -1.48)(her -6.69)(way -2.00)(. -5.68) line score is : -3.561, look ahead score is : 0.000
+-------------------------score:  -3.4113643504679203;  adjusted_score: -3.387596036195755----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out four years in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(four -2.02)(years -5.84)(in -1.48)(her -7.24)(way -1.27)(. -6.10) line score is : -3.585, look ahead score is : 0.000
+-------------------------score:  -3.412447822280228;  adjusted_score: -3.388679508008063----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out six months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(six -2.02)(months -5.84)(in -1.48)(her -7.58)(way -0.83)(. -5.94) line score is : -3.559, look ahead score is : 0.000
+-------------------------score:  -3.41379467304796;  adjusted_score: -3.3900263587757946----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out five years in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(five -2.02)(years -5.84)(in -1.48)(her -7.55)(way -1.06)(. -6.30) line score is : -3.615, look ahead score is : 0.000
+-------------------------score:  -3.421370648778975;  adjusted_score: -3.39760233450681----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out six weeks in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(six -2.02)(weeks -5.84)(in -1.48)(her -7.58)(way -2.00)(. -5.18) line score is : -3.600, look ahead score is : 0.000
+-------------------------score:  -3.42574761249125;  adjusted_score: -3.401979298219085----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out six days in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(six -2.02)(days -5.84)(in -1.48)(her -7.58)(way -1.97)(. -4.91) line score is : -3.570, look ahead score is : 0.000
+-------------------------score:  -3.42739843018353;  adjusted_score: -3.4036301159113647----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out four months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(four -2.02)(months -5.84)(in -1.48)(her -7.24)(way -1.87)(. -5.81) line score is : -3.616, look ahead score is : 0.000
+-------------------------score:  -3.4326143069192767;  adjusted_score: -3.4088459926471115----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out six years in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(six -2.02)(years -5.84)(in -1.48)(her -7.58)(way -1.57)(. -6.17) line score is : -3.656, look ahead score is : 0.000
+-------------------------score:  -3.4408405693247914;  adjusted_score: -3.4170722550526262----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out eight years in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(eight -2.02)(years -5.84)(in -1.48)(her -8.55)(way -0.98)(. -6.18) line score is : -3.695, look ahead score is : 0.000
+-------------------------score:  -3.4418209604918957;  adjusted_score: -3.4180526462197305----------------------- 
+there was a stubborn nurse named wei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out five months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(five -2.02)(months -5.84)(in -1.48)(her -7.55)(way -1.96)(. -5.91) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.4430022798478603;  adjusted_score: -3.419233965575695----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out eight months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(eight -2.02)(months -5.84)(in -1.48)(her -8.55)(way -1.27)(. -5.59) line score is : -3.665, look ahead score is : 0.000
+-------------------------score:  -3.446501577273011;  adjusted_score: -3.422733263000846----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ as she found out nine months in her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(as -1.19)(she -4.06)(found -1.97)(out -4.67)(nine -2.02)(months -5.84)(in -1.48)(her -8.84)(way -0.98)(. -5.78) line score is : -3.685, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ SO PRP RB VBD ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ so he carefully spat on the ceiling 
+-------------------------score:  -3.2729630450407665;  adjusted_score: -3.2491947307686013----------------------- 
+there was a stubborn nurse named kay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she always carried on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(always -1.97)(carried -4.79)(on -1.07)(the -7.00)(way -2.38)(. -4.54) line score is : -3.375, look ahead score is : 0.000
+-------------------------score:  -3.2864390273888904;  adjusted_score: -3.262670713116725----------------------- 
+there was a stubborn nurse named gaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she never went on the survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(never -1.97)(went -4.79)(on -1.07)(the -5.50)(survey -3.20)(. -4.11) line score is : -3.237, look ahead score is : 0.000
+-------------------------score:  -3.3339793185393014;  adjusted_score: -3.310211004267136----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she quickly went on the survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(quickly -1.97)(went -4.79)(on -1.07)(the -5.40)(survey -3.42)(. -5.21) line score is : -3.389, look ahead score is : 0.000
+-------------------------score:  -3.3754555523395537;  adjusted_score: -3.3516872380673886----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she somehow managed on the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(somehow -1.97)(managed -4.79)(on -1.07)(the -8.01)(way -1.31)(. -8.36) line score is : -3.845, look ahead score is : 0.000
+-------------------------score:  -3.397175977627436;  adjusted_score: -3.373407663355271----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she never left on the survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(never -1.97)(left -4.79)(on -1.07)(the -5.50)(survey -4.18)(. -6.94) line score is : -3.712, look ahead score is : 0.000
+-------------------------score:  -3.468846637010574;  adjusted_score: -3.445078322738409----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ so she never saw on the survey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(so -1.19)(she -4.06)(never -1.97)(saw -4.79)(on -1.07)(the -5.50)(survey -2.88)(. -8.67) line score is : -3.767, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND RB PRP VBZ A NN NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ and now he 's a college professor 
+-------------------------score:  -3.3024344623088835;  adjusted_score: -3.2786661480367183----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and now she needs a permanent way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(now -4.06)(she -1.97)(needs -1.55)(a -6.78)(permanent -1.02)(way -5.60)(. -1.76) line score is : -2.992, look ahead score is : 0.000
+-------------------------score:  -3.360534590482712;  adjusted_score: -3.3367662762105468----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and now she has a permanent way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(now -4.06)(she -1.97)(has -1.55)(a -6.78)(permanent -1.02)(way -2.77)(. -2.81) line score is : -2.770, look ahead score is : 0.000
+-------------------------score:  -3.4099057535330455;  adjusted_score: -3.3861374392608803----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and now she is a permanent way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(now -4.06)(she -1.97)(is -1.55)(a -6.78)(permanent -1.02)(way -2.25)(. -3.74) line score is : -2.821, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND VBD WITH A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ and retired with a bad stomach ache 
+-------------------------score:  -3.3117568842295944;  adjusted_score: -3.287988569957429----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and died with a miserable way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(died -4.06)(with -1.97)(a -1.55)(miserable -1.90)(way -5.11)(. -2.11) line score is : -2.556, look ahead score is : 0.000
+-------------------------score:  -3.3524962643097185;  adjusted_score: -3.3287279500375533----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and died with a solitary way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(died -4.06)(with -1.97)(a -1.55)(solitary -1.90)(way -5.11)(. -2.11) line score is : -2.556, look ahead score is : 0.000
+-------------------------score:  -3.3682436388114403;  adjusted_score: -3.344475324539275----------------------- 
+there was a stubborn nurse named gaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and died with a terrifying way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(died -4.06)(with -1.97)(a -1.55)(terrifying -1.90)(way -5.11)(. -2.11) line score is : -2.556, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND VBD PRP$ NN A NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ and gave his proboscis a tweak 
+-------------------------score:  -3.404733326928369;  adjusted_score: -3.380965012656204----------------------- 
+there was a stubborn nurse named gaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her ability a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(ability -1.55)(a -4.75)(way -1.43)(. -2.67) line score is : -2.519, look ahead score is : 0.000
+-------------------------score:  -3.4346557423986237;  adjusted_score: -3.4108874281264585----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and ended her suffering a prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(ended -4.06)(her -1.97)(suffering -1.55)(a -6.00)(prey -2.50)(. -4.39) line score is : -3.096, look ahead score is : 0.000
+-------------------------score:  -3.4697112399956276;  adjusted_score: -3.4459429257234624----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and ended her suffering a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(ended -4.06)(her -1.97)(suffering -1.55)(a -6.00)(way -2.50)(. -4.39) line score is : -3.096, look ahead score is : 0.000
+-------------------------score:  -3.503146597023668;  adjusted_score: -3.4793782827515027----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her vitality a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(vitality -1.55)(a -4.75)(way -1.43)(. -8.21) line score is : -3.311, look ahead score is : 0.000
+-------------------------score:  -3.5064579844474792;  adjusted_score: -3.482689670175314----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her humanity a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(humanity -1.55)(a -4.75)(way -1.43)(. -8.73) line score is : -3.384, look ahead score is : 0.000
+-------------------------score:  -3.510224397840171;  adjusted_score: -3.486456083568006----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her identity a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(identity -1.55)(a -4.75)(way -1.43)(. -7.24) line score is : -3.171, look ahead score is : 0.000
+-------------------------score:  -3.5128880348698845;  adjusted_score: -3.4891197205977194----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her virginity a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(virginity -1.55)(a -4.75)(way -1.43)(. -6.61) line score is : -3.082, look ahead score is : 0.000
+-------------------------score:  -3.52558087274946;  adjusted_score: -3.501812558477295----------------------- 
+there was a stubborn nurse named maye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her dexterity a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(dexterity -1.55)(a -4.75)(way -1.43)(. -8.42) line score is : -3.341, look ahead score is : 0.000
+-------------------------score:  -3.5397654299078316;  adjusted_score: -3.5159971156356664----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and lost her intelligence a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(lost -4.06)(her -1.97)(intelligence -1.55)(a -4.75)(way -1.43)(. -8.14) line score is : -3.300, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD AND PRP VBD , NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ but she sighed and she said , canteloupe 
+-------------------------score:  -3.4239860369313146;  adjusted_score: -3.4002177226591495----------------------- 
+there was a stubborn nurse named maye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but she survived and she returned , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(she -4.06)(survived -1.97)(and -3.12)(she -1.56)(returned -1.79)(, -2.15)(way -4.59)(. -4.30) line score is : -2.749, look ahead score is : 0.000
+-------------------------score:  -3.4506049098507052;  adjusted_score: -3.42683659557854----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but she survived and she became , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(she -4.06)(survived -1.97)(and -3.12)(she -1.56)(became -1.79)(, -2.15)(way -4.59)(. -3.94) line score is : -2.709, look ahead score is : 0.000
+-------------------------score:  -3.5210507319819544;  adjusted_score: -3.497282417709789----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but she survived and she began , way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(she -4.06)(survived -1.97)(and -3.12)(she -1.56)(began -1.79)(, -2.15)(way -4.59)(. -4.91) line score is : -2.817, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4608856228090104;  adjusted_score: -3.437117308536845----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and it was then like shooting of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(it -4.06)(was -1.97)(then -1.55)(like -4.54)(shooting -2.18)(of -2.68)(prey -8.70)(. -4.74) line score is : -3.512, look ahead score is : 0.000
+-------------------------score:  -3.468310880564874;  adjusted_score: -3.444542566292709----------------------- 
+there was a stubborn nurse named rea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and she did not like feeling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(she -4.06)(did -1.97)(not -1.55)(like -2.45)(feeling -5.01)(of -0.04)(way -7.72)(. -6.05) line score is : -3.339, look ahead score is : 0.000
+-------------------------score:  -3.477563909945949;  adjusted_score: -3.453795595673784----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and it was not like something of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(it -4.06)(was -1.97)(not -1.55)(like -4.54)(something -2.18)(of -3.35)(prey -7.57)(. -5.08) line score is : -3.501, look ahead score is : 0.000
+-------------------------score:  -3.508107114222742;  adjusted_score: -3.4843387999505766----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and it was then like lightning of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(it -4.06)(was -1.97)(then -1.55)(like -4.54)(lightning -2.18)(of -2.68)(prey -8.70)(. -3.42) line score is : -3.365, look ahead score is : 0.000
+-------------------------score:  -3.5147161613548956;  adjusted_score: -3.4909478470827304----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and she did not like sleeping of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(she -4.06)(did -1.97)(not -1.55)(like -2.45)(sleeping -5.01)(of -0.04)(way -7.72)(. -6.13) line score is : -3.349, look ahead score is : 0.000
+-------------------------score:  -3.528755309120301;  adjusted_score: -3.504986994848136----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and it was then like drowning of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(it -4.06)(was -1.97)(then -1.55)(like -4.54)(drowning -2.18)(of -2.68)(prey -8.70)(. -5.37) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.537809512307567;  adjusted_score: -3.5140411980354016----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and she was almost like death of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(she -4.06)(was -1.97)(almost -1.55)(like -2.45)(death -2.11)(of -5.99)(prey -7.93)(. -4.24) line score is : -3.500, look ahead score is : 0.000
+-------------------------score:  -3.5448235172417855;  adjusted_score: -3.5210552029696203----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and she did not like travelling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(she -4.06)(did -1.97)(not -1.55)(like -2.45)(travelling -5.01)(of -0.04)(way -7.72)(. -7.42) line score is : -3.491, look ahead score is : 0.000
+-------------------------score:  -3.586155693377218;  adjusted_score: -3.562387379105053----------------------- 
+there was a stubborn nurse named gay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and it was then like someone of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(it -4.06)(was -1.97)(then -1.55)(like -4.54)(someone -2.18)(of -2.68)(prey -8.70)(. -5.48) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.596888282606679;  adjusted_score: -3.5731199683345136----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and she was almost like death of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(she -4.06)(was -1.97)(almost -1.55)(like -2.45)(death -2.11)(of -5.99)(way -7.93)(. -4.24) line score is : -3.500, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ BUT THE NN NN VBD PRP NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ but the telephone book caused him pain 
+-------------------------score:  -3.466281312704086;  adjusted_score: -3.442512998431921----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department found it way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(found -3.15)(it -6.35)(way -2.84)(. -3.92) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.485974258184433;  adjusted_score: -3.462205943912268----------------------- 
+there was a stubborn nurse named shea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department rushed them way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(rushed -3.15)(them -6.35)(way -2.84)(. -3.74) line score is : -3.303, look ahead score is : 0.000
+-------------------------score:  -3.4935082137584685;  adjusted_score: -3.4697398994863033----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the shock wave carried itself way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(shock -1.97)(wave -3.12)(carried -3.15)(itself -5.17)(way -3.79)(. -4.00) line score is : -3.306, look ahead score is : 0.000
+-------------------------score:  -3.497552945216497;  adjusted_score: -3.4737846309443317----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department found them way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(found -3.15)(them -6.35)(way -2.84)(. -3.92) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.508094416062037;  adjusted_score: -3.484326101789872----------------------- 
+there was a stubborn nurse named jaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department rushed it way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(rushed -3.15)(it -6.35)(way -2.84)(. -3.74) line score is : -3.303, look ahead score is : 0.000
+-------------------------score:  -3.571559788783391;  adjusted_score: -3.547791474511226----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department found him way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(found -3.15)(him -6.35)(way -2.84)(. -3.92) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.5776828229427338;  adjusted_score: -3.5539145086705686----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department did it way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(did -3.15)(it -6.35)(way -2.84)(. -3.42) line score is : -3.263, look ahead score is : 0.000
+-------------------------score:  -3.590610227982203;  adjusted_score: -3.566841913710038----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department was none way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(was -3.15)(none -6.35)(way -2.84)(. -2.24) line score is : -3.114, look ahead score is : 0.000
+-------------------------score:  -3.635961431264877;  adjusted_score: -3.612193116992712----------------------- 
+there was a stubborn nurse named jaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ but the fire department had them way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(but -1.19)(the -4.06)(fire -1.97)(department -3.12)(had -3.15)(them -6.35)(way -2.84)(. -3.41) line score is : -3.261, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4867419725464237;  adjusted_score: -3.463452883641566----------------------- 
+there was a stubborn nurse named kay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she felt trapped by her brain , 
+ and she did not like feeling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(felt -1.16)(trapped -0.61)(by -4.32)(her -4.65)(brain -3.07)(, -1.05) line score is : -3.465, look ahead score is : 0.629
+(and -1.05)(she -4.88)(did -1.68)(not -1.81)(like -1.94)(feeling -4.47)(of -0.25)(way -5.87)(. -4.86) line score is : -2.978, look ahead score is : 0.000
+-------------------------score:  -3.548212158824167;  adjusted_score: -3.5246247130584334----------------------- 
+there was a stubborn nurse named fe 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was trapped by her brain , 
+ and she did not like feeling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(trapped -0.61)(by -2.72)(her -5.83)(brain -3.24)(, -1.11) line score is : -3.440, look ahead score is : 0.644
+(and -1.11)(she -4.64)(did -2.13)(not -1.98)(like -2.14)(feeling -4.14)(of -0.08)(way -7.51)(. -5.40) line score is : -3.237, look ahead score is : 0.000
+-------------------------score:  -3.5483511244097063;  adjusted_score: -3.5250620355048485----------------------- 
+there was a stubborn nurse named wei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she felt trapped by her brain , 
+ and it was not like something of prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(felt -1.16)(trapped -0.61)(by -4.32)(her -4.65)(brain -3.07)(, -1.05) line score is : -3.465, look ahead score is : 0.629
+(and -1.05)(it -4.88)(was -1.68)(not -1.81)(like -4.12)(something -1.86)(of -3.43)(prey -5.96)(. -5.15) line score is : -3.325, look ahead score is : 0.000
+-------------------------score:  -3.6254941446165883;  adjusted_score: -3.6022050557117304----------------------- 
+there was a stubborn nurse named kaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she felt trapped by her brain , 
+ and she did not like meeting of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(felt -1.16)(trapped -0.61)(by -4.32)(her -4.65)(brain -3.07)(, -1.05) line score is : -3.465, look ahead score is : 0.629
+(and -1.05)(she -4.88)(did -1.68)(not -1.81)(like -1.94)(meeting -4.47)(of -0.25)(way -5.87)(. -8.33) line score is : -3.363, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.491077401945668;  adjusted_score: -3.467309087673503----------------------- 
+there was a stubborn nurse named gaye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then tried a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(tried -3.61)(a -3.67)(whole -5.66)(way -3.60)(. -4.43) line score is : -3.306, look ahead score is : 0.000
+-------------------------score:  -3.5009453392797902;  adjusted_score: -3.477177025007625----------------------- 
+there was a stubborn nurse named wei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the driver then drove a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(driver -1.97)(then -1.55)(drove -3.61)(a -5.58)(whole -5.76)(way -2.10)(. -4.83) line score is : -3.407, look ahead score is : 0.000
+-------------------------score:  -3.502621744909594;  adjusted_score: -3.478853430637429----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the family soon lost a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(family -1.97)(soon -1.55)(lost -3.61)(a -5.27)(whole -5.26)(way -2.67)(. -3.92) line score is : -3.279, look ahead score is : 0.000
+-------------------------score:  -3.508770360100654;  adjusted_score: -3.4850020458284887----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor first tried a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(first -1.55)(tried -3.61)(a -3.67)(whole -6.85)(way -2.34)(. -4.01) line score is : -3.251, look ahead score is : 0.000
+-------------------------score:  -3.5090701676184133;  adjusted_score: -3.485301853346248----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the family then moved a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(family -1.97)(then -1.55)(moved -3.61)(a -5.27)(whole -5.98)(way -2.11)(. -5.81) line score is : -3.508, look ahead score is : 0.000
+-------------------------score:  -3.5170098870031294;  adjusted_score: -3.4932415727309643----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the family soon moved a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(family -1.97)(soon -1.55)(moved -3.61)(a -5.27)(whole -5.26)(way -2.13)(. -6.30) line score is : -3.483, look ahead score is : 0.000
+-------------------------score:  -3.529201517182012;  adjusted_score: -3.5054332029098467----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then called a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(called -3.61)(a -3.67)(whole -5.66)(way -3.95)(. -2.66) line score is : -3.149, look ahead score is : 0.000
+-------------------------score:  -3.553070427909974;  adjusted_score: -3.529302113637809----------------------- 
+there was a stubborn nurse named rea 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the body then fell a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(body -1.97)(then -1.55)(fell -3.61)(a -5.23)(whole -5.87)(way -2.27)(. -6.96) line score is : -3.636, look ahead score is : 0.000
+-------------------------score:  -3.5566309363611284;  adjusted_score: -3.532862622088963----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the family soon learned a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(family -1.97)(soon -1.55)(learned -3.61)(a -5.27)(whole -5.26)(way -2.47)(. -5.63) line score is : -3.447, look ahead score is : 0.000
+-------------------------score:  -3.5607970164668177;  adjusted_score: -3.5370287021946525----------------------- 
+there was a stubborn nurse named raye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then said a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(said -3.61)(a -3.67)(whole -5.66)(way -4.28)(. -5.58) line score is : -3.509, look ahead score is : 0.000
+-------------------------score:  -3.5652114441317897;  adjusted_score: -3.5414431298596245----------------------- 
+there was a stubborn nurse named faye 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor soon found a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(soon -1.55)(found -3.61)(a -3.67)(whole -7.23)(way -2.29)(. -2.57) line score is : -3.128, look ahead score is : 0.000
+-------------------------score:  -3.5665057724522007;  adjusted_score: -3.5427374581800355----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then gave a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(gave -3.61)(a -3.67)(whole -5.66)(way -4.14)(. -4.38) line score is : -3.360, look ahead score is : 0.000
+-------------------------score:  -3.5712323823282794;  adjusted_score: -3.5474640680561143----------------------- 
+there was a stubborn nurse named rae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then took a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(took -3.61)(a -3.67)(whole -5.66)(way -3.43)(. -3.11) line score is : -3.141, look ahead score is : 0.000
+-------------------------score:  -3.589709560717306;  adjusted_score: -3.5659412464451408----------------------- 
+there was a stubborn nurse named pei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the family soon had a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(family -1.97)(soon -1.55)(had -3.61)(a -5.27)(whole -5.26)(way -3.10)(. -3.62) line score is : -3.294, look ahead score is : 0.000
+-------------------------score:  -3.5925725602334544;  adjusted_score: -3.568804245961289----------------------- 
+there was a stubborn nurse named mae 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then rushed a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(rushed -3.61)(a -3.67)(whole -5.66)(way -4.06)(. -5.89) line score is : -3.520, look ahead score is : 0.000
+-------------------------score:  -3.6034829251227842;  adjusted_score: -3.579714610850619----------------------- 
+there was a stubborn nurse named pei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the fire soon spread a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(fire -1.97)(soon -1.55)(spread -3.61)(a -6.34)(whole -5.23)(way -1.81)(. -8.68) line score is : -3.828, look ahead score is : 0.000
+-------------------------score:  -3.6160741948312327;  adjusted_score: -3.5923058805590675----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the woman then died a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(woman -1.97)(then -1.55)(died -3.61)(a -5.69)(whole -5.49)(way -2.08)(. -5.48) line score is : -3.459, look ahead score is : 0.000
+-------------------------score:  -3.6163416427950703;  adjusted_score: -3.592573328522905----------------------- 
+there was a stubborn nurse named pei 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the wound almost killed a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(wound -1.97)(almost -1.55)(killed -3.61)(a -5.94)(whole -5.77)(way -1.24)(. -8.55) line score is : -3.766, look ahead score is : 0.000
+-------------------------score:  -3.6244755887216136;  adjusted_score: -3.6007072744494484----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the family soon found a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(family -1.97)(soon -1.55)(found -3.61)(a -5.27)(whole -5.26)(way -2.18)(. -3.81) line score is : -3.212, look ahead score is : 0.000
+-------------------------score:  -3.6341945067528756;  adjusted_score: -3.6104261924807104----------------------- 
+there was a stubborn nurse named renee 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then had a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(had -3.61)(a -3.67)(whole -5.66)(way -4.27)(. -3.42) line score is : -3.268, look ahead score is : 0.000
+-------------------------score:  -3.646303455675802;  adjusted_score: -3.622535141403637----------------------- 
+there was a stubborn nurse named fay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor then told a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(then -1.55)(told -3.61)(a -3.67)(whole -5.66)(way -2.98)(. -6.81) line score is : -3.502, look ahead score is : 0.000
+-------------------------score:  -3.695104485557925;  adjusted_score: -3.67133617128576----------------------- 
+there was a stubborn nurse named monet 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and the doctor first told a whole way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(the -4.06)(doctor -1.97)(first -1.55)(told -3.61)(a -3.67)(whole -6.85)(way -3.07)(. -6.69) line score is : -3.630, look ahead score is : 0.000
+======================= template: 14 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ A NN OF JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ a word of ambiguous meaning 
+-------------------------score:  -3.5759465375116894;  adjusted_score: -3.5521782232395243----------------------- 
+there was a stubborn nurse named shay 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ a person of ordinary way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(a -1.19)(person -4.06)(of -1.97)(ordinary -4.43)(way -6.08)(. -4.49) line score is : -3.704, look ahead score is : 0.000
+======================= template: 15 ============================  
+sarah 
+ WHO VBD A JJ NN EACH NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND FOR NNS PRP JUST VBZ PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who read a love story each day 
+ when he went to bed 
+ he was pained by a tooth 
+ and for garments he just makes his skindoo 
+-------------------------score:  -3.5770590055373406;  adjusted_score: -3.5532906912651754----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and for hours she just froze her prey . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(for -4.06)(hours -1.97)(she -1.55)(just -5.19)(froze -3.83)(her -0.83)(prey -7.36)(. -8.53) line score is : -3.835, look ahead score is : 0.000
+-------------------------score:  -3.702463636475225;  adjusted_score: -3.6786953222030596----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and for hours she just sits her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(for -4.06)(hours -1.97)(she -1.55)(just -5.19)(sits -3.83)(her -0.83)(way -7.36)(. -8.58) line score is : -3.840, look ahead score is : 0.000
+-------------------------score:  -3.706244878230556;  adjusted_score: -3.682476563958391----------------------- 
+there was a stubborn nurse named may 
+ who suffered a fatal stroke each day . 
+ when she awoke to pain , 
+ she was struck by a train , 
+ and for hours she just froze her way . 
+------------------------- score breakdown ------------------------ 
+(who -1.27)(suffered -6.70)(a -2.65)(fatal -3.54)(stroke -1.51)(each -9.03)(day -1.97)(. -0.99) line score is : -3.458, look ahead score is : 0.000
+(when -0.99)(she -3.57)(awoke -1.46)(to -3.98)(pain -2.65)(, -9.40) line score is : -3.675, look ahead score is : 0.536
+(she -9.40)(was -1.16)(struck -0.61)(by -2.72)(a -5.65)(train -0.81)(, -1.19) line score is : -3.078, look ahead score is : 0.653
+(and -1.19)(for -4.06)(hours -1.97)(she -1.55)(just -5.19)(froze -3.83)(her -0.83)(way -7.36)(. -8.53) line score is : -3.835, look ahead score is : 0.000

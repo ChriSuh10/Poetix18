@@ -1,0 +1,231 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD UP AND VB ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -3.2430199338123202;  adjusted_score: -3.2318624705448746----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ so he gave up and let on the trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(so -0.19)(he -3.73)(gave -7.10)(up -2.53)(and -0.97)(let -4.34)(on -1.32)(the -1.94)(trace -4.11)(. -8.13) line score is : -3.435, look ahead score is : 0.000
+-------------------------score:  -3.2697433987632394;  adjusted_score: -3.258585935495794----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ so he got up and let on the trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(so -0.19)(he -3.73)(got -7.10)(up -2.53)(and -0.97)(let -3.80)(on -4.25)(the -0.73)(trace -5.86)(. -7.39) line score is : -3.655, look ahead score is : 0.000
+-------------------------score:  -3.334028876386583;  adjusted_score: -3.3228714131191373----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ so i gave up and let on the trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(so -0.19)(i -3.73)(gave -7.10)(up -2.53)(and -2.08)(let -3.26)(on -4.24)(the -1.76)(trace -3.13)(. -9.20) line score is : -3.723, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and I hope that your day is a blast 
+-------------------------score:  -3.251417837542249;  adjusted_score: -3.2402603742748033----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i know that my son is a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(know -8.14)(that -2.26)(my -3.84)(son -4.25)(is -1.97)(a -5.12)(trace -3.51)(. -2.98) line score is : -3.472, look ahead score is : 0.000
+-------------------------score:  -3.2953798318922054;  adjusted_score: -3.28422236862476----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i know that my son has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(know -8.14)(that -2.26)(my -3.84)(son -4.25)(has -1.97)(a -5.12)(trace -3.51)(. -3.27) line score is : -3.501, look ahead score is : 0.000
+-------------------------score:  -3.2981110247492325;  adjusted_score: -3.286953561481787----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i think that his wife is a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(think -8.14)(that -2.26)(his -3.84)(wife -1.81)(is -2.56)(a -5.93)(trace -4.56)(. -4.40) line score is : -3.616, look ahead score is : 0.000
+-------------------------score:  -3.2982267695188057;  adjusted_score: -3.28706930625136----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i think that my wife is a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(think -8.14)(that -2.26)(my -3.84)(wife -1.81)(is -2.56)(a -7.70)(trace -2.89)(. -4.09) line score is : -3.594, look ahead score is : 0.000
+-------------------------score:  -3.3056192877411377;  adjusted_score: -3.294461824473692----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i think that his hair is a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(think -8.14)(that -2.26)(his -3.84)(hair -1.81)(is -2.56)(a -5.93)(trace -4.84)(. -4.05) line score is : -3.609, look ahead score is : 0.000
+-------------------------score:  -3.3154371077835094;  adjusted_score: -3.304279644516064----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i know that my wife has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(know -8.14)(that -2.26)(my -3.84)(wife -4.25)(has -1.97)(a -5.12)(trace -2.74)(. -4.46) line score is : -3.542, look ahead score is : 0.000
+-------------------------score:  -3.32949279944296;  adjusted_score: -3.3183353361755143----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i know that his wife has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(know -8.14)(that -2.26)(his -3.84)(wife -4.25)(has -1.97)(a -4.47)(trace -3.18)(. -5.14) line score is : -3.590, look ahead score is : 0.000
+-------------------------score:  -3.329577702534152;  adjusted_score: -3.3184202392667066----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i think that his skin has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(think -8.14)(that -2.26)(his -3.84)(skin -1.81)(has -2.56)(a -5.93)(trace -3.83)(. -4.95) line score is : -3.597, look ahead score is : 0.000
+-------------------------score:  -3.3341819932684302;  adjusted_score: -3.3230245300009846----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ and i know that my wife has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(and -0.19)(i -3.73)(know -7.10)(that -1.66)(my -3.31)(wife -5.25)(has -2.06)(a -4.67)(trace -3.06)(. -4.43) line score is : -3.547, look ahead score is : 0.000
+-------------------------score:  -3.342297739785863;  adjusted_score: -3.3311402765184175----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and i know that his skin has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(i -2.65)(know -8.14)(that -2.26)(his -3.84)(skin -4.25)(has -1.97)(a -4.47)(trace -3.76)(. -4.98) line score is : -3.633, look ahead score is : 0.000
+-------------------------score:  -3.352532251738012;  adjusted_score: -3.3413747884705662----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ and i know that his skin has a trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(and -0.19)(i -3.73)(know -7.10)(that -1.66)(his -3.31)(skin -5.25)(has -2.06)(a -4.24)(trace -3.28)(. -4.84) line score is : -3.567, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and returned on the previous night 
+-------------------------score:  -3.34093119714666;  adjusted_score: -3.3297737338792146----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ he was able to get , 
+ and took on the necessary trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(he -6.62)(was -1.01)(able -1.02)(to -3.20)(get -3.82)(, -0.00) line score is : -2.611, look ahead score is : 0.000
+(and -0.00)(took -2.65)(on -8.14)(the -2.26)(necessary -5.63)(trace -4.07)(. -1.37) line score is : -3.446, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3764143749590843;  adjusted_score: -3.3652569116916387----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ and he did not like breathing of trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(and -0.19)(he -3.73)(did -7.10)(not -1.66)(like -1.38)(breathing -4.33)(of -1.89)(trace -2.58)(. -6.90) line score is : -3.305, look ahead score is : 0.000
+-------------------------score:  -3.396641576482404;  adjusted_score: -3.3854841132149582----------------------- 
+there was a vain doctor named chase 
+ who needed a new nose on his face . 
+ when he started to sweat , 
+ it was easy to get , 
+ and he did not like coughing of trace . 
+------------------------- score breakdown ------------------------ 
+(who -2.02)(needed -6.55)(a -1.51)(new -2.71)(nose -4.17)(on -4.98)(his -0.67)(face -2.74)(. -0.64) line score is : -2.887, look ahead score is : 0.000
+(when -0.64)(he -3.96)(started -0.96)(to -4.36)(sweat -2.51)(, -6.62) line score is : -3.176, look ahead score is : 0.558
+(it -6.62)(was -1.01)(easy -3.09)(to -1.26)(get -4.23)(, -0.19) line score is : -2.731, look ahead score is : 0.000
+(and -0.19)(he -3.73)(did -7.10)(not -1.66)(like -1.38)(coughing -4.33)(of -1.89)(trace -2.58)(. -7.41) line score is : -3.363, look ahead score is : 0.000

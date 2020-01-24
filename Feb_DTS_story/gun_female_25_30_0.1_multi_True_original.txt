@@ -1,0 +1,198 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ PRP VBD RB THE NN PRP VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he ran like a flash 
+ but they went the wrong way 
+ he was n't the wizard he woz 
+-------------------------score:  -2.7722085034174304;  adjusted_score: -2.74623237349814----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ she looked like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel she said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(she -1.57)(looked -1.73)(like -2.43)(a -1.30)(shotgun -1.30)(, -9.60) line score is : -2.990, look ahead score is : 0.588
+(but -9.60)(it -2.84)(was -2.15)(the -2.99)(same -0.82)(gun -3.66)(, -3.52) line score is : -3.653, look ahead score is : 0.710
+(it -3.52)(was -2.71)(only -2.36)(the -3.09)(barrel -0.66)(she -4.69)(said -2.85)(. -2.07) line score is : -2.743, look ahead score is : 0.000
+-------------------------score:  -2.7731653079390526;  adjusted_score: -2.74692706733942----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel she said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(barrel -0.54)(she -4.74)(said -2.95)(. -2.16) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -2.7826255956484425;  adjusted_score: -2.75638735504881----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel they said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(barrel -0.54)(they -4.74)(said -2.95)(. -2.16) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -2.7851181734473474;  adjusted_score: -2.758879932847715----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(barrel -0.54)(it -4.74)(said -2.95)(. -2.16) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -2.7912313988612545;  adjusted_score: -2.764993158261622----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(barrel -0.54)(i -4.74)(said -2.95)(. -2.16) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -2.7924120515104263;  adjusted_score: -2.766173810910794----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle she said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(handle -0.54)(she -4.74)(said -2.95)(. -3.34) line score is : -2.751, look ahead score is : 0.000
+-------------------------score:  -2.795192900444231;  adjusted_score: -2.7692167705249404----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ she looked like a shotgun , 
+ but it was the same gun , 
+ it was only the handle she said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(she -1.57)(looked -1.73)(like -2.43)(a -1.30)(shotgun -1.30)(, -9.60) line score is : -2.990, look ahead score is : 0.588
+(but -9.60)(it -2.84)(was -2.15)(the -2.99)(same -0.82)(gun -3.66)(, -3.52) line score is : -3.653, look ahead score is : 0.710
+(it -3.52)(was -2.71)(only -2.36)(the -3.09)(handle -0.66)(she -4.69)(said -2.85)(. -3.12) line score is : -2.875, look ahead score is : 0.000
+-------------------------score:  -2.7984496328619217;  adjusted_score: -2.7722113922622893----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the trigger i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(trigger -0.54)(i -4.74)(said -2.95)(. -2.94) line score is : -2.701, look ahead score is : 0.000
+-------------------------score:  -2.799905416705916;  adjusted_score: -2.7736671761062834----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the trigger it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(trigger -0.54)(it -4.74)(said -2.95)(. -2.94) line score is : -2.701, look ahead score is : 0.000
+-------------------------score:  -2.810691211733126;  adjusted_score: -2.7844529711334935----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(handle -0.54)(it -4.74)(said -2.95)(. -3.34) line score is : -2.751, look ahead score is : 0.000
+-------------------------score:  -2.8170863017439842;  adjusted_score: -2.790848061144352----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(handle -0.54)(i -4.74)(said -2.95)(. -3.34) line score is : -2.751, look ahead score is : 0.000
+-------------------------score:  -2.8323230217060735;  adjusted_score: -2.806346891786783----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ she looked like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(she -1.57)(looked -1.73)(like -2.43)(a -1.30)(shotgun -1.30)(, -9.60) line score is : -2.990, look ahead score is : 0.588
+(but -9.60)(it -2.84)(was -2.15)(the -2.99)(same -0.82)(gun -3.66)(, -3.52) line score is : -3.653, look ahead score is : 0.710
+(it -3.52)(was -2.71)(only -2.36)(the -3.09)(barrel -0.66)(it -4.69)(said -2.85)(. -2.07) line score is : -2.743, look ahead score is : 0.000
+-------------------------score:  -2.8361912016426363;  adjusted_score: -2.809952961043004----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(barrel -0.54)(we -4.74)(said -2.95)(. -2.16) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -2.837551587291302;  adjusted_score: -2.8113133466916698----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel you said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(barrel -0.54)(you -4.74)(said -2.95)(. -2.16) line score is : -2.605, look ahead score is : 0.000
+-------------------------score:  -2.8630709352512516;  adjusted_score: -2.836832694651619----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the color it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(color -0.54)(it -4.74)(said -2.95)(. -4.15) line score is : -2.853, look ahead score is : 0.000
+-------------------------score:  -2.864055996219958;  adjusted_score: -2.8380798663006677----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ she looked like a shotgun , 
+ but it was the same gun , 
+ it was only the handle it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(she -1.57)(looked -1.73)(like -2.43)(a -1.30)(shotgun -1.30)(, -9.60) line score is : -2.990, look ahead score is : 0.588
+(but -9.60)(it -2.84)(was -2.15)(the -2.99)(same -0.82)(gun -3.66)(, -3.52) line score is : -3.653, look ahead score is : 0.710
+(it -3.52)(was -2.71)(only -2.36)(the -3.09)(handle -0.66)(it -4.69)(said -2.85)(. -3.12) line score is : -2.875, look ahead score is : 0.000
+-------------------------score:  -2.938913646484575;  adjusted_score: -2.9126754058849427----------------------- 
+there was a loud girl named freda 
+ who carried a big bag on her head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the shell itself said . 
+------------------------- score breakdown ------------------------ 
+(who -1.64)(carried -7.30)(a -1.19)(big -3.33)(bag -2.16)(on -3.13)(her -0.11)(head -2.09)(. -1.57) line score is : -2.504, look ahead score is : 0.000
+(it -1.57)(was -3.69)(like -0.65)(a -3.34)(shotgun -1.67)(, -7.71) line score is : -3.106, look ahead score is : 0.602
+(but -7.71)(it -2.20)(was -2.22)(the -2.07)(same -0.98)(gun -4.19)(, -3.28) line score is : -3.235, look ahead score is : 0.710
+(it -3.28)(was -2.41)(only -1.91)(the -2.85)(shell -0.54)(itself -4.74)(said -2.95)(. -3.32) line score is : -2.749, look ahead score is : 0.000

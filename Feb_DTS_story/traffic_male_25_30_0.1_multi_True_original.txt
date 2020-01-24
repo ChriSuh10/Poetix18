@@ -1,0 +1,550 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.933991538360715;  adjusted_score: -2.9086159048229456----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and that is the problem of this fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(wrong -0.77)(way -4.33)(, -3.72) line score is : -3.013, look ahead score is : 0.702
+(and -3.72)(that -1.18)(is -2.36)(the -1.40)(problem -4.34)(of -3.07)(this -2.52)(fleet -3.21)(. -3.52) line score is : -2.814, look ahead score is : 0.000
+-------------------------score:  -2.945947675034404;  adjusted_score: -2.920800846144557----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and that is the reason of this fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(and -3.24)(that -1.61)(is -2.29)(the -1.55)(reason -4.03)(of -2.68)(this -2.36)(fleet -2.62)(. -4.71) line score is : -2.786, look ahead score is : 0.000
+-------------------------score:  -2.9472458884119987;  adjusted_score: -2.922099059522152----------------------- 
+there was a nasty man named pete 
+ who drove a hot rod on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and that is the reason of this fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(hot -5.50)(rod -0.87)(on -4.07)(our -3.82)(street -2.19)(. -1.66) line score is : -3.062, look ahead score is : 0.000
+(it -1.66)(was -3.29)(on -0.61)(the -5.40)(highway -1.64)(, -4.56) line score is : -2.861, look ahead score is : 0.566
+(but -4.56)(it -2.23)(was -3.30)(the -2.08)(right -0.67)(way -4.07)(, -3.52) line score is : -2.919, look ahead score is : 0.691
+(and -3.52)(that -1.62)(is -2.35)(the -1.56)(reason -3.77)(of -3.02)(this -2.43)(fleet -2.66)(. -4.78) line score is : -2.857, look ahead score is : 0.000
+-------------------------score:  -3.0019710678607225;  adjusted_score: -2.9768242389708757----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and that is the difference of this fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(and -3.24)(that -1.61)(is -2.29)(the -1.55)(difference -4.03)(of -2.68)(this -2.36)(fleet -4.22)(. -5.43) line score is : -3.044, look ahead score is : 0.000
+-------------------------score:  -3.0162391141057014;  adjusted_score: -2.990521750897169----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ he was on the highway , 
+ but he had the wrong way , 
+ and that is the reason of this fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(he -1.40)(was -1.29)(on -1.43)(the -5.27)(highway -1.89)(, -4.99) line score is : -2.713, look ahead score is : 0.566
+(but -4.99)(he -2.45)(had -3.39)(the -1.37)(wrong -2.69)(way -3.40)(, -3.72) line score is : -3.143, look ahead score is : 0.720
+(and -3.72)(that -2.92)(is -3.05)(the -1.28)(reason -4.30)(of -2.71)(this -2.73)(fleet -1.21)(. -4.43) line score is : -2.927, look ahead score is : 0.000
+-------------------------score:  -3.0812713596969843;  adjusted_score: -3.0561245308071374----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and that is the road of this concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(and -3.24)(that -1.61)(is -2.29)(the -1.55)(road -4.03)(of -2.68)(this -2.36)(concrete -4.33)(. -3.55) line score is : -2.848, look ahead score is : 0.000
+-------------------------score:  -3.131529667007271;  adjusted_score: -3.1063828381174243----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and that is the kind of this concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(and -3.24)(that -1.61)(is -2.29)(the -1.55)(kind -4.03)(of -2.68)(this -2.36)(concrete -3.54)(. -0.02) line score is : -2.366, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.938363613560796;  adjusted_score: -2.9129879800230265----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and he got down and hit our concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(he -1.44)(got -2.33)(down -1.35)(and -1.89)(hit -2.82)(our -6.32)(concrete -1.83)(. -3.47) line score is : -2.768, look ahead score is : 0.000
+-------------------------score:  -2.982066558673978;  adjusted_score: -2.9566909251362086----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and he got down and kicked our concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(he -1.44)(got -2.33)(down -1.35)(and -1.89)(kicked -2.82)(our -6.32)(concrete -1.83)(. -5.40) line score is : -2.982, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ she was destined to go a long way 
+-------------------------score:  -2.9408011006817105;  adjusted_score: -2.9156542717918636----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ we were able to get a full fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(we -3.24)(were -1.61)(able -2.29)(to -3.45)(get -1.89)(a -3.51)(full -0.00)(fleet -1.85)(. -3.39) line score is : -2.360, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ IN NN , PRP COULD RB VB NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ in fact , they could hardly get ynne 
+-------------------------score:  -2.9473658837378025;  adjusted_score: -2.9222190548479556----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ in fact , you could actually see concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(in -3.24)(fact -1.61)(, -2.29)(you -4.72)(could -2.36)(actually -1.48)(see -5.01)(concrete -0.97)(. -4.27) line score is : -2.882, look ahead score is : 0.000
+-------------------------score:  -2.965904777869582;  adjusted_score: -2.9407579489797353----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ in fact , you could even see concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(in -3.24)(fact -1.61)(, -2.29)(you -4.72)(could -2.36)(even -1.48)(see -5.01)(concrete -0.97)(. -4.27) line score is : -2.882, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.048952258685056;  adjusted_score: -3.023805429795209----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ as we had to go , we have a fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(as -3.24)(we -1.61)(had -2.29)(to -3.92)(go -2.13)(, -2.32)(we -1.94)(have -1.74)(a -4.55)(fleet -3.90)(. -4.82) line score is : -2.948, look ahead score is : 0.000
+======================= template: 6 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ SO PRP VBD DOWN THE NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ so he went down the mall 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.057754073292017;  adjusted_score: -3.0338423335552216----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ so it was down the way , 
+ and he got down and hit our concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(so -4.80)(it -2.29)(was -3.42)(down -2.13)(the -0.82)(way -7.60)(, -1.31) line score is : -3.195, look ahead score is : 0.629
+(and -1.31)(he -4.62)(got -1.95)(down -1.49)(and -1.93)(hit -2.98)(our -5.59)(concrete -1.71)(. -4.04) line score is : -2.846, look ahead score is : 0.000
+-------------------------score:  -3.106342989951372;  adjusted_score: -3.0824312502145768----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ so it was down the way , 
+ and he got down and saw our fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(so -4.80)(it -2.29)(was -3.42)(down -2.13)(the -0.82)(way -7.60)(, -1.31) line score is : -3.195, look ahead score is : 0.629
+(and -1.31)(he -4.62)(got -1.95)(down -1.49)(and -1.93)(saw -2.98)(our -5.59)(fleet -1.71)(. -4.71) line score is : -2.921, look ahead score is : 0.000
+-------------------------score:  -3.1616288013756275;  adjusted_score: -3.137717061638832----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ so it was down the way , 
+ and he got down and saw our concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(so -4.80)(it -2.29)(was -3.42)(down -2.13)(the -0.82)(way -7.60)(, -1.31) line score is : -3.195, look ahead score is : 0.629
+(and -1.31)(he -4.62)(got -1.95)(down -1.49)(and -1.93)(saw -2.98)(our -5.59)(concrete -1.71)(. -4.71) line score is : -2.921, look ahead score is : 0.000
+======================= template: 7 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.060798468068242;  adjusted_score: -3.035422834530473----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car almost hit a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(almost -1.35)(hit -2.71)(a -3.58)(whole -6.08)(fleet -0.91)(. -2.05) line score is : -2.656, look ahead score is : 0.000
+-------------------------score:  -3.0802007410675287;  adjusted_score: -3.0548251075297594----------------------- 
+there was a quiet man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car almost hit a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(white -3.73)(van -2.81)(on -3.60)(our -4.29)(street -2.10)(. -1.53) line score is : -3.033, look ahead score is : 0.000
+(it -1.53)(was -3.27)(on -0.65)(the -4.59)(highway -1.62)(, -4.85) line score is : -2.752, look ahead score is : 0.566
+(but -4.85)(it -2.30)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.057, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(almost -1.35)(hit -2.71)(a -3.58)(whole -6.08)(fleet -0.91)(. -2.05) line score is : -2.656, look ahead score is : 0.000
+-------------------------score:  -3.1003902684897184;  adjusted_score: -3.075014634951949----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy almost hit a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(almost -1.35)(hit -2.71)(a -3.47)(whole -7.42)(fleet -1.34)(. -2.30) line score is : -2.869, look ahead score is : 0.000
+-------------------------score:  -3.1192650217562914;  adjusted_score: -3.093889388218522----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy almost got a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(almost -1.35)(got -2.71)(a -3.47)(whole -7.42)(fleet -1.91)(. -3.77) line score is : -3.096, look ahead score is : 0.000
+-------------------------score:  -3.121040491387248;  adjusted_score: -3.0956648578494788----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car almost struck a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(almost -1.35)(struck -2.71)(a -3.58)(whole -6.08)(fleet -3.00)(. -1.86) line score is : -2.866, look ahead score is : 0.000
+-------------------------score:  -3.1282444950193167;  adjusted_score: -3.1028688614815474----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car actually hit a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(actually -1.35)(hit -2.71)(a -3.58)(whole -6.31)(fleet -1.55)(. -1.76) line score is : -2.720, look ahead score is : 0.000
+-------------------------score:  -3.1442242925986648;  adjusted_score: -3.119077463708818----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and the road ahead was a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(right -0.77)(way -4.33)(, -3.24) line score is : -2.943, look ahead score is : 0.691
+(and -3.24)(the -1.61)(road -2.29)(ahead -1.55)(was -2.94)(a -3.17)(whole -5.84)(fleet -0.50)(. -3.60) line score is : -2.746, look ahead score is : 0.000
+-------------------------score:  -3.1476467680186033;  adjusted_score: -3.122271134480834----------------------- 
+there was a quiet man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car actually hit a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(white -3.73)(van -2.81)(on -3.60)(our -4.29)(street -2.10)(. -1.53) line score is : -3.033, look ahead score is : 0.000
+(it -1.53)(was -3.27)(on -0.65)(the -4.59)(highway -1.62)(, -4.85) line score is : -2.752, look ahead score is : 0.566
+(but -4.85)(it -2.30)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.057, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(actually -1.35)(hit -2.71)(a -3.58)(whole -6.31)(fleet -1.55)(. -1.76) line score is : -2.720, look ahead score is : 0.000
+-------------------------score:  -3.1553181847557425;  adjusted_score: -3.1301713558658957----------------------- 
+there was a nasty man named pete 
+ who drove a hot rod on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and the road ahead was a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(hot -5.50)(rod -0.87)(on -4.07)(our -3.82)(street -2.19)(. -1.66) line score is : -3.062, look ahead score is : 0.000
+(it -1.66)(was -3.29)(on -0.61)(the -5.40)(highway -1.64)(, -4.56) line score is : -2.861, look ahead score is : 0.566
+(but -4.56)(it -2.23)(was -3.30)(the -2.08)(right -0.67)(way -4.07)(, -3.52) line score is : -2.919, look ahead score is : 0.691
+(and -3.52)(the -1.62)(road -2.35)(ahead -1.56)(was -2.84)(a -2.90)(whole -6.47)(fleet -0.48)(. -3.33) line score is : -2.786, look ahead score is : 0.000
+-------------------------score:  -3.158672481775284;  adjusted_score: -3.1332968482375145----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the road ahead was a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(wrong -0.77)(way -4.33)(, -3.72) line score is : -3.013, look ahead score is : 0.702
+(and -3.72)(the -1.18)(road -2.36)(ahead -1.40)(was -2.71)(a -3.58)(whole -5.66)(fleet -0.58)(. -3.55) line score is : -2.750, look ahead score is : 0.000
+-------------------------score:  -3.1746599581092596;  adjusted_score: -3.1492843245714903----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy actually hit a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(actually -1.35)(hit -2.71)(a -3.47)(whole -6.53)(fleet -2.78)(. -2.46) line score is : -2.948, look ahead score is : 0.000
+-------------------------score:  -3.1912636067718267;  adjusted_score: -3.1658879732340575----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the road ahead was a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(road -2.33)(ahead -1.35)(was -2.71)(a -4.85)(whole -5.91)(fleet -0.58)(. -3.49) line score is : -2.902, look ahead score is : 0.000
+-------------------------score:  -3.1932265292853117;  adjusted_score: -3.1678508957475424----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car almost ran a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(almost -1.35)(ran -2.71)(a -3.58)(whole -6.08)(fleet -3.11)(. -4.52) line score is : -3.174, look ahead score is : 0.000
+-------------------------score:  -3.203458881005645;  adjusted_score: -3.1780832474678755----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy actually got a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(actually -1.35)(got -2.71)(a -3.47)(whole -6.53)(fleet -2.08)(. -3.48) line score is : -2.984, look ahead score is : 0.000
+-------------------------score:  -3.2228611540049314;  adjusted_score: -3.197485520467162----------------------- 
+there was a quiet man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy actually got a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(white -3.73)(van -2.81)(on -3.60)(our -4.29)(street -2.10)(. -1.53) line score is : -3.033, look ahead score is : 0.000
+(it -1.53)(was -3.27)(on -0.65)(the -4.59)(highway -1.62)(, -4.85) line score is : -2.752, look ahead score is : 0.566
+(but -4.85)(it -2.30)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.057, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(actually -1.35)(got -2.71)(a -3.47)(whole -6.53)(fleet -2.08)(. -3.48) line score is : -2.984, look ahead score is : 0.000
+-------------------------score:  -3.259334107860923;  adjusted_score: -3.2339584743231535----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the car somehow got a whole fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(car -2.33)(somehow -1.35)(got -2.71)(a -3.58)(whole -6.94)(fleet -2.04)(. -4.74) line score is : -3.176, look ahead score is : 0.000
+-------------------------score:  -3.284459626302123;  adjusted_score: -3.259083992764354----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the road here was a whole concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(wrong -0.77)(way -4.33)(, -3.72) line score is : -3.013, look ahead score is : 0.702
+(and -3.72)(the -1.18)(road -2.36)(here -1.40)(was -2.71)(a -3.58)(whole -6.94)(concrete -0.68)(. -4.01) line score is : -2.954, look ahead score is : 0.000
+======================= template: 8 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND THE NN ON THE NN OF THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ and the smile on the face of the tiger 
+-------------------------score:  -3.0769560490593766;  adjusted_score: -3.0515804155216073----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy on the bus of the fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(on -1.35)(the -2.71)(bus -3.47)(of -4.29)(the -0.20)(fleet -3.32)(. -7.53) line score is : -3.011, look ahead score is : 0.000
+-------------------------score:  -3.095770374392018;  adjusted_score: -3.070394740854249----------------------- 
+there was a quiet man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy on the bus of the fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(white -3.73)(van -2.81)(on -3.60)(our -4.29)(street -2.10)(. -1.53) line score is : -3.033, look ahead score is : 0.000
+(it -1.53)(was -3.27)(on -0.65)(the -4.59)(highway -1.62)(, -4.85) line score is : -2.752, look ahead score is : 0.566
+(but -4.85)(it -2.30)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.057, look ahead score is : 0.702
+(and -3.45)(the -1.44)(guy -2.33)(on -1.35)(the -2.71)(bus -3.47)(of -4.29)(the -0.20)(fleet -3.32)(. -7.53) line score is : -3.011, look ahead score is : 0.000
+-------------------------score:  -3.1129674717332376;  adjusted_score: -3.0878206428433908----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the right way , 
+ and the guy on the bus of the fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(right -0.80)(way -4.31)(, -3.83) line score is : -3.102, look ahead score is : 0.691
+(and -3.83)(the -1.77)(guy -2.26)(on -1.50)(the -2.94)(bus -3.92)(of -4.35)(the -0.21)(fleet -3.43)(. -7.53) line score is : -3.173, look ahead score is : 0.000
+-------------------------score:  -3.1303410891330605;  adjusted_score: -3.1049654555952912----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ and the guy on the bus of the fleet . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(wrong -0.77)(way -4.33)(, -3.72) line score is : -3.013, look ahead score is : 0.702
+(and -3.72)(the -1.18)(guy -2.36)(on -1.40)(the -2.71)(bus -3.82)(of -4.24)(the -0.24)(fleet -4.14)(. -7.57) line score is : -3.138, look ahead score is : 0.000
+======================= template: 9 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD ON THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ ON THE NN WITH PRP$ NN OR NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ it said on the door 
+ but they went the wrong way 
+ on the phone with your brother or seester 
+-------------------------score:  -3.192368723452091;  adjusted_score: -3.166993089914322----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ on the side with our house or concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(on -3.45)(the -1.44)(side -2.33)(with -4.60)(our -0.69)(house -4.16)(or -5.53)(concrete -4.99)(. -1.58) line score is : -3.197, look ahead score is : 0.000
+-------------------------score:  -3.1958417063578963;  adjusted_score: -3.1704975255951284----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the same day , 
+ on the road with our house or concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(same -0.80)(day -4.31)(, -1.96) line score is : -2.835, look ahead score is : 0.701
+(on -1.96)(the -4.50)(road -2.26)(with -3.85)(our -0.46)(house -4.62)(or -3.94)(concrete -4.10)(. -2.37) line score is : -3.118, look ahead score is : 0.000
+-------------------------score:  -3.206566257402301;  adjusted_score: -3.181222076639533----------------------- 
+there was a quiet man named pete 
+ who drove a small car on our street . 
+ it was on the highway , 
+ but it was the same day , 
+ on the road with our house or concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.80)(drove -5.85)(a -1.58)(small -3.99)(car -2.16)(on -3.98)(our -4.13)(street -2.23)(. -1.40) line score is : -3.013, look ahead score is : 0.000
+(it -1.40)(was -3.30)(on -0.55)(the -5.11)(highway -1.56)(, -4.86) line score is : -2.797, look ahead score is : 0.566
+(but -4.86)(it -2.22)(was -3.12)(the -2.08)(same -0.77)(day -4.33)(, -2.26) line score is : -2.804, look ahead score is : 0.701
+(on -2.26)(the -4.14)(road -2.34)(with -4.08)(our -0.49)(house -4.36)(or -3.74)(concrete -4.15)(. -2.88) line score is : -3.161, look ahead score is : 0.000
+-------------------------score:  -3.2307391464710236;  adjusted_score: -3.2053635129332543----------------------- 
+there was a nasty man named pete 
+ who drove a white van on our street . 
+ it was on the highway , 
+ but it was the wrong way , 
+ on the right with our car or concrete . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(drove -5.70)(a -1.83)(white -3.95)(van -1.64)(on -3.68)(our -3.94)(street -2.35)(. -1.67) line score is : -2.965, look ahead score is : 0.000
+(it -1.67)(was -3.26)(on -0.76)(the -4.46)(highway -1.71)(, -4.80) line score is : -2.776, look ahead score is : 0.566
+(but -4.80)(it -2.29)(was -3.64)(the -2.05)(wrong -0.80)(way -4.31)(, -3.45) line score is : -3.049, look ahead score is : 0.702
+(on -3.45)(the -1.44)(right -2.33)(with -4.60)(our -0.69)(car -2.45)(or -7.02)(concrete -4.51)(. -2.42) line score is : -3.213, look ahead score is : 0.000

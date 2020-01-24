@@ -1,0 +1,88 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ PRP VBD JJ TO VB AND TO VB . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ she was ready to give and to take 
+-------------------------score:  -2.882612488502937;  adjusted_score: -2.856382356444674----------------------- 
+there was a shy captain named tess 
+ who kept a close eye on my progress . 
+ when i got to spring , 
+ i was ready to sing , 
+ i was good to go and to impress . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(kept -5.04)(a -3.17)(close -3.20)(eye -0.17)(on -0.03)(my -4.04)(progress -2.10)(. -1.05) line score is : -2.241, look ahead score is : 0.000
+(when -1.05)(i -4.43)(got -1.14)(to -2.54)(spring -1.28)(, -9.84) line score is : -3.380, look ahead score is : 0.626
+(i -9.84)(was -2.11)(ready -1.03)(to -1.70)(sing -3.93)(, -0.62) line score is : -3.206, look ahead score is : 0.686
+(i -0.62)(was -7.46)(good -2.81)(to -3.52)(go -1.18)(and -5.71)(to -1.83)(impress -0.05)(. -2.56) line score is : -2.860, look ahead score is : 0.000
+-------------------------score:  -2.882612496193859;  adjusted_score: -2.856382364135596----------------------- 
+there was a shy captain named ines 
+ who kept a close eye on my progress . 
+ when i got to spring , 
+ i was ready to sing , 
+ i was good to go and to impress . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(kept -5.04)(a -3.17)(close -3.20)(eye -0.17)(on -0.03)(my -4.04)(progress -2.10)(. -1.05) line score is : -2.241, look ahead score is : 0.000
+(when -1.05)(i -4.43)(got -1.14)(to -2.54)(spring -1.28)(, -9.84) line score is : -3.380, look ahead score is : 0.626
+(i -9.84)(was -2.11)(ready -1.03)(to -1.70)(sing -3.93)(, -0.62) line score is : -3.206, look ahead score is : 0.686
+(i -0.62)(was -7.46)(good -2.81)(to -3.52)(go -1.18)(and -5.71)(to -1.83)(impress -0.05)(. -2.56) line score is : -2.860, look ahead score is : 0.000
+-------------------------score:  -3.018521345611061;  adjusted_score: -2.992291213552798----------------------- 
+there was a shy captain named ines 
+ who kept a close eye on my progress . 
+ when i got to spring , 
+ i was ready to sing , 
+ i was proud to be and to impress . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(kept -5.04)(a -3.17)(close -3.20)(eye -0.17)(on -0.03)(my -4.04)(progress -2.10)(. -1.05) line score is : -2.241, look ahead score is : 0.000
+(when -1.05)(i -4.43)(got -1.14)(to -2.54)(spring -1.28)(, -9.84) line score is : -3.380, look ahead score is : 0.626
+(i -9.84)(was -2.11)(ready -1.03)(to -1.70)(sing -3.93)(, -0.62) line score is : -3.206, look ahead score is : 0.686
+(i -0.62)(was -7.46)(proud -2.81)(to -3.52)(be -1.18)(and -5.25)(to -1.30)(impress -0.79)(. -7.69) line score is : -3.403, look ahead score is : 0.000
+-------------------------score:  -3.0185213533019826;  adjusted_score: -2.9922912212437196----------------------- 
+there was a shy captain named ines 
+ who kept a close eye on my progress . 
+ when i got to spring , 
+ i was ready to sing , 
+ i was proud to be and to impress . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(kept -5.04)(a -3.17)(close -3.20)(eye -0.17)(on -0.03)(my -4.04)(progress -2.10)(. -1.05) line score is : -2.241, look ahead score is : 0.000
+(when -1.05)(i -4.43)(got -1.14)(to -2.54)(spring -1.28)(, -9.84) line score is : -3.380, look ahead score is : 0.626
+(i -9.84)(was -2.11)(ready -1.03)(to -1.70)(sing -3.93)(, -0.62) line score is : -3.206, look ahead score is : 0.686
+(i -0.62)(was -7.46)(proud -2.81)(to -3.52)(be -1.18)(and -5.25)(to -1.30)(impress -0.79)(. -7.69) line score is : -3.403, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP$ NNS VBD JJR AND JJR . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when he went to bed 
+ he was ready to faint 
+ and her freckles grew rarer and rarer 
+-------------------------score:  -3.2457849027588965;  adjusted_score: -3.2195547707006336----------------------- 
+there was a shy captain named ines 
+ who kept a close eye on my progress . 
+ when i got to spring , 
+ i was ready to sing , 
+ and my parents were better and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(kept -5.04)(a -3.17)(close -3.20)(eye -0.17)(on -0.03)(my -4.04)(progress -2.10)(. -1.05) line score is : -2.241, look ahead score is : 0.000
+(when -1.05)(i -4.43)(got -1.14)(to -2.54)(spring -1.28)(, -9.84) line score is : -3.380, look ahead score is : 0.626
+(i -9.84)(was -2.11)(ready -1.03)(to -1.70)(sing -3.93)(, -0.62) line score is : -3.206, look ahead score is : 0.686
+(and -0.62)(my -7.46)(parents -2.81)(were -1.76)(better -3.23)(and -3.93)(less -1.53)(. -8.14) line score is : -3.686, look ahead score is : 0.000
+-------------------------score:  -3.24578505375733;  adjusted_score: -3.219554921699067----------------------- 
+there was a shy captain named tess 
+ who kept a close eye on my progress . 
+ when i got to spring , 
+ i was ready to sing , 
+ and my parents were better and less . 
+------------------------- score breakdown ------------------------ 
+(who -1.38)(kept -5.04)(a -3.17)(close -3.20)(eye -0.17)(on -0.03)(my -4.04)(progress -2.10)(. -1.05) line score is : -2.241, look ahead score is : 0.000
+(when -1.05)(i -4.43)(got -1.14)(to -2.54)(spring -1.28)(, -9.84) line score is : -3.380, look ahead score is : 0.626
+(i -9.84)(was -2.11)(ready -1.03)(to -1.70)(sing -3.93)(, -0.62) line score is : -3.206, look ahead score is : 0.686
+(and -0.62)(my -7.46)(parents -2.81)(were -1.76)(better -3.23)(and -3.93)(less -1.53)(. -8.14) line score is : -3.686, look ahead score is : 0.000

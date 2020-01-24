@@ -1,0 +1,44 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was told by his wife 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.63652684353292;  adjusted_score: -3.6126155653595924----------------------- 
+there was a fierce man named dwight 
+ who brought out his weapons for a fight . 
+ when he arrived to cheer , 
+ he was met by his fear , 
+ and he fell down and started his right . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(brought -6.06)(out -3.73)(his -2.32)(weapons -5.78)(for -4.64)(a -2.91)(fight -1.76)(. -1.07) line score is : -3.322, look ahead score is : 0.000
+(when -1.07)(he -4.10)(arrived -1.31)(to -4.24)(cheer -3.37)(, -8.70) line score is : -3.798, look ahead score is : 0.553
+(he -8.70)(was -4.91)(met -1.22)(by -1.70)(his -2.28)(fear -0.51)(, -3.17) line score is : -3.213, look ahead score is : 0.643
+(and -3.17)(he -9.18)(fell -2.72)(down -1.77)(and -2.08)(started -4.13)(his -2.63)(right -2.86)(. -3.43) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -3.649606829509139;  adjusted_score: -3.6256955513358116----------------------- 
+there was a fierce man named dwight 
+ who brought out his weapons for a fight . 
+ when he arrived to cheer , 
+ he was met by his fear , 
+ and he fell down and began his right . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(brought -6.06)(out -3.73)(his -2.32)(weapons -5.78)(for -4.64)(a -2.91)(fight -1.76)(. -1.07) line score is : -3.322, look ahead score is : 0.000
+(when -1.07)(he -4.10)(arrived -1.31)(to -4.24)(cheer -3.37)(, -8.70) line score is : -3.798, look ahead score is : 0.553
+(he -8.70)(was -4.91)(met -1.22)(by -1.70)(his -2.28)(fear -0.51)(, -3.17) line score is : -3.213, look ahead score is : 0.643
+(and -3.17)(he -9.18)(fell -2.72)(down -1.77)(and -2.08)(began -4.13)(his -2.63)(right -2.86)(. -3.55) line score is : -3.565, look ahead score is : 0.000
+-------------------------score:  -3.669490225613117;  adjusted_score: -3.6454006633907556----------------------- 
+there was a fierce man named dwight 
+ who brought out his weapons for a fight . 
+ when he arrived to cheer , 
+ he was struck by his fear , 
+ and he fell down and began his right . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(brought -6.06)(out -3.73)(his -2.32)(weapons -5.78)(for -4.64)(a -2.91)(fight -1.76)(. -1.07) line score is : -3.322, look ahead score is : 0.000
+(when -1.07)(he -4.10)(arrived -1.31)(to -4.24)(cheer -3.37)(, -8.70) line score is : -3.798, look ahead score is : 0.553
+(he -8.70)(was -4.91)(struck -1.22)(by -1.70)(his -4.53)(fear -1.17)(, -4.50) line score is : -3.818, look ahead score is : 0.652
+(and -4.50)(he -6.26)(fell -2.51)(down -1.01)(and -2.76)(began -3.08)(his -2.44)(right -2.78)(. -3.59) line score is : -3.213, look ahead score is : 0.000

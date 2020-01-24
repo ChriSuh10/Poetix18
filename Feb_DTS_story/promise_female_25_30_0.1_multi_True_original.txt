@@ -1,627 +1,1749 @@
 ======================= template: 1 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
- THE NN OF PRP$ NN , 
- PRP$ NN AND PRP$ NN , 
- ALL OF WHICH , THE NN VBD , VBD PRP$ . 
+ WHEN PRP VBD TO NN , 
+ PRP$ NN VBD A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
- the cause of his sorrow 
- his grief and his rage 
- all of which , the lady said , shocked her 
--------------------------score:  -3.3754653388803657;  adjusted_score: -3.3505243312364277----------------------- 
-there was a vain liar named tai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the prophet said , was my . 
+ when he went to bed 
+ my mama was a goat 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.236124021391715;  adjusted_score: -3.210512216295446----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she sat down and began her way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(prophet -1.90)(said -5.36)(, -4.73)(was -4.26)(my -1.92)(. -0.25) line score is : -2.862, look ahead score is : 0.000
--------------------------score:  -3.3885193313613082;  adjusted_score: -3.36357832371737----------------------- 
-there was a vain liar named hye 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the angel said , was my . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(sat -2.34)(down -1.05)(and -1.55)(began -4.98)(her -0.82)(way -2.56)(. -3.19) line score is : -2.955, look ahead score is : 0.000
+-------------------------score:  -3.3152179823767756;  adjusted_score: -3.2896061772805067----------------------- 
+there was a vain lady named shay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she looked down and saw our way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(angel -1.90)(said -5.36)(, -4.73)(was -5.88)(my -2.50)(. -0.23) line score is : -3.061, look ahead score is : 0.000
--------------------------score:  -3.400622414820122;  adjusted_score: -3.375681407176184----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the prophet said , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(prophet -1.90)(said -5.36)(, -4.73)(were -4.26)(my -1.92)(. -0.25) line score is : -2.862, look ahead score is : 0.000
--------------------------score:  -3.409149784933437;  adjusted_score: -3.384208777289499----------------------- 
-there was a vain liar named hye 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the angel said , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(angel -1.90)(said -5.36)(, -4.73)(were -5.88)(my -2.50)(. -0.23) line score is : -3.061, look ahead score is : 0.000
--------------------------score:  -3.4162058983788346;  adjusted_score: -3.3912648907348966----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the woman said , was my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(woman -1.90)(said -5.36)(, -4.73)(was -5.33)(my -3.25)(. -0.28) line score is : -3.084, look ahead score is : 0.000
--------------------------score:  -3.430754601955414;  adjusted_score: -3.405813594311476----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the woman knew , was my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(woman -1.90)(knew -5.36)(, -4.73)(was -5.33)(my -3.67)(. -0.64) line score is : -3.155, look ahead score is : 0.000
--------------------------score:  -3.4395766122774645;  adjusted_score: -3.4146356046335264----------------------- 
-there was a vain liar named chae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the woman said , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(woman -1.90)(said -5.36)(, -4.73)(were -5.33)(my -3.25)(. -0.28) line score is : -3.084, look ahead score is : 0.000
--------------------------score:  -3.4433352933688597;  adjusted_score: -3.4183942857249217----------------------- 
-there was a vain liar named fae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author said , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(said -5.36)(, -4.73)(were -3.68)(my -3.91)(. -0.16) line score is : -2.982, look ahead score is : 0.000
--------------------------score:  -3.455012309280309;  adjusted_score: -3.430071301636371----------------------- 
-there was a vain liar named chae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author said , was my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(said -5.36)(, -4.73)(was -3.68)(my -3.91)(. -0.16) line score is : -2.982, look ahead score is : 0.000
--------------------------score:  -3.4590371440757406;  adjusted_score: -3.4340961364318026----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author claimed , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(claimed -5.36)(, -4.73)(were -3.68)(my -4.91)(. -0.26) line score is : -3.082, look ahead score is : 0.000
--------------------------score:  -3.4671494951753905;  adjusted_score: -3.4422084875314525----------------------- 
-there was a vain liar named hye 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author claimed , was my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(claimed -5.36)(, -4.73)(was -3.68)(my -4.91)(. -0.26) line score is : -3.082, look ahead score is : 0.000
--------------------------score:  -3.4688080928542395;  adjusted_score: -3.4438670852103015----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author wrote , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(wrote -5.36)(, -4.73)(were -3.68)(my -4.44)(. -0.34) line score is : -3.047, look ahead score is : 0.000
--------------------------score:  -3.4735372378067537;  adjusted_score: -3.4485962301628157----------------------- 
-there was a vain liar named hye 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the writer said , were my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(writer -1.90)(said -5.36)(, -4.73)(were -4.86)(my -3.59)(. -0.14) line score is : -3.059, look ahead score is : 0.000
--------------------------score:  -3.4879689636555584;  adjusted_score: -3.4630279560116204----------------------- 
-there was a vain liar named vi 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the writer said , was my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(writer -1.90)(said -5.36)(, -4.73)(was -4.86)(my -3.59)(. -0.14) line score is : -3.059, look ahead score is : 0.000
--------------------------score:  -3.492763152628234;  adjusted_score: -3.467822144984296----------------------- 
-there was a vain liar named vi 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author wrote , was my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(wrote -5.36)(, -4.73)(was -3.68)(my -4.44)(. -0.34) line score is : -3.047, look ahead score is : 0.000
--------------------------score:  -3.5054846279548877;  adjusted_score: -3.4805436203109497----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the prophet said , had my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(prophet -1.90)(said -5.36)(, -4.73)(had -4.26)(my -1.92)(. -0.25) line score is : -2.862, look ahead score is : 0.000
--------------------------score:  -3.564604371334567;  adjusted_score: -3.539663363690629----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- all of which , the author said , had my . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(all -0.58)(of -4.53)(which -2.78)(, -3.32)(the -1.86)(author -1.90)(said -5.36)(, -4.73)(had -3.68)(my -3.91)(. -0.16) line score is : -2.982, look ahead score is : 0.000
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(looked -2.34)(down -1.05)(and -1.55)(saw -4.67)(our -2.97)(way -1.96)(. -0.47) line score is : -2.790, look ahead score is : 0.000
 ======================= template: 2 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
- THE NN OF PRP$ NN , 
- PRP$ NN AND PRP$ NN , 
- OF THE NN AND NN AND NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
- the cause of his sorrow 
- his grief and his rage 
- of the gravy and chicken and ham 
--------------------------score:  -3.4255129913489024;  adjusted_score: -3.4005719837049644----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and suffering and cry . 
+ when he went to bed 
+ he was pained by a tooth 
+ and it dropped down and ruined her gown 
+-------------------------score:  -3.3171705212444067;  adjusted_score: -3.2920438716560603----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and she looked down and saw our way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(suffering -2.56)(and -4.85)(cry -1.12)(. -2.41) line score is : -2.736, look ahead score is : 0.000
--------------------------score:  -3.4660958627859753;  adjusted_score: -3.4411548551420372----------------------- 
-there was a vain liar named wai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and agony and cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(she -7.74)(looked -3.17)(down -2.19)(and -1.72)(saw -3.86)(our -2.71)(way -1.64)(. -0.34) line score is : -2.763, look ahead score is : 0.000
+-------------------------score:  -3.321152312681079;  adjusted_score: -3.295405539944768----------------------- 
+there was a vain lady named maye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and she looked down and saw our way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(agony -2.56)(and -4.85)(cry -1.12)(. -4.05) line score is : -2.942, look ahead score is : 0.000
--------------------------score:  -3.485094795624415;  adjusted_score: -3.460153787980477----------------------- 
-there was a vain liar named vi 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and suffering and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(suffering -2.56)(and -4.85)(sigh -1.12)(. -2.41) line score is : -2.736, look ahead score is : 0.000
--------------------------score:  -3.4986850837866466;  adjusted_score: -3.4737440761427085----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and misery and cry . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(misery -2.56)(and -4.85)(cry -1.12)(. -4.59) line score is : -3.009, look ahead score is : 0.000
--------------------------score:  -3.5040443281332654;  adjusted_score: -3.4791033204893274----------------------- 
-there was a vain liar named tai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the love and loyalty and cry . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(love -2.78)(and -3.05)(loyalty -2.56)(and -3.65)(cry -2.00)(. -4.45) line score is : -2.951, look ahead score is : 0.000
--------------------------score:  -3.5090329110622407;  adjusted_score: -3.4840919034183027----------------------- 
-there was a vain liar named lorelei 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and sacrifice and cry . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(sacrifice -2.56)(and -4.85)(cry -1.12)(. -4.63) line score is : -3.014, look ahead score is : 0.000
--------------------------score:  -3.5131231685479483;  adjusted_score: -3.4881821609040102----------------------- 
-there was a vain liar named kai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the joy and suffering and cry . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(joy -2.78)(and -3.05)(suffering -2.56)(and -5.66)(cry -1.74)(. -3.16) line score is : -3.009, look ahead score is : 0.000
--------------------------score:  -3.515038118759791;  adjusted_score: -3.490097111115853----------------------- 
-there was a vain liar named fae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the suffering and death and cry . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(suffering -2.78)(and -3.05)(death -2.56)(and -5.65)(cry -1.75)(. -2.83) line score is : -2.969, look ahead score is : 0.000
--------------------------score:  -3.519509905576706;  adjusted_score: -3.494568897932768----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and agony and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(agony -2.56)(and -4.85)(sigh -1.12)(. -4.05) line score is : -2.942, look ahead score is : 0.000
--------------------------score:  -3.5276399552822113;  adjusted_score: -3.5026989476382733----------------------- 
-there was a vain liar named tai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the love and sacrifice and cry . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(love -2.78)(and -3.05)(sacrifice -2.56)(and -3.65)(cry -2.00)(. -4.65) line score is : -2.976, look ahead score is : 0.000
--------------------------score:  -3.5426596899827323;  adjusted_score: -3.5177186823387943----------------------- 
-there was a vain liar named vi 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and misery and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(misery -2.56)(and -4.85)(sigh -1.12)(. -4.59) line score is : -3.009, look ahead score is : 0.000
--------------------------score:  -3.547016829252243;  adjusted_score: -3.522075821608305----------------------- 
-there was a vain liar named lorelei 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the love and jealousy and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(love -2.78)(and -3.05)(jealousy -2.56)(and -3.65)(sigh -2.00)(. -4.77) line score is : -2.991, look ahead score is : 0.000
--------------------------score:  -3.550156901280085;  adjusted_score: -3.525215893636147----------------------- 
-there was a vain liar named kai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the joy and suffering and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(joy -2.78)(and -3.05)(suffering -2.56)(and -5.66)(sigh -1.74)(. -3.16) line score is : -3.009, look ahead score is : 0.000
--------------------------score:  -3.557630358139674;  adjusted_score: -3.532689350495736----------------------- 
-there was a vain liar named chae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the suffering and death and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(suffering -2.78)(and -3.05)(death -2.56)(and -5.65)(sigh -1.75)(. -2.83) line score is : -2.969, look ahead score is : 0.000
--------------------------score:  -3.5612702786922457;  adjusted_score: -3.5363292710483076----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the pain and sacrifice and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(pain -2.78)(and -3.05)(sacrifice -2.56)(and -4.85)(sigh -1.12)(. -4.63) line score is : -3.014, look ahead score is : 0.000
--------------------------score:  -3.577309189240138;  adjusted_score: -3.5523681815962----------------------- 
-there was a vain liar named hye 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the love and sacrifice and sigh . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(love -2.78)(and -3.05)(sacrifice -2.56)(and -3.65)(sigh -2.00)(. -4.65) line score is : -2.976, look ahead score is : 0.000
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(she -8.15)(looked -3.21)(down -1.57)(and -1.72)(saw -3.70)(our -2.80)(way -1.75)(. -0.31) line score is : -2.816, look ahead score is : 0.000
 ======================= template: 3 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
- THE NN OF PRP$ NN , 
- PRP$ NN AND PRP$ NN , 
- VBD RB A JJ NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
- the cause of his sorrow 
- his grief and his rage 
- found only a sleeveless tuxedo 
--------------------------score:  -3.589614597814424;  adjusted_score: -3.564673590170486----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- was indeed a fascinating cry . 
+ when he went to bed 
+ he was pained by a tooth 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.343833964318037;  adjusted_score: -3.3180871915817263----------------------- 
+there was a vain lady named fe 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to leave , she heard a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(was -0.58)(indeed -4.53)(a -2.78)(fascinating -3.02)(cry -6.37)(. -2.09) line score is : -3.229, look ahead score is : 0.000
--------------------------score:  -3.605636811682156;  adjusted_score: -3.580695804038218----------------------- 
-there was a vain liar named tai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- was truly a fascinating cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(leave -1.77)(, -3.30)(she -0.09)(heard -4.02)(a -2.38)(way -3.85)(. -3.56) line score is : -3.329, look ahead score is : 0.000
+-------------------------score:  -3.348077936207547;  adjusted_score: -3.3229257969908854----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to see , i have a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(was -0.58)(truly -4.53)(a -2.78)(fascinating -3.02)(cry -6.53)(. -2.55) line score is : -3.333, look ahead score is : 0.000
--------------------------score:  -3.609083671654974;  adjusted_score: -3.584142664011036----------------------- 
-there was a vain liar named fae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- was always a fascinating cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(see -1.33)(, -4.64)(i -1.41)(have -1.25)(a -4.48)(way -5.63)(. -4.23) line score is : -3.778, look ahead score is : 0.000
+-------------------------score:  -3.3493644814280903;  adjusted_score: -3.3242123422114287----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to see , she heard a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(was -0.58)(always -4.53)(a -2.78)(fascinating -3.02)(cry -5.09)(. -3.39) line score is : -3.232, look ahead score is : 0.000
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(see -1.33)(, -4.64)(she -1.41)(heard -1.25)(a -4.48)(way -3.72)(. -3.69) line score is : -3.556, look ahead score is : 0.000
+-------------------------score:  -3.358492922256975;  adjusted_score: -3.3333407830403132----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to look , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(look -1.33)(, -4.64)(she -1.41)(heard -2.38)(a -3.25)(way -3.82)(. -3.65) line score is : -3.553, look ahead score is : 0.000
+-------------------------score:  -3.3670050525928246;  adjusted_score: -3.341258279856514----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to sew , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(sew -1.77)(, -3.30)(she -0.09)(heard -3.84)(a -3.82)(way -4.12)(. -3.69) line score is : -3.479, look ahead score is : 0.000
+-------------------------score:  -3.3696898020365658;  adjusted_score: -3.344537662819904----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she came to see , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(came -3.84)(to -4.12)(see -1.33)(, -4.59)(she -1.55)(heard -3.17)(a -4.37)(way -4.32)(. -3.39) line score is : -3.756, look ahead score is : 0.000
+-------------------------score:  -3.3760026612264267;  adjusted_score: -3.350255888490116----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to run , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(run -1.77)(, -3.30)(she -0.09)(heard -4.16)(a -3.89)(way -3.97)(. -3.73) line score is : -3.505, look ahead score is : 0.000
+-------------------------score:  -3.3778351639561794;  adjusted_score: -3.3520883912198687----------------------- 
+there was a vain lady named monet 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to help , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(help -1.77)(, -3.30)(she -0.09)(heard -4.66)(a -3.62)(way -3.43)(. -3.70) line score is : -3.475, look ahead score is : 0.000
+-------------------------score:  -3.378178490435376;  adjusted_score: -3.3530263512187144----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she looked to see , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(looked -3.84)(to -4.12)(see -1.33)(, -3.94)(she -3.75)(heard -1.00)(a -4.75)(way -4.02)(. -3.67) line score is : -3.733, look ahead score is : 0.000
+-------------------------score:  -3.3828400943209145;  adjusted_score: -3.357687955104253----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she came to know , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(came -3.84)(to -4.12)(know -1.33)(, -4.59)(she -1.55)(heard -3.46)(a -3.07)(way -4.60)(. -4.08) line score is : -3.751, look ahead score is : 0.000
+-------------------------score:  -3.382854031289325;  adjusted_score: -3.3577018920726633----------------------- 
+there was a vain lady named maye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to look , she see a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(look -1.33)(, -4.64)(she -1.41)(see -2.38)(a -3.25)(way -3.82)(. -6.61) line score is : -3.822, look ahead score is : 0.000
+-------------------------score:  -3.3901793384814964;  adjusted_score: -3.3644325657451857----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to move , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(move -1.77)(, -3.30)(she -0.09)(heard -4.38)(a -3.87)(way -4.18)(. -3.39) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.391385687405572;  adjusted_score: -3.3656389146692614----------------------- 
+there was a vain lady named wei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to turn , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(turn -1.77)(, -3.30)(she -0.09)(heard -4.09)(a -5.02)(way -3.69)(. -3.33) line score is : -3.539, look ahead score is : 0.000
+-------------------------score:  -3.391681910437696;  adjusted_score: -3.3665297712210345----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she came to know , i have a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(came -3.84)(to -4.12)(know -1.33)(, -4.59)(i -1.55)(have -3.46)(a -3.07)(way -5.56)(. -3.90) line score is : -3.823, look ahead score is : 0.000
+-------------------------score:  -3.3954631554729797;  adjusted_score: -3.370311016256318----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she was to be , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(was -3.84)(to -4.12)(be -1.33)(, -1.81)(she -5.75)(heard -1.82)(a -3.41)(way -4.59)(. -4.26) line score is : -3.780, look ahead score is : 0.000
+-------------------------score:  -3.40010463227244;  adjusted_score: -3.3749524930557784----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to see , i heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(see -1.33)(, -4.64)(i -1.41)(heard -1.25)(a -4.48)(way -5.63)(. -4.05) line score is : -3.762, look ahead score is : 0.000
+-------------------------score:  -3.4043130112044953;  adjusted_score: -3.3791608719878337----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she had to go , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(had -3.84)(to -4.12)(go -1.33)(, -2.39)(she -3.71)(heard -2.50)(a -5.30)(way -3.18)(. -4.87) line score is : -3.807, look ahead score is : 0.000
+-------------------------score:  -3.408654159263653;  adjusted_score: -3.382907386527342----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to stop , she heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(stop -1.77)(, -3.30)(she -0.09)(heard -4.31)(a -5.08)(way -3.31)(. -3.72) line score is : -3.567, look ahead score is : 0.000
+-------------------------score:  -3.4168410816175094;  adjusted_score: -3.3910943088811987----------------------- 
+there was a vain lady named may 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to leave , she swore a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(leave -1.77)(, -3.30)(she -0.09)(swore -4.02)(a -2.38)(way -3.85)(. -6.78) line score is : -3.621, look ahead score is : 0.000
+-------------------------score:  -3.422468642101568;  adjusted_score: -3.3973165028849066----------------------- 
+there was a vain lady named fe 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to look , i heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(look -1.33)(, -4.64)(i -1.41)(heard -2.38)(a -3.25)(way -7.05)(. -2.96) line score is : -3.784, look ahead score is : 0.000
+-------------------------score:  -3.442275798496078;  adjusted_score: -3.4171236592794165----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to see , i am a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(see -1.33)(, -4.64)(i -1.41)(am -1.25)(a -4.48)(way -5.63)(. -3.31) line score is : -3.695, look ahead score is : 0.000
+-------------------------score:  -3.4435098721262287;  adjusted_score: -3.417763099389918----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to leave , i heard a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(leave -1.77)(, -3.30)(i -0.09)(heard -4.02)(a -2.38)(way -7.06)(. -2.98) line score is : -3.568, look ahead score is : 0.000
+-------------------------score:  -3.4450957854004467;  adjusted_score: -3.419943646183785----------------------- 
+there was a vain lady named gaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to see , i know a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(see -1.33)(, -4.64)(i -1.41)(know -1.25)(a -4.48)(way -5.63)(. -4.67) line score is : -3.819, look ahead score is : 0.000
+-------------------------score:  -3.4531864988453247;  adjusted_score: -3.428034359628663----------------------- 
+there was a vain lady named maye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she came to know , i am a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(came -3.84)(to -4.12)(know -1.33)(, -4.59)(i -1.55)(am -3.46)(a -3.07)(way -5.56)(. -3.21) line score is : -3.760, look ahead score is : 0.000
+-------------------------score:  -3.467462652746369;  adjusted_score: -3.442310513529707----------------------- 
+there was a vain lady named rae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she came to know , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(came -3.84)(to -4.12)(know -1.33)(, -4.59)(i -1.55)(think -3.46)(a -3.07)(way -5.56)(. -1.95) line score is : -3.645, look ahead score is : 0.000
+-------------------------score:  -3.4835163939963367;  adjusted_score: -3.457769621260026----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ as she tried to leave , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(as -2.12)(she -8.15)(tried -3.21)(to -4.16)(leave -1.77)(, -3.30)(i -0.09)(think -4.02)(a -2.38)(way -7.06)(. -3.48) line score is : -3.613, look ahead score is : 0.000
+-------------------------score:  -3.5749186636770474;  adjusted_score: -3.5497665244603858----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ as she turned to see , i think a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(as -2.06)(she -8.58)(turned -3.84)(to -4.12)(see -1.33)(, -4.64)(i -1.41)(think -1.25)(a -4.48)(way -5.63)(. -3.71) line score is : -3.731, look ahead score is : 0.000
 ======================= template: 4 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
- THE NN OF PRP$ NN , 
- PRP$ NN AND PRP$ NN , 
- OF THE JJ NN PRP VBP . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND RB PRP VBZ A NN NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
- the cause of his sorrow 
- his grief and his rage 
- of the classical music I play 
--------------------------score:  -3.626709808563364;  adjusted_score: -3.6017688009194258----------------------- 
-there was a vain liar named chae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the desperate struggle they try . 
+ when he went to bed 
+ he was pained by a tooth 
+ and now he 's a college professor 
+-------------------------score:  -3.368613345969108;  adjusted_score: -3.3434612067524463----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and now she has a permanent way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(desperate -2.78)(struggle -3.05)(they -2.56)(try -6.72)(. -2.29) line score is : -3.217, look ahead score is : 0.000
--------------------------score:  -3.639904501109288;  adjusted_score: -3.61496349346535----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- of the desperate struggle we try . 
-------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(of -0.58)(the -4.53)(desperate -2.78)(struggle -3.05)(we -2.56)(try -6.72)(. -2.29) line score is : -3.217, look ahead score is : 0.000
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(now -8.58)(she -3.84)(has -1.80)(a -5.09)(permanent -0.75)(way -2.41)(. -2.08) line score is : -3.326, look ahead score is : 0.000
 ======================= template: 5 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
- THE NN OF PRP$ NN , 
- PRP$ NN AND PRP$ NN , 
- VBP ALL JJ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ AND PRP VBD TO THE NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
- the cause of his sorrow 
- his grief and his rage 
- are all easy marks for a jolly 
--------------------------score:  -3.6413051307201387;  adjusted_score: -3.6163641230762007----------------------- 
-there was a vain liar named lai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all tragic stories for a cry . 
+ when he went to bed 
+ and they rushed to the rail 
+ I did n't think life was this way 
+-------------------------score:  -3.3800140414386988;  adjusted_score: -3.354474467411637----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not have money left this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(tragic -2.78)(stories -3.88)(for -2.48)(a -7.03)(cry -4.81)(. -3.89) line score is : -3.748, look ahead score is : 0.000
--------------------------score:  -3.641556590795517;  adjusted_score: -3.616615583151579----------------------- 
-there was a vain liar named kai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all vivid details for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(have -0.63)(money -4.10)(left -0.45)(this -3.80)(way -4.50)(. -5.25) line score is : -3.557, look ahead score is : 0.000
+-------------------------score:  -3.385312410071492;  adjusted_score: -3.3597728360444306----------------------- 
+there was a vain lady named maye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not go home prepared this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(vivid -2.78)(details -3.88)(for -2.48)(a -6.76)(cry -5.61)(. -3.47) line score is : -3.761, look ahead score is : 0.000
--------------------------score:  -3.661888227860133;  adjusted_score: -3.6369472202161948----------------------- 
-there was a vain liar named chae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all vivid pictures for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(go -0.63)(home -4.10)(prepared -0.45)(this -3.22)(way -3.70)(. -9.16) line score is : -3.837, look ahead score is : 0.000
+-------------------------score:  -3.386195009574294;  adjusted_score: -3.3606554355472325----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not come home prepared this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(vivid -2.78)(pictures -3.88)(for -2.48)(a -6.76)(cry -6.44)(. -3.43) line score is : -3.861, look ahead score is : 0.000
--------------------------score:  -3.6723893026510877;  adjusted_score: -3.6474482950071496----------------------- 
-there was a vain liar named kai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all vivid stories for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(come -0.63)(home -4.10)(prepared -0.45)(this -4.50)(way -3.46)(. -8.14) line score is : -3.839, look ahead score is : 0.000
+-------------------------score:  -3.4271632563322783;  adjusted_score: -3.4016236823052166----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not come home tired this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(vivid -2.78)(stories -3.88)(for -2.48)(a -6.76)(cry -6.43)(. -3.53) line score is : -3.871, look ahead score is : 0.000
--------------------------score:  -3.6896209975083667;  adjusted_score: -3.6646799898644287----------------------- 
-there was a vain liar named wai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all twisted stories for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(come -0.63)(home -4.10)(tired -0.45)(this -4.50)(way -3.46)(. -6.80) line score is : -3.691, look ahead score is : 0.000
+-------------------------score:  -3.433593524619937;  adjusted_score: -3.4080539505928753----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not know whence began this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(twisted -2.78)(stories -3.88)(for -2.48)(a -7.28)(cry -6.36)(. -4.19) line score is : -4.010, look ahead score is : 0.000
--------------------------score:  -3.7398927946885427;  adjusted_score: -3.7149517870446047----------------------- 
-there was a vain liar named wai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all central figures for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(know -0.63)(whence -4.10)(began -0.45)(this -1.96)(way -5.95)(. -8.27) line score is : -3.848, look ahead score is : 0.000
+-------------------------score:  -3.438667196780443;  adjusted_score: -3.4131276227533816----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not come home covered this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(central -2.78)(figures -3.88)(for -2.48)(a -6.50)(cry -6.86)(. -4.02) line score is : -3.954, look ahead score is : 0.000
--------------------------score:  -3.7559310217698414;  adjusted_score: -3.7309900141259034----------------------- 
-there was a vain liar named my 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all central issues for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(come -0.63)(home -4.10)(covered -0.45)(this -4.50)(way -3.46)(. -8.07) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.456457545980811;  adjusted_score: -3.4309179719537495----------------------- 
+there was a vain lady named shay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not go home hurried this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(central -2.78)(issues -3.88)(for -2.48)(a -6.50)(cry -7.20)(. -3.00) line score is : -3.869, look ahead score is : 0.000
--------------------------score:  -3.794703604777654;  adjusted_score: -3.769762597133716----------------------- 
-there was a vain liar named chae 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- are all central features for a cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(go -0.63)(home -4.10)(hurried -0.45)(this -3.22)(way -3.70)(. -9.17) line score is : -3.838, look ahead score is : 0.000
+-------------------------score:  -3.464287282899022;  adjusted_score: -3.4387477088719605----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not go home tired this way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(are -0.58)(all -4.53)(central -2.78)(features -3.88)(for -2.48)(a -6.50)(cry -6.85)(. -6.18) line score is : -4.223, look ahead score is : 0.000
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(go -0.63)(home -4.10)(tired -0.45)(this -3.22)(way -3.70)(. -9.18) line score is : -3.839, look ahead score is : 0.000
+-------------------------score:  -3.4700076784938574;  adjusted_score: -3.4444681044667957----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not go home tonight this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(go -0.63)(home -4.10)(tonight -0.45)(this -3.22)(way -3.70)(. -8.66) line score is : -3.781, look ahead score is : 0.000
+-------------------------score:  -3.475775048136711;  adjusted_score: -3.4502354741096495----------------------- 
+there was a vain lady named gaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not come home tonight this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(come -0.63)(home -4.10)(tonight -0.45)(this -4.50)(way -3.46)(. -8.28) line score is : -3.855, look ahead score is : 0.000
+-------------------------score:  -3.4865773860365152;  adjusted_score: -3.4610378120094536----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not go home worried this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(go -0.63)(home -4.10)(worried -0.45)(this -3.22)(way -3.70)(. -9.34) line score is : -3.857, look ahead score is : 0.000
+-------------------------score:  -3.5130421202629805;  adjusted_score: -3.487502546235919----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she did not go home frightened this way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(did -9.76)(not -1.48)(go -0.63)(home -4.10)(frightened -0.45)(this -3.22)(way -3.70)(. -9.44) line score is : -3.868, look ahead score is : 0.000
 ======================= template: 6 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
- THE NN OF PRP$ NN , 
- PRP$ NN AND PRP$ NN , 
- AND THE NN RB VBD A WHOLE NN . 
+ WHEN PRP VBD TO NN , 
+ PRP$ NN VBD A NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
- the cause of his sorrow 
- his grief and his rage 
- and the captain then swore a whole lacht 
--------------------------score:  -3.690684393528969;  adjusted_score: -3.665743385885031----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- and the end alone made a whole cry . 
+ when he went to bed 
+ my mama was a goat 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3905391693115234;  adjusted_score: -3.3649273642152546----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her life is a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(and -0.58)(the -4.53)(end -2.78)(alone -3.39)(made -1.54)(a -5.00)(whole -7.83)(cry -3.83)(. -4.55) line score is : -3.783, look ahead score is : 0.000
--------------------------score:  -3.7477012430467913;  adjusted_score: -3.7227602354028533----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- and the end alone was a whole cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(life -6.35)(is -1.72)(a -3.44)(way -4.09)(. -4.87) line score is : -3.551, look ahead score is : 0.000
+-------------------------score:  -3.3972687534987926;  adjusted_score: -3.371656948402524----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her son has a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(and -0.58)(the -4.53)(end -2.78)(alone -3.39)(was -1.54)(a -5.00)(whole -7.83)(cry -3.89)(. -4.65) line score is : -3.799, look ahead score is : 0.000
--------------------------score:  -3.7485657718873795;  adjusted_score: -3.7236247642434415----------------------- 
-there was a vain liar named kai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- and the end alone were a whole cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(son -5.02)(has -3.74)(a -2.12)(way -3.47)(. -5.99) line score is : -3.538, look ahead score is : 0.000
+-------------------------score:  -3.431427378207445;  adjusted_score: -3.4058155731111763----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her child has a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(and -0.58)(the -4.53)(end -2.78)(alone -3.39)(were -1.54)(a -5.00)(whole -7.83)(cry -4.08)(. -4.62) line score is : -3.818, look ahead score is : 0.000
--------------------------score:  -3.8664419708713407;  adjusted_score: -3.8415009632274026----------------------- 
-there was a vain liar named mai 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- and the horror then came a whole cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(child -5.02)(has -3.74)(a -2.12)(way -4.69)(. -5.61) line score is : -3.622, look ahead score is : 0.000
+-------------------------score:  -3.4366555586457253;  adjusted_score: -3.4110437535494564----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her son has a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(and -0.58)(the -4.53)(horror -2.78)(then -3.39)(came -1.54)(a -5.44)(whole -7.88)(cry -4.14)(. -7.34) line score is : -4.182, look ahead score is : 0.000
--------------------------score:  -3.9109703552338386;  adjusted_score: -3.8860293475899006----------------------- 
-there was a vain liar named vi 
- who did all her evil in a lie . 
- the story of her trust , 
- her hatred and her lust , 
- and the truth always came a whole cry . 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(son -6.35)(has -1.72)(a -3.44)(way -3.82)(. -6.84) line score is : -3.722, look ahead score is : 0.000
+-------------------------score:  -3.4459123872220516;  adjusted_score: -3.420300582125783----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her friend has a way . 
 ------------------------- score breakdown ------------------------ 
-(who -2.12)(did -4.39)(all -3.31)(her -3.03)(evil -4.43)(in -2.09)(a -3.95)(lie -5.32)(. -1.09) line score is : -3.303, look ahead score is : 0.000
-(the -1.09)(story -3.92)(of -4.18)(her -1.99)(trust -1.98)(, -9.35) line score is : -3.753, look ahead score is : 0.590
-(her -9.35)(hatred -3.63)(and -1.47)(her -5.04)(lust -1.47)(, -0.58) line score is : -3.588, look ahead score is : 0.657
-(and -0.58)(the -4.53)(truth -2.78)(always -3.39)(came -1.54)(a -4.89)(whole -8.12)(cry -4.11)(. -7.44) line score is : -4.153, look ahead score is : 0.000
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(friend -5.02)(has -3.74)(a -2.12)(way -4.32)(. -6.49) line score is : -3.672, look ahead score is : 0.000
+-------------------------score:  -3.4501034133136272;  adjusted_score: -3.4244916082173584----------------------- 
+there was a vain lady named rae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her life is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(life -5.02)(is -3.74)(a -2.12)(way -5.98)(. -4.62) line score is : -3.652, look ahead score is : 0.000
+-------------------------score:  -3.4593360498547554;  adjusted_score: -3.4337242447584866----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her head is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(head -6.35)(is -1.72)(a -3.44)(way -4.99)(. -5.49) line score is : -3.704, look ahead score is : 0.000
+-------------------------score:  -3.4868594482541084;  adjusted_score: -3.4612476431578396----------------------- 
+there was a vain lady named shay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her heart is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(heart -6.35)(is -1.72)(a -3.44)(way -4.48)(. -5.86) line score is : -3.690, look ahead score is : 0.000
+-------------------------score:  -3.498007919639349;  adjusted_score: -3.47239611454308----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her son is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(son -6.35)(is -1.72)(a -3.44)(way -3.82)(. -5.52) line score is : -3.590, look ahead score is : 0.000
+-------------------------score:  -3.505339737981558;  adjusted_score: -3.479727932885289----------------------- 
+there was a vain lady named fe 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her house is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(house -5.02)(is -3.74)(a -2.12)(way -5.58)(. -5.39) line score is : -3.688, look ahead score is : 0.000
+-------------------------score:  -3.5054309591650963;  adjusted_score: -3.4798191540688275----------------------- 
+there was a vain lady named may 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her hair is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(hair -6.35)(is -1.72)(a -3.44)(way -4.71)(. -5.40) line score is : -3.667, look ahead score is : 0.000
+-------------------------score:  -3.5056579522788525;  adjusted_score: -3.4800461471825836----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her hair is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(hair -5.02)(is -3.74)(a -2.12)(way -5.15)(. -5.26) line score is : -3.633, look ahead score is : 0.000
+-------------------------score:  -3.5057533383369446;  adjusted_score: -3.4801415332406758----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her name is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(name -6.35)(is -1.72)(a -3.44)(way -5.10)(. -4.15) line score is : -3.582, look ahead score is : 0.000
+-------------------------score:  -3.5070432983338833;  adjusted_score: -3.4814314932376145----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her son is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(son -5.02)(is -3.74)(a -2.12)(way -3.47)(. -5.14) line score is : -3.452, look ahead score is : 0.000
+-------------------------score:  -3.510932356119156;  adjusted_score: -3.485320551022887----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her work is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(work -6.35)(is -1.72)(a -3.44)(way -4.72)(. -5.72) line score is : -3.700, look ahead score is : 0.000
+-------------------------score:  -3.5119450129568577;  adjusted_score: -3.486333207860589----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her work is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(work -5.02)(is -3.74)(a -2.12)(way -5.22)(. -5.29) line score is : -3.643, look ahead score is : 0.000
+-------------------------score:  -3.521372649818659;  adjusted_score: -3.49576084472239----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her dress is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(dress -5.02)(is -3.74)(a -2.12)(way -5.29)(. -5.23) line score is : -3.644, look ahead score is : 0.000
+-------------------------score:  -3.5217194333672523;  adjusted_score: -3.4961076282709835----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her child is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(child -6.35)(is -1.72)(a -3.44)(way -5.08)(. -4.86) line score is : -3.649, look ahead score is : 0.000
+-------------------------score:  -3.522460263222456;  adjusted_score: -3.496848458126187----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that their house is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(their -1.55)(house -5.02)(is -3.74)(a -5.17)(way -2.69)(. -5.54) line score is : -3.720, look ahead score is : 0.000
+-------------------------score:  -3.5253808721899986;  adjusted_score: -3.49976906709373----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her soul is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(soul -6.35)(is -1.72)(a -3.44)(way -5.14)(. -4.91) line score is : -3.662, look ahead score is : 0.000
+-------------------------score:  -3.5424434319138527;  adjusted_score: -3.516831626817584----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she swore that her wife is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(swore -2.34)(that -1.05)(her -1.55)(wife -6.35)(is -1.72)(a -3.44)(way -5.04)(. -5.66) line score is : -3.726, look ahead score is : 0.000
+-------------------------score:  -3.5476705990731716;  adjusted_score: -3.522058793976903----------------------- 
+there was a vain lady named wei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her girl is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(girl -5.02)(is -3.74)(a -2.12)(way -5.92)(. -5.08) line score is : -3.692, look ahead score is : 0.000
+-------------------------score:  -3.556753497570753;  adjusted_score: -3.5311416924744843----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her friend is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(friend -5.02)(is -3.74)(a -2.12)(way -4.32)(. -5.55) line score is : -3.578, look ahead score is : 0.000
+-------------------------score:  -3.5593251325190067;  adjusted_score: -3.533713327422738----------------------- 
+there was a vain lady named may 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her boy is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(boy -5.02)(is -3.74)(a -2.12)(way -5.92)(. -4.98) line score is : -3.681, look ahead score is : 0.000
+-------------------------score:  -3.575357872992754;  adjusted_score: -3.549746067896485----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her name is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(name -5.02)(is -3.74)(a -2.12)(way -5.60)(. -4.12) line score is : -3.564, look ahead score is : 0.000
+-------------------------score:  -3.5830711163580418;  adjusted_score: -3.557459311261773----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her aunt is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(aunt -5.02)(is -3.74)(a -2.12)(way -4.72)(. -5.82) line score is : -3.646, look ahead score is : 0.000
+-------------------------score:  -3.592730041593313;  adjusted_score: -3.5671182364970444----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that his name is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(his -1.55)(name -5.02)(is -3.74)(a -5.24)(way -2.89)(. -4.10) line score is : -3.603, look ahead score is : 0.000
+-------------------------score:  -3.5928401090204716;  adjusted_score: -3.5672283039242028----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that his wife is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(his -1.55)(wife -5.02)(is -3.74)(a -5.24)(way -2.59)(. -5.50) line score is : -3.713, look ahead score is : 0.000
+-------------------------score:  -3.594117920845747;  adjusted_score: -3.568506115749478----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she heard that her wife is a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(heard -2.34)(that -1.05)(her -1.55)(wife -5.02)(is -3.74)(a -2.12)(way -5.29)(. -5.53) line score is : -3.673, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ FROM THE NN NNS PRP COULD VB . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was pained by a tooth 
+ from the comedy roles he could play 
+-------------------------score:  -3.413695922782344;  adjusted_score: -3.3885437835656824----------------------- 
+there was a vain lady named rae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows you could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(you -1.69)(could -4.25)(say -4.48)(. -9.08) line score is : -4.524, look ahead score is : 0.000
+-------------------------score:  -3.4434452066498418;  adjusted_score: -3.41829306743318----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows she could pray . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(she -1.69)(could -4.25)(pray -4.48)(. -6.56) line score is : -4.208, look ahead score is : 0.000
+-------------------------score:  -3.4609355984195584;  adjusted_score: -3.4355475449129456----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ from the kitchen windows you could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(from -2.28)(the -8.55)(kitchen -3.68)(windows -2.63)(you -1.34)(could -3.89)(say -5.07)(. -9.10) line score is : -4.568, look ahead score is : 0.000
+-------------------------score:  -3.470618022065009;  adjusted_score: -3.4454658828483473----------------------- 
+there was a vain lady named wei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows we could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(we -1.69)(could -4.25)(say -4.48)(. -8.25) line score is : -4.419, look ahead score is : 0.000
+-------------------------score:  -3.485518810249144;  adjusted_score: -3.4603666710324825----------------------- 
+there was a vain lady named gaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(she -1.69)(could -4.25)(say -4.48)(. -6.56) line score is : -4.208, look ahead score is : 0.000
+-------------------------score:  -3.529017974292078;  adjusted_score: -3.5036299207854653----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ from the kitchen windows she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(from -2.28)(the -8.55)(kitchen -3.68)(windows -2.63)(she -1.34)(could -3.89)(say -5.07)(. -6.25) line score is : -4.211, look ahead score is : 0.000
+-------------------------score:  -3.529357482348719;  adjusted_score: -3.503969428842106----------------------- 
+there was a vain lady named may 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ from the kitchen windows we could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(from -2.28)(the -8.55)(kitchen -3.68)(windows -2.63)(we -1.34)(could -3.89)(say -5.07)(. -8.21) line score is : -4.457, look ahead score is : 0.000
+-------------------------score:  -3.5294483140591653;  adjusted_score: -3.5042961748425037----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows i could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(i -1.69)(could -4.25)(say -4.48)(. -8.47) line score is : -4.447, look ahead score is : 0.000
+-------------------------score:  -3.5368603554464157;  adjusted_score: -3.511708216229754----------------------- 
+there was a vain lady named monet 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows he could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(he -1.69)(could -4.25)(say -4.48)(. -8.08) line score is : -4.398, look ahead score is : 0.000
+-------------------------score:  -3.549123824604096;  adjusted_score: -3.523735771097483----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ from the kitchen windows i could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(from -2.28)(the -8.55)(kitchen -3.68)(windows -2.63)(i -1.34)(could -3.89)(say -5.07)(. -8.24) line score is : -4.460, look ahead score is : 0.000
+-------------------------score:  -3.557032928351433;  adjusted_score: -3.5318807891347714----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows they could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(they -1.69)(could -4.25)(say -4.48)(. -8.28) line score is : -4.423, look ahead score is : 0.000
+-------------------------score:  -3.561980746446117;  adjusted_score: -3.536455009339317----------------------- 
+there was a vain lady named wei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was struck by a shout , 
+ from the kitchen windows she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(struck -0.46)(by -3.67)(a -5.94)(shout -0.55)(, -2.16) line score is : -3.359, look ahead score is : 0.656
+(from -2.16)(the -9.39)(kitchen -3.13)(windows -2.81)(she -1.23)(could -3.53)(say -5.76)(. -7.06) line score is : -4.382, look ahead score is : 0.000
+-------------------------score:  -3.5636787981756273;  adjusted_score: -3.538552148587281----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ from the kitchen windows she could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(from -1.50)(the -7.74)(kitchen -3.17)(windows -3.43)(she -1.23)(could -3.76)(say -6.16)(. -7.09) line score is : -4.260, look ahead score is : 0.000
+-------------------------score:  -3.579189818712973;  adjusted_score: -3.55380176520636----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ from the kitchen windows he could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(from -2.28)(the -8.55)(kitchen -3.68)(windows -2.63)(he -1.34)(could -3.89)(say -5.07)(. -8.03) line score is : -4.434, look ahead score is : 0.000
+-------------------------score:  -3.6125355987779555;  adjusted_score: -3.5871475452713426----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ from the kitchen windows they could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(from -2.28)(the -8.55)(kitchen -3.68)(windows -2.63)(they -1.34)(could -3.89)(say -5.07)(. -8.14) line score is : -4.448, look ahead score is : 0.000
+-------------------------score:  -3.648887454502044;  adjusted_score: -3.6237353152853826----------------------- 
+there was a vain lady named gaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ from the kitchen windows it could say . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(from -2.06)(the -8.58)(kitchen -3.84)(windows -2.21)(it -1.69)(could -4.25)(say -4.48)(. -9.97) line score is : -4.634, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND A NN VBD PRP UP IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was pained by a tooth 
+ and a dog ate him up in the hall 
+-------------------------score:  -3.513758541056604;  adjusted_score: -3.4886064018399425----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and a voice said it up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(a -8.58)(voice -3.84)(said -1.80)(it -3.01)(up -4.55)(in -2.45)(the -5.45)(way -9.54)(. -2.56) line score is : -4.383, look ahead score is : 0.000
+-------------------------score:  -3.521171543634299;  adjusted_score: -3.4957834901276863----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ and a voice said it up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(and -2.28)(a -8.55)(voice -3.68)(said -1.65)(it -4.17)(up -3.31)(in -2.10)(the -5.34)(way -9.12)(. -2.41) line score is : -4.261, look ahead score is : 0.000
+-------------------------score:  -3.5256945716612265;  adjusted_score: -3.50056792207288----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a voice said it up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(voice -3.17)(said -2.19)(it -2.39)(up -4.40)(in -1.93)(the -5.56)(way -9.62)(. -2.53) line score is : -4.102, look ahead score is : 0.000
+-------------------------score:  -3.5379242599010468;  adjusted_score: -3.5127976103127003----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a man said it up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(man -3.17)(said -2.19)(it -2.39)(up -4.15)(in -3.37)(the -5.52)(way -9.72)(. -2.27) line score is : -4.201, look ahead score is : 0.000
+-------------------------score:  -3.53998550862977;  adjusted_score: -3.5142387358934593----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and a man asked him up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(a -8.15)(man -3.21)(asked -1.57)(him -2.80)(up -3.22)(in -3.91)(the -5.38)(way -9.49)(. -3.22) line score is : -4.306, look ahead score is : 0.000
+-------------------------score:  -3.5419201191627616;  adjusted_score: -3.5163943820559616----------------------- 
+there was a vain lady named kaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was struck by a shout , 
+ and a voice said it up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(struck -0.46)(by -3.67)(a -5.94)(shout -0.55)(, -2.16) line score is : -3.359, look ahead score is : 0.656
+(and -2.16)(a -9.39)(voice -3.13)(said -1.71)(it -3.65)(up -3.13)(in -1.96)(the -5.58)(way -9.70)(. -2.48) line score is : -4.287, look ahead score is : 0.000
+-------------------------score:  -3.549174829865947;  adjusted_score: -3.523428057129636----------------------- 
+there was a vain lady named monet 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and a man asked them up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(a -8.15)(man -3.21)(asked -1.57)(them -2.80)(up -3.22)(in -3.91)(the -5.98)(way -9.34)(. -3.41) line score is : -4.370, look ahead score is : 0.000
+-------------------------score:  -3.5703837790272455;  adjusted_score: -3.5446370062909347----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and a man told them up in the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(a -8.15)(man -3.21)(told -1.57)(them -2.80)(up -3.22)(in -4.05)(the -5.82)(way -9.82)(. -4.09) line score is : -4.485, look ahead score is : 0.000
+-------------------------score:  -3.631454230257959;  adjusted_score: -3.6063020910412975----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and a voice said it up past the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(a -8.58)(voice -3.84)(said -1.80)(it -3.01)(up -4.55)(past -2.45)(the -5.45)(way -9.54)(. -7.98) line score is : -4.925, look ahead score is : 0.000
+-------------------------score:  -3.642537405093511;  adjusted_score: -3.617149351586898----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ and a voice said it up past the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(and -2.28)(a -8.55)(voice -3.68)(said -1.65)(it -4.17)(up -3.31)(past -2.10)(the -5.34)(way -9.12)(. -8.14) line score is : -4.833, look ahead score is : 0.000
+-------------------------score:  -3.649848301302303;  adjusted_score: -3.624322564195503----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was struck by a shout , 
+ and a voice said it up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(struck -0.46)(by -3.67)(a -5.94)(shout -0.55)(, -2.16) line score is : -3.359, look ahead score is : 0.656
+(and -2.16)(a -9.39)(voice -3.13)(said -1.71)(it -3.65)(up -3.13)(towards -1.96)(the -5.58)(way -9.70)(. -8.37) line score is : -4.877, look ahead score is : 0.000
+-------------------------score:  -3.652273271119956;  adjusted_score: -3.6271466215316095----------------------- 
+there was a vain lady named shay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a voice said it up past the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(voice -3.17)(said -2.19)(it -2.39)(up -4.40)(past -1.93)(the -5.56)(way -9.62)(. -8.48) line score is : -4.697, look ahead score is : 0.000
+-------------------------score:  -3.6544497681386545;  adjusted_score: -3.6287029954023438----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and a man asked him up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(a -8.15)(man -3.21)(asked -1.57)(him -2.80)(up -3.22)(towards -3.91)(the -5.38)(way -9.49)(. -8.03) line score is : -4.788, look ahead score is : 0.000
+-------------------------score:  -3.654576456004923;  adjusted_score: -3.629050718898123----------------------- 
+there was a vain lady named wei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was struck by a shout , 
+ and a voice said it up past the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(struck -0.46)(by -3.67)(a -5.94)(shout -0.55)(, -2.16) line score is : -3.359, look ahead score is : 0.656
+(and -2.16)(a -9.39)(voice -3.13)(said -1.71)(it -3.65)(up -3.13)(past -1.96)(the -5.58)(way -9.70)(. -8.33) line score is : -4.872, look ahead score is : 0.000
+-------------------------score:  -3.661327390056668;  adjusted_score: -3.6361752508400063----------------------- 
+there was a vain lady named rae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and a voice said it up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(a -8.58)(voice -3.84)(said -1.80)(it -3.01)(up -4.55)(towards -2.45)(the -5.45)(way -9.54)(. -8.84) line score is : -5.011, look ahead score is : 0.000
+-------------------------score:  -3.6641125001690606;  adjusted_score: -3.638985850580714----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a voice said it up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(voice -3.17)(said -2.19)(it -2.39)(up -4.40)(towards -1.93)(the -5.56)(way -9.62)(. -9.26) line score is : -4.775, look ahead score is : 0.000
+-------------------------score:  -3.6723399966052086;  adjusted_score: -3.646593223868898----------------------- 
+there was a vain lady named rae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and a man asked them up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(a -8.15)(man -3.21)(asked -1.57)(them -2.80)(up -3.22)(towards -3.91)(the -5.98)(way -9.34)(. -8.56) line score is : -4.885, look ahead score is : 0.000
+-------------------------score:  -3.6752507587273917;  adjusted_score: -3.649862705220779----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by a shout , 
+ and a voice said it up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(a -5.16)(shout -1.10)(, -2.28) line score is : -3.344, look ahead score is : 0.649
+(and -2.28)(a -8.55)(voice -3.68)(said -1.65)(it -4.17)(up -3.31)(towards -2.10)(the -5.34)(way -9.12)(. -8.79) line score is : -4.899, look ahead score is : 0.000
+-------------------------score:  -3.679361284682245;  adjusted_score: -3.6542346350938986----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a man said it up past the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(man -3.17)(said -2.19)(it -2.39)(up -4.15)(past -3.37)(the -5.52)(way -9.72)(. -8.56) line score is : -4.830, look ahead score is : 0.000
+-------------------------score:  -3.6802235814658077;  adjusted_score: -3.6550969318774613----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a man said it up towards the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(man -3.17)(said -2.19)(it -2.39)(up -4.15)(towards -3.37)(the -5.52)(way -9.72)(. -8.77) line score is : -4.851, look ahead score is : 0.000
+-------------------------score:  -3.7221861617131666;  adjusted_score: -3.696439388976856----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was stopped by a shout , 
+ and a man told them up past the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(stopped -0.46)(by -3.67)(a -6.17)(shout -1.18)(, -2.12) line score is : -3.477, look ahead score is : 0.667
+(and -2.12)(a -8.15)(man -3.21)(told -1.57)(them -2.80)(up -3.22)(past -4.05)(the -5.82)(way -9.82)(. -8.81) line score is : -4.958, look ahead score is : 0.000
+-------------------------score:  -3.7681119577451185;  adjusted_score: -3.742985308156772----------------------- 
+there was a vain lady named monet 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a voice said it up though the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(voice -3.17)(said -2.19)(it -2.39)(up -4.40)(though -1.93)(the -5.56)(way -9.62)(. -9.83) line score is : -4.832, look ahead score is : 0.000
+-------------------------score:  -3.8130082533215033;  adjusted_score: -3.787881603733157----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and a man said it up though the way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(a -7.74)(man -3.17)(said -2.19)(it -2.39)(up -4.15)(though -3.37)(the -5.52)(way -9.72)(. -9.97) line score is : -4.971, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP$ NN VBD A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ my mama was a goat 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.513771653175354;  adjusted_score: -3.488159848079085----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and it was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(it -5.66)(was -2.34)(then -1.05)(like -4.47)(lightning -1.16)(of -2.59)(way -6.75)(. -2.22) line score is : -3.410, look ahead score is : 0.000
+-------------------------score:  -3.6050821888831353;  adjusted_score: -3.5794703837868664----------------------- 
+there was a vain lady named monet 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and it was then like sunshine of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(it -5.66)(was -2.34)(then -1.05)(like -4.47)(sunshine -1.16)(of -2.59)(way -6.75)(. -6.31) line score is : -3.865, look ahead score is : 0.000
+-------------------------score:  -3.6154295859798307;  adjusted_score: -3.589817780883562----------------------- 
+there was a vain lady named maye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and it was then like heaven of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(it -5.66)(was -2.34)(then -1.05)(like -4.47)(heaven -1.16)(of -2.59)(way -6.75)(. -5.68) line score is : -3.794, look ahead score is : 0.000
+-------------------------score:  -3.620704770088196;  adjusted_score: -3.595092964991927----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and she was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(she -5.66)(was -2.34)(then -1.05)(like -1.55)(lightning -1.94)(of -5.74)(way -6.72)(. -5.50) line score is : -3.883, look ahead score is : 0.000
+-------------------------score:  -3.623157339711343;  adjusted_score: -3.597545534615074----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and it was then like magic of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(it -5.66)(was -2.34)(then -1.05)(like -4.47)(magic -1.16)(of -2.59)(way -6.75)(. -5.52) line score is : -3.776, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.5260651176795363;  adjusted_score: -3.5009129784628747----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and she did not like feeling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(she -8.58)(did -3.84)(not -1.80)(like -1.96)(feeling -4.22)(of -0.95)(way -5.69)(. -6.13) line score is : -3.914, look ahead score is : 0.000
+-------------------------score:  -3.528937709517777;  adjusted_score: -3.5037855703011154----------------------- 
+there was a vain lady named fay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and it was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(it -8.58)(was -3.84)(then -1.80)(like -4.65)(lightning -0.94)(of -2.22)(way -7.36)(. -2.69) line score is : -3.794, look ahead score is : 0.000
+-------------------------score:  -3.5387581335380673;  adjusted_score: -3.513631483949721----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and it was then like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(it -7.74)(was -3.17)(then -2.19)(like -4.74)(lightning -0.65)(of -2.15)(way -7.17)(. -2.93) line score is : -3.583, look ahead score is : 0.000
+-------------------------score:  -3.5496174851432443;  adjusted_score: -3.5244653459265827----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and it was then like sunshine of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(it -8.58)(was -3.84)(then -1.80)(like -4.65)(sunshine -0.94)(of -2.22)(way -7.36)(. -4.52) line score is : -3.997, look ahead score is : 0.000
+-------------------------score:  -3.5826335111632943;  adjusted_score: -3.5574813719466327----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and she went forth like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(she -8.58)(went -3.84)(forth -1.80)(like -1.96)(lightning -2.88)(of -5.13)(way -6.13)(. -4.20) line score is : -4.065, look ahead score is : 0.000
+-------------------------score:  -3.5881830202415586;  adjusted_score: -3.563030881024897----------------------- 
+there was a vain lady named shay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and it was then like heaven of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(it -8.58)(was -3.84)(then -1.80)(like -4.65)(heaven -0.94)(of -2.22)(way -7.36)(. -5.05) line score is : -4.056, look ahead score is : 0.000
+-------------------------score:  -3.5891799638047814;  adjusted_score: -3.56402782458812----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and it was then like magic of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(it -8.58)(was -3.84)(then -1.80)(like -4.65)(magic -0.94)(of -2.22)(way -7.36)(. -4.22) line score is : -3.963, look ahead score is : 0.000
+-------------------------score:  -3.5943284081295133;  adjusted_score: -3.569201758541167----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and it was then like thunder of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(it -7.74)(was -3.17)(then -2.19)(like -4.74)(thunder -0.65)(of -2.15)(way -7.17)(. -3.89) line score is : -3.689, look ahead score is : 0.000
+-------------------------score:  -3.623546398244798;  adjusted_score: -3.5983942590281366----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and she did not like knitting of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(she -8.58)(did -3.84)(not -1.80)(like -1.96)(knitting -4.22)(of -0.95)(way -5.69)(. -7.66) line score is : -4.083, look ahead score is : 0.000
+-------------------------score:  -3.626584676094353;  adjusted_score: -3.6014580265060068----------------------- 
+there was a vain lady named rae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was met by a shout , 
+ and it was then like magic of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(met -0.46)(by -3.67)(a -6.18)(shout -1.58)(, -1.50) line score is : -3.447, look ahead score is : 0.636
+(and -1.50)(it -7.74)(was -3.17)(then -2.19)(like -4.74)(magic -0.65)(of -2.15)(way -7.17)(. -5.31) line score is : -3.847, look ahead score is : 0.000
+-------------------------score:  -3.6337781688198447;  adjusted_score: -3.608626029603183----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and she did not like hearing of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(she -8.58)(did -3.84)(not -1.80)(like -1.96)(hearing -4.22)(of -0.95)(way -5.69)(. -6.51) line score is : -3.956, look ahead score is : 0.000
+-------------------------score:  -3.6561408853158355;  adjusted_score: -3.630988746099174----------------------- 
+there was a vain lady named jaye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by a shout , 
+ and she did not like singing of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(a -4.80)(shout -0.62)(, -2.06) line score is : -3.193, look ahead score is : 0.637
+(and -2.06)(she -8.58)(did -3.84)(not -1.80)(like -1.96)(singing -4.22)(of -0.95)(way -5.69)(. -7.54) line score is : -4.071, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ AND PRP VBD TO THE NN , 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ and they rushed to the rail 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.5344467032700777;  adjusted_score: -3.508907129243016----------------------- 
+there was a vain lady named fe 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she made her own garments and one way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(made -9.76)(her -1.48)(own -0.63)(garments -4.60)(and -2.11)(one -1.70)(way -4.86)(. -2.15) line score is : -3.258, look ahead score is : 0.000
+-------------------------score:  -3.60901583917439;  adjusted_score: -3.583476265147328----------------------- 
+there was a vain lady named may 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ and she came to the route , 
+ she made her own garments and two way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(and -7.92)(she -2.82)(came -4.50)(to -2.76)(the -5.09)(route -0.68)(, -2.03) line score is : -3.686, look ahead score is : 0.656
+(she -2.03)(made -9.76)(her -1.48)(own -0.63)(garments -4.60)(and -2.11)(two -1.70)(way -4.86)(. -2.15) line score is : -3.258, look ahead score is : 0.000
+======================= template: 12 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY PRP$ NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was told by his wife 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.5401360476389527;  adjusted_score: -3.51474799413234----------------------- 
+there was a vain lady named pei 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like parting of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(parting -4.16)(of -0.97)(way -4.99)(. -8.63) line score is : -4.220, look ahead score is : 0.000
+-------------------------score:  -3.568193652667105;  adjusted_score: -3.5428055991604923----------------------- 
+there was a vain lady named shea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like feeling of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(feeling -4.16)(of -0.97)(way -4.99)(. -6.39) line score is : -3.970, look ahead score is : 0.000
+-------------------------score:  -3.577776928432286;  adjusted_score: -3.552388874925673----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like labour of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(labour -4.16)(of -0.97)(way -4.99)(. -8.99) line score is : -4.260, look ahead score is : 0.000
+-------------------------score:  -3.597484023310244;  adjusted_score: -3.572095969803631----------------------- 
+there was a vain lady named maye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like silence of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(silence -4.16)(of -0.97)(way -4.99)(. -7.84) line score is : -4.132, look ahead score is : 0.000
+-------------------------score:  -3.6030329214408994;  adjusted_score: -3.5776448679342865----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like trouble of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(trouble -4.16)(of -0.97)(way -4.99)(. -8.94) line score is : -4.254, look ahead score is : 0.000
+-------------------------score:  -3.6185616413131356;  adjusted_score: -3.5931735878065227----------------------- 
+there was a vain lady named kay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like suffering of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(suffering -4.16)(of -0.97)(way -4.99)(. -8.55) line score is : -4.211, look ahead score is : 0.000
+-------------------------score:  -3.63614131975919;  adjusted_score: -3.610753266252577----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like dressing of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(dressing -4.16)(of -0.97)(way -4.99)(. -8.58) line score is : -4.214, look ahead score is : 0.000
+-------------------------score:  -3.64512659329921;  adjusted_score: -3.6199744540825485----------------------- 
+there was a vain lady named renee 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was saved by his shout , 
+ and she went forth like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(saved -0.46)(by -3.67)(his -4.80)(shout -0.62)(, -5.41) line score is : -3.671, look ahead score is : 0.637
+(and -5.41)(she -9.65)(went -1.90)(forth -2.27)(like -1.80)(lightning -3.00)(of -4.38)(way -5.94)(. -4.20) line score is : -4.284, look ahead score is : 0.000
+-------------------------score:  -3.6538196047767997;  adjusted_score: -3.628431551270187----------------------- 
+there was a vain lady named rea 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she went forth like lightning of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(went -1.94)(forth -1.40)(like -1.88)(lightning -3.12)(of -5.20)(way -6.43)(. -3.82) line score is : -4.199, look ahead score is : 0.000
+-------------------------score:  -3.6540363309904933;  adjusted_score: -3.6286482774838804----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like failing of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(failing -4.16)(of -0.97)(way -4.99)(. -8.94) line score is : -4.254, look ahead score is : 0.000
+-------------------------score:  -3.6835391456261277;  adjusted_score: -3.658151092119515----------------------- 
+there was a vain lady named monet 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like singing of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(singing -4.16)(of -0.97)(way -4.99)(. -7.82) line score is : -4.130, look ahead score is : 0.000
+-------------------------score:  -3.6850217627361417;  adjusted_score: -3.659633709229529----------------------- 
+there was a vain lady named raye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like hiding of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(hiding -4.16)(of -0.97)(way -4.99)(. -8.84) line score is : -4.243, look ahead score is : 0.000
+-------------------------score:  -3.6874556997790933;  adjusted_score: -3.6620676462724804----------------------- 
+there was a vain lady named gay 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like meeting of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(meeting -4.16)(of -0.97)(way -4.99)(. -8.84) line score is : -4.243, look ahead score is : 0.000
+-------------------------score:  -3.695721128024161;  adjusted_score: -3.670333074517548----------------------- 
+there was a vain lady named faye 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ she was moved by his shout , 
+ and she did not like begging of way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(she -7.92)(was -2.82)(moved -0.46)(by -3.67)(his -5.16)(shout -1.10)(, -4.40) line score is : -3.647, look ahead score is : 0.649
+(and -4.40)(she -9.60)(did -1.94)(not -1.40)(like -1.88)(begging -4.16)(of -0.97)(way -4.99)(. -8.95) line score is : -4.255, look ahead score is : 0.000
+======================= template: 13 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP$ NN VBD A NN , 
+ AND VBD PRP$ NN A NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ my mama was a goat 
+ and gave his proboscis a tweak 
+-------------------------score:  -3.6983593394016396;  adjusted_score: -3.672747534305371----------------------- 
+there was a vain lady named mae 
+ who did all her sewing in a day . 
+ when she started to doubt , 
+ her mother gave a shout , 
+ and ordered her grandmother a way . 
+------------------------- score breakdown ------------------------ 
+(who -1.83)(did -4.65)(all -3.27)(her -2.72)(sewing -4.59)(in -2.28)(a -2.37)(day -4.66)(. -1.08) line score is : -3.051, look ahead score is : 0.000
+(when -1.08)(she -4.48)(started -1.14)(to -3.94)(doubt -2.88)(, -7.92) line score is : -3.575, look ahead score is : 0.621
+(her -7.92)(mother -2.82)(gave -3.60)(a -1.56)(shout -3.81)(, -4.44) line score is : -4.024, look ahead score is : 0.660
+(and -4.44)(ordered -5.66)(her -2.34)(grandmother -1.05)(a -6.40)(way -0.51)(. -7.32) line score is : -3.962, look ahead score is : 0.000

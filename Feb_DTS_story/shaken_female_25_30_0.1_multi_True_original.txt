@@ -3,354 +3,167 @@ sarah
  WHO VBD ALL PRP$ NN IN A NN . 
  WHEN PRP VBD TO NN , 
  PRP VBD JJ TO VB , 
- AND PRP VBD TO VB TO A JJ NN . 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
  when he went to bed 
  he was ready to faint 
- and they had to revert to a man cashier 
--------------------------score:  -3.3002254627645016;  adjusted_score: -3.2763149351626635----------------------- 
+ so he called her his dear dental floss 
+-------------------------score:  -3.340845713692327;  adjusted_score: -3.3169351860904888----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to wake , 
- and she had to go to a deep soul . 
+ so she gave me her little white soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(and -1.95)(she -3.69)(had -6.25)(to -2.18)(go -1.73)(to -3.24)(a -0.87)(deep -2.84)(soul -0.98)(. -3.46) line score is : -2.719, look ahead score is : 0.000
+(so -1.95)(she -3.69)(gave -6.25)(me -1.88)(her -0.57)(little -4.75)(white -2.95)(soul -2.20)(. -6.76) line score is : -3.445, look ahead score is : 0.000
+-------------------------score:  -3.34159932790264;  adjusted_score: -3.317688800300802----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was afraid to wake , 
+ so she gave me her little black soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
+(so -1.95)(she -3.69)(gave -6.25)(me -1.88)(her -0.57)(little -4.75)(black -2.95)(soul -2.20)(. -6.76) line score is : -3.445, look ahead score is : 0.000
 ======================= template: 2 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
  WHEN PRP VBD TO NN , 
  PRP VBD VBN BY PRP$ NN , 
- AS PRP VBD TO VB , PRP VBP A NN . 
+ AND PRP VBD RB LIKE NN OF NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
  when he went to bed 
  he was told by his wife 
- as it tried to explain , I am a spi 
--------------------------score:  -3.3270120252581203;  adjusted_score: -3.3029171536030137----------------------- 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3423244282603264;  adjusted_score: -3.3182295560091735----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was shocked by her break , 
+ and it was almost like shock of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(shock -1.32)(of -4.13)(soul -2.00)(. -7.65) line score is : -3.790, look ahead score is : 0.000
+-------------------------score:  -3.3682360500097275;  adjusted_score: -3.3441411777585746----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was shocked by her break , 
+ and it was almost like light of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(light -1.32)(of -4.13)(soul -2.00)(. -8.04) line score is : -3.833, look ahead score is : 0.000
+-------------------------score:  -3.380115620791912;  adjusted_score: -3.356020748540759----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was shocked by her break , 
+ and it was almost like pain of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(pain -1.32)(of -4.13)(soul -2.00)(. -8.26) line score is : -3.858, look ahead score is : 0.000
+-------------------------score:  -3.4023375399410725;  adjusted_score: -3.378242668285966----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
- as it seemed to be , she heard a soul . 
+ and it was almost like light of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -7.53)(seemed -4.42)(to -2.75)(be -3.05)(, -2.88)(she -1.45)(heard -1.36)(a -6.79)(soul -3.92)(. -4.51) line score is : -3.696, look ahead score is : 0.000
--------------------------score:  -3.354169026893728;  adjusted_score: -3.330074154642575----------------------- 
+(and -2.00)(it -7.53)(was -4.42)(almost -1.65)(like -4.27)(light -1.02)(of -4.31)(soul -2.15)(. -7.61) line score is : -3.883, look ahead score is : 0.000
+-------------------------score:  -3.434293106198311;  adjusted_score: -3.410198233947158----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
- as it seemed to be , she heard a soul . 
+ and it was almost like death of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(be -2.66)(, -2.72)(she -1.47)(heard -1.63)(a -7.06)(soul -3.59)(. -5.15) line score is : -3.711, look ahead score is : 0.000
--------------------------score:  -3.379737792646184;  adjusted_score: -3.355642920395031----------------------- 
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(death -1.32)(of -4.13)(soul -2.00)(. -7.96) line score is : -3.824, look ahead score is : 0.000
+-------------------------score:  -3.441652223467827;  adjusted_score: -3.417557351216674----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
- as she was to see , she heard a soul . 
+ and it was almost like spring of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(was -2.81)(to -3.17)(see -1.25)(, -2.37)(she -6.41)(heard -1.64)(a -5.38)(soul -2.89)(. -4.80) line score is : -3.752, look ahead score is : 0.000
--------------------------score:  -3.3867799516986397;  adjusted_score: -3.3626850794474867----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she had to stop , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(stop -1.25)(, -1.70)(she -4.52)(heard -3.81)(a -4.20)(soul -3.49)(. -5.00) line score is : -3.682, look ahead score is : 0.000
--------------------------score:  -3.3896087986581467;  adjusted_score: -3.36551392700304----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her wake , 
- as it seemed to be , i guess a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -7.53)(seemed -4.42)(to -2.75)(be -3.05)(, -2.88)(i -1.45)(guess -1.36)(a -6.79)(soul -6.46)(. -1.89) line score is : -3.689, look ahead score is : 0.000
--------------------------score:  -3.3965557585744297;  adjusted_score: -3.372460886323277----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she was to find , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(was -2.81)(to -3.17)(find -1.25)(, -2.37)(she -6.41)(heard -1.37)(a -5.27)(soul -2.78)(. -6.02) line score is : -3.819, look ahead score is : 0.000
--------------------------score:  -3.404712524484186;  adjusted_score: -3.380617652233033----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as it had to be , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(had -2.81)(to -3.17)(be -2.66)(, -2.98)(she -5.27)(heard -0.52)(a -5.47)(soul -2.35)(. -5.62) line score is : -3.764, look ahead score is : 0.000
--------------------------score:  -3.4084655660040237;  adjusted_score: -3.384370694348917----------------------- 
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(spring -1.32)(of -4.13)(soul -2.00)(. -8.31) line score is : -3.863, look ahead score is : 0.000
+-------------------------score:  -3.452911363914609;  adjusted_score: -3.4288164922595024----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
- as it seemed to come , she heard a soul . 
+ and it was almost like death of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -7.53)(seemed -4.42)(to -2.75)(come -3.05)(, -2.88)(she -1.45)(heard -2.88)(a -7.27)(soul -3.81)(. -4.64) line score is : -3.879, look ahead score is : 0.000
--------------------------score:  -3.4105409296119915;  adjusted_score: -3.3864460573608386----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she had to drink , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(drink -1.25)(, -1.70)(she -4.52)(heard -3.61)(a -5.83)(soul -3.21)(. -4.81) line score is : -3.770, look ahead score is : 0.000
--------------------------score:  -3.4107257776400624;  adjusted_score: -3.3866309053889094----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as it seemed to come , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(come -2.66)(, -2.72)(she -1.47)(heard -2.81)(a -6.98)(soul -3.66)(. -5.15) line score is : -3.819, look ahead score is : 0.000
--------------------------score:  -3.411469093140434;  adjusted_score: -3.3873742214853273----------------------- 
+(and -2.00)(it -7.53)(was -4.42)(almost -1.65)(like -4.27)(death -1.02)(of -4.31)(soul -2.15)(. -7.25) line score is : -3.843, look ahead score is : 0.000
+-------------------------score:  -3.4954341929405928;  adjusted_score: -3.47133932068944----------------------- 
 there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was shocked by her break , 
+ and it was almost like sleep of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(sleep -1.32)(of -4.13)(soul -2.00)(. -8.44) line score is : -3.878, look ahead score is : 0.000
+-------------------------score:  -3.502552713267505;  adjusted_score: -3.4784578416123986----------------------- 
+there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
- as it seemed to be , i think a soul . 
+ and it was almost like sleep of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -7.53)(seemed -4.42)(to -2.75)(be -3.05)(, -2.88)(i -1.45)(think -1.36)(a -6.79)(soul -6.46)(. -2.07) line score is : -3.705, look ahead score is : 0.000
--------------------------score:  -3.4168661850340225;  adjusted_score: -3.3927713127828696----------------------- 
+(and -2.00)(it -7.53)(was -4.42)(almost -1.65)(like -4.27)(sleep -1.02)(of -4.31)(soul -2.15)(. -7.62) line score is : -3.884, look ahead score is : 0.000
+-------------------------score:  -3.520486004650593;  adjusted_score: -3.49639113239944----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
- as she had to stand , she heard a soul . 
+ and it was almost like gas of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(stand -1.25)(, -1.70)(she -4.52)(heard -4.18)(a -4.16)(soul -4.35)(. -4.58) line score is : -3.753, look ahead score is : 0.000
--------------------------score:  -3.422776648226906;  adjusted_score: -3.3986817759757533----------------------- 
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(gas -1.32)(of -4.13)(soul -2.00)(. -8.16) line score is : -3.847, look ahead score is : 0.000
+-------------------------score:  -3.5232922844588757;  adjusted_score: -3.4991974122077227----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
- as it seemed to burst , she heard a soul . 
+ and it was almost like blood of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(burst -2.66)(, -2.72)(she -1.47)(heard -4.87)(a -4.90)(soul -4.17)(. -4.56) line score is : -3.809, look ahead score is : 0.000
--------------------------score:  -3.4276922082199768;  adjusted_score: -3.403597335968824----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she had to go , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(go -1.25)(, -1.70)(she -4.52)(heard -4.09)(a -5.68)(soul -2.54)(. -5.36) line score is : -3.789, look ahead score is : 0.000
--------------------------score:  -3.4355021908002743;  adjusted_score: -3.4114073185491214----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as it seemed to be , i guess a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(be -2.66)(, -2.72)(i -1.47)(guess -1.63)(a -7.06)(soul -6.06)(. -1.77) line score is : -3.628, look ahead score is : 0.000
--------------------------score:  -3.4385009109973907;  adjusted_score: -3.414406038746238----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she had to sit , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(sit -1.25)(, -1.70)(she -4.52)(heard -3.86)(a -5.13)(soul -4.33)(. -4.79) line score is : -3.829, look ahead score is : 0.000
--------------------------score:  -3.4489242723759483;  adjusted_score: -3.4248293989327023----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her cake , 
- as it had to be , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(cake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -9.19)(had -2.34)(to -4.31)(be -1.82)(, -1.96)(she -6.14)(heard -0.43)(a -5.69)(soul -2.55)(. -6.16) line score is : -3.873, look ahead score is : 0.000
--------------------------score:  -3.4526730828425465;  adjusted_score: -3.4285782105913936----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as it seemed to be , i think a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(be -2.66)(, -2.72)(i -1.47)(think -1.63)(a -7.06)(soul -6.06)(. -2.08) line score is : -3.657, look ahead score is : 0.000
--------------------------score:  -3.469577454468783;  adjusted_score: -3.4454825822176303----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she had to wait , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(wait -1.25)(, -1.70)(she -4.52)(heard -4.15)(a -5.72)(soul -3.53)(. -5.31) line score is : -3.885, look ahead score is : 0.000
--------------------------score:  -3.470071447246215;  adjusted_score: -3.4459765755911085----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her wake , 
- as it seemed to be , i mean a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -7.53)(seemed -4.42)(to -2.75)(be -3.05)(, -2.88)(i -1.45)(mean -1.36)(a -6.79)(soul -6.46)(. -3.68) line score is : -3.852, look ahead score is : 0.000
--------------------------score:  -3.4704076840597042;  adjusted_score: -3.4463128106164582----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her cake , 
- as it looked to be , i guess a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(cake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -9.19)(looked -2.34)(to -4.31)(be -1.82)(, -2.81)(i -3.71)(guess -0.47)(a -6.48)(soul -5.49)(. -2.08) line score is : -3.701, look ahead score is : 0.000
--------------------------score:  -3.4955008222776303;  adjusted_score: -3.4714059500264773----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as it seemed to be , i am a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(be -2.66)(, -2.72)(i -1.47)(am -1.63)(a -7.06)(soul -6.06)(. -4.48) line score is : -3.874, look ahead score is : 0.000
--------------------------score:  -3.5018524510018967;  adjusted_score: -3.4777575775586507----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her cake , 
- as it looked to be , i think a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(cake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -9.19)(looked -2.34)(to -4.31)(be -1.82)(, -2.81)(i -3.71)(think -0.47)(a -6.48)(soul -5.49)(. -2.07) line score is : -3.700, look ahead score is : 0.000
--------------------------score:  -3.5162735248313233;  adjusted_score: -3.4921786525801704----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as it seemed to be , i mean a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(it -8.56)(seemed -2.81)(to -3.17)(be -2.66)(, -2.72)(i -1.47)(mean -1.63)(a -7.06)(soul -6.06)(. -3.76) line score is : -3.810, look ahead score is : 0.000
--------------------------score:  -3.5373501795179703;  adjusted_score: -3.5132553072668173----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was shocked by her break , 
- as she had to stop , she swore a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
-(as -2.00)(she -8.56)(had -2.81)(to -3.17)(stop -1.25)(, -1.70)(she -4.52)(swore -3.81)(a -4.20)(soul -3.49)(. -7.22) line score is : -3.885, look ahead score is : 0.000
+(and -2.00)(it -8.56)(was -2.81)(almost -1.41)(like -4.23)(blood -1.32)(of -4.13)(soul -2.00)(. -8.37) line score is : -3.870, look ahead score is : 0.000
 ======================= template: 3 ============================  
-sarah 
- WHO VBD ALL PRP$ NN IN A NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD JJ TO VB , 
- SO PRP VBD UP AND VB ON THE NN . 
------------------------ original sentences ------------------------------------ 
-who kept all his cash in a bucket 
- when he went to bed 
- he was ready to faint 
- so he jumped up and spat on the ceiling 
--------------------------score:  -3.3464100770652294;  adjusted_score: -3.3224995494633913----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- so she sat up and let on the soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(so -1.95)(she -3.69)(sat -6.25)(up -1.88)(and -0.57)(let -3.40)(on -2.17)(the -1.19)(soul -4.77)(. -8.25) line score is : -3.413, look ahead score is : 0.000
--------------------------score:  -3.349047616124153;  adjusted_score: -3.325137088522315----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- so she got up and let on the soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(so -1.95)(she -3.69)(got -6.25)(up -1.88)(and -0.57)(let -4.21)(on -0.79)(the -0.69)(soul -6.17)(. -8.23) line score is : -3.444, look ahead score is : 0.000
--------------------------score:  -3.412510722875595;  adjusted_score: -3.3886001946777107----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to break , 
- so she sat up and let on the soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(so -1.95)(she -5.41)(sat -5.30)(up -1.86)(and -0.57)(let -3.74)(on -3.14)(the -1.14)(soul -4.60)(. -8.51) line score is : -3.620, look ahead score is : 0.000
-======================= template: 4 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
  WHEN PRP VBD TO NN , 
@@ -361,7 +174,7 @@ who kept all his cash in a bucket
  when he went to bed 
  he was ready to faint 
  and now he 's a college professor 
--------------------------score:  -3.3627467413432894;  adjusted_score: -3.337638767901808----------------------- 
+-------------------------score:  -3.3627466876991092;  adjusted_score: -3.337638714257628----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -372,7 +185,7 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
 (and -0.00)(now -4.24)(she -7.84)(has -2.03)(a -5.01)(permanent -1.44)(soul -2.97)(. -2.22) line score is : -3.220, look ahead score is : 0.000
-======================= template: 5 ============================  
+======================= template: 4 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
  WHEN PRP VBD TO NN , 
@@ -383,8 +196,8 @@ who kept all his cash in a bucket
  when he went to bed 
  he was told by his wife 
  as she let out three tucks in her tunic 
--------------------------score:  -3.364386433904821;  adjusted_score: -3.340291561653668----------------------- 
-there was a loud waitress named nicolle 
+-------------------------score:  -3.3643863309513438;  adjusted_score: -3.340291458700191----------------------- 
+there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
@@ -394,7 +207,7 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(two -1.25)(things -4.75)(in -2.37)(her -7.05)(soul -3.25)(. -4.88) line score is : -4.009, look ahead score is : 0.000
--------------------------score:  -3.3674614628156028;  adjusted_score: -3.343366591160496----------------------- 
+-------------------------score:  -3.3674612948388765;  adjusted_score: -3.34336642318377----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -405,8 +218,8 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(found -4.42)(out -2.75)(two -1.57)(things -4.29)(in -2.47)(her -7.04)(soul -3.53)(. -4.96) line score is : -4.055, look ahead score is : 0.000
--------------------------score:  -3.390337403976556;  adjusted_score: -3.366242531725403----------------------- 
-there was a loud waitress named nicolle 
+-------------------------score:  -3.3903376442013364;  adjusted_score: -3.3662427719501835----------------------- 
+there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
@@ -416,7 +229,7 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(three -1.25)(times -4.75)(in -2.37)(her -7.96)(soul -3.03)(. -2.29) line score is : -3.820, look ahead score is : 0.000
--------------------------score:  -3.4090193744861716;  adjusted_score: -3.384924502831065----------------------- 
+-------------------------score:  -3.4090190945249614;  adjusted_score: -3.384924222869855----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -427,8 +240,8 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(found -4.42)(out -2.75)(three -1.57)(times -4.29)(in -2.47)(her -7.94)(soul -3.65)(. -2.62) line score is : -3.924, look ahead score is : 0.000
--------------------------score:  -3.4265676429777434;  adjusted_score: -3.4024727707265905----------------------- 
-there was a loud waitress named nicolle 
+-------------------------score:  -3.4265673485669224;  adjusted_score: -3.4024724763157694----------------------- 
+there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
@@ -438,8 +251,8 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(two -1.25)(hours -4.75)(in -2.37)(her -7.05)(soul -3.25)(. -5.05) line score is : -4.027, look ahead score is : 0.000
--------------------------score:  -3.4283698237303533;  adjusted_score: -3.4042749520752467----------------------- 
-there was a loud waitress named nicole 
+-------------------------score:  -3.4283696954900567;  adjusted_score: -3.40427482383495----------------------- 
+there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
@@ -449,8 +262,8 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(found -4.42)(out -2.75)(two -1.57)(hours -4.29)(in -2.47)(her -7.04)(soul -4.12)(. -4.87) line score is : -4.106, look ahead score is : 0.000
--------------------------score:  -3.4299288121136753;  adjusted_score: -3.4058339404585687----------------------- 
-there was a loud waitress named nicole 
+-------------------------score:  -3.429928810307474;  adjusted_score: -3.4058339386523673----------------------- 
+there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
@@ -460,7 +273,7 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(was -4.42)(out -2.75)(two -1.57)(hours -2.27)(in -7.21)(her -8.07)(soul -0.67)(. -4.11) line score is : -4.060, look ahead score is : 0.000
--------------------------score:  -3.438293083147569;  adjusted_score: -3.414198210896416----------------------- 
+-------------------------score:  -3.4382929982561055;  adjusted_score: -3.4141981260049525----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -471,7 +284,7 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(two -1.25)(weeks -4.75)(in -2.37)(her -7.05)(soul -3.38)(. -4.82) line score is : -4.015, look ahead score is : 0.000
--------------------------score:  -3.443941482991883;  adjusted_score: -3.41984661074073----------------------- 
+-------------------------score:  -3.4439413258523652;  adjusted_score: -3.4198464536012123----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -482,7 +295,7 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(was -2.81)(out -3.17)(two -1.25)(hours -2.37)(in -7.36)(her -7.65)(soul -1.07)(. -4.36) line score is : -4.060, look ahead score is : 0.000
--------------------------score:  -3.444651453784018;  adjusted_score: -3.420556581532865----------------------- 
+-------------------------score:  -3.444651228008848;  adjusted_score: -3.4205563557576952----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -493,8 +306,8 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(was -2.81)(out -3.17)(three -1.25)(hours -2.37)(in -7.36)(her -7.61)(soul -1.42)(. -4.17) line score is : -4.071, look ahead score is : 0.000
--------------------------score:  -3.4485489111958127;  adjusted_score: -3.42445403894466----------------------- 
-there was a loud waitress named nicole 
+-------------------------score:  -3.4485487107074624;  adjusted_score: -3.4244538384563095----------------------- 
+there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
@@ -504,7 +317,7 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(three -1.25)(hours -4.75)(in -2.37)(her -7.96)(soul -3.32)(. -5.00) line score is : -4.119, look ahead score is : 0.000
--------------------------score:  -3.4529345161987073;  adjusted_score: -3.4288396439475544----------------------- 
+-------------------------score:  -3.452934315710357;  adjusted_score: -3.428839443459204----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -515,8 +328,8 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(two -1.25)(months -4.75)(in -2.37)(her -7.05)(soul -4.16)(. -4.59) line score is : -4.071, look ahead score is : 0.000
--------------------------score:  -3.4542182196270335;  adjusted_score: -3.4301233473758805----------------------- 
-there was a loud waitress named nicole 
+-------------------------score:  -3.4542182792316782;  adjusted_score: -3.4301234069805253----------------------- 
+there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her break , 
@@ -526,8 +339,8 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(break -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -8.56)(found -2.81)(out -3.17)(two -1.25)(years -4.75)(in -2.37)(her -7.05)(soul -3.87)(. -4.52) line score is : -4.035, look ahead score is : 0.000
--------------------------score:  -3.4552934115583245;  adjusted_score: -3.431198539903218----------------------- 
-there was a loud waitress named nicolle 
+-------------------------score:  -3.45529339169011;  adjusted_score: -3.4311985200350033----------------------- 
+there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
@@ -537,8 +350,8 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(found -4.42)(out -2.75)(two -1.57)(weeks -4.29)(in -2.47)(her -7.04)(soul -4.33)(. -4.87) line score is : -4.128, look ahead score is : 0.000
--------------------------score:  -3.470978218497652;  adjusted_score: -3.4468833468425455----------------------- 
-there was a loud waitress named nicole 
+-------------------------score:  -3.4709783286759346;  adjusted_score: -3.446883457020828----------------------- 
+there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was shocked by her wake , 
@@ -548,7 +361,7 @@ there was a loud waitress named nicole
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(found -4.42)(out -2.75)(two -1.57)(cups -4.29)(in -2.47)(her -7.04)(soul -3.97)(. -4.23) line score is : -4.027, look ahead score is : 0.000
--------------------------score:  -3.489428370287924;  adjusted_score: -3.4653334986328175----------------------- 
+-------------------------score:  -3.489428516590234;  adjusted_score: -3.4653336449351273----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
@@ -559,289 +372,685 @@ there was a loud waitress named nicolle
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(shocked -1.06)(by -3.43)(her -4.09)(wake -2.43)(, -2.00) line score is : -2.840, look ahead score is : 0.648
 (as -2.00)(she -7.53)(found -4.42)(out -2.75)(three -1.57)(cups -4.29)(in -2.47)(her -7.94)(soul -3.60)(. -4.10) line score is : -4.067, look ahead score is : 0.000
-======================= template: 6 ============================  
+======================= template: 5 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
  WHEN PRP VBD TO NN , 
  PRP VBD JJ TO VB , 
- AS PRP VBD TO VB , PRP VBP A NN . 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
  when he went to bed 
  he was ready to faint 
- as it tried to explain , I am a spi 
--------------------------score:  -3.376033669168299;  adjusted_score: -3.352123141566461----------------------- 
+ and I hope that your day is a blast 
+-------------------------score:  -3.3702516946941614;  adjusted_score: -3.3464135022461416----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her cat has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(cat -4.31)(has -4.27)(a -2.33)(soul -4.56)(. -6.59) line score is : -3.852, look ahead score is : 0.000
+-------------------------score:  -3.3869229685515165;  adjusted_score: -3.3630847761034968----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her friend has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(friend -4.31)(has -4.27)(a -2.33)(soul -3.66)(. -7.02) line score is : -3.805, look ahead score is : 0.000
+-------------------------score:  -3.388879355014069;  adjusted_score: -3.3637713815725876----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to wake , 
+ and she heard that her friend has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(wake -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(and -0.00)(she -5.73)(heard -6.60)(that -1.68)(her -1.68)(friend -5.22)(has -4.15)(a -2.55)(soul -3.04)(. -6.98) line score is : -3.762, look ahead score is : 0.000
+-------------------------score:  -3.399774108082056;  adjusted_score: -3.375652880296111----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was startled to wake , 
+ and she heard that her friend has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(and -1.67)(she -5.81)(heard -5.10)(that -1.19)(her -1.90)(friend -4.39)(has -4.66)(a -2.41)(soul -3.74)(. -7.14) line score is : -3.803, look ahead score is : 0.000
+-------------------------score:  -3.4077422227710485;  adjusted_score: -3.3839040303230288----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her friend is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(friend -4.31)(is -4.27)(a -2.33)(soul -3.66)(. -5.92) line score is : -3.695, look ahead score is : 0.000
+-------------------------score:  -3.4119875207543373;  adjusted_score: -3.3878662929683925----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was startled to wake , 
+ and she heard that her friend is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(and -1.67)(she -5.81)(heard -5.10)(that -1.19)(her -1.90)(friend -4.39)(is -4.66)(a -2.41)(soul -3.74)(. -6.04) line score is : -3.693, look ahead score is : 0.000
+-------------------------score:  -3.413737205788493;  adjusted_score: -3.3898990133404734----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her tea has a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(tea -4.31)(has -4.27)(a -2.33)(soul -4.89)(. -5.69) line score is : -3.795, look ahead score is : 0.000
+-------------------------score:  -3.4265136010944843;  adjusted_score: -3.4026030734926462----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to wake , 
- as she had to run , she heard a soul . 
+ and she heard that her friend is a soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(run -1.19)(, -2.07)(she -3.26)(heard -4.33)(a -4.16)(soul -3.98)(. -4.31) line score is : -3.546, look ahead score is : 0.000
--------------------------score:  -3.3836677887222986;  adjusted_score: -3.3597572611204605----------------------- 
+(and -1.95)(she -3.69)(heard -6.25)(that -2.18)(her -1.73)(friend -5.60)(is -4.41)(a -2.46)(soul -3.69)(. -5.95) line score is : -3.792, look ahead score is : 0.000
+-------------------------score:  -3.4295126348442864;  adjusted_score: -3.404404661402805----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to wake , 
+ and she heard that her friend is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(wake -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(and -0.00)(she -5.73)(heard -6.60)(that -1.68)(her -1.68)(friend -5.22)(is -4.15)(a -2.55)(soul -3.04)(. -5.71) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.4475753884762526;  adjusted_score: -3.423737196028233----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her wife is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(wife -4.31)(is -4.27)(a -2.33)(soul -5.05)(. -5.91) line score is : -3.833, look ahead score is : 0.000
+-------------------------score:  -3.4550166558474302;  adjusted_score: -3.4311784633994105----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her son is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(son -4.31)(is -4.27)(a -2.33)(soul -4.54)(. -5.84) line score is : -3.776, look ahead score is : 0.000
+-------------------------score:  -3.4677544087171555;  adjusted_score: -3.4436331809312106----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
- she was afraid to wake , 
- as she had to go , she heard a soul . 
+ she was startled to wake , 
+ and she heard that her son is a soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(go -1.19)(, -2.07)(she -3.26)(heard -2.99)(a -6.04)(soul -3.05)(. -4.86) line score is : -3.560, look ahead score is : 0.000
--------------------------score:  -3.3940117955207825;  adjusted_score: -3.3701012679189444----------------------- 
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(and -1.67)(she -5.81)(heard -5.10)(that -1.19)(her -1.90)(son -4.39)(is -4.66)(a -2.41)(soul -4.80)(. -6.01) line score is : -3.796, look ahead score is : 0.000
+-------------------------score:  -3.4717959612607956;  adjusted_score: -3.4478854336589575----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to wake , 
- as she had to leave , she heard a soul . 
+ and she swore that her heart is a soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(leave -1.19)(, -2.07)(she -3.26)(heard -3.95)(a -5.24)(soul -3.12)(. -4.77) line score is : -3.574, look ahead score is : 0.000
--------------------------score:  -3.395002377755714;  adjusted_score: -3.371091850153876----------------------- 
+(and -1.95)(she -3.69)(swore -6.25)(that -2.18)(her -1.73)(heart -6.90)(is -1.80)(a -3.14)(soul -3.85)(. -6.62) line score is : -3.811, look ahead score is : 0.000
+-------------------------score:  -3.4773694444447756;  adjusted_score: -3.453531251996756----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ and she heard that her cat is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(she -6.09)(heard -6.11)(that -1.62)(her -1.82)(cat -4.31)(is -4.27)(a -2.33)(soul -4.56)(. -6.13) line score is : -3.806, look ahead score is : 0.000
+-------------------------score:  -3.488814815878868;  adjusted_score: -3.4646935880929233----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was startled to wake , 
+ and she heard that her cat is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(and -1.67)(she -5.81)(heard -5.10)(that -1.19)(her -1.90)(cat -4.39)(is -4.66)(a -2.41)(soul -4.64)(. -6.32) line score is : -3.811, look ahead score is : 0.000
+-------------------------score:  -3.4976505264348816;  adjusted_score: -3.4725425529934----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to wake , 
+ and she heard that her son is a soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(wake -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(and -0.00)(she -5.73)(heard -6.60)(that -1.68)(her -1.68)(son -5.22)(is -4.15)(a -2.55)(soul -4.02)(. -5.61) line score is : -3.724, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was pained by a tooth 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.3773898473009467;  adjusted_score: -3.3533405861631036----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like light of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(light -2.25)(of -4.45)(soul -2.61)(. -7.29) line score is : -4.158, look ahead score is : 0.000
+-------------------------score:  -3.4243299392983317;  adjusted_score: -3.4002806781604886----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like heat of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(heat -2.25)(of -4.45)(soul -2.61)(. -7.96) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -3.437776959501207;  adjusted_score: -3.4137276983633638----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like pain of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(pain -2.25)(of -4.45)(soul -2.61)(. -7.11) line score is : -4.137, look ahead score is : 0.000
+-------------------------score:  -3.4394452637061477;  adjusted_score: -3.4153960025683046----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like spring of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(spring -2.25)(of -4.45)(soul -2.61)(. -7.46) line score is : -4.176, look ahead score is : 0.000
+-------------------------score:  -3.462374863214791;  adjusted_score: -3.4383256020769477----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like fire of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(fire -2.25)(of -4.45)(soul -2.61)(. -7.62) line score is : -4.194, look ahead score is : 0.000
+-------------------------score:  -3.4818523740395904;  adjusted_score: -3.4578031129017472----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was then like lightning of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(then -1.27)(like -3.95)(lightning -2.25)(of -3.02)(soul -7.27)(. -2.95) line score is : -4.035, look ahead score is : 0.000
+-------------------------score:  -3.4912267373874784;  adjusted_score: -3.4671774762496352----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like death of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(death -2.25)(of -4.45)(soul -2.61)(. -8.22) line score is : -4.261, look ahead score is : 0.000
+-------------------------score:  -3.505965447984636;  adjusted_score: -3.4819161868467927----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like steam of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(steam -2.25)(of -4.45)(soul -2.61)(. -8.27) line score is : -4.266, look ahead score is : 0.000
+-------------------------score:  -3.5178773486986756;  adjusted_score: -3.4938280875608325----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like cold of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(cold -2.25)(of -4.45)(soul -2.61)(. -8.43) line score is : -4.284, look ahead score is : 0.000
+-------------------------score:  -3.5331788593903184;  adjusted_score: -3.5091295982524753----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like wind of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(wind -2.25)(of -4.45)(soul -2.61)(. -8.44) line score is : -4.285, look ahead score is : 0.000
+-------------------------score:  -3.5410721385851502;  adjusted_score: -3.517022877447307----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like blood of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(blood -2.25)(of -4.45)(soul -2.61)(. -7.38) line score is : -4.168, look ahead score is : 0.000
+-------------------------score:  -3.5420186510309577;  adjusted_score: -3.5179693898931146----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like gas of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(gas -2.25)(of -4.45)(soul -2.61)(. -7.37) line score is : -4.166, look ahead score is : 0.000
+-------------------------score:  -3.554301985539496;  adjusted_score: -3.530252724401653----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like wet of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(wet -2.25)(of -4.45)(soul -2.61)(. -8.01) line score is : -4.237, look ahead score is : 0.000
+-------------------------score:  -3.618273234926164;  adjusted_score: -3.594223973788321----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and it was almost like life of soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(it -9.70)(was -3.98)(almost -1.27)(like -3.95)(life -2.25)(of -4.45)(soul -2.61)(. -8.10) line score is : -4.248, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was ready to faint 
+ as she let out three tucks in her tunic 
+-------------------------score:  -3.3943724259443115;  adjusted_score: -3.36926445250283----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to take , 
+ as she called out two words in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.24)(called -7.84)(out -3.38)(two -0.77)(words -2.74)(in -8.52)(her -8.05)(soul -1.18)(. -3.66) line score is : -4.040, look ahead score is : 0.000
+-------------------------score:  -3.4025675467855763;  adjusted_score: -3.377459573344095----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to take , 
+ as she put out two words in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.24)(put -7.84)(out -3.38)(two -0.77)(words -1.34)(in -8.93)(her -6.24)(soul -3.91)(. -3.66) line score is : -4.032, look ahead score is : 0.000
+-------------------------score:  -3.421229897066951;  adjusted_score: -3.3973193694651127----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to wake , 
- as she had to eat , she heard a soul . 
+ as she was out two hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(eat -1.19)(, -2.07)(she -3.26)(heard -4.28)(a -3.79)(soul -4.58)(. -4.73) line score is : -3.601, look ahead score is : 0.000
--------------------------score:  -3.4040273771141516;  adjusted_score: -3.3801168495123135----------------------- 
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(two -1.19)(hours -1.80)(in -7.32)(her -8.81)(soul -0.59)(. -3.56) line score is : -3.899, look ahead score is : 0.000
+-------------------------score:  -3.4248024820990395;  adjusted_score: -3.399694508657558----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to take , 
+ as she called out three words in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.24)(called -7.84)(out -3.38)(three -0.77)(words -2.74)(in -8.52)(her -8.07)(soul -1.88)(. -3.55) line score is : -4.100, look ahead score is : 0.000
+-------------------------score:  -3.4310754016041756;  adjusted_score: -3.4071648740023375----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to wake , 
- as she had to stand , she heard a soul . 
+ as she was out three hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(stand -1.19)(, -2.07)(she -3.26)(heard -4.34)(a -4.29)(soul -4.61)(. -4.49) line score is : -3.632, look ahead score is : 0.000
--------------------------score:  -3.405761384602749;  adjusted_score: -3.3818508570009107----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to drink , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(drink -1.19)(, -2.07)(she -3.26)(heard -4.40)(a -5.13)(soul -3.89)(. -4.49) line score is : -3.649, look ahead score is : 0.000
--------------------------score:  -3.4077267411983376;  adjusted_score: -3.3838162135964995----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to walk , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(walk -1.19)(, -2.07)(she -3.26)(heard -4.36)(a -4.99)(soul -4.23)(. -4.52) line score is : -3.666, look ahead score is : 0.000
--------------------------score:  -3.4088120261828103;  adjusted_score: -3.3849014985809722----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to sit , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(sit -1.19)(, -2.07)(she -3.26)(heard -3.86)(a -4.74)(soul -4.69)(. -4.58) line score is : -3.646, look ahead score is : 0.000
--------------------------score:  -3.4091030341206174;  adjusted_score: -3.3851925065187793----------------------- 
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(three -1.19)(hours -1.80)(in -7.32)(her -8.92)(soul -0.92)(. -3.40) line score is : -3.926, look ahead score is : 0.000
+-------------------------score:  -3.4336278438568115;  adjusted_score: -3.4097173162549734----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to wake , 
- as she had to wait , she heard a soul . 
+ as she was out four hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(wait -1.19)(, -2.07)(she -3.26)(heard -3.59)(a -5.67)(soul -3.63)(. -4.77) line score is : -3.626, look ahead score is : 0.000
--------------------------score:  -3.4119308843757166;  adjusted_score: -3.388020356177832----------------------- 
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(four -1.19)(hours -1.80)(in -7.32)(her -9.32)(soul -0.59)(. -3.40) line score is : -3.933, look ahead score is : 0.000
+-------------------------score:  -3.439281560451491;  adjusted_score: -3.4141735864139626----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to make , 
+ as she put out two words in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(make -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.69)(put -8.35)(out -3.44)(two -0.70)(words -1.20)(in -8.90)(her -6.41)(soul -3.37)(. -3.54) line score is : -4.061, look ahead score is : 0.000
+-------------------------score:  -3.44127812422812;  adjusted_score: -3.4173675966262818----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was afraid to wake , 
+ as she was out eight hours in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(eight -1.19)(hours -1.80)(in -7.32)(her -9.87)(soul -0.36)(. -3.22) line score is : -3.947, look ahead score is : 0.000
+-------------------------score:  -3.4423759784258436;  adjusted_score: -3.4172680049843622----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to take , 
+ as she called out three times in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.24)(called -7.84)(out -3.38)(three -0.77)(times -2.74)(in -8.52)(her -8.07)(soul -0.76)(. -3.00) line score is : -3.933, look ahead score is : 0.000
+-------------------------score:  -3.446387564763427;  adjusted_score: -3.4224770371615887----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was afraid to wake , 
+ as she was out five hours in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(five -1.19)(hours -1.80)(in -7.32)(her -9.31)(soul -0.98)(. -3.36) line score is : -3.967, look ahead score is : 0.000
+-------------------------score:  -3.4600692596286535;  adjusted_score: -3.4361587320268154----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was afraid to wake , 
+ as she was out six hours in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(six -1.19)(hours -1.80)(in -7.32)(her -9.90)(soul -0.87)(. -3.23) line score is : -4.002, look ahead score is : 0.000
+-------------------------score:  -3.4689267352223396;  adjusted_score: -3.4450162076205015----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was afraid to wake , 
+ as she was out three days in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(three -1.19)(days -1.80)(in -7.32)(her -8.92)(soul -2.45)(. -2.56) line score is : -3.995, look ahead score is : 0.000
+-------------------------score:  -3.4775682259351015;  adjusted_score: -3.4537300334870817----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was surprised to wake , 
+ as she was out two hours in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(as -0.82)(she -6.09)(was -6.11)(out -3.48)(two -1.77)(hours -2.26)(in -6.84)(her -8.51)(soul -0.69)(. -4.16) line score is : -4.072, look ahead score is : 0.000
+-------------------------score:  -3.479973841458559;  adjusted_score: -3.456063313856721----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was afraid to wake , 
+ as she was out two days in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
+(as -1.95)(she -3.69)(was -6.25)(out -3.81)(two -1.19)(days -1.80)(in -7.32)(her -8.81)(soul -2.70)(. -2.74) line score is : -4.028, look ahead score is : 0.000
+-------------------------score:  -3.483259765431285;  adjusted_score: -3.4593492372334005----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to break , 
- as she had to drink , she heard a soul . 
+ as she was out two hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(drink -1.09)(, -2.06)(she -2.98)(heard -3.62)(a -5.26)(soul -3.33)(. -5.14) line score is : -3.657, look ahead score is : 0.000
--------------------------score:  -3.4266304590485315;  adjusted_score: -3.402719930850647----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to break , 
- as she had to go , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(go -1.09)(, -2.06)(she -2.98)(heard -3.78)(a -5.60)(soul -2.78)(. -5.47) line score is : -3.683, look ahead score is : 0.000
--------------------------score:  -3.4327854694742146;  adjusted_score: -3.4088749418723765----------------------- 
+(as -1.95)(she -5.41)(was -5.30)(out -4.09)(two -1.09)(hours -1.89)(in -7.36)(her -8.79)(soul -1.13)(. -3.87) line score is : -4.087, look ahead score is : 0.000
+-------------------------score:  -3.484195876866579;  adjusted_score: -3.4603576844185593----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
- she was afraid to wake , 
- as she had to watch , she heard a soul . 
+ she was surprised to wake , 
+ as she was out three hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(watch -1.19)(, -2.07)(she -3.26)(heard -4.58)(a -5.77)(soul -4.24)(. -3.95) line score is : -3.707, look ahead score is : 0.000
--------------------------score:  -3.438937564690908;  adjusted_score: -3.41502703708907----------------------- 
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(as -0.82)(she -6.09)(was -6.11)(out -3.48)(three -1.77)(hours -2.26)(in -6.84)(her -8.73)(soul -0.94)(. -3.89) line score is : -4.093, look ahead score is : 0.000
+-------------------------score:  -3.485676970303757;  adjusted_score: -3.4605689968622757----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
- she was afraid to wake , 
- as she had to be , she heard a soul . 
+ she was able to take , 
+ as she had out three cups in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(be -1.19)(, -2.07)(she -3.26)(heard -3.25)(a -6.33)(soul -4.42)(. -4.90) line score is : -3.739, look ahead score is : 0.000
--------------------------score:  -3.4440315690907566;  adjusted_score: -3.420121040892872----------------------- 
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.24)(had -7.84)(out -3.38)(three -0.77)(cups -3.50)(in -8.82)(her -7.19)(soul -1.61)(. -2.52) line score is : -3.988, look ahead score is : 0.000
+-------------------------score:  -3.4882068932056427;  adjusted_score: -3.464085665419698----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
- she was afraid to break , 
- as she had to be , she heard a soul . 
+ she was startled to wake , 
+ as she was out two hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(be -1.09)(, -2.06)(she -2.98)(heard -3.12)(a -6.19)(soul -3.10)(. -5.81) line score is : -3.736, look ahead score is : 0.000
--------------------------score:  -3.4480181444774973;  adjusted_score: -3.424107616279613----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to break , 
- as she had to wait , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(wait -1.09)(, -2.06)(she -2.98)(heard -3.72)(a -5.52)(soul -3.58)(. -5.38) line score is : -3.735, look ahead score is : 0.000
--------------------------score:  -3.4620240583564295;  adjusted_score: -3.438113530158545----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to break , 
- as she had to do , she heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(do -1.09)(, -2.06)(she -2.98)(heard -3.88)(a -5.35)(soul -3.63)(. -5.86) line score is : -3.783, look ahead score is : 0.000
--------------------------score:  -3.467807518713402;  adjusted_score: -3.443896991111564----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to go , i heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(go -1.19)(, -2.07)(i -3.26)(heard -2.99)(a -6.04)(soul -6.13)(. -4.00) line score is : -3.763, look ahead score is : 0.000
--------------------------score:  -3.4715210036797957;  adjusted_score: -3.4476104760779576----------------------- 
-there was a loud waitress named nicole 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to wait , i heard a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(wait -1.19)(, -2.07)(i -3.26)(heard -3.59)(a -5.67)(soul -6.00)(. -3.97) line score is : -3.768, look ahead score is : 0.000
--------------------------score:  -3.509443306561672;  adjusted_score: -3.485532778959834----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to go , she swore a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(go -1.19)(, -2.07)(she -3.26)(swore -2.99)(a -6.04)(soul -3.05)(. -6.77) line score is : -3.734, look ahead score is : 0.000
--------------------------score:  -3.5141908237428376;  adjusted_score: -3.4902802955449532----------------------- 
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(as -1.67)(she -5.81)(was -5.10)(out -3.63)(two -1.97)(hours -2.06)(in -6.66)(her -8.64)(soul -1.29)(. -3.89) line score is : -4.071, look ahead score is : 0.000
+-------------------------score:  -3.491001369431615;  adjusted_score: -3.4670908412337305----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
  she was afraid to break , 
- as she had to drink , she swore a soul . 
+ as she was out three hours in her soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
 (she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(drink -1.09)(, -2.06)(she -2.98)(swore -3.62)(a -5.26)(soul -3.33)(. -6.63) line score is : -3.792, look ahead score is : 0.000
--------------------------score:  -3.5214609359249924;  adjusted_score: -3.497550407727108----------------------- 
+(as -1.95)(she -5.41)(was -5.30)(out -4.09)(three -1.09)(hours -1.89)(in -7.36)(her -8.85)(soul -1.49)(. -3.72) line score is : -4.113, look ahead score is : 0.000
+-------------------------score:  -3.500400148332119;  adjusted_score: -3.476278920546174----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was startled to wake , 
+ as she was out three hours in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(as -1.67)(she -5.81)(was -5.10)(out -3.63)(three -1.97)(hours -2.06)(in -6.66)(her -8.96)(soul -1.57)(. -3.66) line score is : -4.109, look ahead score is : 0.000
+-------------------------score:  -3.513214446575148;  adjusted_score: -3.4881064731336666----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to shake , 
+ she was able to take , 
+ as she put out two hands in her soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
+(she -5.93)(was -0.96)(able -1.06)(to -3.43)(take -4.57)(, -0.00) line score is : -2.658, look ahead score is : 0.699
+(as -0.00)(she -4.24)(put -7.84)(out -3.38)(two -0.77)(hands -1.34)(in -8.93)(her -6.24)(soul -4.47)(. -3.43) line score is : -4.065, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD RB LIKE NN OF NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was ready to faint 
+ and he did n't like mother of pearl 
+-------------------------score:  -3.4725100167336;  adjusted_score: -3.4486718242855803----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
  when she started to shake , 
- she was afraid to break , 
- as she had to go , she swore a soul . 
+ she was surprised to wake , 
+ and it was then like waking of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(break -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -5.41)(had -5.30)(to -4.09)(go -1.09)(, -2.06)(she -2.98)(swore -3.78)(a -5.60)(soul -2.78)(. -6.46) line score is : -3.773, look ahead score is : 0.000
--------------------------score:  -3.5214681860172385;  adjusted_score: -3.4975576584154005----------------------- 
+(she -5.93)(was -0.96)(surprised -1.06)(to -3.43)(wake -3.88)(, -0.82) line score is : -2.680, look ahead score is : 0.635
+(and -0.82)(it -6.09)(was -6.11)(then -1.62)(like -4.23)(waking -0.83)(of -2.91)(soul -7.17)(. -4.64) line score is : -3.824, look ahead score is : 0.000
+-------------------------score:  -3.530101118549224;  adjusted_score: -3.505979890763279----------------------- 
 there was a loud waitress named nicolle 
  who poured all her coffee in a bowl . 
  when she started to shake , 
- she was afraid to wake , 
- as she had to eat , she swore a soul . 
+ she was startled to wake , 
+ and it was then like lightning of soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
 (when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(eat -1.19)(, -2.07)(she -3.26)(swore -4.28)(a -3.79)(soul -4.58)(. -7.18) line score is : -3.824, look ahead score is : 0.000
--------------------------score:  -3.521649586431908;  adjusted_score: -3.49773905883007----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to run , she swore a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(run -1.19)(, -2.07)(she -3.26)(swore -4.33)(a -4.16)(soul -3.98)(. -6.95) line score is : -3.787, look ahead score is : 0.000
--------------------------score:  -3.5297358776583816;  adjusted_score: -3.5058253500565435----------------------- 
-there was a loud waitress named nicolle 
- who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to leave , she swore a soul . 
-------------------------- score breakdown ------------------------ 
-(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(leave -1.19)(, -2.07)(she -3.26)(swore -3.95)(a -5.24)(soul -3.12)(. -7.21) line score is : -3.796, look ahead score is : 0.000
--------------------------score:  -3.5922211535049207;  adjusted_score: -3.5683106259030826----------------------- 
+(she -5.93)(was -0.96)(startled -1.06)(to -3.43)(wake -4.25)(, -1.67) line score is : -2.883, look ahead score is : 0.649
+(and -1.67)(it -5.81)(was -5.10)(then -1.19)(like -4.51)(lightning -0.86)(of -2.42)(soul -7.48)(. -4.97) line score is : -3.780, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ when he went to bed 
+ he was pained by a tooth 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.5376148829236627;  adjusted_score: -3.5135656217858195----------------------- 
 there was a loud waitress named nicole 
  who poured all her coffee in a bowl . 
- when she started to shake , 
- she was afraid to wake , 
- as she had to go , they say a soul . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and the pain almost killed a whole soul . 
 ------------------------- score breakdown ------------------------ 
 (who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
-(when -1.94)(she -4.58)(started -1.16)(to -4.33)(shake -1.70)(, -5.93) line score is : -3.273, look ahead score is : 0.557
-(she -5.93)(was -0.96)(afraid -1.06)(to -3.43)(wake -4.31)(, -1.95) line score is : -2.939, look ahead score is : 0.639
-(as -1.95)(she -3.69)(had -6.25)(to -3.81)(go -1.19)(, -2.07)(they -3.26)(say -2.99)(a -6.04)(soul -6.28)(. -3.76) line score is : -3.754, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(the -9.70)(pain -3.98)(almost -1.27)(killed -2.74)(a -4.50)(whole -5.18)(soul -2.89)(. -8.18) line score is : -4.484, look ahead score is : 0.000
+-------------------------score:  -3.5404252531006932;  adjusted_score: -3.51637599196285----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and the pain almost stopped a whole soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(the -9.70)(pain -3.98)(almost -1.27)(stopped -2.74)(a -4.50)(whole -5.18)(soul -3.15)(. -7.90) line score is : -4.482, look ahead score is : 0.000
+-------------------------score:  -3.6470439275726676;  adjusted_score: -3.6229946664348245----------------------- 
+there was a loud waitress named nicole 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and the pain almost knocked a whole soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(the -9.70)(pain -3.98)(almost -1.27)(knocked -2.74)(a -4.50)(whole -5.18)(soul -2.60)(. -6.39) line score is : -4.252, look ahead score is : 0.000
+-------------------------score:  -3.693008511327207;  adjusted_score: -3.668959250189364----------------------- 
+there was a loud waitress named nicolle 
+ who poured all her coffee in a bowl . 
+ when she started to stir , 
+ she was struck by a spur , 
+ and the pain almost made a whole soul . 
+------------------------- score breakdown ------------------------ 
+(who -1.39)(poured -8.36)(all -4.35)(her -1.68)(coffee -3.80)(in -2.16)(a -1.65)(bowl -4.42)(. -1.94) line score is : -3.307, look ahead score is : 0.000
+(when -1.94)(she -4.58)(started -1.16)(to -4.33)(stir -1.70)(, -4.75) line score is : -3.077, look ahead score is : 0.557
+(she -4.75)(was -1.50)(struck -1.19)(by -3.23)(a -4.66)(spur -0.47)(, -1.92) line score is : -2.532, look ahead score is : 0.646
+(and -1.92)(the -9.70)(pain -3.98)(almost -1.27)(made -2.74)(a -4.50)(whole -5.18)(soul -2.52)(. -6.36) line score is : -4.241, look ahead score is : 0.000

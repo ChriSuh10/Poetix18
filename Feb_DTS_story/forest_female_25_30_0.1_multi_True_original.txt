@@ -1,1276 +1,1023 @@
 ======================= template: 1 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
  WITH A JJ NN OF NN ON PRP$ NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
+ when a dame wears my coat 
+ he was ready to faint 
  with a nice head of hair on his pate 
--------------------------score:  -2.978767852891575;  adjusted_score: -2.954476551894437----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- with a red mark of blood on its scale . 
+-------------------------score:  -2.9031320615375247;  adjusted_score: -2.877408304538747----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with a large piece of wood on her stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(with -1.03)(a -8.15)(red -3.53)(mark -4.30)(of -1.33)(blood -4.88)(on -3.30)(its -4.22)(scale -1.65)(. -1.01) line score is : -3.339, look ahead score is : 0.000
--------------------------score:  -3.0201460511395424;  adjusted_score: -2.995854750142404----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- with a red mark of death on its scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(a -4.84)(large -2.82)(piece -4.66)(of -2.79)(wood -4.35)(on -3.51)(her -0.06)(stand -2.00)(. -4.05) line score is : -2.908, look ahead score is : 0.000
+-------------------------score:  -2.9590834992528525;  adjusted_score: -2.933359742254075----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with a large piece of bark on her stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(with -1.03)(a -8.15)(red -3.53)(mark -4.30)(of -1.33)(death -4.88)(on -3.30)(its -4.22)(scale -2.89)(. -0.90) line score is : -3.453, look ahead score is : 0.000
--------------------------score:  -3.0357232753074532;  adjusted_score: -3.011431974310315----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- with a large scar of blood on its scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(a -4.84)(large -2.82)(piece -4.66)(of -2.79)(bark -4.35)(on -3.51)(her -0.06)(stand -3.59)(. -3.80) line score is : -3.042, look ahead score is : 0.000
+-------------------------score:  -2.9667523934886875;  adjusted_score: -2.94102863648991----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with a great deal of pride on her stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(with -1.03)(a -8.15)(large -3.53)(scar -4.30)(of -1.33)(blood -4.70)(on -3.56)(its -5.03)(scale -2.14)(. -1.26) line score is : -3.503, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(a -4.84)(great -2.82)(deal -4.66)(of -2.79)(pride -5.38)(on -0.86)(her -0.01)(stand -5.84)(. -4.23) line score is : -3.144, look ahead score is : 0.000
+-------------------------score:  -3.0543944672328616;  adjusted_score: -3.028670710234084----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with a large piece of wood on his stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(a -4.84)(large -2.82)(piece -4.66)(of -2.79)(wood -4.35)(on -3.51)(his -0.06)(stand -2.00)(. -4.05) line score is : -2.908, look ahead score is : 0.000
+-------------------------score:  -3.1238879296491207;  adjusted_score: -3.098164172650343----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to see , 
+ with a great deal of doubt on her stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(see -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(a -4.75)(great -5.87)(deal -3.87)(of -2.64)(doubt -3.56)(on -0.53)(her -0.01)(stand -6.23)(. -6.13) line score is : -3.359, look ahead score is : 0.000
 ======================= template: 2 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- AND PRP VBD DOWN AND VBD PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD TO VB TO A JJ NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- and it dropped down and ruined her gown 
--------------------------score:  -2.9861657125875354;  adjusted_score: -2.961874411590397----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and she looked down and saw our tale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.918049651938914;  adjusted_score: -2.8923258949401363----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to get to a safe stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(she -8.15)(looked -3.53)(down -1.71)(and -2.02)(saw -4.44)(our -2.14)(tale -1.68)(. -0.26) line score is : -2.773, look ahead score is : 0.000
--------------------------score:  -3.031188908033073;  adjusted_score: -3.006897607035935----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and she looked down and noticed her tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(get -2.53)(to -3.76)(a -1.42)(safe -3.90)(stand -2.43)(. -1.92) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -2.9867447600347186;  adjusted_score: -2.961021003035941----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to get to a new stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(she -8.15)(looked -3.53)(down -1.71)(and -2.02)(noticed -4.44)(her -2.14)(tale -1.68)(. -4.85) line score is : -3.283, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(get -2.53)(to -3.76)(a -1.42)(new -3.90)(stand -2.43)(. -1.92) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -2.995206842572908;  adjusted_score: -2.9694830855741303----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a new stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(and -0.00)(he -4.98)(had -2.80)(to -2.30)(go -2.66)(to -3.67)(a -1.33)(new -3.31)(stand -1.48)(. -2.16) line score is : -2.470, look ahead score is : 0.000
+-------------------------score:  -2.997681959482813;  adjusted_score: -2.971958202484035----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to get to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(get -2.53)(to -3.76)(a -1.42)(dry -3.90)(stand -2.43)(. -1.92) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -3.0072302984595862;  adjusted_score: -2.9815065414608086----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to go to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(go -2.53)(to -3.76)(a -1.42)(dry -3.33)(stand -1.46)(. -2.12) line score is : -2.458, look ahead score is : 0.000
+-------------------------score:  -3.0114322564155427;  adjusted_score: -2.985708499416765----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(and -0.00)(he -4.98)(had -2.80)(to -2.30)(go -2.66)(to -3.67)(a -1.33)(dry -3.31)(stand -1.48)(. -2.16) line score is : -2.470, look ahead score is : 0.000
+-------------------------score:  -3.0230378331687078;  adjusted_score: -2.99731407616993----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to get to a good stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(get -2.53)(to -3.76)(a -1.42)(good -3.90)(stand -2.43)(. -1.92) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -3.0264410775253605;  adjusted_score: -3.000717320526583----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to go to a dry stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(she -4.65)(had -2.85)(to -2.24)(go -2.52)(to -3.84)(a -1.30)(dry -3.23)(stand -1.46)(. -2.15) line score is : -2.422, look ahead score is : 0.000
+-------------------------score:  -3.048708838417731;  adjusted_score: -3.0229850814189536----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to go to a good stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(go -2.53)(to -3.76)(a -1.42)(good -3.33)(stand -1.46)(. -2.12) line score is : -2.458, look ahead score is : 0.000
+-------------------------score:  -3.055529596601528;  adjusted_score: -3.0298058396027505----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to get to a big stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(get -2.53)(to -3.76)(a -1.42)(big -3.90)(stand -2.43)(. -1.92) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -3.069173782816947;  adjusted_score: -3.0434500258181694----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a big stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(and -0.00)(he -4.98)(had -2.80)(to -2.30)(go -2.66)(to -3.67)(a -1.33)(big -3.31)(stand -1.48)(. -2.16) line score is : -2.470, look ahead score is : 0.000
+-------------------------score:  -3.069601176736989;  adjusted_score: -3.0438774197382115----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and she had to get to a large stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(she -4.84)(had -2.82)(to -2.29)(get -2.53)(to -3.76)(a -1.42)(large -3.90)(stand -2.43)(. -1.92) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -3.071892823889908;  adjusted_score: -3.0461690668911303----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and he had to go to a high stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(and -0.00)(he -4.98)(had -2.80)(to -2.30)(go -2.66)(to -3.67)(a -1.33)(high -3.31)(stand -1.48)(. -2.16) line score is : -2.470, look ahead score is : 0.000
 ======================= template: 3 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- AS PRP VBD TO VB , PRP VBP A NN . 
------------------------ original sentences ------------------------------------ 
-who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- as it tried to explain , I am a spi 
--------------------------score:  -3.0247357281691887;  adjusted_score: -3.0004444271720505----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to flee , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(flee -2.32)(, -4.45)(she -0.05)(heard -3.73)(a -1.03)(tale -4.70)(. -4.04) line score is : -3.394, look ahead score is : 0.000
--------------------------score:  -3.0382536952109898;  adjusted_score: -3.0139623942138516----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to leave , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(leave -2.32)(, -4.45)(she -0.05)(heard -4.19)(a -1.25)(tale -4.59)(. -3.87) line score is : -3.430, look ahead score is : 0.000
--------------------------score:  -3.0394761448397354;  adjusted_score: -3.015184843842597----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she was to be , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(was -3.53)(to -4.30)(be -2.32)(, -2.01)(she -4.67)(heard -1.68)(a -1.59)(tale -5.10)(. -5.11) line score is : -3.589, look ahead score is : 0.000
--------------------------score:  -3.039512722095584;  adjusted_score: -3.0154102064428083----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to flee , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(flee -1.61)(, -3.15)(she -0.03)(heard -3.65)(a -1.74)(tale -4.56)(. -4.22) line score is : -3.236, look ahead score is : 0.000
--------------------------score:  -3.0441278851974536;  adjusted_score: -3.020025369544678----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to leave , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(leave -1.61)(, -3.15)(she -0.03)(heard -3.56)(a -2.11)(tale -4.58)(. -4.06) line score is : -3.250, look ahead score is : 0.000
--------------------------score:  -3.047012466279899;  adjusted_score: -3.022721165282761----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to run , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(run -2.32)(, -4.45)(she -0.05)(heard -3.58)(a -1.78)(tale -4.78)(. -3.97) line score is : -3.450, look ahead score is : 0.000
--------------------------score:  -3.070879620828611;  adjusted_score: -3.046777105175835----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to run , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(run -1.61)(, -3.15)(she -0.03)(heard -3.50)(a -2.82)(tale -4.59)(. -4.17) line score is : -3.319, look ahead score is : 0.000
--------------------------score:  -3.09272800490041;  adjusted_score: -3.0686254892476343----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to pass , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(pass -1.61)(, -3.15)(she -0.03)(heard -3.95)(a -3.18)(tale -5.11)(. -3.94) line score is : -3.419, look ahead score is : 0.000
--------------------------score:  -3.0952636113061622;  adjusted_score: -3.070972310309024----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to walk , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(walk -2.32)(, -4.45)(she -0.05)(heard -4.40)(a -2.86)(tale -4.92)(. -3.78) line score is : -3.616, look ahead score is : 0.000
--------------------------score:  -3.1007972817101024;  adjusted_score: -3.0766947660573267----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to cross , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(cross -1.61)(, -3.15)(she -0.03)(heard -3.10)(a -4.26)(tale -4.89)(. -4.09) line score is : -3.433, look ahead score is : 0.000
--------------------------score:  -3.1057769713156365;  adjusted_score: -3.0814856703184983----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to cross , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(cross -2.32)(, -4.45)(she -0.05)(heard -4.19)(a -3.11)(tale -5.24)(. -3.83) line score is : -3.655, look ahead score is : 0.000
--------------------------score:  -3.1229508663801586;  adjusted_score: -3.0986595653830205----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to climb , she heard a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(climb -2.32)(, -4.45)(she -0.05)(heard -3.00)(a -4.89)(tale -5.03)(. -3.95) line score is : -3.699, look ahead score is : 0.000
--------------------------score:  -3.136155041263384;  adjusted_score: -3.1118637402662457----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to flee , she spun a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(flee -2.32)(, -4.45)(she -0.05)(spun -3.73)(a -1.03)(tale -4.70)(. -7.09) line score is : -3.671, look ahead score is : 0.000
--------------------------score:  -3.144754154005033;  adjusted_score: -3.1206516383522573----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to flee , she swore a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(flee -1.61)(, -3.15)(she -0.03)(swore -3.65)(a -1.74)(tale -4.56)(. -6.52) line score is : -3.445, look ahead score is : 0.000
--------------------------score:  -3.153593761517721;  adjusted_score: -3.129302460520583----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to flee , she swore a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(flee -2.32)(, -4.45)(she -0.05)(swore -3.73)(a -1.03)(tale -4.70)(. -7.07) line score is : -3.669, look ahead score is : 0.000
--------------------------score:  -3.160996651112595;  adjusted_score: -3.136894135459819----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to leave , she swore a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(leave -1.61)(, -3.15)(she -0.03)(swore -3.56)(a -2.11)(tale -4.58)(. -6.49) line score is : -3.470, look ahead score is : 0.000
--------------------------score:  -3.2334146957077525;  adjusted_score: -3.209312180054977----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to flee , it hit a scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(flee -1.61)(, -3.15)(it -0.03)(hit -3.65)(a -1.74)(scale -6.86)(. -4.32) line score is : -3.455, look ahead score is : 0.000
--------------------------score:  -3.2868790733354056;  adjusted_score: -3.26277655768263----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to flee , she tore a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(flee -1.61)(, -3.15)(she -0.03)(tore -3.65)(a -1.74)(tale -4.56)(. -6.75) line score is : -3.466, look ahead score is : 0.000
--------------------------score:  -3.2928560836350216;  adjusted_score: -3.2685647826378834----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to leave , she tore a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(leave -2.32)(, -4.45)(she -0.05)(tore -4.19)(a -1.25)(tale -4.59)(. -6.86) line score is : -3.702, look ahead score is : 0.000
--------------------------score:  -3.3022266665802285;  adjusted_score: -3.2779353655830903----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to flee , she tore a scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(flee -2.32)(, -4.45)(she -0.05)(tore -3.73)(a -1.03)(scale -4.70)(. -6.66) line score is : -3.633, look ahead score is : 0.000
--------------------------score:  -3.3109382991405094;  adjusted_score: -3.2866469981433712----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to flee , it tore a scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(flee -2.32)(, -4.45)(it -0.05)(tore -3.73)(a -1.03)(scale -6.21)(. -5.69) line score is : -3.681, look ahead score is : 0.000
--------------------------score:  -3.3230030470911194;  adjusted_score: -3.298711746093981----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- as she tried to leave , she tore a scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(as -1.03)(she -8.15)(tried -3.53)(to -4.30)(leave -2.32)(, -4.45)(she -0.05)(tore -4.19)(a -1.25)(scale -4.59)(. -6.86) line score is : -3.702, look ahead score is : 0.000
--------------------------score:  -3.325949847862563;  adjusted_score: -3.301847332209787----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- as she tried to flee , she tore a scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(as -0.99)(she -8.14)(tried -3.34)(to -4.16)(flee -1.61)(, -3.15)(she -0.03)(tore -3.65)(a -1.74)(scale -4.56)(. -6.75) line score is : -3.466, look ahead score is : 0.000
-======================= template: 4 ============================  
-sarah 
- WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY PRP$ NN , 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
  AND RB PRP VBZ A NN NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was told by his wife 
+ when a dame wears my coat 
+ he was ready to faint 
  and now he 's a college professor 
--------------------------score:  -3.028296328960888;  adjusted_score: -3.003972529127233----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and now it is a family tale . 
+-------------------------score:  -2.9829451330381658;  adjusted_score: -2.957221376039388----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and now she has a permanent stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(now -6.54)(it -2.72)(is -1.73)(a -5.91)(family -4.06)(tale -1.88)(. -3.25) line score is : -3.468, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(now -4.84)(she -2.82)(has -2.29)(a -4.20)(permanent -1.32)(stand -2.05)(. -1.37) line score is : -2.360, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ WITH PRP$ NN AND NN IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ when a dame wears my coat 
+ he was ready to faint 
+ with his spanner and jack in the box 
+-------------------------score:  -2.994137308014615;  adjusted_score: -2.9684135510158374----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(her -4.84)(son -2.82)(and -4.66)(daughter -1.79)(in -2.71)(the -2.37)(stand -1.34)(. -2.36) line score is : -2.543, look ahead score is : 0.000
+-------------------------score:  -2.998467678342422;  adjusted_score: -2.9727439213436444----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(with -0.00)(her -4.65)(son -2.85)(and -4.72)(daughter -1.76)(in -2.68)(the -2.37)(stand -1.19)(. -2.32) line score is : -2.503, look ahead score is : 0.000
+-------------------------score:  -3.0034592501542647;  adjusted_score: -2.977735493155487----------------------- 
+there was a farmer named brande 
+ who planted a small crop on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(crop -3.00)(on -3.24)(her -1.94)(land -1.40)(. -1.56) line score is : -2.775, look ahead score is : 0.000
+(when -1.56)(a -3.83)(storm -3.98)(hits -3.74)(her -3.67)(tree -2.11)(, -5.93) line score is : -3.545, look ahead score is : 0.565
+(she -5.93)(was -1.05)(able -0.75)(to -5.30)(flee -1.90)(, -0.00) line score is : -2.490, look ahead score is : 0.721
+(with -0.00)(her -5.07)(son -2.82)(and -4.73)(daughter -1.77)(in -2.66)(the -2.42)(stand -1.29)(. -2.36) line score is : -2.569, look ahead score is : 0.000
+-------------------------score:  -3.0157863788699615;  adjusted_score: -2.990062621871184----------------------- 
+there was a farmer named brande 
+ who planted a small field on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(field -3.29)(on -3.30)(her -1.99)(land -1.35)(. -1.57) line score is : -2.816, look ahead score is : 0.000
+(when -1.57)(a -3.77)(storm -3.97)(hits -3.92)(her -3.55)(tree -2.04)(, -5.98) line score is : -3.544, look ahead score is : 0.565
+(she -5.98)(was -1.18)(able -0.69)(to -5.34)(flee -1.81)(, -0.00) line score is : -2.503, look ahead score is : 0.721
+(with -0.00)(her -5.24)(son -2.86)(and -4.71)(daughter -1.74)(in -2.65)(the -2.42)(stand -1.27)(. -2.42) line score is : -2.590, look ahead score is : 0.000
+-------------------------score:  -3.015977847375325;  adjusted_score: -2.9902540903765473----------------------- 
+there was a farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ with his son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(his -2.79)(land -0.69)(. -1.46) line score is : -2.787, look ahead score is : 0.000
+(when -1.46)(a -3.75)(storm -4.07)(hits -3.65)(his -3.15)(tree -2.05)(, -6.16) line score is : -3.470, look ahead score is : 0.565
+(he -6.16)(was -1.39)(able -1.05)(to -5.12)(flee -1.88)(, -0.00) line score is : -2.600, look ahead score is : 0.721
+(with -0.00)(his -4.81)(son -2.87)(and -4.78)(daughter -1.77)(in -3.27)(the -2.40)(stand -1.15)(. -2.48) line score is : -2.615, look ahead score is : 0.000
+-------------------------score:  -3.017850755699328;  adjusted_score: -2.9921269987005505----------------------- 
+there was a farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ with his daughter and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(his -2.79)(land -0.69)(. -1.46) line score is : -2.787, look ahead score is : 0.000
+(when -1.46)(a -3.75)(storm -4.07)(hits -3.65)(his -3.15)(tree -2.05)(, -6.16) line score is : -3.470, look ahead score is : 0.565
+(he -6.16)(was -1.39)(able -1.05)(to -5.12)(flee -1.88)(, -0.00) line score is : -2.600, look ahead score is : 0.721
+(with -0.00)(his -4.81)(daughter -2.87)(and -4.78)(son -1.77)(in -2.91)(the -2.57)(stand -1.34)(. -2.41) line score is : -2.606, look ahead score is : 0.000
+-------------------------score:  -3.018806615982612;  adjusted_score: -2.9930828589838345----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her daughter and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(with -0.00)(her -4.65)(daughter -2.85)(and -4.72)(son -1.76)(in -2.99)(the -2.47)(stand -1.62)(. -2.30) line score is : -2.594, look ahead score is : 0.000
+-------------------------score:  -3.0189949932755553;  adjusted_score: -2.9932712362767777----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ with his son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(with -0.00)(his -4.98)(son -2.80)(and -4.70)(daughter -1.81)(in -3.28)(the -2.45)(stand -1.28)(. -2.54) line score is : -2.648, look ahead score is : 0.000
+-------------------------score:  -3.021036317710241;  adjusted_score: -2.9953125607114632----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her husband and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(with -0.00)(her -4.65)(husband -2.85)(and -4.72)(son -1.76)(in -2.53)(the -1.72)(stand -2.09)(. -2.71) line score is : -2.557, look ahead score is : 0.000
+-------------------------score:  -3.0231026508045034;  adjusted_score: -2.9973788938057258----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her husband and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(her -4.84)(husband -2.82)(and -4.66)(son -1.79)(in -2.75)(the -1.75)(stand -2.16)(. -2.72) line score is : -2.609, look ahead score is : 0.000
+-------------------------score:  -3.0247433357071714;  adjusted_score: -2.9990195787083938----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her daughter and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(with -0.00)(her -4.84)(daughter -2.82)(and -4.66)(son -1.79)(in -3.29)(the -2.49)(stand -1.76)(. -2.35) line score is : -2.666, look ahead score is : 0.000
+-------------------------score:  -3.0254296209386666;  adjusted_score: -2.999705863939889----------------------- 
+there was a farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(his -2.79)(land -0.69)(. -1.46) line score is : -2.787, look ahead score is : 0.000
+(when -1.46)(a -3.75)(storm -4.07)(hits -3.65)(her -3.15)(tree -3.24)(, -6.11) line score is : -3.632, look ahead score is : 0.565
+(she -6.11)(was -1.33)(able -0.73)(to -5.29)(flee -1.87)(, -0.00) line score is : -2.554, look ahead score is : 0.721
+(with -0.00)(her -4.65)(son -2.79)(and -4.69)(daughter -1.76)(in -2.56)(the -2.48)(stand -1.28)(. -2.32) line score is : -2.503, look ahead score is : 0.000
+-------------------------score:  -3.0255855522773345;  adjusted_score: -2.999861795278557----------------------- 
+there was a farmer named brande 
+ who planted a small crop on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her husband and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(crop -3.00)(on -3.24)(her -1.94)(land -1.40)(. -1.56) line score is : -2.775, look ahead score is : 0.000
+(when -1.56)(a -3.83)(storm -3.98)(hits -3.74)(her -3.67)(tree -2.11)(, -5.93) line score is : -3.545, look ahead score is : 0.565
+(she -5.93)(was -1.05)(able -0.75)(to -5.30)(flee -1.90)(, -0.00) line score is : -2.490, look ahead score is : 0.721
+(with -0.00)(her -5.07)(husband -2.82)(and -4.73)(son -1.77)(in -2.44)(the -1.83)(stand -2.12)(. -2.72) line score is : -2.611, look ahead score is : 0.000
+-------------------------score:  -3.0294997717501246;  adjusted_score: -3.003776014751347----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ with his daughter and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(with -0.00)(his -4.98)(daughter -2.80)(and -4.70)(son -1.81)(in -3.20)(the -2.59)(stand -1.41)(. -2.47) line score is : -2.664, look ahead score is : 0.000
+-------------------------score:  -3.030546192494512;  adjusted_score: -3.0048224354957345----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her son and daughter in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(her -3.86)(tree -3.64)(, -4.97) line score is : -3.687, look ahead score is : 0.565
+(she -4.97)(was -1.05)(able -0.75)(to -5.17)(flee -1.85)(, -0.00) line score is : -2.299, look ahead score is : 0.721
+(with -0.00)(her -4.76)(son -2.74)(and -4.66)(daughter -1.81)(in -2.59)(the -2.50)(stand -1.45)(. -2.37) line score is : -2.542, look ahead score is : 0.000
+-------------------------score:  -3.0415905337504228;  adjusted_score: -3.015866776751645----------------------- 
+there was a farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ with her husband and son in the stand . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(his -2.79)(land -0.69)(. -1.46) line score is : -2.787, look ahead score is : 0.000
+(when -1.46)(a -3.75)(storm -4.07)(hits -3.65)(her -3.15)(tree -3.24)(, -6.11) line score is : -3.632, look ahead score is : 0.565
+(she -6.11)(was -1.33)(able -0.73)(to -5.29)(flee -1.87)(, -0.00) line score is : -2.554, look ahead score is : 0.721
+(with -0.00)(her -4.65)(husband -2.79)(and -4.69)(son -1.76)(in -2.46)(the -1.88)(stand -1.98)(. -2.68) line score is : -2.543, look ahead score is : 0.000
 ======================= template: 5 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- AND THE NN ON THE NN OF THE NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD TO VB DOWN ON THE NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- and the smile on the face of the tiger 
--------------------------score:  -3.0378662609692775;  adjusted_score: -3.0135749599721393----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the man on the right of the tale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ so he had to sit down on the floor 
+-------------------------score:  -3.007734736180723;  adjusted_score: -2.9820109791819456----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she had to go down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(man -3.53)(on -1.71)(the -2.42)(right -3.87)(of -5.17)(the -0.94)(tale -4.57)(. -3.34) line score is : -3.473, look ahead score is : 0.000
--------------------------score:  -3.0424499051137404;  adjusted_score: -3.018158604116602----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the girl on the foot of the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(had -2.82)(to -5.18)(go -0.68)(down -3.91)(on -1.12)(the -3.33)(stand -4.20)(. -3.40) line score is : -2.947, look ahead score is : 0.000
+-------------------------score:  -3.0123376901840055;  adjusted_score: -2.986613933185228----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she had to go down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(girl -3.53)(on -1.71)(the -2.42)(foot -2.92)(of -6.06)(the -0.96)(scale -5.07)(. -2.31) line score is : -3.416, look ahead score is : 0.000
--------------------------score:  -3.0493131072232216;  adjusted_score: -3.0250218062260834----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the girl on the right of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(so -0.00)(she -4.65)(had -2.85)(to -5.19)(go -0.67)(down -3.98)(on -1.01)(the -3.22)(stand -4.50)(. -3.41) line score is : -2.947, look ahead score is : 0.000
+-------------------------score:  -3.041526368826233;  adjusted_score: -3.0158026118274552----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ so he went to sleep down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(girl -3.53)(on -1.71)(the -2.42)(right -2.92)(of -6.06)(the -0.96)(tale -4.80)(. -3.80) line score is : -3.538, look ahead score is : 0.000
--------------------------score:  -3.0778825147585436;  adjusted_score: -3.0535912137614054----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the man on the right of the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(so -0.00)(he -4.98)(went -2.80)(to -5.11)(sleep -0.67)(down -3.10)(on -0.99)(the -3.68)(stand -7.81)(. -2.65) line score is : -3.179, look ahead score is : 0.000
+-------------------------score:  -3.0487836946267635;  adjusted_score: -3.023059937627986----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she went to sleep down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(man -3.53)(on -1.71)(the -2.42)(right -3.87)(of -5.17)(the -0.94)(scale -4.57)(. -3.34) line score is : -3.473, look ahead score is : 0.000
--------------------------score:  -3.0791322995315897;  adjusted_score: -3.0548409985344516----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the girl on the right of the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(went -2.82)(to -5.18)(sleep -0.68)(down -3.32)(on -0.98)(the -4.06)(stand -7.81)(. -2.68) line score is : -3.237, look ahead score is : 0.000
+-------------------------score:  -3.074634129724776;  adjusted_score: -3.0489103727259983----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she had to wait down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(girl -3.53)(on -1.71)(the -2.42)(right -2.92)(of -6.06)(the -0.96)(scale -4.80)(. -3.80) line score is : -3.538, look ahead score is : 0.000
--------------------------score:  -3.143311120343931;  adjusted_score: -3.119019819346793----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the man on the path of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(had -2.82)(to -5.18)(wait -0.68)(down -3.91)(on -1.12)(the -2.61)(stand -8.18)(. -3.45) line score is : -3.280, look ahead score is : 0.000
+-------------------------score:  -3.0813164154815516;  adjusted_score: -3.055592658482774----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she went to work down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(man -3.53)(on -1.71)(the -2.42)(path -3.87)(of -5.17)(the -0.94)(tale -4.47)(. -5.38) line score is : -3.666, look ahead score is : 0.000
--------------------------score:  -3.1840539637840157;  adjusted_score: -3.1597626627868776----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a band , 
- and the man on the ground of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(went -2.82)(to -5.18)(work -0.68)(down -3.32)(on -0.98)(the -4.12)(stand -8.63)(. -2.63) line score is : -3.320, look ahead score is : 0.000
+-------------------------score:  -3.0943774695889177;  adjusted_score: -3.06865371259014----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ so he had to wait down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(band -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -5.08)(man -7.19)(on -2.58)(the -2.55)(ground -4.47)(of -4.99)(the -0.88)(tale -2.40)(. -7.34) line score is : -3.850, look ahead score is : 0.000
--------------------------score:  -3.2050985594590506;  adjusted_score: -3.1808072584619125----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the man on the road of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(so -0.00)(he -4.98)(had -2.80)(to -5.11)(wait -0.67)(down -3.99)(on -1.02)(the -2.56)(stand -8.26)(. -3.46) line score is : -3.286, look ahead score is : 0.000
+-------------------------score:  -3.1009933498307047;  adjusted_score: -3.075269592831927----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she had to wait down on the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(man -3.53)(on -1.71)(the -2.42)(road -3.87)(of -5.17)(the -0.94)(tale -4.68)(. -7.39) line score is : -3.889, look ahead score is : 0.000
--------------------------score:  -3.209978958874038;  adjusted_score: -3.1856876578769----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the man on the hill of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(man -3.53)(on -1.71)(the -2.42)(hill -3.87)(of -5.17)(the -0.94)(tale -4.37)(. -7.17) line score is : -3.835, look ahead score is : 0.000
--------------------------score:  -3.234373864802447;  adjusted_score: -3.210082563805309----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and the girl on the hill of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(the -8.15)(girl -3.53)(on -1.71)(the -2.42)(hill -2.92)(of -6.06)(the -0.96)(tale -4.99)(. -7.21) line score is : -3.898, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(so -0.00)(she -4.65)(had -2.85)(to -5.19)(wait -0.67)(down -3.98)(on -1.01)(the -2.81)(stand -8.20)(. -3.46) line score is : -3.281, look ahead score is : 0.000
 ======================= template: 6 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- SO PRP VBD UP AND VB ON THE NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND A NN VBD PRP UP IN THE NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- so he jumped up and spat on the ceiling 
--------------------------score:  -3.079256492130684;  adjusted_score: -3.054965191133546----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she reached up and put on the scale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ and a dog ate him up in the hall 
+-------------------------score:  -3.1270384123958084;  adjusted_score: -3.1013146553970308----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend took it up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(reached -3.53)(up -5.56)(and -0.83)(put -4.40)(on -2.72)(the -0.93)(scale -5.00)(. -4.69) line score is : -3.684, look ahead score is : 0.000
--------------------------score:  -3.0984406010671095;  adjusted_score: -3.0741493000699713----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she ran up and put on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(took -2.29)(it -4.77)(up -4.23)(in -2.81)(the -5.63)(stand -4.36)(. -2.73) line score is : -3.449, look ahead score is : 0.000
+-------------------------score:  -3.1295078075420335;  adjusted_score: -3.103784050543256----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend took him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(ran -3.53)(up -5.56)(and -0.83)(put -2.63)(on -3.45)(the -1.99)(scale -4.76)(. -4.67) line score is : -3.659, look ahead score is : 0.000
--------------------------score:  -3.099853200442863;  adjusted_score: -3.075561899445725----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she went up and put on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(took -2.29)(him -4.77)(up -4.23)(in -2.81)(the -5.59)(stand -3.99)(. -2.46) line score is : -3.380, look ahead score is : 0.000
+-------------------------score:  -3.154857727988256;  adjusted_score: -3.1291339709894785----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend helped she up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(went -3.53)(up -5.56)(and -0.83)(put -4.04)(on -3.09)(the -1.81)(scale -4.95)(. -3.82) line score is : -3.681, look ahead score is : 0.000
--------------------------score:  -3.106088093735955;  adjusted_score: -3.081796792738817----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she ran up and put on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(helped -2.29)(she -4.77)(up -4.23)(in -2.50)(the -6.54)(stand -3.56)(. -3.86) line score is : -3.541, look ahead score is : 0.000
+-------------------------score:  -3.1586631844878537;  adjusted_score: -3.132939427489076----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend took him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(ran -3.53)(up -5.56)(and -0.83)(put -2.63)(on -3.45)(the -1.99)(tale -4.76)(. -4.67) line score is : -3.659, look ahead score is : 0.000
--------------------------score:  -3.1116499367988473;  adjusted_score: -3.087358635801709----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she went up and put on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(a -4.65)(friend -2.85)(took -2.24)(him -4.91)(up -4.25)(in -2.68)(the -5.55)(stand -4.33)(. -2.45) line score is : -3.391, look ahead score is : 0.000
+-------------------------score:  -3.1590640386072635;  adjusted_score: -3.133340281608486----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man took him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(went -3.53)(up -5.56)(and -0.83)(put -4.04)(on -3.09)(the -1.81)(tale -4.95)(. -3.82) line score is : -3.681, look ahead score is : 0.000
--------------------------score:  -3.1206810212496556;  adjusted_score: -3.0963897202525175----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she looked up and put on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(man -2.82)(took -2.29)(him -4.77)(up -3.91)(in -4.65)(the -5.12)(stand -4.10)(. -1.32) line score is : -3.383, look ahead score is : 0.000
+-------------------------score:  -3.1767788277868405;  adjusted_score: -3.151055070788063----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend took it up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(looked -3.53)(up -5.56)(and -0.83)(put -4.49)(on -1.67)(the -1.04)(scale -7.85)(. -3.39) line score is : -3.754, look ahead score is : 0.000
--------------------------score:  -3.1343515993970814;  adjusted_score: -3.1100602983999432----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she rushed up and put on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(a -4.65)(friend -2.85)(took -2.24)(it -4.91)(up -4.25)(in -2.68)(the -6.20)(stand -4.74)(. -2.74) line score is : -3.525, look ahead score is : 0.000
+-------------------------score:  -3.18039010367074;  adjusted_score: -3.1546663466719624----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man called him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(rushed -3.53)(up -5.56)(and -0.83)(put -4.61)(on -3.39)(the -1.83)(scale -4.80)(. -4.37) line score is : -3.810, look ahead score is : 0.000
--------------------------score:  -3.136812655311642;  adjusted_score: -3.112521354314504----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she reached up and cut on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(man -2.82)(called -2.29)(him -4.77)(up -3.91)(in -4.17)(the -4.89)(stand -3.21)(. -4.21) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.181797040365354;  adjusted_score: -3.1560732833665766----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend helped she up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(reached -3.53)(up -5.56)(and -0.83)(cut -4.40)(on -2.72)(the -0.93)(scale -5.48)(. -6.36) line score is : -3.899, look ahead score is : 0.000
--------------------------score:  -3.1372899620821983;  adjusted_score: -3.11299866108506----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she looked up and put on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(a -4.65)(friend -2.85)(helped -2.24)(she -4.91)(up -4.25)(in -2.39)(the -6.75)(stand -3.72)(. -3.94) line score is : -3.568, look ahead score is : 0.000
+-------------------------score:  -3.1834243449424817;  adjusted_score: -3.157700587943704----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend took them up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(looked -3.53)(up -5.56)(and -0.83)(put -4.49)(on -1.67)(the -1.04)(tale -7.85)(. -3.39) line score is : -3.754, look ahead score is : 0.000
--------------------------score:  -3.14261702244932;  adjusted_score: -3.118325721452182----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she rushed up and put on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(took -2.29)(them -4.77)(up -4.23)(in -2.81)(the -6.08)(stand -4.23)(. -2.83) line score is : -3.489, look ahead score is : 0.000
+-------------------------score:  -3.188040125021485;  adjusted_score: -3.1623163680227075----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man took it up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(rushed -3.53)(up -5.56)(and -0.83)(put -4.61)(on -3.39)(the -1.83)(tale -4.80)(. -4.37) line score is : -3.810, look ahead score is : 0.000
--------------------------score:  -3.1464177496505505;  adjusted_score: -3.1223446819705494----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was struck by a hand , 
- so she ran up and put on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(man -2.82)(took -2.29)(it -4.77)(up -3.91)(in -4.65)(the -4.91)(stand -4.76)(. -2.53) line score is : -3.549, look ahead score is : 0.000
+-------------------------score:  -3.191073983378539;  adjusted_score: -3.1653502263797613----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man called me up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(struck -0.56)(by -2.34)(a -5.03)(hand -0.74)(, -1.21) line score is : -2.646, look ahead score is : 0.638
-(so -1.21)(she -8.26)(ran -2.83)(up -4.41)(and -0.65)(put -2.31)(on -3.61)(the -2.30)(scale -5.18)(. -4.14) line score is : -3.490, look ahead score is : 0.000
--------------------------score:  -3.151992214448524;  adjusted_score: -3.1278896987957485----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- so she ran up and put on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(man -2.82)(called -2.29)(me -4.77)(up -3.91)(in -4.17)(the -5.65)(stand -2.90)(. -4.24) line score is : -3.560, look ahead score is : 0.000
+-------------------------score:  -3.193742060674016;  adjusted_score: -3.1680183036752383----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend brought them up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(so -0.99)(she -8.14)(ran -3.34)(up -5.06)(and -0.43)(put -2.66)(on -3.70)(the -2.17)(scale -4.73)(. -4.41) line score is : -3.563, look ahead score is : 0.000
--------------------------score:  -3.158209924445008;  adjusted_score: -3.1339186234478698----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she looked up and read on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(brought -2.29)(them -4.77)(up -4.23)(in -4.11)(the -5.48)(stand -4.28)(. -3.52) line score is : -3.635, look ahead score is : 0.000
+-------------------------score:  -3.1961827839400168;  adjusted_score: -3.170459026941239----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man called him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(looked -3.53)(up -5.56)(and -0.83)(read -4.49)(on -1.67)(the -1.04)(tale -7.71)(. -5.22) line score is : -3.924, look ahead score is : 0.000
--------------------------score:  -3.161831776301066;  adjusted_score: -3.1377292606482903----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was stopped by a hand , 
- so she ran up and put on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(a -4.65)(man -2.85)(called -2.24)(him -4.91)(up -3.83)(in -4.17)(the -4.63)(stand -3.24)(. -4.32) line score is : -3.482, look ahead score is : 0.000
+-------------------------score:  -3.200689166255126;  adjusted_score: -3.174965409256348----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend helped him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(stopped -0.56)(by -2.34)(a -5.04)(hand -0.20)(, -0.99) line score is : -2.538, look ahead score is : 0.639
-(so -0.99)(she -8.14)(ran -3.34)(up -5.06)(and -0.43)(put -2.66)(on -3.70)(the -2.17)(tale -4.73)(. -4.41) line score is : -3.563, look ahead score is : 0.000
--------------------------score:  -3.173212001721064;  adjusted_score: -3.148920700723926----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she reached up and touch on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(helped -2.29)(him -4.77)(up -4.23)(in -2.50)(the -6.02)(stand -4.59)(. -4.65) line score is : -3.671, look ahead score is : 0.000
+-------------------------score:  -3.2048295360749983;  adjusted_score: -3.1791057790762207----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend brought him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(reached -3.53)(up -5.56)(and -0.83)(touch -4.40)(on -2.72)(the -0.93)(scale -6.15)(. -7.44) line score is : -4.073, look ahead score is : 0.000
--------------------------score:  -3.177727104136438;  adjusted_score: -3.1534358031393----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she looked up and read on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(brought -2.29)(him -4.77)(up -4.23)(in -4.11)(the -5.27)(stand -4.90)(. -4.07) line score is : -3.731, look ahead score is : 0.000
+-------------------------score:  -3.214490502303692;  adjusted_score: -3.1887667453049144----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend took them up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(looked -3.53)(up -5.56)(and -0.83)(read -4.49)(on -1.67)(the -1.04)(scale -7.71)(. -5.22) line score is : -3.924, look ahead score is : 0.000
--------------------------score:  -3.1890156205856437;  adjusted_score: -3.1647243195885055----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she gave up and let on the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(a -4.65)(friend -2.85)(took -2.24)(them -4.91)(up -4.25)(in -2.68)(the -6.21)(stand -4.43)(. -2.92) line score is : -3.513, look ahead score is : 0.000
+-------------------------score:  -3.2373869531209385;  adjusted_score: -3.211663196122161----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend found them up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(gave -3.53)(up -5.56)(and -0.83)(let -4.66)(on -3.43)(the -1.87)(tale -4.79)(. -8.32) line score is : -4.216, look ahead score is : 0.000
--------------------------score:  -3.1896860969789103;  adjusted_score: -3.165394795981772----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she ran up and cut on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(found -2.29)(them -4.77)(up -4.23)(in -3.49)(the -5.81)(stand -7.94)(. -2.18) line score is : -3.837, look ahead score is : 0.000
+-------------------------score:  -3.245300296955093;  adjusted_score: -3.219576539956315----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man found him up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(ran -3.53)(up -5.56)(and -0.83)(cut -2.63)(on -3.45)(the -1.99)(scale -5.78)(. -6.63) line score is : -3.958, look ahead score is : 0.000
--------------------------score:  -3.1915296650294103;  adjusted_score: -3.167238364032272----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she went up and cut on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(man -2.82)(found -2.29)(him -4.77)(up -3.91)(in -4.04)(the -5.82)(stand -8.23)(. -1.93) line score is : -3.865, look ahead score is : 0.000
+-------------------------score:  -3.24732421059867;  adjusted_score: -3.2216004535998923----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a man found them up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(went -3.53)(up -5.56)(and -0.83)(cut -4.04)(on -3.09)(the -1.81)(scale -5.47)(. -6.55) line score is : -4.006, look ahead score is : 0.000
--------------------------score:  -3.2047966267123367;  adjusted_score: -3.1807235590323355----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was struck by a hand , 
- so she ran up and cut on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(man -2.82)(found -2.29)(them -4.77)(up -3.91)(in -4.04)(the -6.06)(stand -8.11)(. -2.07) line score is : -3.890, look ahead score is : 0.000
+-------------------------score:  -3.268359580197174;  adjusted_score: -3.2426358231983965----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend helped me up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(struck -0.56)(by -2.34)(a -5.03)(hand -0.74)(, -1.21) line score is : -2.646, look ahead score is : 0.638
-(so -1.21)(she -8.26)(ran -2.83)(up -4.41)(and -0.65)(cut -2.31)(on -3.61)(the -2.30)(scale -5.34)(. -6.58) line score is : -3.749, look ahead score is : 0.000
--------------------------score:  -3.213479223576459;  adjusted_score: -3.189187922579321----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she reached up and hit on the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(helped -2.29)(me -4.77)(up -4.23)(in -2.50)(the -7.12)(stand -6.15)(. -4.78) line score is : -3.950, look ahead score is : 0.000
+-------------------------score:  -3.284467944967081;  adjusted_score: -3.2587441879683032----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and a friend drove them up in the stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(reached -3.53)(up -5.56)(and -0.83)(hit -4.40)(on -2.72)(the -0.93)(scale -6.64)(. -7.17) line score is : -4.095, look ahead score is : 0.000
--------------------------score:  -3.2249215452960045;  adjusted_score: -3.2006302442988663----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she rushed up and cut on the scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(rushed -3.53)(up -5.56)(and -0.83)(cut -4.61)(on -3.39)(the -1.83)(scale -5.25)(. -6.68) line score is : -4.085, look ahead score is : 0.000
--------------------------score:  -3.2306655473781354;  adjusted_score: -3.206374246380997----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she reached up and let on the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(reached -3.53)(up -5.56)(and -0.83)(let -4.40)(on -2.72)(the -0.93)(tale -6.59)(. -9.59) line score is : -4.333, look ahead score is : 0.000
--------------------------score:  -3.273556905262398;  adjusted_score: -3.24926560426526----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she reached up and let on the scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(reached -3.53)(up -5.56)(and -0.83)(let -4.40)(on -2.72)(the -0.93)(scale -6.59)(. -9.59) line score is : -4.333, look ahead score is : 0.000
--------------------------score:  -3.2814608731053094;  adjusted_score: -3.2571695721081713----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she looked up and see on the scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(looked -3.53)(up -5.56)(and -0.83)(see -4.49)(on -1.67)(the -1.04)(scale -6.01)(. -7.78) line score is : -4.009, look ahead score is : 0.000
--------------------------score:  -3.327295069441651;  adjusted_score: -3.303003768444513----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- so she gave up and let on the scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(so -1.03)(she -8.15)(gave -3.53)(up -5.56)(and -0.83)(let -4.66)(on -3.43)(the -1.87)(scale -4.79)(. -8.32) line score is : -4.216, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(a -4.84)(friend -2.82)(drove -2.29)(them -4.77)(up -4.23)(in -4.29)(the -5.25)(stand -5.04)(. -4.66) line score is : -3.820, look ahead score is : 0.000
 ======================= template: 7 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY PRP$ NN , 
- AND PRP VBD DOWN AND VBD PRP$ NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was told by his wife 
- and it dropped down and ruined her gown 
--------------------------score:  -3.079581499681808;  adjusted_score: -3.055257699848153----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and they set down and began their tale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ so he called her his dear dental floss 
+-------------------------score:  -3.182735571092053;  adjusted_score: -3.1570118140932752----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she called it her little green stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(they -6.54)(set -2.72)(down -1.73)(and -2.15)(began -3.61)(their -5.92)(tale -4.34)(. -2.49) line score is : -3.461, look ahead score is : 0.000
--------------------------score:  -3.10301060101483;  adjusted_score: -3.078686801181175----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and they went down and began their tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(called -2.82)(it -5.18)(her -0.68)(little -4.47)(green -5.59)(stand -3.42)(. -5.22) line score is : -3.580, look ahead score is : 0.000
+-------------------------score:  -3.185550123838766;  adjusted_score: -3.1598263668399884----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she left us her little green stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(they -6.54)(went -2.72)(down -1.73)(and -2.15)(began -3.84)(their -4.06)(tale -4.69)(. -4.38) line score is : -3.528, look ahead score is : 0.000
--------------------------score:  -3.1536784718045965;  adjusted_score: -3.1293546719709413----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and they took down and buried her tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(left -2.82)(us -5.18)(her -0.68)(little -4.22)(green -6.04)(stand -3.13)(. -4.40) line score is : -3.479, look ahead score is : 0.000
+-------------------------score:  -3.21078983546613;  adjusted_score: -3.1850660784673526----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ so she left him her little green stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(they -6.54)(took -2.72)(down -1.73)(and -2.15)(buried -3.90)(her -4.74)(tale -5.19)(. -3.81) line score is : -3.602, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(so -0.00)(she -4.84)(left -2.82)(him -5.18)(her -0.68)(little -4.22)(green -5.57)(stand -4.18)(. -4.59) line score is : -3.564, look ahead score is : 0.000
 ======================= template: 8 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY PRP$ NN , 
- AND THE NN ON THE NN OF THE NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AS PRP VBD TO VB , PRP VBP A NN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was told by his wife 
- and the smile on the face of the tiger 
--------------------------score:  -3.0869144038720564;  adjusted_score: -3.0626231028749182----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and the man on the right of the tale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ as it tried to explain , I am a spi 
+-------------------------score:  -3.2216721441363916;  adjusted_score: -3.195948387137614----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ as she had to run , she hit a stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(the -7.81)(man -2.74)(on -2.10)(the -2.55)(right -4.59)(of -5.34)(the -0.95)(tale -4.53)(. -3.43) line score is : -3.704, look ahead score is : 0.000
--------------------------score:  -3.0972377983006565;  adjusted_score: -3.0729464973035183----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and the man on the right of the scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(as -0.00)(she -4.65)(had -2.85)(to -4.77)(run -1.51)(, -1.96)(she -3.14)(hit -3.37)(a -4.76)(stand -4.03)(. -7.18) line score is : -3.474, look ahead score is : 0.000
+-------------------------score:  -3.2346256852273227;  adjusted_score: -3.208901928228545----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ as she had to run , she hit a stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(the -7.81)(man -2.74)(on -2.10)(the -2.55)(right -4.59)(of -5.34)(the -0.95)(scale -4.53)(. -3.43) line score is : -3.704, look ahead score is : 0.000
--------------------------score:  -3.17685001095136;  adjusted_score: -3.152558709954222----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and the man on the ground of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(as -0.00)(she -4.84)(had -2.82)(to -4.63)(run -1.54)(, -1.92)(she -3.33)(hit -3.60)(a -4.74)(stand -3.96)(. -7.27) line score is : -3.513, look ahead score is : 0.000
+-------------------------score:  -3.359349614043501;  adjusted_score: -3.3336258570447233----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ as she had to run , i mean a stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(the -7.81)(man -2.74)(on -2.10)(the -2.55)(ground -4.59)(of -5.34)(the -0.95)(tale -2.67)(. -7.28) line score is : -3.903, look ahead score is : 0.000
--------------------------score:  -3.177775289637573;  adjusted_score: -3.153451489803918----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and the man on the ground of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(as -0.00)(she -4.84)(had -2.82)(to -4.63)(run -1.54)(, -1.92)(i -3.33)(mean -3.60)(a -4.74)(stand -7.36)(. -3.55) line score is : -3.484, look ahead score is : 0.000
+-------------------------score:  -3.3793320151059616;  adjusted_score: -3.353608258107184----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ as she had to run , i am a stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(the -6.54)(man -2.72)(on -1.73)(the -2.49)(ground -5.62)(of -5.13)(the -0.81)(tale -3.33)(. -7.07) line score is : -3.709, look ahead score is : 0.000
--------------------------score:  -3.200268303467469;  adjusted_score: -3.1759445036338136----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and the girl on the ground of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(as -0.00)(she -4.84)(had -2.82)(to -4.63)(run -1.54)(, -1.92)(i -3.33)(am -3.60)(a -4.74)(stand -7.36)(. -4.05) line score is : -3.530, look ahead score is : 0.000
+-------------------------score:  -3.3902307244031418;  adjusted_score: -3.364506967404364----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ as she had to go , she say a stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(the -6.54)(girl -2.72)(on -1.73)(the -2.49)(ground -4.81)(of -6.15)(the -1.01)(tale -3.04)(. -7.24) line score is : -3.738, look ahead score is : 0.000
--------------------------score:  -3.201233427294276;  adjusted_score: -3.176909627460621----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and the chase on the road of the tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(as -0.00)(she -4.84)(had -2.82)(to -4.63)(go -1.54)(, -1.92)(she -3.33)(say -3.02)(a -6.66)(stand -3.33)(. -7.19) line score is : -3.570, look ahead score is : 0.000
+-------------------------score:  -3.401483597487266;  adjusted_score: -3.3757598404884885----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ as she had to leave , she say a stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(the -6.54)(chase -2.72)(on -1.73)(the -2.49)(road -5.82)(of -4.99)(the -0.86)(tale -3.19)(. -4.81) line score is : -3.480, look ahead score is : 0.000
--------------------------score:  -3.209309807893905;  adjusted_score: -3.1849860080602497----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and the man on the hill of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(the -6.54)(man -2.72)(on -1.73)(the -2.49)(hill -5.62)(of -5.13)(the -0.81)(tale -3.21)(. -6.64) line score is : -3.654, look ahead score is : 0.000
--------------------------score:  -3.2110132909182347;  adjusted_score: -3.1867219899210966----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and the man on the road of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(the -7.81)(man -2.74)(on -2.10)(the -2.55)(road -4.59)(of -5.34)(the -0.95)(tale -3.76)(. -6.87) line score is : -3.971, look ahead score is : 0.000
--------------------------score:  -3.2210667666160697;  adjusted_score: -3.1967754656189316----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and the man on the hill of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(the -7.81)(man -2.74)(on -2.10)(the -2.55)(hill -4.59)(of -5.34)(the -0.95)(tale -3.41)(. -6.84) line score is : -3.934, look ahead score is : 0.000
--------------------------score:  -3.221682518381964;  adjusted_score: -3.1973587185483088----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and the man on the road of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(the -6.54)(man -2.72)(on -1.73)(the -2.49)(road -5.62)(of -5.13)(the -0.81)(tale -4.04)(. -7.09) line score is : -3.781, look ahead score is : 0.000
--------------------------score:  -3.251346587231665;  adjusted_score: -3.2276775661765624----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was killed by her hand , 
- and the man on the ground of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(killed -0.56)(by -2.34)(her -5.02)(hand -0.48)(, -2.32) line score is : -2.766, look ahead score is : 0.617
-(and -2.32)(the -7.52)(man -2.88)(on -1.28)(the -2.13)(ground -4.18)(of -5.40)(the -1.14)(tale -3.05)(. -7.70) line score is : -3.760, look ahead score is : 0.000
--------------------------score:  -3.279947839903109;  adjusted_score: -3.2562788188480063----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was killed by her hand , 
- and the man on the horse of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(killed -0.56)(by -2.34)(her -5.02)(hand -0.48)(, -2.32) line score is : -2.766, look ahead score is : 0.617
-(and -2.32)(the -7.52)(man -2.88)(on -1.28)(the -2.13)(horse -4.18)(of -5.40)(the -1.14)(tale -3.12)(. -6.78) line score is : -3.675, look ahead score is : 0.000
--------------------------score:  -3.2959965458421996;  adjusted_score: -3.272327524787097----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was killed by her hand , 
- and the man on the hill of the tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(killed -0.56)(by -2.34)(her -5.02)(hand -0.48)(, -2.32) line score is : -2.766, look ahead score is : 0.617
-(and -2.32)(the -7.52)(man -2.88)(on -1.28)(the -2.13)(hill -4.18)(of -5.40)(the -1.14)(tale -3.86)(. -6.94) line score is : -3.765, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(as -0.00)(she -4.84)(had -2.82)(to -4.63)(leave -1.54)(, -1.92)(she -3.33)(say -3.01)(a -6.47)(stand -3.43)(. -7.16) line score is : -3.558, look ahead score is : 0.000
 ======================= template: 9 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- AND PRP VBD RB LIKE NN OF NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND SINCE RB VBZ RB VBN . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- and he did n't like mother of pearl 
--------------------------score:  -3.1992820659652352;  adjusted_score: -3.174990764968097----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and it was not like something of scale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ and since then has never benzene 
+-------------------------score:  -3.2729439362029855;  adjusted_score: -3.247220179204208----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and since then has actually planned . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(it -8.15)(was -3.53)(not -1.71)(like -4.29)(something -0.99)(of -4.07)(scale -5.73)(. -4.95) line score is : -3.827, look ahead score is : 0.000
--------------------------score:  -3.3440845096483827;  adjusted_score: -3.3197932086512445----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and it was not like magic of scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(since -4.84)(then -2.82)(has -2.29)(actually -5.23)(planned -1.33)(. -2.86) line score is : -2.767, look ahead score is : 0.000
+-------------------------score:  -3.294851488286319;  adjusted_score: -3.2691277312875413----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and since then has gradually planned . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(it -8.15)(was -3.53)(not -1.71)(like -4.29)(magic -0.99)(of -4.07)(scale -5.73)(. -6.62) line score is : -4.013, look ahead score is : 0.000
--------------------------score:  -3.3652171911671758;  adjusted_score: -3.3409258901700376----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and it was not like nature of scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(since -4.84)(then -2.82)(has -2.29)(gradually -5.23)(planned -1.33)(. -2.86) line score is : -2.767, look ahead score is : 0.000
+-------------------------score:  -3.294993506022729;  adjusted_score: -3.2692697490239513----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and since then has actually planned . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(it -8.15)(was -3.53)(not -1.71)(like -4.29)(nature -0.99)(of -4.07)(scale -5.73)(. -7.66) line score is : -4.127, look ahead score is : 0.000
--------------------------score:  -3.3849754417315125;  adjusted_score: -3.3606841407343744----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and it was then like magic of scale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.65)(then -2.85)(has -2.24)(actually -5.17)(planned -1.07)(. -2.88) line score is : -2.693, look ahead score is : 0.000
+-------------------------score:  -3.3069779462879523;  adjusted_score: -3.2812541892891747----------------------- 
+there was a farmer named brande 
+ who planted a small plot on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has gradually planned . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(it -8.15)(was -3.53)(then -1.71)(like -4.29)(magic -0.99)(of -4.17)(scale -8.31)(. -4.74) line score is : -4.102, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(his -2.65)(land -0.94)(. -1.68) line score is : -2.770, look ahead score is : 0.000
+(when -1.68)(a -3.81)(storm -4.00)(hits -3.85)(his -3.86)(tree -2.26)(, -5.27) line score is : -3.532, look ahead score is : 0.565
+(he -5.27)(was -1.10)(able -1.02)(to -5.03)(flee -1.82)(, -0.00) line score is : -2.374, look ahead score is : 0.721
+(and -0.00)(since -4.98)(then -2.80)(has -2.30)(gradually -5.14)(planned -1.33)(. -2.95) line score is : -2.787, look ahead score is : 0.000
+-------------------------score:  -3.3236632130031163;  adjusted_score: -3.2979394560043387----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and since then has gradually planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.65)(then -2.85)(has -2.24)(gradually -5.17)(planned -1.07)(. -2.88) line score is : -2.693, look ahead score is : 0.000
+-------------------------score:  -3.331392009044066;  adjusted_score: -3.3056682520452885----------------------- 
+there was a farmer named brande 
+ who planted a small farm on his land . 
+ when a storm hits his tree , 
+ he was able to flee , 
+ and since then has gradually planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(his -2.79)(land -0.69)(. -1.46) line score is : -2.787, look ahead score is : 0.000
+(when -1.46)(a -3.75)(storm -4.07)(hits -3.65)(his -3.15)(tree -2.05)(, -6.16) line score is : -3.470, look ahead score is : 0.565
+(he -6.16)(was -1.39)(able -1.05)(to -5.12)(flee -1.88)(, -0.00) line score is : -2.600, look ahead score is : 0.721
+(and -0.00)(since -4.81)(then -2.87)(has -2.24)(gradually -5.09)(planned -1.05)(. -3.00) line score is : -2.722, look ahead score is : 0.000
+-------------------------score:  -3.351930278950992;  adjusted_score: -3.3262065219522143----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and since then has literally planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(since -4.84)(then -2.82)(has -2.29)(literally -5.23)(planned -1.33)(. -2.86) line score is : -2.767, look ahead score is : 0.000
+-------------------------score:  -3.3738582711899654;  adjusted_score: -3.348134514191188----------------------- 
+there was a farmer named brande 
+ who planted a small farm on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and since then has literally planned . 
+------------------------- score breakdown ------------------------ 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(farm -3.85)(on -2.45)(her -2.28)(land -1.23)(. -1.48) line score is : -2.793, look ahead score is : 0.000
+(when -1.48)(a -3.79)(storm -4.06)(hits -3.87)(her -3.03)(tree -1.84)(, -6.22) line score is : -3.472, look ahead score is : 0.565
+(she -6.22)(was -1.47)(able -0.70)(to -5.19)(flee -1.90)(, -0.00) line score is : -2.582, look ahead score is : 0.721
+(and -0.00)(since -4.65)(then -2.85)(has -2.24)(literally -5.17)(planned -1.07)(. -2.88) line score is : -2.693, look ahead score is : 0.000
 ======================= template: 10 ============================  
 sarah 
  WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY PRP$ NN , 
- AND PRP VBP VBN TO THE NN WITH NN . 
+ WHEN A NN VBZ PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND RB A JJ NN PRP VBP . 
 ----------------------- original sentences ------------------------------------ 
 who had a large wart on her nose 
- when he went to bed 
- he was told by his wife 
- and I am stuck to the toilet with glue 
--------------------------score:  -3.2056722104775184;  adjusted_score: -3.181348410643863----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and they are gone to the north with tale . 
+ when a dame wears my coat 
+ he was ready to faint 
+ and now a new teacher they seek 
+-------------------------score:  -3.367398491226918;  adjusted_score: -3.3416747342281403----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and now a new family they stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(they -6.54)(are -2.72)(gone -1.73)(to -2.15)(the -5.52)(north -5.48)(with -2.63)(tale -2.20)(. -3.76) line score is : -3.437, look ahead score is : 0.000
--------------------------score:  -3.2229602143845777;  adjusted_score: -3.1986364145509225----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and they have come to the town with tale . 
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(now -4.84)(a -2.82)(new -2.29)(family -4.20)(they -4.85)(stand -2.73)(. -3.17) line score is : -3.113, look ahead score is : 0.000
+-------------------------score:  -3.3909599996517383;  adjusted_score: -3.3652362426529607----------------------- 
+there was a farmer named brande 
+ who planted a small plot on her land . 
+ when a storm hits her tree , 
+ she was able to flee , 
+ and now a new family we stand . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(they -6.54)(have -2.72)(come -1.73)(to -2.15)(the -6.06)(town -5.39)(with -0.65)(tale -2.66)(. -3.98) line score is : -3.352, look ahead score is : 0.000
-======================= template: 11 ============================  
-sarah 
- WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- AND PRP VBP VBN TO THE NN WITH NN . 
------------------------ original sentences ------------------------------------ 
-who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- and I am stuck to the toilet with glue 
--------------------------score:  -3.2592225137985116;  adjusted_score: -3.2349312128013734----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and she hit led to the town with tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(she -8.15)(hit -3.53)(led -1.71)(to -2.02)(the -7.73)(town -7.17)(with -2.17)(tale -1.65)(. -4.59) line score is : -3.974, look ahead score is : 0.000
-======================= template: 12 ============================  
-sarah 
- WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY PRP$ NN , 
- BUT THE NN NN VBD PRP NN . 
------------------------ original sentences ------------------------------------ 
-who had a large wart on her nose 
- when he went to bed 
- he was told by his wife 
- but the telephone book caused him pain 
--------------------------score:  -3.2667106495749567;  adjusted_score: -3.2430416285198542----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was killed by her hand , 
- but the child somehow survived he tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(killed -0.56)(by -2.34)(her -5.02)(hand -0.48)(, -2.32) line score is : -2.766, look ahead score is : 0.617
-(but -2.32)(the -7.52)(child -2.88)(somehow -2.19)(survived -2.39)(he -3.18)(tale -6.92)(. -0.70) line score is : -3.513, look ahead score is : 0.000
-======================= template: 13 ============================  
-sarah 
- WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY A NN , 
- AND VBD PRP$ NN A NN . 
------------------------ original sentences ------------------------------------ 
-who had a large wart on her nose 
- when he went to bed 
- he was pained by a tooth 
- and gave his proboscis a tweak 
--------------------------score:  -3.3034313708543777;  adjusted_score: -3.2791400698572395----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her journey a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(journey -1.71)(a -5.83)(tale -3.25)(. -4.94) line score is : -4.063, look ahead score is : 0.000
--------------------------score:  -3.3057568619648614;  adjusted_score: -3.2814655609677232----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her mistake a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(mistake -1.71)(a -5.83)(tale -3.25)(. -1.77) line score is : -3.609, look ahead score is : 0.000
--------------------------score:  -3.3367883235216143;  adjusted_score: -3.312497022524476----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her husband a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(husband -1.71)(a -5.83)(tale -3.25)(. -4.31) line score is : -3.973, look ahead score is : 0.000
--------------------------score:  -3.342574368913968;  adjusted_score: -3.31828306791683----------------------- 
-there was a fierce witch named dayle 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized its purpose a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(its -3.53)(purpose -1.71)(a -5.83)(tale -6.05)(. -1.21) line score is : -3.929, look ahead score is : 0.000
--------------------------score:  -3.347686579823494;  adjusted_score: -3.323395278826356----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her quarry a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(quarry -1.71)(a -5.83)(tale -3.25)(. -4.54) line score is : -4.005, look ahead score is : 0.000
--------------------------score:  -3.3481405367453894;  adjusted_score: -3.323849235748251----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her father a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(father -1.71)(a -5.83)(tale -3.25)(. -4.53) line score is : -4.004, look ahead score is : 0.000
--------------------------score:  -3.3487696995337806;  adjusted_score: -3.3244783985366424----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her error a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(error -1.71)(a -5.83)(tale -3.25)(. -3.87) line score is : -3.910, look ahead score is : 0.000
--------------------------score:  -3.3555756598711013;  adjusted_score: -3.331284358873963----------------------- 
-there was a fierce witch named marcell 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her mother a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(mother -1.71)(a -5.83)(tale -3.25)(. -4.45) line score is : -3.992, look ahead score is : 0.000
--------------------------score:  -3.377111565073331;  adjusted_score: -3.352820264076193----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by a hand , 
- and realized her mission a tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(a -2.54)(hand -0.32)(, -1.03) line score is : -2.204, look ahead score is : 0.648
-(and -1.03)(realized -8.15)(her -3.53)(mission -1.71)(a -5.83)(tale -3.25)(. -4.80) line score is : -4.043, look ahead score is : 0.000
-======================= template: 14 ============================  
-sarah 
- WHO VBD A JJ NN ON PRP$ NN . 
- WHEN PRP VBD TO NN , 
- PRP VBD VBN BY PRP$ NN , 
- AND PRP VBD RB LIKE NN OF NN . 
------------------------ original sentences ------------------------------------ 
-who had a large wart on her nose 
- when he went to bed 
- he was told by his wife 
- and he did n't like mother of pearl 
--------------------------score:  -3.405125512741506;  adjusted_score: -3.380834211744368----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and it was then like magic of scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(it -7.81)(was -2.74)(then -2.10)(like -4.83)(magic -0.58)(of -2.39)(scale -8.96)(. -4.79) line score is : -4.133, look ahead score is : 0.000
--------------------------score:  -3.405464135692455;  adjusted_score: -3.3811403358587997----------------------- 
-there was a fierce witch named maile 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and it was then like magic of scale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(it -6.54)(was -2.72)(then -1.73)(like -4.71)(magic -0.60)(of -2.82)(scale -8.90)(. -4.92) line score is : -3.843, look ahead score is : 0.000
--------------------------score:  -3.4471056712791324;  adjusted_score: -3.422814370281994----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was met by her band , 
- and it was then like magic of tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(met -0.56)(by -2.34)(her -2.54)(band -0.32)(, -2.99) line score is : -2.485, look ahead score is : 0.648
-(and -2.99)(it -7.81)(was -2.74)(then -2.10)(like -4.83)(magic -0.58)(of -2.39)(tale -8.96)(. -4.79) line score is : -4.133, look ahead score is : 0.000
--------------------------score:  -3.4603402508655563;  adjusted_score: -3.436016451031901----------------------- 
-there was a fierce witch named abigail 
- who hunted a young boy on her trail . 
- when she returned to land , 
- she was joined by her band , 
- and it was then like magic of tale . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(hunted -6.25)(a -5.10)(young -3.26)(boy -1.13)(on -4.46)(her -2.35)(trail -3.41)(. -1.20) line score is : -3.188, look ahead score is : 0.000
-(when -1.20)(she -3.52)(returned -1.29)(to -3.79)(land -1.28)(, -7.53) line score is : -3.103, look ahead score is : 0.566
-(she -7.53)(was -1.12)(joined -0.56)(by -2.34)(her -5.48)(band -0.05)(, -1.65) line score is : -2.675, look ahead score is : 0.650
-(and -1.65)(it -6.54)(was -2.72)(then -1.73)(like -4.71)(magic -0.60)(of -2.82)(tale -8.90)(. -4.92) line score is : -3.843, look ahead score is : 0.000
+(who -1.16)(planted -6.73)(a -2.06)(small -3.88)(plot -2.38)(on -3.44)(her -2.05)(land -1.30)(. -1.77) line score is : -2.753, look ahead score is : 0.000
+(when -1.77)(a -3.89)(storm -3.98)(hits -4.06)(her -3.68)(tree -2.13)(, -5.37) line score is : -3.554, look ahead score is : 0.565
+(she -5.37)(was -1.17)(able -0.69)(to -5.00)(flee -1.82)(, -0.00) line score is : -2.343, look ahead score is : 0.721
+(and -0.00)(now -4.84)(a -2.82)(new -2.29)(family -4.20)(we -4.85)(stand -2.73)(. -3.17) line score is : -3.113, look ahead score is : 0.000

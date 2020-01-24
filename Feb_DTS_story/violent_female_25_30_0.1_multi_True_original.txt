@@ -3,79 +3,662 @@ sarah
  WHO VBD A JJ NN AND VBD . 
  PRP VBD BACK FROM THE NN , 
  AND PRP VBD TO THE NN , 
- AND PRP VBD TO VB TO A JJ NN . 
+ AS PRP VBD TO VB , PRP VBP A NN . 
 ----------------------- original sentences ------------------------------------ 
 who ate a green apple and died 
  they came back from the ride 
  and they rushed to the rail 
- and they had to revert to a man cashier 
--------------------------score:  -2.9342267856453406;  adjusted_score: -2.909345162705039----------------------- 
-there once was a woman named dot 
+ as it tried to explain , I am a spi 
+-------------------------score:  -2.865580190247034;  adjusted_score: -2.8406985667106857----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i have a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(have -2.53)(a -0.58)(thought -5.95)(. -3.46) line score is : -3.054, look ahead score is : 0.000
+-------------------------score:  -2.8714768567177305;  adjusted_score: -2.846595233181382----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i heard a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(heard -2.53)(a -0.58)(shot -5.95)(. -3.65) line score is : -3.071, look ahead score is : 0.000
+-------------------------score:  -2.8754879740779016;  adjusted_score: -2.850606350541553----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , she heard a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(she -0.01)(heard -0.52)(a -1.23)(shot -4.92)(. -5.09) line score is : -2.984, look ahead score is : 0.000
+-------------------------score:  -2.8936566811821915;  adjusted_score: -2.868775057645843----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , she heard a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(she -0.01)(heard -2.53)(a -0.58)(shot -4.55)(. -4.75) line score is : -3.044, look ahead score is : 0.000
+-------------------------score:  -2.897353976581465;  adjusted_score: -2.8724723530451164----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , i heard a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(i -0.01)(heard -0.52)(a -1.23)(shot -6.81)(. -3.26) line score is : -2.990, look ahead score is : 0.000
+-------------------------score:  -2.9086195914732182;  adjusted_score: -2.8837379685329165----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
- and she had to go to a new thought . 
+ as she used to do , she heard a shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -7.03)(had -2.60)(to -0.51)(go -0.62)(to -3.97)(a -3.86)(new -2.71)(thought -1.44)(. -3.36) line score is : -2.786, look ahead score is : 0.000
--------------------------score:  -2.9484992081468757;  adjusted_score: -2.923617585206574----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -7.03)(used -2.60)(to -5.37)(do -1.47)(, -3.39)(she -0.01)(heard -0.48)(a -1.06)(shot -4.87)(. -5.81) line score is : -3.077, look ahead score is : 0.000
+-------------------------score:  -2.9315716497709645;  adjusted_score: -2.906690026234616----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , she heard a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(she -0.01)(heard -0.52)(a -1.23)(thought -4.92)(. -5.09) line score is : -2.984, look ahead score is : 0.000
+-------------------------score:  -2.9361726567697;  adjusted_score: -2.9112910332333515----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i want a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(want -2.53)(a -0.58)(shot -5.95)(. -3.68) line score is : -3.073, look ahead score is : 0.000
+-------------------------score:  -2.9530686066102456;  adjusted_score: -2.928186983073897----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , she heard a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(she -0.01)(heard -2.53)(a -0.58)(thought -4.55)(. -4.75) line score is : -3.044, look ahead score is : 0.000
+-------------------------score:  -2.9562379573745763;  adjusted_score: -2.931356333838228----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i heard a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(heard -2.53)(a -0.58)(thought -5.95)(. -3.65) line score is : -3.071, look ahead score is : 0.000
+-------------------------score:  -2.961692644885796;  adjusted_score: -2.9368110213494476----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i have a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(have -2.53)(a -0.58)(shot -5.95)(. -3.46) line score is : -3.054, look ahead score is : 0.000
+-------------------------score:  -2.962747526135953;  adjusted_score: -2.9378659025996043----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , i heard a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(i -0.01)(heard -0.52)(a -1.23)(thought -6.81)(. -3.26) line score is : -2.990, look ahead score is : 0.000
+-------------------------score:  -2.9733812581638204;  adjusted_score: -2.9484996352235187----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
- and she had to go to a long thought . 
+ as she used to do , she heard a thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -7.03)(had -2.60)(to -0.51)(go -0.62)(to -3.97)(a -3.86)(long -2.71)(thought -1.44)(. -3.36) line score is : -2.786, look ahead score is : 0.000
--------------------------score:  -2.948730842633681;  adjusted_score: -2.923849219693379----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -7.03)(used -2.60)(to -5.37)(do -1.47)(, -3.39)(she -0.01)(heard -0.48)(a -1.06)(thought -4.87)(. -5.81) line score is : -3.077, look ahead score is : 0.000
+-------------------------score:  -2.9782383753644193;  adjusted_score: -2.953356751828071----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i am a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(am -2.53)(a -0.58)(thought -5.95)(. -2.86) line score is : -3.000, look ahead score is : 0.000
+-------------------------score:  -2.9794264151440824;  adjusted_score: -2.954544791607734----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i want a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(want -2.53)(a -0.58)(thought -5.95)(. -3.68) line score is : -3.073, look ahead score is : 0.000
+-------------------------score:  -2.9824925481944398;  adjusted_score: -2.9576109246580913----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i see a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(see -2.53)(a -0.58)(shot -5.95)(. -3.73) line score is : -3.078, look ahead score is : 0.000
+-------------------------score:  -2.997312654083704;  adjusted_score: -2.9724310305473556----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i see a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(see -2.53)(a -0.58)(thought -5.95)(. -3.73) line score is : -3.078, look ahead score is : 0.000
+-------------------------score:  -3.0325987790985143;  adjusted_score: -3.007717155562166----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i know a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(know -2.53)(a -0.58)(thought -5.95)(. -3.83) line score is : -3.087, look ahead score is : 0.000
+-------------------------score:  -3.0421973831184648;  adjusted_score: -3.0173157595821163----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , you know a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(you -0.01)(know -2.53)(a -0.58)(thought -6.82)(. -0.65) line score is : -2.878, look ahead score is : 0.000
+-------------------------score:  -3.055073621134986;  adjusted_score: -3.0301919975986373----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , you know a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(you -0.01)(know -0.52)(a -1.23)(shot -7.52)(. -0.36) line score is : -2.791, look ahead score is : 0.000
+-------------------------score:  -3.0567381325561334;  adjusted_score: -3.031856509019785----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , you know a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(you -0.01)(know -2.53)(a -0.58)(shot -6.82)(. -0.65) line score is : -2.878, look ahead score is : 0.000
+-------------------------score:  -3.059218746390851;  adjusted_score: -3.0343371228545024----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , you see a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(you -0.01)(see -2.53)(a -0.58)(shot -6.82)(. -2.45) line score is : -3.041, look ahead score is : 0.000
+-------------------------score:  -3.0681776470669053;  adjusted_score: -3.043296023530557----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i know a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(know -2.53)(a -0.58)(shot -5.95)(. -3.83) line score is : -3.087, look ahead score is : 0.000
+-------------------------score:  -3.069808100569336;  adjusted_score: -3.0449264770329876----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , you see a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(you -0.01)(see -2.53)(a -0.58)(thought -6.82)(. -2.45) line score is : -3.041, look ahead score is : 0.000
+-------------------------score:  -3.0728835161665784;  adjusted_score: -3.04800189263023----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , you see a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(you -0.01)(see -0.52)(a -1.23)(shot -7.52)(. -1.94) line score is : -2.934, look ahead score is : 0.000
+-------------------------score:  -3.0759200432392606;  adjusted_score: -3.051038419702912----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , you see a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(you -0.01)(see -0.52)(a -1.23)(thought -7.52)(. -1.94) line score is : -2.934, look ahead score is : 0.000
+-------------------------score:  -3.0795638084082917;  adjusted_score: -3.054682184871943----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to do , i am a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(do -1.59)(, -3.66)(i -0.01)(am -0.52)(a -1.23)(thought -6.81)(. -4.50) line score is : -3.103, look ahead score is : 0.000
+-------------------------score:  -3.0813684073989007;  adjusted_score: -3.0564867838625522----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ as she used to say , i think a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -6.52)(used -2.50)(to -5.01)(say -1.59)(, -3.66)(i -0.01)(think -2.53)(a -0.58)(thought -5.95)(. -3.81) line score is : -3.085, look ahead score is : 0.000
+-------------------------score:  -3.0854037790285314;  adjusted_score: -3.0605221560882296----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
- and she had to go to a long shot . 
+ as she used to say , you know a shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -7.03)(had -2.60)(to -0.51)(go -0.62)(to -3.97)(a -3.86)(long -2.71)(shot -1.44)(. -3.36) line score is : -2.786, look ahead score is : 0.000
--------------------------score:  -2.9910756042509368;  adjusted_score: -2.966193981310635----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -7.03)(used -2.60)(to -5.37)(say -1.47)(, -3.39)(you -0.01)(know -2.78)(a -0.44)(shot -6.96)(. -0.33) line score is : -2.920, look ahead score is : 0.000
+-------------------------score:  -3.0863759868833074;  adjusted_score: -3.0614943639430057----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
- and she had to go to a hard thought . 
+ as she used to do , you know a shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -7.03)(had -2.60)(to -0.51)(go -0.62)(to -3.97)(a -3.86)(hard -2.71)(thought -1.44)(. -3.36) line score is : -2.786, look ahead score is : 0.000
--------------------------score:  -2.997148309693192;  adjusted_score: -2.9722666867528904----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the store , 
- and she had to go to a mad thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -7.03)(had -2.60)(to -0.51)(go -0.62)(to -3.97)(a -3.86)(mad -2.71)(thought -1.44)(. -3.36) line score is : -2.786, look ahead score is : 0.000
--------------------------score:  -3.0096404859513948;  adjusted_score: -2.984758863011093----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the store , 
- and she had to go to a real shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -7.03)(had -2.60)(to -0.51)(go -0.62)(to -3.97)(a -3.86)(real -2.71)(shot -1.44)(. -3.36) line score is : -2.786, look ahead score is : 0.000
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(as -1.77)(she -7.03)(used -2.60)(to -5.37)(do -1.47)(, -3.39)(you -0.01)(know -0.48)(a -1.06)(shot -7.65)(. -0.28) line score is : -2.827, look ahead score is : 0.000
 ======================= template: 2 ============================  
+sarah 
+ WHO VBD A JJ NN AND VBD . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ they came back from the ride 
+ and they rushed to the rail 
+ and that is the cause of this sonnet 
+-------------------------score:  -2.90385914221406;  adjusted_score: -2.8789775186777113----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and that is the story of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -6.52)(is -2.50)(the -0.55)(story -5.71)(of -2.05)(this -2.19)(thought -3.27)(. -0.71) line score is : -2.808, look ahead score is : 0.000
+-------------------------score:  -2.9049988109618425;  adjusted_score: -2.880117187425494----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the shore , 
+ and that is the story of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(shore -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -7.92)(is -2.10)(the -0.53)(story -5.90)(of -1.45)(this -2.27)(thought -2.64)(. -0.72) line score is : -2.812, look ahead score is : 0.000
+-------------------------score:  -2.9144160840660334;  adjusted_score: -2.889534460529685----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and that is the reason of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -6.52)(is -2.50)(the -0.55)(reason -5.71)(of -2.05)(this -2.19)(thought -2.89)(. -3.45) line score is : -3.071, look ahead score is : 0.000
+-------------------------score:  -2.9151458591222763;  adjusted_score: -2.890264235585928----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the shore , 
+ and that is the reason of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(shore -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -7.92)(is -2.10)(the -0.53)(reason -5.90)(of -1.45)(this -2.27)(thought -2.27)(. -3.16) line score is : -3.042, look ahead score is : 0.000
+-------------------------score:  -2.93061257340014;  adjusted_score: -2.905730950459838----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and that is the story of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -7.03)(is -2.60)(the -0.51)(story -5.68)(of -2.13)(this -2.58)(thought -2.76)(. -0.81) line score is : -2.874, look ahead score is : 0.000
+-------------------------score:  -2.940808357670903;  adjusted_score: -2.9159267347306015----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and that is the reason of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -7.03)(is -2.60)(the -0.51)(reason -5.68)(of -2.13)(this -2.58)(thought -2.23)(. -3.57) line score is : -3.122, look ahead score is : 0.000
+-------------------------score:  -2.9436138328164816;  adjusted_score: -2.918732209280133----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the shore , 
+ and that is the history of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(shore -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -7.92)(is -2.10)(the -0.53)(history -5.90)(of -1.45)(this -2.27)(thought -4.83)(. -0.26) line score is : -3.004, look ahead score is : 0.000
+-------------------------score:  -2.954220224171877;  adjusted_score: -2.9293386006355284----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and that is the entrance of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -6.52)(is -2.50)(the -0.55)(entrance -5.71)(of -2.05)(this -2.19)(thought -3.85)(. -1.71) line score is : -2.983, look ahead score is : 0.000
+-------------------------score:  -2.996791185811162;  adjusted_score: -2.9719095628708603----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and that is the reason of this shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -7.03)(is -2.60)(the -0.51)(reason -5.68)(of -2.13)(this -2.58)(shot -2.23)(. -3.57) line score is : -3.122, look ahead score is : 0.000
+-------------------------score:  -3.0073430072516203;  adjusted_score: -2.982461383715272----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and that is the moment of this thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -6.52)(is -2.50)(the -0.55)(moment -5.71)(of -2.05)(this -2.19)(thought -4.88)(. -2.52) line score is : -3.188, look ahead score is : 0.000
+-------------------------score:  -3.0136961974203587;  adjusted_score: -2.98881457388401----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and that is the moment of this shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(that -6.52)(is -2.50)(the -0.55)(moment -5.71)(of -2.05)(this -2.19)(shot -4.88)(. -2.52) line score is : -3.188, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD A JJ NN AND VBD . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ they came back from the ride 
+ and they rushed to the rail 
+ she was destined to go a long way 
+-------------------------score:  -2.947666307678446;  adjusted_score: -2.9227846847381445----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to get a good shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(get -3.26)(a -4.82)(good -0.01)(shot -2.52)(. -1.69) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -2.9538681299891323;  adjusted_score: -2.9289865070488306----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to buy a new shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(buy -3.26)(a -4.82)(new -0.01)(shot -1.24)(. -1.65) line score is : -2.881, look ahead score is : 0.000
+-------------------------score:  -2.957228618208319;  adjusted_score: -2.9323469946719705----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a strange thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(strange -1.10)(thought -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -2.959374407073483;  adjusted_score: -2.934492784133181----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to buy a good shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(buy -3.26)(a -4.82)(good -0.01)(shot -1.24)(. -1.65) line score is : -2.881, look ahead score is : 0.000
+-------------------------score:  -2.960293486714363;  adjusted_score: -2.9354118637740614----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she got ready to buy a new shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(got -7.03)(ready -2.60)(to -3.56)(buy -3.54)(a -4.19)(new -1.26)(shot -1.59)(. -1.73) line score is : -3.028, look ahead score is : 0.000
+-------------------------score:  -2.970625234534964;  adjusted_score: -2.9457436115946622----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to get a new shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(get -3.26)(a -4.82)(new -0.01)(shot -2.52)(. -1.69) line score is : -3.029, look ahead score is : 0.000
+-------------------------score:  -2.9796502985991538;  adjusted_score: -2.9547686750628053----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a new thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(new -1.10)(thought -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -2.981038431171328;  adjusted_score: -2.9561568076349793----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a big shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(big -1.10)(shot -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -2.993354702135548;  adjusted_score: -2.9684730791952463----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to find a good shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(find -3.26)(a -4.82)(good -0.01)(shot -2.52)(. -1.80) line score is : -3.040, look ahead score is : 0.000
+-------------------------score:  -3.00769449188374;  adjusted_score: -2.982812868943438----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to buy a big shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(buy -3.26)(a -4.82)(big -0.01)(shot -1.24)(. -1.65) line score is : -2.881, look ahead score is : 0.000
+-------------------------score:  -3.0108832286205143;  adjusted_score: -2.9860016056802126----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to find a new shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(find -3.26)(a -4.82)(new -0.01)(shot -2.52)(. -1.80) line score is : -3.040, look ahead score is : 0.000
+-------------------------score:  -3.019554736558348;  adjusted_score: -2.9946731130219995----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a red shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(red -1.10)(shot -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -3.0196823575533926;  adjusted_score: -2.994800734017044----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a huge shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(huge -1.10)(shot -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -3.02103932434693;  adjusted_score: -2.9961577008105813----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a large shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(large -1.10)(shot -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -3.0321864360012114;  adjusted_score: -3.007304812464863----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ she was surprised to see a new shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -6.52)(surprised -2.50)(to -4.00)(see -3.20)(a -4.16)(new -1.10)(shot -0.24)(. -2.58) line score is : -2.898, look ahead score is : 0.000
+-------------------------score:  -3.0349853129591793;  adjusted_score: -3.0101036900188776----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ she was able to buy a nice shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(was -7.03)(able -2.60)(to -3.56)(buy -3.26)(a -4.82)(nice -0.01)(shot -1.24)(. -1.65) line score is : -2.881, look ahead score is : 0.000
+======================= template: 4 ============================  
 sarah 
  WHO VBD A JJ NN AND VBD . 
  PRP VBD BACK FROM THE NN , 
@@ -86,17 +669,6 @@ who ate a green apple and died
  they came back from the ride 
  and they rushed to the rail 
  and the smile on the face of the tiger 
--------------------------score:  -2.9493236659151134;  adjusted_score: -2.924442042378765----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- and the man on the right of the shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(right -3.64)(of -4.92)(the -0.29)(shot -3.31)(. -2.10) line score is : -2.868, look ahead score is : 0.000
 -------------------------score:  -2.9703577675602655;  adjusted_score: -2.945476144023917----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
@@ -108,28 +680,28 @@ there was a fierce woman named dot
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
 (and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(right -3.64)(of -4.92)(the -0.29)(shot -3.31)(. -2.10) line score is : -2.868, look ahead score is : 0.000
--------------------------score:  -3.108286423213554;  adjusted_score: -3.0834047996772056----------------------- 
-there once was a woman named dot 
+-------------------------score:  -2.989645399830558;  adjusted_score: -2.9647637762942094----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the door , 
- and the man on the ground of the thought . 
+ and the room on the right of the shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(ground -3.64)(of -4.92)(the -0.29)(thought -4.36)(. -7.03) line score is : -3.466, look ahead score is : 0.000
--------------------------score:  -3.11394704562245;  adjusted_score: -3.0890654220861014----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(the -6.52)(room -2.50)(on -0.55)(the -3.09)(right -6.07)(of -5.28)(the -0.25)(shot -2.55)(. -2.64) line score is : -3.123, look ahead score is : 0.000
+-------------------------score:  -3.039849616361387;  adjusted_score: -3.0149679934210853----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- and she went to the door , 
- and the man on the bed of the thought . 
+ and she went to the store , 
+ and the man on the right of the shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(bed -3.64)(of -4.92)(the -0.29)(thought -4.72)(. -6.21) line score is : -3.421, look ahead score is : 0.000
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(the -7.03)(man -2.60)(on -0.51)(the -3.90)(right -3.38)(of -5.88)(the -0.34)(shot -3.37)(. -2.47) line score is : -3.123, look ahead score is : 0.000
 -------------------------score:  -3.1293205248587057;  adjusted_score: -3.1044389013223572----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
@@ -141,17 +713,6 @@ there was a fierce woman named dot
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
 (and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(ground -3.64)(of -4.92)(the -0.29)(thought -4.36)(. -7.03) line score is : -3.466, look ahead score is : 0.000
--------------------------score:  -3.1348247681603287;  adjusted_score: -3.1099431446239802----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- and the man on the street of the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(street -3.64)(of -4.92)(the -0.29)(thought -4.18)(. -6.73) line score is : -3.418, look ahead score is : 0.000
 -------------------------score:  -3.134981147267602;  adjusted_score: -3.1100995237312534----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
@@ -174,446 +735,281 @@ there was a fierce woman named dot
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
 (and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (and -1.77)(the -6.52)(man -2.50)(on -0.55)(the -3.09)(street -3.64)(of -4.92)(the -0.29)(thought -4.18)(. -6.73) line score is : -3.418, look ahead score is : 0.000
-======================= template: 3 ============================  
-sarah 
- WHO VBD A JJ NN AND VBD . 
- PRP VBD BACK FROM THE NN , 
- AND PRP VBD TO THE NN , 
- WHEN PRP VBP PRP , PRP VBP VBN A NN . 
------------------------ original sentences ------------------------------------ 
-who ate a green apple and died 
- they came back from the ride 
- and they rushed to the rail 
- when I wear it , I am called a vermine 
--------------------------score:  -2.9501340284067044;  adjusted_score: -2.926221175106133----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i have seen a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(seen -1.17)(a -1.12)(thought -4.89)(. -1.91) line score is : -3.069, look ahead score is : 0.000
--------------------------score:  -2.9691278916947983;  adjusted_score: -2.945215038394227----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i have lost a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(lost -1.17)(a -1.12)(thought -4.89)(. -4.46) line score is : -3.300, look ahead score is : 0.000
--------------------------score:  -2.970549480003469;  adjusted_score: -2.946636626702898----------------------- 
+-------------------------score:  -3.1657721535726027;  adjusted_score: -3.140890530632301----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- and she said to the door , 
- when i see you , i have seen a thought . 
+ and she went to the store , 
+ and the man on the ground of the thought . 
 ------------------------- score breakdown ------------------------ 
 (who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.388, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(seen -1.17)(a -1.12)(thought -4.89)(. -1.91) line score is : -3.069, look ahead score is : 0.000
--------------------------score:  -2.981745951315936;  adjusted_score: -2.9578330980153646----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i have heard a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(heard -1.17)(a -1.12)(thought -4.89)(. -4.46) line score is : -3.300, look ahead score is : 0.000
--------------------------score:  -2.9921145053470837;  adjusted_score: -2.9682016520465124----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you have killed a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(have -1.17)(killed -1.17)(a -2.88)(thought -3.48)(. -4.01) line score is : -3.290, look ahead score is : 0.000
--------------------------score:  -3.0109844751217785;  adjusted_score: -2.9870716218212072----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you have lost a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(have -1.17)(lost -1.17)(a -2.88)(thought -3.48)(. -4.24) line score is : -3.312, look ahead score is : 0.000
--------------------------score:  -3.013036401832805;  adjusted_score: -2.9891235485322336----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i have heard a shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(heard -1.17)(a -1.12)(shot -4.89)(. -4.46) line score is : -3.300, look ahead score is : 0.000
--------------------------score:  -3.0170943246168247;  adjusted_score: -2.9931814713162535----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i have found a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(found -1.17)(a -1.12)(thought -4.89)(. -4.37) line score is : -3.292, look ahead score is : 0.000
--------------------------score:  -3.020742661812726;  adjusted_score: -2.996829808512155----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you have seen a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(have -1.17)(seen -1.17)(a -2.88)(thought -3.48)(. -3.18) line score is : -3.215, look ahead score is : 0.000
--------------------------score:  -3.033481205210966;  adjusted_score: -3.009568351910395----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you have made a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(have -1.17)(made -1.17)(a -2.88)(thought -3.48)(. -4.36) line score is : -3.322, look ahead score is : 0.000
--------------------------score:  -3.036484017091639;  adjusted_score: -3.0125711637910677----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you have lost a shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(have -1.17)(lost -1.17)(a -2.88)(shot -3.48)(. -4.24) line score is : -3.312, look ahead score is : 0.000
--------------------------score:  -3.0487785549724804;  adjusted_score: -3.024865701671909----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i have done a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(have -1.17)(done -1.17)(a -1.12)(thought -4.89)(. -4.68) line score is : -3.320, look ahead score is : 0.000
--------------------------score:  -3.081704623558942;  adjusted_score: -3.057791770258371----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you have saved a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(have -1.17)(saved -1.17)(a -2.88)(thought -3.48)(. -4.28) line score is : -3.315, look ahead score is : 0.000
--------------------------score:  -3.119954922619988;  adjusted_score: -3.0960420693194166----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i am lost a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(am -1.17)(lost -1.17)(a -1.12)(thought -3.54)(. -5.90) line score is : -3.308, look ahead score is : 0.000
--------------------------score:  -3.13750555936028;  adjusted_score: -3.1135927060597086----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i am gone a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(am -1.17)(gone -1.17)(a -1.12)(thought -3.54)(. -5.06) line score is : -3.232, look ahead score is : 0.000
--------------------------score:  -3.1457452002693627;  adjusted_score: -3.1218323469687914----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you are gone a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(are -1.17)(gone -1.17)(a -2.88)(thought -2.16)(. -4.32) line score is : -3.199, look ahead score is : 0.000
--------------------------score:  -3.1569354639333835;  adjusted_score: -3.1330226106328123----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you are lost a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(are -1.17)(lost -1.17)(a -2.88)(thought -2.16)(. -5.68) line score is : -3.322, look ahead score is : 0.000
--------------------------score:  -3.1579210109570446;  adjusted_score: -3.1340081576564733----------------------- 
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(the -7.03)(man -2.60)(on -0.51)(the -3.90)(ground -3.38)(of -5.88)(the -0.34)(thought -3.48)(. -6.46) line score is : -3.534, look ahead score is : 0.000
+-------------------------score:  -3.1659655182650597;  adjusted_score: -3.141083895324758----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- and she said to the door , 
- when i see you , i am gone a thought . 
+ and she went to the store , 
+ and the man on the ground of the shot . 
 ------------------------- score breakdown ------------------------ 
 (who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.388, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(am -1.17)(gone -1.17)(a -1.12)(thought -3.54)(. -5.06) line score is : -3.232, look ahead score is : 0.000
--------------------------score:  -3.1661606518661274;  adjusted_score: -3.142247798565556----------------------- 
-there was a fierce woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you are gone a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
-(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.388, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(are -1.17)(gone -1.17)(a -2.88)(thought -2.16)(. -4.32) line score is : -3.199, look ahead score is : 0.000
--------------------------score:  -3.1679433934828816;  adjusted_score: -3.1440305401823103----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i am scared a thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(am -1.17)(scared -1.17)(a -1.12)(thought -3.54)(. -5.79) line score is : -3.298, look ahead score is : 0.000
--------------------------score:  -3.1832368268686184;  adjusted_score: -3.159323973568047----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , you are lost a shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(you -2.38)(are -1.17)(lost -1.17)(a -2.88)(shot -2.16)(. -5.68) line score is : -3.322, look ahead score is : 0.000
--------------------------score:  -3.1977377568974212;  adjusted_score: -3.17382490359685----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she said to the door , 
- when i see you , i am scared a shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(said -1.84)(to -2.27)(the -3.14)(door -1.56)(, -2.47) line score is : -2.321, look ahead score is : 0.604
-(when -2.47)(i -8.70)(see -1.87)(you -6.61)(, -1.47)(i -2.38)(am -1.17)(scared -1.17)(a -1.12)(shot -3.54)(. -5.79) line score is : -3.298, look ahead score is : 0.000
-======================= template: 4 ============================  
-sarah 
- WHO VBD A JJ NN AND VBD . 
- PRP VBD BACK FROM THE NN , 
- AND PRP VBD TO THE NN , 
- RB PRP VBD PRP NN IN THE NN . 
------------------------ original sentences ------------------------------------ 
-who ate a green apple and died 
- they came back from the ride 
- and they rushed to the rail 
- then he walloped me square in the face 
--------------------------score:  -2.992534658871591;  adjusted_score: -2.9676530353352426----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she opened it right in the shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(opened -2.50)(it -5.91)(right -0.73)(in -3.26)(the -0.31)(shot -7.17)(. -2.20) line score is : -3.375, look ahead score is : 0.000
--------------------------score:  -3.014226076193154;  adjusted_score: -2.9893444526568054----------------------- 
-there was a fierce woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she opened it right in the shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
-(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
-(then -1.77)(she -6.52)(opened -2.50)(it -5.91)(right -0.73)(in -3.26)(the -0.31)(shot -7.17)(. -2.20) line score is : -3.375, look ahead score is : 0.000
--------------------------score:  -3.0302735939621925;  adjusted_score: -3.005391970425844----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she told me something in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(told -2.50)(me -5.91)(something -0.73)(in -4.32)(the -0.82)(thought -3.98)(. -5.30) line score is : -3.539, look ahead score is : 0.000
--------------------------score:  -3.033194001764059;  adjusted_score: -3.0083123782277106----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she heard me crying in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(heard -2.50)(me -5.91)(crying -0.73)(in -3.63)(the -4.42)(thought -3.32)(. -3.20) line score is : -3.555, look ahead score is : 0.000
--------------------------score:  -3.042750235646963;  adjusted_score: -3.0178686121106146----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she heard him crying in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(heard -2.50)(him -5.91)(crying -0.73)(in -3.63)(the -4.06)(thought -3.30)(. -3.28) line score is : -3.522, look ahead score is : 0.000
--------------------------score:  -3.0470336079597473;  adjusted_score: -3.022151984423399----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she saw me crying in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(saw -2.50)(me -5.91)(crying -0.73)(in -2.99)(the -3.17)(thought -5.64)(. -2.99) line score is : -3.579, look ahead score is : 0.000
--------------------------score:  -3.06451316177845;  adjusted_score: -3.0396315382421015----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she saw him crying in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(saw -2.50)(him -5.91)(crying -0.73)(in -2.99)(the -3.13)(thought -5.70)(. -2.98) line score is : -3.582, look ahead score is : 0.000
--------------------------score:  -3.072277644649148;  adjusted_score: -3.0473960211127995----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she heard me singing in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(heard -2.50)(me -5.91)(singing -0.73)(in -3.63)(the -4.42)(thought -4.31)(. -3.49) line score is : -3.697, look ahead score is : 0.000
--------------------------score:  -3.085757540538907;  adjusted_score: -3.0608759170025586----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she told him something in the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(told -2.50)(him -5.91)(something -0.73)(in -4.32)(the -2.83)(thought -4.29)(. -5.07) line score is : -3.771, look ahead score is : 0.000
--------------------------score:  -3.108587784692645;  adjusted_score: -3.0837061611562966----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- then she saw him walk towards the thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(then -1.77)(she -6.52)(saw -2.50)(him -5.91)(walk -0.73)(towards -2.99)(the -3.13)(thought -5.65)(. -3.36) line score is : -3.618, look ahead score is : 0.000
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(the -7.03)(man -2.60)(on -0.51)(the -3.90)(ground -3.38)(of -5.88)(the -0.34)(shot -3.48)(. -6.46) line score is : -3.534, look ahead score is : 0.000
 ======================= template: 5 ============================  
 sarah 
  WHO VBD A JJ NN AND VBD . 
  PRP VBD BACK FROM THE NN , 
- PRP VBD VBN BY A NN , 
- AND PRP VBD TO VB TO A JJ NN . 
+ AND PRP VBD TO THE NN , 
+ AND PRP VBP THAT PRP$ NN VBZ A NN . 
 ----------------------- original sentences ------------------------------------ 
 who ate a green apple and died 
  they came back from the ride 
- he was pained by a tooth 
- and they had to revert to a man cashier 
--------------------------score:  -3.038737994251829;  adjusted_score: -3.013318477837425----------------------- 
-there once was a woman named dot 
+ and they rushed to the rail 
+ and I hope that your day is a blast 
+-------------------------score:  -2.97412464835427;  adjusted_score: -2.9492430254139683----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- she was killed by a door , 
- and she had to go to a dark thought . 
+ and she went to the store , 
+ and she heard that her son is a shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(she -2.34)(was -2.63)(killed -3.23)(by -1.71)(a -5.19)(door -1.29)(, -1.64) line score is : -2.576, look ahead score is : 0.679
-(and -1.64)(she -8.90)(had -2.45)(to -1.64)(go -1.33)(to -3.51)(a -1.93)(dark -2.43)(thought -1.34)(. -2.42) line score is : -2.759, look ahead score is : 0.000
--------------------------score:  -3.0431644013433745;  adjusted_score: -3.0183086950986673----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(her -0.62)(son -4.36)(is -2.10)(a -3.29)(shot -3.46)(. -5.05) line score is : -3.079, look ahead score is : 0.000
+-------------------------score:  -2.9812338279955313;  adjusted_score: -2.9563522050552296----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- she was saved by a door , 
- and she had to go to a dark thought . 
+ and she went to the store , 
+ and she heard that my son is a shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(she -2.34)(was -2.63)(saved -3.23)(by -1.71)(a -6.26)(door -0.88)(, -2.08) line score is : -2.733, look ahead score is : 0.651
-(and -2.08)(she -8.10)(had -2.16)(to -1.41)(go -0.96)(to -3.98)(a -1.91)(dark -2.30)(thought -1.68)(. -2.72) line score is : -2.731, look ahead score is : 0.000
--------------------------score:  -3.0571775689269556;  adjusted_score: -3.0317580525125516----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(my -0.62)(son -4.36)(is -2.10)(a -4.55)(shot -3.67)(. -4.04) line score is : -3.124, look ahead score is : 0.000
+-------------------------score:  -2.993651142626098;  adjusted_score: -2.9687695190897494----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- she was killed by a door , 
- and she had to go to a long shot . 
+ and she went to the door , 
+ and you see that her face has a thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(she -2.34)(was -2.63)(killed -3.23)(by -1.71)(a -5.19)(door -1.29)(, -1.64) line score is : -2.576, look ahead score is : 0.679
-(and -1.64)(she -8.90)(had -2.45)(to -1.64)(go -1.33)(to -3.51)(a -1.93)(long -2.43)(shot -1.34)(. -2.42) line score is : -2.759, look ahead score is : 0.000
--------------------------score:  -3.0719179926496563;  adjusted_score: -3.0464984762352523----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(you -6.52)(see -2.50)(that -0.55)(her -6.00)(face -2.59)(has -2.87)(a -3.67)(thought -1.97)(. -3.42) line score is : -3.186, look ahead score is : 0.000
+-------------------------score:  -3.0080237713727085;  adjusted_score: -2.9831421484324068----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- she was killed by a door , 
- and she had to go to a long thought . 
+ and she went to the store , 
+ and she heard that her friend is a shot . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(she -2.34)(was -2.63)(killed -3.23)(by -1.71)(a -5.19)(door -1.29)(, -1.64) line score is : -2.576, look ahead score is : 0.679
-(and -1.64)(she -8.90)(had -2.45)(to -1.64)(go -1.33)(to -3.51)(a -1.93)(long -2.43)(thought -1.34)(. -2.42) line score is : -2.759, look ahead score is : 0.000
--------------------------score:  -3.072425369060401;  adjusted_score: -3.047005852645997----------------------- 
-there once was a woman named dot 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(her -0.62)(friend -4.36)(is -2.10)(a -3.29)(shot -3.27)(. -5.29) line score is : -3.084, look ahead score is : 0.000
+-------------------------score:  -3.0168220454996284;  adjusted_score: -2.9919404225593267----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- she was killed by a door , 
- and she had to go to a mad thought . 
+ and she went to the store , 
+ and she heard that her son has a thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(she -2.34)(was -2.63)(killed -3.23)(by -1.71)(a -5.19)(door -1.29)(, -1.64) line score is : -2.576, look ahead score is : 0.679
-(and -1.64)(she -8.90)(had -2.45)(to -1.64)(go -1.33)(to -3.51)(a -1.93)(mad -2.43)(thought -1.34)(. -2.42) line score is : -2.759, look ahead score is : 0.000
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(her -0.62)(son -4.36)(has -2.10)(a -3.29)(thought -3.46)(. -5.92) line score is : -3.166, look ahead score is : 0.000
+-------------------------score:  -3.029261018290664;  adjusted_score: -3.0043793953503624----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that my friend is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(my -0.62)(friend -4.36)(is -2.10)(a -4.55)(shot -3.86)(. -4.52) line score is : -3.192, look ahead score is : 0.000
+-------------------------score:  -3.0357407295342647;  adjusted_score: -3.010859106593963----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that his son is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(his -0.62)(son -4.36)(is -2.10)(a -5.44)(shot -3.02)(. -4.94) line score is : -3.238, look ahead score is : 0.000
+-------------------------score:  -3.039150418657245;  adjusted_score: -3.0142687957169434----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that her son has a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(her -0.62)(son -4.36)(has -2.10)(a -3.29)(shot -3.46)(. -5.92) line score is : -3.166, look ahead score is : 0.000
+-------------------------score:  -3.041340909220956;  adjusted_score: -3.0164592856846073----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and i know that her face is a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(i -6.52)(know -2.50)(that -0.55)(her -3.31)(face -5.44)(is -1.71)(a -3.57)(thought -2.70)(. -2.84) line score is : -3.091, look ahead score is : 0.000
+-------------------------score:  -3.0431290449518147;  adjusted_score: -3.018247421415466----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that her son is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(her -1.11)(son -3.48)(is -3.90)(a -3.38)(shot -3.35)(. -4.98) line score is : -3.154, look ahead score is : 0.000
+-------------------------score:  -3.0446567517338377;  adjusted_score: -3.019775128197489----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that my son is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(my -1.11)(son -3.48)(is -3.90)(a -4.37)(shot -3.62)(. -4.05) line score is : -3.187, look ahead score is : 0.000
+-------------------------score:  -3.0458030050451104;  adjusted_score: -3.0209213821048087----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that my son has a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(my -0.62)(son -4.36)(has -2.10)(a -4.55)(thought -3.67)(. -5.27) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.0481376666011233;  adjusted_score: -3.023256043064775----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that her son has a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(her -1.11)(son -3.48)(has -3.90)(a -3.38)(thought -3.35)(. -6.03) line score is : -3.259, look ahead score is : 0.000
+-------------------------score:  -3.051477984948592;  adjusted_score: -3.02659636200829----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that my wife is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(my -0.62)(wife -4.36)(is -2.10)(a -4.55)(shot -4.55)(. -4.55) line score is : -3.264, look ahead score is : 0.000
+-------------------------score:  -3.0620680433331113;  adjusted_score: -3.0371864203928096----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that my son has a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(my -0.62)(son -4.36)(has -2.10)(a -4.55)(shot -3.67)(. -5.27) line score is : -3.247, look ahead score is : 0.000
+-------------------------score:  -3.0638166936961087;  adjusted_score: -3.03893507015976----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and i heard that her son is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(i -6.52)(heard -2.50)(that -0.55)(her -3.31)(son -2.65)(is -4.00)(a -3.20)(shot -3.30)(. -4.97) line score is : -3.279, look ahead score is : 0.000
+-------------------------score:  -3.0692975105661335;  adjusted_score: -3.044415887029785----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that her friend has a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(her -1.11)(friend -3.48)(has -3.90)(a -3.38)(thought -3.46)(. -6.34) line score is : -3.302, look ahead score is : 0.000
+-------------------------score:  -3.0751817641836223;  adjusted_score: -3.050300140647274----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that her friend is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(her -1.11)(friend -3.48)(is -3.90)(a -3.38)(shot -3.46)(. -5.15) line score is : -3.183, look ahead score is : 0.000
+-------------------------score:  -3.082525925202803;  adjusted_score: -3.0576443022625015----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ and she heard that his name is a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.03)(heard -2.60)(that -0.51)(his -0.62)(name -4.36)(is -2.10)(a -5.44)(thought -3.53)(. -3.24) line score is : -3.120, look ahead score is : 0.000
+-------------------------score:  -3.090649740262465;  adjusted_score: -3.0657681167261166----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that my friend is a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(my -1.11)(friend -3.48)(is -3.90)(a -4.37)(shot -4.18)(. -4.44) line score is : -3.282, look ahead score is : 0.000
+-------------------------score:  -3.0919624079357493;  adjusted_score: -3.067080784399401----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the shore , 
+ and she heard that her son has a thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(shore -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -7.92)(heard -2.10)(that -0.53)(her -0.83)(son -4.39)(has -2.96)(a -3.01)(thought -3.21)(. -6.14) line score is : -3.286, look ahead score is : 0.000
+-------------------------score:  -3.0959562081279177;  adjusted_score: -3.0710745845915692----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and she heard that her son has a shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(she -6.52)(heard -2.50)(that -0.55)(her -1.11)(son -3.48)(has -3.90)(a -3.38)(shot -3.35)(. -6.03) line score is : -3.259, look ahead score is : 0.000
 ======================= template: 6 ============================  
 sarah 
  WHO VBD A JJ NN AND VBD . 
@@ -625,172 +1021,271 @@ who ate a green apple and died
  they came back from the ride 
  and they rushed to the rail 
  so he had to sit down on the floor 
--------------------------score:  -3.102139362783143;  adjusted_score: -3.0772577392467944----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.1231734427538784;  adjusted_score: -3.09829181921753----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the door , 
  so she had to come down on the thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (so -1.77)(she -6.52)(had -2.50)(to -5.31)(come -2.17)(down -3.74)(on -1.60)(the -3.31)(thought -4.10)(. -4.29) line score is : -3.532, look ahead score is : 0.000
--------------------------score:  -3.2209144379153396;  adjusted_score: -3.196032814975038----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.2419485395604912;  adjusted_score: -3.2170669166201895----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
  so she had to sell down on the thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (so -1.77)(she -7.03)(had -2.60)(to -5.11)(sell -1.59)(down -3.11)(on -2.28)(the -3.69)(thought -8.26)(. -4.81) line score is : -4.025, look ahead score is : 0.000
--------------------------score:  -3.2624602299748044;  adjusted_score: -3.2375786070345027----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.2770492271943525;  adjusted_score: -3.252167604254051----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ so she had to bring down on the thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(she -7.03)(had -2.60)(to -5.11)(bring -1.59)(down -3.11)(on -2.28)(the -4.21)(thought -5.79)(. -6.22) line score is : -3.970, look ahead score is : 0.000
+-------------------------score:  -3.283494331619956;  adjusted_score: -3.2586127086796544----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
  so she had to give down on the thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (so -1.77)(she -7.03)(had -2.60)(to -5.11)(give -1.59)(down -3.11)(on -2.28)(the -4.14)(thought -7.91)(. -6.00) line score is : -4.152, look ahead score is : 0.000
--------------------------score:  -3.2782343048037905;  adjusted_score: -3.253352681267442----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.299268384774526;  adjusted_score: -3.2743867612381776----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the door , 
  so she had to tell down on the thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (so -1.77)(she -6.52)(had -2.50)(to -5.31)(tell -2.17)(down -3.74)(on -1.60)(the -3.93)(thought -9.93)(. -4.35) line score is : -4.183, look ahead score is : 0.000
--------------------------score:  -3.2840196454163753;  adjusted_score: -3.2591380218800268----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.305053725387111;  adjusted_score: -3.2801721018507624----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the door , 
  so she had to take down on the thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (so -1.77)(she -6.52)(had -2.50)(to -5.31)(take -2.17)(down -3.74)(on -1.60)(the -3.92)(thought -5.40)(. -7.84) line score is : -4.077, look ahead score is : 0.000
--------------------------score:  -3.30397521907633;  adjusted_score: -3.279093596136028----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.308851390173941;  adjusted_score: -3.283969767233639----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the store , 
+ so she had to wear down on the thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(she -7.03)(had -2.60)(to -5.11)(wear -1.59)(down -3.11)(on -2.28)(the -4.21)(thought -7.52)(. -5.77) line score is : -4.097, look ahead score is : 0.000
+-------------------------score:  -3.325009320721482;  adjusted_score: -3.30012769778118----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the store , 
  so she had to take down on the thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (so -1.77)(she -7.03)(had -2.60)(to -5.11)(take -1.59)(down -3.11)(on -2.28)(the -3.81)(thought -6.04)(. -7.71) line score is : -4.104, look ahead score is : 0.000
 ======================= template: 7 ============================  
 sarah 
  WHO VBD A JJ NN AND VBD . 
  PRP VBD BACK FROM THE NN , 
  AND PRP VBD TO THE NN , 
- BUT PRP VBD AND PRP VBD , NN . 
+ PRP VBD PRP$ JJ NNS AND CD NN . 
 ----------------------- original sentences ------------------------------------ 
 who ate a green apple and died 
  they came back from the ride 
  and they rushed to the rail 
- but she sighed and she said , canteloupe 
--------------------------score:  -3.133253077045083;  adjusted_score: -3.1083714535087346----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- but she heard and she understood , thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(but -1.77)(she -6.52)(heard -2.50)(and -2.87)(she -1.40)(understood -2.99)(, -6.56)(thought -1.70)(. -5.49) line score is : -3.533, look ahead score is : 0.000
--------------------------score:  -3.1347511801868677;  adjusted_score: -3.1098695566505192----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- but she saw and she understood , thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(but -1.77)(she -6.52)(saw -2.50)(and -2.87)(she -1.40)(understood -2.34)(, -6.56)(thought -2.40)(. -5.21) line score is : -3.507, look ahead score is : 0.000
--------------------------score:  -3.1564425975084305;  adjusted_score: -3.131560973972082----------------------- 
+ they found his front teeth and one cuff 
+-------------------------score:  -3.1257835291326046;  adjusted_score: -3.100901906192303----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- and she went to the door , 
- but she saw and she understood , thought . 
+ and she went to the store , 
+ she bought her own weapons and one shot . 
 ------------------------- score breakdown ------------------------ 
 (who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
-(but -1.77)(she -6.52)(saw -2.50)(and -2.87)(she -1.40)(understood -2.34)(, -6.56)(thought -2.40)(. -5.21) line score is : -3.507, look ahead score is : 0.000
--------------------------score:  -3.173181416466832;  adjusted_score: -3.1482997929304837----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- but she saw and she recognized , thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(but -1.77)(she -6.52)(saw -2.50)(and -2.87)(she -1.40)(recognized -2.34)(, -6.56)(thought -2.40)(. -4.59) line score is : -3.437, look ahead score is : 0.000
--------------------------score:  -3.179474839940667;  adjusted_score: -3.1545932164043187----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- but she heard and she recognized , thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(but -1.77)(she -6.52)(heard -2.50)(and -2.87)(she -1.40)(recognized -2.99)(, -6.56)(thought -1.70)(. -5.26) line score is : -3.508, look ahead score is : 0.000
--------------------------score:  -3.194872833788395;  adjusted_score: -3.1699912102520464----------------------- 
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(bought -7.03)(her -2.60)(own -3.56)(weapons -1.58)(and -3.62)(one -2.60)(shot -4.60)(. -1.60) line score is : -3.218, look ahead score is : 0.000
+-------------------------score:  -3.1997444666922092;  adjusted_score: -3.1748628437519075----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- and she went to the door , 
- but she saw and she recognized , thought . 
+ and she went to the store , 
+ she bought her own weapons and two shot . 
 ------------------------- score breakdown ------------------------ 
 (who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
-(but -1.77)(she -6.52)(saw -2.50)(and -2.87)(she -1.40)(recognized -2.34)(, -6.56)(thought -2.40)(. -4.59) line score is : -3.437, look ahead score is : 0.000
--------------------------score:  -3.20116625726223;  adjusted_score: -3.1762846337258814----------------------- 
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(bought -7.03)(her -2.60)(own -3.56)(weapons -1.58)(and -3.62)(two -2.60)(shot -4.60)(. -1.60) line score is : -3.218, look ahead score is : 0.000
+-------------------------score:  -3.254086833447218;  adjusted_score: -3.2292052105069162----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
- and she went to the door , 
- but she heard and she recognized , thought . 
+ and she went to the store , 
+ she bought her own weapons and one thought . 
 ------------------------- score breakdown ------------------------ 
 (who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
-(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
-(but -1.77)(she -6.52)(heard -2.50)(and -2.87)(she -1.40)(recognized -2.99)(, -6.56)(thought -1.70)(. -5.26) line score is : -3.508, look ahead score is : 0.000
--------------------------score:  -3.2096858713775873;  adjusted_score: -3.184804247841239----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- but she saw and she realized , thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(but -1.77)(she -6.52)(saw -2.50)(and -2.87)(she -1.40)(realized -2.34)(, -6.56)(thought -2.40)(. -5.58) line score is : -3.547, look ahead score is : 0.000
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(store -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(she -1.77)(bought -7.03)(her -2.60)(own -3.56)(weapons -1.58)(and -3.62)(one -2.60)(thought -4.60)(. -1.60) line score is : -3.218, look ahead score is : 0.000
 ======================= template: 8 ============================  
+sarah 
+ WHO VBD A JJ NN AND VBD . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ BUT PRP VBP RB JJ FOR NN . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ they came back from the ride 
+ and they rushed to the rail 
+ but they re perfectly splendid for shape 
+-------------------------score:  -3.2078921987164404;  adjusted_score: -3.183010575180092----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ but i am not satisfied for thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(but -1.77)(i -6.52)(am -2.50)(not -2.87)(satisfied -3.36)(for -5.19)(thought -1.25)(. -5.68) line score is : -3.642, look ahead score is : 0.000
+-------------------------score:  -3.2564742103699715;  adjusted_score: -3.231592586833623----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ but i am not able for thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(but -1.77)(i -6.52)(am -2.50)(not -2.87)(able -3.36)(for -5.19)(thought -1.25)(. -3.37) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.2661062517473773;  adjusted_score: -3.241224628211029----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ but i am not surprised for thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(but -1.77)(i -6.52)(am -2.50)(not -2.87)(surprised -3.36)(for -5.19)(thought -1.25)(. -5.86) line score is : -3.665, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN AND VBD . 
+ PRP VBD BACK FROM THE NN , 
+ AND PRP VBD TO THE NN , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ they came back from the ride 
+ and they rushed to the rail 
+ so he called her his dear dental floss 
+-------------------------score:  -3.2304425202310085;  adjusted_score: -3.20556089669466----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i opened it my own first thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(opened -2.50)(it -5.31)(my -1.82)(own -3.44)(first -0.32)(thought -8.72)(. -4.07) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.256630379706621;  adjusted_score: -3.2317487561702727----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i opened it my own kind thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(opened -2.50)(it -5.31)(my -1.82)(own -3.44)(kind -0.32)(thought -8.72)(. -4.07) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.2810765095055103;  adjusted_score: -3.256194885969162----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i told them my secret first thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(told -2.50)(them -5.31)(my -1.82)(secret -3.93)(first -4.06)(thought -4.19)(. -4.61) line score is : -3.858, look ahead score is : 0.000
+-------------------------score:  -3.2831658497452736;  adjusted_score: -3.258284226208925----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i told him my secret first thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(told -2.50)(him -5.31)(my -1.82)(secret -3.93)(first -3.83)(thought -4.65)(. -4.34) line score is : -3.853, look ahead score is : 0.000
+-------------------------score:  -3.286083087325096;  adjusted_score: -3.2612014637887476----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i opened it my own first shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(opened -2.50)(it -5.31)(my -1.82)(own -3.44)(first -0.32)(shot -8.72)(. -4.07) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.3278573751449585;  adjusted_score: -3.30297575160861----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i opened it my own right thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(opened -2.50)(it -5.31)(my -1.82)(own -3.44)(right -0.32)(thought -8.72)(. -4.07) line score is : -3.832, look ahead score is : 0.000
+-------------------------score:  -3.364141061902046;  adjusted_score: -3.3392594383656977----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ so i opened it my first few thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(so -1.77)(i -6.52)(opened -2.50)(it -5.31)(my -1.82)(first -3.44)(few -0.32)(thought -8.72)(. -4.41) line score is : -3.869, look ahead score is : 0.000
+======================= template: 10 ============================  
 sarah 
  WHO VBD A JJ NN AND VBD . 
  PRP VBD BACK FROM THE NN , 
@@ -801,28 +1296,6 @@ who ate a green apple and died
  they came back from the ride 
  and they rushed to the rail 
  and he did n't like mother of pearl 
--------------------------score:  -3.2176207900047302;  adjusted_score: -3.1927391664683817----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- and she was still like weeping of thought . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(she -6.52)(was -2.50)(still -0.55)(like -1.11)(weeping -3.28)(of -4.76)(thought -6.36)(. -5.56) line score is : -3.600, look ahead score is : 0.000
--------------------------score:  -3.228694187477231;  adjusted_score: -3.2038125639408825----------------------- 
-there once was a woman named dot 
- who witnessed a great battle and fought . 
- she came back from the war , 
- and she went to the door , 
- and it was then like lightning of shot . 
-------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
-(and -1.77)(it -6.52)(was -2.50)(then -0.55)(like -4.10)(lightning -0.67)(of -5.34)(shot -7.34)(. -3.43) line score is : -3.578, look ahead score is : 0.000
 -------------------------score:  -3.239312207326293;  adjusted_score: -3.2144305837899445----------------------- 
 there was a fierce woman named dot 
  who witnessed a great battle and fought . 
@@ -834,14 +1307,25 @@ there was a fierce woman named dot
 (she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
 (and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (and -1.77)(she -6.52)(was -2.50)(still -0.55)(like -1.11)(weeping -3.28)(of -4.76)(thought -6.36)(. -5.56) line score is : -3.600, look ahead score is : 0.000
--------------------------score:  -3.249134624376893;  adjusted_score: -3.2242530008405446----------------------- 
-there once was a woman named dot 
+-------------------------score:  -3.250385604798794;  adjusted_score: -3.2255039812624453----------------------- 
+there was a fierce woman named dot 
+ who witnessed a great battle and fought . 
+ she came back from the war , 
+ and she went to the door , 
+ and it was then like lightning of shot . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
+(and -1.77)(it -6.52)(was -2.50)(then -0.55)(like -4.10)(lightning -0.67)(of -5.34)(shot -7.34)(. -3.43) line score is : -3.578, look ahead score is : 0.000
+-------------------------score:  -3.270826041698456;  adjusted_score: -3.2459444181621073----------------------- 
+there was a fierce woman named dot 
  who witnessed a great battle and fought . 
  she came back from the war , 
  and she went to the door , 
  and it was then like lightning of thought . 
 ------------------------- score breakdown ------------------------ 
-(who -1.52)(witnessed -7.73)(a -2.02)(great -3.84)(battle -2.12)(and -2.06)(fought -4.19)(. -4.86) line score is : -3.542, look ahead score is : 0.000
-(she -4.86)(came -1.12)(back -3.82)(from -2.00)(the -2.75)(war -0.94)(, -2.34) line score is : -2.546, look ahead score is : 0.592
-(and -2.34)(she -2.63)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.226, look ahead score is : 0.652
+(who -1.17)(witnessed -7.28)(a -4.05)(great -3.03)(battle -2.00)(and -1.96)(fought -3.78)(. -4.50) line score is : -3.470, look ahead score is : 0.000
+(she -4.50)(came -1.35)(back -4.16)(from -2.18)(the -2.84)(war -0.90)(, -2.55) line score is : -2.640, look ahead score is : 0.592
+(and -2.55)(she -2.89)(went -1.84)(to -2.27)(the -3.97)(door -0.76)(, -1.77) line score is : -2.293, look ahead score is : 0.652
 (and -1.77)(it -6.52)(was -2.50)(then -0.55)(like -4.10)(lightning -0.67)(of -5.34)(thought -7.34)(. -3.43) line score is : -3.578, look ahead score is : 0.000

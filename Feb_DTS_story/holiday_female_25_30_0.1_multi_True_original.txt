@@ -3,97 +3,361 @@ sarah
  WHO VBD ALL PRP$ NN IN A NN . 
  PRP VBD FOR PRP$ NN , 
  BUT PRP VBD THE JJ NN , 
- AND THE NN ON THE NN OF THE NN . 
+ SO PRP VBD UP AND VB ON THE NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
  he bought for his daughter 
  but they went the wrong way 
- and the smile on the face of the tiger 
--------------------------score:  -3.0007714295026027;  adjusted_score: -2.9746841533120834----------------------- 
-there was a grandma named lore 
+ so he jumped up and spat on the ceiling 
+-------------------------score:  -2.763656878110134;  adjusted_score: -2.737052907731497----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the last day , 
+ so she gave up and drank on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(so -3.00)(she -1.52)(gave -3.72)(up -0.75)(and -0.56)(drank -4.02)(on -3.11)(the -1.97)(shore -6.69)(. -5.46) line score is : -3.079, look ahead score is : 0.000
+-------------------------score:  -2.7859409072182397;  adjusted_score: -2.7598536310277204----------------------- 
+there was a bright grandma named lore 
  who spent all her money in a store . 
  it was for her birthday , 
  but it was the wrong day , 
- and the shop on the way of the shore . 
+ so she gave up and drank on the shore . 
 ------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(it -1.77)(was -2.09)(the -2.66)(wrong -0.83)(day -3.82)(, -3.11) line score is : -2.293, look ahead score is : 0.702
-(and -3.11)(the -1.98)(shop -2.07)(on -1.65)(the -2.86)(way -4.10)(of -6.66)(the -0.69)(shore -2.92)(. -8.08) line score is : -3.413, look ahead score is : 0.000
--------------------------score:  -3.0390563462719773;  adjusted_score: -3.0127633017346716----------------------- 
-there was a grandma named flor 
- who spent all her money in a store . 
- it was for her birthday , 
- but she went the wrong way , 
- and the man on the road of the shore . 
-------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(she -1.77)(went -2.09)(the -1.00)(wrong -4.47)(way -5.65)(, -1.99) line score is : -2.677, look ahead score is : 0.713
-(and -1.99)(the -0.17)(man -2.56)(on -1.36)(the -2.79)(road -4.26)(of -4.85)(the -0.20)(shore -3.59)(. -7.36) line score is : -2.914, look ahead score is : 0.000
--------------------------score:  -3.044093162724466;  adjusted_score: -3.0178001181871603----------------------- 
-there was a grandma named lenore 
- who spent all her money in a store . 
- it was for her birthday , 
- but she went the wrong way , 
- and the man on the train of the shore . 
-------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(she -1.77)(went -2.09)(the -1.00)(wrong -4.47)(way -5.65)(, -1.99) line score is : -2.677, look ahead score is : 0.713
-(and -1.99)(the -0.17)(man -2.56)(on -1.36)(the -2.79)(train -4.26)(of -4.85)(the -0.20)(shore -3.11)(. -7.45) line score is : -2.874, look ahead score is : 0.000
--------------------------score:  -3.0510990926713655;  adjusted_score: -3.0248060481340597----------------------- 
-there was a grandma named lore 
- who spent all her money in a store . 
- it was for her birthday , 
- but she went the wrong way , 
- and the guy on the road of the shore . 
-------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(she -1.77)(went -2.09)(the -1.00)(wrong -4.47)(way -5.65)(, -1.99) line score is : -2.677, look ahead score is : 0.713
-(and -1.99)(the -0.17)(guy -2.56)(on -1.36)(the -2.79)(road -3.59)(of -4.69)(the -0.18)(shore -4.03)(. -7.51) line score is : -2.886, look ahead score is : 0.000
--------------------------score:  -3.0627562792012184;  adjusted_score: -3.036669003010699----------------------- 
-there was a grandma named flor 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(so -3.34)(she -2.28)(gave -2.10)(up -1.23)(and -0.47)(drank -3.72)(on -3.66)(the -1.65)(shore -7.06)(. -5.18) line score is : -3.069, look ahead score is : 0.000
+-------------------------score:  -2.808865729606513;  adjusted_score: -2.7827784534159936----------------------- 
+there was a bright grandma named flor 
  who spent all her money in a store . 
  it was for her birthday , 
  but it was the wrong day , 
- and the shop on the street of the shore . 
+ so she went up and drank on the shore . 
 ------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(it -1.77)(was -2.09)(the -2.66)(wrong -0.83)(day -3.82)(, -3.11) line score is : -2.293, look ahead score is : 0.702
-(and -3.11)(the -1.98)(shop -2.07)(on -1.65)(the -2.86)(street -4.10)(of -6.66)(the -0.69)(shore -3.13)(. -7.73) line score is : -3.398, look ahead score is : 0.000
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(so -3.34)(she -2.28)(went -2.10)(up -1.23)(and -0.47)(drank -2.46)(on -4.81)(the -2.90)(shore -6.52)(. -5.51) line score is : -3.162, look ahead score is : 0.000
+-------------------------score:  -2.8158426357038095;  adjusted_score: -2.7892386653251724----------------------- 
+there was a bright grandma named flor 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the last day , 
+ so she gave up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(so -3.00)(she -1.52)(gave -3.72)(up -0.75)(and -0.56)(drove -4.02)(on -3.11)(the -1.97)(shore -5.81)(. -5.34) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -2.825690690315131;  adjusted_score: -2.7996034141246118----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the wrong day , 
+ so she gave up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(so -3.34)(she -2.28)(gave -2.10)(up -1.23)(and -0.47)(drove -3.72)(on -3.66)(the -1.65)(shore -5.85)(. -5.33) line score is : -2.963, look ahead score is : 0.000
+-------------------------score:  -2.8335249622662864;  adjusted_score: -2.807437686075767----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the wrong day , 
+ so she got up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(so -3.34)(she -2.28)(got -2.10)(up -1.23)(and -0.47)(drove -3.88)(on -3.96)(the -1.59)(shore -4.94)(. -5.92) line score is : -2.972, look ahead score is : 0.000
+-------------------------score:  -2.8487710483146436;  adjusted_score: -2.8221670779360064----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the last day , 
+ so she got up and drove on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(so -3.00)(she -1.52)(got -3.72)(up -0.75)(and -0.56)(drove -4.21)(on -4.06)(the -1.82)(shore -5.20)(. -5.88) line score is : -3.072, look ahead score is : 0.000
+-------------------------score:  -2.8539653691378506;  adjusted_score: -2.8273613987592134----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the last day , 
+ so she got up and quit on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(so -3.00)(she -1.52)(got -3.72)(up -0.75)(and -0.56)(quit -4.21)(on -4.06)(the -1.82)(shore -6.56)(. -4.46) line score is : -3.066, look ahead score is : 0.000
+-------------------------score:  -2.875156550696402;  adjusted_score: -2.8485525803177647----------------------- 
+there was a bright grandma named flor 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the last day , 
+ so she gave up and set on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(so -3.00)(she -1.52)(gave -3.72)(up -0.75)(and -0.56)(set -4.02)(on -3.11)(the -1.97)(shore -6.84)(. -6.91) line score is : -3.240, look ahead score is : 0.000
+-------------------------score:  -2.8778909354498894;  adjusted_score: -2.85180365925937----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the wrong day , 
+ so she gave up and set on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(so -3.34)(she -2.28)(gave -2.10)(up -1.23)(and -0.47)(set -3.72)(on -3.66)(the -1.65)(shore -6.65)(. -6.96) line score is : -3.206, look ahead score is : 0.000
+-------------------------score:  -2.8843286922483733;  adjusted_score: -2.858241416057854----------------------- 
+there was a bright grandma named lenore 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the wrong day , 
+ so she got up and set on the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(so -3.34)(she -2.28)(got -2.10)(up -1.23)(and -0.47)(set -3.88)(on -3.96)(the -1.59)(shore -6.86)(. -6.82) line score is : -3.253, look ahead score is : 0.000
 ======================= template: 2 ============================  
 sarah 
  WHO VBD ALL PRP$ NN IN A NN . 
  PRP VBD FOR PRP$ NN , 
  BUT PRP VBD THE JJ NN , 
- AND A NN VBD PRP UP IN THE NN . 
+ AND PRP VBD TO VB TO A JJ NN . 
 ----------------------- original sentences ------------------------------------ 
 who kept all his cash in a bucket 
  he bought for his daughter 
  but they went the wrong way 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.7986361691446016;  adjusted_score: -2.7720321987659644----------------------- 
+there was a bright grandma named flor 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the last day , 
+ and she had to go to a long shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(and -3.00)(she -1.52)(had -3.72)(to -1.40)(go -0.77)(to -2.11)(a -1.25)(long -1.63)(shore -1.73)(. -2.50) line score is : -1.963, look ahead score is : 0.000
+-------------------------score:  -2.8053077603831436;  adjusted_score: -2.7792204841926242----------------------- 
+there was a bright grandma named lenore 
+ who spent all her money in a store . 
+ it was for her birthday , 
+ but it was the wrong day , 
+ and she had to go to a long shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(wrong -0.79)(day -3.87)(, -3.34) line score is : -2.314, look ahead score is : 0.702
+(and -3.34)(she -2.28)(had -2.10)(to -1.54)(go -0.84)(to -2.57)(a -1.34)(long -1.81)(shore -1.33)(. -2.43) line score is : -1.958, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ he was ready to faint 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.800223456695676;  adjusted_score: -2.7712187813967466----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and she had to run to a dry shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(she -2.79)(had -2.83)(to -0.95)(run -1.99)(to -3.43)(a -1.79)(dry -3.24)(shore -1.88)(. -2.76) line score is : -2.267, look ahead score is : 0.000
+-------------------------score:  -2.819581614807248;  adjusted_score: -2.790576939508319----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and she had to run to a new shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(she -2.79)(had -2.83)(to -0.95)(run -1.99)(to -3.43)(a -1.79)(new -3.24)(shore -1.88)(. -2.76) line score is : -2.267, look ahead score is : 0.000
+-------------------------score:  -2.8394127134233713;  adjusted_score: -2.810408038124442----------------------- 
+there was a bright grandma named lenore 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and she had to walk to a new shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(she -2.79)(had -2.83)(to -0.95)(walk -1.99)(to -3.43)(a -1.79)(new -3.02)(shore -3.00)(. -2.79) line score is : -2.359, look ahead score is : 0.000
+-------------------------score:  -2.8766457457095385;  adjusted_score: -2.847641070410609----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and she had to go to a deep shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(she -2.79)(had -2.83)(to -0.95)(go -1.99)(to -3.43)(a -1.79)(deep -2.49)(shore -1.78)(. -2.69) line score is : -2.175, look ahead score is : 0.000
+-------------------------score:  -2.9115321803838015;  adjusted_score: -2.882527505084872----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and she had to go to a long shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(she -2.79)(had -2.83)(to -0.95)(go -1.99)(to -3.43)(a -1.79)(long -2.49)(shore -1.78)(. -2.69) line score is : -2.175, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND A NN VBD PRP UP IN THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ he was ready to faint 
  and a dog ate him up in the hall 
--------------------------score:  -3.011613015875672;  adjusted_score: -2.9855257396851527----------------------- 
-there was a grandma named lore 
+-------------------------score:  -2.868796907365322;  adjusted_score: -2.839792232066393----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and a man pulled him up towards the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(a -2.79)(man -2.83)(pulled -0.95)(him -3.34)(up -1.95)(towards -4.81)(the -4.96)(shore -3.11)(. -7.85) line score is : -3.358, look ahead score is : 0.000
+-------------------------score:  -2.8879378642886877;  adjusted_score: -2.8589331889897585----------------------- 
+there was a bright grandma named flor 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and a man drove him up towards the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(a -2.79)(man -2.83)(drove -0.95)(him -3.34)(up -1.95)(towards -5.02)(the -5.09)(shore -3.79)(. -7.16) line score is : -3.392, look ahead score is : 0.000
+-------------------------score:  -2.8965162485837936;  adjusted_score: -2.8675115732848644----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and a car drove him up towards the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(a -2.79)(car -2.83)(drove -0.95)(him -3.34)(up -3.41)(towards -2.00)(the -7.53)(shore -3.72)(. -6.37) line score is : -3.393, look ahead score is : 0.000
+-------------------------score:  -2.896944822743535;  adjusted_score: -2.867940147444606----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and a man walked him up towards the shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(a -2.79)(man -2.83)(walked -0.95)(him -3.34)(up -1.95)(towards -2.48)(the -8.72)(shore -3.03)(. -7.03) line score is : -3.411, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ PRP VBD THE JJ NN , 
+ AND PRP VBD TO VB TO A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ he told the same joke 
+ and they had to revert to a man cashier 
+-------------------------score:  -2.8934411983937025;  adjusted_score: -2.8679003421217204----------------------- 
+there was a bright grandma named flor 
  who spent all her money in a store . 
  it was for her birthday , 
- but it was the wrong day , 
- and a friend told me up in the shore . 
+ it was the perfect day , 
+ and she had to go to a long shore . 
 ------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(it -1.77)(was -2.09)(the -2.66)(wrong -0.83)(day -3.82)(, -3.11) line score is : -2.293, look ahead score is : 0.702
-(and -3.11)(a -1.98)(friend -2.07)(told -1.65)(me -4.99)(up -2.68)(in -3.27)(the -2.63)(shore -9.85)(. -3.46) line score is : -3.571, look ahead score is : 0.000
--------------------------score:  -3.0388519610419418;  adjusted_score: -3.0127646848514225----------------------- 
-there was a grandma named laure 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(it -1.83)(was -1.71)(the -4.32)(perfect -0.30)(day -3.37)(, -4.27) line score is : -2.634, look ahead score is : 0.675
+(and -4.27)(she -2.11)(had -2.11)(to -1.29)(go -0.91)(to -2.27)(a -2.48)(long -1.95)(shore -1.55)(. -1.94) line score is : -2.089, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ PRP VBD FOR PRP$ NN , 
+ BUT PRP VBD THE JJ NN , 
+ SO PRP RB VBD ON THE NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ he bought for his daughter 
+ but they went the wrong way 
+ so he carefully spat on the ceiling 
+-------------------------score:  -2.953557748948374;  adjusted_score: -2.926953778569737----------------------- 
+there was a bright grandma named flor 
  who spent all her money in a store . 
  it was for her birthday , 
- but it was the wrong day , 
- and a friend told us up in the shore . 
+ but it was the last day , 
+ so she really wanted on the shore . 
 ------------------------- score breakdown ------------------------ 
-(who -1.37)(spent -6.46)(all -2.78)(her -0.38)(money -1.60)(in -3.26)(a -2.31)(store -3.86)(. -2.63) line score is : -2.739, look ahead score is : 0.000
-(it -2.63)(was -3.74)(for -1.05)(her -6.06)(birthday -1.90)(, -1.76) line score is : -2.859, look ahead score is : 0.602
-(but -1.76)(it -1.77)(was -2.09)(the -2.66)(wrong -0.83)(day -3.82)(, -3.11) line score is : -2.293, look ahead score is : 0.702
-(and -3.11)(a -1.98)(friend -2.07)(told -1.65)(us -4.99)(up -2.68)(in -3.27)(the -4.61)(shore -9.45)(. -3.19) line score is : -3.702, look ahead score is : 0.000
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(it -2.67)(was -3.81)(for -1.10)(her -6.46)(birthday -1.88)(, -1.83) line score is : -2.957, look ahead score is : 0.602
+(but -1.83)(it -1.71)(was -2.20)(the -2.45)(last -0.79)(day -3.87)(, -3.00) line score is : -2.266, look ahead score is : 0.728
+(so -3.00)(she -1.52)(really -3.72)(wanted -0.75)(on -0.56)(the -6.37)(shore -1.68)(. -9.90) line score is : -3.438, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD ALL PRP$ NN IN A NN . 
+ THE NN OF PRP$ NN , 
+ PRP VBD JJ TO VB , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who kept all his cash in a bucket 
+ the cause of his sorrow 
+ he was ready to faint 
+ and returned on the previous night 
+-------------------------score:  -2.9680644664271125;  adjusted_score: -2.9390597911281833----------------------- 
+there was a bright grandma named laure 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and sat on the elevated shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(sat -2.79)(on -2.83)(the -0.95)(elevated -5.38)(shore -1.53)(. -0.67) line score is : -2.164, look ahead score is : 0.000
+-------------------------score:  -3.0244500637054443;  adjusted_score: -2.995445388406515----------------------- 
+there was a bright grandma named lore 
+ who spent all her money in a store . 
+ the day of her birthday , 
+ she went outside to play , 
+ and stood on the elevated shore . 
+------------------------- score breakdown ------------------------ 
+(who -1.45)(spent -6.53)(all -2.62)(her -0.48)(money -2.18)(in -3.33)(a -2.32)(store -3.95)(. -2.67) line score is : -2.838, look ahead score is : 0.000
+(the -2.67)(day -3.61)(of -5.30)(her -2.38)(birthday -2.13)(, -2.01) line score is : -3.019, look ahead score is : 0.750
+(she -2.01)(went -0.85)(outside -0.81)(to -2.83)(play -4.96)(, -1.01) line score is : -2.080, look ahead score is : 0.700
+(and -1.01)(stood -2.79)(on -2.83)(the -0.95)(elevated -6.82)(shore -1.98)(. -0.59) line score is : -2.423, look ahead score is : 0.000

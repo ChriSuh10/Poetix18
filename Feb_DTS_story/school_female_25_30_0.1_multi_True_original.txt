@@ -1,0 +1,770 @@
+======================= template: 1 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was pained by a tooth 
+ but he thanked his detractors and bowed 
+-------------------------score:  -2.94285848736763;  adjusted_score: -2.917116850540042----------------------- 
+there once was a girl named dyan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ but she kept her emotions and ran . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(but -1.80)(she -5.88)(kept -2.35)(her -1.93)(emotions -1.32)(and -3.63)(ran -3.83)(. -5.34) line score is : -3.261, look ahead score is : 0.000
+-------------------------score:  -3.054791441848201;  adjusted_score: -3.029049805020613----------------------- 
+there once was a girl named fran 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ but she had her memories and ran . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(but -1.80)(she -5.88)(had -2.35)(her -1.93)(memories -1.32)(and -4.48)(ran -3.77)(. -5.11) line score is : -3.329, look ahead score is : 0.000
+======================= template: 2 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND THAT VBZ THE NN OF THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was pained by a tooth 
+ and that is the cause of this sonnet 
+-------------------------score:  -3.019073677249253;  adjusted_score: -2.993545442484319----------------------- 
+there once was a girl named lan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(that -7.65)(is -2.92)(the -1.38)(reason -4.27)(of -3.12)(this -2.61)(plan -2.03)(. -4.22) line score is : -3.309, look ahead score is : 0.000
+-------------------------score:  -3.0247584600001574;  adjusted_score: -2.998421023786068----------------------- 
+there once was a girl named leann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was caught by a wall , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(caught -1.07)(by -2.34)(a -4.81)(wall -1.54)(, -1.79) line score is : -2.823, look ahead score is : 0.666
+(and -1.79)(that -5.64)(is -2.27)(the -1.20)(reason -4.87)(of -3.31)(this -3.08)(plan -2.06)(. -4.10) line score is : -3.147, look ahead score is : 0.000
+-------------------------score:  -3.046797476708889;  adjusted_score: -3.0209347385913135----------------------- 
+there once was a girl named suzanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a ball , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(ball -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(that -5.16)(is -3.78)(the -1.38)(reason -4.88)(of -3.63)(this -2.75)(plan -1.90)(. -3.89) line score is : -3.198, look ahead score is : 0.000
+-------------------------score:  -3.047219797037542;  adjusted_score: -3.021478160209954----------------------- 
+there once was a girl named anne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(that -5.88)(is -2.35)(the -1.24)(reason -4.89)(of -3.42)(this -2.99)(plan -2.41)(. -4.31) line score is : -3.255, look ahead score is : 0.000
+-------------------------score:  -3.0504627600312233;  adjusted_score: -3.024600022509694----------------------- 
+there once was a girl named georgann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a wall , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(wall -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(that -6.24)(is -2.29)(the -1.30)(reason -5.25)(of -3.45)(this -2.93)(plan -2.17)(. -3.98) line score is : -3.224, look ahead score is : 0.000
+-------------------------score:  -3.071729409508407;  adjusted_score: -3.046201174147427----------------------- 
+there once was a girl named joann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a ball , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(ball -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(that -8.00)(is -4.27)(the -1.58)(reason -4.16)(of -3.20)(this -2.58)(plan -1.94)(. -4.15) line score is : -3.495, look ahead score is : 0.000
+-------------------------score:  -3.0872074589133263;  adjusted_score: -3.0613353914767503----------------------- 
+there once was a girl named joann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was met by a wall , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(met -1.07)(by -2.34)(a -5.18)(wall -1.55)(, -1.31) line score is : -2.810, look ahead score is : 0.643
+(and -1.31)(that -5.70)(is -3.50)(the -1.37)(reason -4.59)(of -3.35)(this -2.92)(plan -2.79)(. -4.34) line score is : -3.317, look ahead score is : 0.000
+-------------------------score:  -3.096928546205163;  adjusted_score: -3.070769169777632----------------------- 
+there once was a girl named fran 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was thrown by a wall , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(thrown -1.07)(by -2.34)(a -5.12)(wall -3.43)(, -2.41) line score is : -3.225, look ahead score is : 0.657
+(and -2.41)(that -4.90)(is -2.08)(the -1.70)(reason -4.84)(of -3.05)(this -2.90)(plan -2.28)(. -3.99) line score is : -3.126, look ahead score is : 0.000
+-------------------------score:  -3.097575976513326;  adjusted_score: -3.072047741152346----------------------- 
+there once was a girl named nan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a call , 
+ and that is the reason of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(call -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(that -6.88)(is -5.48)(the -1.78)(reason -4.47)(of -3.38)(this -2.55)(plan -2.08)(. -4.35) line score is : -3.617, look ahead score is : 0.000
+-------------------------score:  -3.1438553277403116;  adjusted_score: -3.117517891526222----------------------- 
+there once was a girl named liane 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was caught by a wall , 
+ and that is the moment of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(caught -1.07)(by -2.34)(a -4.81)(wall -1.54)(, -1.79) line score is : -2.823, look ahead score is : 0.666
+(and -1.79)(that -5.64)(is -2.27)(the -1.20)(moment -4.87)(of -3.31)(this -3.08)(plan -2.88)(. -3.47) line score is : -3.167, look ahead score is : 0.000
+-------------------------score:  -3.1492856023833156;  adjusted_score: -3.1235439655557276----------------------- 
+there once was a girl named leann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and that is the moment of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(that -5.88)(is -2.35)(the -1.24)(moment -4.89)(of -3.42)(this -2.99)(plan -2.50)(. -3.69) line score is : -3.196, look ahead score is : 0.000
+-------------------------score:  -3.1636368138715625;  adjusted_score: -3.1381085791066288----------------------- 
+there once was a girl named susann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and that is the moment of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(that -7.65)(is -2.92)(the -1.38)(moment -4.27)(of -3.12)(this -2.61)(plan -3.12)(. -3.52) line score is : -3.354, look ahead score is : 0.000
+-------------------------score:  -3.1662979759275913;  adjusted_score: -3.140435238406062----------------------- 
+there once was a girl named dianne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a wall , 
+ and that is the moment of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(wall -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(that -6.24)(is -2.29)(the -1.30)(moment -5.25)(of -3.45)(this -2.93)(plan -2.64)(. -3.73) line score is : -3.249, look ahead score is : 0.000
+-------------------------score:  -3.1803710721433163;  adjusted_score: -3.1545083340257407----------------------- 
+there once was a girl named joann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a ball , 
+ and that is the moment of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(ball -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(that -5.16)(is -3.78)(the -1.38)(moment -4.88)(of -3.63)(this -2.75)(plan -2.94)(. -3.66) line score is : -3.288, look ahead score is : 0.000
+-------------------------score:  -3.190442206338048;  adjusted_score: -3.164570138901472----------------------- 
+there once was a girl named dyan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was met by a wall , 
+ and that is the moment of this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(met -1.07)(by -2.34)(a -5.18)(wall -1.55)(, -1.31) line score is : -2.810, look ahead score is : 0.643
+(and -1.31)(that -5.70)(is -3.50)(the -1.37)(moment -4.59)(of -3.35)(this -2.92)(plan -2.85)(. -3.45) line score is : -3.225, look ahead score is : 0.000
+======================= template: 3 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ he ran like a flash 
+ but they went the wrong way 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.102006362330529;  adjusted_score: -3.0761434251334396----------------------- 
+there once was a girl named suzanne 
+ who took out her feelings for a man . 
+ it was like a football , 
+ but it was the same ball , 
+ but she had her emotions and ran . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(it -3.02)(was -3.53)(like -1.15)(a -3.61)(football -1.70)(, -7.19) line score is : -3.369, look ahead score is : 0.629
+(but -7.19)(it -4.52)(was -2.19)(the -2.40)(same -0.53)(ball -3.65)(, -4.04) line score is : -3.503, look ahead score is : 0.665
+(but -4.04)(she -4.20)(had -2.10)(her -2.61)(emotions -2.70)(and -2.54)(ran -3.12)(. -4.77) line score is : -3.260, look ahead score is : 0.000
+======================= template: 4 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was ready to faint 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.1265529704319004;  adjusted_score: -3.099874577470279----------------------- 
+there once was a girl named marianne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was able to call , 
+ but she kept her emotions and ran . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(able -1.07)(to -2.34)(call -3.55)(, -0.00) line score is : -2.529, look ahead score is : 0.683
+(but -0.00)(she -4.63)(kept -6.53)(her -1.73)(emotions -1.69)(and -4.42)(ran -3.67)(. -3.90) line score is : -3.321, look ahead score is : 0.000
+-------------------------score:  -3.2018869789666495;  adjusted_score: -3.175208586005028----------------------- 
+there once was a girl named tran 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was able to call , 
+ but she felt her emotions and ran . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(able -1.07)(to -2.34)(call -3.55)(, -0.00) line score is : -2.529, look ahead score is : 0.683
+(but -0.00)(she -4.63)(felt -6.53)(her -1.73)(emotions -1.69)(and -4.36)(ran -3.51)(. -4.44) line score is : -3.362, look ahead score is : 0.000
+======================= template: 5 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was pained by a tooth 
+ so he called her his dear dental floss 
+-------------------------score:  -3.179776049219072;  adjusted_score: -3.154034412391484----------------------- 
+there once was a girl named dianne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ so she got herself her own new plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(so -1.80)(she -5.88)(got -2.35)(herself -3.82)(her -0.46)(own -3.84)(new -4.95)(plan -6.49)(. -1.81) line score is : -3.488, look ahead score is : 0.000
+-------------------------score:  -3.212404848076403;  adjusted_score: -3.186663211248815----------------------- 
+there once was a girl named maryann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ so she got herself her own big plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(so -1.80)(she -5.88)(got -2.35)(herself -3.82)(her -0.46)(own -3.84)(big -4.95)(plan -6.49)(. -1.81) line score is : -3.488, look ahead score is : 0.000
+-------------------------score:  -3.2235107757151127;  adjusted_score: -3.197173339501023----------------------- 
+there once was a girl named diane 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was caught by a wall , 
+ so she got herself her own big plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(caught -1.07)(by -2.34)(a -4.81)(wall -1.54)(, -1.79) line score is : -2.823, look ahead score is : 0.666
+(so -1.79)(she -5.64)(got -2.27)(herself -4.25)(her -0.68)(own -3.68)(big -4.53)(plan -6.73)(. -2.04) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.2298548193648458;  adjusted_score: -3.2041131825372577----------------------- 
+there once was a girl named leann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ so she got herself her first real plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(so -1.80)(she -5.88)(got -2.35)(herself -3.82)(her -0.46)(first -3.84)(real -4.95)(plan -6.49)(. -4.77) line score is : -3.817, look ahead score is : 0.000
+-------------------------score:  -3.256276444531977;  adjusted_score: -3.230534807704389----------------------- 
+there once was a girl named ariane 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ so she got herself her own small plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(so -1.80)(she -5.88)(got -2.35)(herself -3.82)(her -0.46)(own -3.84)(small -4.95)(plan -6.49)(. -1.81) line score is : -3.488, look ahead score is : 0.000
+-------------------------score:  -3.2592330062761903;  adjusted_score: -3.2334913694486023----------------------- 
+there once was a girl named roseanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ so she threw herself her own small plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(so -1.80)(she -5.88)(threw -2.35)(herself -3.82)(her -0.46)(own -4.39)(small -0.56)(plan -9.40)(. -3.95) line score is : -3.622, look ahead score is : 0.000
+-------------------------score:  -3.269978314638138;  adjusted_score: -3.2436408784240482----------------------- 
+there once was a girl named shan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was caught by a wall , 
+ so she got herself her own small plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(caught -1.07)(by -2.34)(a -4.81)(wall -1.54)(, -1.79) line score is : -2.823, look ahead score is : 0.666
+(so -1.79)(she -5.64)(got -2.27)(herself -4.25)(her -0.68)(own -3.68)(small -4.53)(plan -6.73)(. -2.04) line score is : -3.511, look ahead score is : 0.000
+-------------------------score:  -3.368896917439997;  adjusted_score: -3.343155280612409----------------------- 
+there once was a girl named nan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ so she got herself her own pet plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(so -1.80)(she -5.88)(got -2.35)(herself -3.82)(her -0.46)(own -3.84)(pet -4.95)(plan -6.49)(. -1.81) line score is : -3.488, look ahead score is : 0.000
+======================= template: 6 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ SO PRP VBD PRP PRP$ JJ JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was ready to faint 
+ so he called her his dear dental floss 
+-------------------------score:  -3.189359747594403;  adjusted_score: -3.163724578073429----------------------- 
+there once was a girl named nan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was afraid to call , 
+ so she told him her secret last plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(afraid -1.07)(to -2.34)(call -4.81)(, -1.66) line score is : -3.016, look ahead score is : 0.631
+(so -1.66)(she -3.79)(told -5.38)(him -1.88)(her -0.85)(secret -3.50)(last -2.01)(plan -3.66)(. -2.91) line score is : -2.850, look ahead score is : 0.000
+======================= template: 7 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND PRP VBP VBN TO THE NN WITH NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was pained by a tooth 
+ and I am stuck to the toilet with glue 
+-------------------------score:  -3.2645349168416224;  adjusted_score: -3.2390066820766887----------------------- 
+there once was a girl named shan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the school with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(school -6.55)(with -1.30)(plan -1.86)(. -5.18) line score is : -3.645, look ahead score is : 0.000
+-------------------------score:  -3.268709423867139;  adjusted_score: -3.2431811891022053----------------------- 
+there once was a girl named shan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the beach with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(beach -6.55)(with -1.30)(plan -1.86)(. -4.82) line score is : -3.609, look ahead score is : 0.000
+-------------------------score:  -3.28966758016384;  adjusted_score: -3.2641393453989065----------------------- 
+there once was a girl named lan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the town with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(town -6.55)(with -1.30)(plan -1.86)(. -4.91) line score is : -3.618, look ahead score is : 0.000
+-------------------------score:  -3.3179334104061127;  adjusted_score: -3.292405175641179----------------------- 
+there once was a girl named diane 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the house with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(house -6.55)(with -1.30)(plan -1.86)(. -5.54) line score is : -3.681, look ahead score is : 0.000
+-------------------------score:  -3.3338483996463544;  adjusted_score: -3.3083201648814207----------------------- 
+there once was a girl named dann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the moon with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(moon -6.55)(with -1.30)(plan -1.86)(. -4.01) line score is : -3.528, look ahead score is : 0.000
+-------------------------score:  -3.3621454121488514;  adjusted_score: -3.3366171773839177----------------------- 
+there once was a girl named roxanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the land with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(land -6.55)(with -1.30)(plan -1.86)(. -5.71) line score is : -3.698, look ahead score is : 0.000
+-------------------------score:  -3.3873912303736717;  adjusted_score: -3.361862995608738----------------------- 
+there once was a girl named tran 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the top with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(top -6.55)(with -1.30)(plan -1.86)(. -5.58) line score is : -3.685, look ahead score is : 0.000
+-------------------------score:  -3.3887427458257386;  adjusted_score: -3.363214511060805----------------------- 
+there once was a girl named suzanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the past with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(past -6.55)(with -1.30)(plan -1.86)(. -5.61) line score is : -3.688, look ahead score is : 0.000
+-------------------------score:  -3.4305785596370697;  adjusted_score: -3.405050324872136----------------------- 
+there once was a girl named anne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was saved by a wall , 
+ and they are sent to the world with plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(saved -1.07)(by -2.34)(a -4.32)(wall -0.23)(, -1.57) line score is : -2.536, look ahead score is : 0.626
+(and -1.57)(they -7.65)(are -2.92)(sent -1.38)(to -3.86)(the -4.18)(world -6.55)(with -1.30)(plan -1.86)(. -5.81) line score is : -3.708, look ahead score is : 0.000
+======================= template: 8 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD VBN BY A NN , 
+ AND THE NN RB VBD A WHOLE NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was pained by a tooth 
+ and the captain then swore a whole lacht 
+-------------------------score:  -3.2899391232058406;  adjusted_score: -3.2641974863782526----------------------- 
+there once was a girl named tran 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the woman then threw a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(woman -2.35)(then -1.24)(threw -2.80)(a -4.29)(whole -4.84)(plan -3.81)(. -1.58) line score is : -3.176, look ahead score is : 0.000
+-------------------------score:  -3.3058194955810905;  adjusted_score: -3.2800778587535024----------------------- 
+there once was a girl named marianne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the door then opened a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(door -2.35)(then -1.24)(opened -2.80)(a -3.91)(whole -6.59)(plan -1.15)(. -5.48) line score is : -3.466, look ahead score is : 0.000
+-------------------------score:  -3.3167213266715407;  adjusted_score: -3.2909796898439527----------------------- 
+there once was a girl named dann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the woman then told a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(woman -2.35)(then -1.24)(told -2.80)(a -4.29)(whole -4.84)(plan -2.81)(. -6.49) line score is : -3.611, look ahead score is : 0.000
+-------------------------score:  -3.3205387806519866;  adjusted_score: -3.2947971438243986----------------------- 
+there once was a girl named dann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the woman then tried a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(woman -2.35)(then -1.24)(tried -2.80)(a -4.29)(whole -4.84)(plan -4.10)(. -7.07) line score is : -3.818, look ahead score is : 0.000
+-------------------------score:  -3.3258560560643673;  adjusted_score: -3.299993318542838----------------------- 
+there once was a girl named nan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a wall , 
+ and the pain almost killed a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(wall -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(the -6.24)(pain -2.29)(almost -1.30)(killed -3.12)(a -3.50)(whole -5.98)(plan -1.46)(. -8.86) line score is : -3.797, look ahead score is : 0.000
+-------------------------score:  -3.3363147415220737;  adjusted_score: -3.310452003404498----------------------- 
+there once was a girl named leann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a ball , 
+ and the pain almost killed a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(ball -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(the -5.16)(pain -3.78)(almost -1.38)(killed -3.05)(a -3.29)(whole -5.94)(plan -1.44)(. -8.62) line score is : -3.786, look ahead score is : 0.000
+-------------------------score:  -3.3481562649831176;  adjusted_score: -3.3224146281555296----------------------- 
+there once was a girl named susann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the woman then said a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(woman -2.35)(then -1.24)(said -2.80)(a -4.29)(whole -4.84)(plan -4.00)(. -5.83) line score is : -3.670, look ahead score is : 0.000
+-------------------------score:  -3.3672830080613494;  adjusted_score: -3.3415413712337614----------------------- 
+there once was a girl named maryann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the doctor then told a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(doctor -2.35)(then -1.24)(told -2.80)(a -4.83)(whole -5.31)(plan -2.44)(. -7.57) line score is : -3.802, look ahead score is : 0.000
+-------------------------score:  -3.3737457236275077;  adjusted_score: -3.3480040867999197----------------------- 
+there once was a girl named yan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was stopped by a wall , 
+ and the woman then grabbed a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(stopped -1.07)(by -2.34)(a -5.30)(wall -0.47)(, -1.80) line score is : -2.743, look ahead score is : 0.636
+(and -1.80)(the -5.88)(woman -2.35)(then -1.24)(grabbed -2.80)(a -4.29)(whole -4.84)(plan -4.13)(. -3.54) line score is : -3.429, look ahead score is : 0.000
+-------------------------score:  -3.375758197158575;  adjusted_score: -3.349895459637046----------------------- 
+there once was a girl named lan 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a wall , 
+ and the pain almost drove a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(wall -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(the -6.24)(pain -2.29)(almost -1.30)(drove -3.12)(a -3.50)(whole -5.98)(plan -2.89)(. -5.15) line score is : -3.543, look ahead score is : 0.000
+-------------------------score:  -3.3959033861756325;  adjusted_score: -3.370040648058057----------------------- 
+there once was a girl named roseanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a ball , 
+ and the pain almost made a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(ball -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(the -5.16)(pain -3.78)(almost -1.38)(made -3.05)(a -3.29)(whole -5.94)(plan -2.87)(. -6.10) line score is : -3.666, look ahead score is : 0.000
+-------------------------score:  -3.402418952435255;  adjusted_score: -3.376556214913726----------------------- 
+there once was a girl named maryanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a wall , 
+ and the pain almost made a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(wall -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(the -6.24)(pain -2.29)(almost -1.30)(made -3.12)(a -3.50)(whole -5.98)(plan -2.97)(. -6.22) line score is : -3.671, look ahead score is : 0.000
+-------------------------score:  -3.4247709177434444;  adjusted_score: -3.398908180221915----------------------- 
+there once was a girl named ruthann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was struck by a wall , 
+ and the pain almost knocked a whole plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(struck -1.07)(by -2.34)(a -5.53)(wall -0.61)(, -1.41) line score is : -2.739, look ahead score is : 0.642
+(and -1.41)(the -6.24)(pain -2.29)(almost -1.30)(knocked -3.12)(a -3.50)(whole -5.98)(plan -3.02)(. -6.51) line score is : -3.708, look ahead score is : 0.000
+======================= template: 9 ============================  
+sarah 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ THE NN OF PRP$ NN , 
+ PRP$ NN VBD SO JJ , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ the cause of his sorrow 
+ her hair got so light 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.379654286429286;  adjusted_score: -3.3539390378445386----------------------- 
+there was a stupid girl named wei 
+ who had a huge crush on my birthday . 
+ the rest of my childhood , 
+ my family was so good , 
+ and it was fun actually play . 
+------------------------- score breakdown ------------------------ 
+(who -1.62)(had -2.91)(a -1.85)(huge -4.30)(crush -1.26)(on -0.02)(my -3.28)(birthday -8.36)(. -2.27) line score is : -2.875, look ahead score is : 0.000
+(the -2.27)(rest -4.17)(of -4.57)(my -0.34)(childhood -2.06)(, -4.00) line score is : -2.902, look ahead score is : 0.608
+(my -4.00)(family -3.58)(was -2.78)(so -3.86)(good -2.23)(, -4.50) line score is : -3.492, look ahead score is : 0.678
+(and -4.50)(it -4.48)(was -2.95)(fun -2.12)(actually -3.21)(play -0.86)(. -4.02) line score is : -3.164, look ahead score is : 0.000
+======================= template: 10 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ WHEN PRP VBD TO NN , 
+ PRP VBD JJ TO VB , 
+ BUT THE NN NN VBD PRP NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ when he went to bed 
+ he was ready to faint 
+ but the telephone book caused him pain 
+-------------------------score:  -3.408683251562373;  adjusted_score: -3.3820048586007516----------------------- 
+there once was a girl named joann 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was able to call , 
+ but the male voice insisted they plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(able -1.07)(to -2.34)(call -3.55)(, -0.00) line score is : -2.529, look ahead score is : 0.683
+(but -0.00)(the -4.63)(male -6.53)(voice -1.73)(insisted -2.76)(they -5.07)(plan -2.20)(. -5.81) line score is : -3.593, look ahead score is : 0.000
+-------------------------score:  -3.5146146369205478;  adjusted_score: -3.4879362439589263----------------------- 
+there once was a girl named susanne 
+ who took out her feelings for a man . 
+ when she started to fall , 
+ she was able to call , 
+ but the male voice insisted we plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(when -3.02)(she -4.16)(started -1.21)(to -4.41)(fall -2.08)(, -3.24) line score is : -3.018, look ahead score is : 0.651
+(she -3.24)(was -4.98)(able -1.07)(to -2.34)(call -3.55)(, -0.00) line score is : -2.529, look ahead score is : 0.683
+(but -0.00)(the -4.63)(male -6.53)(voice -1.73)(insisted -2.76)(we -5.07)(plan -2.20)(. -5.81) line score is : -3.593, look ahead score is : 0.000
+======================= template: 11 ============================  
+sarah 
+ WHO VBD OUT PRP$ NNS FOR A NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ PRP VBD RB VB NN VBD THIS NN . 
+----------------------- original sentences ------------------------------------ 
+who sent out his cards for a party 
+ he ran like a flash 
+ but they went the wrong way 
+ I did n't think life was this way 
+-------------------------score:  -3.502914981916547;  adjusted_score: -3.4770520447194575----------------------- 
+there once was a girl named maryanne 
+ who took out her feelings for a man . 
+ it was like a football , 
+ but it was the same ball , 
+ it was only play time had this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(it -3.02)(was -3.53)(like -1.15)(a -3.61)(football -1.70)(, -7.19) line score is : -3.369, look ahead score is : 0.629
+(but -7.19)(it -4.52)(was -2.19)(the -2.40)(same -0.53)(ball -3.65)(, -4.04) line score is : -3.503, look ahead score is : 0.665
+(it -4.04)(was -4.20)(only -2.10)(play -2.80)(time -0.42)(had -4.87)(this -7.46)(plan -4.37)(. -6.18) line score is : -4.051, look ahead score is : 0.000
+-------------------------score:  -3.5554930958896875;  adjusted_score: -3.529630158692598----------------------- 
+there once was a girl named ruthann 
+ who took out her feelings for a man . 
+ it was like a football , 
+ but it was the same ball , 
+ it was only play time did this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(it -3.02)(was -3.53)(like -1.15)(a -3.61)(football -1.70)(, -7.19) line score is : -3.369, look ahead score is : 0.629
+(but -7.19)(it -4.52)(was -2.19)(the -2.40)(same -0.53)(ball -3.65)(, -4.04) line score is : -3.503, look ahead score is : 0.665
+(it -4.04)(was -4.20)(only -2.10)(play -2.80)(time -0.42)(did -4.87)(this -7.46)(plan -4.37)(. -8.04) line score is : -4.257, look ahead score is : 0.000
+-------------------------score:  -3.5637731049209833;  adjusted_score: -3.537910167723894----------------------- 
+there once was a girl named susann 
+ who took out her feelings for a man . 
+ it was like a football , 
+ but it was the same ball , 
+ it was only play time were this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(it -3.02)(was -3.53)(like -1.15)(a -3.61)(football -1.70)(, -7.19) line score is : -3.369, look ahead score is : 0.629
+(but -7.19)(it -4.52)(was -2.19)(the -2.40)(same -0.53)(ball -3.65)(, -4.04) line score is : -3.503, look ahead score is : 0.665
+(it -4.04)(was -4.20)(only -2.10)(play -2.80)(time -0.42)(were -4.87)(this -7.46)(plan -4.37)(. -8.09) line score is : -4.263, look ahead score is : 0.000
+-------------------------score:  -3.5700079146772623;  adjusted_score: -3.544144977480173----------------------- 
+there once was a girl named lan 
+ who took out her feelings for a man . 
+ it was like a football , 
+ but it was the same ball , 
+ it was only play time made this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(it -3.02)(was -3.53)(like -1.15)(a -3.61)(football -1.70)(, -7.19) line score is : -3.369, look ahead score is : 0.629
+(but -7.19)(it -4.52)(was -2.19)(the -2.40)(same -0.53)(ball -3.65)(, -4.04) line score is : -3.503, look ahead score is : 0.665
+(it -4.04)(was -4.20)(only -2.10)(play -2.80)(time -0.42)(made -4.87)(this -7.46)(plan -4.37)(. -8.51) line score is : -4.310, look ahead score is : 0.000
+-------------------------score:  -3.670147145166993;  adjusted_score: -3.644284207969904----------------------- 
+there once was a girl named ruthann 
+ who took out her feelings for a man . 
+ it was like a football , 
+ but it was the same ball , 
+ it was only play time got this plan . 
+------------------------- score breakdown ------------------------ 
+(who -1.78)(took -5.51)(out -5.09)(her -0.99)(feelings -5.15)(for -0.70)(a -2.28)(man -1.67)(. -3.02) line score is : -2.910, look ahead score is : 0.000
+(it -3.02)(was -3.53)(like -1.15)(a -3.61)(football -1.70)(, -7.19) line score is : -3.369, look ahead score is : 0.629
+(but -7.19)(it -4.52)(was -2.19)(the -2.40)(same -0.53)(ball -3.65)(, -4.04) line score is : -3.503, look ahead score is : 0.665
+(it -4.04)(was -4.20)(only -2.10)(play -2.80)(time -0.42)(got -4.87)(this -7.46)(plan -4.37)(. -8.89) line score is : -4.352, look ahead score is : 0.000

@@ -1,0 +1,803 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD LIKE A NN , 
+ PRP POS A NN OF NN , 
+ BUT PRP VBD PRP VBD VBG PRP JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he ran like a flash 
+ she 's a person of note 
+ but they felt it was doing them good 
+-------------------------score:  -2.6250473530963063;  adjusted_score: -2.600047183968127----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was playing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(playing -5.07)(it -2.46)(dead -0.59)(. -4.45) line score is : -2.313, look ahead score is : 0.000
+-------------------------score:  -2.68762153852731;  adjusted_score: -2.6626213693991305----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was doing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(doing -5.07)(it -3.06)(dead -1.12)(. -3.51) line score is : -2.336, look ahead score is : 0.000
+-------------------------score:  -2.692537878639996;  adjusted_score: -2.6675377095118167----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was doing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(doing -5.07)(it -2.46)(dead -0.59)(. -4.43) line score is : -2.311, look ahead score is : 0.000
+-------------------------score:  -2.696192474104464;  adjusted_score: -2.6711923049762847----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was playing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(playing -5.07)(it -3.06)(dead -1.12)(. -4.41) line score is : -2.435, look ahead score is : 0.000
+-------------------------score:  -2.7239093566313386;  adjusted_score: -2.6989091875031592----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was getting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(getting -5.07)(him -3.06)(dead -1.12)(. -3.32) line score is : -2.314, look ahead score is : 0.000
+-------------------------score:  -2.731396281160414;  adjusted_score: -2.706396112032235----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was getting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(getting -5.07)(it -3.06)(dead -1.12)(. -3.32) line score is : -2.314, look ahead score is : 0.000
+-------------------------score:  -2.7454778337851167;  adjusted_score: -2.7204776646569373----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought we were doing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(we -1.67)(were -2.13)(doing -5.07)(it -4.07)(dead -1.34)(. -3.25) line score is : -2.443, look ahead score is : 0.000
+-------------------------score:  -2.747832973487675;  adjusted_score: -2.722832804359496----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was holding it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(holding -5.07)(it -2.46)(dead -0.59)(. -5.76) line score is : -2.458, look ahead score is : 0.000
+-------------------------score:  -2.7539429580792785;  adjusted_score: -2.728942788951099----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was playing me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(playing -5.07)(me -2.46)(dead -0.59)(. -4.45) line score is : -2.313, look ahead score is : 0.000
+-------------------------score:  -2.7542978366836905;  adjusted_score: -2.729297667555511----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought it was getting me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(it -1.67)(was -2.13)(getting -5.07)(me -0.78)(dead -0.35)(. -6.31) line score is : -2.306, look ahead score is : 0.000
+-------------------------score:  -2.7606947207823396;  adjusted_score: -2.73569455165416----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was getting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(getting -5.07)(it -2.46)(dead -0.59)(. -4.65) line score is : -2.335, look ahead score is : 0.000
+-------------------------score:  -2.7608644673600793;  adjusted_score: -2.7358642982319----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was getting me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(getting -5.07)(me -2.46)(dead -0.59)(. -4.65) line score is : -2.335, look ahead score is : 0.000
+-------------------------score:  -2.77074749302119;  adjusted_score: -2.745747323893011----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought it was getting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(it -1.67)(was -2.13)(getting -5.07)(him -0.78)(dead -0.35)(. -6.31) line score is : -2.306, look ahead score is : 0.000
+-------------------------score:  -2.7721346551552415;  adjusted_score: -2.747134486027062----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was doing him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(doing -5.07)(him -3.06)(dead -1.12)(. -3.51) line score is : -2.336, look ahead score is : 0.000
+-------------------------score:  -2.792831660248339;  adjusted_score: -2.76783149112016----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was taking me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(taking -5.07)(me -2.46)(dead -0.59)(. -5.49) line score is : -2.429, look ahead score is : 0.000
+-------------------------score:  -2.794043422676623;  adjusted_score: -2.7690432535484435----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was doing them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(doing -5.07)(them -3.06)(dead -1.12)(. -3.51) line score is : -2.336, look ahead score is : 0.000
+-------------------------score:  -2.796774444170296;  adjusted_score: -2.771774275042117----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was playing us dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(playing -5.07)(us -2.46)(dead -0.59)(. -4.45) line score is : -2.313, look ahead score is : 0.000
+-------------------------score:  -2.797760804183781;  adjusted_score: -2.7727606350556018----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was taking it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(taking -5.07)(it -2.46)(dead -0.59)(. -5.49) line score is : -2.429, look ahead score is : 0.000
+-------------------------score:  -2.8092934088781476;  adjusted_score: -2.7842932397499682----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was doing him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(doing -5.07)(him -2.46)(dead -0.59)(. -4.43) line score is : -2.311, look ahead score is : 0.000
+-------------------------score:  -2.81325473356992;  adjusted_score: -2.7882545644417407----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was having it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(having -5.07)(it -3.06)(dead -1.12)(. -4.60) line score is : -2.456, look ahead score is : 0.000
+-------------------------score:  -2.816907470114529;  adjusted_score: -2.7919073009863498----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought i was doing me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(i -1.67)(was -2.13)(doing -5.07)(me -3.06)(dead -1.12)(. -3.51) line score is : -2.336, look ahead score is : 0.000
+-------------------------score:  -2.8215450206771493;  adjusted_score: -2.79654485154897----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was taking him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(taking -5.07)(him -2.46)(dead -0.59)(. -5.49) line score is : -2.429, look ahead score is : 0.000
+-------------------------score:  -2.8235506983473897;  adjusted_score: -2.7985505292192103----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was doing me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(doing -5.07)(me -2.46)(dead -0.59)(. -4.43) line score is : -2.311, look ahead score is : 0.000
+-------------------------score:  -2.8300411151722074;  adjusted_score: -2.805040946044028----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was wearing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(wearing -5.07)(it -2.46)(dead -0.59)(. -5.70) line score is : -2.452, look ahead score is : 0.000
+-------------------------score:  -2.8447343641892076;  adjusted_score: -2.819734195061028----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was taking us dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(taking -5.07)(us -2.46)(dead -0.59)(. -5.49) line score is : -2.429, look ahead score is : 0.000
+-------------------------score:  -2.847628948278725;  adjusted_score: -2.8226287791505458----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ it 's a lot of fun , 
+ but i thought he was having it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(it -5.68)('s -1.77)(a -3.27)(lot -3.57)(of -2.38)(fun -4.29)(, -1.16) line score is : -3.159, look ahead score is : 0.648
+(but -1.16)(i -0.94)(thought -2.35)(he -1.67)(was -2.13)(having -5.07)(it -2.46)(dead -0.59)(. -5.27) line score is : -2.404, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ PRP VBD RB THE NN PRP VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he ran like a flash 
+ but they went the wrong way 
+ he was n't the wizard he woz 
+-------------------------score:  -2.7106318675702616;  adjusted_score: -2.684393626970629----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(handle -0.56)(it -4.75)(said -2.97)(. -2.34) line score is : -2.675, look ahead score is : 0.000
+-------------------------score:  -2.722670194602782;  adjusted_score: -2.6964319540031494----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle he said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(handle -0.56)(he -4.75)(said -2.97)(. -2.34) line score is : -2.675, look ahead score is : 0.000
+-------------------------score:  -2.7258876533277574;  adjusted_score: -2.699649412728125----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(handle -0.56)(i -4.75)(said -2.97)(. -2.34) line score is : -2.675, look ahead score is : 0.000
+-------------------------score:  -2.732879166641543;  adjusted_score: -2.7066409260419104----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(barrel -0.56)(it -4.75)(said -2.97)(. -2.32) line score is : -2.672, look ahead score is : 0.000
+-------------------------score:  -2.734000122835559;  adjusted_score: -2.7077618822359266----------------------- 
+there was a neat boy named ted 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(it -3.29)(was -2.31)(only -1.88)(the -2.81)(barrel -0.56)(it -4.85)(said -2.91)(. -2.16) line score is : -2.597, look ahead score is : 0.000
+-------------------------score:  -2.738838723590297;  adjusted_score: -2.7126004829906645----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the trigger it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(trigger -0.56)(it -4.75)(said -2.97)(. -3.17) line score is : -2.779, look ahead score is : 0.000
+-------------------------score:  -2.741551485273146;  adjusted_score: -2.7153132446735135----------------------- 
+there was a neat boy named jed 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(it -3.29)(was -2.31)(only -1.88)(the -2.81)(handle -0.56)(it -4.85)(said -2.91)(. -2.85) line score is : -2.682, look ahead score is : 0.000
+-------------------------score:  -2.744882334624567;  adjusted_score: -2.718644094024935----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel i said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(barrel -0.56)(i -4.75)(said -2.97)(. -2.32) line score is : -2.672, look ahead score is : 0.000
+-------------------------score:  -2.754271454868778;  adjusted_score: -2.7280332142691455----------------------- 
+there was a neat boy named ned 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the trigger it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(it -3.29)(was -2.31)(only -1.88)(the -2.81)(trigger -0.56)(it -4.85)(said -2.91)(. -3.02) line score is : -2.704, look ahead score is : 0.000
+-------------------------score:  -2.756658439674685;  adjusted_score: -2.7304201990750525----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle you said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(handle -0.56)(you -4.75)(said -2.97)(. -2.34) line score is : -2.675, look ahead score is : 0.000
+-------------------------score:  -2.757292971495659;  adjusted_score: -2.7310547308960267----------------------- 
+there was a neat boy named ned 
+ who carried a long stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(long -4.96)(stick -1.90)(on -3.56)(his -0.28)(head -2.80)(. -1.75) line score is : -2.690, look ahead score is : 0.000
+(it -1.75)(was -3.60)(like -0.64)(a -4.28)(shotgun -0.92)(, -5.81) line score is : -2.833, look ahead score is : 0.602
+(but -5.81)(it -1.63)(was -1.88)(the -1.89)(same -1.09)(gun -4.41)(, -3.35) line score is : -2.866, look ahead score is : 0.710
+(it -3.35)(was -3.01)(only -1.79)(the -2.98)(handle -0.63)(it -4.62)(said -2.98)(. -2.22) line score is : -2.697, look ahead score is : 0.000
+-------------------------score:  -2.769533647164222;  adjusted_score: -2.7432954065645894----------------------- 
+there was a neat boy named ned 
+ who carried a big box on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the trigger it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(box -3.98)(on -3.22)(his -0.17)(head -3.06)(. -1.60) line score is : -2.750, look ahead score is : 0.000
+(it -1.60)(was -3.05)(like -0.64)(a -3.70)(shotgun -0.79)(, -6.69) line score is : -2.747, look ahead score is : 0.602
+(but -6.69)(it -1.83)(was -1.94)(the -1.82)(same -1.04)(gun -4.20)(, -3.51) line score is : -3.006, look ahead score is : 0.710
+(it -3.51)(was -2.55)(only -1.85)(the -2.76)(trigger -0.59)(it -4.86)(said -2.95)(. -2.82) line score is : -2.735, look ahead score is : 0.000
+-------------------------score:  -2.7701449754738037;  adjusted_score: -2.7439067348741712----------------------- 
+there was a neat boy named ted 
+ who carried a big box on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(box -3.98)(on -3.22)(his -0.17)(head -3.06)(. -1.60) line score is : -2.750, look ahead score is : 0.000
+(it -1.60)(was -3.05)(like -0.64)(a -3.70)(shotgun -0.79)(, -6.69) line score is : -2.747, look ahead score is : 0.602
+(but -6.69)(it -1.83)(was -1.94)(the -1.82)(same -1.04)(gun -4.20)(, -3.51) line score is : -3.006, look ahead score is : 0.710
+(it -3.51)(was -2.55)(only -1.85)(the -2.76)(barrel -0.59)(it -4.86)(said -2.95)(. -2.33) line score is : -2.673, look ahead score is : 0.000
+-------------------------score:  -2.770645950109728;  adjusted_score: -2.7444077095100954----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the handle we said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(it -3.36)(was -2.78)(only -1.85)(the -2.78)(handle -0.56)(we -4.75)(said -2.97)(. -2.34) line score is : -2.675, look ahead score is : 0.000
+-------------------------score:  -2.778259870506102;  adjusted_score: -2.7520216299064697----------------------- 
+there was a neat boy named ed 
+ who carried a long stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ it was only the barrel it said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(long -4.96)(stick -1.90)(on -3.56)(his -0.28)(head -2.80)(. -1.75) line score is : -2.690, look ahead score is : 0.000
+(it -1.75)(was -3.60)(like -0.64)(a -4.28)(shotgun -0.92)(, -5.81) line score is : -2.833, look ahead score is : 0.602
+(but -5.81)(it -1.63)(was -1.88)(the -1.89)(same -1.09)(gun -4.41)(, -3.35) line score is : -2.866, look ahead score is : 0.710
+(it -3.35)(was -3.01)(only -1.79)(the -2.98)(barrel -0.63)(it -4.62)(said -2.98)(. -2.19) line score is : -2.693, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ BUT PRP VBD PRP VBD VBG PRP JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he ran like a flash 
+ but they went the wrong way 
+ but they felt it was doing them good 
+-------------------------score:  -2.753787332214415;  adjusted_score: -2.7275490916147827----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was shooting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(shooting -0.83)(it -7.76)(dead -3.38)(. -3.40) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -2.7626823158934712;  adjusted_score: -2.736444075293839----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were shooting them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(shooting -0.83)(them -9.37)(dead -2.28)(. -3.00) line score is : -3.036, look ahead score is : 0.000
+-------------------------score:  -2.7643501656129956;  adjusted_score: -2.738111925013363----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were shooting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(shooting -0.83)(him -9.37)(dead -2.28)(. -3.00) line score is : -3.036, look ahead score is : 0.000
+-------------------------score:  -2.7692023376002908;  adjusted_score: -2.7429640970006584----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was shooting him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(shooting -0.83)(him -7.76)(dead -3.38)(. -3.40) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -2.7699944912455976;  adjusted_score: -2.743756250645965----------------------- 
+there was a neat boy named ted 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was shooting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(but -3.29)(it -2.31)(was -1.88)(he -2.50)(was -1.42)(shooting -0.82)(it -7.67)(dead -3.18)(. -4.04) line score is : -3.011, look ahead score is : 0.000
+-------------------------score:  -2.7766780266538262;  adjusted_score: -2.750439786054194----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were shooting it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(shooting -0.83)(it -9.37)(dead -2.28)(. -3.00) line score is : -3.036, look ahead score is : 0.000
+-------------------------score:  -2.7920468947850168;  adjusted_score: -2.7658086541853844----------------------- 
+there was a neat boy named ed 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was holding it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(but -3.29)(it -2.31)(was -1.88)(he -2.50)(was -1.42)(holding -0.82)(it -7.67)(dead -3.18)(. -2.03) line score is : -2.787, look ahead score is : 0.000
+-------------------------score:  -2.795826089568436;  adjusted_score: -2.7695878489688037----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was shooting them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(shooting -0.83)(them -7.76)(dead -3.38)(. -3.40) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -2.797180821187794;  adjusted_score: -2.770942580588162----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was holding it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(holding -0.83)(it -7.76)(dead -3.38)(. -2.26) line score is : -2.899, look ahead score is : 0.000
+-------------------------score:  -2.808993482030928;  adjusted_score: -2.7827552414312957----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were shooting you dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(shooting -0.83)(you -9.37)(dead -2.28)(. -3.00) line score is : -3.036, look ahead score is : 0.000
+-------------------------score:  -2.8147618705406785;  adjusted_score: -2.788523629941046----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were shooting me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(shooting -0.83)(me -9.37)(dead -2.28)(. -3.00) line score is : -3.036, look ahead score is : 0.000
+-------------------------score:  -2.815990616567433;  adjusted_score: -2.7897523759678005----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was shooting me dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(shooting -0.83)(me -7.76)(dead -3.38)(. -3.40) line score is : -3.025, look ahead score is : 0.000
+-------------------------score:  -2.8293002815917134;  adjusted_score: -2.803062040992081----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was throwing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(throwing -0.83)(it -7.76)(dead -3.38)(. -4.81) line score is : -3.183, look ahead score is : 0.000
+-------------------------score:  -2.8313454324379563;  adjusted_score: -2.805107191838324----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was firing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(firing -0.83)(it -7.76)(dead -3.38)(. -4.89) line score is : -3.191, look ahead score is : 0.000
+-------------------------score:  -2.841997520532459;  adjusted_score: -2.8157592799328266----------------------- 
+there was a neat boy named ted 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was holding him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(but -3.29)(it -2.31)(was -1.88)(he -2.50)(was -1.42)(holding -0.82)(him -7.67)(dead -3.18)(. -2.03) line score is : -2.787, look ahead score is : 0.000
+-------------------------score:  -2.8477881336584687;  adjusted_score: -2.8215498930588363----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was holding him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(holding -0.83)(him -7.76)(dead -3.38)(. -2.26) line score is : -2.899, look ahead score is : 0.000
+-------------------------score:  -2.850176508538425;  adjusted_score: -2.8239382679387925----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were holding it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(holding -0.83)(it -9.37)(dead -2.28)(. -3.80) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -2.876550200395286;  adjusted_score: -2.8503119597956537----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was swinging it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(swinging -0.83)(it -7.76)(dead -3.38)(. -5.01) line score is : -3.204, look ahead score is : 0.000
+-------------------------score:  -2.8775786655023694;  adjusted_score: -2.851340424902737----------------------- 
+there was a neat boy named ned 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was aiming it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(aiming -0.83)(it -7.76)(dead -3.38)(. -5.01) line score is : -3.204, look ahead score is : 0.000
+-------------------------score:  -2.8819406973198056;  adjusted_score: -2.855702456720173----------------------- 
+there was a neat boy named ed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were holding him dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(holding -0.83)(him -9.37)(dead -2.28)(. -3.80) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -2.884033582173288;  adjusted_score: -2.8577953415736554----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was he was pointing it dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(he -2.49)(was -1.36)(pointing -0.83)(it -7.76)(dead -3.38)(. -4.66) line score is : -3.166, look ahead score is : 0.000
+-------------------------score:  -2.8864871645346284;  adjusted_score: -2.860248923934996----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were holding them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(holding -0.83)(them -9.37)(dead -2.28)(. -3.80) line score is : -3.125, look ahead score is : 0.000
+-------------------------score:  -2.967941992916167;  adjusted_score: -2.9417037523165344----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was they were using them dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(they -2.49)(were -1.36)(using -0.83)(them -9.37)(dead -2.28)(. -3.97) line score is : -3.143, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND THE NN OF THE NN BY JJ . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he ran like a flash 
+ but they went the wrong way 
+ and the rest of the corpse by express 
+-------------------------score:  -2.99273029435426;  adjusted_score: -2.9664920537546275----------------------- 
+there was a neat boy named jed 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ and the target of the shot by dead . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(and -3.36)(the -2.78)(target -1.85)(of -1.88)(the -2.55)(shot -4.56)(by -5.11)(dead -1.01)(. -1.86) line score is : -2.773, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD LIKE A NN , 
+ BUT PRP VBD THE JJ NN , 
+ BUT PRP VBD PRP$ NNS AND VBD . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ he ran like a flash 
+ but they went the wrong way 
+ but he thanked his detractors and bowed 
+-------------------------score:  -3.000353245004531;  adjusted_score: -2.9741150044048985----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it had its cartridges and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(had -1.85)(its -2.49)(cartridges -1.36)(and -1.62)(said -5.95)(. -6.79) line score is : -3.276, look ahead score is : 0.000
+-------------------------score:  -3.0035605925706124;  adjusted_score: -2.97732235197098----------------------- 
+there was a neat boy named ned 
+ who carried a big bag on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it had its cartridges and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(bag -3.17)(on -3.45)(his -0.16)(head -2.70)(. -1.60) line score is : -2.645, look ahead score is : 0.000
+(it -1.60)(was -3.43)(like -0.64)(a -3.61)(shotgun -0.98)(, -6.69) line score is : -2.827, look ahead score is : 0.602
+(but -6.69)(it -1.87)(was -1.97)(the -1.82)(same -1.00)(gun -4.22)(, -3.29) line score is : -2.980, look ahead score is : 0.710
+(but -3.29)(it -2.31)(had -1.88)(its -2.50)(cartridges -1.42)(and -1.54)(said -6.05)(. -6.59) line score is : -3.199, look ahead score is : 0.000
+-------------------------score:  -3.005908767061849;  adjusted_score: -2.9796705264622165----------------------- 
+there was a neat boy named ted 
+ who carried a big stick on his head . 
+ it was like a shotgun , 
+ but it was the same gun , 
+ but it was our weapons and said . 
+------------------------- score breakdown ------------------------ 
+(who -1.41)(carried -6.51)(a -1.03)(big -3.77)(stick -2.60)(on -3.52)(his -0.27)(head -2.74)(. -1.74) line score is : -2.622, look ahead score is : 0.000
+(it -1.74)(was -3.64)(like -0.63)(a -3.90)(shotgun -1.04)(, -5.68) line score is : -2.769, look ahead score is : 0.602
+(but -5.68)(it -1.77)(was -1.87)(the -1.83)(same -1.00)(gun -4.28)(, -3.36) line score is : -2.828, look ahead score is : 0.710
+(but -3.36)(it -2.78)(was -1.85)(our -2.49)(weapons -1.36)(and -0.83)(said -8.43)(. -5.24) line score is : -3.294, look ahead score is : 0.000

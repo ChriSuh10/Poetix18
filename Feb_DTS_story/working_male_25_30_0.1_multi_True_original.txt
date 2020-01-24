@@ -1,0 +1,242 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ PRP VBD JJ TO VB A JJ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ but they went the wrong way 
+ she was destined to go a long way 
+-------------------------score:  -2.920741544528441;  adjusted_score: -2.894757278500633----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ it was hard to get a full programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(it -1.29)(was -3.36)(hard -3.65)(to -4.68)(get -0.53)(a -3.69)(full -0.94)(programme -1.68)(. -3.06) line score is : -2.543, look ahead score is : 0.000
+-------------------------score:  -2.9341702488335697;  adjusted_score: -2.9081859828057617----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ it was tough to get a full programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(it -1.29)(was -3.36)(tough -3.65)(to -4.68)(get -0.53)(a -3.16)(full -1.73)(programme -1.43)(. -3.54) line score is : -2.597, look ahead score is : 0.000
+======================= template: 2 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ AND PRP VBD DOWN AND VBD PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ but they went the wrong way 
+ and it dropped down and ruined her gown 
+-------------------------score:  -2.9984476575345704;  adjusted_score: -2.9724633915067624----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ and he went down and did our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(and -1.29)(he -3.36)(went -3.65)(down -1.47)(and -1.46)(did -4.00)(our -2.36)(programme -2.62)(. -3.70) line score is : -2.656, look ahead score is : 0.000
+======================= template: 3 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP POS A NN OF NN , 
+ PRP VBZ A JJ NN OF A NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she 's a person of note 
+ it s a regular brute of a bee 
+-------------------------score:  -3.0362858510378636;  adjusted_score: -3.011601461953286----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a man of heart , 
+ he has a real love of a programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(he -8.43)('s -3.35)(a -1.95)(man -2.81)(of -2.19)(heart -5.84)(, -0.63) line score is : -3.601, look ahead score is : 0.587
+(he -0.63)(has -6.33)(a -1.17)(real -0.65)(love -3.64)(of -1.04)(a -3.97)(programme -3.35)(. -2.03) line score is : -2.536, look ahead score is : 0.000
+-------------------------score:  -3.0605480300657675;  adjusted_score: -3.03586364098119----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a man of heart , 
+ he has a deep love of a programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(he -8.43)('s -3.35)(a -1.95)(man -2.81)(of -2.19)(heart -5.84)(, -0.63) line score is : -3.601, look ahead score is : 0.587
+(he -0.63)(has -6.33)(a -1.17)(deep -0.65)(love -3.64)(of -1.04)(a -5.06)(programme -2.21)(. -2.29) line score is : -2.560, look ahead score is : 0.000
+-------------------------score:  -3.136986774928642;  adjusted_score: -3.1123023858440644----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a man of heart , 
+ he has a good mind of a programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(he -8.43)('s -3.35)(a -1.95)(man -2.81)(of -2.19)(heart -5.84)(, -0.63) line score is : -3.601, look ahead score is : 0.587
+(he -0.63)(has -6.33)(a -1.17)(good -0.65)(mind -3.64)(of -1.04)(a -3.26)(programme -4.20)(. -5.29) line score is : -2.913, look ahead score is : 0.000
+======================= template: 4 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ BUT PRP VBD THE JJ NN , 
+ BUT PRP VBZ RB VB IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ but they went the wrong way 
+ but it does n't come out of my purse 
+-------------------------score:  -3.0449100109663876;  adjusted_score: -3.0189257449385796----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does still play in our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(still -2.90)(play -0.69)(in -6.29)(our -5.17)(programme -3.10)(. -2.91) line score is : -3.263, look ahead score is : 0.000
+-------------------------score:  -3.0654738229332548;  adjusted_score: -3.0394895569054468----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does not play in our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(not -2.90)(play -0.69)(in -6.29)(our -4.39)(programme -4.03)(. -2.68) line score is : -3.253, look ahead score is : 0.000
+-------------------------score:  -3.08026940443299;  adjusted_score: -3.054285138405182----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does still have in his programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(still -2.90)(have -0.69)(in -6.29)(his -5.17)(programme -1.03)(. -7.32) line score is : -3.523, look ahead score is : 0.000
+-------------------------score:  -3.109115812814597;  adjusted_score: -3.083131546786789----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does not miss in our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(not -2.90)(miss -0.69)(in -6.29)(our -4.39)(programme -1.57)(. -6.79) line score is : -3.437, look ahead score is : 0.000
+-------------------------score:  -3.120566110719334;  adjusted_score: -3.094581844691526----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does not have in his programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(not -2.90)(have -0.69)(in -6.29)(his -4.39)(programme -2.26)(. -7.85) line score is : -3.631, look ahead score is : 0.000
+-------------------------score:  -3.122113571925597;  adjusted_score: -3.096129305897789----------------------- 
+there was a smart teacher named abraham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does not play in my programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(not -2.90)(play -0.69)(in -6.29)(my -4.39)(programme -4.03)(. -2.68) line score is : -3.253, look ahead score is : 0.000
+-------------------------score:  -3.1234458170153876;  adjusted_score: -3.0974615509875796----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does still play in my programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(still -2.90)(play -0.69)(in -6.29)(my -5.17)(programme -3.10)(. -2.91) line score is : -3.263, look ahead score is : 0.000
+-------------------------score:  -3.1304061945640678;  adjusted_score: -3.1044219285362598----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does not get in our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(not -2.90)(get -0.69)(in -6.29)(our -4.39)(programme -3.68)(. -3.71) line score is : -3.328, look ahead score is : 0.000
+-------------------------score:  -3.1435883433529823;  adjusted_score: -3.1176040773251743----------------------- 
+there was a smart teacher named graham 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he does still get in our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(does -3.65)(still -2.90)(get -0.69)(in -6.29)(our -5.17)(programme -3.30)(. -3.39) line score is : -3.339, look ahead score is : 0.000
+-------------------------score:  -3.1466026188749256;  adjusted_score: -3.1206183528471176----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ he came back from the start , 
+ but he missed the first part , 
+ but he has now come in our programme . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(but -8.43)(he -3.35)(missed -3.77)(the -1.46)(first -4.00)(part -1.77)(, -1.29) line score is : -3.441, look ahead score is : 0.652
+(but -1.29)(he -3.36)(has -3.65)(now -2.90)(come -0.69)(in -4.67)(our -5.04)(programme -1.51)(. -4.15) line score is : -3.029, look ahead score is : 0.000
+======================= template: 5 ============================  
+robert 
+ WHO VBD A JJ NN ON PRP$ NN . 
+ PRP VBD BACK FROM THE NN , 
+ PRP POS A NN OF NN , 
+ AND PRP VBD NN RB VBP . 
+----------------------- original sentences ------------------------------------ 
+who had a large wart on her nose 
+ they came back from the ride 
+ she 's a person of note 
+ and she reached home exceedingly plain 
+-------------------------score:  -3.460047313282567;  adjusted_score: -3.4353629241979893----------------------- 
+there was a smart teacher named abram 
+ who did a great job on our program . 
+ he came back from the start , 
+ he 's a man of heart , 
+ and he was someone very am . 
+------------------------- score breakdown ------------------------ 
+(who -1.92)(did -4.48)(a -1.58)(great -1.48)(job -0.05)(on -4.37)(our -3.23)(program -5.34)(. -0.92) line score is : -2.597, look ahead score is : 0.000
+(he -0.92)(came -1.31)(back -4.21)(from -2.65)(the -2.01)(start -2.25)(, -8.43) line score is : -3.111, look ahead score is : 0.647
+(he -8.43)('s -3.35)(a -1.95)(man -2.81)(of -2.19)(heart -5.84)(, -0.63) line score is : -3.601, look ahead score is : 0.587
+(and -0.63)(he -6.33)(was -1.17)(someone -1.93)(very -0.63)(am -2.98)(. -6.47) line score is : -2.877, look ahead score is : 0.000
