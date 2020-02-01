@@ -6,4 +6,4 @@
 #SBATCH -p compsci-gpu 
 ##--constraint=v100
 #SBATCH -a 0-100 --ntasks-per-node=1
-srun python3 run_Limericks.py -t "original" -dir "Feb_DTS_story" -m "multi" -div True -w 0.1 -ser 25 -re 30 -g "female"
+srun python3 run_Limericks.py -t "original" -dir "Feb_single_story" -m "single" -div True -w 0.1 -ser 25 -re 30 -g "female"
