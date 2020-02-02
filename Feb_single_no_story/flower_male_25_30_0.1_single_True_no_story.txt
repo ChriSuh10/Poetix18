@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.9895385051215135;  adjusted_score: -3.9895385051215135----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the outside uproar . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(outside -5.68)(uproar -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.005450967285368;  adjusted_score: -4.005450967285368----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the other therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(other -5.68)(therefore -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.034908306819421;  adjusted_score: -4.034908306819421----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the outside therefore . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(outside -5.68)(therefore -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.065760765914564;  adjusted_score: -4.065760765914564----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the other uproar . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(other -5.68)(uproar -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.072421999993147;  adjusted_score: -4.072421999993147----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and came on the contrary uproar . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(came -9.62)(on -1.53)(the -2.47)(contrary -5.36)(uproar -4.71)(. -1.56) line score is : -4.238, look ahead score is : 0.000
+-------------------------score:  -4.096872774539171;  adjusted_score: -4.096872774539171----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a little warning , 
+ and came on the contrary uproar . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(little -3.96)(warning -1.31)(, -5.19) line score is : -2.957, look ahead score is : 0.000
+(and -5.19)(came -9.27)(on -1.79)(the -2.43)(contrary -5.01)(uproar -4.54)(. -1.56) line score is : -4.255, look ahead score is : 0.000
+-------------------------score:  -4.11173834072219;  adjusted_score: -4.11173834072219----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and came on the contrary uproar . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(came -7.88)(on -1.09)(the -2.40)(contrary -5.43)(uproar -4.79)(. -1.44) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -4.164896977168542;  adjusted_score: -4.164896977168542----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the other outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(other -5.68)(outdoor -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.171196940872404;  adjusted_score: -4.171196940872404----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a little warning , 
+ and came on the beautiful outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(little -3.96)(warning -1.31)(, -5.19) line score is : -2.957, look ahead score is : 0.000
+(and -5.19)(came -9.27)(on -1.79)(the -2.43)(beautiful -5.01)(outdoor -4.54)(. -1.56) line score is : -4.255, look ahead score is : 0.000
+-------------------------score:  -4.175772679072839;  adjusted_score: -4.175772679072839----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the other indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(other -5.68)(indoor -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.1783206054457915;  adjusted_score: -4.1783206054457915----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and shouted on the outside outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(shouted -7.88)(on -1.09)(the -2.40)(outside -5.68)(outdoor -6.10)(. -2.85) line score is : -4.657, look ahead score is : 0.000
+-------------------------score:  -4.178921102373688;  adjusted_score: -4.178921102373688----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and came on the beautiful outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(came -7.88)(on -1.09)(the -2.40)(beautiful -5.43)(outdoor -4.79)(. -1.44) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -4.179428258427867;  adjusted_score: -4.179428258427867----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and came on the beautiful outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(came -9.62)(on -1.53)(the -2.47)(beautiful -5.36)(outdoor -4.71)(. -1.56) line score is : -4.238, look ahead score is : 0.000
+-------------------------score:  -4.1887709332837;  adjusted_score: -4.1887709332837----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and came on the opposite outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(came -7.88)(on -1.09)(the -2.40)(opposite -5.43)(outdoor -4.79)(. -1.44) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -4.192469706137975;  adjusted_score: -4.192469706137975----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a little warning , 
+ and came on the opposite outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(little -3.96)(warning -1.31)(, -5.19) line score is : -2.957, look ahead score is : 0.000
+(and -5.19)(came -9.27)(on -1.79)(the -2.43)(opposite -5.01)(outdoor -4.54)(. -1.56) line score is : -4.255, look ahead score is : 0.000
+-------------------------score:  -4.2026699373015655;  adjusted_score: -4.2026699373015655----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and came on the opposite outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(came -9.62)(on -1.53)(the -2.47)(opposite -5.36)(outdoor -4.71)(. -1.56) line score is : -4.238, look ahead score is : 0.000
+-------------------------score:  -4.207069989707735;  adjusted_score: -4.207069989707735----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and found on the opposite outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(found -7.88)(on -1.09)(the -2.40)(opposite -5.73)(outdoor -6.47)(. -0.64) line score is : -4.400, look ahead score is : 0.000
+-------------------------score:  -4.242194415242584;  adjusted_score: -4.242194415242584----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and found on the opposite indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(found -7.88)(on -1.09)(the -2.40)(opposite -5.73)(indoor -6.47)(. -0.64) line score is : -4.400, look ahead score is : 0.000
+-------------------------score:  -4.2554202289492995;  adjusted_score: -4.2554202289492995----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a little warning , 
+ and came on the beautiful indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(little -3.96)(warning -1.31)(, -5.19) line score is : -2.957, look ahead score is : 0.000
+(and -5.19)(came -9.27)(on -1.79)(the -2.43)(beautiful -5.01)(indoor -4.54)(. -1.56) line score is : -4.255, look ahead score is : 0.000
+-------------------------score:  -4.259608360352339;  adjusted_score: -4.259608360352339----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and came on the opposite indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(came -7.88)(on -1.09)(the -2.40)(opposite -5.43)(indoor -4.79)(. -1.44) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -4.259864192318033;  adjusted_score: -4.259864192318033----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a little warning , 
+ and came on the opposite indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(little -3.96)(warning -1.31)(, -5.19) line score is : -2.957, look ahead score is : 0.000
+(and -5.19)(came -9.27)(on -1.79)(the -2.43)(opposite -5.01)(indoor -4.54)(. -1.56) line score is : -4.255, look ahead score is : 0.000
+-------------------------score:  -4.260280625687705;  adjusted_score: -4.260280625687705----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and came on the beautiful indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(came -9.62)(on -1.53)(the -2.47)(beautiful -5.36)(indoor -4.71)(. -1.56) line score is : -4.238, look ahead score is : 0.000
+-------------------------score:  -4.2617217909406735;  adjusted_score: -4.2617217909406735----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and came on the beautiful indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(came -7.88)(on -1.09)(the -2.40)(beautiful -5.43)(indoor -4.79)(. -1.44) line score is : -4.232, look ahead score is : 0.000
+-------------------------score:  -4.2648588275467905;  adjusted_score: -4.2648588275467905----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and came on the opposite indoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(came -9.62)(on -1.53)(the -2.47)(opposite -5.36)(indoor -4.71)(. -1.56) line score is : -4.238, look ahead score is : 0.000
+-------------------------score:  -4.274482712701515;  adjusted_score: -4.274482712701515----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and said on the previous outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(said -7.88)(on -1.09)(the -2.40)(previous -5.25)(outdoor -7.36)(. -1.23) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.277306718958749;  adjusted_score: -4.277306718958749----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a little warning , 
+ and said on the previous outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(little -3.96)(warning -1.31)(, -5.19) line score is : -2.957, look ahead score is : 0.000
+(and -5.19)(said -9.27)(on -1.79)(the -2.43)(previous -4.52)(outdoor -7.60)(. -1.41) line score is : -4.600, look ahead score is : 0.000
+-------------------------score:  -4.28112291737839;  adjusted_score: -4.28112291737839----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and woke on the opposite outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(woke -7.88)(on -1.09)(the -2.40)(opposite -5.90)(outdoor -6.76)(. -0.68) line score is : -4.472, look ahead score is : 0.000
+-------------------------score:  -4.282714705776285;  adjusted_score: -4.282714705776285----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and said on the previous outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(said -9.62)(on -1.53)(the -2.47)(previous -4.91)(outdoor -7.68)(. -1.33) line score is : -4.566, look ahead score is : 0.000
+-------------------------score:  -4.2933973305755195;  adjusted_score: -4.2933973305755195----------------------- 
+there was a bright boy named salvador 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a desperate warning , 
+ and found on the previous outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(desperate -3.96)(warning -1.31)(, -6.60) line score is : -3.239, look ahead score is : 0.000
+(and -6.60)(found -7.88)(on -1.09)(the -2.40)(previous -5.73)(outdoor -6.47)(. -0.64) line score is : -4.400, look ahead score is : 0.000
+-------------------------score:  -4.309516027017876;  adjusted_score: -4.309516027017876----------------------- 
+there was a bright boy named theodore 
+ whose voice rose far higher than before . 
+ he called out one morning , 
+ in a quiet warning , 
+ and said on the opposite outdoor . 
+------------------------- score breakdown ------------------------ 
+(whose -5.36)(voice -5.22)(rose -6.08)(far -6.52)(higher -3.69)(than -0.29)(before -5.52)(. -1.31) line score is : -4.247, look ahead score is : 0.000
+(he -1.31)(called -1.76)(out -4.52)(one -1.34)(morning -6.23)(, -3.04) line score is : -3.033, look ahead score is : 0.000
+(in -3.04)(a -1.29)(quiet -3.96)(warning -1.31)(, -4.41) line score is : -2.802, look ahead score is : 0.000
+(and -4.41)(said -9.62)(on -1.53)(the -2.47)(opposite -4.91)(outdoor -7.68)(. -1.33) line score is : -4.566, look ahead score is : 0.000

@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -4.420407252065067;  adjusted_score: -4.397080649486903----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to get drunk drinks on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(get -9.87)(drunk -5.22)(drinks -5.03)(on -2.97)(us -4.26)(elsewhere -7.43)(. -4.13) line score is : -5.235, look ahead score is : 0.000
+-------------------------score:  -4.4259956766819135;  adjusted_score: -4.4004431268726965----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who were are , 
+ to get drunk drinks on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(were -4.94)(are -6.21)(, -2.27) line score is : -4.238, look ahead score is : 0.728
+(to -2.27)(get -9.87)(drunk -5.33)(drinks -5.24)(on -2.93)(us -3.80)(elsewhere -8.30)(. -4.11) line score is : -5.232, look ahead score is : 0.000
+-------------------------score:  -4.427113496024033;  adjusted_score: -4.402963775504252----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who came are , 
+ to get drunk drinks on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(came -4.94)(are -6.21)(, -3.69) line score is : -4.474, look ahead score is : 0.658
+(to -3.69)(get -10.54)(drunk -5.33)(drinks -3.10)(on -2.95)(us -4.04)(elsewhere -8.12)(. -4.28) line score is : -5.256, look ahead score is : 0.000
+-------------------------score:  -4.434386606874137;  adjusted_score: -4.411060004295973----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us fair . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(fair -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.451960526663681;  adjusted_score: -4.428633924085518----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us where . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(where -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.465549136030263;  adjusted_score: -4.4422225334520995----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure things on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(things -5.03)(on -3.44)(us -1.53)(elsewhere -5.64)(. -6.36) line score is : -5.008, look ahead score is : 0.000
+-------------------------score:  -4.485311736320627;  adjusted_score: -4.45975918651141----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who were are , 
+ to get drunk friends on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(were -4.94)(are -6.21)(, -2.27) line score is : -4.238, look ahead score is : 0.728
+(to -2.27)(get -9.87)(drunk -5.33)(friends -5.24)(on -2.93)(us -3.80)(elsewhere -8.34)(. -5.03) line score is : -5.351, look ahead score is : 0.000
+-------------------------score:  -4.487791275155955;  adjusted_score: -4.464464672577792----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure drinks on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(drinks -5.03)(on -3.44)(us -1.53)(elsewhere -7.55)(. -6.69) line score is : -5.288, look ahead score is : 0.000
+-------------------------score:  -4.492374366727368;  adjusted_score: -4.469047764149205----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us share . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(share -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.496226133971379;  adjusted_score: -4.472899531393216----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us fare . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(fare -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.510148833537924;  adjusted_score: -4.486822230959761----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(elsewhere -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.545599834672336;  adjusted_score: -4.5222732320941725----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us their . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(their -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.552880562584976;  adjusted_score: -4.529553960006813----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us bear . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(bear -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.555183447640518;  adjusted_score: -4.531856845062355----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us spare . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(spare -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.559747198532367;  adjusted_score: -4.536420595954204----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure folks on us nowhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(folks -5.03)(on -3.44)(us -1.53)(nowhere -6.14)(. -5.71) line score is : -4.989, look ahead score is : 0.000
+-------------------------score:  -4.561079851512251;  adjusted_score: -4.537753248934088----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to be exact people on it where . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(be -9.87)(exact -5.22)(people -5.03)(on -2.96)(it -1.83)(where -10.07)(. -5.11) line score is : -5.382, look ahead score is : 0.000
+-------------------------score:  -4.56228401332066;  adjusted_score: -4.538957410742497----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure guests on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(guests -5.03)(on -3.44)(us -1.53)(elsewhere -5.97)(. -6.96) line score is : -5.124, look ahead score is : 0.000
+-------------------------score:  -4.567275626906033;  adjusted_score: -4.54394902432787----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure folks on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(folks -5.03)(on -3.44)(us -1.53)(elsewhere -6.14)(. -5.71) line score is : -4.989, look ahead score is : 0.000
+-------------------------score:  -4.567287313527074;  adjusted_score: -4.542777102029529----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our taste , 
+ a place who was replaced , 
+ to make sure things on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(taste -5.34)(, -5.72) line score is : -3.810, look ahead score is : 0.550
+(a -5.72)(place -1.82)(who -4.65)(was -2.23)(replaced -8.10)(, -3.12) line score is : -4.273, look ahead score is : 0.676
+(to -3.12)(make -11.32)(sure -3.88)(things -4.73)(on -3.89)(us -2.55)(elsewhere -5.26)(. -7.09) line score is : -5.230, look ahead score is : 0.000
+-------------------------score:  -4.574528747591479;  adjusted_score: -4.551202145013316----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to be exact people on us where . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(be -9.87)(exact -5.22)(people -5.03)(on -2.96)(us -1.83)(where -10.07)(. -5.11) line score is : -5.382, look ahead score is : 0.000
+-------------------------score:  -4.583409477924478;  adjusted_score: -4.557856928115261----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who were are , 
+ to be exact people on us where . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(were -4.94)(are -6.21)(, -2.27) line score is : -4.238, look ahead score is : 0.728
+(to -2.27)(be -9.87)(exact -5.33)(people -5.24)(on -3.46)(us -2.15)(where -8.93)(. -5.53) line score is : -5.348, look ahead score is : 0.000
+-------------------------score:  -4.584342467373815;  adjusted_score: -4.558789917564598----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who were are , 
+ to be exact people on it where . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(were -4.94)(are -6.21)(, -2.27) line score is : -4.238, look ahead score is : 0.728
+(to -2.27)(be -9.87)(exact -5.33)(people -5.24)(on -3.46)(it -2.15)(where -8.93)(. -5.53) line score is : -5.348, look ahead score is : 0.000
+-------------------------score:  -4.609950431461992;  adjusted_score: -4.586623828883829----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure guys on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(guys -5.03)(on -3.44)(us -1.53)(elsewhere -7.28)(. -5.44) line score is : -5.098, look ahead score is : 0.000
+-------------------------score:  -4.610737693720851;  adjusted_score: -4.586227482223306----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our taste , 
+ a place who was replaced , 
+ to be polite people on it where . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(taste -5.34)(, -5.72) line score is : -3.810, look ahead score is : 0.550
+(a -5.72)(place -1.82)(who -4.65)(was -2.23)(replaced -8.10)(, -3.12) line score is : -4.273, look ahead score is : 0.676
+(to -3.12)(be -11.32)(polite -3.88)(people -4.73)(on -2.20)(it -5.77)(where -7.24)(. -5.67) line score is : -5.491, look ahead score is : 0.000
+-------------------------score:  -4.65638451329593;  adjusted_score: -4.633057910717767----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to make sure cigars on us dare . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(make -9.87)(sure -5.22)(cigars -5.03)(on -3.44)(us -1.53)(dare -9.18)(. -6.85) line score is : -5.512, look ahead score is : 0.000
+-------------------------score:  -4.6565373724904555;  adjusted_score: -4.6309848226812385----------------------- 
+there once was a waiter named pierre 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who were are , 
+ to be exact people on us their . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(were -4.94)(are -6.21)(, -2.27) line score is : -4.238, look ahead score is : 0.728
+(to -2.27)(be -9.87)(exact -5.33)(people -5.24)(on -3.46)(us -2.15)(their -8.93)(. -5.53) line score is : -5.348, look ahead score is : 0.000
+-------------------------score:  -4.667105304783788;  adjusted_score: -4.642595093286243----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our taste , 
+ a place who was replaced , 
+ to be polite people on it their . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(taste -5.34)(, -5.72) line score is : -3.810, look ahead score is : 0.550
+(a -5.72)(place -1.82)(who -4.65)(was -2.23)(replaced -8.10)(, -3.12) line score is : -4.273, look ahead score is : 0.676
+(to -3.12)(be -11.32)(polite -3.88)(people -4.73)(on -2.20)(it -5.77)(their -7.24)(. -5.67) line score is : -5.491, look ahead score is : 0.000
+-------------------------score:  -4.677292252409047;  adjusted_score: -4.653965649830884----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to be exact people on us their . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(be -9.87)(exact -5.22)(people -5.03)(on -2.96)(us -1.83)(their -10.07)(. -5.11) line score is : -5.382, look ahead score is : 0.000
+-------------------------score:  -4.69178045618123;  adjusted_score: -4.666227906372013----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who were are , 
+ to be exact people on it their . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(were -4.94)(are -6.21)(, -2.27) line score is : -4.238, look ahead score is : 0.728
+(to -2.27)(be -9.87)(exact -5.33)(people -5.24)(on -3.46)(it -2.15)(their -8.93)(. -5.53) line score is : -5.348, look ahead score is : 0.000
+-------------------------score:  -4.712415123807973;  adjusted_score: -4.6890885212298095----------------------- 
+there once was a waiter named javier 
+ whose father smoked a cigar in there . 
+ it was for our bar , 
+ a couple who worked are , 
+ to be exact people on it their . 
+------------------------- score breakdown ------------------------ 
+(whose -5.13)(father -3.72)(smoked -6.84)(a -2.09)(cigar -2.27)(in -2.61)(there -6.76)(. -1.96) line score is : -3.923, look ahead score is : 0.000
+(it -1.96)(was -3.02)(for -0.63)(our -6.19)(bar -5.34)(, -5.31) line score is : -3.743, look ahead score is : 0.550
+(a -5.31)(couple -2.39)(who -4.30)(worked -4.94)(are -6.21)(, -2.97) line score is : -4.355, look ahead score is : 0.617
+(to -2.97)(be -9.87)(exact -5.22)(people -5.03)(on -2.96)(it -1.83)(their -10.07)(. -5.11) line score is : -5.382, look ahead score is : 0.000

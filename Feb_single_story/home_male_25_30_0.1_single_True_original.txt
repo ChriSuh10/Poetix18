@@ -1,0 +1,187 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD RB JJR THAN NN . 
+ PRP VBD OUT CD NN , 
+ IN A JJ NN , 
+ AND VBD ON THE JJ NN . 
+----------------------- original sentences ------------------------------------ 
+whose speed was much faster than light 
+ she set out one day 
+ in a relative way 
+ and returned on the previous night 
+-------------------------score:  -3.8200332676922835;  adjusted_score: -3.7961871459638634----------------------- 
+there was a quiet boy named salvador 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(door -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -3.8403977310215986;  adjusted_score: -3.8170462797140634----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable door . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(door -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.846148641021163;  adjusted_score: -3.822302519292743----------------------- 
+there was a quiet boy named salvador 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable score . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(score -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -3.866767037797857;  adjusted_score: -3.843415586490322----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable score . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(score -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.9053882404609963;  adjusted_score: -3.8815421187325763----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable four . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(four -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -3.915081132341314;  adjusted_score: -3.891729681033779----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable four . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(four -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.953863576606468;  adjusted_score: -3.930017454878048----------------------- 
+there was a quiet boy named salvador 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable more . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(more -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -3.960692220264011;  adjusted_score: -3.936846098535591----------------------- 
+there was a quiet boy named salvador 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(for -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -3.978676074080997;  adjusted_score: -3.9553246227734618----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(for -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.9796532370426037;  adjusted_score: -3.9563017857350684----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable more . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(more -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -3.988841754418832;  adjusted_score: -3.964995632690412----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(store -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -3.9996121282930726;  adjusted_score: -3.9757660065646525----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(or -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -4.007356893133234;  adjusted_score: -3.9840054418256985----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(or -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -4.009608129660289;  adjusted_score: -3.9862566783527535----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable store . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(store -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000
+-------------------------score:  -4.104120086740564;  adjusted_score: -4.080273965012144----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a tiny bathroom , 
+ and slept on the comfortable your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(tiny -2.99)(bathroom -0.71)(, -4.24) line score is : -3.353, look ahead score is : 0.588
+(and -4.24)(slept -6.13)(on -1.13)(the -1.91)(comfortable -4.20)(your -1.39)(. -1.24) line score is : -2.891, look ahead score is : 0.000
+-------------------------score:  -4.1211520852865995;  adjusted_score: -4.097800633979064----------------------- 
+there was a quiet boy named theodore 
+ whose life had not better than before . 
+ he lived out one bedroom , 
+ in a single bathroom , 
+ and slept on the comfortable your . 
+------------------------- score breakdown ------------------------ 
+(whose -5.02)(life -3.33)(had -1.91)(not -4.11)(better -10.40)(than -2.96)(before -4.52)(. -0.97) line score is : -4.151, look ahead score is : 0.000
+(he -0.97)(lived -1.35)(out -3.65)(one -5.11)(bedroom -5.64)(, -6.42) line score is : -3.858, look ahead score is : 0.604
+(in -6.42)(a -2.40)(single -2.99)(bathroom -0.71)(, -5.28) line score is : -3.560, look ahead score is : 0.563
+(and -5.28)(slept -5.84)(on -0.85)(the -1.95)(comfortable -4.25)(your -1.51)(. -1.17) line score is : -2.980, look ahead score is : 0.000

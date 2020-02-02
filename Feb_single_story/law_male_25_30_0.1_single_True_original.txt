@@ -1,0 +1,154 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -4.428046201837474;  adjusted_score: -4.40375351778906----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to leave new orleans on us while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(leave -10.34)(new -3.25)(orleans -3.23)(on -4.71)(us -4.76)(while -3.06)(. -4.09) line score is : -4.367, look ahead score is : 0.000
+-------------------------score:  -4.521464446495319;  adjusted_score: -4.4971717624469045----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to stay open hours on us while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(stay -10.34)(open -3.25)(hours -3.23)(on -3.64)(us -5.03)(while -7.34)(. -3.49) line score is : -4.728, look ahead score is : 0.000
+-------------------------score:  -4.527444387304372;  adjusted_score: -4.503151703255957----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to go live downstairs on us while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(go -10.34)(live -3.25)(downstairs -3.23)(on -3.30)(us -4.62)(while -8.55)(. -3.94) line score is : -4.841, look ahead score is : 0.000
+-------------------------score:  -4.527540938607578;  adjusted_score: -4.503248254559163----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to go live upstairs on us while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(go -10.34)(live -3.25)(upstairs -3.23)(on -3.30)(us -4.62)(while -7.85)(. -4.36) line score is : -4.805, look ahead score is : 0.000
+-------------------------score:  -4.533556412006247;  adjusted_score: -4.5092637279578325----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to stay open hours on it while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(stay -10.34)(open -3.25)(hours -3.23)(on -3.64)(it -5.03)(while -7.34)(. -3.49) line score is : -4.728, look ahead score is : 0.000
+-------------------------score:  -4.533950781000072;  adjusted_score: -4.509658096951657----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to be open houses on it while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(be -10.34)(open -3.25)(houses -3.23)(on -3.16)(it -6.12)(while -7.61)(. -3.41) line score is : -4.828, look ahead score is : 0.000
+-------------------------score:  -4.541455984115601;  adjusted_score: -4.517163300067186----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to get married outdoors on it while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(get -10.34)(married -3.25)(outdoors -3.23)(on -3.22)(it -3.04)(while -10.02)(. -3.13) line score is : -4.718, look ahead score is : 0.000
+-------------------------score:  -4.542800796443019;  adjusted_score: -4.5185081123946045----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to be open hours on it while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(be -10.34)(open -3.25)(hours -3.23)(on -3.16)(it -6.12)(while -7.34)(. -2.84) line score is : -4.722, look ahead score is : 0.000
+-------------------------score:  -4.549611954853453;  adjusted_score: -4.5253192708050385----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to leave new orleans on themselves while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(leave -10.34)(new -3.25)(orleans -3.23)(on -4.71)(themselves -4.76)(while -3.06)(. -4.09) line score is : -4.367, look ahead score is : 0.000
+-------------------------score:  -4.5542209806113405;  adjusted_score: -4.529928296562926----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to be open houses on us while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(be -10.34)(open -3.25)(houses -3.23)(on -3.16)(us -6.12)(while -7.61)(. -3.41) line score is : -4.828, look ahead score is : 0.000
+-------------------------score:  -4.557451412595552;  adjusted_score: -4.5331587285471375----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our case , 
+ a couple who had space , 
+ to be married outdoors on it while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(case -6.73)(, -4.29) line score is : -3.647, look ahead score is : 0.588
+(a -4.29)(couple -1.84)(who -5.02)(had -5.43)(space -6.45)(, -1.50) line score is : -4.088, look ahead score is : 0.627
+(to -1.50)(be -10.34)(married -3.25)(outdoors -3.23)(on -3.16)(it -4.57)(while -9.35)(. -3.01) line score is : -4.800, look ahead score is : 0.000
+-------------------------score:  -4.589146885378607;  adjusted_score: -4.564428174263187----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our court , 
+ a judge who did import , 
+ to be able judges on us while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(court -6.73)(, -5.61) line score is : -3.867, look ahead score is : 0.588
+(a -5.61)(judge -2.78)(who -4.76)(did -3.24)(import -2.48)(, -4.17) line score is : -3.839, look ahead score is : 0.648
+(to -4.17)(be -12.20)(able -3.26)(judges -4.04)(on -3.12)(us -2.45)(while -10.31)(. -4.12) line score is : -5.458, look ahead score is : 0.000
+-------------------------score:  -4.60245263165441;  adjusted_score: -4.57773392053899----------------------- 
+there was a lawyer named lyle 
+ whose firm brought a motion in trial . 
+ it was for our court , 
+ a judge who did import , 
+ to be able judges on it while . 
+------------------------- score breakdown ------------------------ 
+(whose -6.36)(firm -4.42)(brought -5.26)(a -1.68)(motion -4.27)(in -2.19)(trial -6.28)(. -3.39) line score is : -4.230, look ahead score is : 0.000
+(it -3.39)(was -2.82)(for -0.69)(our -3.95)(court -6.73)(, -5.61) line score is : -3.867, look ahead score is : 0.588
+(a -5.61)(judge -2.78)(who -4.76)(did -3.24)(import -2.48)(, -4.17) line score is : -3.839, look ahead score is : 0.648
+(to -4.17)(be -12.20)(able -3.26)(judges -4.04)(on -3.12)(it -2.45)(while -10.31)(. -4.12) line score is : -5.458, look ahead score is : 0.000

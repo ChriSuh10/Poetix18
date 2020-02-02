@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ WHILE PRP$ NN VBD , 
+ THE NN VBD , 
+ AND VBD NN INSIDE PRP$ INSIDE . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ while her lover lamented 
+ the apple fermented 
+ and made cider inside her inside 
+-------------------------score:  -4.036490097045898;  adjusted_score: -4.036490097045898----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside our tent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(our -4.45)(tent -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.094974358081817;  adjusted_score: -4.094974358081817----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(present -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.1082942056655884;  adjusted_score: -4.1082942056655884----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the officer swallowed , 
+ and said something inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(officer -1.69)(swallowed -2.41)(, -7.15) line score is : -4.030, look ahead score is : 0.000
+(and -7.15)(said -10.19)(something -4.71)(inside -1.05)(his -2.65)(accent -4.17)(. -7.87) line score is : -5.399, look ahead score is : 0.000
+-------------------------score:  -4.143132243156433;  adjusted_score: -4.143132243156433----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and said something inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(said -10.55)(something -4.32)(inside -0.94)(his -2.65)(accent -4.64)(. -7.92) line score is : -5.376, look ahead score is : 0.000
+-------------------------score:  -4.197359981536866;  adjusted_score: -4.197359981536866----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father waited , 
+ the officer stated , 
+ and said something inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(waited -1.98)(, -4.64) line score is : -5.241, look ahead score is : 0.000
+(the -4.64)(officer -1.77)(stated -2.53)(, -7.13) line score is : -4.019, look ahead score is : 0.000
+(and -7.13)(said -8.27)(something -2.07)(inside -4.72)(his -3.04)(accent -5.43)(. -8.61) line score is : -5.609, look ahead score is : 0.000
+-------------------------score:  -4.2146344566345215;  adjusted_score: -4.2146344566345215----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and said something inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(said -10.55)(something -4.32)(inside -0.94)(his -2.65)(present -4.64)(. -7.92) line score is : -5.376, look ahead score is : 0.000
+-------------------------score:  -4.218955817222596;  adjusted_score: -4.218955817222596----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the officer swallowed , 
+ and said something inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(officer -1.69)(swallowed -2.41)(, -7.15) line score is : -4.030, look ahead score is : 0.000
+(and -7.15)(said -10.19)(something -4.71)(inside -1.05)(his -2.65)(present -4.17)(. -7.87) line score is : -5.399, look ahead score is : 0.000
+-------------------------score:  -4.232186186313629;  adjusted_score: -4.232186186313629----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and took something inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(took -10.55)(something -4.32)(inside -0.94)(his -4.44)(present -5.48)(. -6.87) line score is : -5.602, look ahead score is : 0.000
+-------------------------score:  -4.234427669048309;  adjusted_score: -4.234427669048309----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his convent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(convent -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.237003889083862;  adjusted_score: -4.237003889083862----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell backward inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(backward -4.32)(inside -0.94)(his -4.45)(present -4.38)(. -8.59) line score is : -5.691, look ahead score is : 0.000
+-------------------------score:  -4.245173933506012;  adjusted_score: -4.245173933506012----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the messenger swallowed , 
+ and said something inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(messenger -1.69)(swallowed -2.41)(, -6.94) line score is : -3.975, look ahead score is : 0.000
+(and -6.94)(said -11.76)(something -4.16)(inside -0.71)(his -2.64)(accent -5.35)(. -7.79) line score is : -5.622, look ahead score is : 0.000
+-------------------------score:  -4.247028002738952;  adjusted_score: -4.247028002738952----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside my present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(my -4.45)(present -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.250043783187866;  adjusted_score: -4.250043783187866----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(accent -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.261508612632752;  adjusted_score: -4.261508612632752----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his advent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(advent -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.269960498809814;  adjusted_score: -4.269960498809814----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father waited , 
+ the gentleman stated , 
+ and said something inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(waited -1.98)(, -4.64) line score is : -5.241, look ahead score is : 0.000
+(the -4.64)(gentleman -1.77)(stated -2.53)(, -6.49) line score is : -3.859, look ahead score is : 0.000
+(and -6.49)(said -8.87)(something -2.59)(inside -4.57)(his -3.06)(accent -5.55)(. -8.73) line score is : -5.695, look ahead score is : 0.000
+-------------------------score:  -4.282133908271789;  adjusted_score: -4.282133908271789----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and cried aloud inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(cried -10.55)(aloud -4.32)(inside -0.94)(his -4.76)(accent -3.88)(. -8.93) line score is : -5.713, look ahead score is : 0.000
+-------------------------score:  -4.29216157913208;  adjusted_score: -4.29216157913208----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and cried aloud inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(cried -10.55)(aloud -4.32)(inside -0.94)(his -4.76)(present -3.88)(. -8.93) line score is : -5.713, look ahead score is : 0.000
+-------------------------score:  -4.2993722343444825;  adjusted_score: -4.2993722343444825----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father waited , 
+ the officer stated , 
+ and said something inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(waited -1.98)(, -4.64) line score is : -5.241, look ahead score is : 0.000
+(the -4.64)(officer -1.77)(stated -2.53)(, -7.13) line score is : -4.019, look ahead score is : 0.000
+(and -7.13)(said -8.27)(something -2.07)(inside -4.72)(his -3.04)(present -5.43)(. -8.61) line score is : -5.609, look ahead score is : 0.000
+-------------------------score:  -4.312266492843628;  adjusted_score: -4.312266492843628----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father waited , 
+ the gentleman stated , 
+ and said something inside his present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(waited -1.98)(, -4.64) line score is : -5.241, look ahead score is : 0.000
+(the -4.64)(gentleman -1.77)(stated -2.53)(, -6.49) line score is : -3.859, look ahead score is : 0.000
+(and -6.49)(said -8.87)(something -2.59)(inside -4.57)(his -3.06)(present -5.55)(. -8.73) line score is : -5.695, look ahead score is : 0.000
+-------------------------score:  -4.3204552364349365;  adjusted_score: -4.3204552364349365----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and said aloud inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(said -10.55)(aloud -4.32)(inside -0.94)(his -2.65)(accent -6.72)(. -9.64) line score is : -5.917, look ahead score is : 0.000
+-------------------------score:  -4.3344931268692015;  adjusted_score: -4.3344931268692015----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the officer swallowed , 
+ and said aloud inside his accent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(officer -1.69)(swallowed -2.41)(, -7.15) line score is : -4.030, look ahead score is : 0.000
+(and -7.15)(said -10.19)(aloud -4.71)(inside -1.05)(his -2.65)(accent -6.67)(. -9.26) line score is : -5.954, look ahead score is : 0.000
+-------------------------score:  -4.335032696723938;  adjusted_score: -4.335032696723938----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the officer swallowed , 
+ and said something inside his content . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(officer -1.69)(swallowed -2.41)(, -7.15) line score is : -4.030, look ahead score is : 0.000
+(and -7.15)(said -10.19)(something -4.71)(inside -1.05)(his -2.65)(content -4.17)(. -7.87) line score is : -5.399, look ahead score is : 0.000
+-------------------------score:  -4.353885035514832;  adjusted_score: -4.353885035514832----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and came right inside our present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(came -10.55)(right -4.32)(inside -0.94)(our -4.15)(present -5.42)(. -5.67) line score is : -5.379, look ahead score is : 0.000
+-------------------------score:  -4.3559945821762085;  adjusted_score: -4.3559945821762085----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the officer swallowed , 
+ and said something inside his frequent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(officer -1.69)(swallowed -2.41)(, -7.15) line score is : -4.030, look ahead score is : 0.000
+(and -7.15)(said -10.19)(something -4.71)(inside -1.05)(his -2.65)(frequent -4.17)(. -7.87) line score is : -5.399, look ahead score is : 0.000
+-------------------------score:  -4.357618088722229;  adjusted_score: -4.357618088722229----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his content . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(content -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.358972368240356;  adjusted_score: -4.358972368240356----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and said something inside his frequent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(said -10.55)(something -4.32)(inside -0.94)(his -2.65)(frequent -4.64)(. -7.92) line score is : -5.376, look ahead score is : 0.000
+-------------------------score:  -4.371094088554383;  adjusted_score: -4.371094088554383----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his frequent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(frequent -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.3816155910491945;  adjusted_score: -4.3816155910491945----------------------- 
+there was a bright man named trent 
+ who carried a little bag and went . 
+ while my father waited , 
+ the officer stated , 
+ and said something inside my present . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(waited -1.98)(, -4.64) line score is : -5.241, look ahead score is : 0.000
+(the -4.64)(officer -1.77)(stated -2.53)(, -7.13) line score is : -4.019, look ahead score is : 0.000
+(and -7.13)(said -8.27)(something -2.07)(inside -4.72)(my -3.04)(present -5.43)(. -8.61) line score is : -5.609, look ahead score is : 0.000
+-------------------------score:  -4.412485995292664;  adjusted_score: -4.412485995292664----------------------- 
+there was a bright man named brent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and fell asleep inside his torment . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(fell -10.55)(asleep -4.32)(inside -0.94)(his -4.45)(torment -2.95)(. -6.99) line score is : -5.260, look ahead score is : 0.000
+-------------------------score:  -4.464107675552368;  adjusted_score: -4.464107675552368----------------------- 
+there was a bright man named kent 
+ who carried a little bag and went . 
+ while my father followed , 
+ the gentleman swallowed , 
+ and cried aloud inside his frequent . 
+------------------------- score breakdown ------------------------ 
+(who -2.07)(carried -6.47)(a -0.76)(little -4.61)(bag -2.34)(and -2.79)(went -4.37)(. -6.74) line score is : -3.770, look ahead score is : 0.000
+(while -6.74)(my -6.97)(father -5.87)(followed -1.98)(, -4.86) line score is : -5.285, look ahead score is : 0.000
+(the -4.86)(gentleman -1.69)(swallowed -2.41)(, -6.61) line score is : -3.893, look ahead score is : 0.000
+(and -6.61)(cried -10.55)(aloud -4.32)(inside -0.94)(his -4.76)(frequent -3.88)(. -8.93) line score is : -5.713, look ahead score is : 0.000

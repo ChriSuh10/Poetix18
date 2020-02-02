@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN RB VBD JJ . 
+ THERE VBZ NN LIKE A NN , 
+ PRP RB VBD , 
+ AS PRP VBD OUT CD NNS IN PRP$ NN . 
+----------------------- original sentences ------------------------------------ 
+whose appetite simply was unich 
+ there was nothing like a food 
+ she contentedly cooed 
+ as she let out three tucks in her tunic 
+-------------------------score:  -4.757630790982928;  adjusted_score: -4.735169976864542----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i read out two words in his plea . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(read -4.05)(out -4.46)(two -1.52)(words -4.89)(in -5.81)(his -8.09)(plea -2.41)(. -3.26) line score is : -5.257, look ahead score is : 0.000
+-------------------------score:  -4.772840521165302;  adjusted_score: -4.750379707046917----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two days in my plea . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(days -3.62)(in -7.07)(my -7.97)(plea -1.47)(. -2.35) line score is : -5.058, look ahead score is : 0.000
+-------------------------score:  -4.77508430821555;  adjusted_score: -4.752623494097164----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i read out two lines in my plea . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(read -4.05)(out -4.46)(two -1.52)(lines -4.89)(in -5.81)(my -8.09)(plea -2.33)(. -3.54) line score is : -5.277, look ahead score is : 0.000
+-------------------------score:  -4.845016981874194;  adjusted_score: -4.822556167755808----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two days in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(days -3.62)(in -7.07)(my -7.97)(flee -1.47)(. -2.35) line score is : -5.058, look ahead score is : 0.000
+-------------------------score:  -4.846235002790179;  adjusted_score: -4.833774188671794----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two days in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(days -2.16)(in -7.33)(my -7.44)(flee -1.54)(. -2.16) line score is : -5.069, look ahead score is : 0.000
+-------------------------score:  -4.846306707177844;  adjusted_score: -4.8338458930594586----------------------- 
+there was a cruel boy named marquis 
+ whose father always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two days in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(father -2.25)(always -5.42)(terrified -9.52)(me -4.82)(. -1.77) line score is : -4.795, look ahead score is : 0.000
+(there -1.77)(is -4.62)(death -3.73)(like -7.33)(a -5.74)(fear -2.31)(, -7.09) line score is : -4.654, look ahead score is : 0.623
+(it -7.09)(usually -2.26)(near -3.98)(, -8.62) line score is : -5.488, look ahead score is : 0.000
+(as -8.62)(i -9.60)(was -3.84)(out -5.01)(two -2.89)(days -2.24)(in -7.37)(my -7.45)(flee -1.54)(. -2.17) line score is : -5.073, look ahead score is : 0.000
+-------------------------score:  -4.849002450704575;  adjusted_score: -4.8365416365861895----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out three days in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(three -2.87)(days -2.16)(in -7.33)(my -7.79)(flee -1.53)(. -1.92) line score is : -5.081, look ahead score is : 0.000
+-------------------------score:  -4.886728984969003;  adjusted_score: -4.874268170850618----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two nights in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(nights -2.16)(in -7.33)(my -7.44)(flee -1.30)(. -1.89) line score is : -5.019, look ahead score is : 0.000
+-------------------------score:  -4.889556969915118;  adjusted_score: -4.877096155796733----------------------- 
+there was a cruel boy named marquis 
+ whose father always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two nights in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(father -2.25)(always -5.42)(terrified -9.52)(me -4.82)(. -1.77) line score is : -4.795, look ahead score is : 0.000
+(there -1.77)(is -4.62)(death -3.73)(like -7.33)(a -5.74)(fear -2.31)(, -7.09) line score is : -4.654, look ahead score is : 0.623
+(it -7.09)(usually -2.26)(near -3.98)(, -8.62) line score is : -5.488, look ahead score is : 0.000
+(as -8.62)(i -9.60)(was -3.84)(out -5.01)(two -2.89)(nights -2.24)(in -7.37)(my -7.45)(flee -1.31)(. -1.91) line score is : -5.025, look ahead score is : 0.000
+-------------------------score:  -4.900265284946987;  adjusted_score: -4.887804470828602----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two nights in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(nights -2.16)(in -7.33)(my -7.44)(she -1.30)(. -1.89) line score is : -5.019, look ahead score is : 0.000
+-------------------------score:  -4.9067781780447275;  adjusted_score: -4.894317363926342----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out three nights in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(three -2.87)(nights -2.16)(in -7.33)(my -7.79)(flee -1.48)(. -1.53) line score is : -5.036, look ahead score is : 0.000
+-------------------------score:  -4.914465206010001;  adjusted_score: -4.902004391891616----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two days in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(days -2.16)(in -7.33)(my -7.44)(she -1.54)(. -2.16) line score is : -5.069, look ahead score is : 0.000
+-------------------------score:  -4.917831152677536;  adjusted_score: -4.89537033855915----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two nights in my flee . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(nights -3.62)(in -7.07)(my -7.97)(flee -2.11)(. -1.95) line score is : -5.083, look ahead score is : 0.000
+-------------------------score:  -4.920050493308476;  adjusted_score: -4.89758967919009----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two days in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(days -3.62)(in -7.07)(my -7.97)(she -1.47)(. -2.35) line score is : -5.058, look ahead score is : 0.000
+-------------------------score:  -4.924545305115836;  adjusted_score: -4.912084490997451----------------------- 
+there was a cruel boy named tyree 
+ whose father always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two nights in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(father -2.25)(always -5.42)(terrified -9.52)(me -4.82)(. -1.77) line score is : -4.795, look ahead score is : 0.000
+(there -1.77)(is -4.62)(death -3.73)(like -7.33)(a -5.74)(fear -2.31)(, -7.09) line score is : -4.654, look ahead score is : 0.623
+(it -7.09)(usually -2.26)(near -3.98)(, -8.62) line score is : -5.488, look ahead score is : 0.000
+(as -8.62)(i -9.60)(was -3.84)(out -5.01)(two -2.89)(nights -2.24)(in -7.37)(my -7.45)(she -1.31)(. -1.91) line score is : -5.025, look ahead score is : 0.000
+-------------------------score:  -4.929594401802335;  adjusted_score: -4.91713358768395----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out three days in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(three -2.87)(days -2.16)(in -7.33)(my -7.79)(she -1.53)(. -1.92) line score is : -5.081, look ahead score is : 0.000
+-------------------------score:  -4.936306468078068;  adjusted_score: -4.923845653959683----------------------- 
+there was a cruel boy named marquis 
+ whose father always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two days in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(father -2.25)(always -5.42)(terrified -9.52)(me -4.82)(. -1.77) line score is : -4.795, look ahead score is : 0.000
+(there -1.77)(is -4.62)(death -3.73)(like -7.33)(a -5.74)(fear -2.31)(, -7.09) line score is : -4.654, look ahead score is : 0.623
+(it -7.09)(usually -2.26)(near -3.98)(, -8.62) line score is : -5.488, look ahead score is : 0.000
+(as -8.62)(i -9.60)(was -3.84)(out -5.01)(two -2.89)(days -2.24)(in -7.37)(my -7.45)(she -1.54)(. -2.17) line score is : -5.073, look ahead score is : 0.000
+-------------------------score:  -4.9368003479072025;  adjusted_score: -4.914339533788817----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two nights in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(nights -3.62)(in -7.07)(my -7.97)(she -2.11)(. -1.95) line score is : -5.083, look ahead score is : 0.000
+-------------------------score:  -4.938346415758133;  adjusted_score: -4.925885601639748----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out three nights in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(three -2.87)(nights -2.16)(in -7.33)(my -7.79)(she -1.48)(. -1.53) line score is : -5.036, look ahead score is : 0.000
+-------------------------score:  -4.942387504237039;  adjusted_score: -4.929926690118654----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two nights in his she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(nights -2.16)(in -7.33)(his -7.44)(she -1.30)(. -1.89) line score is : -5.019, look ahead score is : 0.000
+-------------------------score:  -4.949262235845838;  adjusted_score: -4.926801421727452----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two days in his she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(days -3.62)(in -7.07)(his -7.97)(she -1.47)(. -2.35) line score is : -5.058, look ahead score is : 0.000
+-------------------------score:  -4.9514496837343485;  adjusted_score: -4.938988869615963----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two days in his she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(days -2.16)(in -7.33)(his -7.44)(she -1.54)(. -2.16) line score is : -5.069, look ahead score is : 0.000
+-------------------------score:  -4.9598681543554575;  adjusted_score: -4.937407340237072----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i was out two years in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(was -4.05)(out -4.46)(two -1.52)(years -3.62)(in -7.07)(my -7.97)(she -1.98)(. -2.68) line score is : -5.142, look ahead score is : 0.000
+-------------------------score:  -4.962124130555561;  adjusted_score: -4.949663316437176----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out three days in his she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(three -2.87)(days -2.16)(in -7.33)(his -7.79)(she -1.53)(. -1.92) line score is : -5.081, look ahead score is : 0.000
+-------------------------score:  -4.977000687803541;  adjusted_score: -4.964539873685156----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out three times in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(three -2.87)(times -2.16)(in -7.33)(my -7.79)(she -1.84)(. -1.61) line score is : -5.080, look ahead score is : 0.000
+-------------------------score:  -4.978424404348646;  adjusted_score: -4.965963590230261----------------------- 
+there was a cruel boy named marquis 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two years in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(it -7.10)(usually -2.30)(near -3.94)(, -8.59) line score is : -5.481, look ahead score is : 0.000
+(as -8.59)(i -9.68)(was -3.89)(out -5.04)(two -2.87)(years -2.16)(in -7.33)(my -7.44)(she -2.09)(. -3.08) line score is : -5.216, look ahead score is : 0.000
+-------------------------score:  -4.979960714067731;  adjusted_score: -4.967499899949346----------------------- 
+there was a cruel boy named tyree 
+ whose father always terrified me . 
+ there is death like a fear , 
+ it usually near , 
+ as i was out two nights in his she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(father -2.25)(always -5.42)(terrified -9.52)(me -4.82)(. -1.77) line score is : -4.795, look ahead score is : 0.000
+(there -1.77)(is -4.62)(death -3.73)(like -7.33)(a -5.74)(fear -2.31)(, -7.09) line score is : -4.654, look ahead score is : 0.623
+(it -7.09)(usually -2.26)(near -3.98)(, -8.62) line score is : -5.488, look ahead score is : 0.000
+(as -8.62)(i -9.60)(was -3.84)(out -5.01)(two -2.89)(nights -2.24)(in -7.37)(his -7.45)(she -1.31)(. -1.91) line score is : -5.025, look ahead score is : 0.000
+-------------------------score:  -4.980827374117715;  adjusted_score: -4.958366559999329----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i saw out two days in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(saw -4.05)(out -4.46)(two -1.52)(days -4.28)(in -7.15)(my -7.16)(she -2.40)(. -2.87) line score is : -5.197, look ahead score is : 0.000
+-------------------------score:  -4.991329525198255;  adjusted_score: -4.968868711079869----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i saw out two days in his she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(saw -4.05)(out -4.46)(two -1.52)(days -4.28)(in -7.15)(his -7.16)(she -2.40)(. -2.87) line score is : -5.197, look ahead score is : 0.000
+-------------------------score:  -5.00224004473005;  adjusted_score: -4.979779230611665----------------------- 
+there was a cruel boy named tyree 
+ whose mother always terrified me . 
+ there is death like a fear , 
+ i usually cheer , 
+ as i read out two lines in my she . 
+------------------------- score breakdown ------------------------ 
+(whose -4.99)(mother -2.30)(always -4.86)(terrified -9.22)(me -5.25)(. -1.80) line score is : -4.738, look ahead score is : 0.000
+(there -1.80)(is -4.70)(death -3.78)(like -7.24)(a -5.76)(fear -2.36)(, -7.10) line score is : -4.677, look ahead score is : 0.623
+(i -7.10)(usually -2.30)(cheer -4.36)(, -8.57) line score is : -5.583, look ahead score is : 0.500
+(as -8.57)(i -9.51)(read -4.05)(out -4.46)(two -1.52)(lines -4.89)(in -5.81)(my -8.09)(she -2.33)(. -3.54) line score is : -5.277, look ahead score is : 0.000

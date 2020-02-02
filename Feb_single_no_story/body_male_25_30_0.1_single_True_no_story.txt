@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ WHILE PRP$ NN VBD , 
+ THE NN VBD , 
+ AND VBD NN INSIDE PRP$ INSIDE . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ while her lover lamented 
+ the apple fermented 
+ and made cider inside her inside 
+-------------------------score:  -4.020819180011749;  adjusted_score: -4.020819180011749----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our lot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(lot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.0430024409294125;  adjusted_score: -4.0430024409294125----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our pot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(pot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.051520011425018;  adjusted_score: -4.051520011425018----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our plot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(plot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.0525200867652895;  adjusted_score: -4.0525200867652895----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our spot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(spot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.062187285423279;  adjusted_score: -4.062187285423279----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our lot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(lot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.079245715141297;  adjusted_score: -4.079245715141297----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our spot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(spot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.084725031852722;  adjusted_score: -4.084725031852722----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our plot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(plot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.08892389535904;  adjusted_score: -4.08892389535904----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside his onslaught . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(his -2.16)(onslaught -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.112862386703491;  adjusted_score: -4.112862386703491----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside his onslaught . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(his -2.68)(onslaught -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.115028598308563;  adjusted_score: -4.115028598308563----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our pot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(pot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.120698959827423;  adjusted_score: -4.120698959827423----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside his gunshot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(his -2.68)(gunshot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.12218115568161;  adjusted_score: -4.12218115568161----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our squat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(squat -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.133639883995056;  adjusted_score: -4.133639883995056----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our yacht . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(yacht -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.144269688129425;  adjusted_score: -4.144269688129425----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our squat . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(squat -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.144489691257477;  adjusted_score: -4.144489691257477----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside his cannot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(his -2.16)(cannot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.156678922176361;  adjusted_score: -4.156678922176361----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(thought -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.160962460041046;  adjusted_score: -4.160962460041046----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside his cannot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(his -2.68)(cannot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.16854394197464;  adjusted_score: -4.16854394197464----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside his gunshot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(his -2.16)(gunshot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.1721328997612;  adjusted_score: -4.1721328997612----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our thought . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(thought -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.21490624666214;  adjusted_score: -4.21490624666214----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside its cannot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(its -2.16)(cannot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.227233288288116;  adjusted_score: -4.227233288288116----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside her cannot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(her -2.16)(cannot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.249778101444244;  adjusted_score: -4.249778101444244----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell lifeless inside his cannot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(lifeless -2.65)(inside -1.63)(his -2.16)(cannot -6.13)(. -5.85) line score is : -5.221, look ahead score is : 0.000
+-------------------------score:  -4.254306852817535;  adjusted_score: -4.254306852817535----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and took refuge inside his cannot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(took -11.44)(refuge -2.95)(inside -1.60)(his -4.15)(cannot -4.44)(. -3.68) line score is : -5.011, look ahead score is : 0.000
+-------------------------score:  -4.261709244251251;  adjusted_score: -4.261709244251251----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside my gunshot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(my -2.16)(gunshot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.291661951541901;  adjusted_score: -4.291661951541901----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and took refuge inside his gunshot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(took -11.44)(refuge -2.95)(inside -1.60)(his -4.15)(gunshot -4.44)(. -3.68) line score is : -5.011, look ahead score is : 0.000
+-------------------------score:  -4.298217699527741;  adjusted_score: -4.298217699527741----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our hot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(hot -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.331230642795563;  adjusted_score: -4.331230642795563----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our hot . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(hot -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.368276064395904;  adjusted_score: -4.368276064395904----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our not . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(not -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000
+-------------------------score:  -4.509315283298492;  adjusted_score: -4.509315283298492----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the murderer tired , 
+ and fell asleep inside our wrought . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(murderer -0.80)(tired -1.49)(, -6.82) line score is : -3.380, look ahead score is : 0.000
+(and -6.82)(fell -11.44)(asleep -2.95)(inside -1.60)(our -2.68)(wrought -2.33)(. -5.81) line score is : -4.806, look ahead score is : 0.000
+-------------------------score:  -4.528942549228669;  adjusted_score: -4.528942549228669----------------------- 
+there was a hairy man named scot 
+ who carried a wooden stick and shot . 
+ while his rifle fired , 
+ the animal tired , 
+ and fell asleep inside our wrought . 
+------------------------- score breakdown ------------------------ 
+(who -1.65)(carried -6.40)(a -0.64)(wooden -5.39)(stick -1.75)(and -1.88)(shot -4.72)(. -6.63) line score is : -3.631, look ahead score is : 0.000
+(while -6.63)(his -6.79)(rifle -4.34)(fired -4.76)(, -4.41) line score is : -5.387, look ahead score is : 0.000
+(the -4.41)(animal -0.80)(tired -1.49)(, -6.15) line score is : -3.214, look ahead score is : 0.000
+(and -6.15)(fell -11.96)(asleep -2.65)(inside -1.63)(our -2.16)(wrought -3.31)(. -5.62) line score is : -4.783, look ahead score is : 0.000

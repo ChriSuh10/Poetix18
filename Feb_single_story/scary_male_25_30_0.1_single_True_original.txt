@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -4.279045908615507;  adjusted_score: -4.260232357249178----------------------- 
+there was a silly boy named marquis 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased upstairs on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(upstairs -6.18)(on -2.08)(us -5.17)(he -7.17)(. -5.05) line score is : -4.815, look ahead score is : 0.000
+-------------------------score:  -4.286263603588631;  adjusted_score: -4.267450052222301----------------------- 
+there was a silly boy named marquis 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased downstairs on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(downstairs -6.18)(on -2.08)(us -5.17)(he -7.63)(. -4.78) line score is : -4.839, look ahead score is : 0.000
+-------------------------score:  -4.3194276443843185;  adjusted_score: -4.30080774433654----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased downstairs on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(downstairs -6.35)(on -2.27)(us -5.14)(he -8.10)(. -4.68) line score is : -4.966, look ahead score is : 0.000
+-------------------------score:  -4.323390194054308;  adjusted_score: -4.304770294006529----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased upstairs on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(upstairs -6.35)(on -2.27)(us -5.14)(he -7.78)(. -4.99) line score is : -4.965, look ahead score is : 0.000
+-------------------------score:  -4.325823255654039;  adjusted_score: -4.30720335560626----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on him be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(him -3.97)(be -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.331729656663434;  adjusted_score: -4.313109756615655----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on me be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(me -3.97)(be -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.339690666774223;  adjusted_score: -4.321070766726445----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on me see . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(me -3.97)(see -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.344370215103544;  adjusted_score: -4.325750315055766----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on it be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(it -3.97)(be -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.348231494426727;  adjusted_score: -4.329611594378949----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on it see . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(it -3.97)(see -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.357474727877255;  adjusted_score: -4.3388548278294765----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on it he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(it -3.97)(he -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.369166947644333;  adjusted_score: -4.350353396278003----------------------- 
+there was a silly boy named tyree 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased upstairs on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(upstairs -6.18)(on -2.08)(us -5.17)(we -7.17)(. -5.05) line score is : -4.815, look ahead score is : 0.000
+-------------------------score:  -4.385168780540598;  adjusted_score: -4.366355229174268----------------------- 
+there was a silly boy named marquis 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased downstairs on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(downstairs -6.18)(on -2.08)(us -5.17)(we -7.63)(. -4.78) line score is : -4.839, look ahead score is : 0.000
+-------------------------score:  -4.395408225470576;  adjusted_score: -4.3767883254227975----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased upstairs on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(upstairs -6.35)(on -2.27)(us -5.14)(be -7.78)(. -4.99) line score is : -4.965, look ahead score is : 0.000
+-------------------------score:  -4.395591256947353;  adjusted_score: -4.3767777055810235----------------------- 
+there was a silly boy named marquis 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased upstairs on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(upstairs -6.18)(on -2.08)(us -5.17)(she -7.17)(. -5.05) line score is : -4.815, look ahead score is : 0.000
+-------------------------score:  -4.397269477104318;  adjusted_score: -4.378455925737989----------------------- 
+there was a silly boy named marquis 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased upstairs on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(upstairs -6.18)(on -2.08)(us -5.17)(be -7.17)(. -5.05) line score is : -4.815, look ahead score is : 0.000
+-------------------------score:  -4.4043103312623915;  adjusted_score: -4.385690431214613----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased upstairs on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(upstairs -6.35)(on -2.27)(us -5.14)(we -7.78)(. -4.99) line score is : -4.965, look ahead score is : 0.000
+-------------------------score:  -4.408345031327214;  adjusted_score: -4.389725131279436----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased downstairs on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(downstairs -6.35)(on -2.27)(us -5.14)(be -8.10)(. -4.68) line score is : -4.966, look ahead score is : 0.000
+-------------------------score:  -4.409333325665573;  adjusted_score: -4.390519774299244----------------------- 
+there was a silly boy named tyree 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased downstairs on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(downstairs -6.18)(on -2.08)(us -5.17)(she -7.63)(. -4.78) line score is : -4.839, look ahead score is : 0.000
+-------------------------score:  -4.412300000930655;  adjusted_score: -4.393680100882876----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased downstairs on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(downstairs -6.35)(on -2.27)(us -5.14)(we -8.10)(. -4.68) line score is : -4.966, look ahead score is : 0.000
+-------------------------score:  -4.417511872176466;  adjusted_score: -4.398698320810137----------------------- 
+there was a silly boy named tyree 
+ whose name sounded a bit unlike me . 
+ it was for his nightmare , 
+ a girl who lived nowhere , 
+ to be chased downstairs on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.28)(name -1.65)(sounded -3.62)(a -3.44)(bit -1.57)(unlike -8.24)(me -3.37)(. -1.86) line score is : -3.630, look ahead score is : 0.000
+(it -1.86)(was -3.36)(for -0.82)(his -6.88)(nightmare -3.25)(, -10.58) line score is : -4.456, look ahead score is : 0.599
+(a -10.58)(girl -2.61)(who -3.14)(lived -4.31)(nowhere -1.54)(, -3.64) line score is : -4.303, look ahead score is : 0.342
+(to -3.64)(be -6.66)(chased -2.57)(downstairs -6.18)(on -2.08)(us -5.17)(be -7.63)(. -4.78) line score is : -4.839, look ahead score is : 0.000
+-------------------------score:  -4.433676248994367;  adjusted_score: -4.415056348946588----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on it she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(it -3.97)(she -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.440035990599928;  adjusted_score: -4.42141609055215----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on it we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(it -3.97)(we -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.4462112619959075;  adjusted_score: -4.427591361948129----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on me he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(me -3.97)(he -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.455950825378813;  adjusted_score: -4.437330925331034----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on him he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(him -3.97)(he -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.461598238040661;  adjusted_score: -4.442978337992883----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on me we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(me -3.97)(we -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.467199594810091;  adjusted_score: -4.448579694762312----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on me she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(me -3.97)(she -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.477840199552733;  adjusted_score: -4.459220299504954----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased upstairs on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(upstairs -6.35)(on -2.27)(us -5.14)(she -7.78)(. -4.99) line score is : -4.965, look ahead score is : 0.000
+-------------------------score:  -4.485192009087267;  adjusted_score: -4.466572109039488----------------------- 
+there was a funny boy named marquis 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on him we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(him -3.97)(we -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.496647380549332;  adjusted_score: -4.478027480501553----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be tortured people on him she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(tortured -2.34)(people -6.35)(on -2.27)(him -3.97)(she -9.93)(. -4.63) line score is : -5.040, look ahead score is : 0.000
+-------------------------score:  -4.496907634981747;  adjusted_score: -4.478287734933969----------------------- 
+there was a funny boy named tyree 
+ whose name sounded a bit unlike me . 
+ he was for my nightmare , 
+ a guy who lived nowhere , 
+ to be chased downstairs on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.50)(name -1.60)(sounded -3.76)(a -3.20)(bit -1.78)(unlike -8.28)(me -3.15)(. -1.71) line score is : -3.622, look ahead score is : 0.000
+(he -1.71)(was -1.30)(for -0.84)(my -8.22)(nightmare -4.49)(, -11.13) line score is : -4.614, look ahead score is : 0.599
+(a -11.13)(guy -2.24)(who -2.77)(lived -4.04)(nowhere -0.85)(, -3.85) line score is : -4.147, look ahead score is : 0.332
+(to -3.85)(be -6.97)(chased -2.34)(downstairs -6.35)(on -2.27)(us -5.14)(she -8.10)(. -4.68) line score is : -4.966, look ahead score is : 0.000

@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -4.507969658950279;  adjusted_score: -4.483332823792408----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on we be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(we -6.80)(be -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.535223915659148;  adjusted_score: -4.510587080501277----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra drinks on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(drinks -6.25)(on -2.93)(us -6.81)(he -4.49)(. -4.07) line score is : -4.782, look ahead score is : 0.000
+-------------------------score:  -4.536442974518085;  adjusted_score: -4.511806139360214----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra drinks on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(drinks -6.25)(on -2.93)(us -6.81)(be -4.49)(. -4.07) line score is : -4.782, look ahead score is : 0.000
+-------------------------score:  -4.561272682814763;  adjusted_score: -4.536635847656892----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on it he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(it -6.80)(he -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.5701910175126175;  adjusted_score: -4.5455541823547465----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(us -6.80)(he -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.5794651549437955;  adjusted_score: -4.5548283197859245----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on them he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(them -6.80)(he -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.579889350923999;  adjusted_score: -4.555252515766128----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra drinks on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(drinks -6.25)(on -2.93)(us -6.81)(we -4.49)(. -4.07) line score is : -4.782, look ahead score is : 0.000
+-------------------------score:  -4.593757863702445;  adjusted_score: -4.569121028544574----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra drinks on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(drinks -6.25)(on -2.93)(us -6.81)(she -4.49)(. -4.07) line score is : -4.782, look ahead score is : 0.000
+-------------------------score:  -4.5978721380233765;  adjusted_score: -4.5732353028655055----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(us -6.80)(be -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.599416630021457;  adjusted_score: -4.574617492309932----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who brought cake , 
+ to say good prayers on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(brought -4.55)(cake -6.75)(, -4.98) line score is : -5.268, look ahead score is : 0.658
+(to -4.98)(say -7.18)(good -2.01)(prayers -5.91)(on -3.56)(us -3.15)(he -7.44)(. -4.24) line score is : -4.809, look ahead score is : 0.000
+-------------------------score:  -4.599911586991672;  adjusted_score: -4.575274751833801----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(us -6.80)(we -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.600171002848395;  adjusted_score: -4.575534167690524----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra tips on us be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(tips -6.25)(on -2.93)(us -6.81)(be -4.60)(. -3.29) line score is : -4.699, look ahead score is : 0.000
+-------------------------score:  -4.605392550599986;  adjusted_score: -4.580755715442115----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra tips on us he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(tips -6.25)(on -2.93)(us -6.81)(he -4.60)(. -3.29) line score is : -4.699, look ahead score is : 0.000
+-------------------------score:  -4.6156806904694125;  adjusted_score: -4.591043855311542----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on them be . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(them -6.80)(be -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.61872347058921;  adjusted_score: -4.593924332877686----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who brought cake , 
+ to say good prayers on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(brought -4.55)(cake -6.75)(, -4.98) line score is : -5.268, look ahead score is : 0.658
+(to -4.98)(say -7.18)(good -2.01)(prayers -5.91)(on -3.56)(us -3.15)(we -7.44)(. -4.24) line score is : -4.809, look ahead score is : 0.000
+-------------------------score:  -4.620900988578796;  adjusted_score: -4.596264153420925----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on it we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(it -6.80)(we -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.629231892783066;  adjusted_score: -4.604595057625195----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra tips on us we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(tips -6.25)(on -2.93)(us -6.81)(we -4.60)(. -3.29) line score is : -4.699, look ahead score is : 0.000
+-------------------------score:  -4.630688087693576;  adjusted_score: -4.606051252535705----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on him he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(him -6.80)(he -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.641871645532805;  adjusted_score: -4.617234810374934----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on it she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(it -6.80)(she -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.6449620271551195;  adjusted_score: -4.620325191997249----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on we we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(we -6.80)(we -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.645860865198332;  adjusted_score: -4.6212240300404615----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on we he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(we -6.80)(he -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.645875860904825;  adjusted_score: -4.621239025746954----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get extra tips on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(extra -2.26)(tips -6.25)(on -2.93)(us -6.81)(she -4.60)(. -3.29) line score is : -4.699, look ahead score is : 0.000
+-------------------------score:  -4.654329065618844;  adjusted_score: -4.629692230460973----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on me he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(me -6.80)(he -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.656100301906981;  adjusted_score: -4.63146346674911----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(us -6.80)(she -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.658628097895918;  adjusted_score: -4.633991262738047----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on them we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(them -6.80)(we -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.67091584616694;  adjusted_score: -4.646279011009069----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on him we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(him -6.80)(we -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.675639345728118;  adjusted_score: -4.650840208016593----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who brought cake , 
+ to say good prayers on us she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(brought -4.55)(cake -6.75)(, -4.98) line score is : -5.268, look ahead score is : 0.658
+(to -4.98)(say -7.18)(good -2.01)(prayers -5.91)(on -3.56)(us -3.15)(she -7.44)(. -4.24) line score is : -4.809, look ahead score is : 0.000
+-------------------------score:  -4.676890213427873;  adjusted_score: -4.652253378270002----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to say nice things on ourselves he . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(say -9.41)(nice -2.26)(things -6.25)(on -4.06)(ourselves -5.60)(he -0.22)(. -4.99) line score is : -4.354, look ahead score is : 0.000
+-------------------------score:  -4.679095823189308;  adjusted_score: -4.654458988031437----------------------- 
+there was a waiter named marquis 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to get fried potatoes on them she . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(get -9.41)(fried -2.26)(potatoes -6.25)(on -2.93)(them -6.80)(she -2.43)(. -4.24) line score is : -4.545, look ahead score is : 0.000
+-------------------------score:  -4.723364588001679;  adjusted_score: -4.698727752843808----------------------- 
+there was a waiter named tyree 
+ whose name rattled a bit within me . 
+ he came for our shake , 
+ a couple who had steak , 
+ to say nice things on ourselves we . 
+------------------------- score breakdown ------------------------ 
+(whose -5.31)(name -1.27)(rattled -10.45)(a -4.50)(bit -2.91)(within -6.92)(me -1.06)(. -1.30) line score is : -4.215, look ahead score is : 0.000
+(he -1.30)(came -1.80)(for -4.20)(our -5.42)(shake -4.31)(, -9.59) line score is : -4.438, look ahead score is : 0.582
+(a -9.59)(couple -1.39)(who -4.34)(had -4.55)(steak -6.75)(, -2.04) line score is : -4.777, look ahead score is : 0.650
+(to -2.04)(say -9.41)(nice -2.26)(things -6.25)(on -4.06)(ourselves -5.60)(we -0.22)(. -4.99) line score is : -4.354, look ahead score is : 0.000

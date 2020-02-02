@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ WHILE PRP$ NN VBD , 
+ THE NN VBD , 
+ AND VBD NN INSIDE PRP$ INSIDE . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ while her lover lamented 
+ the apple fermented 
+ and made cider inside her inside 
+-------------------------score:  -4.086800533533096;  adjusted_score: -4.086800533533096----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside their plot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(their -4.27)(plot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.099210578203201;  adjusted_score: -4.099210578203201----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his plot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(plot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.127443920373917;  adjusted_score: -4.127443920373917----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside their lot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(their -4.27)(lot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.136494904756546;  adjusted_score: -4.136494904756546----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his lot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(lot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.137421900033951;  adjusted_score: -4.137421900033951----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his plot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(plot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.148756386041641;  adjusted_score: -4.148756386041641----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his lot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(lot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.1715810120105745;  adjusted_score: -4.1715810120105745----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his pot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(pot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.175211883783341;  adjusted_score: -4.175211883783341----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his spot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(spot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.1813145840168;  adjusted_score: -4.1813145840168----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his squat . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(squat -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.195748530626297;  adjusted_score: -4.195748530626297----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his squat . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(squat -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.196969691514969;  adjusted_score: -4.196969691514969----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his shot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(shot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.209117475748062;  adjusted_score: -4.209117475748062----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his spot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(spot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.2413246071338655;  adjusted_score: -4.2413246071338655----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his dot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(dot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.24730751156807;  adjusted_score: -4.24730751156807----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his pot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(pot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.269431563615799;  adjusted_score: -4.269431563615799----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his thought . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(thought -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.2707976830005645;  adjusted_score: -4.2707976830005645----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his thought . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(thought -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.28536734700203;  adjusted_score: -4.28536734700203----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and did anything inside their lot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(did -9.38)(anything -5.94)(inside -3.56)(their -5.92)(lot -4.49)(. -9.40) line score is : -6.073, look ahead score is : 0.000
+-------------------------score:  -4.300371962785721;  adjusted_score: -4.300371962785721----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and did anything inside their plot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(did -9.38)(anything -5.94)(inside -3.56)(their -5.92)(plot -4.49)(. -9.40) line score is : -6.073, look ahead score is : 0.000
+-------------------------score:  -4.311418257951736;  adjusted_score: -4.311418257951736----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside our thought . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(our -5.40)(thought -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.312858430147171;  adjusted_score: -4.312858430147171----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and did battle inside our thought . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(did -9.38)(battle -5.94)(inside -3.56)(our -5.92)(thought -5.51)(. -8.22) line score is : -6.049, look ahead score is : 0.000
+-------------------------score:  -4.327728043794632;  adjusted_score: -4.327728043794632----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside their thought . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(their -4.27)(thought -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.351640807390213;  adjusted_score: -4.351640807390213----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his hot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(hot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.3815641891956325;  adjusted_score: -4.3815641891956325----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his hot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(hot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.407328244447708;  adjusted_score: -4.407328244447708----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside their hot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(their -4.27)(hot -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.4119397270679475;  adjusted_score: -4.4119397270679475----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside his not . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(his -4.27)(not -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.420629245042801;  adjusted_score: -4.420629245042801----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his not . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(not -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.429496480226517;  adjusted_score: -4.429496480226517----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and burned anything inside their not . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(burned -9.38)(anything -5.94)(inside -3.56)(their -4.27)(not -7.04)(. -7.84) line score is : -5.977, look ahead score is : 0.000
+-------------------------score:  -4.457525893449783;  adjusted_score: -4.457525893449783----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside our hot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(our -5.40)(hot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000
+-------------------------score:  -4.460534392595291;  adjusted_score: -4.460534392595291----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and did anything inside their not . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(did -9.38)(anything -5.94)(inside -3.56)(their -5.92)(not -4.49)(. -9.40) line score is : -6.073, look ahead score is : 0.000
+-------------------------score:  -4.544057208299637;  adjusted_score: -4.544057208299637----------------------- 
+there was a brave judge named scot 
+ who took a courageous stand and fought . 
+ while his trial lasted , 
+ the government blasted , 
+ and fired fire inside his rot . 
+------------------------- score breakdown ------------------------ 
+(who -2.43)(took -3.40)(a -2.35)(courageous -6.24)(stand -0.14)(and -1.60)(fought -4.39)(. -5.28) line score is : -3.231, look ahead score is : 0.000
+(while -5.28)(his -6.90)(trial -4.01)(lasted -4.83)(, -2.99) line score is : -4.802, look ahead score is : 0.000
+(the -2.99)(government -1.45)(blasted -2.06)(, -3.82) line score is : -2.577, look ahead score is : 0.000
+(and -3.82)(fired -9.38)(fire -5.94)(inside -3.56)(his -5.40)(rot -5.38)(. -7.68) line score is : -5.878, look ahead score is : 0.000

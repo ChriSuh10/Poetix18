@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -3.9496235641939887;  adjusted_score: -3.9496235641939887----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on it more . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(it -3.66)(more -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -3.976673154995359;  adjusted_score: -3.976673154995359----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other men on it before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(men -4.96)(on -4.58)(it -3.66)(before -0.99)(. -5.43) line score is : -5.290, look ahead score is : 0.000
+-------------------------score:  -3.9898709716468024;  adjusted_score: -3.9898709716468024----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other men on them before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(men -4.96)(on -4.58)(them -3.66)(before -0.99)(. -5.43) line score is : -5.290, look ahead score is : 0.000
+-------------------------score:  -3.9995918541119018;  adjusted_score: -3.9995918541119018----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other men on them before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(men -4.96)(on -4.22)(them -4.62)(before -0.69)(. -5.68) line score is : -5.359, look ahead score is : 0.000
+-------------------------score:  -4.002670216149297;  adjusted_score: -4.002670216149297----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other men on it before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(men -4.96)(on -4.22)(it -4.62)(before -0.69)(. -5.68) line score is : -5.359, look ahead score is : 0.000
+-------------------------score:  -4.0027674765422425;  adjusted_score: -4.0027674765422425----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other men on him before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(men -4.96)(on -4.58)(him -3.66)(before -0.99)(. -5.43) line score is : -5.290, look ahead score is : 0.000
+-------------------------score:  -4.010446772493165;  adjusted_score: -4.010446772493165----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other men on him before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(men -4.96)(on -4.22)(him -4.62)(before -0.69)(. -5.68) line score is : -5.359, look ahead score is : 0.000
+-------------------------score:  -4.039755471821489;  adjusted_score: -4.039755471821489----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on him for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(him -3.66)(for -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -4.048973408238641;  adjusted_score: -4.048973408238641----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on it for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(it -3.66)(for -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -4.050793524446158;  adjusted_score: -4.050793524446158----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to save other men on it before . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(save -13.35)(other -6.96)(men -4.96)(on -4.06)(it -4.96)(before -1.01)(. -6.57) line score is : -5.533, look ahead score is : 0.000
+-------------------------score:  -4.053156271063048;  adjusted_score: -4.053156271063048----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other men on himself for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(men -4.96)(on -4.22)(himself -4.62)(for -0.69)(. -5.68) line score is : -5.359, look ahead score is : 0.000
+-------------------------score:  -4.05678050271396;  adjusted_score: -4.05678050271396----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other soldiers on him for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(soldiers -4.96)(on -4.22)(him -4.62)(for -2.27)(. -5.32) line score is : -5.511, look ahead score is : 0.000
+-------------------------score:  -4.063546719222233;  adjusted_score: -4.063546719222233----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on them for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(them -3.66)(for -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -4.068356078246544;  adjusted_score: -4.068356078246544----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other soldiers on him for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(soldiers -4.96)(on -4.58)(him -3.66)(for -2.54)(. -5.42) line score is : -5.483, look ahead score is : 0.000
+-------------------------score:  -4.083415097203748;  adjusted_score: -4.083415097203748----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other nations on it for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(nations -4.96)(on -4.58)(it -3.66)(for -2.24)(. -5.71) line score is : -5.482, look ahead score is : 0.000
+-------------------------score:  -4.083443912966498;  adjusted_score: -4.083443912966498----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other soldiers on it for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(soldiers -4.96)(on -4.58)(it -3.66)(for -2.54)(. -5.42) line score is : -5.483, look ahead score is : 0.000
+-------------------------score:  -4.0934647938300825;  adjusted_score: -4.0934647938300825----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other soldiers on it for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(soldiers -4.96)(on -4.22)(it -4.62)(for -2.27)(. -5.32) line score is : -5.511, look ahead score is : 0.000
+-------------------------score:  -4.094719993657079;  adjusted_score: -4.094719993657079----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other people on it for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(people -4.96)(on -4.22)(it -4.62)(for -2.42)(. -5.42) line score is : -5.543, look ahead score is : 0.000
+-------------------------score:  -4.095489855470328;  adjusted_score: -4.095489855470328----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other soldiers on him or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(soldiers -4.96)(on -4.22)(him -4.62)(or -2.27)(. -5.32) line score is : -5.511, look ahead score is : 0.000
+-------------------------score:  -4.105594729555064;  adjusted_score: -4.105594729555064----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on it or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(it -3.66)(or -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -4.107024827907825;  adjusted_score: -4.107024827907825----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other men on himself or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(men -4.96)(on -4.22)(himself -4.62)(or -0.69)(. -5.68) line score is : -5.359, look ahead score is : 0.000
+-------------------------score:  -4.109467255658116;  adjusted_score: -4.109467255658116----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on him or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(him -3.66)(or -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -4.1137747846800705;  adjusted_score: -4.1137747846800705----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other nations on it for . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(nations -4.96)(on -4.22)(it -4.62)(for -2.52)(. -5.41) line score is : -5.555, look ahead score is : 0.000
+-------------------------score:  -4.132414003898358;  adjusted_score: -4.132414003898358----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other soldiers on him or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(soldiers -4.96)(on -4.58)(him -3.66)(or -2.54)(. -5.42) line score is : -5.483, look ahead score is : 0.000
+-------------------------score:  -4.133005598495746;  adjusted_score: -4.133005598495746----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other people on them or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(people -4.96)(on -4.58)(them -3.66)(or -1.85)(. -5.62) line score is : -5.422, look ahead score is : 0.000
+-------------------------score:  -4.142252387671635;  adjusted_score: -4.142252387671635----------------------- 
+there was a fierce soldier named salvador 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other people on it or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(people -4.96)(on -4.22)(it -4.62)(or -2.42)(. -5.42) line score is : -5.543, look ahead score is : 0.000
+-------------------------score:  -4.143592744038023;  adjusted_score: -4.143592744038023----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other soldiers on it or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(soldiers -4.96)(on -4.22)(it -4.62)(or -2.27)(. -5.32) line score is : -5.511, look ahead score is : 0.000
+-------------------------score:  -4.144748104029689;  adjusted_score: -4.144748104029689----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other soldiers on it or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(soldiers -4.96)(on -4.58)(it -3.66)(or -2.54)(. -5.42) line score is : -5.483, look ahead score is : 0.000
+-------------------------score:  -4.153614315493353;  adjusted_score: -4.153614315493353----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to kill other nations on it or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(kill -13.35)(other -6.96)(nations -4.96)(on -4.22)(it -4.62)(or -2.52)(. -5.41) line score is : -5.555, look ahead score is : 0.000
+-------------------------score:  -4.155095429256044;  adjusted_score: -4.155095429256044----------------------- 
+there was a fierce soldier named theodore 
+ whose father killed a brother in war . 
+ he fought for his nation , 
+ a man who was station , 
+ to help other nations on it or . 
+------------------------- score breakdown ------------------------ 
+(whose -5.27)(father -3.53)(killed -5.67)(a -2.74)(brother -4.66)(in -2.37)(war -3.14)(. -1.18) line score is : -3.571, look ahead score is : 0.000
+(he -1.18)(fought -1.52)(for -4.07)(his -2.23)(nation -2.31)(, -4.01) line score is : -2.552, look ahead score is : 0.000
+(a -4.01)(man -1.70)(who -5.05)(was -3.07)(station -1.15)(, -2.40) line score is : -2.897, look ahead score is : 0.000
+(to -2.40)(help -13.35)(other -6.96)(nations -4.96)(on -4.58)(it -3.66)(or -2.24)(. -5.71) line score is : -5.482, look ahead score is : 0.000

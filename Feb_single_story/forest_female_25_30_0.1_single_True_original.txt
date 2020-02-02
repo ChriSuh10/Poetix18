@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+sarah 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -4.207714452825743;  adjusted_score: -4.189260105125863----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown indoors on it elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(indoors -1.76)(on -1.55)(it -5.42)(elsewhere -6.72)(. -4.27) line score is : -4.705, look ahead score is : 0.000
+-------------------------score:  -4.21082603109294;  adjusted_score: -4.192371683393059----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on it elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(it -5.42)(elsewhere -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.309454582888504;  adjusted_score: -4.291000235188624----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on it nowhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(it -5.42)(nowhere -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.310401532156714;  adjusted_score: -4.291947184456833----------------------- 
+there was a wise lady named claire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on them elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(them -5.42)(elsewhere -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.319014058030885;  adjusted_score: -4.3005597103310045----------------------- 
+there was a wise lady named clare 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown indoors on it nowhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(indoors -1.76)(on -1.55)(it -5.42)(nowhere -6.72)(. -4.27) line score is : -4.705, look ahead score is : 0.000
+-------------------------score:  -4.324068558627162;  adjusted_score: -4.305614210927281----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown indoors on them elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(indoors -1.76)(on -1.55)(them -5.42)(elsewhere -6.72)(. -4.27) line score is : -4.705, look ahead score is : 0.000
+-------------------------score:  -4.331860285380791;  adjusted_score: -4.31340593768091----------------------- 
+there was a wise lady named clare 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to grow tall trees on himself elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(grow -12.07)(tall -1.95)(trees -1.76)(on -2.38)(himself -4.50)(elsewhere -6.04)(. -3.17) line score is : -4.473, look ahead score is : 0.000
+-------------------------score:  -4.334827462147022;  adjusted_score: -4.316373114447141----------------------- 
+there was a wise lady named clare 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on him elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(him -5.42)(elsewhere -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.344829257192282;  adjusted_score: -4.326374909492402----------------------- 
+there was a wise lady named clare 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown indoors on him elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(indoors -1.76)(on -1.55)(him -5.42)(elsewhere -6.72)(. -4.27) line score is : -4.705, look ahead score is : 0.000
+-------------------------score:  -4.353623009961227;  adjusted_score: -4.335168662261347----------------------- 
+there was a wise lady named clare 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to grow tall trees on us elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(grow -12.07)(tall -1.95)(trees -1.76)(on -2.38)(us -4.50)(elsewhere -6.04)(. -3.17) line score is : -4.473, look ahead score is : 0.000
+-------------------------score:  -4.358552877245279;  adjusted_score: -4.340098529545398----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on us fair . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(us -5.42)(fair -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.359146888913779;  adjusted_score: -4.334719531299738----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her land , 
+ a woman who was planned , 
+ to be female children on it care . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(land -2.25)(, -6.34) line score is : -3.787, look ahead score is : 0.573
+(a -6.34)(woman -2.26)(who -4.78)(was -5.74)(planned -2.26)(, -2.18) line score is : -3.928, look ahead score is : 0.649
+(to -2.18)(be -11.46)(female -2.39)(children -4.26)(on -1.27)(it -5.25)(care -8.76)(. -6.23) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.359405916312645;  adjusted_score: -4.334990269521187----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her land , 
+ a woman who had hand , 
+ to be married men on it elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(land -2.25)(, -6.34) line score is : -3.787, look ahead score is : 0.573
+(a -6.34)(woman -2.26)(who -4.78)(had -5.74)(hand -2.26)(, -2.66) line score is : -4.008, look ahead score is : 0.648
+(to -2.66)(be -9.50)(married -3.98)(men -3.55)(on -2.28)(it -3.12)(elsewhere -10.36)(. -5.77) line score is : -5.152, look ahead score is : 0.000
+-------------------------score:  -4.35970029543186;  adjusted_score: -4.34124594773198----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be happy people on it care . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(happy -1.95)(people -1.76)(on -1.55)(it -5.49)(care -9.16)(. -5.76) line score is : -5.206, look ahead score is : 0.000
+-------------------------score:  -4.376932183216358;  adjusted_score: -4.358477835516477----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown indoors on she elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(indoors -1.76)(on -1.55)(she -5.42)(elsewhere -6.72)(. -4.27) line score is : -4.705, look ahead score is : 0.000
+-------------------------score:  -4.377683538815071;  adjusted_score: -4.35922919111519----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on she elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(she -5.42)(elsewhere -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.383979819971939;  adjusted_score: -4.365525472272059----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to grow tall trees on herself elsewhere . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(grow -12.07)(tall -1.95)(trees -1.76)(on -2.38)(herself -4.50)(elsewhere -6.04)(. -3.17) line score is : -4.473, look ahead score is : 0.000
+-------------------------score:  -4.393946024878272;  adjusted_score: -4.369518667264231----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her land , 
+ a woman who was planned , 
+ to be female children on it fair . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(land -2.25)(, -6.34) line score is : -3.787, look ahead score is : 0.573
+(a -6.34)(woman -2.26)(who -4.78)(was -5.74)(planned -2.26)(, -2.18) line score is : -3.928, look ahead score is : 0.649
+(to -2.18)(be -11.46)(female -2.39)(children -4.26)(on -1.27)(it -5.25)(fair -8.76)(. -6.23) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.396270877328412;  adjusted_score: -4.377816529628531----------------------- 
+there was a wise lady named claire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on us air . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(us -5.42)(air -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.399315022189041;  adjusted_score: -4.380860674489161----------------------- 
+there was a wise lady named claire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be happy people on it fair . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(happy -1.95)(people -1.76)(on -1.55)(it -5.49)(fair -9.16)(. -5.76) line score is : -5.206, look ahead score is : 0.000
+-------------------------score:  -4.399860992513854;  adjusted_score: -4.381406644813973----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be happy people on it where . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(happy -1.95)(people -1.76)(on -1.55)(it -5.49)(where -9.16)(. -5.76) line score is : -5.206, look ahead score is : 0.000
+-------------------------score:  -4.4260754441392836;  adjusted_score: -4.401648086525243----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her land , 
+ a woman who was planned , 
+ to be female children on it where . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(land -2.25)(, -6.34) line score is : -3.787, look ahead score is : 0.573
+(a -6.34)(woman -2.26)(who -4.78)(was -5.74)(planned -2.26)(, -2.18) line score is : -3.928, look ahead score is : 0.649
+(to -2.18)(be -11.46)(female -2.39)(children -4.26)(on -1.27)(it -5.25)(where -8.76)(. -6.23) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.443304598331451;  adjusted_score: -4.423356669098139----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who was sunday , 
+ to be married towards on it where . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(was -4.89)(sunday -2.82)(, -2.32) line score is : -3.977, look ahead score is : 0.425
+(to -2.32)(be -12.82)(married -2.42)(towards -2.11)(on -1.88)(it -4.20)(where -10.14)(. -7.23) line score is : -5.390, look ahead score is : 0.000
+-------------------------score:  -4.46132642852849;  adjusted_score: -4.442872080828609----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on us their . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(us -5.42)(their -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.473010788703787;  adjusted_score: -4.4545564410039065----------------------- 
+there was a wise lady named claire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be happy people on it bear . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(happy -1.95)(people -1.76)(on -1.55)(it -5.49)(bear -9.16)(. -5.76) line score is : -5.206, look ahead score is : 0.000
+-------------------------score:  -4.482586690064134;  adjusted_score: -4.464132342364254----------------------- 
+there was a wise lady named claire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on us rare . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(us -5.42)(rare -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.484644431492378;  adjusted_score: -4.4661900837924975----------------------- 
+there was a wise lady named clare 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be happy people on it their . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(happy -1.95)(people -1.76)(on -1.55)(it -5.49)(their -9.16)(. -5.76) line score is : -5.206, look ahead score is : 0.000
+-------------------------score:  -4.496633342627821;  adjusted_score: -4.478178994927941----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who loved sunday , 
+ to be grown outdoors on us where . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(loved -4.89)(sunday -2.82)(, -3.91) line score is : -4.241, look ahead score is : 0.350
+(to -3.91)(be -12.07)(grown -1.95)(outdoors -1.76)(on -1.55)(us -5.42)(where -7.81)(. -3.16) line score is : -4.703, look ahead score is : 0.000
+-------------------------score:  -4.506077447841907;  adjusted_score: -4.486129518608594----------------------- 
+there was a wise lady named maire 
+ whose son planted a garden in there . 
+ she wanted for her tree , 
+ a man who was sunday , 
+ to be married towards on it their . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(tree -2.25)(, -7.74) line score is : -4.021, look ahead score is : 0.573
+(a -7.74)(man -2.67)(who -3.41)(was -4.89)(sunday -2.82)(, -2.32) line score is : -3.977, look ahead score is : 0.425
+(to -2.32)(be -12.82)(married -2.42)(towards -2.11)(on -1.88)(it -4.20)(their -10.14)(. -7.23) line score is : -5.390, look ahead score is : 0.000
+-------------------------score:  -4.516964782928598;  adjusted_score: -4.492537425314557----------------------- 
+there was a wise lady named cher 
+ whose son planted a garden in there . 
+ she wanted for her land , 
+ a woman who was planned , 
+ to be female children on it their . 
+------------------------- score breakdown ------------------------ 
+(whose -4.73)(son -3.40)(planted -10.33)(a -0.95)(garden -2.24)(in -1.61)(there -6.70)(. -1.64) line score is : -3.952, look ahead score is : 0.000
+(she -1.64)(wanted -1.92)(for -4.30)(her -6.27)(land -2.25)(, -6.34) line score is : -3.787, look ahead score is : 0.573
+(a -6.34)(woman -2.26)(who -4.78)(was -5.74)(planned -2.26)(, -2.18) line score is : -3.928, look ahead score is : 0.649
+(to -2.18)(be -11.46)(female -2.39)(children -4.26)(on -1.27)(it -5.25)(their -8.76)(. -6.23) line score is : -5.225, look ahead score is : 0.000

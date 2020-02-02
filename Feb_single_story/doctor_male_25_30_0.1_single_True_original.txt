@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHOSE NN VBD A NN IN NN . 
+ PRP VBD FOR PRP$ NN , 
+ A NN WHO VBD PRP , 
+ TO VB JJ NNS ON PRP NN . 
+----------------------- original sentences ------------------------------------ 
+whose pa made a fortune in pork 
+ he bought for his daughter 
+ a tutor who taught her 
+ to balance green peas on her fork 
+-------------------------score:  -3.8947645980736305;  adjusted_score: -3.868723319383531----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on him head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(him -5.15)(head -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.9037033134493333;  adjusted_score: -3.8770522603187065----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked downstairs on him head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(downstairs -0.35)(on -1.94)(him -5.21)(head -8.59)(. -4.07) line score is : -4.225, look ahead score is : 0.000
+-------------------------score:  -3.90659452923413;  adjusted_score: -3.8805532505440303----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on he said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(he -5.15)(said -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.914743462513233;  adjusted_score: -3.8880924093826064----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked outdoors on him head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(outdoors -0.35)(on -1.94)(him -5.21)(head -9.69)(. -3.46) line score is : -4.286, look ahead score is : 0.000
+-------------------------score:  -3.921108642528797;  adjusted_score: -3.8944575893981703----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be married years on it instead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(married -2.26)(years -0.35)(on -1.94)(it -4.10)(instead -9.81)(. -6.96) line score is : -4.600, look ahead score is : 0.000
+-------------------------score:  -3.923995114606002;  adjusted_score: -3.8979538359159025----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked outdoors on he head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(outdoors -0.60)(on -2.21)(he -5.15)(head -9.57)(. -3.47) line score is : -4.357, look ahead score is : 0.000
+-------------------------score:  -3.92660463061826;  adjusted_score: -3.9005633519281604----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked outdoors on he said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(outdoors -0.60)(on -2.21)(he -5.15)(said -9.57)(. -3.47) line score is : -4.357, look ahead score is : 0.000
+-------------------------score:  -3.9318232803509154;  adjusted_score: -3.905782001660816----------------------- 
+there was a surgeon named ned 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked outdoors on him head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(outdoors -0.60)(on -2.21)(him -5.15)(head -9.57)(. -3.47) line score is : -4.357, look ahead score is : 0.000
+-------------------------score:  -3.9337596749437265;  adjusted_score: -3.9071086218130997----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked downstairs on he said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(downstairs -0.35)(on -1.94)(he -5.21)(said -8.59)(. -4.07) line score is : -4.225, look ahead score is : 0.000
+-------------------------score:  -3.9391895717587966;  adjusted_score: -3.913148293068697----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on you head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(you -5.15)(head -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.9410530554837195;  adjusted_score: -3.9144020023530928----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked outdoors on he said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(outdoors -0.35)(on -1.94)(he -5.21)(said -9.69)(. -3.46) line score is : -4.286, look ahead score is : 0.000
+-------------------------score:  -3.9455123502632667;  adjusted_score: -3.91886129713264----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked outdoors on he head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(outdoors -0.35)(on -1.94)(he -5.21)(head -9.69)(. -3.46) line score is : -4.286, look ahead score is : 0.000
+-------------------------score:  -3.9460406406172392;  adjusted_score: -3.9193895874866125----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked indoors on him head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(indoors -0.35)(on -1.94)(him -5.21)(head -9.98)(. -4.33) line score is : -4.430, look ahead score is : 0.000
+-------------------------score:  -3.9466766221769927;  adjusted_score: -3.920635343486893----------------------- 
+there was a surgeon named ned 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on you said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(you -5.15)(said -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.9521288111292083;  adjusted_score: -3.9260875324391087----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on he head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(he -5.15)(head -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.975754127420228;  adjusted_score: -3.9497128487301283----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on them head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(them -5.15)(head -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.9896105301791223;  adjusted_score: -3.9635692514890226----------------------- 
+there was a surgeon named ned 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on it head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(it -5.15)(head -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -3.99156633944347;  adjusted_score: -3.964915286312843----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked downstairs on he head . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(downstairs -0.35)(on -1.94)(he -5.21)(head -8.59)(. -4.07) line score is : -4.225, look ahead score is : 0.000
+-------------------------score:  -4.002518775134251;  adjusted_score: -3.9764774964441516----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on he dead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(he -5.15)(dead -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -4.014974690716842;  adjusted_score: -3.988933412026743----------------------- 
+there was a surgeon named ned 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on it said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(it -5.15)(said -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -4.015895594810617;  adjusted_score: -3.9898543161205176----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked outdoors on it said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(outdoors -0.60)(on -2.21)(it -5.15)(said -9.57)(. -3.47) line score is : -4.357, look ahead score is : 0.000
+-------------------------score:  -4.018528208650392;  adjusted_score: -3.991877155519765----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked outdoors on it said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(outdoors -0.35)(on -1.94)(it -5.21)(said -9.69)(. -3.46) line score is : -4.286, look ahead score is : 0.000
+-------------------------score:  -4.021269861994119;  adjusted_score: -3.9952285833040193----------------------- 
+there was a surgeon named jed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on them dead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(them -5.15)(dead -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -4.022377402618013;  adjusted_score: -3.9957263494873865----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked downstairs on he dead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(downstairs -0.35)(on -1.94)(he -5.21)(dead -8.59)(. -4.07) line score is : -4.225, look ahead score is : 0.000
+-------------------------score:  -4.022589525272107;  adjusted_score: -3.996548246582007----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked downstairs on you dead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(downstairs -0.60)(on -2.21)(you -5.15)(dead -8.35)(. -4.03) line score is : -4.275, look ahead score is : 0.000
+-------------------------score:  -4.027656684661734;  adjusted_score: -4.001615405971634----------------------- 
+there was a surgeon named ned 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a guy who was girlfriend , 
+ to be naked outdoors on he dead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(guy -2.91)(who -1.86)(was -3.73)(girlfriend -1.40)(, -1.70) line score is : -3.098, look ahead score is : 0.626
+(to -1.70)(be -10.12)(naked -2.04)(outdoors -0.60)(on -2.21)(he -5.15)(dead -9.57)(. -3.47) line score is : -4.357, look ahead score is : 0.000
+-------------------------score:  -4.032028751126651;  adjusted_score: -4.005377697996025----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked downstairs on him said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(downstairs -0.35)(on -1.94)(him -5.21)(said -8.59)(. -4.07) line score is : -4.225, look ahead score is : 0.000
+-------------------------score:  -4.035760692481337;  adjusted_score: -4.009109639350711----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked downstairs on it said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(downstairs -0.35)(on -1.94)(it -5.21)(said -8.59)(. -4.07) line score is : -4.225, look ahead score is : 0.000
+-------------------------score:  -4.04784810337527;  adjusted_score: -4.021197050244644----------------------- 
+there was a surgeon named ed 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked outdoors on he dead . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(outdoors -0.35)(on -1.94)(he -5.21)(dead -9.69)(. -3.46) line score is : -4.286, look ahead score is : 0.000
+-------------------------score:  -4.061683895259068;  adjusted_score: -4.035032842128442----------------------- 
+there was a surgeon named ted 
+ whose father had a problem in bed . 
+ he wanted for his friend , 
+ a girl who was girlfriend , 
+ to be naked indoors on it said . 
+------------------------- score breakdown ------------------------ 
+(whose -5.64)(father -3.62)(had -1.55)(a -3.32)(problem -4.84)(in -4.27)(bed -4.94)(. -1.34) line score is : -3.689, look ahead score is : 0.000
+(he -1.34)(wanted -1.32)(for -3.65)(his -7.13)(friend -1.87)(, -6.99) line score is : -3.717, look ahead score is : 0.676
+(a -6.99)(girl -2.91)(who -1.86)(was -3.38)(girlfriend -2.34)(, -1.46) line score is : -3.155, look ahead score is : 0.656
+(to -1.46)(be -9.92)(naked -2.26)(indoors -0.35)(on -1.94)(it -5.21)(said -9.98)(. -4.33) line score is : -4.430, look ahead score is : 0.000

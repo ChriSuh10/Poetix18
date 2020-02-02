@@ -1,0 +1,341 @@
+======================= template: 1 ============================  
+robert 
+ WHO VBD A JJ NN AND VBD . 
+ WHILE PRP$ NN VBD , 
+ THE NN VBD , 
+ AND VBD NN INSIDE PRP$ INSIDE . 
+----------------------- original sentences ------------------------------------ 
+who ate a green apple and died 
+ while her lover lamented 
+ the apple fermented 
+ and made cider inside her inside 
+-------------------------score:  -4.356099293231964;  adjusted_score: -4.356099293231964----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(upright -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.449361326694489;  adjusted_score: -4.449361326694489----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our twilight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(twilight -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.454217655658722;  adjusted_score: -4.454217655658722----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the tv botched , 
+ and got stuck inside our upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(tv -1.55)(botched -1.85)(, -4.67) line score is : -3.017, look ahead score is : 0.000
+(and -4.67)(got -12.90)(stuck -3.24)(inside -1.16)(our -7.45)(upright -1.69)(. -5.19) line score is : -5.187, look ahead score is : 0.000
+-------------------------score:  -4.458388330936432;  adjusted_score: -4.458388330936432----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and was stuck inside our upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(was -13.12)(stuck -3.27)(inside -1.30)(our -5.13)(upright -4.73)(. -6.08) line score is : -5.456, look ahead score is : 0.000
+-------------------------score:  -4.474956409931183;  adjusted_score: -4.474956409931183----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and was broken inside my upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(was -13.12)(broken -3.27)(inside -1.30)(my -5.13)(upright -4.82)(. -5.79) line score is : -5.427, look ahead score is : 0.000
+-------------------------score:  -4.480595743656158;  adjusted_score: -4.480595743656158----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and went dark inside our upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(went -13.12)(dark -3.27)(inside -1.30)(our -6.02)(upright -2.28)(. -7.54) line score is : -5.442, look ahead score is : 0.000
+-------------------------score:  -4.4866718316078185;  adjusted_score: -4.4866718316078185----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the tv botched , 
+ and was broken inside his upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(tv -1.55)(botched -1.85)(, -4.67) line score is : -3.017, look ahead score is : 0.000
+(and -4.67)(was -12.90)(broken -3.24)(inside -1.16)(his -5.31)(upright -4.92)(. -6.07) line score is : -5.468, look ahead score is : 0.000
+-------------------------score:  -4.488589489459992;  adjusted_score: -4.488589489459992----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and went blank inside our upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(went -13.12)(blank -3.27)(inside -1.30)(our -6.02)(upright -2.70)(. -7.92) line score is : -5.556, look ahead score is : 0.000
+-------------------------score:  -4.509623644351959;  adjusted_score: -4.509623644351959----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and showed something inside my upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(showed -13.12)(something -3.27)(inside -1.30)(my -6.25)(upright -4.94)(. -6.72) line score is : -5.736, look ahead score is : 0.000
+-------------------------score:  -4.511458961963654;  adjusted_score: -4.511458961963654----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and was stuck inside our twilight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(was -13.12)(stuck -3.27)(inside -1.30)(our -5.13)(twilight -4.73)(. -6.08) line score is : -5.456, look ahead score is : 0.000
+-------------------------score:  -4.513771831989288;  adjusted_score: -4.513771831989288----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the tv botched , 
+ and was broken inside its upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(tv -1.55)(botched -1.85)(, -4.67) line score is : -3.017, look ahead score is : 0.000
+(and -4.67)(was -12.90)(broken -3.24)(inside -1.16)(its -5.31)(upright -4.92)(. -6.07) line score is : -5.468, look ahead score is : 0.000
+-------------------------score:  -4.5150262093544;  adjusted_score: -4.5150262093544----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our invite . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(invite -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.519389317035675;  adjusted_score: -4.519389317035675----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and was broken inside its upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(was -13.12)(broken -3.27)(inside -1.30)(its -5.13)(upright -4.82)(. -5.79) line score is : -5.427, look ahead score is : 0.000
+-------------------------score:  -4.522533400058746;  adjusted_score: -4.522533400058746----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and went dark inside our twilight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(went -13.12)(dark -3.27)(inside -1.30)(our -6.02)(twilight -2.28)(. -7.54) line score is : -5.442, look ahead score is : 0.000
+-------------------------score:  -4.523147842884064;  adjusted_score: -4.523147842884064----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and went crazy inside my upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(went -13.12)(crazy -3.27)(inside -1.30)(my -6.02)(upright -4.69)(. -7.99) line score is : -5.850, look ahead score is : 0.000
+-------------------------score:  -4.53200302362442;  adjusted_score: -4.53200302362442----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our moonlight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(moonlight -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.547940061092377;  adjusted_score: -4.547940061092377----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the television botched , 
+ and was broken inside his upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(television -1.55)(botched -1.85)(, -5.85) line score is : -3.310, look ahead score is : 0.000
+(and -5.85)(was -13.08)(broken -3.23)(inside -1.21)(his -5.21)(upright -4.97)(. -6.22) line score is : -5.681, look ahead score is : 0.000
+-------------------------score:  -4.550222837924958;  adjusted_score: -4.550222837924958----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(midnight -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.567390749454498;  adjusted_score: -4.567390749454498----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our outright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(outright -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.568525307178497;  adjusted_score: -4.568525307178497----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the tv botched , 
+ and showed something inside his upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(tv -1.55)(botched -1.85)(, -4.67) line score is : -3.017, look ahead score is : 0.000
+(and -4.67)(showed -12.90)(something -3.24)(inside -1.16)(his -6.37)(upright -4.86)(. -6.44) line score is : -5.664, look ahead score is : 0.000
+-------------------------score:  -4.588381922245025;  adjusted_score: -4.588381922245025----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and went dark inside our midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(went -13.12)(dark -3.27)(inside -1.30)(our -6.02)(midnight -2.28)(. -7.54) line score is : -5.442, look ahead score is : 0.000
+-------------------------score:  -4.5941454434394835;  adjusted_score: -4.5941454434394835----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the tv botched , 
+ and was broadcast inside his upright . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(tv -1.55)(botched -1.85)(, -4.67) line score is : -3.017, look ahead score is : 0.000
+(and -4.67)(was -12.90)(broadcast -3.24)(inside -1.16)(his -5.31)(upright -5.36)(. -7.27) line score is : -5.703, look ahead score is : 0.000
+-------------------------score:  -4.605546925067902;  adjusted_score: -4.605546925067902----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and showed something inside my twilight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(showed -13.12)(something -3.27)(inside -1.30)(my -6.25)(twilight -4.94)(. -6.72) line score is : -5.736, look ahead score is : 0.000
+-------------------------score:  -4.6185384106636045;  adjusted_score: -4.6185384106636045----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and was stuck inside our midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(was -13.12)(stuck -3.27)(inside -1.30)(our -5.13)(midnight -4.73)(. -6.08) line score is : -5.456, look ahead score is : 0.000
+-------------------------score:  -4.626389772891998;  adjusted_score: -4.626389772891998----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while his family watched , 
+ the tv botched , 
+ and got stuck inside our midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(his -6.60)(family -4.36)(watched -5.93)(, -4.00) line score is : -5.080, look ahead score is : 0.000
+(the -4.00)(tv -1.55)(botched -1.85)(, -4.67) line score is : -3.017, look ahead score is : 0.000
+(and -4.67)(got -12.90)(stuck -3.24)(inside -1.16)(our -7.45)(midnight -1.69)(. -5.19) line score is : -5.187, look ahead score is : 0.000
+-------------------------score:  -4.631134798526764;  adjusted_score: -4.631134798526764----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and went blank inside our midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(went -13.12)(blank -3.27)(inside -1.30)(our -6.02)(midnight -2.70)(. -7.92) line score is : -5.556, look ahead score is : 0.000
+-------------------------score:  -4.651183521747589;  adjusted_score: -4.651183521747589----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and turned dark inside our midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(turned -13.12)(dark -3.27)(inside -1.30)(our -6.17)(midnight -4.52)(. -6.22) line score is : -5.594, look ahead score is : 0.000
+-------------------------score:  -4.655242865085602;  adjusted_score: -4.655242865085602----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and got stuck inside our finite . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(got -13.12)(stuck -3.27)(inside -1.30)(our -7.06)(finite -1.72)(. -5.54) line score is : -5.225, look ahead score is : 0.000
+-------------------------score:  -4.677508327960968;  adjusted_score: -4.677508327960968----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and was broken inside my midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(was -13.12)(broken -3.27)(inside -1.30)(my -5.13)(midnight -4.82)(. -5.79) line score is : -5.427, look ahead score is : 0.000
+-------------------------score:  -4.682210714817047;  adjusted_score: -4.682210714817047----------------------- 
+there was a bright cleaner named dwight 
+ who used a remote control and light . 
+ while my family watched , 
+ the tv botched , 
+ and said something inside my midnight . 
+------------------------- score breakdown ------------------------ 
+(who -1.17)(used -3.95)(a -4.33)(remote -6.53)(control -0.66)(and -2.42)(light -6.79)(. -4.50) line score is : -3.795, look ahead score is : 0.000
+(while -4.50)(my -6.60)(family -5.52)(watched -4.89)(, -3.52) line score is : -5.008, look ahead score is : 0.000
+(the -3.52)(tv -1.66)(botched -2.11)(, -4.56) line score is : -2.966, look ahead score is : 0.000
+(and -4.56)(said -13.12)(something -3.27)(inside -1.30)(my -6.81)(midnight -3.32)(. -7.71) line score is : -5.727, look ahead score is : 0.000
