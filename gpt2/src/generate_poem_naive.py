@@ -10,6 +10,7 @@ from .model import *
 from .encoder import *
 from .sample import sample_sequence
 import nltk.data
+import requests
 
 def create_syll_dict():
     """
@@ -51,14 +52,28 @@ def create_syll_dict():
         return dict_meters
 
 
-def poem_is_valid(text, tokenizer, syll_dict):
+def poem_is_valid(text, tokenizer, syll_dict, should_rhyme):
     text = tokenizer.tokenize(text.replace(",",".").replace(";","."))
     if len(text) < 4:
         return False
+    w1_rhyme = w3_rhyme = None
     for i in range(4):
         curr_sylls = [4, 7] if (i == 1 or i == 2) else [7, 10]
         syll_count = 0
-        for word in text[i].split():
+        word_array = text[i].split()
+        last_word = word_array[-1]
+        if should_rhyme:
+            if i == 0:
+                w1_rhyme = {dic["word"] for dic in requests.get('https://api.datamuse.com/words', params={'rel_syn': last_word}).json()}
+            if i == 1 and (last_word not in w1_rhyme):
+                    return False
+            if i == 2:
+                w3_rhyme = {dic["word"] for dic in requests.get('https://api.datamuse.com/words', params={'rel_syn': last_word}).json()}
+            if i == 3 and (last_word not in w2_rhyme):
+                    return False
+            if i == 4 and (last_word not in w1_rhyme):
+                    return False
+        for word in word_array:
             stripped_word = re.sub("[^a-zA-Z]+", "", word.lower().strip())
             if stripped_word not in syll_dict:
                 return False
@@ -79,7 +94,8 @@ def generate_poem_naive(
     length=None,
     temperature=1,
     top_k=0,
-    raw_text=None
+    raw_text=None,
+    should_rhyme=False
 ):
     """
     Interactively run the model
@@ -146,7 +162,7 @@ def generate_poem_naive(
                 generated += 1
                 text = enc.decode(out[i])
                 print("=" * 40 + " SAMPLE " + str(generated) + " VALID " + str(valid) + " " + "=" * 40)
-                if poem_is_valid(text, tokenizer, syll_dict):
+                if poem_is_valid(text, tokenizer, syll_dict, should_rhyme):
                     text = tokenizer.tokenize(text.replace(",",".").replace(";","."))[:4]
                     res.append(text)
                     valid += 1
