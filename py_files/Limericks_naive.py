@@ -177,7 +177,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		end_flag=set()
 		for sylls in sylls_set:
 			if num_sylls_curr+sylls==num_sylls:
-				end_flag.add((pos,sylls))
+				end_flag.add(("POS_NULL",sylls))
 		if len(end_flag)==0:
 			end_flag=False
 		return end_flag
