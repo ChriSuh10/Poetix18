@@ -150,7 +150,7 @@ class Limerick_Generate_new(Limerick_Generate):
 		# Print out generated poems
 		#self.printing(previous_data,f, f_final, counter)
 		previous_data, _ = self.diversity_sort(data=previous_data,last=True)
-		return previous_data, self.template_to_line, self.words_to_names_rhyme_dict
+		return previous_data, self.words_to_names_rhyme_dict
 	def encodes_align(self,previous_data):
 		"""
 		Different lines have different encodes length. We force the encodes to

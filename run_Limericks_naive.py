@@ -18,7 +18,7 @@ def init_parser():
     parser.add_argument("--gender",'-g',default="female",type=str,dest='gender')
     return parser.parse_args()
 
-def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template_to_line,words_to_names_rhyme_dict,f_all,prompt):
+def printing(data, f, f_final, f_final_best,word_embedding_coefficient, words_to_names_rhyme_dict,f_all,prompt):
 	try:
 		with open(f_final+".pickle","rb") as pickle_in:
 			data_old=pickle.load(pickle_in)
@@ -52,20 +52,10 @@ def printing(data, f, f_final, f_final_best,word_embedding_coefficient, template
 					num_of_words_each_line[count]+=1
 			break
 		num_of_words_each_line=num_of_words_each_line[1:-1]
-		for i in k.split("\n")[1:]:
-			i=i.strip()
-			if len(i)!=0:
-				i_list=i.split(" ")
-				try:
-					line=list(template_to_line[" ".join(i_list)][0])+["\n"]
-				except:
-					line=list(template_to_line[" ".join(i_list[:-1])][0])+["\n"]
-				lines+=line
 
 		f.write("======================= template: {} ============================  \n".format(t+1))
 		f.write(k)
 		f.write("----------------------- original sentences ------------------------------------ \n")
-		f.write(" ".join(lines))
 		for jj,j in enumerate(temp_data[k]):
 			adjusted_score=np.mean(j[1])+word_embedding_coefficient*np.mean(j[5])
 			score=np.mean(j[1])
@@ -131,16 +121,15 @@ def limericks_generation_gpt(model_name="345M",model_dir='gpt2/models/345M',prom
 		print(saved_directory)
 	result_file_path = saved_directory +"/"+ prompt+"_" + gender + '_' +str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)
 	all_result_file_path=saved_directory +"/" + str(search_space)+"_"+str(retain_space)+"_"+str(word_embedding_coefficient)
-	previous_data, template_to_line,words_to_names_rhyme_dict=lg.gen_poem_andre_new(gender=gender,prompt=prompt,search_space=search_space, retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient)
+	previous_data, words_to_names_rhyme_dict=lg.gen_poem_andre_new(gender=gender,prompt=prompt,search_space=search_space, retain_space=retain_space, word_embedding_coefficient=word_embedding_coefficient)
 	print("==================== here here===================================")
 	with open(result_file_path+".pickle","wb") as f3:
 		pickle.dump(previous_data,f3)
 	print("==================== here here here===================================")
-	#with open(result_file_path+"template_to_line"+".pickle","wb") as f4:
-		#pickle.dump(template_to_line,f4)
+	
 	with open(result_file_path+".txt","a+") as f:
 		with open(all_result_file_path+".txt","a+") as f_all:
-			printing(previous_data,f, f_final,f_final_best,word_embedding_coefficient, template_to_line, words_to_names_rhyme_dict,f_all,prompt)
+			printing(previous_data,f, f_final,f_final_best,word_embedding_coefficient,  words_to_names_rhyme_dict,f_all,prompt)
 	print("==================== here here here here===================================")
 	if len(previous_data)>0:
 		with open(f1_path,"a+") as f1:
