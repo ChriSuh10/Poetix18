@@ -324,8 +324,6 @@ class Limerick_Generate_new(Limerick_Generate):
 				elif  word not in self.dict_meters.keys():
 					continue
 				else:
-					if index in self.blacklist_index:
-						continue
 					sylls_set=set([len(m) for m in self.dict_meters[word]])
 					if len(sylls_set)==0:
 						continue
