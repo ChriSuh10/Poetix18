@@ -34,6 +34,8 @@ def run():
 			for d in data:
 				if len(d[0])>=i:
 					temp.append(d)
+		if len(temp)==0:
+			continue
 		data_grouped.append(temp)
 	s2f=[]
 	for ii,datadata in enumerate(data_grouped):
