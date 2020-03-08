@@ -16,8 +16,11 @@ from gpt2.src.encoder import get_encoder
 import pickle
 
 def softmax(x):
-	ret=[xx/sum(x) for xx in x]
-	assert sum(ret)==1, "softmax wrong {}".format(sum(ret))
+	if len(x)>0:
+		ret=[xx/sum(x) for xx in x]
+		assert sum(ret)==1, "softmax wrong {}".format(sum(ret))
+	else:
+		ret=[]
 	return ret
 
 def run():
@@ -52,6 +55,7 @@ def run():
 			feature_list=[feature[0] for feature in item[1].items()]
 			feature_prob=[feature[1] for feature in item[1].items()]
 			feature_score=softmax(feature_prob)
+			if len(feature_score)==0: continue
 			for i,feature in enumerate(feature_list):
 				unique_features.append(feature)
 				positive_feature_score.append([feature, feature_score[i],item[3],item[4],item[5]])
@@ -59,6 +63,7 @@ def run():
 			feature_list=[feature[0] for feature in item[1].items()]
 			feature_prob=[feature[1] for feature in item[1].items()]
 			feature_score=softmax(feature_prob)
+			if len(feature_score)==0: continue
 			for i,feature in enumerate(feature_list):
 				unique_features.append(feature)
 				negative_feature_score.append([feature, -1*feature_score[i],item[3],item[4],item[5]])
@@ -136,7 +141,6 @@ def run_batch(data,s2f):
 				temp_dict[feature]=max(temp)
 			d=data[i*1000+j]
 			s2f.append([d[0],temp_dict,d[3],d[4],d[5],d[6]])
-	print(s2f[0])
 	return s2f
 if __name__ == '__main__':
 	run()
