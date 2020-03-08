@@ -114,6 +114,7 @@ def run_batch(data,s2f):
 	context_token=[enc.encode(d[0]) for d in data]
 	features=[d[2] for d in data]
 	context_token_list=split_chunks(encodes_align(context_token))
+	print(context_token_list)
 	feature_list=split_chunks(features)
 	assert len(feature_list)==len(context_token_list), "feature token context token size mismatch"
 	for i, context_token in enumerate(context_token_list):
