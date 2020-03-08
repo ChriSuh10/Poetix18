@@ -1,8 +1,5 @@
 import tensorflow as tf
 import numpy as np
-import nltk
-from nltk.corpus import wordnet as wn
-from gensim.models import KeyedVectors
 from gensim.parsing.preprocessing import remove_stopwords
 import collections
 from collections import defaultdict
@@ -10,25 +7,12 @@ import tqdm
 import os
 import re
 import random
-import itertools
-import requests
 import pickle
-import heapq
-import copy
-from functools import reduce
 import math
 import pdb
-from .model_back import Model as Model_back
-from .functions import search_back_meter
 from gpt2.src.score import score_model
-from gpt2.src.generate_prompt import generate_prompt
 from gpt2.src.encoder import get_encoder
-from .templates import get_first_nnp, get_first_line_templates
 import pickle
-from .Limericks import Limerick_Generate
-from .Finer_POS import get_finer_pos_words
-import multiprocessing as mp
-import time
 
 def softmax(x):
 	ret=[exp(xx) for xx in x]
