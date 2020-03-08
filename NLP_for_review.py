@@ -79,7 +79,7 @@ def run():
 	for feature in unique_features:
 		mydict_negative[feature]=defaultdict(list)
 		for item in negative_feature_score:
-			mydict_negative[feature]["/".join(item[3],item[4],item[2])].append(item[1])
+			mydict_negative[feature]["/".join([item[3],item[4],item[2]])].append(item[1])
 		for date in mydict_negative[feature].keys():
 			mydict_negative[feature][date]=[np.mean(mydict_negative[feature][date]),len(mydict_negative[feature][date])]
 	with open("mydict_negative.pickle","wb") as f:
@@ -115,11 +115,8 @@ def split_chunks(data):
 def run_batch(data,s2f):
 	enc = get_encoder("345M")
 	context_token=[enc.encode(d[0]) for d in data]
-	print(context_token)
-	print(encodes_align(context_token))
 	features=[d[2] for d in data]
 	context_token_list=split_chunks(encodes_align(context_token))
-	print(context_token_list)
 	feature_list=split_chunks(features)
 	assert len(feature_list)==len(context_token_list), "feature token context token size mismatch"
 	for i, context_token in enumerate(context_token_list):
