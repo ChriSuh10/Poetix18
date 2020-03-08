@@ -112,6 +112,8 @@ def split_chunks(data):
 def run_batch(data,s2f):
 	enc = get_encoder("345M")
 	context_token=[enc.encode(d[0]) for d in data]
+	print(context_token)
+	print(encodes_align(context_token))
 	features=[d[2] for d in data]
 	context_token_list=split_chunks(encodes_align(context_token))
 	print(context_token_list)
