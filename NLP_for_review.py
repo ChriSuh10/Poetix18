@@ -16,7 +16,7 @@ from gpt2.src.encoder import get_encoder
 import pickle
 
 def softmax(x):
-	ret=[exp(xx) for xx in x]
+	ret=[xx for xx in x]
 	ret=[r/sum(ret) for r in ret]
 	assert sum(ret)==1, "softmax wrong"
 	return ret
@@ -72,14 +72,16 @@ def run():
 	for feature in unique_features:
 		mydict_positive[feature]=defaultdict(list)
 		for item in positive_feature_score:
-			mydict_positive[feature]["/".join([str(item[3]),str(item[4]),str(item[2])])].append(item[1])
+			if item[0]==feature:
+				mydict_positive[feature]["/".join([str(item[3]),str(item[4]),str(item[2])])].append(item[1])
 		for date in mydict_positive[feature].keys():
 			mydict_positive[feature][date]=[np.mean(mydict_positive[feature][date]),len(mydict_positive[feature][date])]
 	mydict_negative=defaultdict(list)
 	for feature in unique_features:
 		mydict_negative[feature]=defaultdict(list)
 		for item in negative_feature_score:
-			mydict_negative[feature]["/".join([str(item[3]),str(item[4]),str(item[2])])].append(item[1])
+			if item[0]==feature:
+				mydict_negative[feature]["/".join([str(item[3]),str(item[4]),str(item[2])])].append(item[1])
 		for date in mydict_negative[feature].keys():
 			mydict_negative[feature][date]=[np.mean(mydict_negative[feature][date]),len(mydict_negative[feature][date])]
 	with open("mydict_negative.pickle","wb") as f:
