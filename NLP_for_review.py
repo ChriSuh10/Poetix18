@@ -72,7 +72,7 @@ def run():
 	for feature in unique_features:
 		mydict_positive[feature]=defaultdict(list)
 		for item in positive_feature_score:
-			mydict_positive[feature]["/".join(item[3],item[4],item[2])].append(item[1])
+			mydict_positive[feature]["/".join([item[3],item[4],item[2]])].append(item[1])
 		for date in mydict_positive[feature].keys():
 			mydict_positive[feature][date]=[np.mean(mydict_positive[feature][date]),len(mydict_positive[feature][date])]
 	mydict_negative=defaultdict(list)
