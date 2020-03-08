@@ -16,9 +16,8 @@ from gpt2.src.encoder import get_encoder
 import pickle
 
 def softmax(x):
-	ret=[xx for xx in x]
-	ret=[r/sum(ret) for r in ret]
-	assert sum(ret)==1, "softmax wrong"
+	ret=[xx/sum(x) for xx in x]
+	assert sum(ret)==1, "softmax wrong {}".format(sum(ret))
 	return ret
 
 def run():
