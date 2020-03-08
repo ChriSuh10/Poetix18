@@ -9,6 +9,7 @@ import re
 import random
 import pickle
 import math
+from math import exp
 import pdb
 from gpt2.src.score import score_model
 from gpt2.src.encoder import get_encoder
