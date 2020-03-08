@@ -18,7 +18,6 @@ import pickle
 def softmax(x):
 	if len(x)>0:
 		ret=[xx/sum(x) for xx in x]
-		assert sum(ret)==1, "softmax wrong {}".format(sum(ret))
 	else:
 		ret=[]
 	return ret
