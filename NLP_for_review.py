@@ -25,14 +25,16 @@ def run():
 		data=pickle.load(f)
 	data_grouped=[]
 	for i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]:
+		temp=[]
 		if i<16:
 			for d in data:
 				if len(d[0])==i:
-					data_grouped.append(d)
+					temp.append(d)
 		if i==16:
 			for d in data:
 				if len(d[0])>=i:
-					data_grouped.append(d)
+					temp.append(d)
+		data_grouped.append(temp)
 	s2f=[]
 	for ii,datadata in enumerate(data_grouped):
 		print("******************************** Starts Batch {} **********************************".format(ii))
@@ -109,7 +111,6 @@ def split_chunks(data):
 
 def run_batch(data,s2f):
 	enc = get_encoder("345M")
-	print(data)
 	context_token=[enc.encode(d[0]) for d in data]
 	features=[d[2] for d in data]
 	context_token_list=split_chunks(encodes_align(context_token))
