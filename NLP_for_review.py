@@ -130,10 +130,10 @@ def bob_delta(data,sign,product):
 	
 	if sign=="+":
 		with open("bobdict_positive_{}.pickle".format(product),"wb") as f:
-			pickle.dump(bobdict,bobdict_positive)
+			pickle.dump(bobdict,f)
 	if sign=="-":
 		with open("bobdict_negative_{}.pickle".format(product),"wb") as f:
-			pickle.dump(bobdict,bobdict_negative)
+			pickle.dump(bobdict,f)
 
 
 
