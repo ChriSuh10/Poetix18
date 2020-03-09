@@ -1,4 +1,4 @@
-#import tensorflow as tf
+import tensorflow as tf
 import numpy as np
 import collections
 from collections import defaultdict
@@ -7,8 +7,8 @@ import random
 import math
 from math import exp
 import pdb
-#from gpt2.src.score import score_model
-#from gpt2.src.encoder import get_encoder
+from gpt2.src.score import score_model
+from gpt2.src.encoder import get_encoder
 import pickle
 from datetime import datetime as dt
 import argparse
