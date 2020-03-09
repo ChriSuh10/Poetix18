@@ -1,20 +1,20 @@
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
-from gensim.parsing.preprocessing import remove_stopwords
 import collections
 from collections import defaultdict
-import tqdm
 import os
-import re
 import random
-import pickle
 import math
 from math import exp
 import pdb
-from gpt2.src.score import score_model
-from gpt2.src.encoder import get_encoder
+#from gpt2.src.score import score_model
+#from gpt2.src.encoder import get_encoder
 import pickle
-
+from datetime import datetime as dt
+def init_parser():
+    parser = argparse.ArgumentParser(description='hahahha')
+    parser.add_argument('--product', '-p', default='microwave', type=str, dest='product')
+    return parser.parse_args()
 def softmax(x):
 	if len(x)>0:
 		ret=[xx/sum(x) for xx in x]
@@ -22,8 +22,8 @@ def softmax(x):
 		ret=[]
 	return ret
 
-def run():
-	with open("py_files/microwave.pickle","rb") as f:
+def run(args):
+	with open("py_files/{}.pickle".format(args.product),"rb") as f:
 		data=pickle.load(f)
 	data_grouped=[]
 	for i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]:
@@ -44,7 +44,7 @@ def run():
 		print("******************************** Starts Batch {} **********************************".format(ii))
 		s2f=run_batch(datadata,s2f)
 		print("******************************** Finishes Batch {} **********************************".format(ii))
-	with open("s2f.pickle","wb") as f:
+	with open("s2f_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(s2f, f)
 	positive_feature_score=[]
 	negative_feature_score=[]
@@ -66,9 +66,9 @@ def run():
 			for i,feature in enumerate(feature_list):
 				unique_features.append(feature)
 				negative_feature_score.append([feature, -1*feature_score[i],item[3],item[4],item[5]])
-	with open("positive_feature_score.pickle","wb") as f:
+	with open("positive_feature_score_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(positive_feature_score, f)
-	with open("negative_feature_score.pickle","wb") as f:
+	with open("negative_feature_score_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(negative_feature_score, f)
 	unique_features=set(unique_features)
 	mydict_positive=defaultdict(list)
@@ -84,13 +84,59 @@ def run():
 		mydict_negative[feature]=defaultdict(list)
 		for item in negative_feature_score:
 			if item[0]==feature:
-				mydict_negative[feature]["/".join([str(item[3]),str(item[4]),str(item[2])])].append(item[1])
+				text="/".join([str(item[3]),str(item[4]),str(item[2])])
+				text=dt.strptime(text, '%m/%d/%Y')
+				text=dt.strftime(text,'%m/%d/%Y')
+				mydict_negative[feature][text].append(item[1])
 		for date in mydict_negative[feature].keys():
 			mydict_negative[feature][date]=[np.mean(mydict_negative[feature][date]),len(mydict_negative[feature][date])]
-	with open("mydict_negative.pickle","wb") as f:
+	with open("mydict_negative_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(mydict_negative, f)
-	with open("mydict_positive.pickle","wb") as f:
+	with open("mydict_positive_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(mydict_positive, f)
+	bob_delta(mydict_negative,"-")
+	bob_delta(mydict_positive,"+")
+
+def bob_delta(data,sign):
+	bobdict=defaultdict(list)
+	with open("py_files/unique_dates_{}.pickle".format(args.product),"rb") as f:
+		unique_dates=pickle.load(f)
+		unique_dates=[dt.strptime(d,'%m/%d/%Y') for d in unique_dates]
+		unique_dates.sort()
+	for feature in data.keys():
+		time=[dt.strptime(d,'%m/%d/%Y') for d in data[feature].keys()]
+		time.sort()
+		delta=[]
+		value=[]
+		count=[]
+		for i in range(len(unique_dates)):
+			if unique_dates[i] not in time:
+				delta.append(float('NaN'))
+			elif unique_dates[i] in time and time.index(unique_dates[i])==0:
+				delta.append(0)
+			else:
+				delta.append((time[time.index(unique_dates[i])]-time[time.index(unique_dates[i])-1]).days)
+		for i in range(len(unique_dates)):
+			if unique_dates[i] not in time:
+				value.append(float('NaN'))
+				count.append(float('NaN'))
+			else:
+				index=time.index(unique_dates[i])
+				curr=dt.strftime(time[index],'%m/%d/%Y')
+				pdb.set_trace()
+				value.append(data[feature][curr][0])
+				count.append(data[feature][curr][1])
+		bobdict[feature]=[unique_dates,delta,value,count]
+	
+	if sign=="+":
+		with open("bobdict_positive_{}.pickle".format{product},"wb") as f:
+			pickle.dump(bobdict,bobdict_positive)
+	if sign=="-":
+		with open("bobdict_negative_{}.pickle".format{product},"wb") as f:
+			pickle.dump(bobdict,bobdict_negative)
+
+
+
 
 
 
@@ -142,7 +188,17 @@ def run_batch(data,s2f):
 			s2f.append([d[0],temp_dict,d[3],d[4],d[5],d[6]])
 	return s2f
 if __name__ == '__main__':
-	run()
+	args=init_parser()
+	run(args)
+	'''
+	with open("mydict_negative.pickle","rb") as f:
+		mydict_negative=pickle.load(f)
+	with open("mydict_positive.pickle","rb") as f:
+		mydict_positive=pickle.load(f)
+
+	bob_delta(mydict_negative,"-")
+	bob_delta(mydict_positive,"+")
+	'''
 
 
 
