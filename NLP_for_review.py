@@ -1,4 +1,4 @@
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
 import collections
 from collections import defaultdict
@@ -7,8 +7,8 @@ import random
 import math
 from math import exp
 import pdb
-from gpt2.src.score import score_model
-from gpt2.src.encoder import get_encoder
+#from gpt2.src.score import score_model
+#from gpt2.src.encoder import get_encoder
 import pickle
 from datetime import datetime as dt
 import argparse
@@ -81,8 +81,12 @@ def run(args):
 				text=dt.strptime(text, '%m/%d/%Y')
 				text=dt.strftime(text,'%m/%d/%Y')
 				mydict_positive[feature][text].append(item[1])
-		for date in mydict_positive[feature].keys():
-			mydict_positive[feature][date]=[np.mean(mydict_positive[feature][date]),len(mydict_positive[feature][date])]
+		if len(mydict_positive[feature].keys())==0:
+			del mydict_positive[feature]
+			continue
+		else:
+			for date in mydict_positive[feature].keys():
+				mydict_positive[feature][date]=[np.mean(mydict_positive[feature][date]),len(mydict_positive[feature][date])]
 	mydict_negative=defaultdict(list)
 	for feature in unique_features:
 		mydict_negative[feature]=defaultdict(list)
@@ -92,8 +96,12 @@ def run(args):
 				text=dt.strptime(text, '%m/%d/%Y')
 				text=dt.strftime(text,'%m/%d/%Y')
 				mydict_negative[feature][text].append(item[1])
-		for date in mydict_negative[feature].keys():
-			mydict_negative[feature][date]=[np.mean(mydict_negative[feature][date]),len(mydict_negative[feature][date])]
+		if len(mydict_negative[feature].keys())==0:
+			del mydict_negative[feature]
+			continue
+		else:
+			for date in mydict_negative[feature].keys():
+				mydict_negative[feature][date]=[np.mean(mydict_negative[feature][date]),len(mydict_negative[feature][date])]
 	with open("NLP_review/mydict_negative_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(mydict_negative, f)
 	with open("NLP_review/mydict_positive_{}.pickle".format(args.product),"wb") as f:
@@ -114,12 +122,10 @@ def bob_delta(data,sign,product):
 		value=[]
 		count=[]
 		for i in range(len(unique_dates)):
-			if unique_dates[i] not in time:
-				delta.append(float('NaN'))
-			elif unique_dates[i] in time and time.index(unique_dates[i])==0:
-				delta.append(0)
+			if i==0:
+				delta.append(i)
 			else:
-				delta.append((time[time.index(unique_dates[i])]-time[time.index(unique_dates[i])-1]).days)
+				delta.append((unique_dates[i]-unique_dates[i-1]).days)
 		for i in range(len(unique_dates)):
 			if unique_dates[i] not in time:
 				value.append(float('NaN'))
@@ -193,18 +199,36 @@ def run_batch(data,s2f):
 if __name__ == '__main__':
 	args=init_parser()
 	run(args)
-	'''
 	
-	with open("mydict_negative_microwave.pickle","rb") as f:
-		mydict_negative=pickle.load(f)
-	with open("mydict_positive_microwave.pickle","rb") as f:
-		mydict_positive=pickle.load(f)
 
-	bob_delta(mydict_negative,"-","microwave")
-	bob_delta(mydict_positive,"+","microwave")
+
 	'''
+	product="microwave"
+	with open("NLP_review/s2f_{}.pickle".format(product),"rb") as f:
+		s2f=pickle.load(f)
+	pdb.set_trace()
 
+	with open("NLP_review/negative_feature_score_{}.pickle".format(product),"rb") as f:
+		negative_feature_score=pickle.load(f)
+	count=0
+	test=[]
+	for k in negative_feature_score:
+		test.append(k[0])
+	test=set(test)
+	pdb.set_trace()
+	with open("NLP_review/mydict_negative_{}.pickle".format(product),"rb") as f:
+		mydict_negative=pickle.load(f)
+	with open("NLP_review/mydict_positive_{}.pickle".format(product),"rb") as f:
+		mydict_positive=pickle.load(f)
+	count=0
+	for k in mydict_negative.keys():
+		if len(mydict_negative[k])==0:
+			count+=1
+	pdb.set_trace()
+	bob_delta(mydict_negative,"-",product)
+	bob_delta(mydict_positive,"+",product)
 
+	'''
 
 
 
