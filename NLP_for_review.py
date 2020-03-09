@@ -124,7 +124,6 @@ def bob_delta(data,sign,product):
 			else:
 				index=time.index(unique_dates[i])
 				curr=dt.strftime(time[index],'%m/%d/%Y')
-				pdb.set_trace()
 				value.append(data[feature][curr][0])
 				count.append(data[feature][curr][1])
 		bobdict[feature]=[unique_dates,delta,value,count]
