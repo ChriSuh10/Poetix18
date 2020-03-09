@@ -6,4 +6,4 @@
 #SBATCH -p compsci-gpu 
 ##--constraint=v100
 #SBATCH -a 0 --ntasks-per-node=1
-srun python3 NLP_for_review.py -t "microwave"
+srun python3 NLP_for_review.py -p "microwave"
