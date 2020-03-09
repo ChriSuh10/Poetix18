@@ -77,7 +77,10 @@ def run(args):
 		mydict_positive[feature]=defaultdict(list)
 		for item in positive_feature_score:
 			if item[0]==feature:
-				mydict_positive[feature]["/".join([str(item[3]),str(item[4]),str(item[2])])].append(item[1])
+				text="/".join([str(item[3]),str(item[4]),str(item[2])])
+				text=dt.strptime(text, '%m/%d/%Y')
+				text=dt.strftime(text,'%m/%d/%Y')
+				mydict_positive[feature][text].append(item[1])
 		for date in mydict_positive[feature].keys():
 			mydict_positive[feature][date]=[np.mean(mydict_positive[feature][date]),len(mydict_positive[feature][date])]
 	mydict_negative=defaultdict(list)
@@ -191,15 +194,15 @@ if __name__ == '__main__':
 	args=init_parser()
 	run(args)
 	'''
-	with open("mydict_negative.pickle","rb") as f:
+	
+	with open("mydict_negative_microwave.pickle","rb") as f:
 		mydict_negative=pickle.load(f)
-	with open("mydict_positive.pickle","rb") as f:
+	with open("mydict_positive_microwave.pickle","rb") as f:
 		mydict_positive=pickle.load(f)
 
-	bob_delta(mydict_negative,"-")
-	bob_delta(mydict_positive,"+")
+	bob_delta(mydict_negative,"-","microwave")
+	bob_delta(mydict_positive,"+","microwave")
 	'''
-
 
 
 
