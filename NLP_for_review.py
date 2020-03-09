@@ -94,12 +94,12 @@ def run(args):
 		pickle.dump(mydict_negative, f)
 	with open("mydict_positive_{}.pickle".format(args.product),"wb") as f:
 		pickle.dump(mydict_positive, f)
-	bob_delta(mydict_negative,"-")
-	bob_delta(mydict_positive,"+")
+	bob_delta(mydict_negative,"-",args.product)
+	bob_delta(mydict_positive,"+",args.product)
 
-def bob_delta(data,sign):
+def bob_delta(data,sign,product):
 	bobdict=defaultdict(list)
-	with open("py_files/unique_dates_{}.pickle".format(args.product),"rb") as f:
+	with open("py_files/unique_dates_{}.pickle".format(product),"rb") as f:
 		unique_dates=pickle.load(f)
 		unique_dates=[dt.strptime(d,'%m/%d/%Y') for d in unique_dates]
 		unique_dates.sort()
@@ -129,10 +129,10 @@ def bob_delta(data,sign):
 		bobdict[feature]=[unique_dates,delta,value,count]
 	
 	if sign=="+":
-		with open("bobdict_positive_{}.pickle".format{product},"wb") as f:
+		with open("bobdict_positive_{}.pickle".format(product),"wb") as f:
 			pickle.dump(bobdict,bobdict_positive)
 	if sign=="-":
-		with open("bobdict_negative_{}.pickle".format{product},"wb") as f:
+		with open("bobdict_negative_{}.pickle".format(product),"wb") as f:
 			pickle.dump(bobdict,bobdict_negative)
 
 
